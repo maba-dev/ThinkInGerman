@@ -618,7 +618,7 @@ function pageVocab(sub) {
   const key = "vall-" + L; if (!pqs[key]) pqNew(key, lv);
   const unknown = lv.filter(x => !known.has("v:" + x.w));
   return `${pageHead("Dictionnaire en images", "Vocabulaire", `${lv.length} mots du niveau ${L} en ${themes.length} thèmes. Une image, un son, une phrase : jamais de traduction. Chaque thème a deux quiz pour ancrer le lien image → mot.`)}
-  <div class="grid">${themes.map(([t, ws]) => { const n = ws.filter(x => known.has("v:" + x.w)).length; return `<a class="tile" href="#vocab-${t.id}"><div class="tile-top"><span class="pic big">${t.e}</span><span class="muted small">${n}/${ws.length}</span></div><h3>${esc(t.name)}</h3><p class="pic" style="font-size:1.3rem;letter-spacing:3px">${ws.slice(0, 6).map(w => w.e).join("")}</p><div class="progress"><i style="width:${Math.round(n / ws.length * 100)}%"></i></div></a>`; }).join("")}</div>
+  <div class="grid themes">${themes.map(([t, ws]) => { const n = ws.filter(x => known.has("v:" + x.w)).length; return `<a class="tile" href="#vocab-${t.id}"><div class="tile-top"><span class="pic big">${t.e}</span><span class="muted small">${n}/${ws.length}</span></div><h3>${esc(t.name)}</h3><p class="pic" style="font-size:1.3rem;letter-spacing:3px">${ws.slice(0, 6).map(w => w.e).join("")}</p><div class="progress"><i style="width:${Math.round(n / ws.length * 100)}%"></i></div></a>`; }).join("")}</div>
   <section class="panel"><div><h2>Quiz du niveau ${L}</h2><p class="muted">Les ${lv.length} mots mélangés : écoute, touche l'image.</p></div>${pqHtml(key)}</section>
   ${practiceHtml("vocab-" + L, "vocab", "", shuffle(unknown.length >= 12 ? unknown : lv).slice(0, 16).map(x => `${x.w} — ${x.ex}`).join("\n"))}`;
 }
@@ -674,7 +674,7 @@ function pageChunks() {
   return `${pageHead("Blocs tout faits", "Chunks", `${D.chunks.filter(inLvl).length} blocs du niveau ${L}, classés par situation. Les natifs ne construisent pas leurs phrases mot à mot : ils sortent des blocs tout prêts. Apprends-les comme un seul mot, à voix haute, d'un seul souffle.`)}
   <div class="toolbar"><input class="search" id="chunk-q" type="search" placeholder="Chercher un chunk…" value="${esc(state.chunkQ)}" aria-label="Chercher un chunk">
     <div class="chips"><button class="chip" data-act="chunk-mode" data-m="list" aria-pressed="${state.chunkMode === "list"}">Liste</button><button class="chip" data-act="chunk-mode" data-m="flash" aria-pressed="${state.chunkMode === "flash"}">Révision (cartes)</button></div></div>
-  <div class="chips" aria-label="Situation"><button class="chip" data-act="chunk-cat" data-c="all" aria-pressed="${state.chunkCat === "all"}">Toutes les situations</button>${D.chunkCats.map((c, i) => [c, i, catCount(i)]).filter(x => x[2] > 0).map(([c, i, k]) => `<button class="chip" data-act="chunk-cat" data-c="${i}" aria-pressed="${state.chunkCat === String(i)}"><span class="pic">${c.emoji}</span> ${esc(c.name)} <span class="muted">${k}</span></button>`).join("")}</div>
+  <div class="chips scroll" aria-label="Situation"><button class="chip" data-act="chunk-cat" data-c="all" aria-pressed="${state.chunkCat === "all"}">Toutes les situations</button>${D.chunkCats.map((c, i) => [c, i, catCount(i)]).filter(x => x[2] > 0).map(([c, i, k]) => `<button class="chip" data-act="chunk-cat" data-c="${i}" aria-pressed="${state.chunkCat === String(i)}"><span class="pic">${c.emoji}</span> ${esc(c.name)} <span class="muted">${k}</span></button>`).join("")}</div>
   <div id="chunk-body" style="display:flex;flex-direction:column;gap:12px">${body}</div>
   ${practiceHtml("chunks-" + L + "-" + state.chunkCat, "chunks", state.chunkCat === "all" ? "" : D.chunkCats[+state.chunkCat].name, shuffle(pool.length >= 8 ? pool : D.chunks.filter(inLvl)).slice(0, 24).map(c => c.chunk).join("\n"))}`;
 }
@@ -730,7 +730,7 @@ function pagePhrasal() {
   </section>` : ""}
   <div class="toolbar"><input class="search" id="pv-q" type="search" placeholder="Chercher (ex. auf, Termin)…" value="${esc(state.pvQ)}" aria-label="Chercher un verbe séparable">
     <div class="chips"><button class="chip" data-act="pv-mode" data-m="list" aria-pressed="${state.pvMode === "list"}">Liste</button><button class="chip" data-act="pv-mode" data-m="flash" aria-pressed="${state.pvMode === "flash"}">Révision (cartes)</button></div></div>
-  ${cats.length > 1 ? `<div class="chips"><button class="chip" data-act="pv-cat" data-c="all" aria-pressed="${state.pvCat === "all"}">Toutes les situations</button>${cats.map(([c, i, k]) => `<button class="chip" data-act="pv-cat" data-c="${i}" aria-pressed="${state.pvCat === String(i)}"><span class="pic">${c.emoji}</span> ${esc(c.name)} <span class="muted">${k}</span></button>`).join("")}</div>` : ""}
+  ${cats.length > 1 ? `<div class="chips scroll"><button class="chip" data-act="pv-cat" data-c="all" aria-pressed="${state.pvCat === "all"}">Toutes les situations</button>${cats.map(([c, i, k]) => `<button class="chip" data-act="pv-cat" data-c="${i}" aria-pressed="${state.pvCat === String(i)}"><span class="pic">${c.emoji}</span> ${esc(c.name)} <span class="muted">${k}</span></button>`).join("")}</div>` : ""}
   <div id="pv-body" style="display:flex;flex-direction:column;gap:12px">${body}</div>
   ${practiceHtml("pv-" + L, "phrasal", "", shuffle(atL).slice(0, 20).map(p => `${p.pv} — ${p.mean}`).join("\n"))}`;
 }

@@ -1,4 +1,13 @@
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F3F6F4">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0E1719">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Denk auf Deutsch">
 <title>Denk auf Deutsch</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -408,6 +417,33 @@ a.tile:hover, button.tile:hover { border-color: var(--accent); box-shadow: var(-
 .pulse { width: 10px; height: 10px; border-radius: 50%; background: var(--bad); display: inline-block; animation: pulse 1s infinite; }
 @keyframes pulse { 50% { opacity: .25; } }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+/* ---------- phone comfort ---------- */
+@media (max-width: 860px) {
+  .app { align-content: start; }
+  .nav { padding-right: 28px; -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); }
+}
+@media (max-width: 560px) {
+  .rail { gap: 6px; padding-block: 8px; }
+  .brand b { font-size: 1.15rem; }
+  .lvl-btn { padding: 4px 0; font-size: .9rem; }
+  .page { gap: 22px; }
+  .grid.themes { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .grid.themes .tile { padding: 12px; gap: 6px; }
+  .grid.themes .tile .pic.big { font-size: 2rem; }
+  .grid.themes .tile h3 { font-size: 1rem; }
+  .grid.themes .tile p.pic { font-size: 1rem !important; letter-spacing: 1px !important; overflow: hidden; white-space: nowrap; }
+  .chips.scroll { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: -16px; padding: 0 16px 4px; }
+  .chips.scroll::-webkit-scrollbar { display: none; }
+  .chips.scroll .chip { flex: none; }
+  .icon-btn { width: 42px; height: 42px; }
+  .wordpill .icon-btn { width: 36px; height: 36px; }
+  input, select, textarea { font-size: 16px !important; }
+}
+/* ---------- install banner (pwa.js) ---------- */
+.pwa-bar { position: fixed; z-index: 50; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom, 0px)); display: flex; align-items: center; gap: 10px; padding: 10px 10px 10px 12px; background: var(--card); color: var(--ink); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,.18); }
+.pwa-bar img { border-radius: 10px; flex: none; }
+.pwa-bar p { flex: 1; min-width: 0; font-size: .85rem; line-height: 1.35; }
+.pwa-bar .btn { flex: none; }
 </style>
 
 <div class="app">
@@ -469,3 +505,4 @@ a.tile:hover, button.tile:hover { border-color: var(--accent); box-shadow: var(-
 <script src="data/stories_plus_b2.js"></script>
 <script src="data/stories_plus_c1.js"></script>
 <script src="app.js"></script>
+<script src="pwa.js"></script>
