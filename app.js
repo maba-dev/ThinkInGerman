@@ -166,7 +166,7 @@ const Audio = {
 function buildEngineSelect() {
   const sel = $("#set-engine"); if (!sel) return;
   const opts = [];
-  if (Audio.tts) opts.push(["claude", "Voix naturelle"]);
+  if (Audio.tts) opts.push(["claude", "Voix IA (naturelle)"]);
   if ("speechSynthesis" in window) { opts.push(["de", "Navigateur — Allemagne"]); opts.push(["at", "Navigateur — Autriche"]); opts.push(["ch", "Navigateur — Suisse"]); }
   if (!opts.length) opts.push(["", "Aucune voix disponible"]);
   const cur = Audio.engine();
@@ -277,7 +277,7 @@ const overall = pr => { const r = Object.values(pr).map(([a, b]) => (b ? a / b :
 const MODULES = [
   ["vocab", "Vocabulaire", "🖼️", L => `${lvlVocab(L).length} mots en images, quiz « écoute → image » et « image → mot »`],
   ["grammar", "Grammaire", "🧩", L => `${D.grammar.filter(x => x.lvl === L).length} points avec ligne du temps, piège du francophone et quiz`],
-  ["stories", "Mini-histoires", "📖", L => `${D.stories.filter(x => x.lvl === L).length} histoires illustrées + des histoires illimitées à créer toi-même`],
+  ["stories", "Mini-histoires", "📖", L => `${D.stories.filter(x => x.lvl === L).length} histoires illustrées + des histoires illimitées écrites par IA`],
   ["chunks", "Chunks", "💬", L => `${D.chunks.filter(x => x.lvl === L).length} blocs tout faits, classés par situation`],
   ["phrasal", "Verbes séparables", "🔗", L => `${D.phrasal.filter(x => x.lvl === L).length} verbes séparables (aufstehen, anrufen…) et la logique des préfixes`],
   ["phonetics", "Phonétique", "👄", L => `${D.pron.filter(x => x.lvl === L).length} leçons de prononciation, alphabet phonétique, paires minimales`],
@@ -367,7 +367,7 @@ function practiceHtml(key, kind, topic, material) {
   else if (p === "loading") inner = `<div class="row"><span class="muted">Préparation de 8 exercices à ton niveau… (10 à 30 secondes)</span><button class="btn ghost" data-act="practice-stop" data-k="${key}">Arrêter</button></div>`;
   else if (p && p.items) inner = mcq(`pr-${key}-${p.v}`, p.items, (score, n) => `Score : ${score} / ${n}. ${score >= n - 1 ? "Excellent !" : "Lis les explications, puis génère une nouvelle série."}`) + `<button class="btn" data-act="practice-gen" data-k="${key}" style="align-self:flex-start">8 nouveaux exercices</button>`;
   else inner = `<button class="btn primary" data-act="practice-gen" data-k="${key}" style="align-self:flex-start">Créer 8 exercices</button>`;
-  return `<section class="panel practice" id="pr-${key}"><div><span class="eyebrow">Entraînement illimité · ${curLvl() || ""}</span><h2>Exercices en plus</h2><p class="muted small">Tu peux créer de nouveaux exercices en cliquant sur ce bouton.</p></div>${inner}</section>`;
+  return `<section class="panel practice" id="pr-${key}"><div><span class="eyebrow">Entraînement illimité · ${curLvl() || ""}</span><h2>Exercices en plus</h2><p class="muted small">Tu peux créer de nouveaux exercices générés par IA en cliquant sur ce bouton.</p></div>${inner}</section>`;
 }
 function refreshPractice(key) {
   const el = $("#pr-" + key), sp = state.practiceSpec[key];
@@ -574,14 +574,14 @@ function pageStories(sub) {
   const L = curLvl();
   if (sub) { const s = D.stories.find(x => x.id === sub) || genStories().find(x => x.id === sub); if (s) return storyView(s); }
   const list = D.stories.filter(s => s.lvl === L), gen = genStories().filter(s => s.lvl === L);
-  const tile = s => `<a class="tile" href="#stories-${s.id}"><div class="tile-top"><span class="pic story-cover">${esc(s.e)}</span>${s.gen ? '<span class="chip">Histoire créée</span>' : ""}</div><h3>${esc(s.title)}</h3><p class="pic" style="font-size:1.4rem;letter-spacing:4px">${s.scenes.map(x => [...x.e][0] || "").join("")}</p><p class="muted small">${s.scenes.length} scènes · ${s.questions.length} questions${known.has("s:" + s.id) ? " · lue ✓" : ""}</p></a>`;
+  const tile = s => `<a class="tile" href="#stories-${s.id}"><div class="tile-top"><span class="pic story-cover">${esc(s.e)}</span>${s.gen ? '<span class="chip">Écrite par IA</span>' : ""}</div><h3>${esc(s.title)}</h3><p class="pic" style="font-size:1.4rem;letter-spacing:4px">${s.scenes.map(x => [...x.e][0] || "").join("")}</p><p class="muted small">${s.scenes.length} scènes · ${s.questions.length} questions${known.has("s:" + s.id) ? " · lue ✓" : ""}</p></a>`;
   let genPanel;
   if (!SAMPLE) genPanel = SAMPLE_STATE === "pending" ? '<p class="muted small">Connexion…</p>' : '<p class="muted small">Pour créer des histoires illimitées, ouvre le site depuis claude.ai, ou depuis sa version en ligne configurée avec une clé API.</p>';
   else if (storyGen) genPanel = `<div class="row"><span class="muted">Écriture de ton histoire de niveau ${L}… (20 à 60 secondes)</span><button class="btn ghost" data-act="story-stop">Arrêter</button></div>`;
   else genPanel = `<div class="chips">${STORY_THEMES.map(([id, l]) => `<button class="chip" data-act="story-theme" data-t="${id}" aria-pressed="${state.storyTheme === id}">${l}</button>`).join("")}</div><button class="btn primary" data-act="story-gen" style="align-self:flex-start">Créer une nouvelle histoire ${L}</button>`;
   return `${pageHead("Lecture", "Mini-histoires", `Des histoires courtes en images, écrites pour le niveau ${L}, avec l'audio. Les mots difficiles sont expliqués par une image et de l'allemand simple, jamais par une traduction. Relis la même histoire plusieurs jours de suite.`)}
   <div class="grid wide">${list.map(tile).join("")}</div>
-  <section class="panel"><div><span class="eyebrow">Lecture illimitée</span><h2>Une nouvelle histoire à ton niveau</h2><p class="muted small">Tu peux créer une histoire inédite de niveau ${L}, avec images, mots expliqués et questions, en cliquant sur ce bouton. Elle reste enregistrée dans ce navigateur.</p></div>${genPanel}</section>
+  <section class="panel"><div><span class="eyebrow">Lecture illimitée</span><h2>Une nouvelle histoire à ton niveau</h2><p class="muted small">Tu peux créer une histoire inédite de niveau ${L} écrite par IA, avec images, mots expliqués et questions, en cliquant sur ce bouton. Elle reste enregistrée dans ce navigateur.</p></div>${genPanel}</section>
   ${gen.length ? `<h2>Tes histoires créées (${gen.length})</h2><div class="grid wide">${gen.map(tile).join("")}</div>` : ""}`;
 }
 function glossify(text, gloss) {
@@ -597,7 +597,7 @@ let currentStory = null;
 function storyView(s) {
   currentStory = s;
   return `<a class="btn ghost back" href="#stories">← Histoires ${esc(s.lvl)}</a>
-  <header class="page-head"><div class="row">${lvlTag(s.lvl)}<span class="pic" style="font-size:2rem">${esc(s.e)}</span>${s.gen ? '<span class="chip">Histoire créée</span>' : ""}</div><h1>${esc(s.title)}</h1><p>Écoute une première fois sans lire, en regardant seulement les images. Puis écoute en lisant. Les mots surlignés : touche-les pour voir leur image.</p>
+  <header class="page-head"><div class="row">${lvlTag(s.lvl)}<span class="pic" style="font-size:2rem">${esc(s.e)}</span>${s.gen ? '<span class="chip">Écrite par IA</span>' : ""}</div><h1>${esc(s.title)}</h1><p>Écoute une première fois sans lire, en regardant seulement les images. Puis écoute en lisant. Les mots surlignés : touche-les pour voir leur image.</p>
   <div class="row"><button class="btn primary" data-act="story-play">${IC.speaker} Écouter toute l'histoire</button><button class="btn" data-act="story-play" data-slow="1">${IC.slow} Version lente</button></div></header>
   <div class="reader">${s.scenes.map((sc, i) => `<div class="scene" id="sc${i}"><div class="strip pic" aria-hidden="true">${esc(sc.e)}</div><div><p class="txt">${glossify(sc.t, s.gloss)}</p><div class="tools">${sayBtn(sc.t, "Écouter ce passage")}${slowBtn(sc.t)}</div></div></div>`).join("")}</div>
   ${s.questions.length ? `<section class="panel" style="max-width:760px"><h2>Hast du alles verstanden?</h2>${mcq("story-" + s.id, s.questions, (score, n) => {
@@ -1023,7 +1023,7 @@ function pagePodcasts(sub) {
   if (sub) { const ep = D.podcasts.find(x => x.id === sub); if (ep) return podcastView(ep); }
   const L = curLvl();
   const list = D.podcasts.filter(p => p.lvl === L);
-  return `${pageHead("Écoute longue", "Podcasts", `${list.length} épisodes d'environ 15 minutes pour le niveau ${L}. Lena (Berlin) et Jonas (Vienne) discutent d'un sujet de la vie réelle, à ton niveau, sans jamais traduire. Chaque épisode a sa transcription, ses 6 mots du jour et un quiz. Chaque épisode est écrit la première fois que tu l'ouvres (environ une minute), puis il reste enregistré dans ce navigateur.`)}
+  return `${pageHead("Écoute longue", "Podcasts", `${list.length} épisodes d'environ 15 minutes pour le niveau ${L}. Lena (Berlin) et Jonas (Vienne) discutent d'un sujet de la vie réelle, à ton niveau, sans jamais traduire. Chaque épisode a sa transcription, ses 6 mots du jour et un quiz. Chaque épisode est écrit par IA la première fois que tu l'ouvres (environ une minute), puis il reste enregistré dans ce navigateur.`)}
   <div class="grid">${list.map(p => { const ready = podReady(p.id); return `<a class="tile" href="#podcasts-${p.id}"><div class="tile-top"><span class="eyebrow">Épisode ${p.n}</span>${lvlTag(p.lvl)}</div><h3>${esc(p.title)}</h3><p class="muted small">${esc(p.focus)}</p><p class="small">${known.has("e:" + p.id) ? "Écouté ✓" : ready ? "Prêt à écouter" : '<span class="muted">À créer</span>'}</p></a>`; }).join("")}</div>`;
 }
 function podcastView(ep) {
@@ -1166,7 +1166,7 @@ function renderChatLog() {
   const log = $("#chat-log"); if (!log) return;
   let html = chat.msgs.map(chatBubble).join("");
   if (chatCtl) html += `<div class="msg ai"><div class="bub thinking" id="chat-stream">…</div></div>`;
-  if (!chat.msgs.length && !chatCtl) html += `<div class="empty">Choisis un scénario, puis lance la conversation. Ton partenaire parle en premier.<br><br><button class="btn primary" data-act="chat-start">Commencer la conversation</button></div>`;
+  if (!chat.msgs.length && !chatCtl) html += `<div class="empty">Choisis un scénario, puis lance la conversation. Ton partenaire IA parle en premier.<br><br><button class="btn primary" data-act="chat-start">Commencer la conversation</button></div>`;
   if (chatErr) html += `<div class="fixes" style="align-self:center"><b>${esc(sampleErr(chatErr))}</b><button class="btn" data-act="chat-retry" style="align-self:flex-start">Réessayer</button></div>`;
   log.innerHTML = html;
   log.scrollTop = log.scrollHeight;
