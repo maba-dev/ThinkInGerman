@@ -71,4 +71,35 @@ window.DATA = window.DATA || {};
       DATA.addWords(cur.id, cur.name, cur.e, [[pic, word, ipa, lvl, ex, pl || ""]]);
     }
   };
+
+  /* Mini-stories. Text format (one block per story):
+       @ id | Title | emoji
+       S: scene emojis | scene text          (scenes, in order)
+       G: word as written in the text | emoji | simple German explanation
+       Q: question || option | *correct option | option
+     New stories are appended after the existing ones of the same level. */
+  DATA.addStories = (lvl, raw) => {
+    DATA.stories = DATA.stories || [];
+    const have = new Set(DATA.stories.map(s => s.id));
+    for (const block of raw.split(/\n(?=@ )/)) {
+      const lines = block.split("\n").map(l => l.trim()).filter(Boolean);
+      if (!lines.length || !lines[0].startsWith("@ ")) continue;
+      const [id, title, e] = lines[0].slice(2).split("|").map(s => s.trim());
+      if (have.has(id)) continue;
+      const s = { id, lvl, title, e, scenes: [], gloss: {}, questions: [] };
+      for (const l of lines.slice(1)) {
+        const m = l.match(/^([SGQ]):\s*(.*)$/);
+        if (!m) continue;
+        const [, k, v] = m;
+        if (k === "S") { const i = v.indexOf("|"); s.scenes.push({ e: v.slice(0, i).trim(), t: v.slice(i + 1).trim() }); }
+        else if (k === "G") { const [w, ge, def] = v.split("|").map(x => x.trim()); s.gloss[w] = [ge, def]; }
+        else {
+          const [q, opts] = v.split("||");
+          const o = opts.split("|").map(x => x.trim());
+          s.questions.push({ q: q.trim(), o: o.map(x => x.replace(/^\*/, "")), a: o.findIndex(x => x.startsWith("*")) });
+        }
+      }
+      DATA.stories.push(s); have.add(id);
+    }
+  };
 })();
