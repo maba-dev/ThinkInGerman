@@ -1,9 +1,9 @@
 {
-  "name": "think-in-english",
+  "name": "think-in-german",
   "private": true,
   "type": "module",
-  "description": "Think in English — picture-first English learning site (A1 to C1)",
+  "description": "Denk auf Deutsch — picture-first German learning site (A1 to C1)",
   "dependencies": {
-    "@anthropic-ai/sdk": "^1.9.0"
+    "@anthropic-ai/sdk": "^1.8.0"
   }
 }
