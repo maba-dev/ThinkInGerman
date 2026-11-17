@@ -13,7 +13,7 @@ DATA.stories = [
     { e: "👵🐶🚪", t: "Vor der Tür steht eine alte Frau mit einem Hund. „Hallo! Ich bin Frau Weber, Ihre Nachbarin. Und das ist Bruno.“" },
     { e: "😊👋", t: "Malik sagt: „Freut mich! Ich heiße Malik.“ Er spricht nur ein bisschen Deutsch, aber das ist ein guter Anfang." }
   ],
-  gloss: { regenschirm: ["☂️", "das Ding gegen Regen, man hält es über den Kopf"], späti: ["🏪", "ein kleiner Laden in Berlin, er hat bis spät in die Nacht offen"], nachbarin: ["🏘️", "eine Frau, die neben dir wohnt"], anfang: ["🏁", "der Start, der erste Moment"] },
+  gloss: { regenschirm: ["☂️", "das Ding gegen Regen, man hält es über den Kopf"], "späti": ["🏪", "ein kleiner Laden in Berlin, er hat bis spät in die Nacht offen"], nachbarin: ["🏘️", "eine Frau, die neben dir wohnt"], anfang: ["🏁", "der Start, der erste Moment"] },
   questions: [
     { q: "Woher kommt Malik?", o: ["Aus Paris", "Aus Lyon", "Aus Berlin"], a: 1 },
     { q: "Was kauft er im Späti?", o: ["Eine Brezel und einen Saft", "Brot und Käse", "Kaffee"], a: 0 },

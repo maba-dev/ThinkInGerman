@@ -1,5 +1,5 @@
 window.DATA = window.DATA || {};
-/* 300 extra chunks so that each level has 100. Format: a line with a number = category index; then "chunk|≈ français|Beispiel". */
+/* 300 extra chunks (with chunks_more2.js: 200 per level). Format: a line with a number = category index; then "chunk|≈ français|Beispiel". */
 DATA.chunkCats.push(
   { emoji: "🚆", name: "Voyager & se déplacer" },
   { emoji: "🩺", name: "Santé & émotions" },
