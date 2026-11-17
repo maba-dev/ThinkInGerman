@@ -156,8 +156,8 @@ const Audio = {
   handleError(code) {
     if (code === "not_granted" || code === "unavailable") {
       this.tts = null; this.ttsDenied = true; buildEngineSelect();
-      toast("La voix Claude est coupée pour cette page. Tu peux choisir une voix du navigateur dans les réglages audio.", 5000);
-    } else if (code === "rate_limited") toast("Beaucoup d'écoutes avec la voix Claude : réessaie dans un moment, ou passe sur la voix du navigateur.", 5000);
+      toast("La voix naturelle est coupée pour cette page. Tu peux choisir une voix du navigateur dans les réglages audio.", 5000);
+    } else if (code === "rate_limited") toast("Beaucoup d'écoutes avec la voix naturelle : réessaie dans un moment, ou passe sur la voix du navigateur.", 5000);
     else if (code === "no_gesture") toast("Clique encore une fois pour écouter.");
     else if (code === "busy") toast("Le micro est actif : attends la fin de l'écoute.");
     else toast("L'audio n'a pas pu être lu. Réessaie.");
@@ -166,7 +166,7 @@ const Audio = {
 function buildEngineSelect() {
   const sel = $("#set-engine"); if (!sel) return;
   const opts = [];
-  if (Audio.tts) opts.push(["claude", "Voix Claude (naturelle)"]);
+  if (Audio.tts) opts.push(["claude", "Voix naturelle"]);
   if ("speechSynthesis" in window) { opts.push(["de", "Navigateur — Allemagne"]); opts.push(["at", "Navigateur — Autriche"]); opts.push(["ch", "Navigateur — Suisse"]); }
   if (!opts.length) opts.push(["", "Aucune voix disponible"]);
   const cur = Audio.engine();
@@ -277,7 +277,7 @@ const overall = pr => { const r = Object.values(pr).map(([a, b]) => (b ? a / b :
 const MODULES = [
   ["vocab", "Vocabulaire", "🖼️", L => `${lvlVocab(L).length} mots en images, quiz « écoute → image » et « image → mot »`],
   ["grammar", "Grammaire", "🧩", L => `${D.grammar.filter(x => x.lvl === L).length} points avec ligne du temps, piège du francophone et quiz`],
-  ["stories", "Mini-histoires", "📖", L => `${D.stories.filter(x => x.lvl === L).length} histoires illustrées + des histoires illimitées écrites par Claude`],
+  ["stories", "Mini-histoires", "📖", L => `${D.stories.filter(x => x.lvl === L).length} histoires illustrées + des histoires illimitées à créer toi-même`],
   ["chunks", "Chunks", "💬", L => `${D.chunks.filter(x => x.lvl === L).length} blocs tout faits, classés par situation`],
   ["phrasal", "Verbes séparables", "🔗", L => `${D.phrasal.filter(x => x.lvl === L).length} verbes séparables (aufstehen, anrufen…) et la logique des préfixes`],
   ["phonetics", "Phonétique", "👄", L => `${D.pron.filter(x => x.lvl === L).length} leçons de prononciation, alphabet phonétique, paires minimales`],
@@ -363,11 +363,11 @@ function practiceHtml(key, kind, topic, material) {
   state.practiceSpec[key] = { kind, topic, material };
   const p = state.practice[key];
   let inner;
-  if (!SAMPLE) inner = SAMPLE_STATE === "pending" ? '<p class="muted small">Connexion à Claude…</p>' : '<p class="muted small">Ces exercices sont créés par Claude : ouvre le site depuis claude.ai, ou depuis sa version en ligne configurée avec une clé API.</p>';
-  else if (p === "loading") inner = `<div class="row"><span class="muted">Claude prépare 8 exercices à ton niveau… (10 à 30 secondes)</span><button class="btn ghost" data-act="practice-stop" data-k="${key}">Arrêter</button></div>`;
+  if (!SAMPLE) inner = SAMPLE_STATE === "pending" ? '<p class="muted small">Connexion…</p>' : '<p class="muted small">Pour créer ces exercices, ouvre le site depuis claude.ai, ou depuis sa version en ligne configurée avec une clé API.</p>';
+  else if (p === "loading") inner = `<div class="row"><span class="muted">Préparation de 8 exercices à ton niveau… (10 à 30 secondes)</span><button class="btn ghost" data-act="practice-stop" data-k="${key}">Arrêter</button></div>`;
   else if (p && p.items) inner = mcq(`pr-${key}-${p.v}`, p.items, (score, n) => `Score : ${score} / ${n}. ${score >= n - 1 ? "Excellent !" : "Lis les explications, puis génère une nouvelle série."}`) + `<button class="btn" data-act="practice-gen" data-k="${key}" style="align-self:flex-start">8 nouveaux exercices</button>`;
   else inner = `<button class="btn primary" data-act="practice-gen" data-k="${key}" style="align-self:flex-start">Créer 8 exercices</button>`;
-  return `<section class="panel practice" id="pr-${key}"><div><span class="eyebrow">Entraînement illimité · ${curLvl() || ""}</span><h2>Exercices en plus</h2><p class="muted small">Claude crée de nouveaux exercices à ton niveau, différents à chaque fois, avec une explication en allemand simple pour chaque réponse.</p></div>${inner}</section>`;
+  return `<section class="panel practice" id="pr-${key}"><div><span class="eyebrow">Entraînement illimité · ${curLvl() || ""}</span><h2>Exercices en plus</h2><p class="muted small">Tu peux créer de nouveaux exercices en cliquant sur ce bouton.</p></div>${inner}</section>`;
 }
 function refreshPractice(key) {
   const el = $("#pr-" + key), sp = state.practiceSpec[key];
@@ -574,14 +574,14 @@ function pageStories(sub) {
   const L = curLvl();
   if (sub) { const s = D.stories.find(x => x.id === sub) || genStories().find(x => x.id === sub); if (s) return storyView(s); }
   const list = D.stories.filter(s => s.lvl === L), gen = genStories().filter(s => s.lvl === L);
-  const tile = s => `<a class="tile" href="#stories-${s.id}"><div class="tile-top"><span class="pic story-cover">${esc(s.e)}</span>${s.gen ? '<span class="chip">Écrite par Claude</span>' : ""}</div><h3>${esc(s.title)}</h3><p class="pic" style="font-size:1.4rem;letter-spacing:4px">${s.scenes.map(x => [...x.e][0] || "").join("")}</p><p class="muted small">${s.scenes.length} scènes · ${s.questions.length} questions${known.has("s:" + s.id) ? " · lue ✓" : ""}</p></a>`;
+  const tile = s => `<a class="tile" href="#stories-${s.id}"><div class="tile-top"><span class="pic story-cover">${esc(s.e)}</span>${s.gen ? '<span class="chip">Histoire créée</span>' : ""}</div><h3>${esc(s.title)}</h3><p class="pic" style="font-size:1.4rem;letter-spacing:4px">${s.scenes.map(x => [...x.e][0] || "").join("")}</p><p class="muted small">${s.scenes.length} scènes · ${s.questions.length} questions${known.has("s:" + s.id) ? " · lue ✓" : ""}</p></a>`;
   let genPanel;
-  if (!SAMPLE) genPanel = SAMPLE_STATE === "pending" ? '<p class="muted small">Connexion à Claude…</p>' : '<p class="muted small">Pour créer des histoires illimitées, ouvre le site depuis claude.ai, ou depuis sa version en ligne configurée avec une clé API.</p>';
-  else if (storyGen) genPanel = `<div class="row"><span class="muted">Claude écrit ton histoire de niveau ${L}… (20 à 60 secondes)</span><button class="btn ghost" data-act="story-stop">Arrêter</button></div>`;
+  if (!SAMPLE) genPanel = SAMPLE_STATE === "pending" ? '<p class="muted small">Connexion…</p>' : '<p class="muted small">Pour créer des histoires illimitées, ouvre le site depuis claude.ai, ou depuis sa version en ligne configurée avec une clé API.</p>';
+  else if (storyGen) genPanel = `<div class="row"><span class="muted">Écriture de ton histoire de niveau ${L}… (20 à 60 secondes)</span><button class="btn ghost" data-act="story-stop">Arrêter</button></div>`;
   else genPanel = `<div class="chips">${STORY_THEMES.map(([id, l]) => `<button class="chip" data-act="story-theme" data-t="${id}" aria-pressed="${state.storyTheme === id}">${l}</button>`).join("")}</div><button class="btn primary" data-act="story-gen" style="align-self:flex-start">Créer une nouvelle histoire ${L}</button>`;
   return `${pageHead("Lecture", "Mini-histoires", `Des histoires courtes en images, écrites pour le niveau ${L}, avec l'audio. Les mots difficiles sont expliqués par une image et de l'allemand simple, jamais par une traduction. Relis la même histoire plusieurs jours de suite.`)}
   <div class="grid wide">${list.map(tile).join("")}</div>
-  <section class="panel"><div><span class="eyebrow">Lecture illimitée</span><h2>Une nouvelle histoire à ton niveau</h2><p class="muted small">Claude écrit une histoire inédite de niveau ${L}, avec images, mots expliqués et questions. Elle reste enregistrée dans ce navigateur.</p></div>${genPanel}</section>
+  <section class="panel"><div><span class="eyebrow">Lecture illimitée</span><h2>Une nouvelle histoire à ton niveau</h2><p class="muted small">Tu peux créer une histoire inédite de niveau ${L}, avec images, mots expliqués et questions, en cliquant sur ce bouton. Elle reste enregistrée dans ce navigateur.</p></div>${genPanel}</section>
   ${gen.length ? `<h2>Tes histoires créées (${gen.length})</h2><div class="grid wide">${gen.map(tile).join("")}</div>` : ""}`;
 }
 function glossify(text, gloss) {
@@ -597,7 +597,7 @@ let currentStory = null;
 function storyView(s) {
   currentStory = s;
   return `<a class="btn ghost back" href="#stories">← Histoires ${esc(s.lvl)}</a>
-  <header class="page-head"><div class="row">${lvlTag(s.lvl)}<span class="pic" style="font-size:2rem">${esc(s.e)}</span>${s.gen ? '<span class="chip">Écrite par Claude</span>' : ""}</div><h1>${esc(s.title)}</h1><p>Écoute une première fois sans lire, en regardant seulement les images. Puis écoute en lisant. Les mots surlignés : touche-les pour voir leur image.</p>
+  <header class="page-head"><div class="row">${lvlTag(s.lvl)}<span class="pic" style="font-size:2rem">${esc(s.e)}</span>${s.gen ? '<span class="chip">Histoire créée</span>' : ""}</div><h1>${esc(s.title)}</h1><p>Écoute une première fois sans lire, en regardant seulement les images. Puis écoute en lisant. Les mots surlignés : touche-les pour voir leur image.</p>
   <div class="row"><button class="btn primary" data-act="story-play">${IC.speaker} Écouter toute l'histoire</button><button class="btn" data-act="story-play" data-slow="1">${IC.slow} Version lente</button></div></header>
   <div class="reader">${s.scenes.map((sc, i) => `<div class="scene" id="sc${i}"><div class="strip pic" aria-hidden="true">${esc(sc.e)}</div><div><p class="txt">${glossify(sc.t, s.gloss)}</p><div class="tools">${sayBtn(sc.t, "Écouter ce passage")}${slowBtn(sc.t)}</div></div></div>`).join("")}</div>
   ${s.questions.length ? `<section class="panel" style="max-width:760px"><h2>Hast du alles verstanden?</h2>${mcq("story-" + s.id, s.questions, (score, n) => {
@@ -833,20 +833,20 @@ const PERM_CODES = ["not_granted", "sampling_disabled", "not_declared", "capabil
 function markDenied(code) { if (PERM_CODES.includes(code)) { SAMPLE = null; SAMPLE_STATE = "denied"; } }
 function sampleErr(code) {
   return ({
-    not_granted: "Tu n'as pas autorisé ce site à utiliser Claude. Tu peux changer ça dans le menu Permissions de l'artifact.",
-    sampling_disabled: "Claude n'est pas disponible pour ce compte.",
+    not_granted: "Tu n'as pas autorisé ce site à créer du contenu. Tu peux changer ça dans le menu Permissions de l'artifact.",
+    sampling_disabled: "Cette fonction n'est pas disponible pour ce compte.",
     rate_limited: "Limite d'utilisation atteinte pour l'instant. Réessaie dans un moment.",
     session_expired: "Reconnecte-toi à claude.ai, puis réessaie.",
-    refused: "Claude a refusé cette demande. Reformule ton message.",
+    refused: "Cette demande a été refusée. Reformule ton message.",
     empty_completion: "La réponse est vide. Réessaie.",
     prompt_too_large: "La conversation est trop longue : commence une nouvelle conversation.",
     access_code: "Code d'accès manquant ou incorrect. Réessaie : le site te le redemandera.",
-    invalid_json: "La réponse de Claude était mal formée. Réessaie."
-  })[code] || "La connexion à Claude a échoué. Réessaie.";
+    invalid_json: "La réponse était mal formée. Réessaie."
+  })[code] || "La connexion a échoué. Réessaie.";
 }
 function sampleUnavailable(what) {
-  if (SAMPLE_STATE === "pending") return `<div class="panel"><p class="muted">Connexion à Claude…</p></div>`;
-  return `<div class="panel"><h3>${what} a besoin de Claude</h3><p class="muted">Ouvre ce site depuis claude.ai, ou depuis sa version en ligne (Netlify) configurée avec une clé API Claude. ${SAMPLE_STATE === "denied" ? "L'accès à Claude a été refusé pour cette page." : ""}</p></div>`;
+  if (SAMPLE_STATE === "pending") return `<div class="panel"><p class="muted">Connexion…</p></div>`;
+  return `<div class="panel"><h3>${what} n'est pas disponible ici</h3><p class="muted">Ouvre ce site depuis claude.ai, ou depuis sa version en ligne (Netlify) configurée avec une clé API. ${SAMPLE_STATE === "denied" ? "L'accès a été refusé pour cette page." : ""}</p></div>`;
 }
 
 /* Outside claude.ai (e.g. on Netlify), Claude is reached through the site's own function /api/claude,
@@ -1007,7 +1007,7 @@ function podLive(ep) {
   const box = $("#pod-live"); if (!box || !podGen) return;
   const d = parsePod(podGen.text); const words = wordCount(d.lines); const target = POD_GUIDE[ep.lvl].words;
   $("#pod-prog").style.width = Math.min(100, Math.round(words / target * 100)) + "%";
-  $("#pod-count").textContent = d.lines.length ? `${words} / ~${target} mots écrits` : "Claude prépare l'épisode…";
+  $("#pod-count").textContent = d.lines.length ? `${words} / ~${target} mots écrits` : "Préparation de l'épisode…";
   box.innerHTML = d.lines.slice(-5).map(l => `<div class="line"><span class="spk ${l.s}">${HOST[l.s]}</span><span class="t">${esc(l.t)}</span></div>`).join("");
 }
 function podPlay(ep, from) {
@@ -1023,7 +1023,7 @@ function pagePodcasts(sub) {
   if (sub) { const ep = D.podcasts.find(x => x.id === sub); if (ep) return podcastView(ep); }
   const L = curLvl();
   const list = D.podcasts.filter(p => p.lvl === L);
-  return `${pageHead("Écoute longue", "Podcasts", `${list.length} épisodes d'environ 15 minutes pour le niveau ${L}. Lena (Berlin) et Jonas (Vienne) discutent d'un sujet de la vie réelle, à ton niveau, sans jamais traduire. Chaque épisode a sa transcription, ses 6 mots du jour et un quiz. Claude écrit chaque épisode la première fois que tu l'ouvres (environ une minute), puis il reste enregistré dans ce navigateur.`)}
+  return `${pageHead("Écoute longue", "Podcasts", `${list.length} épisodes d'environ 15 minutes pour le niveau ${L}. Lena (Berlin) et Jonas (Vienne) discutent d'un sujet de la vie réelle, à ton niveau, sans jamais traduire. Chaque épisode a sa transcription, ses 6 mots du jour et un quiz. Chaque épisode est écrit la première fois que tu l'ouvres (environ une minute), puis il reste enregistré dans ce navigateur.`)}
   <div class="grid">${list.map(p => { const ready = podReady(p.id); return `<a class="tile" href="#podcasts-${p.id}"><div class="tile-top"><span class="eyebrow">Épisode ${p.n}</span>${lvlTag(p.lvl)}</div><h3>${esc(p.title)}</h3><p class="muted small">${esc(p.focus)}</p><p class="small">${known.has("e:" + p.id) ? "Écouté ✓" : ready ? "Prêt à écouter" : '<span class="muted">À créer</span>'}</p></a>`; }).join("")}</div>`;
 }
 function podcastView(ep) {
@@ -1034,15 +1034,15 @@ function podcastView(ep) {
   if (!d) {
     if (podGen && podGen.id === ep.id) {
       setTimeout(() => podLive(ep), 0);
-      body = `<section class="panel"><div class="toolbar"><h3>Claude écrit l'épisode…</h3><button class="btn" data-act="pod-cancel">Arrêter</button></div>
-        <div class="progress"><i id="pod-prog" style="width:0%"></i></div><p class="muted small" id="pod-count">Claude prépare l'épisode… (les premières lignes arrivent après quelques secondes)</p>
+      body = `<section class="panel"><div class="toolbar"><h3>Écriture de l'épisode…</h3><button class="btn" data-act="pod-cancel">Arrêter</button></div>
+        <div class="progress"><i id="pod-prog" style="width:0%"></i></div><p class="muted small" id="pod-count">Préparation de l'épisode… (les premières lignes arrivent après quelques secondes)</p>
         <div class="lines live transcript" id="pod-live"></div></section>`;
     } else if (podGen) {
       body = `<section class="panel"><p>Un autre épisode est en cours d'écriture. Attends qu'il soit fini.</p><a class="btn" href="#podcasts-${podGen.id}">Voir l'épisode en cours</a></section>`;
     } else if (!SAMPLE) {
       body = sampleUnavailable("La création d'épisodes");
     } else {
-      body = `<section class="panel"><h3>Cet épisode n'existe pas encore</h3><p class="muted">Claude va écrire un dialogue d'environ ${g.words} mots adapté au niveau ${ep.lvl}, avec 6 mots du jour et 5 questions. Ça prend environ une minute, ensuite l'épisode reste dans ce navigateur.</p>
+      body = `<section class="panel"><h3>Cet épisode n'existe pas encore</h3><p class="muted">Un dialogue d'environ ${g.words} mots adapté au niveau ${ep.lvl} va être écrit, avec 6 mots du jour et 5 questions. Ça prend environ une minute, ensuite l'épisode reste dans ce navigateur.</p>
         <button class="btn primary" data-act="pod-gen" data-id="${ep.id}" style="align-self:flex-start">Créer l'épisode</button></section>`;
     }
   } else {
@@ -1166,7 +1166,7 @@ function renderChatLog() {
   const log = $("#chat-log"); if (!log) return;
   let html = chat.msgs.map(chatBubble).join("");
   if (chatCtl) html += `<div class="msg ai"><div class="bub thinking" id="chat-stream">…</div></div>`;
-  if (!chat.msgs.length && !chatCtl) html += `<div class="empty">Choisis un scénario, puis lance la conversation. Claude parle en premier.<br><br><button class="btn primary" data-act="chat-start">Commencer la conversation</button></div>`;
+  if (!chat.msgs.length && !chatCtl) html += `<div class="empty">Choisis un scénario, puis lance la conversation. Ton partenaire parle en premier.<br><br><button class="btn primary" data-act="chat-start">Commencer la conversation</button></div>`;
   if (chatErr) html += `<div class="fixes" style="align-self:center"><b>${esc(sampleErr(chatErr))}</b><button class="btn" data-act="chat-retry" style="align-self:flex-start">Réessayer</button></div>`;
   log.innerHTML = html;
   log.scrollTop = log.scrollHeight;
@@ -1273,7 +1273,7 @@ const ACTS = {
   "pair-play": b => { const c = state.pg.cur; Audio.speak(c.it[c.side * 2 + 1], b.dataset.slow ? { rate: 0.7 } : {}); },
   "pair-pick": b => { const c = state.pg.cur; if (c.done) return; const k = +b.dataset.k; c.done = true; state.pg.total++; const ok = k === c.side; if (ok) state.pg.score++; rerender(); $("#pair-" + c.side).classList.add("right"); if (!ok) $("#pair-" + k).classList.add("wrong"); $("#pair-msg").innerHTML = ok ? `<span style="color:var(--good)">Bravo : « ${esc(c.it[c.side * 2 + 1])} »</span>` : `<span style="color:var(--bad)">C'était « ${esc(c.it[c.side * 2 + 1])} ». Réécoute les deux.</span>`; },
   "pod-gen": b => { const ep = D.podcasts.find(x => x.id === b.dataset.id); if (ep) podGenerate(ep); },
-  "pod-regen": b => { const ep = D.podcasts.find(x => x.id === b.dataset.id); if (!ep || !SAMPLE) { toast("La réécriture a besoin de Claude (ouvre le site sur claude.ai)."); return; } Audio.stop(); podGenerate(ep); },
+  "pod-regen": b => { const ep = D.podcasts.find(x => x.id === b.dataset.id); if (!ep || !SAMPLE) { toast("La réécriture n'est pas disponible ici (ouvre le site sur claude.ai)."); return; } Audio.stop(); podGenerate(ep); },
   "pod-cancel": () => { if (podGen) podGen.ctl.abort(); },
   "pod-play": b => { const ep = D.podcasts.find(x => x.id === b.dataset.id); if (ep) podPlay(ep, +b.dataset.from || 0); },
   "pod-pause": b => { if (Audio.paused) { Audio.resume(); b.textContent = "Pause"; } else { Audio.pause(); b.textContent = "Reprendre"; } },
