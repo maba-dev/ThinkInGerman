@@ -61,7 +61,7 @@ export default async (req) => {
     betas: ["server-side-fallback-2026-07-01"],
     fallbacks: "default",
     output_config: { effort },
-    system: "You write content for an English-learning website used by a French-speaking adult. Follow the requested output format exactly.",
+    system: "You write content for a German-learning website used by a French-speaking adult. Follow the requested output format exactly.",
     messages,
   });
 

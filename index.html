@@ -1,4 +1,4 @@
-<title>Think in English</title>
+<title>Denk auf Deutsch</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,9 +11,13 @@
   --ink: #15262B;
   --muted: #586A6D;
   --line: #D8E1DD;
-  --accent: #1D6A85;
+  --accent: #7A3B78;
   --accent-ink: #FFFFFF;
-  --accent-soft: #DCEBF0;
+  --accent-soft: #F1E3F0;
+  --der: #2B63C6;
+  --die: #C43D4B;
+  --das: #23885A;
+  --plu: #6E7B7E;
   --spark: #F2B13A;
   --spark-soft: #FCEFD2;
   --good: #23885A;
@@ -30,7 +34,7 @@
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --paper: #0E1719; --card: #162226; --ink: #E4EDEB; --muted: #95A7A9; --line: #273A3F;
-  --accent: #67BFDB; --accent-ink: #08252F; --accent-soft: #173640;
+  --accent: #D59AD2; --accent-ink: #2A0F29; --accent-soft: #3A2238; --der: #7FA8F0; --die: #F08A93; --das: #5FCB95; --plu: #9AA8AA;
   --spark: #F2B13A; --spark-soft: #3A2E14;
   --good: #5FCB95; --good-soft: #15352A; --bad: #F08A82; --bad-soft: #3D1E1C;
   --a1: #55C48F; --a2: #4BBCCB; --b1: #7A9FEA; --b2: #B08BE6; --c1: #EC7F93;
@@ -38,7 +42,7 @@
   color-scheme: dark; } }
 :root[data-theme="dark"] {
   --paper: #0E1719; --card: #162226; --ink: #E4EDEB; --muted: #95A7A9; --line: #273A3F;
-  --accent: #67BFDB; --accent-ink: #08252F; --accent-soft: #173640;
+  --accent: #D59AD2; --accent-ink: #2A0F29; --accent-soft: #3A2238; --der: #7FA8F0; --die: #F08A93; --das: #5FCB95; --plu: #9AA8AA;
   --spark: #F2B13A; --spark-soft: #3A2E14;
   --good: #5FCB95; --good-soft: #15352A; --bad: #F08A82; --bad-soft: #3D1E1C;
   --a1: #55C48F; --a2: #4BBCCB; --b1: #7A9FEA; --b2: #B08BE6; --c1: #EC7F93;
@@ -130,7 +134,7 @@ body.has-mic .icon-btn.mic { display: inline-grid; }
 .panel { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 20px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
 .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .grid.wide { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
-.grid.tight { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.grid.tight { grid-template-columns: repeat(auto-fill, minmax(175px, 1fr)); gap: 12px; }
 .tile { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: var(--ink); min-width: 0; text-align: left; }
 a.tile:hover, button.tile:hover { border-color: var(--accent); box-shadow: var(--shadow); }
 .tile .pic.big { font-size: 2.6rem; }
@@ -186,7 +190,7 @@ a.tile:hover, button.tile:hover { border-color: var(--accent); box-shadow: var(-
 /* ---------- vocab cards ---------- */
 .wcard { position: relative; align-items: center; text-align: center; gap: 6px; padding-top: 20px; }
 .wcard .pic { font-size: 3.2rem; }
-.wcard .word { font-family: var(--f-display); font-weight: 700; font-size: 1.15rem; }
+.wcard .word { font-family: var(--f-display); font-weight: 700; font-size: 1.15rem; max-width: 100%; overflow-wrap: anywhere; hyphens: auto; }
 .wcard .ex { font-size: .85rem; color: var(--muted); font-style: italic; }
 .wcard .acts { display: flex; gap: 6px; justify-content: center; margin-top: 4px; }
 .wcard .lvl { position: absolute; top: 10px; left: 10px; }
@@ -382,6 +386,15 @@ a.tile:hover, button.tile:hover { border-color: var(--accent); box-shadow: var(-
 .practice { border-style: dashed; }
 @media (max-width: 860px) { .lvl-switch { margin-right: 44px; } .nav-sep { display: none; } }
 
+
+/* ---------- German: article colours ---------- */
+.art { font-weight: 700; }
+.art.der { color: var(--der); }
+.art.die { color: var(--die); }
+.art.das { color: var(--das); }
+.art.pl { color: var(--plu); }
+.plural { font-size: .78rem; color: var(--muted); }
+
 /* ---------- popover, toast, now-playing ---------- */
 .pop { position: fixed; z-index: 40; left: 50%; transform: translateX(-50%); bottom: calc(20px + env(safe-area-inset-bottom, 0px)); width: min(420px, calc(100vw - 32px)); background: var(--card); border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 10px 40px rgba(0,0,0,.25); padding: 18px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 14px; align-items: center; }
 .pop .pic { font-size: 2.8rem; }
@@ -398,7 +411,7 @@ a.tile:hover, button.tile:hover { border-color: var(--accent); box-shadow: var(-
 
 <div class="app">
   <aside class="rail" id="rail">
-    <a class="brand" href="#home"><b>Think in English</b><span>Voir · Écouter · Dire — sans traduire</span></a>
+    <a class="brand" href="#home"><b>Denk auf Deutsch</b><span>Voir · Écouter · Dire — sans traduire</span></a>
     <div class="lvl-switch" id="lvl-switch" role="group" aria-label="Mon niveau"></div>
     <nav class="nav" id="nav" aria-label="Sections"></nav>
     <div class="settings" id="settings">
@@ -431,14 +444,10 @@ a.tile:hover, button.tile:hover { border-color: var(--accent); box-shadow: var(-
 <script src="data/vocab_more.js"></script>
 <script src="data/chunks.js"></script>
 <script src="data/chunks_more.js"></script>
-<script src="data/chunks_more2.js"></script>
 <script src="data/phrasal.js"></script>
-<script src="data/phrasal_more.js"></script>
 <script src="data/grammar.js"></script>
 <script src="data/grammar_more.js"></script>
 <script src="data/stories.js"></script>
-<script src="data/stories_more.js"></script>
 <script src="data/phonetics.js"></script>
 <script src="data/podcasts.js"></script>
-<script src="data/extra_more.js"></script>
 <script src="app.js"></script>

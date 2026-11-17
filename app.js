@@ -1,4 +1,4 @@
-/* Think in English — app logic. Data lives in data/*.js (window.DATA). */
+/* Denk auf Deutsch — app logic. Data lives in data/*.js (window.DATA). */
 (() => {
 "use strict";
 const D = window.DATA;
@@ -9,7 +9,16 @@ const LEVELS = ["A1", "A2", "B1", "B2", "C1"];
 const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const pick = a => a[Math.floor(Math.random() * a.length)];
 const dayIndex = Math.floor(Date.now() / 864e5);
-const norm = s => String(s).toLowerCase().replace(/[’']/g, "'").replace(/[^a-z0-9' ]+/g, " ").replace(/\s+/g, " ").trim();
+const norm = s => String(s).toLowerCase().normalize("NFC").replace(/[’']/g, "'").replace(/[^\p{L}\p{N}' ]+/gu, " ").replace(/\s+/g, " ").trim();
+const ARTICLES = ["der", "die", "das"];
+const PLURAL_ONLY = new Set(["die Nudeln", "die Kopfschmerzen", "die Kopfhörer", "die Daten", "die Schulden", "die Ersparnisse", "die Studiengebühren", "die Grundrechte", "die fossilen Brennstoffe", "die Nebenkosten"]);
+/* Colour the article of a German noun: der (blue), die (red), das (green), plural-only (grey). */
+function artHtml(word) {
+  const m = String(word).match(/^(der|die|das) (.+)$/);
+  if (!m) return esc(word);
+  const cls = PLURAL_ONLY.has(word) ? "pl" : m[1];
+  return `<span class="art ${cls}" title="${cls === "pl" ? "pluriel" : m[1] === "der" ? "masculin" : m[1] === "die" ? "féminin" : "neutre"}">${m[1]}</span> ${esc(m[2])}`;
+}
 
 const IC = {
   speaker: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16 9a4 4 0 0 1 0 6"/><path d="M18.5 6.5a8 8 0 0 1 0 11"/></svg>',
@@ -25,8 +34,8 @@ const lvlTag = l => `<span class="lvl ${l}">${l}</span>`;
 
 /* ---------------- storage (per browser) ---------------- */
 const store = {
-  get(k, d) { try { const v = localStorage.getItem("tie:" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
-  set(k, v) { try { localStorage.setItem("tie:" + k, JSON.stringify(v)); } catch (e) { /* storage blocked */ } }
+  get(k, d) { try { const v = localStorage.getItem("dad:" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem("dad:" + k, JSON.stringify(v)); } catch (e) { /* storage blocked */ } }
 };
 const known = new Set(store.get("known", []));
 const settings = Object.assign({ engine: "", rate: 1, immersion: true }, store.get("settings", {}));
@@ -52,7 +61,7 @@ const Audio = {
   tts: null, ttsDenied: false, voices: [], current: null, lineHandler: null,
   async init() {
     if ("speechSynthesis" in window) {
-      const load = () => { this.voices = speechSynthesis.getVoices().filter(v => /^en([-_]|$)/i.test(v.lang)); buildEngineSelect(); };
+      const load = () => { this.voices = speechSynthesis.getVoices().filter(v => /^de([-_]|$)/i.test(v.lang)); buildEngineSelect(); };
       load(); speechSynthesis.onvoiceschanged = load;
     }
     buildEngineSelect();
@@ -72,12 +81,12 @@ const Audio = {
   engine() {
     const e = settings.engine;
     if (e === "claude") return this.tts ? "claude" : (this.ttsDenied ? "none" : this.browserDefault());
-    if (e === "gb" || e === "us") return e;
+    if (e === "de" || e === "at" || e === "ch") return e;
     return this.tts ? "claude" : this.browserDefault();
   },
-  browserDefault() { return "speechSynthesis" in window ? "gb" : "none"; },
+  browserDefault() { return "speechSynthesis" in window ? "de" : "none"; },
   voiceFor(accent, alt) {
-    const re = accent === "us" ? /en[-_]US/i : /en[-_]GB/i;
+    const re = accent === "at" ? /de[-_]AT/i : accent === "ch" ? /de[-_]CH/i : /de[-_]DE/i;
     const list = this.voices.filter(v => re.test(v.lang));
     const main = list.find(v => /natural|neural|online|google/i.test(v.name)) || list[0] || this.voices[0] || null;
     if (!alt) return main;
@@ -111,8 +120,8 @@ const Audio = {
       const batches = [];
       for (let k = 0; k < arr.length; k += 90) batches.push(arr.slice(k, k + 90));
       const run = bi => {
-        const lines = batches[bi].map(l => Object.assign({ text: l.text, language: "en" }, l.id ? { id: l.id } : {}, VO[l.voice] ? { voice: VO[l.voice] } : {}));
-        (bi === 0 ? this.tts.speak(lines, { rate, language: "en" }) : this.tts.add(lines, { rate, language: "en" }))
+        const lines = batches[bi].map(l => Object.assign({ text: l.text, language: "de" }, l.id ? { id: l.id } : {}, VO[l.voice] ? { voice: VO[l.voice] } : {}));
+        (bi === 0 ? this.tts.speak(lines, { rate, language: "de" }) : this.tts.add(lines, { rate, language: "de" }))
           .then(() => { if (this.current === token && bi + 1 < batches.length) run(bi + 1); else finish(); })
           .catch(err => { finish(); if (err && err.code !== "stopped") this.handleError(err.code); });
       };
@@ -128,7 +137,7 @@ const Audio = {
       const l = arr[i++];
       const u = new SpeechSynthesisUtterance(l.text);
       const vv = l.voice === "B" ? vB : v;
-      if (vv) { u.voice = vv; u.lang = vv.lang; } else { u.lang = eng === "us" ? "en-US" : "en-GB"; }
+      if (vv) { u.voice = vv; u.lang = vv.lang; } else { u.lang = ({ at: "de-AT", ch: "de-CH" })[eng] || "de-DE"; }
       u.rate = rate;
       u.onstart = () => { if (this.current === token && onLine) onLine(l.id); };
       u.onend = next; u.onerror = next;
@@ -158,7 +167,7 @@ function buildEngineSelect() {
   const sel = $("#set-engine"); if (!sel) return;
   const opts = [];
   if (Audio.tts) opts.push(["claude", "Voix Claude (naturelle)"]);
-  if ("speechSynthesis" in window) { opts.push(["gb", "Navigateur — accent UK"]); opts.push(["us", "Navigateur — accent US"]); }
+  if ("speechSynthesis" in window) { opts.push(["de", "Navigateur — Allemagne"]); opts.push(["at", "Navigateur — Autriche"]); opts.push(["ch", "Navigateur — Suisse"]); }
   if (!opts.length) opts.push(["", "Aucune voix disponible"]);
   const cur = Audio.engine();
   sel.innerHTML = opts.map(([v, l]) => `<option value="${v}"${v === cur ? " selected" : ""}>${l}</option>`).join("");
@@ -184,7 +193,7 @@ const Mic = {
       if (this.mode === "chat") {
         const b = $("#chat-mic"), p = $("#chat-partial");
         if (b) b.classList.toggle("on", state !== "idle");
-        if (p) p.textContent = state === "idle" ? "" : (state === "listening" ? "Je t'écoute… parle en anglais, puis touche le micro pour arrêter." : "…");
+        if (p) p.textContent = state === "idle" ? "" : (state === "listening" ? "Je t'écoute… parle en allemand, puis touche le micro pour arrêter." : "…");
         return;
       }
       if (state === "idle") { clearTimeout(this.timer); this.result(reason); }
@@ -205,7 +214,7 @@ const Mic = {
     if (this.d.active()) { this.d.stop().catch(() => {}); return; }
     this.mode = "chat";
     Audio.stop();
-    this.d.start({ language: "en" }).catch(err => this.fail(err));
+    this.d.start({ language: "de" }).catch(err => this.fail(err));
   },
   start(target) {
     if (!this.d) { toast("La reconnaissance vocale marche dans Chrome ou Edge, sur claude.ai."); return; }
@@ -216,12 +225,12 @@ const Mic = {
     const box = $("#listening");
     box.hidden = false;
     box.innerHTML = `<div class="row"><span class="pulse"></span><b>Je t'écoute… dis :</b> <span>${esc(this.target)}</span></div><div class="heard" id="heard">…</div><div class="row"><button class="btn" data-act="mic-stop">Terminer</button></div>`;
-    this.d.start({ language: "en" }).catch(err => { this.fail(err); $("#listening").hidden = true; });
+    this.d.start({ language: "de" }).catch(err => { this.fail(err); $("#listening").hidden = true; });
     clearTimeout(this.timer);
     this.timer = setTimeout(() => this.d.stop().catch(() => {}), 5000);
   },
   matches() {
-    const want = norm(this.target).split(" ");
+    const want = norm(this.target).split(" ").filter(w => !ARTICLES.includes(w));
     const got = norm(this.heard).split(" ");
     return want.length > 0 && want.every(w => got.includes(w));
   },
@@ -251,7 +260,7 @@ function setLevel(l) {
 }
 
 /* ---------------- navigation ---------------- */
-const vocabAll = D.vocab.flatMap(t => t.words.map(w => ({ e: w[0], w: w[1], ipa: w[2], lvl: w[3], ex: w[4], theme: t.id })));
+const vocabAll = D.vocab.flatMap(t => t.words.map(w => ({ e: w[0], w: w[1], ipa: w[2], lvl: w[3], ex: w[4], pl: w[5] || "", theme: t.id })));
 const lvlVocab = (L = curLvl()) => vocabAll.filter(x => x.lvl === L);
 const genStories = () => store.get("gstories", []);
 function progress(L) {
@@ -270,7 +279,7 @@ const MODULES = [
   ["grammar", "Grammaire", "🧩", L => `${D.grammar.filter(x => x.lvl === L).length} points avec ligne du temps, piège du francophone et quiz`],
   ["stories", "Mini-histoires", "📖", L => `${D.stories.filter(x => x.lvl === L).length} histoires illustrées + des histoires illimitées écrites par Claude`],
   ["chunks", "Chunks", "💬", L => `${D.chunks.filter(x => x.lvl === L).length} blocs tout faits, classés par situation`],
-  ["phrasal", "Phrasal verbs", "🔗", L => `${D.phrasal.filter(x => x.lvl === L).length} phrasal verbs et la logique des particules`],
+  ["phrasal", "Verbes séparables", "🔗", L => `${D.phrasal.filter(x => x.lvl === L).length} verbes séparables (aufstehen, anrufen…) et la logique des préfixes`],
   ["phonetics", "Phonétique", "👄", L => `${D.pron.filter(x => x.lvl === L).length} leçons de prononciation, alphabet phonétique, paires minimales`],
   ["audio", "Écoute & dictée", "🎧", L => `${D.dictation[L].length} dictées, shadowing et écoute en images`],
   ["podcasts", "Podcasts", "🎙️", L => `${D.podcasts.filter(x => x.lvl === L).length} épisodes de 15 minutes`],
@@ -345,10 +354,10 @@ function pqPick(b) {
 
 /* ---------------- unlimited practice written by Claude ---------------- */
 const PRACTICE_KIND = {
-  vocab: "Practise these words. Mix three kinds of items: a natural sentence with ___ where one word fits; a simple English definition and the matching word; the right collocation (e.g. make / do / take + noun).",
-  grammar: "Mix three kinds of items: a gap-fill sentence with ___; 'Which sentence is correct?'; 'Which sentence has a mistake?'. Include at least two items that target typical French-speaker mistakes.",
-  chunks: "Each item is a short situation or a two-line dialogue with ___ where one of these chunks fits naturally. The 3 options are chunks from the list.",
-  phrasal: "Each item is a natural sentence with ___ where one of these phrasal verbs fits, in the correct form. The 3 options are phrasal verbs in the correct form."
+  vocab: "Practise these German words. Mix three kinds of items: a natural German sentence with ___ where one word fits; a simple German definition and the matching word; the correct article (der / die / das) or plural of a noun.",
+  grammar: "Mix three kinds of items: a German gap-fill sentence with ___; 'Welcher Satz ist richtig?'; 'Welcher Satz hat einen Fehler?'. Include at least two items that target typical French-speaker mistakes (word order, cases, gender, prepositions).",
+  chunks: "Each item is a short situation or a two-line German dialogue with ___ where one of these chunks fits naturally. The 3 options are chunks from the list.",
+  phrasal: "Each item is a natural German sentence with one or two gaps (___) where one of these separable verbs fits, conjugated, with the prefix at the end when needed, e.g. 'Ich ___ jeden Tag um 7 Uhr ___.' Each option shows the full form, e.g. 'stehe … auf'."
 };
 function practiceHtml(key, kind, topic, material) {
   state.practiceSpec[key] = { kind, topic, material };
@@ -358,7 +367,7 @@ function practiceHtml(key, kind, topic, material) {
   else if (p === "loading") inner = `<div class="row"><span class="muted">Claude prépare 8 exercices à ton niveau… (10 à 30 secondes)</span><button class="btn ghost" data-act="practice-stop" data-k="${key}">Arrêter</button></div>`;
   else if (p && p.items) inner = mcq(`pr-${key}-${p.v}`, p.items, (score, n) => `Score : ${score} / ${n}. ${score >= n - 1 ? "Excellent !" : "Lis les explications, puis génère une nouvelle série."}`) + `<button class="btn" data-act="practice-gen" data-k="${key}" style="align-self:flex-start">8 nouveaux exercices</button>`;
   else inner = `<button class="btn primary" data-act="practice-gen" data-k="${key}" style="align-self:flex-start">Créer 8 exercices</button>`;
-  return `<section class="panel practice" id="pr-${key}"><div><span class="eyebrow">Entraînement illimité · ${curLvl() || ""}</span><h2>Exercices en plus</h2><p class="muted small">Claude crée de nouveaux exercices à ton niveau, différents à chaque fois, avec une explication en anglais simple pour chaque réponse.</p></div>${inner}</section>`;
+  return `<section class="panel practice" id="pr-${key}"><div><span class="eyebrow">Entraînement illimité · ${curLvl() || ""}</span><h2>Exercices en plus</h2><p class="muted small">Claude crée de nouveaux exercices à ton niveau, différents à chaque fois, avec une explication en allemand simple pour chaque réponse.</p></div>${inner}</section>`;
 }
 function refreshPractice(key) {
   const el = $("#pr-" + key), sp = state.practiceSpec[key];
@@ -368,11 +377,11 @@ function practiceGen(key) {
   const sp = state.practiceSpec[key]; if (!SAMPLE || !sp || state.practice[key] === "loading") return;
   const L = curLvl() || "B1";
   const ctl = new AbortController(); state.practiceCtl[key] = ctl; state.practice[key] = "loading"; refreshPractice(key);
-  const prompt = `Create 8 multiple-choice English exercises for a French-speaking learner at CEFR level ${L}.
+  const prompt = `Create 8 multiple-choice German exercises for a French-speaking learner at CEFR level ${L}.
 Module: ${sp.kind}.${sp.topic ? ` Topic: ${sp.topic}.` : ""}
 ${sp.material ? `Material to practise:\n${sp.material}\n` : ""}${PRACTICE_KIND[sp.kind]}
-Rules: language exactly at level ${L}; natural, varied contexts (daily life, travel, work, tech); exactly 3 options and exactly one correct answer; vary the position of the correct answer; never use French.
-Reply with only a JSON array of 8 objects like {"q": "question or sentence with ___", "o": ["option", "option", "option"], "a": 0, "why": "one short explanation in simple English, max 20 words"}.`;
+Rules: German exactly at level ${L} (Hochdeutsch); natural, varied contexts (daily life in Germany or Austria, travel, work, tech); exactly 3 options and exactly one correct answer; vary the position of the correct answer; questions, options and explanations are all in German; never use French.
+Reply with only a JSON array of 8 objects like {"q": "Frage oder Satz mit ___", "o": ["Option", "Option", "Option"], "a": 0, "why": "eine kurze Erklärung in einfachem Deutsch, max. 20 Wörter"}.`;
   SAMPLE.json(prompt, { signal: ctl.signal, cache: false })
     .then(arr => {
       const items = (Array.isArray(arr) ? arr : []).filter(x => x && typeof x.q === "string" && Array.isArray(x.o) && x.o.length === 3 && Number.isInteger(x.a) && x.a >= 0 && x.a < 3)
@@ -391,17 +400,17 @@ const lvlCol = l => `var(--${l.toLowerCase()})`;
 function thesisCard() {
   return `<div class="thesis" aria-label="Le principe">
       <span class="fr-word">pomme</span><span class="arrow">→</span><span class="pic">🍎</span><span class="arrow arrow2">→</span>
-      <span class="en"><b>apple</b><span class="ipa">/ˈæp.əl/</span><span class="row">${sayBtn("apple")}${micBtn("apple")}</span></span>
-      <p class="thesis-cap">On saute l'étape « pomme ». L'image remplace la traduction : 🍎 → apple, directement.</p>
+      <span class="en"><b>${artHtml("der Apfel")}</b><span class="ipa">/ˈapfl̩/</span><span class="row">${sayBtn("der Apfel")}${micBtn("der Apfel")}</span></span>
+      <p class="thesis-cap">On saute l'étape « pomme ». L'image remplace la traduction : 🍎 → der Apfel, directement, avec son article en couleur.</p>
     </div>`;
 }
 function pagePicker() {
   const res = store.get("placement", null);
   return `<section class="hero">
     <div style="display:flex;flex-direction:column;gap:16px">
-      <span class="eyebrow">Think in English · A1 → C1</span>
+      <span class="eyebrow">Denk auf Deutsch · A1 → C1</span>
       <h1>Choisis ton <em>niveau</em>.</h1>
-      <p class="lead">Le site s'adapte à toi : vocabulaire, grammaire, histoires, chunks, phrasal verbs, phonétique, écoute, podcasts et conversation, tout est préparé pour ton niveau. Et rien n'est traduit : chaque mot a une image, chaque phrase a un son.</p>
+      <p class="lead">Le site s'adapte à toi : vocabulaire, grammaire, histoires, chunks, verbes séparables, phonétique, écoute, podcasts et conversation, tout est préparé pour ton niveau. Et rien n'est traduit : chaque mot a une image, chaque phrase a un son.</p>
       <p>Tu ne sais pas ? <a href="#levels">Fais le test express (15 questions, 3 minutes)</a>.</p>
     </div>
     ${thesisCard()}
@@ -440,9 +449,9 @@ function pageHome() {
   <section style="display:flex;flex-direction:column;gap:12px">
     <h2>Aujourd'hui en ${L}</h2>
     <div class="today">
-      <div class="tile"><span class="eyebrow">Mot du jour</span><div class="tile-top"><span class="pic big">${w.e}</span></div><h3>${esc(w.w)} <span class="ipa small">${esc(w.ipa)}</span></h3><p class="example muted">${esc(w.ex)}</p><div class="row">${sayBtn(w.w)}${sayBtn(w.ex, "Écouter la phrase")}${micBtn(w.w)}${starBtn("v:" + w.w)}</div></div>
+      <div class="tile"><span class="eyebrow">Mot du jour</span><div class="tile-top"><span class="pic big">${w.e}</span></div><h3>${artHtml(w.w)} <span class="ipa small">${esc(w.ipa)}</span></h3>${w.pl ? `<span class="plural">Pl. ${esc(w.pl)}</span>` : ""}<p class="example muted">${esc(w.ex)}</p><div class="row">${sayBtn(w.w)}${sayBtn(w.ex, "Écouter la phrase")}${micBtn(w.w)}${starBtn("v:" + w.w)}</div></div>
       <div class="tile"><span class="eyebrow">Chunk du jour</span><div class="tile-top"><span class="pic big">${D.chunkCats[c.c].emoji}</span></div><h3>${esc(c.chunk)}</h3><p class="example muted">${esc(c.ex)}</p><div class="row">${sayBtn(c.chunk)}${sayBtn(c.ex, "Écouter l'exemple")}${starBtn("c:" + c.n)}</div></div>
-      <div class="tile"><span class="eyebrow">Phrasal verb du jour</span><div class="tile-top"><span class="pic big">${p.e}</span></div><h3>${esc(p.pv)}</h3><p class="small">${esc(p.mean)}</p><p class="example muted">${esc(p.ex)}</p><div class="row">${sayBtn(p.pv)}${sayBtn(p.ex, "Écouter l'exemple")}${starBtn("p:" + p.pv)}</div></div>
+      <div class="tile"><span class="eyebrow">Verbe séparable du jour</span><div class="tile-top"><span class="pic big">${p.e}</span></div><h3>${esc(p.pv)}</h3><p class="small">${esc(p.mean)}</p><p class="example muted">${esc(p.ex)}</p><div class="row">${sayBtn(p.pv)}${sayBtn(p.ex, "Écouter l'exemple")}${starBtn("p:" + p.pv)}</div></div>
     </div>
   </section>
 
@@ -476,7 +485,7 @@ function pageLevels() {
       <div class="body">
         <div><span class="eyebrow">Tu sais…</span><ul>${l.can.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
         <div><span class="eyebrow">À travailler</span><ul>${l.focus.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
-        <p class="links small muted">${lvlVocab(l.id).length} mots · ${count(D.grammar, l.id)} points de grammaire · ${count(D.stories, l.id)} histoires · ${count(D.chunks, l.id)} chunks · ${count(D.phrasal, l.id)} phrasal verbs · ${count(D.pron, l.id)} leçons de phonétique · ${D.dictation[l.id].length} dictées · ${count(D.podcasts, l.id)} podcasts</p>
+        <p class="links small muted">${lvlVocab(l.id).length} mots · ${count(D.grammar, l.id)} points de grammaire · ${count(D.stories, l.id)} histoires · ${count(D.chunks, l.id)} chunks · ${count(D.phrasal, l.id)} verbes séparables · ${count(D.pron, l.id)} leçons de phonétique · ${D.dictation[l.id].length} dictées · ${count(D.podcasts, l.id)} podcasts</p>
         <div class="links">${L === l.id ? '<span class="chip" aria-pressed="true">Ton niveau actuel</span><a class="btn" href="#home">Ouvrir mon parcours</a>' : `<button class="btn primary" data-act="set-level" data-l="${l.id}" data-go="home">Choisir le niveau ${l.id}</button>`}</div>
       </div>
     </article>`).join("")}
@@ -510,7 +519,7 @@ function pageAudio() {
         <div class="lines">${sh.lines.map((ln, li) => `<div class="line" id="sh-${si}-${li}">${sayBtn(ln)}${slowBtn(ln)}<span>${esc(ln)}</span></div>`).join("")}</div></div>`).join("")}`;
   } else {
     body = `<div class="reslist">${D.resources.map(r => `<a class="tile" href="${r.url}" target="_blank" rel="noopener"><div class="tile-top"><span class="pic big">${r.e}</span><span class="chip">${r.lvl}</span></div><h3>${esc(r.name)}</h3><p class="muted small">${esc(r.what)}</p></a>`).join("")}</div>
-      <p class="muted small">Ces sites s'ouvrent dans un nouvel onglet. Astuce : écoute toujours avec les sous-titres ou la transcription en anglais, jamais en français.</p>`;
+      <p class="muted small">Ces sites s'ouvrent dans un nouvel onglet. Astuce : écoute toujours avec les sous-titres ou la transcription en allemand, jamais en français.</p>`;
   }
   return `${pageHead("Compréhension orale", "Écoute & dictée", "Tout le texte du site peut être écouté : touche l'icône haut-parleur. Change la voix (UK, US) et la vitesse dans les réglages audio. Pour l'écoute longue, va dans Podcasts.")}
   <div class="tabs" role="tablist">${tabs.map(([id, l]) => `<button role="tab" aria-selected="${state.audioTab === id}" data-act="audio-tab" data-t="${id}">${l}</button>`).join("")}</div>${body}`;
@@ -526,11 +535,11 @@ function lcsDiff(target, typed) {
 
 /* ---------- stories ---------- */
 const STORY_GUIDE = {
-  A1: "Each paragraph has 2 to 4 very short sentences (30 to 40 words). Present simple and present continuous only. Only the 500 most common words.",
-  A2: "Each paragraph has 40 to 60 words. A story in the past simple with common words and short sentences.",
-  B1: "Each paragraph has 60 to 80 words. Natural narrative tenses (past simple, past continuous, past perfect), some common phrasal verbs.",
-  B2: "Each paragraph has 80 to 100 words. Rich vocabulary, a few idioms, varied structures and some dialogue.",
-  C1: "Each paragraph has 90 to 120 words. Sophisticated, idiomatic and nuanced English, complex structures, subtle humour or emotion."
+  A1: "Each paragraph has 2 to 4 very short sentences (30 to 40 words). Present tense only, verb in second position, only the 600 most common German words.",
+  A2: "Each paragraph has 40 to 60 words. A story mostly in the Perfekt (plus war / hatte), common words, short sentences, a few weil / dass clauses.",
+  B1: "Each paragraph has 60 to 80 words. Natural narrative German in the Präteritum, some relative clauses and separable verbs.",
+  B2: "Each paragraph has 80 to 100 words. Rich vocabulary, a few idioms, varied structures (Konjunktiv II, passive) and some dialogue.",
+  C1: "Each paragraph has 90 to 120 words. Sophisticated, idiomatic, nuanced German with complex structures, subtle humour or emotion."
 };
 const STORY_THEMES = [["surprise", "Surprise-moi"], ["travel", "Voyage"], ["work", "Travail & tech"], ["friendship", "Amitié & famille"], ["mystery", "Mystère"], ["funny", "Drôle"], ["abroad", "Vivre à l'étranger"]];
 let storyGen = null;
@@ -538,21 +547,21 @@ function storyGenerate() {
   const L = curLvl(); if (!SAMPLE || storyGen || !L) return;
   const theme = STORY_THEMES.find(t => t[0] === state.storyTheme) || STORY_THEMES[0];
   const ctl = new AbortController(); storyGen = { ctl }; rerender();
-  const prompt = `Write an original short illustrated story for a French-speaking adult learner of English, CEFR level ${L}.
+  const prompt = `Write an original short illustrated story in German (Hochdeutsch) for a French-speaking adult learner, CEFR level ${L}.
 ${STORY_GUIDE[L]}
-Theme: ${theme[0] === "surprise" ? "any engaging everyday theme of your choice" : theme[0]}. Give it a small twist or a human moment. Never use French.
+Theme: ${theme[0] === "surprise" ? "any engaging everyday theme of your choice" : theme[0]}. It can take place in Germany, Austria or Switzerland. Give it a small twist or a human moment. Never use French.
 Reply with only a JSON object:
-{"title": "short title", "e": "one emoji for the cover",
- "scenes": [6 objects {"e": "2 or 3 emojis that illustrate the scene", "t": "the paragraph"}],
- "gloss": {"word or expression exactly as written in the text": ["one emoji", "simple English definition, max 12 words"]},
- "questions": [3 objects {"q": "comprehension question", "o": ["option", "option", "option"], "a": 0}]}
+{"title": "kurzer Titel", "e": "one emoji for the cover",
+ "scenes": [6 objects {"e": "2 or 3 emojis that illustrate the scene", "t": "the paragraph in German"}],
+ "gloss": {"German word or expression exactly as written in the text": ["one emoji", "einfache deutsche Erklärung, max. 12 Wörter"]},
+ "questions": [3 objects {"q": "Verständnisfrage auf Deutsch", "o": ["Option", "Option", "Option"], "a": 0}]}
 The gloss has 4 to 6 entries: useful words for level ${L} that appear in the text.`;
   SAMPLE.json(prompt, { signal: ctl.signal, cache: false })
     .then(r => {
       storyGen = null;
       const scenes = (r && Array.isArray(r.scenes) ? r.scenes : []).filter(s => s && typeof s.t === "string").map(s => ({ e: String(s.e || "📖"), t: s.t }));
       const text = scenes.map(s => s.t).join(" ");
-      const gloss = {}; Object.entries((r && r.gloss) || {}).forEach(([k, v]) => { if (Array.isArray(v) && new RegExp(`\\b${k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(text)) gloss[k] = [String(v[0] || "💬"), String(v[1] || "")]; });
+      const gloss = {}; Object.entries((r && r.gloss) || {}).forEach(([k, v]) => { if (Array.isArray(v) && new RegExp(`(?<![\\p{L}])${k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\p{L}])`, "iu").test(text)) gloss[k] = [String(v[0] || "💬"), String(v[1] || "")]; });
       const questions = (r && Array.isArray(r.questions) ? r.questions : []).filter(x => x && Array.isArray(x.o) && x.o.length === 3 && Number.isInteger(x.a) && x.a >= 0 && x.a < 3).map(x => ({ q: String(x.q), o: x.o.map(String), a: x.a }));
       if (scenes.length < 3) { toast("L'histoire n'a pas pu être écrite correctement. Réessaie."); rerender(); return; }
       const s = { id: "g" + Date.now().toString(36), lvl: L, title: String(r.title || "A new story"), e: String(r.e || "📖"), scenes, gloss, questions, gen: true };
@@ -570,7 +579,7 @@ function pageStories(sub) {
   if (!SAMPLE) genPanel = SAMPLE_STATE === "pending" ? '<p class="muted small">Connexion à Claude…</p>' : '<p class="muted small">Pour créer des histoires illimitées, ouvre le site depuis claude.ai, ou depuis sa version en ligne configurée avec une clé API.</p>';
   else if (storyGen) genPanel = `<div class="row"><span class="muted">Claude écrit ton histoire de niveau ${L}… (20 à 60 secondes)</span><button class="btn ghost" data-act="story-stop">Arrêter</button></div>`;
   else genPanel = `<div class="chips">${STORY_THEMES.map(([id, l]) => `<button class="chip" data-act="story-theme" data-t="${id}" aria-pressed="${state.storyTheme === id}">${l}</button>`).join("")}</div><button class="btn primary" data-act="story-gen" style="align-self:flex-start">Créer une nouvelle histoire ${L}</button>`;
-  return `${pageHead("Lecture", "Mini-histoires", `Des histoires courtes en images, écrites pour le niveau ${L}, avec l'audio. Les mots difficiles sont expliqués par une image et de l'anglais simple, jamais par une traduction. Relis la même histoire plusieurs jours de suite.`)}
+  return `${pageHead("Lecture", "Mini-histoires", `Des histoires courtes en images, écrites pour le niveau ${L}, avec l'audio. Les mots difficiles sont expliqués par une image et de l'allemand simple, jamais par une traduction. Relis la même histoire plusieurs jours de suite.`)}
   <div class="grid wide">${list.map(tile).join("")}</div>
   <section class="panel"><div><span class="eyebrow">Lecture illimitée</span><h2>Une nouvelle histoire à ton niveau</h2><p class="muted small">Claude écrit une histoire inédite de niveau ${L}, avec images, mots expliqués et questions. Elle reste enregistrée dans ce navigateur.</p></div>${genPanel}</section>
   ${gen.length ? `<h2>Tes histoires créées (${gen.length})</h2><div class="grid wide">${gen.map(tile).join("")}</div>` : ""}`;
@@ -579,7 +588,7 @@ function glossify(text, gloss) {
   let html = esc(text);
   const keys = Object.keys(gloss).sort((a, b) => b.length - a.length);
   for (const k of keys) {
-    const re = new RegExp(`\\b(${esc(k).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})\\b`, "i");
+    const re = new RegExp(`(?<![\\p{L}])(${esc(k).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})(?![\\p{L}])`, "iu");
     html = html.replace(re, `<button class="gl" data-act="gloss" data-k="${esc(k)}">$1</button>`);
   }
   return html;
@@ -591,7 +600,7 @@ function storyView(s) {
   <header class="page-head"><div class="row">${lvlTag(s.lvl)}<span class="pic" style="font-size:2rem">${esc(s.e)}</span>${s.gen ? '<span class="chip">Écrite par Claude</span>' : ""}</div><h1>${esc(s.title)}</h1><p>Écoute une première fois sans lire, en regardant seulement les images. Puis écoute en lisant. Les mots surlignés : touche-les pour voir leur image.</p>
   <div class="row"><button class="btn primary" data-act="story-play">${IC.speaker} Écouter toute l'histoire</button><button class="btn" data-act="story-play" data-slow="1">${IC.slow} Version lente</button></div></header>
   <div class="reader">${s.scenes.map((sc, i) => `<div class="scene" id="sc${i}"><div class="strip pic" aria-hidden="true">${esc(sc.e)}</div><div><p class="txt">${glossify(sc.t, s.gloss)}</p><div class="tools">${sayBtn(sc.t, "Écouter ce passage")}${slowBtn(sc.t)}</div></div></div>`).join("")}</div>
-  ${s.questions.length ? `<section class="panel" style="max-width:760px"><h2>Did you understand?</h2>${mcq("story-" + s.id, s.questions, (score, n) => {
+  ${s.questions.length ? `<section class="panel" style="max-width:760px"><h2>Hast du alles verstanden?</h2>${mcq("story-" + s.id, s.questions, (score, n) => {
     if (score >= n - 1 && !known.has("s:" + s.id)) toggleKnown("s:" + s.id);
     return `Score : ${score} / ${n}. ${score >= n - 1 ? "Histoire marquée comme lue ✓" : "Relis l'histoire et réessaie demain."}`;
   })}</section>` : ""}
@@ -620,14 +629,14 @@ function vocabTheme(t) {
   const tabs = [["learn", "Découvrir"], ["listen", "Quiz : écoute → image"], ["write", "Quiz : image → mot"]];
   let body = "";
   if (state.vocabTab === "learn") {
-    body = `<div class="grid tight">${words.map(x => `<div class="tile wcard${known.has("v:" + x.w) ? " known" : ""}">${lvlTag(x.lvl)}<span class="pic">${x.e}</span><span class="word">${esc(x.w)}</span><span class="ipa small">${esc(x.ipa)}</span><span class="ex">${esc(x.ex)}</span><div class="acts">${sayBtn(x.w)}${sayBtn(x.ex, "Écouter la phrase")}${micBtn(x.w)}${starBtn("v:" + x.w)}</div></div>`).join("")}</div>`;
+    body = `<div class="grid tight">${words.map(x => `<div class="tile wcard${known.has("v:" + x.w) ? " known" : ""}">${lvlTag(x.lvl)}<span class="pic">${x.e}</span><span class="word" lang="de">${artHtml(x.w)}</span>${x.pl ? `<span class="plural">Pl. ${esc(x.pl)}</span>` : ""}<span class="ipa small">${esc(x.ipa)}</span><span class="ex">${esc(x.ex)}</span><div class="acts">${sayBtn(x.w)}${sayBtn(x.ex, "Écouter la phrase")}${micBtn(x.w)}${starBtn("v:" + x.w)}</div></div>`).join("")}</div>`;
   } else if (state.vocabTab === "listen") {
     const key = "v-" + t.id + "-" + L; if (!pqs[key]) pqNew(key, words, "word", lvlVocab(L));
     body = `<div class="panel">${pqHtml(key)}</div>`;
   } else {
     if (!state.flash || state.flash.theme !== t.id + L) state.flash = { theme: t.id + L, order: shuffle(words), i: 0, ok: 0 };
     const f = state.flash; const x = f.order[f.i % f.order.length];
-    body = `<div class="panel flash"><div class="flash-card"><span class="pic" style="font-size:5rem">${x.e}</span><p class="muted">Quel est ce mot ? Écris-le${document.body.classList.contains("has-mic") ? " ou dis-le" : ""}.</p>
+    body = `<div class="panel flash"><div class="flash-card"><span class="pic" style="font-size:5rem">${x.e}</span><p class="muted">Quel est ce mot ? Écris-le${document.body.classList.contains("has-mic") ? " ou dis-le" : ""}${/^(der|die|das) /.test(x.w) ? ", avec son article (der, die ou das)" : ""}.</p>
       <input class="dict-input" id="vw-in" style="max-width:320px;text-align:center" autocomplete="off" spellcheck="false" placeholder="…">
       <div class="row" style="justify-content:center"><button class="btn primary" data-act="vw-check">Vérifier</button>${micBtn(x.w)}<button class="btn ghost" data-act="vw-show">Voir la réponse</button></div>
       <div id="vw-res" class="pq-msg" aria-live="polite"></div>
@@ -672,8 +681,9 @@ function pageChunks() {
 
 /* ---------- phrasal verbs ---------- */
 const PARTICLES = [
-  ["up", "complete · increase · appear"], ["down", "decrease · stop · on paper"], ["out", "exit · discover · to the end"], ["in", "enter · join · hand over"],
-  ["off", "leave · stop · disconnect"], ["on", "continue · start · attach"], ["over", "review · from start to end"], ["back", "return · go back"], ["away", "distance · disappear"]
+  ["auf", "up", "öffnen · nach oben · beginnen"], ["ab", "down", "weg · nach unten · Ende"], ["an", "on", "Kontakt · Beginn · anmachen"],
+  ["aus", "out", "nach draußen · Ende · ausmachen"], ["ein", "in", "nach innen · hinein"], ["zurück", "back", "wieder zurück"],
+  ["weg", "away", "weg · Distanz"], ["mit", "with", "zusammen mit jemandem"], ["vor", "fwd", "nach vorne · vorher"], ["zu", "close", "schließen · in Richtung"]
 ];
 function head(x, y, a) { return `<polygon class="dg-head" points="0,0 -11,-6.5 -11,6.5" transform="translate(${x} ${y}) rotate(${a})"/>`; }
 function diagram(p) {
@@ -687,7 +697,10 @@ function diagram(p) {
     on: `<line class="dg-ground" x1="10" y1="72" x2="130" y2="72"/><circle class="dg-ball" cx="40" cy="62" r="9"/><path class="dg-arrow" d="M58 50 H112"/>${head(121, 50, 0)}`,
     over: `<rect class="dg-box" x="52" y="54" width="36" height="34" rx="4"/><path class="dg-arrow" d="M20 84 Q70 -10 116 76"/>${head(120, 84, 70)}<circle class="dg-ball" cx="20" cy="84" r="7"/>`,
     back: `<path class="dg-arrow" d="M22 34 H96 A20 20 0 0 1 96 74 H40"/>${head(31, 74, 180)}<circle class="dg-ball" cx="22" cy="34" r="8"/>`,
-    away: `<circle class="dg-ball" cx="22" cy="53" r="9"/><path class="dg-arrow" d="M38 53 H110" stroke-dasharray="10 7"/>${head(122, 53, 0)}<circle class="dg-ball" cx="128" cy="53" r="3" opacity=".4"/>`
+    away: `<circle class="dg-ball" cx="22" cy="53" r="9"/><path class="dg-arrow" d="M38 53 H110" stroke-dasharray="10 7"/>${head(122, 53, 0)}<circle class="dg-ball" cx="128" cy="53" r="3" opacity=".4"/>`,
+    with: `<circle class="dg-ball" cx="44" cy="64" r="10"/><circle class="dg-ball" cx="96" cy="64" r="10" opacity=".55"/><path class="dg-arrow" d="M44 46 Q70 14 92 40"/>${head(96, 47, 60)}`,
+    fwd: `<line class="dg-ground" x1="14" y1="80" x2="126" y2="80"/><circle class="dg-ball" cx="28" cy="68" r="9"/><path class="dg-arrow" d="M44 68 H112"/>${head(121, 68, 0)}<line class="dg-ground" x1="126" y1="56" x2="126" y2="80"/>`,
+    close: `<line class="dg-ground" x1="70" y1="14" x2="70" y2="86"/><path class="dg-arrow" d="M16 34 H56"/>${head(64, 34, 0)}<path class="dg-arrow" d="M124 66 H84"/>${head(76, 66, 180)}`
   }[p] || "";
   return `<svg viewBox="0 0 140 100" aria-hidden="true">${d}</svg>`;
 }
@@ -704,18 +717,18 @@ function pagePhrasal() {
     if (!state.pf || state.pf.key !== key) state.pf = { key, p: pick(pool), shown: false };
     const p = state.pf.p;
     body = `<div class="flash"><div class="flash-card"><span class="pic" style="font-size:4rem">${p.e}</span><p class="q">${esc(p.mean)}</p>
-      ${state.pf.shown ? `<p class="a">${esc(p.pv)}</p><p class="example muted">${esc(p.ex)}</p><div class="row" style="justify-content:center">${sayBtn(p.ex)}${starBtn("p:" + p.pv)}</div>` : '<p class="muted small">Quel phrasal verb ? Dis-le, puis vérifie.</p>'}
+      ${state.pf.shown ? `<p class="a">${esc(p.pv)}</p><p class="example muted">${esc(p.ex)}</p><div class="row" style="justify-content:center">${sayBtn(p.ex)}${starBtn("p:" + p.pv)}</div>` : '<p class="muted small">Quel verbe séparable ? Dis-le, puis vérifie.</p>'}
       <div class="row" style="justify-content:center">${state.pf.shown ? "" : '<button class="btn primary" data-act="pf-show">Voir la réponse</button>'}<button class="btn" data-act="pf-next">Suivant →</button></div></div></div>`;
   } else {
-    body = `<p class="muted small">${list.length} phrasal verbs</p><div class="grid wide">${list.map(p => `<div class="tile ccard${known.has("p:" + p.pv) ? " known" : ""}"><div class="tile-top"><span class="pic" style="font-size:2.2rem">${p.e}</span><span class="type">${esc(p.type)}</span></div><span class="chunk">${esc(p.pv)}</span><span class="small">${esc(p.mean)}</span><span class="example muted">${esc(p.ex)}</span><div class="acts">${sayBtn(p.pv)}${sayBtn(p.ex, "Écouter l'exemple")}${starBtn("p:" + p.pv)}</div></div>`).join("") || '<p class="empty">Aucun phrasal verb ne correspond.</p>'}</div>`;
+    body = `<p class="muted small">${list.length} verbes séparables</p><div class="grid wide">${list.map(p => `<div class="tile ccard${known.has("p:" + p.pv) ? " known" : ""}"><div class="tile-top"><span class="pic" style="font-size:2.2rem">${p.e}</span><span class="type">${esc(p.type)}</span></div><span class="chunk">${esc(p.pv)}</span><span class="small">${esc(p.mean)}</span><span class="example muted">${esc(p.ex)}</span><div class="acts">${sayBtn(p.pv)}${sayBtn(p.ex, "Écouter l'exemple")}${starBtn("p:" + p.pv)}</div></div>`).join("") || '<p class="empty">Aucun verbe séparable ne correspond.</p>'}</div>`;
   }
   const cats = D.pvCats.map((c, i) => [c, i, atL.filter(p => p.c === i).length]).filter(x => x[2] > 0);
-  return `${pageHead("Verbe + particule", "Phrasal verbs", `${atL.length} phrasal verbs du niveau ${L}, expliqués en anglais simple. Ne les traduis pas : regarde ce que fait la particule. Elle a presque toujours la même logique.`)}
-  ${parts.length ? `<section class="panel"><div><h2>La logique des particules</h2><p class="muted">Touche une particule pour voir ses phrasal verbs. L'accent tombe sur la particule : set <b>UP</b>, figure <b>OUT</b>, give <b>UP</b>.</p></div>
-    <div class="particles">${parts.map(([p, idea]) => `<button class="particle" data-act="pv-part" data-p="${p}" aria-pressed="${state.pvPart === p}">${diagram(p)}<b>${p.toUpperCase()}</b><span class="small muted">${idea}</span></button>`).join("")}</div>
-    <div class="table-wrap"><table class="form-table"><tr><td>Séparable</td><td>Turn <b>off</b> the light. = Turn the light <b>off</b>.</td></tr><tr><td>Avec un pronom</td><td>Turn <b>it</b> off. ✅ · Turn off it. ❌</td></tr><tr><td>Inséparable</td><td>I'm looking <b>for</b> my keys.</td></tr><tr><td>Après to / of / for</td><td>I'm looking forward to <b>meeting</b> you. (-ing)</td></tr></table></div>
+  return `${pageHead("Préfixe + verbe", "Verbes séparables", `${atL.length} verbes séparables du niveau ${L}, expliqués en allemand simple. Au présent, le préfixe part à la fin de la phrase : Ich stehe um 7 Uhr auf. Ne les traduis pas : regarde ce que fait le préfixe, il a souvent la même logique.`)}
+  ${parts.length ? `<section class="panel"><div><h2>La logique des préfixes</h2><p class="muted">Touche un préfixe pour voir ses verbes. L'accent tombe toujours sur le préfixe : <b>AUF</b>stehen, <b>AN</b>rufen, <b>EIN</b>kaufen.</p></div>
+    <div class="particles">${parts.map(([p, dg, idea]) => `<button class="particle" data-act="pv-part" data-p="${p}" aria-pressed="${state.pvPart === p}">${diagram(dg)}<b>${p.toUpperCase()}-</b><span class="small muted">${idea}</span></button>`).join("")}</div>
+    <div class="table-wrap"><table class="form-table"><tr><td>Présent</td><td>Ich rufe dich morgen <b>an</b>.</td></tr><tr><td>Avec un modal</td><td>Ich will dich morgen <b>anrufen</b>.</td></tr><tr><td>Perfekt</td><td>Ich habe dich <b>an<u>ge</u>rufen</b>. (ge au milieu)</td></tr><tr><td>zu + infinitif</td><td>Vergiss nicht, mich <b>an<u>zu</u>rufen</b>.</td></tr><tr><td>Subordonnée</td><td>…, weil ich früh <b>aufstehe</b>. (réuni à la fin)</td></tr></table></div>
   </section>` : ""}
-  <div class="toolbar"><input class="search" id="pv-q" type="search" placeholder="Chercher (ex. up, problem)…" value="${esc(state.pvQ)}" aria-label="Chercher un phrasal verb">
+  <div class="toolbar"><input class="search" id="pv-q" type="search" placeholder="Chercher (ex. auf, Termin)…" value="${esc(state.pvQ)}" aria-label="Chercher un verbe séparable">
     <div class="chips"><button class="chip" data-act="pv-mode" data-m="list" aria-pressed="${state.pvMode === "list"}">Liste</button><button class="chip" data-act="pv-mode" data-m="flash" aria-pressed="${state.pvMode === "flash"}">Révision (cartes)</button></div></div>
   ${cats.length > 1 ? `<div class="chips"><button class="chip" data-act="pv-cat" data-c="all" aria-pressed="${state.pvCat === "all"}">Toutes les situations</button>${cats.map(([c, i, k]) => `<button class="chip" data-act="pv-cat" data-c="${i}" aria-pressed="${state.pvCat === String(i)}"><span class="pic">${c.emoji}</span> ${esc(c.name)} <span class="muted">${k}</span></button>`).join("")}</div>` : ""}
   <div id="pv-body" style="display:flex;flex-direction:column;gap:12px">${body}</div>
@@ -754,8 +767,8 @@ function grammarView(g) {
   <section class="panel"><span class="eyebrow">L'idée</span><p style="font-size:1.08rem;max-width:68ch">${esc(g.idea)}</p>
     <div class="table-wrap"><table class="form-table">${g.form.map(r => `<tr><td>${esc(r[0])}</td><td>${r.slice(1).map(esc).join(" · ")}</td></tr>`).join("")}</table></div></section>
   <section class="panel"><span class="eyebrow">En images</span><div class="exs">${g.ex.map(([e, t]) => `<div class="exline"><span class="pic">${e}</span><span class="t">${esc(t)}</span>${sayBtn(t)}</div>`).join("")}</div></section>
-  <section class="panel"><span class="eyebrow">Le piège du francophone</span><div class="trap"><div class="no"><small>Calque du français</small><span>${esc(g.trap[0])}</span></div><div class="yes"><small>En anglais</small>${esc(g.trap[1])}</div></div></section>
-  <section class="panel"><h2>Check yourself</h2>${mcq("g-" + g.id, g.quiz, (score, n) => {
+  <section class="panel"><span class="eyebrow">Le piège du francophone</span><div class="trap"><div class="no"><small>Calque du français</small><span>${esc(g.trap[0])}</span></div><div class="yes"><small>En allemand</small>${esc(g.trap[1])}</div></div></section>
+  <section class="panel"><h2>Teste dich!</h2>${mcq("g-" + g.id, g.quiz, (score, n) => {
     if (score === n && !known.has("g:" + g.id)) toggleKnown("g:" + g.id);
     return `Score : ${score} / ${n}. ${score === n ? "Point validé ✓" : "Relis l'idée et le piège, puis fais les exercices en plus ci-dessous."}`;
   })}</section>
@@ -803,11 +816,11 @@ function pagePhonetics() {
 
 /* ---------- tips ---------- */
 function pageTips() {
-  return `<header class="page-head"><span class="eyebrow">Méthode</span><h1>Conseils pour arrêter de traduire</h1><p>Traduire, c'est normal au début : ton cerveau s'appuie sur ce qu'il connaît. Ces ${D.tips.length} habitudes créent peu à peu un chemin direct vers l'anglais. Choisis-en deux cette semaine, pas douze.</p></header>
+  return `<header class="page-head"><span class="eyebrow">Méthode</span><h1>Conseils pour arrêter de traduire</h1><p>Traduire, c'est normal au début : ton cerveau s'appuie sur ce qu'il connaît. Ces ${D.tips.length} habitudes créent peu à peu un chemin direct vers l'allemand. Choisis-en deux cette semaine, pas douze.</p></header>
   <div class="grid wide">${D.tips.map(t => `<article class="tile tip"><span class="pic">${t.e}</span><h3>${esc(t.title)}</h3><p>${esc(t.body)}</p><p class="how"><b>Concrètement :</b> ${esc(t.how)}</p></article>`).join("")}</div>
   <section class="panel"><h2>Ta routine de 30 minutes, dans ton niveau</h2><div class="table-wrap"><table class="form-table">
     <tr><td>5 min</td><td>Vocabulaire : un thème, puis le quiz « écoute → image »</td></tr>
-    <tr><td>5 min</td><td>2 chunks + 3 phrasal verbs, à voix haute, avec une phrase vraie sur ta vie</td></tr>
+    <tr><td>5 min</td><td>2 chunks + 3 verbes séparables, à voix haute, avec une phrase vraie sur ta vie</td></tr>
     <tr><td>10 min</td><td>Grammaire (un point, puis exercices en plus) ou une mini-histoire</td></tr>
     <tr><td>5 min</td><td>Une dictée ou une leçon de phonétique</td></tr>
     <tr><td>5 min</td><td>Parler avec l'IA, ou 15 minutes de podcast pendant les transports</td></tr>
@@ -912,31 +925,31 @@ async function findServerSample() {
 
 /* ---------- podcasts ---------- */
 const POD_GUIDE = {
-  A1: { words: 1600, wpm: 115, guide: "Very slow, very simple English. Short sentences of 5 to 10 words. Only the 600 most common words. Present simple, present continuous, can. Repeat the key words many times. When a new word appears, explain it right away with simple words or an example." },
-  A2: { words: 1800, wpm: 125, guide: "Simple English and short sentences. About the 1,200 most common words. Past simple, going to, comparatives. Repeat and rephrase key ideas. Explain any less common word right away." },
-  B1: { words: 2000, wpm: 135, guide: "Clear, natural English at a relaxed pace. Everyday vocabulary plus common phrasal verbs and idioms, explained naturally in context. A mix of tenses, including the present perfect and conditionals." },
-  B2: { words: 2200, wpm: 150, guide: "Natural conversational English at normal speed: phrasal verbs, collocations, idioms, hedging, opinions with nuance. Now and then, explain an advanced expression." },
-  C1: { words: 2300, wpm: 160, guide: "Sophisticated, idiomatic English between educated native speakers: nuance, irony, abstract vocabulary, complex structures (inversion, cleft sentences, mixed conditionals). Rich but clear." }
+  A1: { words: 1500, wpm: 105, guide: "Very slow, very simple German. Short main clauses of 4 to 8 words, verb in second position. Only the 600 most common words. Present tense and modal verbs. Repeat the key words many times. When a new word appears, explain it right away with simple German or an example." },
+  A2: { words: 1700, wpm: 115, guide: "Simple German and short sentences, about the 1,200 most common words. Perfekt for the past, weil / dass clauses, comparatives. Repeat and rephrase key ideas. Explain any less common word right away." },
+  B1: { words: 1900, wpm: 125, guide: "Clear, natural German at a relaxed pace: everyday vocabulary, separable verbs, common idioms explained in context, Präteritum and Konjunktiv II where natural." },
+  B2: { words: 2100, wpm: 140, guide: "Natural conversational German at normal speed: idioms, nuanced opinions, connectors (zwar … aber, je … desto), passive and indirect speech where natural. Now and then, explain an advanced expression." },
+  C1: { words: 2200, wpm: 150, guide: "Sophisticated, idiomatic German between educated native speakers: nuance, irony, abstract vocabulary, complex structures (participial attributes, nominal style). Rich but clear." }
 };
-const HOST = { A: "Sam", B: "Alex" };
+const HOST = { A: "Lena", B: "Jonas" };
 function podPrompt(ep) {
   const g = POD_GUIDE[ep.lvl];
-  return `Write the full script of episode ${ep.n} of "Think in English", an English-learning podcast for French speakers. CEFR level: ${ep.lvl}.
+  return `Write the full script of episode ${ep.n} of "Denk auf Deutsch", a German-learning podcast for French speakers. CEFR level: ${ep.lvl}.
 Title: "${ep.title}". Focus: ${ep.focus}.
-Hosts: Sam (line prefix "A:") and Alex (line prefix "B:"). They are two friendly hosts having a real conversation, not giving a lecture. They share personal anecdotes, ask each other questions and react naturally.
+Hosts: Lena (line prefix "A:"), who lives in Berlin, and Jonas (line prefix "B:"), who comes from Vienna and sometimes uses an Austrian word (and explains it). They are two friendly hosts having a real conversation, not giving a lecture. They share personal anecdotes, ask each other questions and react naturally. They say "du" to each other.
 Length: about ${g.words} words of dialogue, which is about 15 minutes of audio. The length matters: do not stop early.
-Language: ${g.guide}
-Never use French. Explain meanings with simple English, examples and descriptions, so the listener learns to think in English.
-Structure: a warm welcome and the topic; a main conversation with a concrete story and real-life examples (the listener is a software developer who wants to work abroad; use this when it fits); a segment called "Words of the day" where the hosts explain 6 useful words or expressions from the episode with examples; a short recap; a goodbye that invites the listener to answer the quiz.
+Language: the whole script is in German (Hochdeutsch). ${g.guide}
+Never use French. Explain meanings with simple German, examples and descriptions, so the listener learns to think in German.
+Structure: a warm welcome and the topic; a main conversation with a concrete story and real-life examples (the listener is a French software developer who wants to work at a coding school in Berlin, Wolfsburg, Heilbronn or Vienna; use this when it fits); a segment called "Wörter des Tages" where the hosts explain 6 useful words or expressions from the episode with examples (nouns always with their article); a short recap; a goodbye that invites the listener to answer the quiz.
 Each turn is 1 to 5 sentences. Between 50 and 90 turns.
 
 Output format: plain text, one item per line, no headings, no Markdown, nothing else:
-A: <what Sam says>
-B: <what Alex says>
+A: <what Lena says>
+B: <what Jonas says>
 (all the dialogue lines, in order)
-VOCAB: <word or expression> | <simple English definition> | <one emoji>
+VOCAB: <German word or expression, nouns with der/die/das> | <einfache deutsche Erklärung> | <one emoji>
 (exactly 6 VOCAB lines: the words of the day)
-QUIZ: <question about the episode> | <option 1> | <option 2> | <option 3> | <number of the correct option, 1 to 3>
+QUIZ: <Frage zur Folge auf Deutsch> | <Option 1> | <Option 2> | <Option 3> | <number of the correct option, 1 to 3>
 (exactly 5 QUIZ lines)`;
 }
 function parsePod(text) {
@@ -944,7 +957,7 @@ function parsePod(text) {
   for (const raw of text.split("\n")) {
     const l = raw.trim().replace(/^[*_]+|[*_]+$/g, "");
     let m;
-    if ((m = l.match(/^(A|B|Sam|Alex)\s*:\s*(.+)$/))) lines.push({ s: m[1] === "Sam" ? "A" : m[1] === "Alex" ? "B" : m[1], t: m[2].trim() });
+    if ((m = l.match(/^(A|B|Lena|Jonas)\s*:\s*(.+)$/))) lines.push({ s: m[1] === "Lena" ? "A" : m[1] === "Jonas" ? "B" : m[1], t: m[2].trim() });
     else if ((m = l.match(/^VOCAB\s*:\s*(.+)$/i))) { const p = m[1].split("|").map(x => x.trim()); if (p[0]) vocab.push({ w: p[0], d: p[1] || "", e: p[2] || "💬" }); }
     else if ((m = l.match(/^QUIZ\s*:\s*(.+)$/i))) { const p = m[1].split("|").map(x => x.trim()); const a = parseInt(p[4], 10) - 1; if (p.length >= 5 && a >= 0 && a < 3) quiz.push({ q: p[0], o: p.slice(1, 4), a }); }
   }
@@ -952,7 +965,7 @@ function parsePod(text) {
 }
 const wordCount = lines => lines.reduce((a, l) => a + l.t.split(/\s+/).filter(Boolean).length, 0);
 let podGen = null;
-function podReady(id) { try { return localStorage.getItem("tie:pod:" + id) != null; } catch (e) { return false; } }
+function podReady(id) { try { return localStorage.getItem("dad:pod:" + id) != null; } catch (e) { return false; } }
 function podGenerate(ep) {
   if (!SAMPLE || podGen) return;
   const ctl = new AbortController();
@@ -986,7 +999,7 @@ async function podGenerateInTwoParts(ep, ctl) {
   const p1 = await SAMPLE(`${base}\n\nIMPORTANT: write only the FIRST HALF of the episode now: the welcome and the first part of the main conversation, about ${half} words, 25 to 45 turns. Stop in the middle of the conversation. No goodbye, no VOCAB lines, no QUIZ lines.`,
     { signal: ctl.signal, onText: ({ text }) => { podGen.text = text; podLive(ep); } });
   const first = p1.text.trim();
-  const p2 = await SAMPLE(`${base}\n\nThe first half of the script is already written:\n\n${first}\n\nNow write ONLY the SECOND HALF, continuing naturally from the last line (do not repeat anything): the rest of the main conversation, the "Words of the day" segment, the recap and the goodbye, about ${half} words. Then the 6 VOCAB lines and the 5 QUIZ lines.`,
+  const p2 = await SAMPLE(`${base}\n\nThe first half of the script is already written:\n\n${first}\n\nNow write ONLY the SECOND HALF, continuing naturally from the last line (do not repeat anything): the rest of the main conversation, the "Wörter des Tages" segment, the recap and the goodbye, about ${half} words. Then the 6 VOCAB lines and the 5 QUIZ lines.`,
     { signal: ctl.signal, onText: ({ text }) => { podGen.text = first + "\n" + text; podLive(ep); } });
   return { text: first + "\n" + p2.text, truncated: p2.truncated };
 }
@@ -1010,7 +1023,7 @@ function pagePodcasts(sub) {
   if (sub) { const ep = D.podcasts.find(x => x.id === sub); if (ep) return podcastView(ep); }
   const L = curLvl();
   const list = D.podcasts.filter(p => p.lvl === L);
-  return `${pageHead("Écoute longue", "Podcasts", `${list.length} épisodes d'environ 15 minutes pour le niveau ${L}. Sam et Alex discutent d'un sujet de la vie réelle, à ton niveau, sans jamais traduire. Chaque épisode a sa transcription, ses 6 mots du jour et un quiz. Claude écrit chaque épisode la première fois que tu l'ouvres (environ une minute), puis il reste enregistré dans ce navigateur.`)}
+  return `${pageHead("Écoute longue", "Podcasts", `${list.length} épisodes d'environ 15 minutes pour le niveau ${L}. Lena (Berlin) et Jonas (Vienne) discutent d'un sujet de la vie réelle, à ton niveau, sans jamais traduire. Chaque épisode a sa transcription, ses 6 mots du jour et un quiz. Claude écrit chaque épisode la première fois que tu l'ouvres (environ une minute), puis il reste enregistré dans ce navigateur.`)}
   <div class="grid">${list.map(p => { const ready = podReady(p.id); return `<a class="tile" href="#podcasts-${p.id}"><div class="tile-top"><span class="eyebrow">Épisode ${p.n}</span>${lvlTag(p.lvl)}</div><h3>${esc(p.title)}</h3><p class="muted small">${esc(p.focus)}</p><p class="small">${known.has("e:" + p.id) ? "Écouté ✓" : ready ? "Prêt à écouter" : '<span class="muted">À créer</span>'}</p></a>`; }).join("")}</div>`;
 }
 function podcastView(ep) {
@@ -1045,7 +1058,7 @@ function podcastView(ep) {
       </section>
       <section class="panel"><h2>Transcription</h2><p class="muted small">Touche le haut-parleur d'une ligne pour reprendre l'écoute à partir de là.</p>
         <div class="lines transcript${state.podHide ? " hide" : ""}" id="pod-tr">${d.lines.map((l, i) => `<div class="line" id="pl-${i}"><button class="icon-btn" data-act="pod-play" data-id="${ep.id}" data-from="${i}" aria-label="Écouter à partir d'ici" title="Écouter à partir d'ici">${IC.speaker}</button><span class="spk ${l.s}">${HOST[l.s]}</span><span class="t">${esc(l.t)}</span></div>`).join("")}</div></section>
-      ${d.vocab.length ? `<section class="panel"><h2>Words of the day</h2><div class="exs">${d.vocab.map(v => `<div class="exline"><span class="pic">${esc(v.e)}</span><span class="t"><b>${esc(v.w)}</b> — ${esc(v.d)}</span>${sayBtn(v.w)}${starBtn("w:" + v.w.toLowerCase())}</div>`).join("")}</div></section>` : ""}
+      ${d.vocab.length ? `<section class="panel"><h2>Wörter des Tages</h2><div class="exs">${d.vocab.map(v => `<div class="exline"><span class="pic">${esc(v.e)}</span><span class="t"><b>${artHtml(v.w)}</b> — ${esc(v.d)}</span>${sayBtn(v.w)}${starBtn("w:" + v.w.toLowerCase())}</div>`).join("")}</div></section>` : ""}
       ${d.quiz.length ? `<section class="panel"><h2>Quiz</h2>${mcq("pod-" + ep.id, d.quiz, (score, n) => {
         if (score >= n - 1 && !known.has("e:" + ep.id)) toggleKnown("e:" + ep.id);
         return `Score : ${score} / ${n}. ${score >= n - 1 ? "Épisode marqué comme écouté ✓" : "Réécoute l'épisode (avec le texte cette fois) et réessaie."}`;
@@ -1060,21 +1073,22 @@ function podcastView(ep) {
 
 /* ---------- chat ---------- */
 const SCENARIOS = [
-  { id: "free", name: "Conversation libre", role: "a friendly English-speaking friend who chats with the learner about their life, interests, work and plans" },
-  { id: "interview", name: "Entretien d'embauche", role: "an interviewer hiring for a developer or pedagogy staff position at a 42 network coding school campus abroad. Ask typical interview questions one at a time (introduction, projects, teamwork, a failure, motivation, the learner's questions), follow up on their answers, and stay professional but warm" },
-  { id: "smalltalk", name: "Pause café au travail", role: "a new colleague during a coffee break, making small talk about the weekend, the city, work and hobbies" },
-  { id: "restaurant", name: "Au restaurant", role: "a waiter in a London restaurant. Take the order, answer questions about the menu, and at some point handle a small problem (a missing dish, a wrong bill)" },
-  { id: "travel", name: "Voyage & hôtel", role: "first a hotel receptionist at check-in, then a local person the learner asks for directions and recommendations" },
-  { id: "project", name: "Présenter un projet", role: "a curious non-technical manager who asks the learner to explain one of their coding projects simply: what it does, how it works, the hardest part, what they learnt" },
-  { id: "debate", name: "Débat", role: "a friendly debate partner. Choose a light topic (remote work, social media, AI, city vs countryside), take the side opposite to the learner, and challenge their arguments politely" },
-  { id: "teacher", name: "Question au prof", role: "a patient English teacher who answers the learner's questions about grammar, vocabulary and pronunciation with simple explanations and many examples, then gives a tiny exercise" }
+  { id: "free", name: "Conversation libre", role: "a friendly German-speaking friend in Berlin who chats with the learner about their life, interests, work and plans. Use du" },
+  { id: "interview", name: "Entretien d'embauche (42)", role: "an interviewer hiring for a developer or pedagogy staff position at a 42 network campus in Germany or Austria (Berlin, Wolfsburg, Heilbronn or Vienna). Use Sie. Ask typical interview questions one at a time (Vorstellung, projects, teamwork, a failure, motivation, the learner's questions), follow up on their answers, and stay professional but warm" },
+  { id: "amt", name: "À l'Amt (Anmeldung)", role: "a clerk at a Berlin Bürgeramt. Use Sie. The learner wants to register their address (Anmeldung). Ask for the documents (Reisepass, Wohnungsgeberbestätigung), ask them to spell their name, and at some point create a small bureaucratic problem they must solve politely" },
+  { id: "wg", name: "Visiter une WG", role: "a young person showing a free room in their shared flat (WG) in Berlin. Use du. Ask the learner about themselves, explain the house rules, the rent and the Nebenkosten, and answer their questions" },
+  { id: "smalltalk", name: "Pause café au travail", role: "a new colleague during a coffee break, making small talk about the weekend, the city, work and hobbies. Use du" },
+  { id: "cafe", name: "Au café / à la boulangerie", role: "a friendly staff member in a Viennese café or a German bakery. Use Sie. Take the order, answer questions, make a little small talk, and at some point handle a small problem (no more Brezeln, a wrong bill)" },
+  { id: "project", name: "Présenter un projet", role: "a curious non-technical manager who asks the learner to explain one of their coding projects simply: what it does, how it works, the hardest part, what they learnt. Use Sie" },
+  { id: "debate", name: "Débat", role: "a friendly debate partner. Choose a light topic (Homeoffice, social media, AI, city vs countryside, Tempolimit auf der Autobahn), take the side opposite to the learner, and challenge their arguments politely. Use du" },
+  { id: "teacher", name: "Question au prof", role: "a patient German teacher who answers the learner's questions about grammar (cases, word order, genders), vocabulary and pronunciation with simple explanations and many examples, then gives a tiny exercise. Use du" }
 ];
 const CHAT_LVL = {
-  A1: "very short, very simple sentences; only basic, common words; mostly present tense",
-  A2: "short, simple sentences with common words",
-  B1: "clear everyday English with some common phrasal verbs",
-  B2: "natural English with phrasal verbs, collocations and a few idioms",
-  C1: "fully natural, idiomatic English with nuance"
+  A1: "very short, very simple German sentences; only basic, common words; present tense; verb in second position",
+  A2: "short, simple German sentences with common words; Perfekt for the past",
+  B1: "clear everyday German with some separable verbs and common expressions",
+  B2: "natural German with idioms, connectors and some subordinate clauses",
+  C1: "fully natural, idiomatic German with nuance"
 };
 const chat = Object.assign({ sc: "free", msgs: [] }, store.get("chat", {}));
 delete chat.lvl;
@@ -1085,15 +1099,15 @@ let chatCtl = null, chatErr = null, chatSugg = null;
 const saveChat = () => store.set("chat", { sc: chat.sc, msgs: chat.msgs.slice(-60) });
 function chatRules() {
   const sc = SCENARIOS.find(s => s.id === chat.sc) || SCENARIOS[0];
-  return `You are an English conversation partner on a learning website. The learner is a French speaker, CEFR level ${chat.lvl}. Their main difficulty is that they translate from French in their head, so help them think directly in English.
+  return `You are a German conversation partner on a learning website. The learner is a French speaker, CEFR level ${chat.lvl}. Their main difficulty is that they translate from French in their head, so help them think directly in German.
 Your role: ${sc.role}.
 Rules:
 - Stay in your role and keep the conversation going. Reply in 1 to 4 sentences, then ask one question.
 - Language level: ${CHAT_LVL[chat.lvl]}.
-- Write only in English. If the learner writes in French or mixes languages, reply in simple English and give them a model sentence to say instead.
+- Write only in German (Hochdeutsch). If the learner writes in French or mixes languages, reply in simple German and give them a model sentence to say instead.
 - If the learner seems stuck, offer two simple ways to answer.
 - Plain text only: no Markdown, no emojis, no bullet lists in your reply.
-${settings.chatFix ? '- After your reply, if the learner\'s LAST message contains mistakes (grammar, word choice, unnatural phrasing, French calques), add a line "### CORRECTIONS" followed by up to 3 lines like "- wrong words → better words (very short reason in simple English)". Only real mistakes. If there are none, write nothing after your reply.' : "- Do not correct the learner's mistakes."}`;
+${settings.chatFix ? '- After your reply, if the learner\'s LAST message contains mistakes (grammar, case, gender, word order, word choice, French calques), add a line "### CORRECTIONS" followed by up to 3 lines like "- falsche Wörter → bessere Wörter (sehr kurze Erklärung auf einfachem Deutsch)". Only real mistakes. If there are none, write nothing after your reply.' : "- Do not correct the learner's mistakes."}`;
 }
 function parseChat(text) {
   const parts = text.split(/\n?\s*#{2,3}\s*CORRECTIONS?\s*:?\s*\n?/i);
@@ -1137,7 +1151,7 @@ function chatSuggest() {
   if (!SAMPLE || chatCtl) return;
   const last = chat.msgs.slice(-6).map(m => (m.r === "u" ? "Learner: " : "Partner: ") + m.t).join("\n");
   chatSugg = "loading"; renderChatLog();
-  SAMPLE.json(`A French learner of English (CEFR ${chat.lvl}) is in this conversation:\n\n${last}\n\nSuggest 3 different short replies (at most 15 words each) the learner could say next, natural and at their level. Reply with only a JSON array of 3 strings.`, { modelTier: "quick", cache: false })
+  SAMPLE.json(`A French learner of German (CEFR ${chat.lvl}) is in this conversation:\n\n${last}\n\nSuggest 3 different short replies in German (at most 15 words each) the learner could say next, natural and at their level. Reply with only a JSON array of 3 strings.`, { modelTier: "quick", cache: false })
     .then(arr => { chatSugg = Array.isArray(arr) ? arr.map(String).slice(0, 3) : null; renderChatLog(); })
     .catch(e => { chatSugg = null; markDenied(e.code); toast(sampleErr(e.code)); renderChatLog(); });
 }
@@ -1163,8 +1177,8 @@ function renderChatLog() {
 function pageChat() {
   if (!SAMPLE) return `<header class="page-head"><span class="eyebrow">Conversation</span><h1>Parler avec l'IA</h1></header>${sampleUnavailable("Le chat")}`;
   setTimeout(renderChatLog, 0);
-  const quick = ["Can you say that more simply?", "Sorry, could you repeat that?", "What does that word mean?", "How do you say it in English?"];
-  return `${pageHead("Conversation", "Parler avec l'IA", `Un partenaire de conversation qui parle au niveau ${chat.lvl}. Écris ou parle au micro, en anglais. Tes erreurs sont corrigées sous ton message, sans traduction.`)}
+  const quick = ["Kannst du das einfacher sagen?", "Wie bitte? Kannst du das wiederholen?", "Was bedeutet dieses Wort?", "Wie sagt man das auf Deutsch?"];
+  return `${pageHead("Conversation", "Parler avec l'IA", `Un partenaire de conversation qui parle au niveau ${chat.lvl}. Écris ou parle au micro, en allemand. Tes erreurs sont corrigées sous ton message, sans traduction.`)}
   <div class="chat-wrap">
     <div class="chips">${SCENARIOS.map(s => `<button class="chip" data-act="chat-sc" data-s="${s.id}" aria-pressed="${chat.sc === s.id}">${esc(s.name)}</button>`).join("")}</div>
     <div class="toolbar"><span class="muted small">Le niveau de langue suit ton niveau (${chat.lvl}).</span>
@@ -1173,7 +1187,7 @@ function pageChat() {
     <div class="chips">${quick.map(q => `<button class="chip" data-act="chat-quick" data-t="${esc(q)}">${esc(q)}</button>`).join("")}<button class="chip" data-act="chat-sugg">Je ne sais pas quoi dire</button></div>
     <div class="chips" id="chat-sugg"></div>
     <p class="small muted" id="chat-partial" aria-live="polite"></p>
-    <div class="chat-input"><textarea id="chat-in" rows="2" placeholder="Write in English… (Entrée pour envoyer, Maj+Entrée pour aller à la ligne)" aria-label="Ton message"></textarea>
+    <div class="chat-input"><textarea id="chat-in" rows="2" placeholder="Schreib auf Deutsch… (Entrée pour envoyer, Maj+Entrée pour aller à la ligne)" aria-label="Ton message"></textarea>
       <button class="icon-btn mic" id="chat-mic" data-act="chat-mic" aria-label="Parler au micro" title="Parler au micro">${IC.mic}</button>
       <button class="btn primary" id="chat-send" data-act="chat-send">Envoyer</button></div>
   </div>`;
@@ -1240,7 +1254,7 @@ const ACTS = {
   },
   "shadow-all": b => { const si = +b.dataset.s; const sh = D.shadowing[si]; const clear = () => $$(".line.playing").forEach(x => x.classList.remove("playing")); Audio.speak(sh.lines.map((t, li) => ({ text: t, id: `sh-${si}-${li}` })), { rate: b.dataset.slow ? 0.75 : undefined, onLine: id => { clear(); if (id) { const el = document.getElementById(id); if (el) el.classList.add("playing"); } }, onEnd: clear }); },
   "vocab-tab": b => { state.vocabTab = b.dataset.t; state.flash = null; rerender(); },
-  "vw-check": () => { const f = state.flash; const x = f.order[f.i % f.order.length]; const ok = norm($("#vw-in").value) === norm(x.w.split(" / ")[0].replace(/\(.*?\)/g, "")); const r = $("#vw-res"); if (ok) { if (!f.answered) f.ok++; f.answered = true; r.innerHTML = `<span style="color:var(--good)">Oui : ${esc(x.w)}</span> <span class="ipa">${esc(x.ipa)}</span> <button class="btn" data-act="vw-next">Suivant →</button>`; Audio.speak(x.w); } else { f.answered = true; r.innerHTML = `<span style="color:var(--bad)">Pas tout à fait.</span> <button class="btn ghost" data-act="vw-show">Voir la réponse</button>`; } },
+  "vw-check": () => { const f = state.flash; const x = f.order[f.i % f.order.length]; const typed = norm($("#vw-in").value), want = norm(x.w.split(" / ")[0].replace(/\(.*?\)/g, "")); const ok = typed === want; const r = $("#vw-res"); if (!ok && /^(der|die|das) /.test(x.w) && typed === want.replace(/^(der|die|das) /, "")) { r.innerHTML = `<span style="color:var(--spark)">Presque ! N'oublie pas l'article : ${artHtml(x.w)}</span>`; return; } if (ok) { if (!f.answered) f.ok++; f.answered = true; r.innerHTML = `<span style="color:var(--good)">Oui : ${artHtml(x.w)}</span> <span class="ipa">${esc(x.ipa)}</span> <button class="btn" data-act="vw-next">Suivant →</button>`; Audio.speak(x.w); } else { f.answered = true; r.innerHTML = `<span style="color:var(--bad)">Pas tout à fait.</span> <button class="btn ghost" data-act="vw-show">Voir la réponse</button>`; } },
   "vw-show": () => { const f = state.flash; const x = f.order[f.i % f.order.length]; f.answered = true; $("#vw-res").innerHTML = `${esc(x.w)} <span class="ipa">${esc(x.ipa)}</span> <button class="btn" data-act="vw-next">Suivant →</button>`; Audio.speak(x.w); },
   "vw-next": () => { state.flash.i++; state.flash.answered = false; rerender(); setTimeout(() => { const i = $("#vw-in"); if (i) i.focus(); }, 0); },
   "chunk-cat": b => { state.chunkCat = b.dataset.c; state.chunkLimit = 60; rerender(); },

@@ -1,4 +1,4 @@
-# Mettre Think in English en ligne sur Netlify
+# Mettre Denk auf Deutsch en ligne sur Netlify
 
 Le site est statique (`index.html`, `app.js`, `data/`). Les fonctions qui utilisent Claude passent par une fonction serveur, [netlify/functions/claude.mjs](netlify/functions/claude.mjs), disponible à l'adresse `/api/claude`. Ces fonctions sont les exercices en plus, les histoires créées, les podcasts et le chat. La clé API reste sur le serveur : le navigateur ne la voit jamais.
 
@@ -11,7 +11,7 @@ Le site est statique (`index.html`, `app.js`, `data/`). Les fonctions qui utilis
 ## 2. Déployer
 
 1. Pousse le dépôt sur GitHub (`git push`).
-2. Sur https://app.netlify.com : **Add new site → Import an existing project → GitHub →** choisis `ThinkInEnglish`.
+2. Sur https://app.netlify.com : **Add new site → Import an existing project → GitHub →** choisis `ThinkInGerman`.
 3. Laisse **Build command** vide. Le **Publish directory** est déjà réglé par `netlify.toml`. Netlify installe tout seul le SDK listé dans `package.json`.
 4. Dans **Site configuration → Environment variables**, ajoute :
 

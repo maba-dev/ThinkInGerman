@@ -1,0 +1,140 @@
+window.DATA = window.DATA || {};
+/* Phonetik. IPA chart of German, with picture words and tips for French speakers.
+   hard: 2 = doesn't exist in French, 1 = close but different, 0 = same as French */
+DATA.ipa = {
+  short: [
+    { s: "a", hard: 0, w: [["👨", "Mann"], ["✋", "Hand"], ["🏙️", "Stadt"]], tip: "Un « a » français, mais bref et net." },
+    { s: "ɛ", hard: 0, w: [["🛏️", "Bett"], ["🏁", "Ende"], ["🍽️", "essen"]], tip: "Le « è » de « mère », bref." },
+    { s: "ɪ", hard: 2, w: [["👶", "Kind"], ["🪑", "Tisch"], ["🤌", "mit"]], tip: "Plus relâché que le « i » français, entre « i » et « é ». Kind ≠ « kinte »." },
+    { s: "ɔ", hard: 0, w: [["☀️", "Sonne"], ["👤", "Kopf"], ["🌙", "Woche"]], tip: "« o » ouvert et bref, comme dans « porte »." },
+    { s: "ʊ", hard: 2, w: [["👄", "Mund"], ["🐶", "Hund"], ["👩", "Mutter"]], tip: "« ou » très bref et relâché, lèvres peu arrondies." },
+    { s: "ʏ", hard: 2, w: [["🍀", "Glück"], ["5️⃣", "fünf"], ["🗑️", "Müll"]], tip: "Le « u » français, mais bref et plus relâché. Glück ≠ « gluk » avec u long." },
+    { s: "œ", hard: 1, w: [["🥄", "Löffel"], ["1️⃣2️⃣", "zwölf"], ["⛪", "Köln"]], tip: "Le « eu » de « peur », bref." },
+    { s: "ə", hard: 1, w: [["🙏", "bitte"], ["🐱", "Katze"], ["🔑", "Miete"]], tip: "Le schwa : un « e » très faible, comme dans « le ». Jamais muet en fin de mot : bitte = « bit-te »." },
+    { s: "ɐ", hard: 2, w: [["💧", "Wasser"], ["👩‍🏫", "Lehrer"], ["🔍", "hier"]], tip: "Le « r vocalique » : en fin de syllabe, -er et r se prononcent comme un « a » sombre. Wasser = « vassa », pas « vasseur » !" }
+  ],
+  long: [
+    { s: "aː", hard: 0, w: [["🚆", "Bahn"], ["📅", "Tag"], ["⚖️", "Wahl"]], tip: "« a » long. Indices d'une voyelle longue : h muet (Bahn), voyelle double (Saal), une seule consonne après (Tag)." },
+    { s: "eː", hard: 1, w: [["🍵", "Tee"], ["🌊", "See"], ["🚶", "gehen"]], tip: "« é » fermé et LONG, sans glisser vers « i » comme en anglais." },
+    { s: "iː", hard: 0, w: [["🍺", "Bier"], ["❤️", "Liebe"], ["🔍", "hier"]], tip: "« i » long. L'orthographe ie = toujours « i » long : Liebe, Brief, viel." },
+    { s: "oː", hard: 0, w: [["🍞", "Brot"], ["🚤", "Boot"], ["🔴", "rot"]], tip: "« ô » fermé et long, comme dans « beau »." },
+    { s: "uː", hard: 0, w: [["👟", "Schuh"], ["👍", "gut"], ["🍰", "Kuchen"]], tip: "« ou » long." },
+    { s: "yː", hard: 1, w: [["🚪", "Tür"], ["🟢", "grün"], ["🌉", "über"]], tip: "Le « u » français, LONG. Tür ≠ Tour. Astuce : dis « i » et arrondis les lèvres." },
+    { s: "øː", hard: 0, w: [["🌸", "schön"], ["🛢️", "Öl"], ["👂", "hören"]], tip: "Le « eu » de « peu », long. schön ≠ schon." },
+    { s: "ɛː", hard: 1, w: [["🧀", "Käse"], ["⏰", "spät"], ["🐻", "Bär"]], tip: "« è » long : ä long. Beaucoup d'Allemands le prononcent comme un « é » long." }
+  ],
+  diph: [
+    { s: "aɪ̯", hard: 0, w: [["🥚", "Ei"], ["3️⃣", "drei"], ["🍷", "Wein"]], tip: "ei / ai = « aï ». Piège : ei se dit « aï », ie se dit « i » : Wein ≠ Wien." },
+    { s: "aʊ̯", hard: 0, w: [["🏠", "Haus"], ["👩", "Frau"], ["🐭", "Maus"]], tip: "au = « aou », jamais « ô » comme en français !" },
+    { s: "ɔʏ̯", hard: 1, w: [["🆕", "neu"], ["👥", "Leute"], ["🏘️", "Häuser"]], tip: "eu / äu = « oï ». Deutsch = « doïtch »." }
+  ],
+  cons: [
+    { s: "ç", hard: 2, w: [["🙋", "ich"], ["🥛", "Milch"], ["👧", "Mädchen"]], tip: "Le « ich-Laut » : souffle sur le dessus de la langue, comme un chat qui crache doucement. Ni « ch » français, ni « k ». Après i, e, ä, ö, ü, ei, eu, l, n, r et dans -chen." },
+    { s: "x", hard: 2, w: [["📖", "Buch"], ["8️⃣", "acht"], ["🍰", "Kuchen"]], tip: "Le « ach-Laut » : raclement doux au fond de la gorge, comme la jota espagnole. Après a, o, u, au." },
+    { s: "ʁ", hard: 0, w: [["🔴", "rot"], ["🍞", "Brot"], ["🌧️", "Regen"]], tip: "Le R du début de syllabe : comme le R français. En fin de syllabe il devient voyelle (ɐ)." },
+    { s: "h", hard: 2, w: [["🏠", "Haus"], ["🐶", "Hund"], ["🎩", "Hut"]], tip: "Un vrai souffle au début du mot : Haus ≠ aus. Après une voyelle, h est muet et l'allonge (gehen, Bahn)." },
+    { s: "ʃ", hard: 1, w: [["🏫", "Schule"], ["🏙️", "Stadt"], ["⚽", "Sport"]], tip: "sch = « ch ». ATTENTION : st- et sp- en début de mot = « cht » et « chp » : Stadt = « chtatt », Sport = « chport »." },
+    { s: "ts", hard: 1, w: [["⏰", "Zeit"], ["🚆", "Zug"], ["🐱", "Katze"]], tip: "z (et tz) = « ts » : Zeit = « tsaït ». Jamais « z » comme en français !" },
+    { s: "pf", hard: 2, w: [["🍎", "Apfel"], ["🐴", "Pferd"], ["🩹", "Pflaster"]], tip: "p + f en un seul geste : lèvres fermées, puis souffle sur la lèvre inférieure." },
+    { s: "ŋ", hard: 1, w: [["🎤", "singen"], ["📏", "lang"], ["💍", "Ring"]], tip: "ng = un seul son nasal au fond de la bouche, sans « g » audible : singen = « zing-en »." },
+    { s: "j", hard: 0, w: [["👍", "ja"], ["📅", "Jahr"], ["🧥", "Jacke"]], tip: "j = « y » de « yaourt ». Jacke = « yake »." },
+    { s: "v", hard: 1, w: [["💧", "Wasser"], ["🍷", "Wein"], ["🌲", "Wald"]], tip: "La lettre W se prononce « v » : Wein = « vaïn »." },
+    { s: "f", hard: 1, w: [["👨", "Vater"], ["4️⃣", "vier"], ["🐟", "Fisch"]], tip: "La lettre V se prononce presque toujours « f » : Vater, vier, viel. Exceptions : mots étrangers (Vase, Video)." },
+    { s: "z", hard: 1, w: [["☀️", "Sonne"], ["🌹", "Rose"], ["7️⃣", "sieben"]], tip: "s devant une voyelle = « z » : Sonne = « zonne », sieben = « zîben »." },
+    { s: "s", hard: 0, w: [["🛣️", "Straße"], ["🦶", "Fuß"], ["🏠", "Haus"]], tip: "ß et s en fin de mot = « s » sourd." },
+    { s: "ʔ", hard: 2, w: [["🔚", "beenden"], ["🍽️", "Abendessen"], ["🥚", "ein Ei"]], tip: "Le coup de glotte : une petite coupure avant une voyelle en début de mot ou de syllabe. Pas de liaison en allemand : ein | Ei, pas « ei-nEi »." },
+    { s: "p · t · k", hard: 1, w: [["🍕", "Pizza"], ["🍵", "Tee"], ["🐱", "Katze"]], tip: "Aspirés en début de mot : un petit souffle après. Mets ta main devant ta bouche !" }
+  ]
+};
+
+DATA.pairs = [
+  { id: "u", label: "ü / u", hint: "ü = « u » français · u = « ou »", items: [["🍳","Küche","🍰","Kuchen"],["🚪","Tür","🧭","Tour"],["👩‍👧‍👦","Mütter","👩","Mutter"],["👇","drücken","🖨️","drucken"]] },
+  { id: "o", label: "ö / o, ö / e", hint: "ö = « eu » · o = « o »", items: [["🌸","schön","⏱️","schon"],["👧👧","Töchter","👧","Tochter"],["💪","können","🤝","kennen"]] },
+  { id: "ch", label: "ich / isch", hint: "ç (chat qui crache) vs ch français", items: [["⛪","Kirche","🍒","Kirsche"],["🙋","mich","🥣","misch"],["🧑","Männchen","👥","Menschen"]] },
+  { id: "len", label: "voyelle longue / brève", hint: "longue avec h, voyelle double ou une consonne · brève devant 2 consonnes", items: [["🏛️","Staat","🏙️","Stadt"],["🔑","Miete","🎯","Mitte"],["🎩","Hüte","🛖","Hütte"],["🔥","Ofen","🚪","offen"],["🌷","Beet","🛏️","Bett"]] },
+  { id: "h", label: "h / rien", hint: "souffle comme sur une vitre", items: [["🏠","Haus","🚪","aus"],["🔥","heiß","🍦","Eis"],["🐶","Hund","➕","und"],["🧣","Hals","⚖️","als"]] },
+  { id: "w", label: "w (v) / v (f)", hint: "W = « v » · V = « f »", items: [["👥","wir","4️⃣","vier"],["🍷","Wein","✨","fein"],["🌲","Wald","🌾","Feld"]] },
+  { id: "z", label: "s (z) / z (ts)", hint: "s + voyelle = « z » · z = « ts »", items: [["⏳","seit","⏰","Zeit"],["👀","sehen","🔟","zehn"],["🏛️","Saal","🔢","Zahl"]] },
+  { id: "ei", label: "ei / ie", hint: "ei = « aï » · ie = « i » long", items: [["🍷","Wein","🏙️","Wien"],["😢","Leid","🎵","Lied"],["🦵","Bein","🐝","Biene"]] }
+];
+
+/* Pronunciation lessons (4–5 per level). ex = [what to listen to, note]. */
+DATA.pron = [
+  { id: "alphabet", lvl: "A1", e: "🔤", title: "L'alphabet et épeler",
+    body: "Pour épeler ton nom ou ton e-mail au téléphone ou à l'Amt, il faut l'alphabet allemand. Pièges : E = « é », I = « i », J = « yott », V = « faou », W = « vé », Y = « upsilon », Z = « tsett », ß = « ess-tsett ». Ä, Ö, Ü s'épellent « a-umlaut »… ou simplement avec leur son. @ = « at », . = « Punkt ».",
+    ex: [["A, E, I, O, U", "a · é · i · o · ou"], ["J, V, W, Z", "yott · faou · vé · tsett"], ["Ich heiße Malik: M, A, L, I, K.", ""], ["malik punkt ba at gmail punkt com", "malik.ba@gmail.com"]],
+    quiz: [
+      { q: "Comment se dit la lettre W ?", o: ["double-vé", "vé", "ou"], a: 1 },
+      { q: "Et la lettre V ?", o: ["vé", "faou", "fé"], a: 1 },
+      { q: "La lettre Z se dit…", o: ["zèd", "tsett", "zett"], a: 1 } ] },
+  { id: "umlaute", lvl: "A1", e: "😗", title: "Les Umlaute : ä, ö, ü",
+    body: "Bonne nouvelle : le français a déjà ces sons ! ü = le « u » de « tu », ö = le « eu » de « peu », ä = « è ». Le piège, c'est de les prononcer « ou » et « o » comme dans la lettre sans points : schön ≠ schon, Tür ≠ Tour. Astuce pour ü : dis « i » et arrondis les lèvres sans bouger la langue.",
+    ex: [["Tür · grün · fünf · müde", "ü"], ["schön · hören · zwölf", "ö"], ["Käse · spät · Mädchen", "ä"], ["Die Tür ist grün und schön.", ""]] },
+  { id: "ch", lvl: "A1", e: "🐱", title: "ich et ach : les deux « ch »",
+    body: "Le ch allemand n'est jamais le « ch » français. Après a, o, u, au : son du fond de la gorge (ach-Laut), comme la jota espagnole. Partout ailleurs (après i, e, ü, ö, ei, eu, l, r, n, et dans -chen) : le ich-Laut, un souffle sur le dessus de la langue, comme un chat qui crache doucement. Astuce : dis « hi » en soufflant fort, puis colle la langue un peu plus au palais.",
+    ex: [["ich · mich · dich · nicht", "ich-Laut"], ["acht · Buch · Nacht · auch", "ach-Laut"], ["Ich mache noch Kuchen.", "les deux"], ["Mädchen · Brötchen · Milch", "ich-Laut"]],
+    quiz: [
+      { q: "« Buch » se prononce avec…", o: ["le ich-Laut", "le ach-Laut", "un ch français"], a: 1 },
+      { q: "« Milch » se prononce avec…", o: ["le ich-Laut", "le ach-Laut", "un k"], a: 0 } ] },
+  { id: "wvz", lvl: "A1", e: "🔀", title: "W, V, Z, S : les lettres trompeuses",
+    body: "Quatre lettres qui ne se lisent pas comme en français : W = « v » (Wasser), V = « f » (Vater, vier), Z = « ts » (Zeit, Zug), S + voyelle = « z » (Sonne, sieben). Et sp/st en début de mot = « chp / cht » (Sport, Stadt).",
+    ex: [["Wasser · Wein · Woche", "w = v"], ["Vater · vier · viel", "v = f"], ["Zeit · Zug · zehn · Katze", "z = ts"], ["Sieben Stunden Sport in der Stadt!", "s = z, st = cht, sp = chp"]],
+    quiz: [
+      { q: "« vier » commence par le son…", o: ["v", "f", "w"], a: 1 },
+      { q: "« Zeit » commence par…", o: ["z", "ts", "s"], a: 1 },
+      { q: "« Stadt » commence par…", o: ["st", "cht", "s"], a: 1 } ] },
+  { id: "lang-kurz", lvl: "A2", e: "↔️", title: "Voyelles longues et brèves",
+    body: "En allemand, la longueur change le sens : Staat (État) ≠ Stadt (ville), Miete (loyer) ≠ Mitte (milieu). Règles d'orthographe : voyelle LONGUE devant h muet (Bahn), voyelle double (Boot), ie (Liebe), ou une seule consonne (Tag) ; voyelle BRÈVE devant deux consonnes ou une consonne double (Bett, Mitte, Stadt).",
+    ex: [["Staat · Stadt", "long · bref"], ["Miete · Mitte", ""], ["Ofen · offen", ""], ["Die Miete in der Stadtmitte ist hoch.", ""]] },
+  { id: "diphthonge", lvl: "A2", e: "🎶", title: "ei, ie, eu, au",
+    body: "La règle d'or : ei se dit « aï », ie se dit « i ». Retiens « Wein / Wien » : le vin, la ville. eu et äu se disent « oï » (Deutsch = « doïtch »), au se dit « aou » (jamais « ô »).",
+    ex: [["Wein · Wien · drei · die", "ei = aï, ie = i"], ["Liebe · Leiter · Brief · Preis", ""], ["neu · Leute · Häuser · Deutsch", "eu/äu = oï"], ["Auf Wiedersehen, Frau Neumann!", ""]],
+    quiz: [
+      { q: "« Wien » se prononce…", o: ["vaïn", "vîn", "viène"], a: 1 },
+      { q: "« Leute » se prononce…", o: ["leute", "loïte", "laïte"], a: 1 } ] },
+  { id: "r", lvl: "A2", e: "🌀", title: "Le R allemand et le r « voyelle »",
+    body: "En début de syllabe, le R allemand ressemble au R français (rot, Brot). Mais en fin de syllabe et dans -er, il devient une voyelle, un « a » sombre : Wasser = « vassa », hier = « hia », Lehrer = « léra ». Prononcer « vasseur » est l'accent français le plus reconnaissable !",
+    ex: [["rot · Regen · Brot", "R consonne"], ["Wasser · Lehrer · Mutter · aber", "-er = « a »"], ["hier · mir · vier · Tür", "r final = voyelle"], ["Mein Bruder wohnt hier in der Nähe.", ""]] },
+  { id: "auslaut", lvl: "A2", e: "🔚", title: "b, d, g en fin de mot : p, t, k",
+    body: "En fin de mot (ou de syllabe), b, d, g se prononcent p, t, k : Hund = « hount », Tag = « tâk », gelb = « gelp ». C'est l'« Auslautverhärtung ». Au pluriel, quand une voyelle suit, le son redevient doux : Hunde = « houn-de », Tage = « tâ-gue ». Et -ig final = « -ich » : zwanzig, wichtig.",
+    ex: [["Hund · Tag · Kind · gelb", "d, g, b → t, k, p"], ["Hunde · Tage · Kinder", "redeviennent doux"], ["zwanzig · wichtig · richtig", "-ig = « ich »"], ["Das Kind ist heute richtig müde.", ""]] },
+  { id: "spst", lvl: "A2", e: "🏃", title: "sp et st : « chp » et « cht »",
+    body: "Au début d'un mot (ou d'une partie de mot composé), sp et st se prononcent « chp » et « cht » : Sport, Stadt, verstehen (ver-stehen), Hauptstadt. Au milieu ou à la fin d'une syllabe, normalement : Fenster, ist, Wespe.",
+    ex: [["Sport · spielen · sprechen", "chp"], ["Stadt · Straße · Stunde · verstehen", "cht"], ["ist · Fenster · Wurst · Wespe", "st normal"], ["Ich verstehe die Straßenbahn-Stationen nicht.", ""]] },
+  { id: "betonung", lvl: "B1", e: "📢", title: "L'accent tonique",
+    body: "Le français accentue la DERNIÈRE syllabe ; l'allemand accentue en général la PREMIÈRE syllabe du radical : ARbeit, SPRAche, VAter. Préfixes séparables : accentués (ANrufen, AUFstehen) ; inséparables (be-, ver-, er-, ge-, zer-, ent-) jamais (verSTEhen, beZAHlen). Mots étrangers : souvent sur la fin (UniversiTÄT, InformaTION, StuDENT).",
+    ex: [["ARbeit · SPRAche · WOHnung", "première syllabe"], ["ANrufen · EINkaufen · AUFstehen", "préfixe séparable accentué"], ["verSTEhen · beZAHlen · erKLÄren", "préfixe inséparable non accentué"], ["UniversiTÄT · InformaTION · ProFESsor", "mots étrangers"]] },
+  { id: "glottis", lvl: "B1", e: "⛔", title: "Le coup de glotte : pas de liaison",
+    body: "Le français lie les mots (« les-z-amis »). L'allemand fait le contraire : avant une voyelle en début de mot ou de syllabe, il y a une petite coupure, le coup de glotte. ein | Apfel, ver | eisen (geler) ≠ verreisen (partir en voyage). Sans lui, on te comprend mal, et ça sonne très français.",
+    ex: [["ein | Ei · am | Abend · mein | Onkel", ""], ["be | enden · Ab | endessen · Theater", ""], ["vereisen · verreisen", "ver|eisen ≠ ver-reisen"], ["Er isst am Abend ein Ei.", ""]] },
+  { id: "satzmelodie", lvl: "B1", e: "🎵", title: "La mélodie de la phrase",
+    body: "Questions oui/non : la voix MONTE à la fin (Kommst du mit? ↗). Questions W (wo, was, wann) : la voix DESCEND (Wo wohnst du? ↘). Affirmation : descend. Une voix trop plate ou montante partout sonne étrangère. Les petits mots doch, ja, mal changent la mélodie et le ton : Komm doch mal vorbei! (invitation chaleureuse).",
+    ex: [["Kommst du morgen mit? ↗", "monte"], ["Wo wohnst du? ↘", "descend"], ["Das ist ja toll!", "enthousiasme"], ["Komm doch mal vorbei!", "invitation amicale"]] },
+  { id: "komposita", lvl: "B1", e: "🧱", title: "Les mots composés",
+    body: "L'allemand colle les mots : Haupt + Bahn + Hof = Hauptbahnhof. L’accent principal est presque toujours sur le PREMIER élément : HAUPTbahnhof, KRANkenhaus, KÜHLschrank. Le dernier élément donne le genre : der Bahnhof → der Hauptbahnhof ; die Versicherung → die Krankenversicherung.",
+    ex: [["HAUPTbahnhof · KRANkenhaus · KÜHLschrank", ""], ["Krankenversicherung · Wohnungsgeberbestätigung", "lis morceau par morceau"], ["Lebensmittelgeschäft · Geburtstagsgeschenk", ""], ["Wo ist der Hauptbahnhof?", ""]] },
+  { id: "umgangssprache", lvl: "B2", e: "🗣️", title: "L'allemand parlé : formes réduites",
+    body: "À l'oral, les Allemands avalent beaucoup : haben → ham, ist es → isses, hast du → haste, gibt es → gibt's, einen → 'nen, nicht → nich. Les -en finaux deviennent souvent un simple n : machen → mach'n, haben → ham. Tu n'es pas obligé de parler comme ça, mais tu dois le comprendre.",
+    ex: [["Hast du Zeit? → Haste Zeit?", ""], ["Wir haben keine Ahnung. → Wir ham keine Ahnung.", ""], ["Gibt es noch Kaffee? → Gibt's noch Kaffee?", ""], ["Ich hab 'nen Termin.", "einen → 'nen"]] },
+  { id: "assimilation", lvl: "B2", e: "✂️", title: "Assimilation et terminaisons -en",
+    body: "Dans un débit naturel, -en devient une nasale syllabique : leben = « lébm », haben = « habm », sagen = « zâgn ». Et les consonnes se fondent : Ich hab dich = « ich hap dich », mit dem = « mim ». Reconnaître ces formes double ta compréhension des séries et des podcasts.",
+    ex: [["leben · haben · geben", "« lébm · habm · gébm »"], ["sagen · liegen · fragen", "« zâgn · lîgn · frâgn »"], ["Wir fahren mit dem Zug.", "mit dem → « mim »"], ["Was haben Sie gesagt?", ""]] },
+  { id: "satzakzent", lvl: "B2", e: "🎯", title: "Accent de phrase et contraste",
+    body: "On accentue le mot qui porte l'information nouvelle ou importante. Déplacer l'accent change le sens : ICH habe das nicht gesagt (quelqu'un d'autre l'a dit) / Ich habe DAS nicht gesagt (j'ai dit autre chose). Pour corriger quelqu'un, accentue le mot qui compte.",
+    ex: [["ICH habe das nicht gesagt.", "quelqu'un d'autre"], ["Ich habe DAS nicht gesagt.", "autre chose"], ["Ich habe das nicht geSAGT, ich habe es geSCHRIEben.", "contraste"], ["Nicht DIEsen Freitag, NÄCHSten Freitag!", ""]] },
+  { id: "dach", lvl: "B2", e: "🗺️", title: "Allemagne, Autriche, Suisse",
+    body: "Les campus 42 sont en Allemagne (Berlin, Wolfsburg, Heilbronn) et en Autriche (Vienne). L'allemand autrichien est plus mélodieux, avec son vocabulaire (Paradeiser = Tomate, Erdäpfel = Kartoffeln, Jänner = Januar, Grüß Gott / Servus). En Suisse alémanique, on parle des dialectes, mais on écrit le Hochdeutsch (sans ß). Change l'accent dans les réglages audio pour t'habituer.",
+    ex: [["Grüß Gott! · Servus! · Moin!", "Autriche/Bavière · familier · Nord"], ["Tomate · Paradeiser", "Allemagne · Autriche"], ["Januar · Jänner", ""], ["Ich hätte gern einen Kaffee, bitte.", "écoute-la en DE, AT et CH"]] },
+  { id: "attitude", lvl: "C1", e: "🎭", title: "Intonation, ironie et particules",
+    body: "Au C1, la mélodie et les particules (doch, ja, eben, halt, wohl, schon, eigentlich) disent ce que les mots ne disent pas. « Na toll. » sur un ton plat = ironie. « Das ist ja interessant… » peut être sincère ou poli et sceptique. « Das ist halt so. » = c'est comme ça, résigné. Écoute-les dans des dialogues réels et imite la mélodie.",
+    ex: [["Na toll.", "ironique : ce n'est pas génial"], ["Das ist ja interessant!", "vrai étonnement"], ["Das ist halt so.", "résignation"], ["Das kannst du doch nicht machen!", "reproche"]] },
+  { id: "vortrag", lvl: "C1", e: "⏸️", title: "Rythme et pauses dans un exposé",
+    body: "Un orateur clair découpe ses phrases en groupes de sens séparés par de courtes pauses, avec un mot accentué par groupe. En allemand, le verbe arrive souvent à la fin : fais une légère pause AVANT la fin de la phrase pour garder l'attention, puis appuie sur le verbe. Prépare tes phrases clés et marque les pauses ( / ).",
+    ex: [["Heute / möchte ich Ihnen / drei Punkte vorstellen.", ""], ["Was ich bei 42 gelernt habe, / ist, / dass man fast alles lösen kann, / wenn man die richtigen Fragen stellt.", ""], ["Einerseits / ist es schneller. / Andererseits / ist es teurer.", ""], ["Vielen Dank für Ihre Aufmerksamkeit.", ""]] },
+  { id: "akzentwandel", lvl: "C1", e: "🔀", title: "L'accent qui bouge dans les familles de mots",
+    body: "Dans les mots d'origine étrangère, l'accent se déplace selon le suffixe : PoliTIK, PoLItiker, poLItisch ; MuSIK, MUsiker ; DemokraTIE, DemoKRAT, demoKRAtisch. Les erreurs ici sont fréquentes même au C1 : travaille les mots de ton domaine.",
+    ex: [["PoliTIK · PoLItiker · poLItisch", ""], ["MuSIK · MUsiker · musiKAlisch", ""], ["TechNIK · TECHniker · TECHnisch", ""], ["DemokraTIE · DemoKRAT · demoKRAtisch", ""]] },
+  { id: "zahlen", lvl: "C1", e: "🔢", title: "Nombres, dates et sigles à l'oral",
+    body: "Les nombres allemands se disent à l'envers : 47 = « siebenundvierzig ». Les dates : am dritten Mai, im Jahr zweitausendvierundzwanzig, 1989 = neunzehnhundertneunundachtzig. Les sigles s'épellent à l'allemande : ICE = « i-tsé-é », ARD = « a-èr-dé », BMW = « bé-èm-vé ». À maîtriser pour les réunions et les présentations.",
+    ex: [["siebenundvierzig · dreihundertachtundsechzig", "47 · 368"], ["am dritten Mai zweitausendfünfundzwanzig", "3.5.2025"], ["neunzehnhundertneunundachtzig", "1989"], ["Der ICE nach München hat zwanzig Minuten Verspätung.", ""]] }
+];
