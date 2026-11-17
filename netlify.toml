@@ -1,0 +1,7 @@
+[build]
+  # Static site: index.html, app.js and data/ are served as they are.
+  publish = "."
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
