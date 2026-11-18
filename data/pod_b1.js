@@ -521,3 +521,407 @@ QUIZ: Wo kamen Lena und Sarah statt in Venedig an? | In Neapel | In Mailand | In
 QUIZ: Was bekommt man in Deutschland ab sechzig Minuten Zugverspätung? | Nichts | Fünfundzwanzig Prozent vom Ticketpreis | Ein neues Ticket | 2
 QUIZ: Was ging zuerst an Emres Auto kaputt? | Der Motor | Die Klimaanlage | Ein Reifen | 2
 `;
+
+DATA.podScripts.ep046 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge sechsundvierzig. Heute träumen wir! Unser Thema: Wenn ich im Lotto gewinnen würde …
+A: Und dafür brauchen wir eine besondere Form, die im Deutschen sehr wichtig ist: den Konjunktiv II. Mit dem Konjunktiv II sprechen wir über Dinge, die nicht real sind. Über Träume, Wünsche, Fantasien und Möglichkeiten.
+B: Die Realität ist: Ich habe kein Geld für eine Weltreise. Der Traum ist: Wenn ich viel Geld hätte, würde ich eine Weltreise machen.
+A: Genau. Der Indikativ ist die Form für die Realität. Der Konjunktiv II ist die Form für die Fantasie. Und die gute Nachricht: Im Alltag ist der Konjunktiv II meistens sehr einfach.
+B: Man benutzt „würde“ plus Infinitiv. Ich würde reisen. Du würdest kaufen. Er würde schlafen. Wir würden tanzen.
+A: „Würde“ steht an Position zwei, und das Verb im Infinitiv geht ans Ende. Wie bei den Modalverben. Ich würde gern nach Japan fliegen.
+B: Die Formen von „würde“: ich würde, du würdest, er würde, wir würden, ihr würdet, sie würden.
+A: Aber bei ein paar sehr häufigen Verben benutzt man nicht „würde“, sondern eine eigene Form. Bei „sein“: ich wäre. Bei „haben“: ich hätte. Und bei den Modalverben: ich könnte, ich müsste, ich dürfte, ich sollte, ich wollte.
+B: Also nicht „ich würde reich sein“, sondern „ich wäre reich“. Und nicht „ich würde viel Geld haben“, sondern „ich hätte viel Geld“.
+A: Genau. Und typische Sätze beginnen mit „wenn“. „Wenn“ ist eine Konjunktion wie „weil“ und „dass“. Das Verb geht also ans Ende. Wenn ich reich wäre, … Wenn ich mehr Zeit hätte, …
+B: Und dann kommt der Hauptsatz. Und weil der Nebensatz zuerst kommt, beginnt der Hauptsatz mit dem Verb. „Wenn ich reich wäre, würde ich ein Haus am Meer kaufen.“ „Würde“ steht direkt nach dem Komma.
+A: Das ist am Anfang ein bisschen kompliziert. Aber hör einfach gut zu. Heute hörst du diese Struktur sehr oft.
+B: Der Konjunktiv II hat noch zwei andere wichtige Funktionen. Erstens für höfliche Bitten. „Könnten Sie mir bitte helfen?“ ist höflicher als „Können Sie mir helfen?“ „Hätten Sie einen Moment Zeit?“ „Würden Sie bitte das Fenster schließen?“
+A: Und zweitens für Ratschläge. „Ich an deiner Stelle würde zum Arzt gehen.“ „Du solltest mehr schlafen.“ „An deiner Stelle“ heißt: wenn ich du wäre.
+B: Gut! Jetzt die große Frage. Lena: Wenn du im Lotto gewinnen würdest, sagen wir zehn Millionen Euro, was würdest du machen?
+A: Oh, zehn Millionen! Das ist viel Geld. Hmm. Also zuerst würde ich nicht sofort kündigen. Ich glaube, ich würde weiter unterrichten, weil ich meine Arbeit wirklich liebe.
+B: Wirklich? Mit zehn Millionen würdest du noch arbeiten?
+A: Ja, aber vielleicht weniger. Und ich würde endlich meine eigene Sprachschule eröffnen. Ohne Kredit von der Bank. Mit einer großen Bibliothek, einer gemütlichen Küche und einem Garten. Und der Unterricht wäre kostenlos für Geflüchtete.
+B: Geflüchtete sind Menschen, die aus ihrem Land fliehen mussten. Wegen Krieg oder Gefahr. Das ist eine sehr schöne Idee, Lena.
+A: Danke. Und dann würde ich meiner Familie helfen. Ich würde meinen Eltern ein kleines Haus an der Ostsee kaufen. Sie träumen schon lange davon. Und ich würde für Oma Hilde eine Reise organisieren. Sie wollte immer nach Paris, aber sie war nie dort.
+B: Oma Hilde in Paris! Mit neunzig Jahren!
+A: Warum nicht? Sie würde den Eiffelturm hochfahren und Croissants essen. Sie wäre so glücklich.
+B: Und für dich selbst? Etwas Luxus?
+A: Ja, ein bisschen. Ich hätte gern eine große Altbauwohnung in Berlin. Mit einem riesigen Balkon. Und ich würde ein Jahr lang reisen. Mit Tim. Südamerika, Japan, Neuseeland. Langsam, ohne Stress.
+B: Klingt wunderbar. Und würdest du es jemandem erzählen?
+A: Gute Frage! Nein, ich glaube nicht. Ich würde es nur meiner Familie und Sarah sagen. Wenn alle es wüssten, würden plötzlich viele Leute nach Geld fragen. Das wäre unangenehm.
+B: Das stimmt. Es gibt viele Geschichten von Lottogewinnern, die danach unglücklich wurden. Weil Freunde und Familie gestritten haben. Oder weil sie das ganze Geld schnell ausgegeben haben.
+A: Ja, ich habe gelesen, dass viele Lottogewinner nach ein paar Jahren nicht glücklicher sind als vorher. Manche sind sogar pleite. „Pleite“ heißt: Man hat kein Geld mehr.
+B: Und du? Jetzt frag mich!
+A: Okay. Jonas, wenn du zehn Millionen Euro gewinnen würdest?
+B: Ich wäre wahrscheinlich ein schlechter Lottogewinner. Hahaha. Nein, im Ernst. Zuerst würde ich ein altes Kaffeehaus in Wien kaufen. Ein Kaffeehaus, das kurz vor dem Schließen ist. Davon gibt es leider viele. Und ich würde es retten.
+A: Das passt perfekt zu dir! Wie würde dein Kaffeehaus aussehen?
+B: Es hätte rote Samtsofas, Marmortische und große Fenster. Es gäbe zwanzig Zeitungen aus aller Welt. Und abends würde ein Pianist spielen. Ich würde jeden Tag dort sitzen und schreiben. Und die Kellner wären natürlich grantig! Hahaha.
+A: Hahaha, natürlich! Tradition ist Tradition.
+B: Dann würde ich mein Buch fertig schreiben. Ohne Druck, ohne Geldsorgen. Und ich würde einen Verlag für junge Autoren gründen. Ein Verlag ist eine Firma, die Bücher druckt und verkauft.
+A: Und das Haus in der Wachau? Mit Garten für Strudel?
+B: Ja, natürlich. Ein altes Winzerhaus mit Blick auf die Donau. Mit einem großen Garten für Strudel. Und vielleicht hätte ich dann noch einen zweiten Hund. Damit Strudel nicht allein ist.
+A: Wie heißt der zweite Hund?
+B: Knödel! Strudel und Knödel. Zwei österreichische Spezialitäten.
+A: Hahaha! Das ist perfekt.
+B: Und ich würde den Tierheimen in Wien Geld spenden. Weil Strudel von dort kommt. Und vielleicht würde ich mit Hias eine Expedition in den Himalaya machen. Das war schon immer sein Traum.
+A: Wow. Jonas im Himalaya. Mit Steigeisen!
+B: Hahaha. Oder ich würde unten im Basislager bleiben und Tee trinken. Und Hias geht allein hoch.
+A: Das klingt realistischer. Jetzt ein kleines Spiel. Ich sage eine Situation, und du sagst, was du tun würdest. Okay?
+B: Okay!
+A: Wenn du einen Tag lang unsichtbar wärst?
+B: Ich würde in die Wiener Staatsoper gehen und mir die beste Vorstellung anschauen. Ohne Ticket! Und dann würde ich in die Küche vom Hotel Sacher gehen und das Geheimrezept der Sachertorte lesen.
+A: Hahaha! Sehr gut. Wenn du in einer anderen Zeit leben könntest?
+B: Ich würde im Wien um neunzehnhundert leben. Da saßen Sigmund Freud, Gustav Klimt und viele Schriftsteller in den Kaffeehäusern. Die Stadt war so kreativ. Das wäre fantastisch gewesen.
+A: Und wenn du eine Superkraft hättest?
+B: Ich könnte alle Sprachen der Welt sprechen. Sofort, ohne lernen.
+A: Oh nein, dann würdest du unseren Podcast nicht mehr brauchen! Hahaha.
+B: Hahaha. Na gut, dann könnte ich fliegen. Ohne Flughafen, ohne Sicherheitskontrolle, ohne Verspätung!
+A: Das ist die beste Superkraft. Jetzt frag mich.
+B: Lena, wenn du ein Tier wärst, welches Tier wärst du?
+A: Ich wäre eine Katze. Wie Mimi von Oma Hilde. Den ganzen Tag schlafen, in der Sonne liegen und gestreichelt werden.
+B: Hahaha. Aber du bist doch eine Lerche! Du stehst immer früh auf!
+A: Eben! Darum wäre ich so gern eine Katze. Hahaha.
+B: Jetzt zur Geschichte von Julien und seinen Freunden. Es ist Freitagabend. Alle sitzen in Juliens Wohnung. Es gibt Pizza, natürlich. Und Emre kommt mit einem Lottoschein.
+A: Ein Lottoschein ist das Papier, auf dem man die Zahlen ankreuzt.
+B: Genau. Emre sagt: „Heute ist der Jackpot bei fünfundvierzig Millionen Euro! Ich habe für uns alle gespielt. Wenn wir gewinnen, teilen wir.“
+A: Fünfundvierzig Millionen! Und dann?
+B: Dann beginnt eine lange Diskussion. Was würde jeder mit seinem Teil machen? Mira sagt: „Wenn ich Millionärin wäre, würde ich ein großes Haus auf dem Land kaufen. Mit einem Gemüsegarten, Hühnern und Ziegen. Und ihr könntet alle dort wohnen. Eine große WG für immer!“
+A: Eine WG für immer! Das klingt nach Mira.
+B: Kenji sagt: „Ich würde meine Bäckerei eröffnen. Aber nicht nur eine. Zehn Bäckereien! In Berlin, Wien und Tokio. Japanisch-deutsches Brot für die ganze Welt.“
+A: Ein Brot-Imperium! Und Amira?
+B: Amira sagt: „Ich würde in Casablanca ein Krankenhaus für Kinder bauen. Mit den besten Ärzten und modernen Geräten. Und ich würde meiner Mutter jeden Monat einen Flug nach Berlin bezahlen.“
+A: Wie schön. Und Emre?
+B: Emre sagt: „Ich würde zuerst einen Ferrari kaufen. Einen roten.“ Alle lachen. Und Emre sagt: „Was? Ich habe ja noch nicht mal einen Führerschein. Aber dann würde ich den Führerschein machen und den Ferrari fahren!“
+A: Hahaha. Emre und sein Führerschein!
+B: Und Julien? Er ist ganz still. Dann sagt er: „Wisst ihr was? Ich glaube, ich würde gar nicht so viel ändern. Ich habe eine Arbeit, die ich liebe. Eine Wohnung mit einer Küche nur für mich. Und die besten Freunde der Welt. Vielleicht würde ich weniger arbeiten und mehr reisen. Aber eigentlich bin ich schon reich.“
+A: Oh, Julien! Das ist so schön.
+B: Ja. Alle sind kurz still. Dann sagt Mira: „Okay, das war kitschig. Aber du hast recht.“ Und alle lachen.
+A: Und die Lottozahlen? Haben sie gewonnen?
+B: Um neunzehn Uhr fünfundzwanzig kommen die Zahlen im Fernsehen. Emre liest vor: „Drei … richtig! Siebzehn … richtig! Zweiundzwanzig … falsch. Einunddreißig … falsch …“ Am Ende haben sie zwei richtige Zahlen.
+A: Zwei richtige! Was gewinnt man da?
+B: Nichts! Hahaha. Gar nichts. Aber Julien sagt: „Wir haben trotzdem gewonnen. Wir haben einen schönen Abend.“ Und Emre sagt: „Nächste Woche spiele ich wieder. Für den Ferrari!“
+A: Hahaha. Jetzt bist du dran, Hörer, Hörerin. Was würdest du machen, wenn du im Lotto gewinnen würdest? Sag es laut: „Wenn ich im Lotto gewinnen würde, würde ich … Ich hätte … Ich wäre …“
+B: Und eine höfliche Bitte im Konjunktiv II: „Könnten Sie …?“ „Hätten Sie …?“ „Würden Sie bitte …?“
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: der Konjunktiv II. Die Form für Träume, Wünsche und höfliche Bitten. Ich würde, ich hätte, ich wäre.
+A: Wort Nummer zwei: „an deiner Stelle“. Wenn ich du wäre. An deiner Stelle würde ich zum Arzt gehen.
+B: Wort Nummer drei: pleite. Man hat kein Geld mehr.
+A: Wort Nummer vier: spenden. Geld für einen guten Zweck geben.
+B: Wort Nummer fünf: der Verlag. Eine Firma, die Bücher druckt und verkauft.
+A: Und Wort Nummer sechs: die Geflüchteten. Menschen, die aus ihrem Land fliehen mussten.
+B: Noch einmal: der Konjunktiv II, an deiner Stelle, pleite, spenden, der Verlag, die Geflüchteten.
+A: Was lernen wir heute? Den Konjunktiv II mit „würde“ plus Infinitiv: Ich würde reisen.
+B: Und die eigenen Formen: ich wäre, ich hätte, ich könnte, ich müsste, ich sollte.
+A: Wenn-Sätze: Wenn ich reich wäre, würde ich ein Haus kaufen. Das Verb nach „wenn“ am Ende, und der Hauptsatz beginnt mit dem Verb.
+B: Und höfliche Bitten: Könnten Sie mir helfen? Und Ratschläge: An deiner Stelle würde ich …
+A: Das ist das Ende von Folge sechsundvierzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und viel Glück im Lotto! Aber denk daran: Vielleicht bist du schon reich. Servus!
+A: Tschüss!
+VOCAB: der Konjunktiv II | Die Form für Träume, Wünsche und höfliche Bitten: ich würde, ich hätte, ich wäre. | 💭
+VOCAB: an deiner Stelle | Wenn ich du wäre. | 🔁
+VOCAB: pleite | Man hat kein Geld mehr. | 🪙
+VOCAB: spenden | Geld für einen guten Zweck geben. | 🎗️
+VOCAB: der Verlag | Eine Firma, die Bücher druckt und verkauft. | 📚
+VOCAB: die Geflüchteten | Menschen, die aus ihrem Land fliehen mussten. | 🕊️
+QUIZ: Welcher Satz ist richtig? | Wenn ich reich wäre, ich würde reisen. | Wenn ich reich wäre, würde ich reisen. | Wenn ich wäre reich, würde ich reisen. | 2
+QUIZ: Was würde Lena mit dem Lottogewinn eröffnen? | Ein Café | Eine Sprachschule | Ein Hotel | 2
+QUIZ: Was würde Jonas zuerst kaufen? | Ein altes Kaffeehaus in Wien | Einen Ferrari | Ein Haus am Meer | 1
+QUIZ: Wie würde Jonas seinen zweiten Hund nennen? | Strudel | Knödel | Schnitzel | 2
+QUIZ: Was sagt Julien über den Lottogewinn? | Er würde alles ändern | Er würde gar nicht so viel ändern | Er würde nach Lyon zurückgehen | 2
+`;
+
+DATA.podScripts.ep047 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge siebenundvierzig. Heute sprechen wir über etwas, das fast jeder jeden Tag benutzt: soziale Medien.
+A: Instagram, TikTok, YouTube, Facebook, WhatsApp und viele mehr. Wir verbringen jeden Tag Stunden damit. Und die Frage ist: Machen uns die sozialen Medien glücklicher oder unglücklicher? Was sind die Vor- und Nachteile?
+B: Wir üben heute weiter, wie man argumentiert. Und wir lernen ein paar neue Ausdrücke. Zum Beispiel: „Es kommt darauf an, …“ „Man muss bedenken, dass …“ „Ein weiterer Punkt ist …“ „Im Großen und Ganzen …“
+A: „Im Großen und Ganzen“ heißt: insgesamt, wenn man alles zusammen betrachtet. Ein sehr nützlicher Ausdruck für das Ende einer Diskussion.
+B: Und viele Wörter rund um soziale Medien. Viele sind englisch, aber wir benutzen sie auf Deutsch. Posten, liken, teilen, folgen, scrollen, ein Follower, eine Story, ein Influencer.
+A: Und die Verben werden deutsch konjugiert. Ich habe ein Foto gepostet. Sie hat meinen Beitrag geliked. Er folgt mir auf Instagram. Ich habe den Link geteilt.
+B: „Geliked“! Das sieht komisch aus, aber man sagt es wirklich. Und man sagt auch „Gefällt mir“, wie der Knopf auf Facebook.
+A: Gut. Jonas, wie viel Zeit verbringst du jeden Tag in den sozialen Medien?
+B: Oh, das ist eine peinliche Frage. Ich habe letzte Woche auf meinem Handy die Bildschirmzeit kontrolliert. Das Handy zeigt dir, wie viele Stunden du jeden Tag am Bildschirm bist.
+A: Und?
+B: Durchschnittlich vier Stunden pro Tag! Davon fast zwei Stunden auf Instagram und Twitter. Ich war schockiert. Das sind achtundzwanzig Stunden pro Woche! Mehr als ein ganzer Tag!
+A: Wow. Aber ein Teil davon ist Arbeit, oder? Als Journalist musst du die Nachrichten verfolgen.
+B: Ja, das sage ich mir auch. Aber ehrlich gesagt: Vieles ist einfach Scrollen ohne Ziel. Ich schaue Videos von Hunden, von Rezepten, von Leuten, die ich nicht kenne. Und plötzlich ist eine Stunde vorbei.
+A: Das kenne ich. Man nennt das auf Englisch „Doomscrolling“. Man scrollt und scrollt, besonders durch schlechte Nachrichten, und kann nicht aufhören.
+B: Und du, Lena?
+A: Ich bin ungefähr zwei Stunden pro Tag am Handy. Ich benutze vor allem WhatsApp, um mit Familie und Freunden zu schreiben. Und Instagram. Aber ich habe vor einem Jahr TikTok gelöscht.
+B: Warum?
+A: Weil ich gemerkt habe, dass es mich süchtig macht. „Süchtig“ heißt: Man kann nicht mehr ohne etwas leben. Man braucht es immer wieder. Wie bei einer Droge. Ich wollte nur fünf Minuten schauen, und plötzlich war es Mitternacht.
+B: Das ist kein Zufall. Die Apps sind so programmiert, dass sie uns möglichst lange festhalten. Der Algorithmus zeigt uns genau das, was uns interessiert. Und es hört nie auf. Es gibt kein Ende beim Scrollen.
+A: Genau. Und jedes Like gibt uns ein kleines Glücksgefühl. Wie eine Belohnung. Darum wollen wir immer mehr.
+B: Okay, das sind die Nachteile. Aber es gibt auch viele Vorteile. Fangen wir damit an. Was ist für dich positiv?
+A: Für mich ist das Wichtigste der Kontakt. Meine beste Freundin Sarah wohnt in München. Isabelle, meine Freundin aus Kanada, wohnt in Montreal. Ohne soziale Medien hätte ich wahrscheinlich keinen Kontakt mehr mit Isabelle. Aber so sehe ich ihre Fotos, ich weiß, was sie macht, und wir schreiben uns regelmäßig.
+B: Das ist ein großer Vorteil. Besonders für Menschen, die im Ausland leben. Sie können mit ihrer Familie in Kontakt bleiben. Wie Amira mit ihrer Mutter in Casablanca.
+A: Zweitens: Man kann sehr viel lernen. Es gibt so viele gute Inhalte. Wissenschaft, Geschichte, Kochen, Sprachen. Ich folge zum Beispiel einigen Accounts, die Grammatik mit kurzen, lustigen Videos erklären. Super für meinen Unterricht!
+B: Und für das Deutschlernen ist das auch toll. Man kann deutschen Influencern folgen, deutsche Videos schauen, und man lernt die echte Alltagssprache. Nicht nur Lehrbuch-Deutsch.
+A: Genau. Drittens: Soziale Medien geben vielen Menschen eine Stimme. Kleine Künstler, Musiker, Designer können ihre Arbeit zeigen, ohne eine große Firma. Und politische Bewegungen können sich organisieren.
+B: Das stimmt. Viele Menschen haben über soziale Medien eine Karriere gestartet. Und es gibt viele Bewegungen, zum Beispiel für das Klima, die vor allem über soziale Medien gewachsen sind.
+A: Und jetzt die Nachteile genauer. Du hast schon die Sucht erwähnt.
+B: Ja. Und ein weiterer Punkt ist der Vergleich. Auf Instagram sieht man nur die schönen Momente. Perfekte Urlaubsfotos, perfekte Körper, perfekte Wohnungen. Und man denkt: Alle haben ein besseres Leben als ich.
+A: Das ist besonders für Jugendliche ein großes Problem. Studien zeigen, dass viele junge Menschen, besonders Mädchen, unzufrieden mit ihrem Körper sind, weil sie sich ständig mit Influencern vergleichen. Und viele Fotos sind bearbeitet. Mit Filtern.
+B: Ein Filter verändert das Foto. Die Haut wird glatter, die Augen größer, der Körper schlanker. Die Realität sieht ganz anders aus.
+A: Genau. Ein weiteres Problem: Fake News. Falsche Informationen verbreiten sich in sozialen Medien sehr schnell. Schneller als die Wahrheit. Darüber sprechen wir noch genauer in Folge siebzig.
+B: Und dann gibt es Hass im Netz. Viele Menschen schreiben anonym furchtbare Kommentare. Beleidigungen, Drohungen. Das nennt man auch „Shitstorm“, wenn sehr viele Menschen gleichzeitig eine Person kritisieren und beleidigen.
+A: Das Wort „Shitstorm“ benutzt man im Deutschen wirklich so. Es steht sogar im Duden. Der Duden ist das wichtigste Wörterbuch der deutschen Sprache.
+B: Hahaha. Ja, das finden Engländer und Amerikaner immer sehr lustig. Und dann ist da noch der Datenschutz. Die Firmen sammeln sehr viele Daten über uns. Was wir mögen, wo wir sind, mit wem wir sprechen. Und damit verdienen sie Geld durch Werbung.
+A: In Deutschland ist der Datenschutz übrigens ein sehr wichtiges Thema. Viele Deutsche sind sehr vorsichtig mit ihren Daten. Mehr als in vielen anderen Ländern.
+B: Ja. Das hat auch historische Gründe. In der Zeit des Nationalsozialismus und später in der DDR haben die Staaten ihre Bürger überwacht. Darum sind viele Deutsche bis heute misstrauisch, wenn jemand zu viele Informationen sammelt.
+A: Das erklärt vieles. Gut. Was können wir machen, um soziale Medien gesünder zu nutzen?
+B: Erstens: Die Bildschirmzeit kontrollieren und ein Limit setzen. Zum Beispiel maximal eine Stunde pro Tag für Instagram. Das Handy blockiert dann die App.
+A: Zweitens: Das Handy nicht mit ins Schlafzimmer nehmen. Einen normalen Wecker benutzen. Dann schaut man nicht als Erstes am Morgen und als Letztes am Abend aufs Handy.
+B: Drittens: Benachrichtigungen ausschalten. Eine Benachrichtigung ist die kleine Nachricht, die auf dem Handy erscheint. Jedes Mal, wenn jemand etwas liked oder kommentiert. Das stört die Konzentration.
+A: Viertens: Bewusst entscheiden, wem man folgt. Accounts, die einem ein schlechtes Gefühl geben, entfolgen. Und Accounts folgen, die inspirieren oder etwas beibringen.
+B: Und fünftens: ein „Digital Detox“. Eine Pause von allen digitalen Geräten. Ein Wochenende oder sogar eine Woche ohne Handy.
+A: Hast du das schon mal gemacht?
+B: Ja, auf der Bergtour mit Hias. Eine Woche ohne Handy. Am ersten Tag war ich sehr nervös. Ich habe ständig in meine Tasche gegriffen, wo normalerweise das Handy ist. Aber am dritten Tag habe ich mich unglaublich frei gefühlt. Ich habe besser geschlafen, mehr nachgedacht, und Hias und ich hatten die besten Gespräche.
+A: Das klingt wunderbar. Jetzt zur Geschichte von Emre. Emre ist zweiundzwanzig und sehr aktiv in den sozialen Medien. Er hat einen TikTok-Account mit Videos über Programmieren. Mit Humor erklärt.
+B: Oh, cool! Hat er viele Follower?
+A: Am Anfang nur zweihundert. Aber dann machte er ein Video über seine zwanzig Absagen bei der Praktikumssuche. Erinnerst du dich? Folge neunundzwanzig. Das Video war ehrlich und lustig. Und es ging viral!
+B: „Viral gehen“ heißt: Ein Video wird sehr schnell von sehr vielen Menschen gesehen und geteilt. Wie ein Virus, das sich verbreitet.
+A: Genau. Innerhalb von einer Woche hatte das Video zwei Millionen Aufrufe. Und Emre hatte plötzlich fünfzigtausend Follower!
+B: Wow! Wie hat er sich gefühlt?
+A: Am Anfang war er total begeistert. Er bekam tausende Kommentare. Viele junge Leute schrieben ihm: „Danke! Mir geht es genauso! Du motivierst mich!“ Und Firmen schrieben ihm. Sie wollten mit ihm zusammenarbeiten.
+B: Das klingt toll.
+A: Aber dann wurde es schwierig. Emre war ständig am Handy. Er las jeden Kommentar. Er wollte sofort das nächste Video machen, damit die Leute ihn nicht vergessen. Er schlief nur noch fünf Stunden. Und bei der Arbeit war er unkonzentriert.
+B: Oh nein. Und gab es auch negative Kommentare?
+A: Ja, leider. Ein paar Leute schrieben gemeine Sachen. Über sein Aussehen, über seine Familie, über seinen Akzent. Emre war sehr verletzt. Er konnte nicht aufhören, an diese Kommentare zu denken. Auch wenn es nur zehn negative Kommentare von tausend waren.
+B: Das ist typisch. Das Negative bleibt im Kopf, auch wenn das Positive viel größer ist.
+A: Genau. Julien merkte, dass es Emre nicht gut ging. Eines Abends sprachen sie lange miteinander. Julien sagte: „Emre, du hast etwas Tolles geschafft. Aber du musst auf dich aufpassen. Die Follower sind nicht dein Leben.“
+B: Ein guter Freund. Was hat Emre gemacht?
+A: Er hat ein paar Regeln aufgestellt. Er postet nur noch einmal pro Woche. Am Sonntag. Er liest die Kommentare nur noch eine halbe Stunde pro Tag. Und negative Kommentare löscht er sofort, ohne lange darüber nachzudenken. Und das Handy bleibt nachts in der Küche.
+B: Sehr vernünftig! Und seine Follower?
+A: Die meisten sind geblieben. Und Emre hat gemerkt, dass Qualität wichtiger ist als Quantität. Seine Videos sind jetzt besser, weil er mehr Zeit dafür hat. Und eine Firma hat ihm sogar einen Job angeboten. Als Content Creator für ihre Programmierkurse.
+B: Wow! Aus den sozialen Medien eine Karriere gemacht. Aber mit gesunden Grenzen.
+A: Genau. Jetzt bist du dran, Hörer, Hörerin. Welche sozialen Medien benutzt du? Und wie viel Zeit verbringst du dort? Sag es laut: „Ich benutze … ungefähr … Stunden pro Tag.“
+B: Und was ist für dich der größte Vorteil und der größte Nachteil? „Ein großer Vorteil ist …, aber ein Nachteil ist …“ Und zum Schluss: „Im Großen und Ganzen finde ich soziale Medien …“
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: süchtig. Man kann nicht mehr ohne etwas leben, man braucht es immer wieder.
+A: Wort Nummer zwei: der Beitrag. Ein Post, ein Text oder ein Foto in den sozialen Medien.
+B: Wort Nummer drei: die Benachrichtigung. Eine kleine Nachricht auf dem Handy, zum Beispiel bei einem neuen Kommentar.
+A: Wort Nummer vier: der Datenschutz. Der Schutz von persönlichen Informationen.
+B: Wort Nummer fünf: viral gehen. Sehr schnell von sehr vielen Menschen gesehen und geteilt werden.
+A: Und Wort Nummer sechs: im Großen und Ganzen. Insgesamt, wenn man alles zusammen betrachtet.
+B: Noch einmal: süchtig, der Beitrag, die Benachrichtigung, der Datenschutz, viral gehen, im Großen und Ganzen.
+A: Was lernen wir heute? Die Vorteile von sozialen Medien: Kontakt, Lernen, eine Stimme für viele Menschen.
+B: Die Nachteile: Sucht, Vergleich, Fake News, Hass im Netz und Datenschutz.
+A: Und die Tipps: ein Limit setzen, das Handy nicht im Schlafzimmer, Benachrichtigungen aus und ab und zu ein Digital Detox.
+B: Und Ausdrücke für Diskussionen: „Es kommt darauf an“, „Ein weiterer Punkt ist“, „Im Großen und Ganzen“.
+A: Das ist das Ende von Folge siebenundvierzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und vielleicht legst du jetzt dein Handy für eine Stunde weg. Servus!
+A: Tschüss!
+VOCAB: süchtig | Man kann nicht mehr ohne etwas leben und braucht es immer wieder. | 📲
+VOCAB: der Beitrag | Ein Post, ein Text oder ein Foto in den sozialen Medien. | 🖼️
+VOCAB: die Benachrichtigung | Eine kleine Nachricht auf dem Handy. | 🔔
+VOCAB: der Datenschutz | Der Schutz von persönlichen Informationen. | 🔒
+VOCAB: viral gehen | Sehr schnell von sehr vielen Menschen gesehen und geteilt werden. | 🚀
+VOCAB: im Großen und Ganzen | Insgesamt, wenn man alles zusammen betrachtet. | 🌐
+QUIZ: Wie viele Stunden pro Tag war Jonas durchschnittlich am Handy? | Eine Stunde | Vier Stunden | Acht Stunden | 2
+QUIZ: Welche App hat Lena gelöscht? | WhatsApp | Instagram | TikTok | 3
+QUIZ: Warum sind viele Deutsche vorsichtig mit ihren Daten? | Aus historischen Gründen, wegen Überwachung | Weil das Internet teuer ist | Weil es verboten ist | 1
+QUIZ: Worüber war Emres erfolgreiches Video? | Über seine zwanzig Absagen | Über seine Katze | Über Berlin | 1
+QUIZ: Welche Regel macht Emre für sich? | Er postet jeden Tag | Das Handy bleibt nachts in der Küche | Er löscht seinen Account | 2
+`;
+
+DATA.podScripts.ep048 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge achtundvierzig. Heute bereiten wir uns auf eine wichtige Situation vor: das Vorstellungsgespräch.
+A: Ein Vorstellungsgespräch ist ein Gespräch mit einer Firma, wenn man sich um eine Stelle beworben hat. Man stellt sich vor, und die Firma entscheidet, ob man die Stelle bekommt. Für viele Menschen ist das sehr stressig.
+B: Besonders in einer Fremdsprache! Heute lernen wir, wie man über seine Stärken, Schwächen und Erfahrungen spricht. Und wir geben viele praktische Tipps, wie Vorstellungsgespräche in Deutschland und Österreich ablaufen.
+A: Fangen wir mit dem Ablauf an. Ein typisches Vorstellungsgespräch dauert zwischen dreißig und sechzig Minuten. Oft sitzen zwei oder drei Personen auf der anderen Seite. Zum Beispiel jemand aus der Personalabteilung und der zukünftige Chef oder die zukünftige Chefin.
+B: Die Personalabteilung kümmert sich um alles, was mit den Mitarbeitern zu tun hat. Einstellung, Verträge, Gehälter. Man sagt auch „HR“, aus dem Englischen.
+A: Am Anfang gibt es ein bisschen Small Talk. „Haben Sie gut zu uns gefunden?“ „Möchten Sie etwas trinken? Kaffee, Wasser?“ Das ist wichtig, damit man sich entspannt.
+B: Und dann kommt meistens die erste große Frage: „Erzählen Sie doch mal etwas über sich.“ Oder: „Stellen Sie sich bitte kurz vor.“
+A: Diese Frage sollte man gut vorbereiten. Zwei oder drei Minuten. Nicht das ganze Leben erzählen! Sondern die wichtigsten Stationen: die Ausbildung, die Berufserfahrung und warum man sich für diese Stelle interessiert.
+B: Ein typischer Fehler ist, einfach den Lebenslauf vorzulesen. Das kennt die Firma schon. Besser ist es, eine kleine Geschichte zu erzählen. Was hat mich zu diesem Beruf gebracht? Was motiviert mich?
+A: Genau. Dann kommen Fragen zur Motivation. „Warum möchten Sie bei uns arbeiten?“ „Was wissen Sie über unser Unternehmen?“
+B: Darum ist es sehr wichtig, sich vorher über die Firma zu informieren. Auf der Webseite, in Artikeln, vielleicht in den sozialen Medien. Was macht die Firma? Welche Werte hat sie? Welche Projekte?
+A: Und dann die Klassiker: die Stärken und Schwächen. „Was sind Ihre Stärken?“ Und: „Was sind Ihre Schwächen?“
+B: Ah, die berühmte Frage nach den Schwächen. Die mag niemand.
+A: Hahaha. Nein. Aber man sollte ehrlich sein. Und man sollte zeigen, dass man an seiner Schwäche arbeitet. Zum Beispiel: „Ich bin manchmal ungeduldig, wenn Projekte langsam vorangehen. Aber ich habe gelernt, dass gute Lösungen Zeit brauchen. Heute plane ich realistischer.“
+B: Ein schlechtes Beispiel wäre: „Meine größte Schwäche ist, dass ich zu perfektionistisch bin und zu viel arbeite.“ Das sagen alle! Und die Personalchefs haben das schon tausendmal gehört.
+A: Genau. Das klingt nicht ehrlich. Und bei den Stärken? Wichtig ist, konkrete Beispiele zu geben. Nicht nur: „Ich bin teamfähig.“ Sondern: „Ich bin teamfähig. In meinem letzten Projekt habe ich mit Kollegen aus fünf Ländern zusammengearbeitet, und wir haben das Projekt pünktlich abgeschlossen.“
+B: „Teamfähig“ ist ein typisches Wort aus Stellenanzeigen. Es heißt: Man kann gut mit anderen zusammenarbeiten. Andere typische Wörter: belastbar, zuverlässig, flexibel, selbstständig, kommunikativ.
+A: „Belastbar“ heißt: Man kann auch unter Stress und Druck gut arbeiten. Und „selbstständig“ heißt: Man kann allein arbeiten, ohne dass jemand immer sagt, was man tun soll.
+B: Dann gibt es oft Fragen zu Situationen. „Erzählen Sie von einer Situation, in der Sie einen Konflikt im Team lösen mussten.“ Oder: „Wie gehen Sie mit Kritik um?“
+A: Für diese Fragen gibt es eine gute Methode: die STAR-Methode. S für Situation, T für Task, also die Aufgabe, A für Action, also was man gemacht hat, und R für Result, das Ergebnis.
+B: Also: Was war die Situation? Was war meine Aufgabe? Was habe ich konkret gemacht? Und was war das Ergebnis? So ist die Antwort klar und strukturiert.
+A: Genau. Und dann gibt es Fragen über die Zukunft. „Wo sehen Sie sich in fünf Jahren?“ Diese Frage ist auch ein Klassiker.
+B: Hahaha. Wenn man ehrlich wäre, würde man oft sagen: „Ich weiß es nicht!“ Aber die Firma will hören, dass man Ziele hat und sich weiterentwickeln möchte. Am besten in dieser Firma.
+A: Und eine wichtige Frage in Deutschland: die Gehaltsvorstellung. „Was sind Ihre Gehaltsvorstellungen?“ Oft muss man das schon in der Bewerbung schreiben.
+B: Da sollte man sich vorher informieren. Was verdient man normalerweise in diesem Beruf, in dieser Stadt, mit dieser Erfahrung? Und man nennt eine Zahl pro Jahr, brutto. Brutto heißt: vor den Steuern und Abgaben. Netto ist das, was am Ende auf dem Konto ankommt.
+A: Darüber sprechen wir genauer in Folge einundsiebzig. Am Ende vom Gespräch fragt die Firma fast immer: „Haben Sie noch Fragen an uns?“
+B: Und hier sollte man nie sagen: „Nein, ich habe keine Fragen.“ Das wirkt desinteressiert. Man sollte zwei oder drei Fragen vorbereitet haben.
+A: Zum Beispiel: „Wie sieht ein typischer Arbeitstag aus?“ „Wie ist das Team zusammengesetzt?“ „Welche Möglichkeiten zur Weiterbildung gibt es?“ „Wie geht es nach dem Gespräch weiter?“
+B: Gute Fragen. Jetzt ein paar kulturelle Tipps für Deutschland und Österreich. Erstens: Pünktlichkeit. Man sollte fünf bis zehn Minuten vor dem Termin da sein. Nicht zu früh, nicht zu spät.
+A: Zweitens: Die Begrüßung. Ein fester Händedruck und Blickkontakt. Und man sagt „Sie“, bis die andere Person das „Du“ anbietet. Auch in einem Start-up ist es besser, mit „Sie“ anzufangen.
+B: Drittens: Die Kleidung. Das kommt auf die Branche an. In einer Bank trägt man einen Anzug oder ein Kostüm. In einem Start-up oder in der IT ist es lockerer. Aber man sollte immer etwas ordentlicher angezogen sein als normal.
+A: Viertens: Ehrlichkeit. In Deutschland schätzt man Ehrlichkeit und Sachlichkeit. Man sollte nicht übertreiben. Wenn man etwas nicht kann, sollte man es sagen. Und dann erklären, dass man bereit ist, es zu lernen.
+B: „Übertreiben“ heißt: etwas größer oder besser darstellen, als es ist. In manchen Kulturen ist es normal, sich sehr positiv zu präsentieren. In Deutschland wirkt das manchmal unglaubwürdig.
+A: Genau. Bescheidenheit, aber nicht zu viel. Man sollte schon selbstbewusst sein. „Selbstbewusst“ heißt: Man kennt seinen Wert und hat Vertrauen in sich selbst.
+B: Und fünftens: Nach dem Gespräch kann man eine kurze E-Mail schreiben. „Vielen Dank für das angenehme Gespräch. Ich bin weiterhin sehr an der Stelle interessiert.“ Das ist nicht Pflicht, aber es macht einen guten Eindruck.
+A: Jetzt erzählen wir von unseren eigenen Erfahrungen. Jonas, was war dein schlimmstes Vorstellungsgespräch?
+B: Oh, das war bei einer großen Zeitung in Deutschland. In Hamburg. Ich war sechsundzwanzig und sehr nervös. Ich fuhr mit dem Zug von Wien nach Hamburg. Neun Stunden. Und der Zug hatte natürlich Verspätung.
+A: Die Deutsche Bahn! Wie immer!
+B: Ich kam vierzig Minuten zu spät. Völlig verschwitzt, weil ich vom Bahnhof gerannt war. Und dann fragte der Chefredakteur als erste Frage: „Was halten Sie von unserer Zeitung?“ Und ich hatte die Zeitung in den letzten Wochen kaum gelesen.
+A: Oh nein!
+B: Ich habe irgendetwas Allgemeines gesagt. Er hat sofort gemerkt, dass ich keine Ahnung hatte. Das Gespräch war nach fünfzehn Minuten vorbei. Und ich bekam natürlich eine Absage.
+A: Und was hast du daraus gelernt?
+B: Zwei Dinge. Erstens: Immer einen früheren Zug nehmen. Und zweitens: Sich immer gut vorbereiten. Beim nächsten Gespräch habe ich alles über die Firma gelesen. Und ich habe die Stelle bekommen. Bei der Tageszeitung in Wien.
+A: Siehst du, Fehler sind gute Lehrer. Bei mir war das beste Gespräch bei meiner jetzigen Sprachschule. Die Chefin fragte mich: „Was würden Sie machen, wenn ein Schüler im Unterricht weint?“
+B: Oh, eine interessante Frage. Was hast du geantwortet?
+A: Ich habe von einer echten Situation aus meinem Praktikum erzählt. Eine Schülerin aus Syrien hat im Unterricht geweint, weil sie Heimweh hatte. Ich habe die Gruppe eine Pause machen lassen, mit ihr allein gesprochen und ihr einfach zugehört. Und am nächsten Tag haben wir im Unterricht über Heimat gesprochen. Jeder hat etwas über seine Heimat erzählt.
+B: Die STAR-Methode! Situation, Aufgabe, Handlung, Ergebnis.
+A: Genau, ohne dass ich es damals wusste. Hahaha. Die Chefin hat danach gesagt: „Sie haben die Stelle.“ Direkt im Gespräch!
+B: Wow. Jetzt zur Geschichte von Amira. Amira hat seit drei Jahren in der Charité gearbeitet. Und jetzt hat sie ihre Anerkennung bekommen. Sie ist offiziell Pflegefachfrau in Deutschland. Und sie möchte sich weiterentwickeln.
+A: Was möchte sie machen?
+B: Sie hat sich auf eine Stelle als stellvertretende Stationsleitung beworben. Das heißt: Sie wäre die zweite Chefin auf einer Station. Eine große Verantwortung.
+A: Das ist ein großer Schritt! Wie hat sie sich vorbereitet?
+B: Sehr gründlich. Sie hat alle typischen Fragen aufgeschrieben und Antworten vorbereitet. Mit Lukas hat sie das Gespräch dreimal geübt. Er spielte den Chef und stellte schwierige Fragen.
+A: Und wie war das echte Gespräch?
+B: Es saßen drei Personen vor ihr: die Pflegedirektorin, ein Arzt und eine Frau aus der Personalabteilung. Die erste Frage war: „Frau Benali, warum möchten Sie Führungsverantwortung übernehmen?“
+A: Und was hat sie geantwortet?
+B: Sie sagte: „Ich arbeite seit über zehn Jahren in der Pflege. In Casablanca und in Berlin. Ich habe gemerkt, dass ich gern Kolleginnen unterstütze, besonders neue Kolleginnen aus dem Ausland. Ich weiß, wie schwer der Anfang in einem fremden Land ist. Ich möchte helfen, dass sich alle im Team wohlfühlen.“
+A: Eine sehr gute, persönliche Antwort.
+B: Dann kam die Frage nach der Schwäche. Amira sagte ehrlich: „Mein Deutsch ist gut, aber bei sehr formellen Texten, zum Beispiel Berichten für die Verwaltung, brauche ich noch etwas mehr Zeit. Darum mache ich gerade einen Kurs für Deutsch im Beruf.“
+A: Perfekt! Ehrlich, und sie zeigt, dass sie an der Schwäche arbeitet.
+B: Und dann eine schwierige Situationsfrage. Der Arzt fragte: „Was machen Sie, wenn zwei Kolleginnen sich ständig streiten und das Team darunter leidet?“
+A: Und?
+B: Amira erzählte von einer echten Situation, die sie erlebt hatte. Sie hatte die beiden Kolleginnen zu einem Gespräch eingeladen, beide angehört und mit ihnen zusammen eine neue Aufgabenverteilung gefunden. Danach war die Stimmung viel besser.
+A: Wieder die STAR-Methode. Sie hat sich wirklich gut vorbereitet.
+B: Am Ende fragte sie: „Wie würden Sie mich in den ersten Monaten unterstützen?“ Die Pflegedirektorin lächelte und sagte, das sei eine sehr gute Frage.
+A: Und? Hat sie die Stelle bekommen?
+B: Eine Woche später kam der Anruf. Sie hat die Stelle! Und als Erstes rief sie Frau Becker an, ihre alte Chefin, die jetzt in Rente ist. Frau Becker sagte: „Ich wusste es vom ersten Tag an.“
+A: Wie schön! Jetzt bist du dran, Hörer, Hörerin. Bereite dich auf ein Vorstellungsgespräch vor. Sag laut: „Ich heiße … und arbeite seit … als … Meine größte Stärke ist … Zum Beispiel …“
+B: Und versuch auch die Frage nach der Schwäche. „Eine Schwäche von mir ist … Aber ich arbeite daran, indem ich …“
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: die Personalabteilung. Die Abteilung, die sich um die Mitarbeiter kümmert.
+A: Wort Nummer zwei: teamfähig. Man kann gut mit anderen zusammenarbeiten.
+B: Wort Nummer drei: belastbar. Man kann auch unter Stress gut arbeiten.
+A: Wort Nummer vier: brutto. Vor den Steuern und Abgaben. Das Gegenteil ist netto.
+B: Wort Nummer fünf: übertreiben. Etwas größer oder besser darstellen, als es ist.
+A: Und Wort Nummer sechs: selbstbewusst. Man kennt seinen Wert und hat Vertrauen in sich selbst.
+B: Noch einmal: die Personalabteilung, teamfähig, belastbar, brutto, übertreiben, selbstbewusst.
+A: Was lernen wir heute? Den Ablauf eines Vorstellungsgesprächs: Small Talk, „Erzählen Sie etwas über sich“, Motivation, Stärken und Schwächen, Situationsfragen, Gehalt und eigene Fragen.
+B: Die STAR-Methode: Situation, Aufgabe, Handlung, Ergebnis.
+A: Und die kulturellen Tipps: pünktlich sein, „Sie“ sagen, ehrlich sein und nicht übertreiben, aber selbstbewusst bleiben.
+B: Und immer eigene Fragen vorbereiten!
+A: Das ist das Ende von Folge achtundvierzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und viel Erfolg bei deinem nächsten Vorstellungsgespräch! Servus!
+A: Tschüss!
+VOCAB: die Personalabteilung | Die Abteilung, die sich um die Mitarbeiter kümmert. | 🗂️
+VOCAB: teamfähig | Man kann gut mit anderen zusammenarbeiten. | 👥
+VOCAB: belastbar | Man kann auch unter Stress gut arbeiten. | 🏋️
+VOCAB: brutto | Vor den Steuern und Abgaben. Das Gegenteil ist netto. | 💰
+VOCAB: übertreiben | Etwas größer oder besser darstellen, als es ist. | 🎈
+VOCAB: selbstbewusst | Man kennt seinen Wert und hat Vertrauen in sich selbst. | 😎
+QUIZ: Was sollte man bei der Frage „Haben Sie noch Fragen?“ nicht sagen? | Wie sieht ein typischer Arbeitstag aus? | Nein, ich habe keine Fragen. | Wie geht es weiter? | 2
+QUIZ: Wofür steht das R in der STAR-Methode? | Für das Ergebnis | Für die Regel | Für die Rolle | 1
+QUIZ: Warum kam Jonas zu spät zum Gespräch in Hamburg? | Er hat verschlafen | Der Zug hatte Verspätung | Er hat sich verlaufen | 2
+QUIZ: Welche Schwäche nennt Amira? | Sie ist zu perfektionistisch | Formelle Texte auf Deutsch brauchen noch mehr Zeit | Sie ist oft zu spät | 2
+QUIZ: Wen ruft Amira nach der Zusage als Erstes an? | Ihre Mutter | Frau Becker | Julien | 2
+`;
+
+DATA.podScripts.ep049 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge neunundvierzig. Heute machen wir einen Faktencheck. Wir sprechen über Mythen über gesunde Ernährung.
+A: Ein Mythos ist eine Idee, die viele Menschen glauben, die aber nicht stimmt. Oder nur teilweise stimmt. Und über Ernährung gibt es unglaublich viele Mythen. Jeder hat eine Meinung, jede Oma hat einen Tipp, und im Internet findet man alles und das Gegenteil.
+B: Und wir lernen heute, wie man Ratschläge gibt. Mit dem Verb „sollte“. Das ist der Konjunktiv II von „sollen“. „Du solltest mehr Wasser trinken.“ „Man sollte nicht zu viel Zucker essen.“
+A: „Sollte“ ist ein freundlicher Ratschlag. Weicher als „müssen“. „Du musst zum Arzt gehen“ klingt wie ein Befehl. „Du solltest zum Arzt gehen“ klingt wie ein guter Rat von einer Freundin.
+B: Die Formen: ich sollte, du solltest, er sollte, wir sollten, ihr solltet, sie sollten. Und das Verb im Infinitiv am Ende, wie immer bei Modalverben.
+A: Und andere Ausdrücke für Ratschläge, die wir schon kennen: „An deiner Stelle würde ich …“ „Es wäre gut, wenn …“ „Ich empfehle dir, …“ „Versuch doch mal, …“
+B: „Versuch doch mal“ ist sehr informell und freundlich. Das kleine Wort „doch“ macht den Satz weicher. „Komm doch mit!“ „Probier doch mal den Kuchen!“
+A: Gut. Und jetzt der Faktencheck. Wir haben zehn Mythen gesammelt. Wir sagen, was die Leute glauben, und was die Wissenschaft sagt. Jonas, fang an!
+B: Mythos Nummer eins: „Man sollte jeden Tag mindestens drei Liter Wasser trinken.“
+A: Ah, den kenne ich. Und, stimmt es?
+B: Nur teilweise. Die meisten Experten empfehlen für Erwachsene ungefähr anderthalb bis zwei Liter pro Tag. Aber das hängt vom Wetter ab, vom Sport und von der Person. Und ein Teil der Flüssigkeit kommt auch aus dem Essen. Aus Obst, Gemüse, Suppe.
+A: Also man muss nicht drei Liter Wasser in sich hineinzwingen. Aber genug trinken ist wichtig.
+B: Genau. Besonders für mich! Hahaha. Du weißt, ich trinke zu wenig und habe dann Kopfschmerzen.
+A: Ich weiß, ich weiß. Du solltest wirklich mehr trinken, Jonas. Mythos Nummer zwei: „Kaffee entzieht dem Körper Wasser.“
+B: Oh, den habe ich oft gehört. Darum bekommt man in Wien immer ein Glas Wasser zum Kaffee, oder?
+A: Das ist eine schöne Tradition. Aber der Mythos stimmt so nicht. Kaffee wirkt zwar ein bisschen harntreibend. Das heißt, man muss öfter auf die Toilette. Aber insgesamt zählt Kaffee trotzdem zur Flüssigkeit. Wer regelmäßig Kaffee trinkt, verliert dadurch kein Wasser.
+B: Wunderbar! Dann kann ich meine fünf Tassen Kaffee weiter trinken!
+A: Hmm. Das habe ich nicht gesagt. Mehr als vier Tassen pro Tag sind für die meisten Menschen zu viel. Wegen dem Koffein. Man kann schlecht schlafen und nervös werden.
+B: Okay, okay. Mythos Nummer drei: „Wer abends Kohlenhydrate isst, wird dick.“ Kohlenhydrate sind zum Beispiel in Brot, Nudeln, Reis und Kartoffeln.
+A: Ein sehr beliebter Mythos. Viele Leute essen abends keine Nudeln und kein Brot mehr. Aber die Wissenschaft sagt: Es kommt nicht darauf an, wann man isst, sondern wie viel man insgesamt isst. Wenn man mehr Energie isst, als man braucht, nimmt man zu. Egal ob morgens oder abends.
+B: Das ist gut zu wissen. Denn in Deutschland ist das Abendessen traditionell Brot. Das Abendbrot!
+A: Genau. Aber man sollte vielleicht Vollkornbrot statt Weißbrot essen. Weil es mehr Ballaststoffe hat. Ballaststoffe sind Teile von Pflanzen, die gut für die Verdauung sind. Man wird länger satt.
+B: Mythos Nummer vier: „Spinat enthält besonders viel Eisen.“
+A: Ah, das ist ein berühmter Mythos! Popeye isst Spinat und wird stark. Viele Generationen von Kindern mussten deshalb Spinat essen. Ich habe ihn als Kind gehasst!
+B: Und die Wahrheit?
+A: Spinat enthält Eisen, aber nicht besonders viel. Es gibt eine Legende, dass ein Wissenschaftler sich vor langer Zeit mit dem Komma vertan hat. Er soll statt drei Komma fünf Milligramm fünfunddreißig Milligramm geschrieben haben. Ob diese Geschichte stimmt, ist aber auch nicht sicher. Ein Mythos über einen Mythos! Hahaha.
+B: Hahaha. Das ist großartig. Also ich muss als Kind umsonst Spinat gegessen haben?
+A: Nicht umsonst. Spinat ist trotzdem gesund. Er hat viele Vitamine. Aber für Eisen sind andere Lebensmittel besser. Linsen, Haferflocken, Fleisch.
+B: Mythos Nummer fünf: „Fett macht dick.“
+A: Das hat man lange geglaubt. In den Achtziger- und Neunzigerjahren gab es überall „Light-Produkte“ mit wenig Fett. Aber oft hatten diese Produkte dafür viel mehr Zucker. Damit sie trotzdem gut schmecken.
+B: Und heute weiß man, dass es gesunde Fette gibt. Zum Beispiel in Nüssen, in Olivenöl, in Avocados und in Fisch. Der Körper braucht diese Fette.
+A: Genau. Das Problem ist eher der Zucker. Und die stark verarbeiteten Lebensmittel. Fertigpizza, Chips, Süßigkeiten, gesüßte Getränke.
+B: Mythos Nummer sechs: „Braune Eier sind gesünder als weiße Eier.“
+A: Hahaha. Das glauben wirklich viele Leute! Aber die Farbe der Schale hängt nur von der Hühnerrasse ab. Innen sind die Eier gleich. Ob ein Ei gesund ist, hängt eher davon ab, wie das Huhn gelebt und was es gefressen hat.
+B: In Deutschland kann man das auf dem Ei lesen, oder? Mit einer Nummer.
+A: Genau. Jedes Ei hat einen Stempel. Die erste Zahl zeigt die Haltung. Null heißt Bio, eins Freilandhaltung, zwei Bodenhaltung. Man sollte eher Eier mit null oder eins kaufen, für das Wohl der Tiere.
+B: Mythos Nummer sieben: „Frisches Gemüse ist immer gesünder als Tiefkühlgemüse.“
+A: Das stimmt nicht unbedingt! Tiefkühlgemüse wird oft direkt nach der Ernte eingefroren. Dann bleiben die Vitamine erhalten. Frisches Gemüse dagegen liegt manchmal tagelang im Supermarkt oder im Kühlschrank und verliert Vitamine.
+B: Das ist überraschend. Also Tiefkühlgemüse ist eine gute Alternative, wenn man wenig Zeit hat.
+A: Genau. Ich habe immer Tiefkühlerbsen und Tiefkühlspinat im Gefrierfach. Hahaha. Ja, Spinat, trotz allem!
+B: Mythos Nummer acht: „Man sollte nach dem Essen eine halbe Stunde warten, bevor man schwimmen geht.“
+A: Oh, das sagen alle Eltern! „Warte, du hast gerade gegessen!“ Aber es gibt keinen wissenschaftlichen Beweis, dass Schwimmen nach dem Essen gefährlich ist. Nach einem sehr großen Essen fühlt man sich vielleicht schwer und müde. Aber man geht nicht unter.
+B: Hahaha. Wie viele Stunden habe ich als Kind am Strand gewartet! Mythos Nummer neun: „Ein Glas Rotwein am Tag ist gut für das Herz.“
+A: Das hat man lange geglaubt. Aber neuere Studien sind kritischer. Heute sagen viele Experten: Es gibt keine Menge Alkohol, die wirklich gesund ist. Die positiven Stoffe im Rotwein findet man auch in roten Trauben. Ohne Alkohol.
+B: Oh nein. Das ist eine schlechte Nachricht für Österreich. Hahaha.
+A: Hahaha. Man kann natürlich trotzdem ab und zu ein Glas Wein genießen. Aber nicht als Medizin.
+B: Und Mythos Nummer zehn: „Man sollte fünf kleine Mahlzeiten pro Tag essen, um den Stoffwechsel anzukurbeln.“ Der Stoffwechsel ist der Prozess im Körper, der aus Essen Energie macht.
+A: Auch das ist umstritten. „Umstritten“ heißt: Experten sind nicht einer Meinung. Manche Menschen fühlen sich mit drei großen Mahlzeiten besser, andere mit fünf kleinen. Für den Stoffwechsel macht es kaum einen Unterschied. Wichtig ist, was und wie viel man insgesamt isst.
+B: Also die wichtigste Erkenntnis heute: Es gibt keine einfachen Regeln. Und man sollte nicht alles glauben, was man liest.
+A: Genau. Und die Tipps, über die sich fast alle Experten einig sind, sind eigentlich ziemlich einfach. Erstens: Viel Gemüse und Obst essen. Am besten bunt und abwechslungsreich.
+B: Zweitens: Weniger Zucker und weniger stark verarbeitete Lebensmittel. Lieber selbst kochen.
+A: Drittens: Vollkorn statt Weißmehl. Viertens: Genug trinken, am besten Wasser oder ungesüßten Tee.
+B: Und fünftens: Genießen! Essen soll auch Freude machen. Wer sich nur mit Regeln und schlechtem Gewissen ernährt, wird auch nicht glücklich.
+A: Das finde ich sehr wichtig. Ein Stück Sachertorte ab und zu ist kein Problem.
+B: Danke, Lena! Das wollte ich hören. Hahaha.
+A: Jetzt die Geschichte von Kenji. Kenji macht ja die Ausbildung zum Bäcker. Und in der Berufsschule hat er ein Fach über Ernährung. Und er bekommt eine Hausaufgabe: Er soll eine Woche lang ein Ernährungstagebuch schreiben. Alles, was er isst und trinkt.
+B: Ein Ernährungstagebuch. Und was hat er herausgefunden?
+A: Er war überrascht. Er dachte, dass er sehr gesund isst. Aber dann sah er: Jeden Tag isst er in der Bäckerei mindestens drei Croissants, zwei Brötchen und ein Stück Kuchen. Zum Probieren, wie er sagt. Hahaha.
+B: Hahaha. Das Risiko eines Bäckers!
+A: Genau. Und er trinkt jeden Tag zwei Flaschen Cola, weil er so früh aufsteht und müde ist. Und er isst fast kein Gemüse. Am Abend ist er zu müde zum Kochen und isst Instantnudeln.
+B: Oh, das ist nicht so gut. Was hat er gemacht?
+A: Er hat Mira um Rat gefragt. Mira kocht sehr gesund. Und sie hat ihm ein paar Ratschläge gegeben. „Du solltest nicht alles probieren, was du backst. Nur ein kleines Stück.“ „Statt Cola solltest du grünen Tee trinken. Der hat auch Koffein, aber keinen Zucker.“
+B: Gute Ratschläge. Und das Gemüse?
+A: Mira sagte: „Versuch doch mal, am Sonntag für die ganze Woche zu kochen. Zum Beispiel eine große Gemüsesuppe oder ein Curry. Dann musst du am Abend nur noch aufwärmen.“ Das nennt man „Meal Prep“, also Essen vorbereiten.
+B: Und hat das funktioniert?
+A: Am Anfang war es schwer. Er hat die Cola vermisst. Aber nach zwei Wochen hat er gemerkt, dass er mehr Energie hatte. Er war am Nachmittag nicht mehr so müde. Und er hat Spaß am Kochen gefunden. Jetzt kocht er japanisch-deutsche Gerichte. Miso-Suppe mit Kartoffeln. Sauerkraut mit Tofu.
+B: Hahaha. Interessante Kombinationen!
+A: Ja, und er hat ein neues Brot erfunden. Ein Vollkornbrot mit Sesam, Seetang und Sonnenblumenkernen. Er nennt es „Tokio-Berlin-Brot“. Herr Wagner, sein Chef, war zuerst skeptisch. Aber jetzt ist es das beliebteste Brot in der Bäckerei!
+B: Wunderbar. Gesund und lecker.
+A: Jetzt bist du dran, Hörer, Hörerin. Gib einem Freund Ratschläge für eine gesündere Ernährung. Sag es laut: „Du solltest mehr … essen.“ „Du solltest weniger … trinken.“ „Versuch doch mal, …“
+B: Und welchen Mythos hast du bis heute geglaubt? Sag es laut: „Ich habe immer gedacht, dass … Aber das stimmt nicht.“
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: der Mythos. Eine Idee, die viele glauben, die aber nicht stimmt.
+A: Wort Nummer zwei: sollte. Ein freundlicher Ratschlag. Du solltest mehr schlafen.
+B: Wort Nummer drei: die Ballaststoffe. Teile von Pflanzen, die gut für die Verdauung sind.
+A: Wort Nummer vier: umstritten. Experten sind nicht einer Meinung.
+B: Wort Nummer fünf: der Stoffwechsel. Der Prozess im Körper, der aus Essen Energie macht.
+A: Und Wort Nummer sechs: abwechslungsreich. Mit viel Vielfalt, nicht immer das Gleiche.
+B: Noch einmal: der Mythos, sollte, die Ballaststoffe, umstritten, der Stoffwechsel, abwechslungsreich.
+A: Was lernen wir heute? Ratschläge geben mit „sollte“: Du solltest mehr Wasser trinken. Und mit „Versuch doch mal …“ und „An deiner Stelle würde ich …“
+B: Zehn Mythen über Ernährung. Und die Erkenntnis: Es gibt keine einfachen Regeln.
+A: Die Tipps, über die sich fast alle einig sind: viel Gemüse, wenig Zucker, Vollkorn, genug trinken.
+B: Und: Genießen ist auch gesund! Ab und zu ein Stück Sachertorte.
+A: Das ist das Ende von Folge neunundvierzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und trink ein Glas Wasser! Ich mache das jetzt auch. Servus!
+A: Tschüss!
+VOCAB: der Mythos | Eine Idee, die viele Menschen glauben, die aber nicht stimmt. | 🧚
+VOCAB: sollte | Ein freundlicher Ratschlag: Du solltest mehr schlafen. | 💡
+VOCAB: die Ballaststoffe | Teile von Pflanzen, die gut für die Verdauung sind. | 🌾
+VOCAB: umstritten | Experten sind nicht einer Meinung. | 🤷
+VOCAB: der Stoffwechsel | Der Prozess im Körper, der aus Essen Energie macht. | 🔥
+VOCAB: abwechslungsreich | Mit viel Vielfalt, nicht immer das Gleiche. | 🌈
+QUIZ: Wie viel Wasser empfehlen die meisten Experten pro Tag? | Drei bis vier Liter | Ungefähr anderthalb bis zwei Liter | Einen halben Liter | 2
+QUIZ: Was bestimmt die Farbe der Eierschale? | Die Gesundheit des Eis | Die Hühnerrasse | Das Futter | 2
+QUIZ: Warum ist Tiefkühlgemüse oft eine gute Alternative? | Es wird direkt nach der Ernte eingefroren | Es ist immer Bio | Es hat mehr Zucker | 1
+QUIZ: Was trank Kenji jeden Tag zu viel? | Kaffee | Cola | Wein | 2
+QUIZ: Wie heißt Kenjis neues Brot? | Wiener Brot | Tokio-Berlin-Brot | Japanbrot | 2
+`;
