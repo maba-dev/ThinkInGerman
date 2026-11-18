@@ -1648,3 +1648,210 @@ QUIZ: Was meinte Bourdieu mit „kulturellem Kapital“? | Geld | Bildung, Wisse
 QUIZ: Wofür plädiert Michael Sandel? | Für mehr Wettbewerb | Für eine Kultur der Demut und die Würde aller Arbeit | Für die Abschaffung der Schulen | 2
 QUIZ: Was sagte Emre auf dem Podium? | Jeder kann es schaffen, wenn er sich anstrengt | Er sei nicht der Beweis, sondern die Ausnahme | Er habe alles allein geschafft | 2
 `;
+
+DATA.podScripts.ep098 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge achtundneunzig. Heute schauen wir in unseren eigenen Kopf. Und zwar in die Fallen, die uns unser Gehirn stellt, wenn wir Entscheidungen treffen. Unser Thema: Entscheiden unter Unsicherheit und die kognitiven Verzerrungen.
+A: Wir halten uns gern für rationale Wesen. Wir glauben, dass wir Informationen sorgfältig abwägen und dann vernünftig entscheiden. Aber die Psychologie der letzten Jahrzehnte hat gezeigt, dass das eine Illusion ist. Unser Denken ist systematisch verzerrt.
+B: Eine „kognitive Verzerrung“, auf Englisch „cognitive bias“, ist ein systematischer Denkfehler. Nicht ein zufälliger Fehler, sondern ein Muster, das bei fast allen Menschen auftritt. Und das uns immer wieder in die gleiche Richtung lenkt.
+A: Wir haben in diesem Podcast schon mehrere dieser Verzerrungen kennengelernt. Den Bestätigungsfehler in Folge siebzig, den Ankereffekt in Folge einundsiebzig, den Automation Bias in Folge einundachtzig. Heute bringen wir sie zusammen und lernen weitere kennen.
+B: Sprachlich widmen wir uns heute der präzisen Darstellung von Denkprozessen und Kausalzusammenhängen. Und wir üben besonders gehobene Konnektoren und Ausdrücke, die man in wissenschaftlichen und essayistischen Texten findet: „demzufolge“, „infolgedessen“, „ebenda“, „hingegen“, „mitunter“, „gemeinhin“, „zumal“.
+A: „Zumal“ ist ein besonders schönes Wort. Es leitet einen zusätzlichen, verstärkenden Grund ein. „Wir sollten vorsichtig sein, zumal die Datenlage dünn ist.“ Also: Wir sollten vorsichtig sein, besonders weil die Datenlage dünn ist. Das Verb steht nach „zumal“ am Ende.
+B: Und „mitunter“ heißt: manchmal, gelegentlich. „Gemeinhin“ heißt: allgemein, normalerweise. „Gemeinhin glaubt man, dass Menschen rational entscheiden. Mitunter tun sie das aber nicht.“
+A: Gut. Fangen wir mit dem Fundament an. Und das ist die Arbeit zweier israelischer Psychologen: Daniel Kahneman und Amos Tversky. Kahneman bekam dafür zweitausendzwei den Nobelpreis für Wirtschaftswissenschaften. Obwohl er Psychologe war.
+B: Und Kahneman hat ein berühmtes Buch geschrieben, das auch in Deutschland ein Bestseller wurde: „Schnelles Denken, langsames Denken“. Und darin beschreibt er zwei Denksysteme.
+A: Erkläre sie.
+B: Das System eins ist schnell, automatisch, intuitiv und mühelos. Es arbeitet ständig im Hintergrund. Wenn man ein wütendes Gesicht sieht, erkennt man sofort die Wut. Wenn man „zwei plus zwei“ hört, denkt man sofort an „vier“. Man muss nicht nachdenken.
+A: Und das System zwei ist langsam, bewusst, anstrengend und logisch. Es schaltet sich ein, wenn wir uns konzentrieren müssen. Wenn wir „siebzehn mal vierundzwanzig“ rechnen. Oder eine schwierige Entscheidung treffen.
+B: Und das Problem ist: Das System zwei ist faul. Es ist energieaufwendig und schaltet sich nur ungern ein. Darum überlassen wir die meisten Entscheidungen dem schnellen System eins. Und das macht systematische Fehler.
+A: Kahneman hat dazu eine berühmte Testfrage gestellt. Hör gut zu, Hörer, Hörerin. Und versuche, sofort zu antworten. Ein Schläger und ein Ball kosten zusammen einen Euro zehn. Der Schläger kostet einen Euro mehr als der Ball. Wie viel kostet der Ball?
+B: Die meisten Menschen antworten sofort: zehn Cent. Das sagt das System eins. Aber es ist falsch.
+A: Genau. Wenn der Ball zehn Cent kostet und der Schläger einen Euro mehr, also einen Euro zehn, dann kostet beides zusammen einen Euro zwanzig. Nicht einen Euro zehn. Die richtige Antwort ist: Der Ball kostet fünf Cent. Und der Schläger einen Euro fünf.
+B: Hahaha. Ich gebe zu, ich bin beim ersten Mal auch reingefallen. Und das Erstaunliche: Auch Studenten an Eliteuniversitäten geben in großer Zahl die falsche Antwort. Es ist keine Frage der Intelligenz, sondern eine Frage, ob man das System zwei einschaltet.
+A: Gut. Jetzt die wichtigsten Verzerrungen. Fangen wir mit der Verfügbarkeitsheuristik an. Eine „Heuristik“ ist eine Daumenregel, eine geistige Abkürzung, um schnell zu einer Entscheidung zu kommen.
+B: Bei der Verfügbarkeitsheuristik schätzen wir die Wahrscheinlichkeit eines Ereignisses danach ein, wie leicht uns Beispiele dafür einfallen. Was uns schnell in den Sinn kommt, halten wir für häufiger.
+A: Ein klassisches Beispiel ist die Angst vor dem Fliegen. Viele Menschen haben mehr Angst vor einem Flugzeugabsturz als vor einem Autounfall. Obwohl das Autofahren statistisch viel gefährlicher ist. Aber Flugzeugabstürze sind spektakulär, sie stehen tagelang in den Nachrichten. Darum fallen sie uns leicht ein.
+B: Und nach den Anschlägen vom elften September zweitausendeins sind viele Amerikaner aus Angst vor dem Fliegen aufs Auto umgestiegen. Und ein Forscher, Gerd Gigerenzer vom Max-Planck-Institut in Berlin, hat berechnet, dass dadurch im folgenden Jahr wahrscheinlich etwa sechzehnhundert zusätzliche Menschen bei Verkehrsunfällen ums Leben gekommen sind. Mehr als im Flugzeug.
+A: Das ist erschütternd. Eine kognitive Verzerrung, die Menschenleben gekostet hat. Und Gigerenzer ist übrigens ein wichtiger deutscher Forscher auf diesem Gebiet, mit einer interessanten Gegenposition zu Kahneman, auf die wir gleich kommen.
+B: Zweite Verzerrung: der Ankereffekt, den wir aus der Gehaltsverhandlung in Folge einundsiebzig kennen. Eine zuerst genannte Zahl beeinflusst alle folgenden Schätzungen, selbst wenn sie völlig willkürlich ist.
+A: Und es gibt dazu ein verblüffendes Experiment mit deutschen Richtern. Erfahrene Richter bekamen einen Fall vorgelegt. Und bevor sie das Strafmaß festlegten, mussten sie würfeln. Die Würfel waren manipuliert und zeigten entweder eine niedrige oder eine hohe Zahl.
+B: Und hatte das einen Einfluss?
+A: Einen erheblichen! Die Richter, die eine hohe Zahl gewürfelt hatten, verhängten deutlich längere Strafen als die, die eine niedrige Zahl gewürfelt hatten. Obwohl allen bewusst war, dass ein Würfelergebnis nichts mit dem Fall zu tun hat.
+B: Das ist ja beängstigend. Selbst erfahrene Profis sind nicht immun. Dritte Verzerrung: die Verlustaversion. Das ist eine zentrale Erkenntnis von Kahneman und Tversky.
+A: Die Verlustaversion bedeutet: Verluste schmerzen uns ungefähr doppelt so stark, wie uns gleich große Gewinne freuen. Hundert Euro zu verlieren, tut mehr weh, als es Freude macht, hundert Euro zu gewinnen.
+B: Und das führt zu irrationalem Verhalten. Zum Beispiel an der Börse. Viele Anleger halten an Aktien fest, die stark gefallen sind, weil sie den Verlust nicht realisieren wollen. Sie hoffen, dass der Kurs wieder steigt. Und sie verlieren dabei noch mehr.
+A: Und das ist verwandt mit der vierten Verzerrung: dem Trugschluss der versunkenen Kosten. Auf Englisch „Sunk Cost Fallacy“.
+B: Das kennt jeder. Man hat schon viel Geld oder Zeit in etwas investiert. Und darum macht man weiter, obwohl es keinen Sinn mehr ergibt. Weil man das bereits Investierte nicht verschwendet haben will.
+A: Ein Alltagsbeispiel: Man hat ein teures Konzertticket gekauft. Am Abend des Konzerts ist man krank und müde und hat eigentlich keine Lust. Aber man geht trotzdem, weil das Ticket so teuer war. Dabei ist das Geld so oder so weg. Die einzige rationale Frage ist: Würde mir das Konzert jetzt Freude machen?
+B: Und im Großen sieht man das bei gescheiterten Großprojekten. Wie beim Flughafen BER aus Folge zweiundneunzig. Wenn schon Milliarden investiert wurden, ist es politisch fast unmöglich, ein Projekt abzubrechen. Auch wenn es vernünftiger wäre. Man spricht manchmal davon, „schlechtem Geld gutes hinterherzuwerfen“.
+A: Eine schöne Redewendung. Fünfte Verzerrung: der Rückschaufehler. Auf Englisch „Hindsight Bias“. Im Nachhinein glauben wir, wir hätten ein Ereignis vorhersehen können. „Ich habe es doch gleich gewusst!“
+B: Und das ist gefährlich, weil wir dadurch die Unsicherheit der Vergangenheit unterschätzen. Und wir beurteilen Entscheidungen anderer ungerecht. Wir haben in Folge vierundsechzig über das Bedauern gesprochen. Viel Bedauern entsteht durch den Rückschaufehler. Wir hätten es wissen müssen, denken wir. Dabei konnten wir es damals gar nicht wissen.
+A: Sechste Verzerrung, und die ist für das Berufsleben besonders relevant: der Überoptimismus und der Planungsfehlschluss. Wir unterschätzen systematisch, wie lange ein Projekt dauern und wie viel es kosten wird.
+B: Fast jedes Großprojekt dauert länger und kostet mehr als geplant. Die Elbphilharmonie in Hamburg zum Beispiel. Sie sollte ursprünglich etwa siebenundsiebzig Millionen Euro kosten und wurde zweitausendzehn eröffnet. Tatsächlich kostete sie fast neunhundert Millionen und wurde erst zweitausendsiebzehn eröffnet.
+A: Und das liegt nicht nur an Inkompetenz, sondern an einer tiefen psychologischen Neigung. Wir stellen uns den Idealfall vor, nicht die vielen Dinge, die schiefgehen können.
+B: Und es gibt eine Gegenstrategie, die Kahneman empfiehlt. Die sogenannte Außenperspektive. Statt sich nur auf das eigene Projekt zu konzentrieren, schaut man sich an, wie lange ähnliche Projekte in der Vergangenheit gedauert haben. Das ist viel realistischer.
+A: Und siebte Verzerrung: der Dunning-Kruger-Effekt. Ein sehr bekanntes Phänomen. Menschen mit geringen Kenntnissen auf einem Gebiet überschätzen ihre Fähigkeiten oft massiv. Weil ihnen das Wissen fehlt, um ihre eigene Unwissenheit zu erkennen.
+B: Und umgekehrt unterschätzen echte Experten sich oft. Weil sie wissen, wie viel sie noch nicht wissen. Folge sechsundsechzig, das Hochstapler-Syndrom.
+A: Und das ist für das Sprachenlernen sehr interessant! Am Anfang denken viele, eine Sprache sei einfach. Dann merkt man, wie komplex sie ist, und das Selbstvertrauen sinkt. Und erst mit der Zeit wächst es wieder, diesmal auf einer realistischen Grundlage. Wobei auch dieser Effekt in der Forschung inzwischen differenzierter gesehen wird als in der populären Darstellung.
+B: Gut. Und jetzt die interessante Gegenposition. Gerd Gigerenzer, den wir erwähnt haben, kritisiert Kahneman. Und zwar grundsätzlich.
+A: Erkläre seine Kritik.
+B: Gigerenzer sagt, Kahneman stelle die Intuition und die Heuristiken zu negativ dar. Als ob sie nur Fehlerquellen wären. Aber in Wirklichkeit seien Heuristiken oft sehr klug. Gerade in einer unsicheren Welt, in der man nicht alle Informationen hat.
+A: Gigerenzer unterscheidet zwischen Risiko und Unsicherheit. Bei einem Risiko kennt man alle Möglichkeiten und Wahrscheinlichkeiten. Wie beim Würfeln oder im Kasino. Da hilft komplexe Berechnung. Aber bei echter Unsicherheit, im echten Leben, kennt man die Wahrscheinlichkeiten oft nicht. Und da sind einfache Faustregeln oft besser als komplizierte Berechnungen.
+B: Und er nennt das „Bauchentscheidungen“. Er hat ein Buch mit diesem Titel geschrieben. Und er bringt ein schönes Beispiel: Ein Baseballspieler, der einen hohen Ball fangen will, berechnet nicht die Flugbahn mit komplizierten Formeln. Er benutzt eine einfache Heuristik. Er hält den Blickwinkel zum Ball konstant und läuft entsprechend. Und das funktioniert perfekt.
+A: Das ist ein wichtiger Gegenpunkt. Die Intuition ist nicht immer schlecht. Bei Experten mit viel Erfahrung ist sie oft sehr zuverlässig. Wie bei Hias in Folge sechsundneunzig, der die Gefahr am Fels instinktiv gespürt hat.
+B: Genau! Seine Intuition beruhte auf fünfundzwanzig Jahren Erfahrung. Das System eins eines Experten ist ein ganz anderes als das eines Anfängers.
+A: Und vielleicht ist die Synthese aus beiden Positionen: Man muss wissen, wann man seiner Intuition trauen kann und wann nicht. Bei vertrauten Situationen mit schnellem Feedback, wie beim Bergführer oder einer erfahrenen Pflegekraft, ist die Intuition oft gut. Bei neuen, komplexen Situationen ohne Feedback, wie bei langfristigen Finanzentscheidungen, sollte man das System zwei einschalten.
+B: Eine kluge Synthese. Und was kann man praktisch tun, um bessere Entscheidungen zu treffen?
+A: Erstens: Sich der eigenen Verzerrungen bewusst sein. Allein das Wissen hilft schon ein bisschen. Zweitens: Wichtige Entscheidungen verlangsamen. Eine Nacht darüber schlafen, wie in Folge achtundsiebzig beim Feedback.
+B: Drittens: Aktiv nach Gegenargumenten suchen. Gegen den Bestätigungsfehler. Einen Advocatus Diaboli einsetzen, wie in Folge vierundsiebzig. Viertens: Die Außenperspektive einnehmen. Wie lange haben ähnliche Projekte gedauert?
+A: Und fünftens, eine sehr wirksame Methode: die Pre-Mortem-Analyse. Sie stammt von dem Psychologen Gary Klein. Bevor man ein Projekt beginnt, stellt man sich vor, es sei ein Jahr später und das Projekt sei gescheitert. Und dann fragt man: Was ist schiefgelaufen?
+B: Das ist clever. Ein „Post-Mortem“ ist die Untersuchung nach dem Tod. Und ein Pre-Mortem ist die Untersuchung vor dem Tod. Indem man sich das Scheitern vorstellt, erkennt man Risiken, die man im Optimismus übersehen hätte.
+A: Jetzt zur Geschichte. Und diesmal geht es um Herrn Yilmaz, den Leiter der Programmierschule. Vor einer großen Entscheidung.
+B: Herr Yilmaz! Was für eine Entscheidung?
+A: Die Programmierschule hat ein sehr großzügiges Angebot bekommen. Ein großer amerikanischer Technologiekonzern wollte einen neuen, riesigen Campus in Berlin finanzieren. Für tausend Studierende. Mit modernster Ausstattung. Aber mit Bedingungen.
+B: Welche Bedingungen?
+A: Der Konzern wollte, dass die Studierenden bevorzugt mit seinen Produkten und seiner Software arbeiten. Und dass die besten Absolventen ein Vorkaufsrecht für Jobs beim Konzern haben. Und er wollte einen Sitz im Beirat der Schule.
+B: Ein verlockendes, aber heikles Angebot. Und Herr Yilmaz?
+A: Herr Yilmaz war zuerst begeistert. Tausend Studierende! Er sah die großen Möglichkeiten. Sein System eins sagte sofort: Ja! Und alle im Team waren euphorisch. „Euphorisch“ heißt: übertrieben begeistert, in einer Hochstimmung.
+B: Die Gefahr des Überoptimismus. Und der Gruppendynamik. Wenn alle begeistert sind, traut sich niemand, Zweifel zu äußern.
+A: Genau. Und dann hat Katrin vorgeschlagen, eine Pre-Mortem-Analyse zu machen. Sie hat das Team zusammengerufen und gesagt: „Stellt euch vor, es ist fünf Jahre später. Wir haben das Angebot angenommen, und es war ein Fehler. Was ist passiert?“
+B: Und was kam heraus?
+A: Plötzlich kamen viele Bedenken auf, die vorher niemand geäußert hatte. Oksana sagte: „Wir haben unsere Unabhängigkeit verloren. Der Konzern bestimmt, was wir unterrichten.“ Julien sagte: „Die Studierenden lernen nur noch die Werkzeuge eines einzigen Konzerns und werden abhängig.“ Und Lea, die als ehemalige Studentin eingeladen war, sagte: „Die Schule war für Leute wie mich da. Für die, die keine Chance haben. Wird sie jetzt zu einer Rekrutierungsmaschine für einen Konzern?“
+B: Starke Argumente. Und hat Herr Yilmaz das Angebot abgelehnt?
+A: Nicht ganz. Er hat das System zwei eingeschaltet. Er hat sich Zeit genommen. Er hat die Außenperspektive eingenommen und recherchiert, wie es anderen Schulen mit ähnlichen Partnerschaften ergangen war. Und er hat festgestellt, dass einige ihre Unabhängigkeit tatsächlich verloren hatten.
+B: Und dann?
+A: Er ist zurück zum Konzern gegangen und hat neu verhandelt. Mit den Erkenntnissen aus der Pre-Mortem-Analyse. Er hat gesagt: „Wir nehmen Ihre Unterstützung gern an. Aber ohne Bedingungen für den Lehrplan, ohne Vorkaufsrecht und ohne Sitz im Beirat.“
+B: Mutig. Und hat der Konzern das akzeptiert?
+A: Zuerst nicht. Und Herr Yilmaz war bereit, auf das Geld zu verzichten. Aber nach einigen Wochen kam der Konzern zurück. Mit einem kleineren, aber bedingungslosen Angebot. Für fünfhundert statt tausend Studierende. Und Herr Yilmaz hat angenommen.
+B: Eine kluge Entscheidung. Weniger, aber ohne Abhängigkeit.
+A: Genau. Und Herr Yilmaz hat danach im Team gesagt: „Mein Bauch hat Ja gesagt. Mein Kopf hat Vielleicht gesagt. Und unser Team hat mir gezeigt, was ich nicht sehen wollte.“
+B: Jetzt bist du dran, Hörer, Hörerin. Denk an eine Entscheidung, die du bald treffen musst. Mach eine Pre-Mortem-Analyse: Stell dir vor, die Entscheidung war ein Fehler. Was ist schiefgelaufen? Und formuliere deine Überlegungen mit gehobenen Konnektoren: „Ich sollte vorsichtig sein, zumal …“, „Mitunter …“, „Infolgedessen …“
+A: Und überprüfe, ob du in letzter Zeit einer der kognitiven Verzerrungen zum Opfer gefallen bist.
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: die kognitive Verzerrung. Ein systematischer Denkfehler, der bei fast allen Menschen auftritt.
+B: Wort Nummer zwei: zumal. Leitet einen zusätzlichen, verstärkenden Grund ein.
+A: Wort Nummer drei: die Heuristik. Eine Daumenregel, eine geistige Abkürzung, um schnell zu entscheiden.
+B: Wort Nummer vier: die Verlustaversion. Verluste schmerzen stärker, als gleich große Gewinne freuen.
+A: Wort Nummer fünf: mitunter. Manchmal, gelegentlich.
+B: Und Wort Nummer sechs: euphorisch. Übertrieben begeistert, in einer Hochstimmung.
+A: Noch einmal: die kognitive Verzerrung, zumal, die Heuristik, die Verlustaversion, mitunter, euphorisch.
+B: Was nehmen wir mit? Kahneman unterscheidet das schnelle, intuitive System eins vom langsamen, logischen System zwei. Und das System zwei ist faul.
+A: Wichtige Verzerrungen: die Verfügbarkeitsheuristik, der Ankereffekt, die Verlustaversion, die versunkenen Kosten, der Rückschaufehler, der Planungsfehlschluss und der Dunning-Kruger-Effekt.
+B: Gigerenzer hält dagegen, dass Heuristiken bei echter Unsicherheit oft klug sind, besonders bei Experten.
+A: Und gegen die Verzerrungen helfen: Bewusstsein, Verlangsamung, Gegenargumente, die Außenperspektive und die Pre-Mortem-Analyse.
+B: Das ist das Ende von Folge achtundneunzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und vergiss nicht: Der Ball kostet fünf Cent! Tschüss!
+B: Servus!
+VOCAB: die kognitive Verzerrung | Ein systematischer Denkfehler, der bei fast allen Menschen auftritt. | 🧠
+VOCAB: zumal | Leitet einen zusätzlichen, verstärkenden Grund ein. | ➕
+VOCAB: die Heuristik | Eine Daumenregel, eine geistige Abkürzung zum schnellen Entscheiden. | 👍
+VOCAB: die Verlustaversion | Verluste schmerzen stärker, als gleich große Gewinne freuen. | 📉
+VOCAB: mitunter | Manchmal, gelegentlich. | 🔁
+VOCAB: euphorisch | Übertrieben begeistert, in einer Hochstimmung. | 🎉
+QUIZ: Wie viel kostet der Ball in Kahnemans Testfrage? | Zehn Cent | Fünf Cent | Einen Euro | 2
+QUIZ: Was ist die Verfügbarkeitsheuristik? | Man hält für häufiger, was einem leicht einfällt | Man kauft nur verfügbare Produkte | Man entscheidet immer zufällig | 1
+QUIZ: Was zeigte das Experiment mit den deutschen Richtern? | Eine gewürfelte Zahl beeinflusste die Länge der Strafen | Richter sind immer neutral | Würfel sind im Gericht verboten | 1
+QUIZ: Was ist eine Pre-Mortem-Analyse? | Man stellt sich vor, ein Projekt sei gescheitert, und fragt, warum | Eine Untersuchung nach dem Tod | Eine medizinische Kontrolle | 1
+QUIZ: Was sagte Herr Yilmaz am Ende? | „Mein Bauch hat Ja gesagt, mein Kopf Vielleicht, und das Team zeigte mir, was ich nicht sehen wollte.“ | „Ich habe sofort gewusst, was richtig ist.“ | „Geld ist das Wichtigste.“ | 1
+`;
+
+DATA.podScripts.ep099 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge neunundneunzig. Die vorletzte Folge unseres Podcasts. Und für heute haben wir ein Thema gewählt, das uns beiden als Lehrerin und als Journalist besonders am Herzen liegt: die Kunst des klaren Schreibens.
+A: Wir sprechen über das Register, also die Stilebene. Über die Struktur eines guten Textes. Und über eine Eigenheit des Deutschen, die wir schon öfter gestreift haben und die zugleich Fluch und Segen ist: den Nominalstil.
+B: Das Schreiben in einer Fremdsprache ist eine besondere Herausforderung. Man kann sich nicht hinter Gestik, Mimik oder Intonation verstecken. Der Text muss für sich allein stehen. Und auf dem Niveau C1 erwartet man, dass man nicht nur korrekt, sondern auch stilistisch angemessen schreibt.
+A: Und das Deutsche hat einen gewissen Ruf, was das Schreiben betrifft. Einen nicht nur schmeichelhaften. Der amerikanische Schriftsteller Mark Twain hat einen berühmten, sehr witzigen Essay darüber geschrieben: „Die schreckliche deutsche Sprache“.
+B: Oh ja! Twain hat sich darin über die langen Sätze lustig gemacht. Er schrieb sinngemäß: Wenn sich der deutsche Schriftsteller in einen Satz stürze, sehe man ihn nicht wieder, bis er auf der anderen Seite des Atlantischen Ozeans mit seinem Verb im Mund wieder auftauche.
+A: Hahaha. Das ist eine treffende Beobachtung. Denn im Deutschen steht das Verb im Nebensatz am Ende. Und wenn man viele Nebensätze ineinander verschachtelt, muss der Leser sehr lange auf das entscheidende Verb warten.
+B: „Verschachteln“ heißt: Teile ineinanderstecken, wie Schachteln in einer Schachtel. Und genau das ist eines der Probleme, die wir heute besprechen. Sprachlich üben wir heute die Umwandlung zwischen Nominalstil und Verbalstil. Also wie man einen schwerfälligen Text in einen klaren Text verwandelt. Und umgekehrt, wenn ein formeller Text verlangt ist.
+A: Gut. Fangen wir mit dem Register an. Das Register ist die Stilebene, die man je nach Situation und Adressat wählt. Und im Deutschen gibt es eine sehr deutliche Unterscheidung zwischen verschiedenen Registern.
+B: Ganz grob kann man unterscheiden: die Umgangssprache, also die informelle Alltagssprache. Mit Freunden, in WhatsApp-Nachrichten. „Hey, haste Bock auf Kino?“ Dann die Standardsprache, neutral und korrekt. „Hast du Lust, ins Kino zu gehen?“ Und die gehobene oder formelle Sprache. In offiziellen Briefen, wissenschaftlichen Texten, bei feierlichen Anlässen.
+A: Und das Wichtige ist: Kein Register ist besser als das andere. Es kommt darauf an, dass es zur Situation passt. Ein Brief an eine Behörde in Umgangssprache wirkt respektlos. Aber eine WhatsApp-Nachricht an einen Freund im Amtsdeutsch wirkt lächerlich.
+B: Hahaha. Stell dir vor, man schreibt einem Freund: „Hiermit möchte ich Ihnen mitteilen, dass ich beabsichtige, mich am Samstag in Ihrer Begleitung zu einer Filmvorführung zu begeben.“
+A: Hahaha. Absolut lächerlich. Und genau dieses Gefühl für das passende Register ist ein Zeichen für ein hohes Sprachniveau. Und eine der schwierigsten Dinge für Fremdsprachenlernende. Viele lernen ein einziges, neutrales Register und benutzen es überall.
+B: Und das Deutsche hat ja die zusätzliche Unterscheidung zwischen Du und Sie, die eng mit dem Register verbunden ist. Gut, jetzt zum Nominalstil. Lena, erkläre noch einmal genau, was das ist.
+A: Der Nominalstil ist eine Schreibweise, bei der man die Handlungen vor allem durch Nomen ausdrückt, statt durch Verben. Das Gegenteil ist der Verbalstil, bei dem die Verben die Handlung tragen.
+B: Ein Beispiel. Verbalstil: „Weil die Kosten gestiegen sind, hat das Unternehmen beschlossen, die Preise zu erhöhen.“ Nominalstil: „Aufgrund der Kostensteigerung erfolgte seitens des Unternehmens die Beschlussfassung zur Preiserhöhung.“
+A: Hahaha. Das klingt furchtbar. Aber man liest es tatsächlich so in vielen Texten. In Verwaltungsschreiben, in juristischen Texten, in wissenschaftlichen Aufsätzen, in Geschäftsberichten.
+B: Und man erkennt den Nominalstil an typischen Merkmalen. Erstens viele Nomen auf „-ung“, „-heit“, „-keit“, „-ion“. „Die Durchführung“, „die Berücksichtigung“, „die Inanspruchnahme“. Zweitens viele Präpositionen mit Genitiv: „aufgrund“, „bezüglich“, „hinsichtlich“, „seitens“, „mittels“.
+A: Drittens sogenannte Funktionsverbgefüge. Das sind die Nomen-Verb-Verbindungen aus Folge fünfundachtzig, bei denen das Verb fast keine Bedeutung mehr hat. „Zur Durchführung bringen“ statt „durchführen“. „In Erwägung ziehen“ statt „erwägen“. „Eine Entscheidung treffen“ statt „entscheiden“.
+B: Und viertens lange Ketten von Genitivattributen. „Die Prüfung der Voraussetzungen für die Gewährung der Förderung des Projekts.“ Vier Genitive hintereinander! Und am Ende weiß man nicht mehr, worum es eigentlich ging.
+A: Gut. Jetzt die faire Frage: Ist der Nominalstil immer schlecht? Und die Antwort ist: Nein. Er hat durchaus Vorteile.
+B: Welche?
+A: Erstens: Er ist kompakt. Man kann sehr viele Informationen auf wenig Raum verdichten. Das ist in wissenschaftlichen Texten oder in Überschriften praktisch. „Klimawandel: Starke Zunahme der Hitzetage“ ist kürzer als „Der Klimawandel führt dazu, dass es viel mehr heiße Tage gibt.“
+B: Zweitens: Er wirkt sachlich und objektiv. Er rückt die handelnde Person in den Hintergrund und den Vorgang in den Vordergrund. Das ist in juristischen und wissenschaftlichen Texten oft gewollt.
+A: Und drittens: Er ermöglicht es, komplexe Begriffe zu bilden und über abstrakte Konzepte zu sprechen. „Die Globalisierung“, „die Digitalisierung“, „die Gerechtigkeit“. Ohne Nominalisierungen könnte man über solche Phänomene kaum nachdenken.
+B: Aber die Nachteile überwiegen oft, besonders wenn man es übertreibt. Erstens: Der Nominalstil ist schwer verständlich. Er erfordert vom Leser viel Konzentration. Man muss die Nomen im Kopf wieder in Handlungen zurückübersetzen.
+A: Zweitens: Er ist leblos, abstrakt und unpersönlich. Ein Text im Nominalstil hat keine Energie, keine Bewegung. Die Verben sind die Muskeln der Sprache. Ohne sie wird ein Text schlaff.
+B: Ein schönes Bild. Die Verben sind die Muskeln der Sprache. Und drittens, und das ist politisch wichtig: Der Nominalstil kann Verantwortung verschleiern. Wer hat eigentlich gehandelt? „Es erfolgte eine Erhöhung der Preise.“ Wer hat die Preise erhöht? Man erfährt es nicht.
+A: Genau. Und darum benutzen Behörden und Unternehmen den Nominalstil manchmal ganz bewusst. Um unangenehme Entscheidungen zu verschleiern. Es gibt in Deutschland jedes Jahr die Wahl des Unworts des Jahres. Und oft werden dabei solche verschleiernden Begriffe kritisiert.
+B: Das Unwort des Jahres ist ein Wort, das gegen die Menschenwürde verstößt oder die Wahrheit verschleiert. Zum Beispiel wurde einmal „Rentnerschwemme“ gewählt, oder „Humankapital“, das Menschen auf einen wirtschaftlichen Faktor reduziert. Und „Entlassungsproduktivität“.
+A: Das ist eine schöne Tradition. Sie schärft das Bewusstsein für die Macht der Sprache. Und es gibt eine Bewegung, die sich ganz dem klaren Schreiben verschrieben hat: die sogenannte Leichte Sprache und die einfache Sprache.
+B: Erkläre den Unterschied.
+A: Die Leichte Sprache ist eine stark vereinfachte Form des Deutschen mit festen Regeln. Kurze Sätze, nur ein Gedanke pro Satz, keine Fremdwörter, schwierige Wörter werden erklärt. Sie ist vor allem für Menschen mit Lernschwierigkeiten gedacht. Viele Behörden und auch die Nachrichtensendungen bieten inzwischen Texte in Leichter Sprache an.
+B: Und die einfache Sprache ist etwas weniger streng, aber ebenfalls auf Verständlichkeit ausgerichtet. Und es gibt in Deutschland sogar eine Bewegung für bürgernahe Verwaltungssprache. Einige Städte haben begonnen, ihre Briefe umzuschreiben, damit die Bürger sie verstehen.
+A: Endlich! Nach Folge neunundsiebzig wäre das dringend nötig. Gut. Jetzt die praktischen Regeln. Wie schreibt man klar? Ich gebe dir die wichtigsten Tipps.
+B: Ich höre, und schreibe mit. Hahaha.
+A: Erstens: Verben statt Nomen. Wo es möglich ist, sollte man die Handlung durch ein Verb ausdrücken. Statt „Die Durchführung der Prüfung erfolgt durch die Behörde“ lieber „Die Behörde prüft“.
+B: Zweitens: Aktiv statt Passiv. Das Aktiv ist direkter und zeigt, wer handelt. Statt „Es wurde beschlossen“ lieber „Der Vorstand hat beschlossen“. Wobei das Passiv natürlich seine Berechtigung hat, wenn die handelnde Person unwichtig ist, wie wir in Folge dreiundfünfzig gesehen haben.
+A: Drittens: kurze Sätze. Eine bekannte Faustregel besagt, dass ein Satz möglichst nicht mehr als etwa zwanzig Wörter haben sollte. Und ein Gedanke pro Satz. Der Journalistenausbilder Wolf Schneider, einer der einflussreichsten Stillehrer Deutschlands, hat das immer wieder gepredigt.
+B: Wolf Schneider! Den kenne ich natürlich als Journalist. Er war ein strenger, aber brillanter Lehrer. Er hat viele Bücher über guten Stil geschrieben. Eines heißt „Deutsch für Kenner“. Und er hat einen berühmten Grundsatz formuliert: Wer verstanden werden will, muss sich verständlich ausdrücken. Und das sei eine Pflicht gegenüber dem Leser.
+A: Viertens: das Verb nach vorne bringen. Wegen der deutschen Satzklammer sollte man das entscheidende Verb nicht zu weit nach hinten schieben. Man sollte die Klammer kurz halten. Also nicht zu viele Informationen zwischen Hilfsverb und Partizip packen.
+B: Ein Beispiel: „Der Minister hat gestern in Berlin auf einer Pressekonferenz vor zahlreichen Journalisten aus dem In- und Ausland nach langen Verhandlungen mit den Gewerkschaften die neuen Pläne vorgestellt.“ Man wartet ewig auf „vorgestellt“.
+A: Besser: „Der Minister hat gestern die neuen Pläne vorgestellt. Er tat das in Berlin, nach langen Verhandlungen mit den Gewerkschaften.“ Zwei Sätze, viel klarer.
+B: Fünftens: konkret statt abstrakt. Statt „Es kam zu Niederschlägen“ lieber „Es hat geregnet“. Statt „Die Mobilitätssituation ist angespannt“ lieber „Es gibt Stau“. Konkrete Wörter erzeugen Bilder im Kopf.
+A: Sechstens: Füllwörter streichen. Viele Texte sind voll mit Wörtern, die nichts beitragen. „Eigentlich“, „sozusagen“, „im Grunde genommen“, „gewissermaßen“. Im gesprochenen Deutsch haben sie ihre Funktion, wie die Modalpartikeln in Folge dreiundachtzig. Aber im geschriebenen Text kann man sie oft streichen.
+B: Und siebtens, und das ist vielleicht das Wichtigste: an den Leser denken. Für wen schreibe ich? Was weiß der Leser schon? Was muss er wissen? Ein Text ist kein Selbstzweck, sondern ein Dienst am Leser.
+A: Und achtens: die Struktur. Ein guter Text hat einen klaren Aufbau. Wie die Präsentation in Folge achtzig. Eine Einleitung, die zum Thema hinführt. Einen Hauptteil mit klar gegliederten Gedanken. Und einen Schluss. Und Absätze! Jeder neue Gedanke bekommt einen neuen Absatz.
+B: Und dann gibt es für Journalisten ein besonderes Prinzip: die umgekehrte Pyramide. Das Wichtigste kommt an den Anfang. Dann die Details, nach abnehmender Wichtigkeit. Damit der Leser sofort das Wesentliche erfährt, auch wenn er nicht bis zum Ende liest.
+A: Das ist genau das Gegenteil des klassischen Schulaufsatzes, bei dem man oft mit einer langen Einleitung anfängt und das Wichtigste am Ende kommt.
+B: Genau. Und das war übrigens mein Fehler bei meinem ersten Artikel in Folge achtundsiebzig. Die wichtigste Information war auf Seite drei versteckt.
+A: Hahaha. Siehst du, alles hängt zusammen! Jetzt zur Geschichte. Und diesmal geht es um Jonas selbst. Und um sein Buch.
+B: Oh, mein Buch über die Wiener Kaffeehäuser! Endlich!
+A: Genau. Jonas hat es fertig geschrieben. Nach Jahren des Aufschiebens, nach dem Füller seines Großvaters, nach Herrn Franz im Kaffeehaus. Und er hat es an einen Verlag geschickt.
+B: Und das war sehr aufregend. Und dann kam die Antwort der Lektorin. Eine Lektorin ist die Person in einem Verlag, die ein Manuskript prüft, kritisiert und verbessert.
+A: Und was hat die Lektorin geschrieben?
+B: Sie hat geschrieben: „Die Geschichten sind wunderbar. Die Recherche ist hervorragend. Aber der Stil ist zu schwerfällig. Zu viele lange Sätze, zu viel Nominalstil. Sie schreiben über das lebendigste Thema der Welt, die Wiener Kaffeehäuser, aber Ihr Text ist so lebendig wie ein Verwaltungsbericht.“
+A: Autsch. Wie fühlt man sich da?
+B: Am Boden zerstört. Zuerst. Wie bei meinem ersten Artikel. Ich habe gedacht: Ich bin seit fünfzehn Jahren Journalist, und jetzt sagt mir jemand, ich kann nicht schreiben?
+A: Und dann? Hast du die Lektionen aus Folge achtundsiebzig beherzigt?
+B: Hahaha. Ja. Ich habe eine Nacht darüber geschlafen. Und am nächsten Tag habe ich mein Manuskript noch einmal gelesen. Mit den Augen eines Lesers. Und ich musste der Lektorin recht geben. Ich hatte beim Schreiben über die Geschichte und die Kultur der Kaffeehäuser unbewusst in einen akademischen, schwerfälligen Stil gewechselt. Weil ich das Thema so ernst nahm.
+A: Das passiert vielen. Wenn das Thema wichtig erscheint, wird der Stil steif.
+B: Genau. Ich hatte zum Beispiel geschrieben: „Die Etablierung der Kaffeehauskultur in Wien erfolgte im Zuge der Ansiedlung armenischer und griechischer Händler nach der Beendigung der osmanischen Belagerung im Jahr sechzehnhundertdreiundachtzig.“
+A: Hahaha. Das ist perfekter Nominalstil.
+B: Und die Lektorin hat vorgeschlagen, es so umzuschreiben: „Sechzehnhundertdreiundachtzig zogen die Osmanen von Wien ab. Zurück blieben Säcke mit seltsamen Bohnen. Und Händler aus Armenien und Griechenland wussten, was man daraus machen konnte. So begann die Geschichte des Wiener Kaffeehauses.“
+A: Wunderbar! Das ist lebendig, konkret, mit kurzen Sätzen. Und es erzählt eine Geschichte.
+B: Genau. Und ich habe das ganze Buch so überarbeitet. Drei Monate lang. Ich habe jeden Satz geprüft. Ich habe Nomen in Verben verwandelt. Ich habe lange Sätze geteilt. Ich habe die Füllwörter gestrichen. Das Buch wurde dreißig Seiten kürzer und hundertmal besser.
+A: Und was ist dann passiert?
+B: Der Verlag hat es angenommen. Und es ist erschienen! Unter dem Titel „Die Melange des Lebens. Geschichten aus den Wiener Kaffeehäusern“. Und Herr Franz, der grantige Kellner, hat ein eigenes Kapitel bekommen.
+A: Herzlichen Glückwunsch, Jonas! Und was hat Herr Franz gesagt?
+B: Ich habe ihm ein Exemplar geschenkt. Er hat es eine Woche lang nicht erwähnt. Und dann, eines Morgens, hat er mir ungefragt meine Melange gebracht und gesagt: „Na, Herr Schriftsteller. Gar nicht so schlecht.“ Und für Herrn Franz ist das das höchste Lob, das es gibt.
+A: Hahaha. Das typische Wiener Lob! Nicht geschimpft ist genug gelobt, auch in Wien! Jetzt bist du dran, Hörer, Hörerin. Hier ist ein Satz im Nominalstil. Versuche, ihn in einen klaren Verbalstil umzuwandeln: „Die Durchführung der Renovierung des Gebäudes erfolgt nach Erteilung der Genehmigung durch die zuständige Behörde.“
+B: Eine mögliche Lösung: „Sobald die Behörde es genehmigt, renovieren wir das Gebäude.“ Und dann nimm einen Text, den du selbst geschrieben hast, und überarbeite ihn mit den Regeln von heute.
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: das Register. Die Stilebene, die man je nach Situation wählt.
+A: Wort Nummer zwei: der Nominalstil. Eine Schreibweise, bei der man Handlungen vor allem durch Nomen ausdrückt.
+B: Wort Nummer drei: verschachteln. Teile ineinanderstecken, wie Sätze in Sätzen.
+A: Wort Nummer vier: schwerfällig. Langsam, umständlich und schwer zu verstehen.
+B: Wort Nummer fünf: das Unwort des Jahres. Ein Wort, das gegen die Menschenwürde verstößt oder die Wahrheit verschleiert.
+A: Und Wort Nummer sechs: die Lektorin. Die Person in einem Verlag, die ein Manuskript prüft und verbessert.
+B: Noch einmal: das Register, der Nominalstil, verschachteln, schwerfällig, das Unwort des Jahres, die Lektorin.
+A: Was nehmen wir mit? Das passende Register zu wählen, ist ein Zeichen für ein hohes Sprachniveau.
+B: Der Nominalstil ist kompakt und sachlich, aber oft schwer verständlich, leblos und kann Verantwortung verschleiern.
+A: Die Regeln für klares Schreiben: Verben statt Nomen, Aktiv statt Passiv, kurze Sätze, das Verb nach vorne, konkret statt abstrakt, Füllwörter streichen, an den Leser denken und eine klare Struktur.
+B: Und die Verben sind die Muskeln der Sprache.
+A: Das ist das Ende von Folge neunundneunzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und dann kommt die allerletzte Folge. Wir freuen uns auf dich. Servus!
+A: Tschüss!
+VOCAB: das Register | Die Stilebene, die man je nach Situation wählt. | 🎚️
+VOCAB: der Nominalstil | Eine Schreibweise, bei der man Handlungen vor allem durch Nomen ausdrückt. | 🧱
+VOCAB: verschachteln | Teile ineinanderstecken, wie Sätze in Sätzen. | 📦
+VOCAB: schwerfällig | Langsam, umständlich und schwer zu verstehen. | 🐘
+VOCAB: das Unwort des Jahres | Ein Wort, das gegen die Menschenwürde verstößt oder die Wahrheit verschleiert. | 🚫
+VOCAB: die Lektorin | Die Person im Verlag, die ein Manuskript prüft und verbessert. | 📝
+QUIZ: Worüber machte sich Mark Twain lustig? | Über die langen deutschen Sätze mit dem Verb am Ende | Über das deutsche Essen | Über die deutsche Bahn | 1
+QUIZ: Was ist ein Nachteil des Nominalstils? | Er kann Verantwortung verschleiern | Er ist zu kurz | Er ist zu lustig | 1
+QUIZ: Was ist die „umgekehrte Pyramide“ im Journalismus? | Das Wichtigste kommt an den Anfang | Das Wichtigste kommt ans Ende | Ein Text in Form einer Pyramide | 1
+QUIZ: Was kritisierte die Lektorin an Jonas' Buch? | Die Recherche | Den schwerfälligen Stil | Die Geschichten | 2
+QUIZ: Was sagte Herr Franz über Jonas' Buch? | „Wunderbar!“ | „Gar nicht so schlecht.“ | Nichts | 2
+`;
