@@ -851,3 +851,387 @@ QUIZ: Was sind die „Superblocks“ in Barcelona? | Große Einkaufszentren | Me
 QUIZ: Wonach sind die Straßen in der Seestadt Aspern benannt? | Nach Komponisten | Nach Frauen | Nach Städten | 2
 QUIZ: Wie heißt der neue Platz in Moabit? | Schmidplatz | Zwetschgenplatz | Julienplatz | 2
 `;
+
+DATA.podScripts.ep070 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge siebzig. Heute sprechen wir über ein Thema, das mir als Journalist besonders am Herzen liegt: Fake News und kritisches Denken.
+A: „Etwas liegt einem am Herzen“ heißt: Es ist einem sehr wichtig, man kümmert sich emotional darum. Und Fake News, also falsche Nachrichten, sind heute eine der größten Herausforderungen für Demokratien auf der ganzen Welt.
+B: Wir sprechen darüber, was Fake News eigentlich sind, warum sie sich so schnell verbreiten, warum wir alle darauf hereinfallen können und wie man sich schützen kann. Das nennt man Medienkompetenz. Die Fähigkeit, Medien kritisch zu nutzen und Informationen richtig einzuordnen.
+A: Und sprachlich lernen wir heute ein Thema, das perfekt dazu passt: die indirekte Rede mit dem Konjunktiv I. Denn in den Nachrichten wird die indirekte Rede ständig benutzt. Und sie hat eine wichtige Funktion: Sie zeigt Distanz.
+B: Genau. Wenn ein Journalist schreibt: „Der Minister sagt, die Wirtschaft wachse“, dann gibt er wieder, was der Minister gesagt hat. Aber er sagt nicht, dass es wahr ist. Der Konjunktiv I signalisiert: Das ist die Aussage einer anderen Person, nicht meine eigene Behauptung.
+A: Das ist ein sehr feiner, aber wichtiger Unterschied. Vergleiche: „Der Minister sagt, die Wirtschaft wächst.“ Das klingt, als ob der Journalist zustimmt. „Der Minister sagt, die Wirtschaft wachse.“ Das ist neutral. Der Journalist berichtet nur.
+B: Die Bildung des Konjunktiv I ist eigentlich einfach. Man nimmt den Stamm des Verbs und hängt die Endungen an: -e, -est, -e, -en, -et, -en. Für „er, sie, es“ also: er komme, er habe, er gehe, er wisse, er könne.
+A: Und das wichtigste Verb ist „sein“. Das ist unregelmäßig: ich sei, du seist, er sei, wir seien, ihr seiet, sie seien. „Er sagt, er sei krank.“ „Sie behaupten, die Studie sei falsch.“
+B: Aber es gibt ein Problem. Bei vielen Formen ist der Konjunktiv I identisch mit dem Indikativ. Zum Beispiel „sie haben“. Indikativ: sie haben. Konjunktiv I: sie haben. Man sieht keinen Unterschied. In diesem Fall benutzt man den Konjunktiv II als Ersatz: „Sie sagen, sie hätten keine Zeit.“
+A: Genau. Die Regel ist: Wenn der Konjunktiv I aussieht wie der Indikativ, nimmt man den Konjunktiv II. Und in der dritten Person Singular ist der Konjunktiv I fast immer erkennbar. Darum liest man in Zeitungen so oft „er sei“, „sie habe“, „es gebe“.
+B: Und für die Vergangenheit in der indirekten Rede nimmt man „sei“ oder „habe“ plus Partizip. „Der Zeuge sagte, er habe nichts gesehen.“ „Sie erklärte, sie sei pünktlich gewesen.“
+A: Und im gesprochenen Alltag? Da benutzt man meistens einfach den Indikativ mit „dass“ oder den Konjunktiv II. „Er hat gesagt, dass er kommt.“ Oder: „Er hat gesagt, er würde kommen.“ Den Konjunktiv I hört man vor allem in den Nachrichten und liest ihn in der Zeitung.
+B: Gut. Jetzt zum Thema. Lena, was sind eigentlich Fake News?
+A: Es gibt verschiedene Formen. Das ist wichtig, weil der Begriff oft sehr ungenau benutzt wird. Manche Politiker nennen jede Nachricht, die ihnen nicht gefällt, Fake News. Das ist natürlich ein Missbrauch des Begriffs.
+B: Die Experten unterscheiden meistens zwischen Desinformation und Misinformation. Desinformation sind falsche Informationen, die absichtlich verbreitet werden. Um zu täuschen, um Geld zu verdienen oder um politisch zu manipulieren. Misinformation sind falsche Informationen, die ohne böse Absicht verbreitet werden. Weil jemand selbst daran glaubt.
+A: Zum Beispiel: Ein Onkel teilt in der Familiengruppe eine falsche Nachricht über ein Wundermittel gegen Krebs. Er will helfen. Er weiß nicht, dass es falsch ist. Das ist Misinformation. Aber die Person, die die Nachricht ursprünglich erfunden hat, um ein Produkt zu verkaufen, verbreitet Desinformation.
+B: Und dann gibt es verschiedene Techniken. Völlig erfundene Geschichten. Echte Fotos in einem falschen Zusammenhang. Ein Foto von einer Demonstration vor zehn Jahren wird als aktuelles Foto präsentiert. Zitate, die aus dem Kontext gerissen werden. Und immer häufiger: manipulierte Videos und Bilder mit künstlicher Intelligenz. Sogenannte Deepfakes.
+A: Ein Deepfake ist ein gefälschtes Video, in dem eine Person Dinge sagt oder tut, die sie nie gesagt oder getan hat. Und die Technik ist inzwischen so gut, dass man den Unterschied mit bloßem Auge kaum noch erkennt.
+B: Das ist für mich als Journalist eine riesige Sorge. Früher hat man gesagt: „Ich glaube nur, was ich mit eigenen Augen sehe.“ Heute kann man nicht einmal mehr seinen Augen trauen.
+A: Und warum verbreiten sich Fake News so schnell?
+B: Es gibt eine bekannte Studie von Forschern am MIT in Amerika. Sie haben Millionen Nachrichten auf Twitter untersucht. Und das Ergebnis war erschreckend: Falsche Nachrichten verbreiteten sich deutlich schneller und weiter als wahre Nachrichten.
+A: Und warum?
+B: Die Forscher sagen, falsche Nachrichten seien meistens überraschender und emotionaler. Sie lösen starke Gefühle aus: Wut, Angst, Ekel, Überraschung. Und Menschen teilen Dinge, die sie emotional berühren. Die Wahrheit ist oft komplizierter und langweiliger.
+A: Und die Algorithmen der sozialen Medien verstärken das. Folge siebenundvierzig! Sie zeigen uns Inhalte, die viele Reaktionen hervorrufen. Und emotionale, empörende Inhalte bekommen die meisten Reaktionen.
+B: Und dann gibt es psychologische Gründe, warum wir alle darauf hereinfallen können. Auch kluge, gebildete Menschen. Der wichtigste ist der Bestätigungsfehler.
+A: Der Bestätigungsfehler bedeutet: Wir glauben Informationen leichter, die unsere bestehende Meinung bestätigen. Und wir lehnen Informationen eher ab, die ihr widersprechen. Wenn ich eine Partei nicht mag und lese eine negative Nachricht über sie, glaube ich sie sofort. Ohne nachzuprüfen.
+B: Darüber sprechen wir übrigens ausführlicher in Folge achtundneunzig, über kognitive Verzerrungen. Und ein zweiter Grund ist die Filterblase. Wenn man nur noch Nachrichten von Leuten sieht, die so denken wie man selbst, entsteht eine Blase. Man hört immer nur dieselbe Meinung. Und man denkt, alle würden so denken.
+A: Gut. Und was kann man tun? Wie erkennt man Fake News?
+B: Ich gebe dir die Methode, die wir Journalisten benutzen. Erstens: die Quelle prüfen. Wer hat das geschrieben? Ist es eine bekannte, seriöse Zeitung oder Nachrichtenseite? Gibt es ein Impressum? Ein Impressum ist eine Angabe, wer für eine Webseite verantwortlich ist. In Deutschland ist das für viele Webseiten Pflicht.
+A: Zweitens: andere Quellen suchen. Berichten auch andere seriöse Medien darüber? Wenn eine sensationelle Nachricht nur auf einer einzigen, unbekannten Webseite steht, ist das ein Warnsignal.
+B: Drittens: auf das Datum achten. Viele falsche Nachrichten sind eigentlich alte Nachrichten, die in einem neuen Zusammenhang geteilt werden.
+A: Viertens: Bilder prüfen. Mit einer umgekehrten Bildersuche kann man herausfinden, wo ein Bild zuerst erschienen ist. Man lädt das Bild hoch, und die Suchmaschine zeigt, wo es schon im Internet war.
+B: Fünftens: auf die eigenen Gefühle achten. Wenn eine Nachricht einen sehr wütend oder ängstlich macht, sollte man besonders vorsichtig sein. Starke Gefühle sind oft ein Zeichen dafür, dass jemand manipulieren will. Einmal tief durchatmen, bevor man teilt.
+A: Und sechstens: Faktenchecks nutzen. Es gibt Organisationen, die Behauptungen professionell überprüfen. In Deutschland zum Beispiel Correctiv oder die Faktenchecker der großen Nachrichtenagenturen und öffentlich-rechtlichen Sender.
+B: Und vielleicht das Wichtigste: Bescheidenheit. Zugeben, dass man nicht alles weiß. Und dass man sich auch irren kann.
+A: Gut. Und was macht die Politik?
+B: Die Europäische Union hat ein Gesetz verabschiedet, den „Digital Services Act“. Große Plattformen müssen jetzt stärker gegen illegale Inhalte und Desinformation vorgehen. Sie müssen erklären, wie ihre Algorithmen funktionieren. Und es gibt hohe Strafen, wenn sie die Regeln nicht einhalten.
+A: Aber da gibt es auch eine Gefahr, oder? Wer entscheidet, was falsch ist? Das könnte auch zur Zensur führen.
+B: Das ist eine berechtigte Sorge. Die Meinungsfreiheit ist ein hohes Gut. Man muss klar unterscheiden zwischen Meinungen, die man nicht teilt, und nachweislich falschen Tatsachenbehauptungen. Und am besten ist es, wenn nicht der Staat entscheidet, sondern unabhängige Gerichte und Faktenprüfer.
+A: Und darum ist Bildung so wichtig. In Finnland lernen Kinder schon in der Grundschule, Fake News zu erkennen. Und Finnland gilt in Studien als eines der Länder, die am widerstandsfähigsten gegen Desinformation sind.
+B: Das sollten wir uns zum Vorbild nehmen. Jetzt zur Geschichte. Diesmal geht es um Frau Schulze, die Nachbarin von Julien. Und um eine WhatsApp-Gruppe.
+A: Oh, Frau Schulze hat ja ein Smartphone von Julien bekommen, in Folge fünfzig!
+B: Genau. Und sie ist inzwischen sehr aktiv. Sie ist in einer WhatsApp-Gruppe mit anderen Rentnerinnen aus der Nachbarschaft. Und eines Tages teilt eine Freundin von ihr eine Nachricht. Mit vielen Ausrufezeichen und roten Warnzeichen.
+A: Das ist schon mal ein Warnsignal.
+B: In der Nachricht steht, die Stadt Berlin plane, das Leitungswasser zu verunreinigen. Ein angeblicher Wissenschaftler habe herausgefunden, das Wasser enthalte gefährliche Chemikalien. Und man solle sofort nur noch Wasser in Flaschen kaufen und die Nachricht an alle Freunde weiterleiten.
+A: Oh je. Und Frau Schulze?
+B: Frau Schulze war beunruhigt. Sie hat zwanzig Flaschen Wasser im Supermarkt gekauft. Und die Nachricht an ihre ganze Familie weitergeleitet. Und dann hat sie Julien angerufen, weil sie wissen wollte, ob man das Wasser in seiner App, „Frau Schulze sagt“, in den Gelben Sack werfen kann. Hahaha.
+A: Hahaha. Typisch Frau Schulze! Und was hat Julien gesagt?
+B: Julien hat die Nachricht gelesen und sofort gemerkt, dass etwas nicht stimmt. Er hat zu Frau Schulze gesagt: „Frau Schulze, lassen Sie uns das zusammen prüfen. Wie wir es mit dem Müll gemacht haben.“
+A: Clever. Er belehrt sie nicht, sondern prüft es mit ihr zusammen.
+B: Genau. Sie haben zuerst den Namen des angeblichen Wissenschaftlers gesucht. Und es gab ihn nicht. Keine Universität, keine Studie, nichts. Dann haben sie auf der Webseite der Berliner Wasserbetriebe geschaut. Dort stand, das Berliner Leitungswasser werde täglich kontrolliert und sei von sehr guter Qualität.
+A: Und dann?
+B: Dann haben sie bei einem Faktencheck nachgeschaut. Und tatsächlich: Die gleiche Nachricht war schon vor drei Jahren in anderen Städten verbreitet worden. Mit anderen Städtenamen. Es war eine Kettenbrief-Fälschung.
+A: Ein Kettenbrief ist eine Nachricht, die man an viele Leute weiterleiten soll, die es wiederum weiterleiten. Wie eine Kette.
+B: Genau. Frau Schulze war zuerst sehr verlegen. „Verlegen“ heißt: Es ist einem ein bisschen peinlich, man ist unsicher. Sie sagte: „Ich habe es geglaubt, weil meine Freundin Gertrud es geschickt hat. Und Gertrud lügt nie.“
+A: Das ist ein ganz wichtiger Punkt. Wir glauben Informationen, wenn sie von Menschen kommen, denen wir vertrauen. Auch wenn diese Menschen sie selbst nur weitergeleitet haben.
+B: Genau. Und dann hat Frau Schulze etwas getan, was ich großartig finde. Sie hat in die WhatsApp-Gruppe geschrieben: „Liebe Damen, ich habe diese Nachricht mit meinem jungen Nachbarn überprüft. Sie ist falsch. Das Wasser ist gut. Bitte nicht mehr weiterleiten. Eure Gisela.“
+A: Wunderbar! Sie hat ihren Fehler zugegeben und die anderen gewarnt.
+B: Und dann haben die anderen Damen gefragt, wie man so etwas prüft. Und Julien hat für die Rentnerinnen im Nachbarschaftszentrum einen kleinen Workshop gemacht. Über Fake News und Faktenchecks.
+A: Und die zwanzig Flaschen Wasser?
+B: Die hat Frau Schulze zum Pfandautomaten gebracht. Fünfundzwanzig Cent pro Flasche. Und die Kassiererin hat sie verwundert angeschaut. Hahaha.
+A: Hahaha. Jetzt bist du dran, Hörer, Hörerin. Berichte über eine Nachricht, die du gelesen hast, in indirekter Rede mit dem Konjunktiv I. Zum Beispiel: „In der Zeitung steht, die Regierung plane … Ein Experte sagt, das sei …“
+B: Und denk an eine Nachricht, die du vielleicht zu schnell geglaubt hast. Wie hättest du sie prüfen können?
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: die Desinformation. Falsche Informationen, die absichtlich verbreitet werden.
+A: Wort Nummer zwei: die Medienkompetenz. Die Fähigkeit, Medien kritisch zu nutzen und Informationen richtig einzuordnen.
+B: Wort Nummer drei: der Bestätigungsfehler. Man glaubt eher, was die eigene Meinung bestätigt.
+A: Wort Nummer vier: die Quelle. Woher eine Information kommt.
+B: Wort Nummer fünf: aus dem Kontext reißen. Einen Teil einer Aussage ohne den Zusammenhang zeigen, sodass die Bedeutung verändert wird.
+A: Und Wort Nummer sechs: verlegen. Es ist einem ein bisschen peinlich, man ist unsicher.
+B: Noch einmal: die Desinformation, die Medienkompetenz, der Bestätigungsfehler, die Quelle, aus dem Kontext reißen, verlegen.
+A: Was lernen wir heute? Die indirekte Rede mit dem Konjunktiv I: er sei, er habe, er komme. Sie zeigt Distanz.
+B: Wenn der Konjunktiv I wie der Indikativ aussieht, benutzt man den Konjunktiv II: sie hätten. Und für die Vergangenheit: er habe gesehen, sie sei gewesen.
+A: Fake News verbreiten sich schneller, weil sie emotionaler und überraschender sind. Und wegen des Bestätigungsfehlers fallen wir alle darauf herein.
+B: Und die Methode: die Quelle prüfen, andere Quellen suchen, auf das Datum achten, Bilder prüfen, auf die eigenen Gefühle achten und Faktenchecks nutzen.
+A: Das ist das Ende von Folge siebzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und bevor du das nächste Mal etwas teilst: einmal tief durchatmen! Servus!
+A: Tschüss!
+VOCAB: die Desinformation | Falsche Informationen, die absichtlich verbreitet werden. | 🕵️
+VOCAB: die Medienkompetenz | Die Fähigkeit, Medien kritisch zu nutzen. | 📰
+VOCAB: der Bestätigungsfehler | Man glaubt eher, was die eigene Meinung bestätigt. | ✅
+VOCAB: die Quelle | Woher eine Information kommt. | 🔗
+VOCAB: aus dem Kontext reißen | Einen Teil einer Aussage ohne den Zusammenhang zeigen. | ✂️
+VOCAB: verlegen | Es ist einem ein bisschen peinlich, man ist unsicher. | 😳
+QUIZ: Was signalisiert der Konjunktiv I in den Nachrichten? | Dass der Journalist zustimmt | Distanz: Es ist die Aussage einer anderen Person | Dass es eine Frage ist | 2
+QUIZ: Welche Form ist der Konjunktiv I von „sein“ für „er“? | er ist | er sei | er wäre | 2
+QUIZ: Was ist der Unterschied zwischen Desinformation und Misinformation? | Desinformation wird absichtlich verbreitet | Es gibt keinen Unterschied | Misinformation ist immer wahr | 1
+QUIZ: Warum verbreiten sich Fake News schneller? | Sie sind emotionaler und überraschender | Sie sind kürzer | Sie sind immer politisch | 1
+QUIZ: Was hat Frau Schulze mit den zwanzig Wasserflaschen gemacht? | Sie hat sie getrunken | Sie hat sie zum Pfandautomaten gebracht | Sie hat sie verschenkt | 2
+`;
+
+DATA.podScripts.ep071 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge einundsiebzig. Heute sprechen wir über ein Thema, das vielen Menschen unangenehm ist, obwohl es für das Berufsleben extrem wichtig ist: die Gehaltsverhandlung.
+A: In Folge neununddreißig haben wir gesagt, dass man in Deutschland und Österreich nicht gern über Geld spricht. Das Gehalt ist ein Tabu. Und genau deshalb fällt es vielen Menschen so schwer, ein höheres Gehalt zu fordern.
+B: Heute lernen wir, wie man überzeugend argumentiert. Wie man seine Forderung begründet, wie man auf Gegenargumente reagiert und wie man einen Kompromiss findet. Und das sind Fähigkeiten, die man nicht nur bei Gehaltsverhandlungen braucht, sondern überall, wo man jemanden von etwas überzeugen will.
+A: Sprachlich üben wir dabei Ausdrücke für das Verhandeln. Zum Beispiel: „Ich möchte gern über … sprechen.“ „Mir ist wichtig, dass …“ „Ich bin der Ansicht, dass …“ „Ich kann nachvollziehen, dass …, allerdings …“ „Wären Sie bereit, …?“ „Wie wäre es, wenn …?“
+B: Und wir benutzen viel Konjunktiv II. Weil er in Verhandlungen höflich und gleichzeitig bestimmt klingt. „Ich würde mir eine Erhöhung um zehn Prozent wünschen.“ „Könnten wir uns auf … einigen?“
+A: Gut. Fangen wir mit der Vorbereitung an. Denn eine Gehaltsverhandlung gewinnt man nicht im Gespräch selbst, sondern vorher. Jonas, was ist der erste Schritt?
+B: Der erste Schritt ist, seinen Marktwert zu kennen. Der Marktwert ist das, was man auf dem Arbeitsmarkt wert ist. Also: Was verdienen andere Menschen mit der gleichen Qualifikation, der gleichen Erfahrung, im gleichen Beruf und in der gleichen Region?
+A: Und wie findet man das heraus, wenn niemand über sein Gehalt spricht?
+B: Es gibt verschiedene Möglichkeiten. Online gibt es Gehaltsvergleichsseiten, auf denen Menschen anonym ihr Gehalt eintragen. Dann gibt es die Tarifverträge. In vielen Branchen in Deutschland und Österreich gibt es Tarifverträge oder Kollektivverträge, in denen die Gehälter festgelegt sind. Die kann man öffentlich nachlesen.
+A: Und die Gewerkschaften veröffentlichen oft Gehaltsstudien. Eine Gewerkschaft ist eine Organisation, die die Interessen der Arbeitnehmer vertritt.
+B: Genau. Und es gibt seit einigen Jahren in Deutschland das Entgelttransparenzgesetz. Was für ein Wort! Hahaha. Es erlaubt Mitarbeitern in größeren Firmen, zu erfahren, was Kollegen des anderen Geschlechts in einer vergleichbaren Position im Durchschnitt verdienen.
+A: Das ist wichtig wegen der Lohnlücke zwischen Männern und Frauen. In Deutschland verdienen Frauen im Durchschnitt deutlich weniger pro Stunde als Männer. Ein Teil davon lässt sich durch Berufswahl und Teilzeit erklären, aber ein Teil eben nicht. Man nennt das „Gender Pay Gap“.
+B: Und Studien zeigen, dass Frauen seltener und zurückhaltender verhandeln. Weil sie gelernt haben, bescheiden zu sein. Oder weil sie befürchten, als unangenehm oder gierig wahrgenommen zu werden. „Gierig“ heißt: immer mehr wollen, besonders Geld.
+A: Und leider ist diese Befürchtung nicht ganz unbegründet. Studien zeigen, dass Frauen, die hart verhandeln, manchmal negativer bewertet werden als Männer, die genau das Gleiche tun. Das ist ungerecht, aber es ist eine Realität, die man kennen sollte.
+B: Der zweite Schritt ist, seine Argumente zu sammeln. Und hier ist das Wichtigste: Man argumentiert mit seiner Leistung, nicht mit seinen persönlichen Bedürfnissen.
+A: Das heißt: Man sagt nicht „Ich brauche mehr Geld, weil meine Miete gestiegen ist“ oder „weil ich ein Kind bekomme“.
+B: Genau. Das ist zwar verständlich, aber für den Arbeitgeber kein Argument. Er bezahlt nicht für Bedürfnisse, sondern für Leistung. Gute Argumente sind: Welche Erfolge hatte ich im letzten Jahr? Welche Projekte habe ich erfolgreich abgeschlossen? Welche zusätzliche Verantwortung habe ich übernommen? Wie viel Geld habe ich der Firma gespart oder eingebracht?
+A: Am besten mit konkreten Zahlen. Nicht „Ich habe viel gearbeitet“, sondern „Ich habe das Projekt X zwei Wochen vor der Deadline abgeschlossen und dadurch der Firma Kosten von etwa zwanzigtausend Euro gespart.“
+B: Und es hilft, sich das Jahr über Notizen zu machen. Eine Erfolgsliste. Weil man vieles vergisst. Am Ende des Jahres weiß man oft nicht mehr, was man im Februar alles geleistet hat.
+A: Der dritte Schritt: eine konkrete Zahl festlegen. Man sollte mit einer genauen Vorstellung in das Gespräch gehen. Und man sollte drei Zahlen kennen. Erstens: das Wunschgehalt. Zweitens: das realistische Ziel. Und drittens: die Schmerzgrenze. Also das Minimum, unter dem man nicht akzeptieren würde.
+B: Und dann eine wichtige Strategie: Man sollte die erste Zahl nennen, und sie sollte etwas höher sein als das realistische Ziel. Das nennt man den Ankereffekt. Die erste Zahl, die in einer Verhandlung genannt wird, beeinflusst das Ergebnis stark. Wie ein Anker, der ein Schiff an einem Ort hält.
+A: Darüber sprechen wir auch in Folge achtundneunzig. Aber Achtung: nicht übertreiben. Wenn die Forderung völlig unrealistisch ist, verliert man an Glaubwürdigkeit. Zehn bis fünfzehn Prozent über dem Ziel sind meistens in Ordnung.
+B: Und eine konkrete Zahl ist besser als eine Spanne. Wer sagt „zwischen fünfzigtausend und fünfundfünfzigtausend Euro“, bekommt meistens fünfzigtausend. Präzise Zahlen wirken außerdem besser vorbereitet. „Zweiundfünfzigtausendfünfhundert“ klingt, als hätte man genau gerechnet.
+A: Hahaha. Interessanter Trick. Gut, jetzt das Gespräch selbst. Wie fängt man an?
+B: Man sollte einen guten Zeitpunkt wählen. Nicht zwischen Tür und Angel, sondern mit einem festen Termin. Am besten nach einem erfolgreichen Projekt oder beim jährlichen Mitarbeitergespräch. Und nicht in einer Krise, wenn die Firma gerade Leute entlässt.
+A: „Zwischen Tür und Angel“ ist eine Redewendung. Sie bedeutet: schnell, nebenbei, ohne richtige Zeit. Eine Angel ist hier das Scharnier an der Tür.
+B: Genau. Und am Anfang: freundlich, aber direkt. „Vielen Dank, dass Sie sich Zeit nehmen. Ich möchte heute gern über meine Gehaltsentwicklung sprechen.“
+A: Dann die Argumente. „Im letzten Jahr habe ich die Verantwortung für das Team übernommen. Ich habe drei große Projekte erfolgreich abgeschlossen, darunter …“ Und dann die Forderung: „Auf Grundlage dieser Leistungen und mit Blick auf das Marktniveau halte ich ein Gehalt von zweiundfünfzigtausend Euro für angemessen.“
+B: „Angemessen“ heißt: passend, fair, richtig im Verhältnis. Und dann kommt der schwierigste Teil: Schweigen.
+A: Schweigen?
+B: Ja! Nach der Forderung sollte man nichts mehr sagen und auf die Reaktion warten. Viele Menschen werden nervös und reden weiter. „Also, wenn das zu viel ist, dann auch weniger …“ Und damit schwächen sie ihre eigene Position. Die Stille ist unangenehm, aber sie arbeitet für einen.
+A: Das ist ein guter Tipp. Und was macht man mit Gegenargumenten? Der Chef sagt zum Beispiel: „Das Budget ist dieses Jahr leider sehr knapp.“
+B: Dann zeigt man Verständnis, aber bleibt bei seiner Position. „Ich kann nachvollziehen, dass das Budget begrenzt ist. Allerdings hat sich meine Verantwortung deutlich erweitert. Gäbe es eine Möglichkeit, die Erhöhung in zwei Schritten umzusetzen? Einen Teil jetzt und einen Teil in sechs Monaten?“
+A: Ein kreativer Kompromiss.
+B: Genau. Und wenn mehr Geld wirklich nicht möglich ist, kann man über andere Dinge verhandeln. Man nennt das „Benefits“ oder Zusatzleistungen. Mehr Urlaubstage, mehr Homeoffice, ein Jobticket, ein Zuschuss zur Altersvorsorge, eine Weiterbildung, die die Firma bezahlt, ein Dienstfahrrad.
+A: Das Dienstfahrrad ist in Deutschland sehr beliebt. Die Firma least ein Fahrrad oder E-Bike für den Mitarbeiter, und es wird steuerlich gefördert.
+B: Und wenn der Chef sagt: „Darüber sprechen wir nächstes Jahr“?
+A: Dann sollte man konkret nachfragen. „Was müsste ich erreichen, damit eine Erhöhung nächstes Jahr möglich ist?“ Und das schriftlich festhalten. So hat man klare Ziele und eine Grundlage für das nächste Gespräch.
+B: Sehr gut. Und noch ein Wort zur Kultur. In Deutschland ist es üblich, sachlich und direkt zu verhandeln. Zu viel Emotion, Drohungen oder Übertreibungen wirken unprofessionell. Und man sollte nie mit einem anderen Jobangebot drohen, wenn man nicht wirklich bereit ist zu gehen.
+A: Das ist ein wichtiger Punkt. Ein Bluff kann sehr schnell nach hinten losgehen. „Nach hinten losgehen“ heißt: das Gegenteil von dem bewirken, was man wollte.
+B: Jetzt zur Geschichte. Und diesmal ist es Amira, die verhandeln muss.
+A: Amira? Sie ist doch jetzt stellvertretende Stationsleitung.
+B: Genau. Seit einem Jahr. Und sie hat gemerkt, dass sie in der neuen Position eigentlich viel mehr Verantwortung trägt, aber nur wenig mehr verdient. Und dann hat sie etwas Unangenehmes erfahren. Durch einen Zufall hat sie erfahren, dass ein männlicher Kollege, der ein Jahr später die gleiche Position auf einer anderen Station bekommen hat, mehr verdient als sie.
+A: Oh nein. Der Gender Pay Gap direkt vor ihren Augen.
+B: Ja. Amira war wütend. Am liebsten wäre sie sofort zur Pflegedirektorin gegangen. Aber Lukas hat ihr geraten, zuerst ruhig zu bleiben und sich gut vorzubereiten.
+A: Ein guter Rat. Wut ist in einer Verhandlung kein guter Berater.
+B: Genau. Also hat Amira sich vorbereitet. Sie hat den Tarifvertrag für den öffentlichen Dienst studiert. In Deutschland sind die Gehälter in öffentlichen Krankenhäusern in Tarifverträgen festgelegt, in Entgeltgruppen und Stufen. Und sie hat gemerkt, dass sie falsch eingruppiert war. Sie war in einer niedrigeren Entgeltgruppe als ihr Kollege, obwohl sie die gleichen Aufgaben hatte.
+A: Also nicht nur eine Verhandlung, sondern ein formaler Fehler.
+B: Genau. Dann hat sie mit dem Personalrat gesprochen. Der Personalrat ist im öffentlichen Dienst so etwas wie der Betriebsrat. Die Vertretung der Mitarbeiter. Und der Personalrat hat bestätigt, dass ihre Eingruppierung nicht korrekt war.
+A: Und dann das Gespräch?
+B: Ja. Mit der Pflegedirektorin und einer Mitarbeiterin der Personalabteilung. Amira war nervös, aber sie hatte alles aufgeschrieben. Sie hat ruhig angefangen: „Ich möchte heute über meine Eingruppierung sprechen. Ich habe festgestellt, dass ich für die gleichen Aufgaben in einer niedrigeren Entgeltgruppe bin als vergleichbare Kollegen.“
+A: Sachlich und klar.
+B: Dann hat sie ihre Aufgaben aufgelistet. Die Verantwortung für vierundzwanzig Pflegekräfte, die Dienstplanung, die Einarbeitung neuer Kolleginnen aus dem Ausland. Und sie hat gesagt: „Ich bin der Ansicht, dass meine Tätigkeit der Entgeltgruppe entspricht, die auch meine Kollegen in vergleichbaren Positionen erhalten.“
+A: Und dann hat sie geschwiegen?
+B: Ja! Wie wir gesagt haben. Und es war sehr still. Zehn Sekunden. Für Amira fühlte es sich an wie zehn Minuten. Hahaha.
+A: Und die Reaktion?
+B: Die Pflegedirektorin hat zuerst gesagt: „Das muss ich prüfen lassen.“ Und dann hat Amira gesagt: „Das verstehe ich. Könnten wir einen Termin vereinbaren, bis wann die Prüfung abgeschlossen ist? Und ich würde mir wünschen, dass eine Korrektur rückwirkend erfolgt.“ „Rückwirkend“ heißt: auch für die Vergangenheit gültig.
+A: Sehr gut! Sie hat konkret nachgefragt und einen Zeitpunkt festgelegt.
+B: Genau. Drei Wochen später kam die Antwort. Die Eingruppierung wurde korrigiert. Und zwar rückwirkend für das ganze letzte Jahr. Amira hat eine Nachzahlung von mehreren tausend Euro bekommen.
+A: Wow! Was hat sie mit dem Geld gemacht?
+B: Einen Teil hat sie für die Hochzeit gespart. Und einen Teil hat sie benutzt, um mit anderen Pflegekräften einen Workshop zu organisieren. Über Tarifverträge und Gehaltsverhandlungen. Speziell für Kolleginnen aus dem Ausland, die die deutschen Regeln oft nicht kennen.
+A: Wie schön. Aus einer persönlichen Ungerechtigkeit ist ein Engagement für andere geworden.
+B: Genau. Und sie sagt: „Ich habe gelernt, dass Schweigen manchmal Gold ist. Aber nur, nachdem man das Richtige gesagt hat.“
+A: Hahaha. Ein schöner Satz! Jetzt bist du dran, Hörer, Hörerin. Bereite eine kleine Gehaltsverhandlung vor. Sag es laut: „Ich möchte gern über meine Gehaltsentwicklung sprechen. Im letzten Jahr habe ich … Auf dieser Grundlage halte ich … für angemessen.“
+B: Und dann reagiere auf das Argument „Das Budget ist knapp“: „Ich kann nachvollziehen, dass …, allerdings … Wäre es möglich, …?“
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: der Marktwert. Das, was man auf dem Arbeitsmarkt wert ist.
+A: Wort Nummer zwei: angemessen. Passend, fair, richtig im Verhältnis.
+B: Wort Nummer drei: die Gewerkschaft. Eine Organisation, die die Interessen der Arbeitnehmer vertritt.
+A: Wort Nummer vier: zwischen Tür und Angel. Schnell, nebenbei, ohne richtige Zeit.
+B: Wort Nummer fünf: nach hinten losgehen. Das Gegenteil von dem bewirken, was man wollte.
+A: Und Wort Nummer sechs: rückwirkend. Auch für die Vergangenheit gültig.
+B: Noch einmal: der Marktwert, angemessen, die Gewerkschaft, zwischen Tür und Angel, nach hinten losgehen, rückwirkend.
+A: Was lernen wir heute? Die Vorbereitung: den Marktwert kennen, Argumente mit Leistung sammeln, drei Zahlen festlegen.
+B: Im Gespräch: einen guten Zeitpunkt wählen, sachlich argumentieren, eine konkrete Zahl nennen und dann schweigen.
+A: Bei Gegenargumenten: Verständnis zeigen, aber bei der Position bleiben, kreative Kompromisse und Zusatzleistungen vorschlagen.
+B: Und Ausdrücke: „Ich kann nachvollziehen, dass …, allerdings …“, „Wären Sie bereit, …?“, „Ich halte … für angemessen.“
+A: Das ist das Ende von Folge einundsiebzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und trau dich, nach dem zu fragen, was du verdienst! Servus!
+A: Tschüss!
+VOCAB: der Marktwert | Das, was man auf dem Arbeitsmarkt wert ist. | 📊
+VOCAB: angemessen | Passend, fair, richtig im Verhältnis. | ⚖️
+VOCAB: die Gewerkschaft | Eine Organisation, die die Interessen der Arbeitnehmer vertritt. | ✊
+VOCAB: zwischen Tür und Angel | Schnell, nebenbei, ohne richtige Zeit. | 🚪
+VOCAB: nach hinten losgehen | Das Gegenteil von dem bewirken, was man wollte. | 🎯
+VOCAB: rückwirkend | Auch für die Vergangenheit gültig. | ⏪
+QUIZ: Womit sollte man in einer Gehaltsverhandlung argumentieren? | Mit persönlichen Bedürfnissen wie der Miete | Mit seiner Leistung und konkreten Erfolgen | Mit Drohungen | 2
+QUIZ: Was ist der Ankereffekt? | Die erste genannte Zahl beeinflusst das Ergebnis stark | Man sollte nie eine Zahl nennen | Ein Trick beim Segeln | 1
+QUIZ: Was sollte man direkt nach der Forderung tun? | Weiterreden und erklären | Schweigen und auf die Reaktion warten | Den Raum verlassen | 2
+QUIZ: Welches Problem hatte Amira? | Sie war falsch eingruppiert und verdiente weniger als ein Kollege | Sie wollte die Station wechseln | Sie hatte zu viele Urlaubstage | 1
+QUIZ: Was hat Amira mit einem Teil der Nachzahlung gemacht? | Ein Auto gekauft | Einen Workshop über Gehaltsverhandlungen für Kolleginnen organisiert | Eine Reise gemacht | 2
+`;
+
+DATA.podScripts.ep072 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge zweiundsiebzig. Heute sprechen wir über etwas, das fast jeder im Berufsleben kennt, und das manchmal wunderbar funktioniert und manchmal die Hölle sein kann: Teamarbeit.
+A: Was macht ein gutes Team aus? Warum funktionieren manche Teams hervorragend, während andere ständig streiten? Und wie geht man mit Konflikten um, ohne dass die Zusammenarbeit kaputtgeht?
+B: Sprachlich üben wir heute, wie man Kritik konstruktiv äußert, wie man Konflikte anspricht und wie man vermittelt. „Vermitteln“ heißt: zwischen zwei Seiten helfen, eine Lösung zu finden. Und wir lernen Ausdrücke, die eine Aussage abschwächen oder verstärken. Das ist auf dem Niveau B2 besonders wichtig, weil man damit sehr nuanciert kommunizieren kann.
+A: Zum Abschwächen benutzt man im Deutschen viele kleine Wörter. „Eigentlich“, „eventuell“, „ein bisschen“, „etwas“, „vielleicht“, „gewissermaßen“. Und Konstruktionen wie: „Mir ist aufgefallen, dass …“ „Ich habe den Eindruck, dass …“ „Könnte es sein, dass …?“
+B: Und zum Verstärken: „wirklich“, „durchaus“, „ausgesprochen“, „äußerst“, „auf jeden Fall“, „ganz klar“. Zum Beispiel: „Das war ausgesprochen hilfreich.“ „Das ist ganz klar ein Problem.“
+A: Gut. Fangen wir mit der Forschung an. Es gibt eine sehr bekannte Studie von Google. Das Projekt hieß „Aristoteles“. Google wollte herausfinden, warum manche Teams erfolgreicher sind als andere. Sie haben über hundertachtzig Teams untersucht.
+B: Und was dachten sie am Anfang?
+A: Sie dachten, es komme auf die Zusammensetzung an. Also: Wenn man die klügsten Leute zusammenbringt, mit den richtigen Fähigkeiten, dann hat man das beste Team. Aber das war falsch. Die Zusammensetzung war erstaunlich unwichtig.
+B: Interessant! Und was war wichtig?
+A: Der wichtigste Faktor war mit Abstand die psychologische Sicherheit. Das bedeutet: Die Mitglieder haben das Gefühl, dass sie im Team Risiken eingehen können, ohne bestraft oder ausgelacht zu werden. Dass sie Fragen stellen, Fehler zugeben, neue Ideen vorschlagen und Kritik äußern können, ohne Angst.
+B: Das macht Sinn. Wenn ich Angst habe, dumm dazustehen, sage ich lieber nichts. Und dann gehen gute Ideen verloren.
+A: Genau. Und Fehler werden versteckt, statt aus ihnen zu lernen. Der Begriff „psychologische Sicherheit“ kommt übrigens von der Harvard-Professorin Amy Edmondson. Sie hat ursprünglich Teams in Krankenhäusern untersucht. Und sie war überrascht: Die besten Teams meldeten mehr Fehler als die schlechteren.
+B: Mehr Fehler? Warum?
+A: Weil sie nicht mehr Fehler machten, sondern mehr Fehler meldeten. Sie hatten keine Angst, Fehler zuzugeben. In den schlechteren Teams wurden Fehler vertuscht. „Vertuschen“ heißt: verstecken, damit niemand etwas merkt.
+B: Und das ist natürlich gefährlich, besonders in einem Krankenhaus. Gut, und was waren die anderen Faktoren in der Google-Studie?
+A: Zuverlässigkeit. Man kann sich darauf verlassen, dass die anderen ihre Aufgaben pünktlich und gut erledigen. Klare Strukturen. Jeder weiß, was seine Rolle ist und was die Ziele sind. Sinn. Die Arbeit ist für die Mitglieder persönlich wichtig. Und Wirkung. Die Mitglieder glauben, dass ihre Arbeit etwas bewirkt.
+B: Gut. Jetzt die Konflikte. Denn auch in guten Teams gibt es Konflikte. Und das ist eigentlich normal und sogar gesund.
+A: Genau. Ein Team ohne Konflikte ist oft ein Team, in dem niemand ehrlich ist. Es gibt sogar ein Modell, das sagt, dass jedes Team verschiedene Phasen durchläuft. Das Modell von Bruce Tuckman. Erstens: „Forming“, die Gründungsphase. Alle sind höflich und vorsichtig.
+B: Zweitens: „Storming“, die Konfliktphase. Die ersten Meinungsverschiedenheiten kommen. Wer hat welche Rolle? Wessen Idee gewinnt? Das ist anstrengend.
+A: Drittens: „Norming“, die Regelphase. Das Team findet gemeinsame Regeln und Arbeitsweisen. Und viertens: „Performing“, die Leistungsphase. Das Team arbeitet effizient zusammen.
+B: Und die meisten Teams, die scheitern, bleiben in der Storming-Phase hängen. Gut. Wie spricht man einen Konflikt richtig an?
+A: Es gibt eine sehr hilfreiche Methode: die Gewaltfreie Kommunikation von Marshall Rosenberg. Sie hat vier Schritte. Erstens: Beobachtung. Man beschreibt eine konkrete Situation, ohne zu bewerten.
+B: Also nicht: „Du bist immer unzuverlässig!“ Sondern: „In den letzten zwei Wochen hast du die Berichte zweimal nach der Deadline abgegeben.“
+A: Genau. „Immer“ und „nie“ sind gefährliche Wörter in Konflikten. Sie sind fast nie wahr, und die andere Person wehrt sich sofort. Zweitens: Gefühl. Man sagt, wie man sich fühlt. „Ich bin dann gestresst, weil ich meine Arbeit erst später beginnen kann.“
+B: Drittens: Bedürfnis. Man sagt, was man braucht. „Mir ist wichtig, dass ich mich auf die Termine verlassen kann.“
+A: Und viertens: Bitte. Man formuliert eine konkrete, positive Bitte. „Könntest du mir in Zukunft Bescheid sagen, wenn du merkst, dass es später wird? Dann kann ich meine Arbeit anders planen.“
+B: Das klingt viel freundlicher als ein Vorwurf. Man spricht von „Ich-Botschaften“ statt „Du-Botschaften“. „Ich fühle mich gestresst“ statt „Du stresst mich“.
+A: Genau. Und das Wichtige ist: Man kritisiert das Verhalten, nicht die Person. Nicht „Du bist faul“, sondern „Dieser Bericht ist unvollständig“.
+B: Und wenn man selbst kritisiert wird? Darüber sprechen wir ausführlicher in Folge achtundsiebzig, über Feedback. Aber kurz: zuhören, nachfragen, nicht sofort verteidigen. Und sich bedanken.
+A: Jonas, als Journalist hast du ja oft in Teams gearbeitet. Hast du einen schwierigen Teamkonflikt erlebt?
+B: Ja, einen sehr lehrreichen. In der Redaktion hatten wir einen Kollegen, nennen wir ihn Markus. Er war ein brillanter Journalist, aber sehr schwierig im Team. Er hat in Redaktionskonferenzen die Ideen anderer ständig kritisiert, oft auf eine herablassende Art. „Herablassend“ heißt: so, als ob man selbst besser und klüger wäre.
+A: Oh, das kennt man.
+B: Und das Ergebnis war, dass die jüngeren Kollegen in den Konferenzen gar nichts mehr gesagt haben. Die psychologische Sicherheit war weg. Und die Qualität der Zeitung hat darunter gelitten, weil viele gute Ideen nie ausgesprochen wurden.
+A: Und was ist passiert?
+B: Unsere Chefredakteurin hat das Problem erkannt. Und sie hat zwei Dinge gemacht. Erstens hat sie mit Markus unter vier Augen gesprochen. „Unter vier Augen“ heißt: privat, nur zu zweit. Nicht vor dem Team.
+A: Wichtig. Kritik sollte man nie vor anderen äußern. Folge vierundfünfzig, Amira im Krankenhaus.
+B: Genau. Sie hat ihm konkret beschrieben, was sie beobachtet hat. Und dass sie seine Expertise schätzt, aber dass seine Art die anderen blockiert. Und Markus war ehrlich überrascht. Er hatte gedacht, er sei einfach nur ehrlich und anspruchsvoll.
+A: Das ist häufig so. Viele Menschen merken nicht, wie sie auf andere wirken.
+B: Und zweitens hat sie die Konferenzen anders strukturiert. Es gab eine neue Regel: In der ersten Phase dürfen nur Ideen gesammelt werden, ohne jede Kritik. Wie bei einem Brainstorming. Erst danach wird diskutiert. Und Kritik muss immer mit einem Verbesserungsvorschlag kommen.
+A: Eine sehr gute Regel! Und hat es funktioniert?
+B: Erstaunlich gut. Nach ein paar Wochen haben die jüngeren Kollegen wieder mehr gesagt. Und Markus hat sich verändert. Er hat gelernt, seine Kritik konstruktiv zu formulieren. Und später ist er ein sehr guter Mentor für junge Journalisten geworden.
+A: Wie schön. Und noch ein interessanter Punkt: interkulturelle Teams. Darüber sprechen wir ausführlicher in Folge achtundachtzig. Aber kurz: In Teams mit Menschen aus verschiedenen Kulturen gibt es zusätzliche Herausforderungen. Unterschiedliche Vorstellungen von Direktheit, von Hierarchie, von Pünktlichkeit.
+B: Und unterschiedliche Vorstellungen davon, wie man Konflikte löst. In manchen Kulturen spricht man Konflikte direkt an, in anderen vermeidet man sie, um das Gesicht zu wahren. „Das Gesicht wahren“ heißt: seine Würde und seinen guten Ruf behalten, nicht blamiert werden.
+A: Jetzt zur Geschichte. Wieder an der Programmierschule. Julien betreut ein Team von fünf Studenten, die ein großes Abschlussprojekt machen. Eine App für die Nachbarschaftshilfe. Menschen können anderen in ihrem Viertel helfen, zum Beispiel beim Einkaufen für ältere Nachbarn.
+B: Eine schöne Idee. Wer ist im Team?
+A: Oksana aus der Ukraine, die wir aus Folge zweiundfünfzig kennen. Sie ist sehr talentiert und sehr direkt. Dann Mehmet, ein ruhiger junger Mann aus Hamburg. Dann Sophie aus Brasilien, sehr kreativ und gesellig. Dann ein älterer Student, Rainer, der früher Bankangestellter war. Und Lea, das stille Mädchen aus Wolfsburg, das inzwischen achtzehn ist und an der Schule angenommen wurde!
+B: Lea! Aus Folge vierundvierzig! Wie schön!
+A: Ja. Und am Anfang lief alles gut. Die Forming-Phase. Alle waren begeistert. Aber nach drei Wochen kam der Sturm. Die Storming-Phase.
+B: Was ist passiert?
+A: Oksana und Rainer haben sich ständig gestritten. Oksana wollte schnell programmieren und ausprobieren. Rainer wollte zuerst einen detaillierten Plan machen, mit Dokumentation. Oksana fand Rainer langsam und bürokratisch. Rainer fand Oksana chaotisch und respektlos.
+B: Ein klassischer Konflikt zwischen zwei Arbeitsstilen.
+A: Genau. Und bei einem Meeting ist es eskaliert. Oksana hat gesagt: „Rainer, du verschwendest unsere Zeit mit deinen Plänen. Das ist keine Bank hier!“ Und Rainer ist aufgestanden und gegangen.
+B: Oh nein. Und die anderen?
+A: Mehmet hat gar nichts gesagt. Sophie hat versucht, die Stimmung mit Witzen zu retten. Und Lea war wieder ganz still. Die psychologische Sicherheit war komplett weg.
+B: Was hat Julien gemacht?
+A: Julien hat zuerst mit beiden einzeln gesprochen. Unter vier Augen. Bei Oksana hat er gesagt: „Mir ist aufgefallen, dass du in Meetings sehr schnell und direkt reagierst. Das ist eigentlich eine Stärke, du bringst das Projekt voran. Aber ich habe den Eindruck, dass sich Rainer dadurch nicht respektiert fühlt.“
+B: Gute Ich-Botschaften mit Abschwächungen. „Mir ist aufgefallen“, „eigentlich“, „ich habe den Eindruck“.
+A: Genau. Und Oksana hat erklärt, dass sie in der Ukraine in einem sehr schnellen Start-up gearbeitet hat. Dort war es normal, sehr direkt zu sein. Sie wollte Rainer nicht verletzen. Sie war einfach ungeduldig, weil die Deadline näher kam.
+B: Und bei Rainer?
+A: Rainer hat erklärt, dass er dreißig Jahre in einer Bank gearbeitet hat, wo Fehler sehr teuer sein können. Darum ist ihm Planung so wichtig. Und er hat zugegeben, dass er sich als Ältester im Team manchmal unsicher fühlt. Weil die Jungen alle so schnell sind.
+B: Interessant. Hinter dem Konflikt standen ganz andere Gefühle.
+A: Genau. Dann hat Julien ein Teammeeting mit allen gemacht. Und er hat eine Idee vorgeschlagen: Jeder sollte sagen, was seine Stärke im Team ist und was er von den anderen braucht. Ohne Kritik.
+B: Und was kam heraus?
+A: Es stellte sich heraus, dass die beiden Arbeitsstile sich ergänzen. Oksana ist stark im schnellen Ausprobieren, im Prototyping. Rainer ist stark in der Planung und im Testen. Sie haben die Aufgaben neu verteilt. Oksana baut schnelle Prototypen, und Rainer prüft sie systematisch auf Fehler.
+B: Perfekt. Und Lea?
+A: Und dann kam Leas Moment. Als Julien gefragt hat, was jeder vom Team braucht, hat Lea zum ersten Mal laut gesprochen. Sie hat gesagt: „Ich brauche ein bisschen Zeit, bevor ich in Meetings etwas sage. Wenn alle so schnell reden, komme ich nicht dazu. Aber ich habe viele Ideen.“
+B: Wow. Das war bestimmt mutig für sie.
+A: Sehr. Und das Team hat eine neue Regel gemacht: Am Ende jedes Meetings bekommt jeder zwei Minuten, um ohne Unterbrechung etwas zu sagen. Und Lea hatte in der nächsten Sitzung die beste Idee für das Design der App.
+B: Und das Projekt?
+A: Das Team hat die App pünktlich fertiggestellt. Und sie wird jetzt in drei Berliner Bezirken getestet. Und Oksana und Rainer? Sie sind inzwischen gute Freunde. Rainer sagt, Oksana habe ihm beigebracht, mutiger zu sein. Und Oksana sagt, Rainer habe ihr beigebracht, dass ein guter Plan Zeit spart.
+B: Wunderbar. Vom Storming zum Performing.
+A: Jetzt bist du dran, Hörer, Hörerin. Denk an einen Konflikt in einem Team, den du erlebt hast. Formuliere eine Kritik nach der Methode der Gewaltfreien Kommunikation: Beobachtung, Gefühl, Bedürfnis, Bitte.
+B: Und benutze dabei Wörter zum Abschwächen: „Mir ist aufgefallen, dass …“ „Ich habe den Eindruck …“ „Könnte es sein, dass …?“
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: vermitteln. Zwischen zwei Seiten helfen, eine Lösung zu finden.
+A: Wort Nummer zwei: die psychologische Sicherheit. Das Gefühl, im Team Risiken eingehen zu können, ohne bestraft oder ausgelacht zu werden.
+B: Wort Nummer drei: vertuschen. Etwas verstecken, damit niemand es merkt.
+A: Wort Nummer vier: herablassend. So, als ob man selbst besser und klüger wäre.
+B: Wort Nummer fünf: unter vier Augen. Privat, nur zu zweit.
+A: Und Wort Nummer sechs: das Gesicht wahren. Seine Würde und seinen guten Ruf behalten.
+B: Noch einmal: vermitteln, die psychologische Sicherheit, vertuschen, herablassend, unter vier Augen, das Gesicht wahren.
+A: Was lernen wir heute? Der wichtigste Faktor für gute Teams ist die psychologische Sicherheit.
+B: Teams durchlaufen Phasen: Forming, Storming, Norming und Performing. Konflikte sind normal.
+A: Die Gewaltfreie Kommunikation: Beobachtung, Gefühl, Bedürfnis, Bitte. Ich-Botschaften statt Du-Botschaften. Und das Verhalten kritisieren, nicht die Person.
+B: Und Wörter zum Abschwächen wie „eigentlich“, „eventuell“, „ich habe den Eindruck“, und zum Verstärken wie „ausgesprochen“, „durchaus“, „ganz klar“.
+A: Das ist das Ende von Folge zweiundsiebzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und gib in deinem nächsten Meeting auch den Stillen eine Chance! Servus!
+A: Tschüss!
+VOCAB: vermitteln | Zwischen zwei Seiten helfen, eine Lösung zu finden. | 🤝
+VOCAB: die psychologische Sicherheit | Das Gefühl, im Team Risiken eingehen zu können, ohne Angst. | 🛟
+VOCAB: vertuschen | Etwas verstecken, damit niemand es merkt. | 🙈
+VOCAB: herablassend | So, als ob man selbst besser und klüger wäre. | 🧐
+VOCAB: unter vier Augen | Privat, nur zu zweit. | 👀
+VOCAB: das Gesicht wahren | Seine Würde und seinen guten Ruf behalten. | 🎭
+QUIZ: Was war laut der Google-Studie der wichtigste Faktor für gute Teams? | Die klügsten Leute | Die psychologische Sicherheit | Ein hohes Gehalt | 2
+QUIZ: Warum meldeten die besten Teams im Krankenhaus mehr Fehler? | Sie machten mehr Fehler | Sie hatten keine Angst, Fehler zuzugeben | Sie arbeiteten länger | 2
+QUIZ: Was ist eine „Ich-Botschaft“? | „Du stresst mich!“ | „Ich fühle mich gestresst.“ | „Ihr seid schuld.“ | 2
+QUIZ: Warum ist Planung für Rainer so wichtig? | Er hat lange in einer Bank gearbeitet | Er mag keine Computer | Er ist sehr langsam | 1
+QUIZ: Welche neue Regel macht das Team für Lea? | Jeder bekommt am Ende zwei Minuten ohne Unterbrechung | Lea leitet alle Meetings | Es gibt keine Meetings mehr | 1
+`;
+
+DATA.podScripts.ep073 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge dreiundsiebzig. Heute diskutieren wir über eine Lebenseinstellung, die in den letzten Jahren sehr populär geworden ist: Minimalismus. Und über das Gegenteil: den Konsum.
+A: „Konsum“ ist das Kaufen und Verbrauchen von Waren und Dienstleistungen. Und wir leben in einer Konsumgesellschaft. Wir kaufen ständig neue Dinge. Kleidung, Elektronik, Möbel, Dekoration. Und die Frage ist: Macht uns das glücklich? Oder brauchen wir eigentlich viel weniger?
+B: Minimalismus ist eine Lebensweise, bei der man bewusst mit wenigen Dingen lebt. Man besitzt nur das, was man wirklich braucht oder was einem wirklich Freude macht. Und man trennt sich von allem anderen.
+A: Und das ist ein Thema, das zu einer lebhaften Debatte einlädt. Darum üben wir heute, wie man eine Debatte führt und Positionen gegenüberstellt. Und wir lernen Ausdrücke der Einschränkung und des Zugeständnisses. Zum Beispiel: „Zugegeben, …“ „Das mag zwar sein, aber …“ „Einerseits ja, aber man darf nicht vergessen, dass …“ „Bis zu einem gewissen Grad stimme ich zu, …“
+B: „Zugegeben“ benutzt man, wenn man einen Punkt der anderen Seite akzeptiert, bevor man widerspricht. „Zugegeben, Minimalismus kann befreiend sein. Aber er ist auch ein Luxus.“
+A: Gut. Lena gegen Jonas. Ich glaube, wir haben hier wirklich unterschiedliche Positionen. Jonas, bist du ein Minimalist?
+B: Hahaha. Ganz und gar nicht! Ich bin das Gegenteil. Meine Wohnung ist voll. Voll mit Büchern, mit Schallplatten, mit alten Zeitungen, mit Souvenirs von Reisen. Ich bin ein Sammler. Und ich finde, Dinge haben eine Seele. Jedes Buch erinnert mich an einen Moment in meinem Leben.
+A: Und ich bin seit ein paar Jahren eine überzeugte Minimalistin. Na ja, eine gemäßigte. Ich habe nicht nur hundert Dinge, wie manche extreme Minimalisten. Aber ich habe vor drei Jahren meine ganze Wohnung aussortiert.
+B: Wie kam es dazu?
+A: Als Tim und ich zusammengezogen sind, hatten wir plötzlich alles doppelt. Zwei Toaster, zwei Bügeleisen, vier Pfannen, zweihundert Bücher, drei Kisten mit Kabeln, von denen niemand wusste, wofür sie waren. Und die Wohnung war so voll, dass ich mich nicht mehr wohlgefühlt habe.
+B: Die berühmte Kiste mit den Kabeln! Die hat jeder Haushalt. Hahaha.
+A: Genau! Und dann habe ich ein Buch gelesen, über die Methode von Marie Kondo, einer Japanerin, die weltberühmt ist für ihre Aufräummethode. Ihre Grundidee ist: Man nimmt jeden Gegenstand in die Hand und fragt sich: „Macht mich das glücklich?“ Wenn ja, behält man es. Wenn nein, bedankt man sich bei dem Gegenstand und gibt ihn weg.
+B: Man bedankt sich bei dem Gegenstand? Das finde ich etwas esoterisch.
+A: Hahaha. Ja, das ist ein bisschen seltsam. Aber die Idee dahinter ist schön. Man wirft die Dinge nicht einfach weg, sondern mit Respekt. Und ich habe es gemacht. Ein ganzes Wochenende lang. Am Ende hatte ich zwölf Säcke mit Kleidung, Büchern und Haushaltsgegenständen.
+B: Zwölf Säcke! Und was hast du damit gemacht?
+A: Ich habe alles verschenkt, gespendet oder verkauft. Die Bücher an die Bibliothek, die Kleidung an eine Kleiderkammer für Bedürftige, Möbel auf einer Kleinanzeigen-Plattform. Fast nichts ist im Müll gelandet.
+B: Und wie hast du dich danach gefühlt?
+A: Befreit! Das war wirklich das Gefühl. Die Wohnung war plötzlich hell und ruhig. Ich musste weniger putzen. Ich habe alles schneller gefunden. Und ich habe angefangen, viel bewusster einzukaufen. Bevor ich etwas kaufe, frage ich mich: Brauche ich das wirklich? Wo soll das stehen? Und ich warte dreißig Tage. Wenn ich es nach dreißig Tagen immer noch will, kaufe ich es.
+B: Die Dreißig-Tage-Regel. Und wie oft kaufst du es nach dreißig Tagen?
+A: Ehrlich? Fast nie. Nach dreißig Tagen ist der Wunsch meistens verschwunden. Das zeigt, wie viele Käufe eigentlich Impulskäufe sind.
+B: Ein Impulskauf ist ein spontaner Kauf, ohne lange nachzudenken. Weil man im Moment Lust darauf hat. Gut, jetzt meine Gegenposition. Zugegeben, eine aufgeräumte Wohnung ist angenehm. Aber ich habe ein paar kritische Punkte zum Minimalismus.
+A: Ich höre zu.
+B: Erstens: Minimalismus ist ein Luxus für Reiche. Wer genug Geld hat, kann es sich leisten, Dinge wegzugeben. Wenn er sie später braucht, kauft er sie einfach neu. Aber Menschen mit wenig Geld behalten Dinge, weil sie sie vielleicht später brauchen. Für sie ist das kein Chaos, sondern Vorsorge.
+A: Das mag zwar sein, aber Minimalismus heißt ja nicht, dass man alles wegwirft. Es heißt, dass man weniger kauft. Und weniger kaufen spart Geld. Gerade für Menschen mit wenig Geld.
+B: Gutes Gegenargument. Zweitens: Minimalismus ist inzwischen selbst ein Konsumprodukt geworden. Es gibt Bücher, Kurse, Apps, Netflix-Serien über Minimalismus. Und es gibt eine minimalistische Ästhetik. Weiße Wände, teure Designmöbel, ein einziger perfekter Stuhl für fünfhundert Euro. Das ist eigentlich kein Verzicht, sondern ein neuer Lifestyle, den man kaufen kann.
+A: Da hast du recht. Das ist ein Widerspruch. Wenn man zehn alte Dinge wegwirft und dafür drei neue, teure „minimalistische“ Dinge kauft, ist das nicht nachhaltig.
+B: Genau. Und drittens: Ich glaube, dass Dinge Erinnerungen tragen. Ich habe den alten Füller meines Großvaters. Ich benutze ihn nie. Er macht mich auch nicht im klassischen Sinne glücklich. Aber ich würde ihn nie weggeben. Er ist ein Stück Familiengeschichte.
+A: Das verstehe ich. Und ich glaube, Marie Kondo würde sagen, dass dieser Füller dich sehr wohl glücklich macht. Im tieferen Sinne. Er gehört zu den Dingen, die man behalten sollte.
+B: Okay, da sind wir uns einig. Hahaha. Jetzt die größere Perspektive. Der Konsum und die Umwelt.
+A: Ja. Und hier, finde ich, wird das Thema richtig wichtig. Die Herstellung von Produkten verbraucht enorme Mengen an Ressourcen. Wasser, Energie, Rohstoffe. Und die Modeindustrie ist ein besonders gutes Beispiel.
+B: Die Fast Fashion! Die schnelle Mode. Billige Kleidung, die in großen Mengen produziert wird und schnell wieder aus der Mode ist.
+A: Genau. Für die Herstellung einer einzigen Jeans braucht man mehrere tausend Liter Wasser. Und die Deutschen kaufen im Durchschnitt etwa sechzig neue Kleidungsstücke pro Jahr. Und viele davon werden kaum getragen. Manche nie.
+B: Und die Arbeitsbedingungen in den Fabriken sind oft furchtbar. In Bangladesch ist zweitausenddreizehn eine Textilfabrik eingestürzt, Rana Plaza. Über tausend Menschen sind gestorben. Das hat die Welt schockiert.
+A: Und es gibt seit einigen Jahren in Deutschland das Lieferkettengesetz. Große Firmen müssen jetzt kontrollieren, ob in ihren Lieferketten Menschenrechte und Umweltstandards eingehalten werden. Eine Lieferkette ist der ganze Weg eines Produkts, vom Rohstoff bis zum Geschäft.
+B: Und dann ist da die Elektronik. Smartphones, Laptops, Tablets. Viele Menschen kaufen alle zwei Jahre ein neues Handy, obwohl das alte noch funktioniert. Und für die Herstellung braucht man seltene Metalle, die oft unter schlechten Bedingungen abgebaut werden.
+A: Und hier gibt es eine interessante Entwicklung: das Recht auf Reparatur. Die EU hat beschlossen, dass Hersteller Produkte reparierbar machen und Ersatzteile anbieten müssen. Damit man ein Handy nicht wegwerfen muss, nur weil der Akku kaputt ist.
+B: Und in Österreich gibt es den Reparaturbonus! Der Staat bezahlt einen Teil der Reparaturkosten für Elektrogeräte. Bis zu zweihundert Euro. Das finde ich eine fantastische Idee.
+A: Wirklich? Das wusste ich nicht. Und in Deutschland gibt es viele Repair-Cafés. Das sind Treffen, bei denen Freiwillige helfen, kaputte Dinge zu reparieren. Toaster, Lampen, Fahrräder, Kleidung. Kostenlos.
+B: Und die Second-Hand-Kultur ist in Deutschland sehr stark. Flohmärkte, Kleinanzeigen, Second-Hand-Läden. In Berlin ist es fast cooler, gebrauchte Kleidung zu tragen als neue.
+A: Das stimmt. Und es gibt eine Bewegung, die sagt: Es geht nicht um Minimalismus, sondern um „bewussten Konsum“. Man muss nicht auf alles verzichten. Aber man sollte überlegen, was man kauft. Qualität statt Quantität. Lieber eine gute Jacke, die zehn Jahre hält, als fünf billige, die nach einer Saison kaputt sind.
+B: Damit kann ich leben! Bis zu einem gewissen Grad stimme ich dir also zu. Ich werde meine Bücher nicht weggeben. Aber ich kaufe vielleicht weniger neue Dinge.
+A: Hahaha. Ein Kompromiss! Jetzt zur Geschichte. Diesmal geht es um Felix, den Spieleentwickler aus Folge sechsundfünfzig.
+B: Felix! Was macht er?
+A: Felix hat ja mit seinem Spiel Geld verdient. Fünftausend Euro Preisgeld und jetzt ein Vertrag mit einer Spielefirma. Und er hat zum ersten Mal in seinem Leben viel Geld. Er ist einundzwanzig.
+B: Oh, ich ahne schon, was passiert.
+A: Genau. Felix hat angefangen, sehr viel zu kaufen. Die neueste Spielkonsole, einen riesigen Bildschirm, drei Paar Designerturnschuhe, eine teure Jacke, Gadgets, die er in Werbung gesehen hat. Jede Woche kamen Pakete in die WG. Der Flur war voll mit Kartons.
+B: Und Mira? Die organisierte Mitbewohnerin?
+A: Mira war genervt. Hahaha. Und Kenji hat sich Sorgen gemacht. Bei einer WG-Sitzung hat Mira gesagt: „Felix, ich will dir nicht vorschreiben, wie du dein Geld ausgibst. Aber mir ist aufgefallen, dass wir im Flur kaum noch laufen können. Und ich habe den Eindruck, dass du die Hälfte der Dinge gar nicht benutzt.“
+B: Gute Ich-Botschaften, wie in Folge zweiundsiebzig!
+A: Genau. Und Felix hat zuerst abgewehrt. Er hat gesagt: „Ich habe hart gearbeitet. Ich darf mir auch mal etwas gönnen.“ „Sich etwas gönnen“ heißt: sich bewusst etwas Schönes erlauben.
+B: Das stimmt ja auch.
+A: Ja. Aber dann hat Kenji etwas Interessantes gesagt. Er hat erzählt, dass er in Japan als Student auch alles gekauft hat, was er wollte. Und dass er sich trotzdem leer gefühlt hat. Und er hat gesagt: „Seit ich backe, kaufe ich fast nichts mehr. Aber ich bin viel glücklicher. Weil ich etwas mache, statt etwas zu kaufen.“
+B: Das ist eine tiefe Einsicht. Etwas machen statt etwas kaufen.
+A: Felix hat darüber nachgedacht. Und dann hat er ein Experiment gemacht. Einen Monat lang hat er nichts gekauft, außer Essen und Dingen, die er wirklich brauchte. Eine „Kaufpause“.
+B: Und wie war es?
+A: Die erste Woche war schwer. Er hat ständig Werbung gesehen und wollte etwas bestellen. Er hat gemerkt, dass er oft aus Langeweile oder Stress eingekauft hat. Nicht weil er etwas brauchte.
+B: Das ist das typische Muster. Konsum als Belohnung oder als Trost.
+A: Genau. Und dann hat er seine Sachen aussortiert. Mit meiner Methode! Hahaha. Er hat die Hälfte verkauft. Und mit dem Geld hat er etwas ganz anderes gemacht. Er hat eine Reise nach Island gebucht.
+B: Island! Wie ich! Folge fünfundvierzig!
+A: Ja! Er hat von deiner Reportage über den Bauern gehört und wollte das auch erleben. Und er sagt, die Reise war mehr wert als alle Pakete zusammen. Weil Erlebnisse bleiben, und Dinge verlieren schnell ihren Reiz.
+B: Es gibt dazu übrigens Forschung. Studien zeigen, dass Menschen langfristig glücklicher sind, wenn sie Geld für Erlebnisse ausgeben statt für materielle Dinge. Weil man sich an Erlebnisse erinnert und sie mit anderen teilt.
+A: Ein schöner Abschluss. Jetzt bist du dran, Hörer, Hörerin. Bist du eher Minimalist oder Sammler? Diskutiere mit dir selbst. Benutze: „Zugegeben, … Das mag zwar sein, aber … Bis zu einem gewissen Grad …“
+B: Und mach vielleicht selbst einen Test: Was hast du in den letzten drei Monaten gekauft, was du kaum benutzt hast?
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: der Konsum. Das Kaufen und Verbrauchen von Waren und Dienstleistungen.
+A: Wort Nummer zwei: zugegeben. Man akzeptiert einen Punkt der anderen Seite, bevor man widerspricht.
+B: Wort Nummer drei: aussortieren. Dinge durchsehen und das, was man nicht mehr braucht, wegnehmen.
+A: Wort Nummer vier: der Impulskauf. Ein spontaner Kauf, ohne lange nachzudenken.
+B: Wort Nummer fünf: die Lieferkette. Der ganze Weg eines Produkts, vom Rohstoff bis zum Geschäft.
+A: Und Wort Nummer sechs: sich etwas gönnen. Sich bewusst etwas Schönes erlauben.
+B: Noch einmal: der Konsum, zugegeben, aussortieren, der Impulskauf, die Lieferkette, sich etwas gönnen.
+A: Was lernen wir heute? Minimalismus: bewusst mit wenigen Dingen leben. Mit Vorteilen wie mehr Ruhe und weniger Ausgaben.
+B: Die Kritik: Minimalismus kann ein Luxus sein, ist selbst ein Konsumprodukt geworden, und Dinge können wertvolle Erinnerungen tragen.
+A: Der Konsum hat große Folgen für die Umwelt und die Menschen in den Lieferketten. Darum gibt es das Lieferkettengesetz, das Recht auf Reparatur und Repair-Cafés.
+B: Und Ausdrücke für Zugeständnisse: „Zugegeben …“, „Das mag zwar sein, aber …“, „Bis zu einem gewissen Grad …“
+A: Das ist das Ende von Folge dreiundsiebzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und denk an die Dreißig-Tage-Regel vor deinem nächsten Kauf! Servus!
+A: Tschüss!
+VOCAB: der Konsum | Das Kaufen und Verbrauchen von Waren und Dienstleistungen. | 🛍️
+VOCAB: zugegeben | Man akzeptiert einen Punkt der anderen Seite, bevor man widerspricht. | 🤚
+VOCAB: aussortieren | Dinge durchsehen und wegnehmen, was man nicht mehr braucht. | 🗃️
+VOCAB: der Impulskauf | Ein spontaner Kauf, ohne lange nachzudenken. | 💳
+VOCAB: die Lieferkette | Der ganze Weg eines Produkts, vom Rohstoff bis zum Geschäft. | 🔗
+VOCAB: sich etwas gönnen | Sich bewusst etwas Schönes erlauben. | 🎁
+QUIZ: Was ist die Dreißig-Tage-Regel von Lena? | Dreißig Tage nichts essen | Dreißig Tage warten, bevor man etwas kauft | Jeden Monat dreißig Dinge wegwerfen | 2
+QUIZ: Welche Kritik hat Jonas am Minimalismus? | Er ist ein Luxus und selbst ein Konsumprodukt geworden | Er ist zu billig | Er ist verboten | 1
+QUIZ: Was ist der Reparaturbonus in Österreich? | Der Staat bezahlt einen Teil der Reparaturkosten | Man bekommt ein neues Handy | Eine Steuer auf Reparaturen | 1
+QUIZ: Was hat Kenji zu Felix gesagt? | Er solle mehr kaufen | Etwas zu machen macht glücklicher als etwas zu kaufen | Er solle ausziehen | 2
+QUIZ: Was hat Felix mit dem Geld aus dem Verkauf gemacht? | Eine Reise nach Island gebucht | Eine neue Konsole gekauft | Es gespart | 1
+`;
