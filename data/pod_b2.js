@@ -667,3 +667,187 @@ QUIZ: Was ist ein Maintainer? | Ein Nutzer, der nichts bezahlt | Die Person, die
 QUIZ: Was bedeutet „intrinsische Motivation“? | Die Motivation kommt von außen, durch Geld | Die Motivation kommt von innen, aus Freude | Man hat keine Motivation | 2
 QUIZ: Wer unterstützt Juliens Projekt am Ende finanziell? | Die deutsche Regierung | Eine japanische Firma | Herr Yilmaz | 2
 `;
+
+DATA.podScripts.ep068 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge achtundsechzig. Heute wird es persönlich und ein bisschen philosophisch. Wir sprechen über Sprache und Identität.
+A: Wer bin ich, wenn ich eine andere Sprache spreche? Bin ich derselbe Mensch auf Deutsch wie auf Französisch oder Arabisch? Was bedeutet es, zweisprachig aufzuwachsen? Und warum ist der Akzent für viele Menschen ein so emotionales Thema?
+B: Fragen, die sich jeder stellt, der eine Fremdsprache lernt oder in einem anderen Land lebt. Und vielleicht auch du, Hörer, Hörerin. Denn wer so lange mit uns Deutsch lernt, hat bestimmt schon gemerkt, dass sich etwas verändert. Nicht nur im Kopf, sondern vielleicht auch im Gefühl.
+A: Sprachlich üben wir heute die indirekte Rede in einfacher Form und Ausdrücke, um über Erfahrungen und Gefühle anderer zu berichten. „Sie sagt, dass sie sich auf Deutsch freier fühle.“ „Viele berichten, sie seien eine andere Person, wenn sie eine andere Sprache sprechen.“
+B: Die indirekte Rede mit dem Konjunktiv I behandeln wir ausführlich in Folge siebzig. Heute nur ein kleiner Vorgeschmack. Im Alltag benutzt man oft einfach „dass“ und den Indikativ: „Er sagt, dass er müde ist.“ In formelleren Texten und in den Nachrichten den Konjunktiv I: „Er sagt, er sei müde.“
+A: Gut. Fangen wir mit einer Frage an, die mich wirklich interessiert. Jonas, du sprichst Deutsch, Englisch, Spanisch und ein bisschen Italienisch. Fühlst du dich in den verschiedenen Sprachen anders?
+B: Absolut. Und das ist mir erst spät bewusst geworden. Wenn ich Spanisch spreche, bin ich lauter, emotionaler, ich benutze mehr die Hände. Ich lache mehr. Meine Freunde aus Barcelona sagen, ich sei auf Spanisch viel lockerer als auf Deutsch.
+A: Und auf Englisch?
+B: Auf Englisch bin ich irgendwie höflicher und vorsichtiger. Ich sage ständig „sorry“ und „maybe“ und „I think“. Und auf Deutsch bin ich direkter. Und auf Wienerisch, im Dialekt mit meiner Familie, bin ich ironischer und ein bisschen grantig. Hahaha.
+A: Das ist faszinierend. Und es gibt tatsächlich Forschung dazu. Studien mit zweisprachigen Menschen zeigen, dass viele ihre Persönlichkeit in den verschiedenen Sprachen unterschiedlich beschreiben. Wenn man ihnen den gleichen Persönlichkeitstest in zwei Sprachen gibt, kommen manchmal unterschiedliche Ergebnisse heraus.
+B: Woran liegt das?
+A: Vermutlich daran, dass man mit einer Sprache auch die kulturellen Normen lernt, die zu dieser Sprache gehören. Wie direkt man ist, wie viel Gefühl man zeigt, wie höflich man ist. Und wenn man eine Sprache spricht, aktiviert man diese Normen. Eine Sprache ist nicht nur ein Werkzeug, sondern auch eine Art, in der Welt zu sein.
+B: Und es gibt noch ein interessantes Phänomen: Viele Menschen finden es leichter, über schwierige Gefühle in einer Fremdsprache zu sprechen. Weil die Wörter emotional weniger aufgeladen sind.
+A: Ja, das habe ich bei meinen Schülern oft beobachtet. Eine Schülerin aus dem Iran hat mir einmal erzählt, sie könne über traumatische Erlebnisse auf Deutsch sprechen, aber nicht auf Persisch. Auf Persisch tue es zu weh. Auf Deutsch habe sie eine gewisse Distanz.
+B: Das ist sehr bewegend. Und umgekehrt: Beim Fluchen oder bei Liebeserklärungen greifen viele auf ihre Muttersprache zurück. Weil die Wörter da mehr Kraft haben.
+A: Hahaha. Genau. Wenn ich mir mit dem Hammer auf den Daumen haue, fluche ich auf Deutsch, nicht auf Englisch!
+B: Gut. Jetzt die Zweisprachigkeit. Viele Kinder wachsen heute mit zwei oder mehr Sprachen auf. In Deutschland hat ungefähr jedes dritte Kind unter sechs Jahren einen Migrationshintergrund, und viele davon sprechen zu Hause eine andere Sprache als Deutsch.
+A: Und lange Zeit gab es in Deutschland eine problematische Einstellung zur Zweisprachigkeit. Man hat Eltern geraten, mit ihren Kindern nur Deutsch zu sprechen, damit sie in der Schule nicht benachteiligt sind. Auch wenn die Eltern selbst nur schlecht Deutsch konnten.
+B: Und das war ein Fehler, oder?
+A: Ja, die Forschung sagt heute eindeutig etwas anderes. Es ist besser, wenn Eltern mit ihren Kindern die Sprache sprechen, die sie am besten beherrschen. Eine gute Basis in der Muttersprache hilft sogar beim Lernen der zweiten Sprache. Und Zweisprachigkeit hat viele Vorteile. Zweisprachige Kinder sind oft besser darin, zwischen Aufgaben zu wechseln und sich auf das Wesentliche zu konzentrieren.
+B: Und es gibt auch eine Diskussion über die Bewertung von Sprachen. Ein Kind, das zu Hause Englisch oder Französisch spricht, gilt als besonders gebildet und privilegiert. Ein Kind, das zu Hause Türkisch, Arabisch oder Polnisch spricht, wird manchmal eher als Problem gesehen. Obwohl es genauso zweisprachig ist.
+A: Das ist ein wichtiger Punkt. Man spricht dabei von einer Hierarchie der Sprachen. Manche Sprachen haben ein hohes Prestige, andere ein niedriges. Und das hat wenig mit der Sprache selbst zu tun, sondern mit gesellschaftlichen Vorurteilen.
+B: Jetzt der Akzent. Lena, du bist Deutschlehrerin. Wie wichtig ist ein Akzent?
+A: Aus meiner Sicht als Lehrerin: Ein Akzent ist überhaupt kein Problem, solange man verstanden wird. Fast jeder, der eine Sprache als Erwachsener lernt, behält einen Akzent. Das ist völlig normal und hat nichts mit Intelligenz oder Fleiß zu tun.
+B: Aber für viele Lernende ist es trotzdem ein sensibles Thema.
+A: Ja, sehr. Viele schämen sich für ihren Akzent. Und leider gibt es auch Diskriminierung. Studien zeigen, dass Menschen mit bestimmten Akzenten bei Bewerbungen oder bei der Wohnungssuche benachteiligt werden. Jemand mit einem französischen Akzent wird oft als charmant wahrgenommen. Jemand mit einem arabischen oder osteuropäischen Akzent erlebt manchmal Vorurteile.
+B: Das ist wieder diese Hierarchie. Und dann gibt es noch die Erfahrung, die viele Menschen machen, die perfekt Deutsch sprechen, aber nicht „typisch deutsch“ aussehen. Sie werden ständig gefragt: „Woher kommst du?“ Und wenn sie antworten „Aus Hamburg“, fragen die Leute: „Nein, ich meine, woher kommst du wirklich?“
+A: Ja, das ist für viele Menschen sehr verletzend. Weil es signalisiert: Du gehörst nicht wirklich dazu. Auch wenn man in Deutschland geboren ist und Deutsch die erste Sprache ist.
+B: Und das bringt uns zum Thema Zugehörigkeit. „Zugehörigkeit“ ist das Gefühl, zu einer Gruppe zu gehören. Ein Teil davon zu sein.
+A: Und für viele Menschen mit mehreren Sprachen und Kulturen ist Zugehörigkeit kompliziert. In Deutschland gelten sie als Türken, Araber oder Polen. Und wenn sie in das Herkunftsland ihrer Eltern reisen, gelten sie als Deutsche. Man nennt das manchmal: zwischen den Stühlen sitzen.
+B: „Zwischen den Stühlen sitzen“ ist eine Redewendung. Sie bedeutet: Man gehört nicht richtig zu der einen oder der anderen Seite.
+A: Genau. Aber viele junge Menschen sehen das heute anders. Sie sagen: Ich bin nicht zwischen den Stühlen, ich habe zwei Stühle. Oder: Ich bin nicht halb das eine und halb das andere, sondern ganz beides.
+B: Das gefällt mir. Nicht ein Mangel, sondern ein Reichtum. Und in Österreich gibt es übrigens noch eine besondere Dimension: das Verhältnis zum Deutschen aus Deutschland.
+A: Oh ja, erzähl mal!
+B: Viele Österreicher haben ein etwas kompliziertes Verhältnis zu Deutschland. Wir sprechen zwar die gleiche Sprache, aber wir legen großen Wert auf unsere eigenen Wörter. Paradeiser statt Tomate, Marille statt Aprikose, Jänner statt Januar. Und wenn Kinder in Österreich zu viel deutsches Fernsehen schauen und plötzlich „Tschüss“ statt „Servus“ oder „Lecker“ statt „Gut“ sagen, ärgern sich manche Eltern.
+A: Hahaha. Das ist mir gar nicht so bewusst gewesen. Für dich ist das also auch eine Identitätsfrage?
+B: Absolut. Die Sprache zeigt: Ich bin Österreicher, nicht Deutscher. Es gibt sogar ein offizielles Österreichisches Wörterbuch, und in der Europäischen Union wurden bei Österreichs Beitritt dreiundzwanzig österreichische Wörter offiziell geschützt. Zum Beispiel Erdäpfel, Topfen und Schlagobers.
+A: Das wusste ich nicht! Geschützte Wörter, wie geschützte Herkunftsbezeichnungen beim Käse!
+B: Genau. Jetzt zur Geschichte. Diesmal geht es um Emre. Und um eine Frage, die ihn seit Jahren beschäftigt.
+A: Emre ist in Berlin geboren, oder?
+B: Genau. Seine Eltern kamen aus der Türkei, aus Izmir. Emre spricht Deutsch wie ein echter Berliner, mit Berliner Schnauze. Und Türkisch spricht er mit seinen Eltern und Großeltern. Aber sein Türkisch ist nicht perfekt. Er hat in der Schule nie Türkisch gelernt, nur zu Hause.
+A: Das ist bei vielen Kindern von Einwanderern so. Man nennt sie manchmal „Herkunftssprecher“. Sie verstehen die Sprache gut, aber sprechen sie mit Lücken.
+B: Genau. Und als Emre letzten Sommer in Izmir war, ist etwas passiert, das ihn sehr beschäftigt hat. Ein Cousin hat ihn vor der ganzen Familie ausgelacht, weil er ein türkisches Wort falsch benutzt hat. Er sagte: „Du bist kein richtiger Türke. Du bist ein Almanci.“
+A: „Almancı“ ist ein türkisches Wort für Türken, die in Deutschland leben. Es wird manchmal ein bisschen abwertend benutzt.
+B: Genau. Und Emre war verletzt. Denn in Deutschland fühlt er sich auch nicht immer ganz zugehörig. Bei seinem neuen Job in der Softwarefirma hat ihn ein Kunde am Telefon gefragt: „Sie sprechen aber gut Deutsch. Wo haben Sie das gelernt?“
+A: Oh nein. Die klassische Frage.
+B: Emre hat geantwortet: „In Kreuzberg. Im Kindergarten.“ Hahaha. Aber innerlich hat es ihn getroffen. Er hat sich gefragt: Wo gehöre ich eigentlich hin?
+A: Das ist eine schwierige Frage. Hat er mit jemandem darüber gesprochen?
+B: Ja, mit Amira. Sie kennt das Gefühl, zwischen zwei Kulturen zu leben. Und Amira hat ihm erzählt, wie es ihr in Casablanca ging, mit dem umgekehrten Kulturschock. Und sie hat gesagt: „Emre, Heimat ist kein Ort. Heimat ist da, wo die Menschen sind, die dich verstehen.“
+A: Ein schöner Satz.
+B: Und dann hatte Emre eine Idee. Natürlich: ein Video. Er hat eine Videoserie gemacht über junge Menschen in Deutschland mit mehreren Sprachen. Er hat sie gefragt: In welcher Sprache träumst du? In welcher Sprache fluchst du? In welcher Sprache sagst du „Ich liebe dich“?
+A: Was für eine tolle Idee! Und was haben die Leute geantwortet?
+B: Die Antworten waren unglaublich vielfältig. Eine junge Frau mit polnischen Eltern sagte, sie träume auf Deutsch, fluche auf Polnisch und sage „Ich liebe dich“ auf Englisch, weil das am wenigsten peinlich sei. Hahaha.
+A: Hahaha. Wie ehrlich!
+B: Ein Junge aus einer vietnamesischen Familie sagte, er spreche mit seiner Oma Vietnamesisch, mit seinen Eltern eine Mischung aus Vietnamesisch und Deutsch, und mit seinen Freunden Deutsch mit vielen englischen Wörtern. Er habe also drei oder vier verschiedene Sprachen, je nachdem, mit wem er rede.
+A: Das ist so typisch für Berlin.
+B: Und Emre hat am Ende des Videos gesagt: „Ich habe mich lange gefragt, ob ich Deutscher oder Türke bin. Heute weiß ich: Ich bin Berliner mit türkischen Wurzeln. Und mein unperfektes Türkisch gehört genauso zu mir wie meine Berliner Schnauze.“
+A: Das ist eine wunderbare Antwort. Und hat er wieder Türkisch gelernt?
+B: Ja! Er macht jetzt einen Türkischkurs. Und er sagt, das sei eigentlich lustig: Er lerne seine Muttersprache als Fremdsprache. Und nächsten Sommer will er seinem Cousin zeigen, wie gut sein Türkisch geworden ist.
+A: Jetzt bist du dran, Hörer, Hörerin. Fühlst du dich anders, wenn du Deutsch sprichst? Bist du lockerer, vorsichtiger, direkter? Erzähl es laut: „Wenn ich Deutsch spreche, fühle ich mich …“
+B: Und berichte über die Erfahrung einer anderen Person mit „Sie sagt, dass …“ oder „Er erzählt, er sei …“
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: die Zugehörigkeit. Das Gefühl, zu einer Gruppe zu gehören.
+A: Wort Nummer zwei: zweisprachig. Mit zwei Sprachen aufwachsen oder zwei Sprachen sehr gut beherrschen.
+B: Wort Nummer drei: aufgeladen. Hier: voller Gefühle und Bedeutung. Emotional aufgeladene Wörter.
+A: Wort Nummer vier: benachteiligt. Schlechter behandelt als andere, mit weniger Chancen.
+B: Wort Nummer fünf: zwischen den Stühlen sitzen. Nicht richtig zu der einen oder der anderen Seite gehören.
+A: Und Wort Nummer sechs: die Wurzeln. Hier: die Herkunft der Familie. Berliner mit türkischen Wurzeln.
+B: Noch einmal: die Zugehörigkeit, zweisprachig, aufgeladen, benachteiligt, zwischen den Stühlen sitzen, die Wurzeln.
+A: Was lernen wir heute? Viele Menschen fühlen sich in verschiedenen Sprachen wie verschiedene Personen. Weil man mit einer Sprache auch kulturelle Normen lernt.
+B: Zweisprachigkeit ist ein Vorteil. Eltern sollten mit ihren Kindern die Sprache sprechen, die sie am besten beherrschen.
+A: Ein Akzent ist normal und kein Zeichen von schlechtem Deutsch. Aber leider gibt es Vorurteile gegenüber bestimmten Akzenten.
+B: Und Identität kann vielfältig sein: nicht zwischen den Stühlen, sondern auf zwei Stühlen.
+A: Das ist das Ende von Folge achtundsechzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und sei stolz auf deinen Akzent! Servus!
+A: Tschüss!
+VOCAB: die Zugehörigkeit | Das Gefühl, zu einer Gruppe zu gehören. | 🫂
+VOCAB: zweisprachig | Mit zwei Sprachen aufwachsen oder sie sehr gut beherrschen. | 🗣️
+VOCAB: aufgeladen | Voller Gefühle und Bedeutung. | ⚡
+VOCAB: benachteiligt | Schlechter behandelt als andere, mit weniger Chancen. | ⚖️
+VOCAB: zwischen den Stühlen sitzen | Nicht richtig zu der einen oder der anderen Seite gehören. | 🪑
+VOCAB: die Wurzeln | Die Herkunft der Familie. | 🌳
+QUIZ: Wie fühlt sich Jonas, wenn er Spanisch spricht? | Höflicher und vorsichtiger | Lauter und lockerer | Ironischer und grantig | 2
+QUIZ: Was rät die Forschung heute Eltern? | Nur Deutsch mit den Kindern zu sprechen | Die Sprache zu sprechen, die sie am besten beherrschen | Gar nicht mit den Kindern zu sprechen | 2
+QUIZ: Was bedeutet „zwischen den Stühlen sitzen“? | Bequem sitzen | Nicht richtig zu einer Seite gehören | Auf eine Entscheidung warten | 2
+QUIZ: Wie viele österreichische Wörter wurden in der EU geschützt? | Drei | Dreiundzwanzig | Dreihundert | 2
+QUIZ: Was sagt Emre am Ende seines Videos? | Er ist Berliner mit türkischen Wurzeln | Er will in die Türkei ziehen | Er spricht nur noch Deutsch | 1
+`;
+
+DATA.podScripts.ep069 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge neunundsechzig. Heute wagen wir einen Blick in die Zukunft. Wir sprechen über die Stadt der Zukunft. Wie werden wir in dreißig oder fünfzig Jahren in den Städten leben?
+A: In Folge zweiundfünfzig haben wir über den Verkehr der Zukunft gesprochen. Heute erweitern wir das Thema auf die ganze Stadt. Wohnen, Grün, Energie, Klima, Zusammenleben. Und wir sprechen über Stadtplanung. Stadtplanung ist die Arbeit, bei der man entscheidet, wie eine Stadt sich entwickeln soll. Wo gebaut wird, wo Parks entstehen, wo Straßen verlaufen.
+B: Und dabei üben wir das Futur in seinen verschiedenen Formen. Das Futur I, das wir in Folge zweiundfünfzig gelernt haben. Und neu: das Futur II. Und das Passiv in der Zukunft.
+A: Das Futur I kennst du: „Die Städte werden grüner werden.“ Für Vorhersagen. Und das Passiv in der Zukunft bildet man mit „werden“ plus Partizip plus „werden“. „In Zukunft werden mehr Häuser aus Holz gebaut werden.“
+B: Das sind viele „werden“! Hahaha. Im Alltag vermeidet man das oft und sagt einfach: „In Zukunft baut man mehr Häuser aus Holz.“ Oder: „In Zukunft werden mehr Häuser aus Holz gebaut.“ Mit nur einem „werden“ und einer Zeitangabe.
+A: Genau. Und das Futur II ist eine Form, die man seltener braucht, aber auf B2 verstehen sollte. Es beschreibt eine Handlung, die in der Zukunft abgeschlossen sein wird. „Bis zweitausendfünfundvierzig wird Deutschland klimaneutral geworden sein.“ Also: Zu diesem Zeitpunkt ist es schon passiert.
+B: Man bildet es mit „werden“ plus Partizip plus „haben“ oder „sein“. „Bis morgen werde ich den Artikel geschrieben haben.“ „Bis zum Sommer werden wir umgezogen sein.“
+A: Und im Alltag benutzt man das Futur II auch für Vermutungen über die Vergangenheit. „Er wird den Zug verpasst haben.“ Das heißt: Ich vermute, dass er den Zug verpasst hat.
+B: Wie das Futur I für Vermutungen über die Gegenwart. Folge zweiundfünfzig: „Sie wird wohl im Büro sein.“ Gut, steigen wir ins Thema ein. Lena, warum ist die Stadt der Zukunft ein so wichtiges Thema?
+A: Weil immer mehr Menschen in Städten leben. Heute lebt mehr als die Hälfte der Weltbevölkerung in Städten. Und laut den Vereinten Nationen werden es bis zweitausendfünfzig fast siebzig Prozent sein. Die Städte werden also weiter wachsen, besonders in Afrika und Asien.
+B: Und gleichzeitig stehen die Städte vor riesigen Herausforderungen. Erstens der Klimawandel. Städte verursachen einen großen Teil der CO2-Emissionen. Und sie leiden besonders unter den Folgen. Hitzewellen, Starkregen, Überschwemmungen.
+A: Zweitens die Wohnungsnot. In vielen Städten, auch in Berlin und Wien, gibt es nicht genug bezahlbaren Wohnraum. Darüber sprechen wir ausführlich in Folge dreiundneunzig.
+B: Und drittens die soziale Frage. Wie sorgt man dafür, dass die Stadt für alle lebenswert ist? Nicht nur für die Reichen in den schönen Vierteln.
+A: Gut. Fangen wir mit dem Klima an. Ein großes Stichwort ist die „Schwammstadt“.
+B: Die Schwammstadt! Das ist ein faszinierendes Konzept. Ein Schwamm saugt Wasser auf und gibt es langsam wieder ab. Und die Idee ist, dass die Stadt das auch tun soll.
+A: Genau. Heute ist ein großer Teil der Städte versiegelt. „Versiegelt“ heißt: mit Asphalt und Beton bedeckt, sodass kein Wasser in den Boden kann. Wenn es stark regnet, fließt das Wasser sofort in die Kanalisation. Die ist dann überlastet, und es kommt zu Überschwemmungen.
+B: Und bei Hitze speichert der Beton die Wärme. In der Innenstadt kann es im Sommer mehrere Grad heißer sein als auf dem Land. Man nennt das den Wärmeinseleffekt.
+A: Die Schwammstadt soll beides lösen. Mehr Grünflächen, begrünte Dächer und Fassaden, Bäume, versickerungsfähige Böden. Das Regenwasser wird gespeichert und bei Hitze verdunstet es. Und das kühlt die Stadt.
+B: Wien ist da übrigens ein Vorreiter. Ein Vorreiter ist jemand, der etwas als Erster macht, ein Vorbild für andere. Wien pflanzt in vielen Straßen Bäume nach dem Schwammstadt-Prinzip. Unter der Straße gibt es spezielle Schichten aus Schotter, in denen sich das Wasser sammelt und die Wurzeln genug Platz haben.
+A: Und Berlin hat sich das Ziel gesetzt, eine Schwammstadt zu werden. In neuen Wohnvierteln muss das Regenwasser vor Ort bleiben. Wobei die Umsetzung noch dauern wird.
+B: Dann gibt es das Konzept der Fünfzehn-Minuten-Stadt. Darüber haben wir in Folge zweiundfünfzig schon gesprochen. Alle wichtigen Orte sollen in fünfzehn Minuten zu Fuß oder mit dem Fahrrad erreichbar sein.
+A: Paris hat das unter der Bürgermeisterin Anne Hidalgo stark vorangetrieben. Viele Straßen wurden für Autos gesperrt und in Fahrradwege oder Fußgängerzonen umgewandelt. Und die Schulhöfe werden am Wochenende für die Nachbarschaft geöffnet und begrünt.
+B: Und Barcelona hat die sogenannten „Superblocks“ eingeführt. Das ist eine interessante Idee. Mehrere Häuserblöcke werden zu einem großen Block zusammengefasst. Innen fahren nur noch Anwohner, sehr langsam. Und die Kreuzungen werden zu Plätzen mit Bänken, Bäumen und Spielplätzen.
+A: Ich war vor zwei Jahren in Barcelona und habe so einen Superblock gesehen. Es war wunderbar. Kinder spielten auf der Straße, alte Menschen saßen auf Bänken und unterhielten sich. Es war ruhig, mitten in der Stadt.
+B: Aber es gab auch Kritik, oder?
+A: Ja. Die Geschäftsleute hatten Angst, dass weniger Kunden kommen. Und die Bewohner der umliegenden Straßen klagten über mehr Verkehr, weil die Autos ausweichen. Und die Mieten in den Superblocks stiegen, weil die Gegend attraktiver wurde.
+B: Das ist ein typisches Problem: die Gentrifizierung. Wenn ein Viertel schöner wird, ziehen reichere Menschen hin, die Mieten steigen, und die ursprünglichen Bewohner können es sich nicht mehr leisten. Darüber diskutiert man in Berlin seit Jahren, zum Beispiel in Kreuzberg und Neukölln.
+A: Und genau das ist das Dilemma der Stadtplanung. Ein Dilemma ist eine Situation, in der man zwischen zwei schwierigen Möglichkeiten wählen muss. Man will die Stadt verbessern, aber nicht die ärmeren Bewohner verdrängen.
+B: Dann das Wohnen der Zukunft. Wie werden wir wohnen?
+A: Vermutlich enger. Wenn mehr Menschen in die Städte ziehen, aber nicht mehr Fläche versiegelt werden soll, muss man dichter bauen. In die Höhe statt in die Breite. Und es wird mehr gemeinschaftliche Wohnformen geben. Wohnprojekte, in denen Menschen sich Küchen, Gärten, Werkstätten und Gästezimmer teilen.
+B: Wie eine WG für Erwachsene! Folge einundfünfzig! Hahaha.
+A: Hahaha. So ähnlich. Und man wird mehr mit Holz bauen. Holz speichert CO2, während Beton bei der Herstellung sehr viel CO2 produziert. In Wien steht eines der höchsten Holzhochhäuser der Welt, das „HoHo“. Vierundachtzig Meter hoch.
+B: Ja! In der Seestadt Aspern. Das ist ein neuer Stadtteil im Osten von Wien. Dort wird eine ganze Stadt für zwanzigtausend Menschen neu gebaut. Mit einem See in der Mitte, vielen Grünflächen und einer U-Bahn-Anbindung.
+A: Und was ist besonders an der Seestadt?
+B: Die Straßen sind nach Frauen benannt. Weil fast alle Straßen in Wien nach Männern benannt sind. Und es gibt eine Regel: Die Erdgeschosse sollen belebt sein. Also Geschäfte, Cafés, Werkstätten, keine leeren Garagen. Damit die Straßen lebendig sind.
+A: Das ist eine schöne Idee. Und dann ist da noch die Technologie. Das Stichwort „Smart City“.
+B: Eine Smart City ist eine Stadt, die mit digitaler Technik effizienter funktionieren soll. Sensoren messen den Verkehr, die Luftqualität, den Energieverbrauch. Ampeln passen sich automatisch an. Straßenlaternen leuchten nur, wenn jemand vorbeikommt. Müllcontainer melden, wenn sie voll sind.
+A: Klingt praktisch. Aber ich habe auch Bedenken.
+B: Den Datenschutz?
+A: Genau. Wer sammelt all diese Daten? Und was passiert damit? Wenn überall Kameras und Sensoren sind, kann man genau verfolgen, wer sich wann wo aufhält. In manchen Ländern wird das zur Überwachung benutzt. Darüber sprechen wir ausführlich in Folge zweiundachtzig.
+B: Das ist eine berechtigte Sorge. Die Technik sollte den Menschen dienen und nicht umgekehrt. Und die Bürger sollten mitentscheiden können.
+A: Und das ist für mich vielleicht das Wichtigste an der Stadt der Zukunft: die Beteiligung. Die Bürger sollten bei der Planung mitreden dürfen. Nicht nur Experten und Investoren.
+B: In vielen Städten gibt es heute Bürgerbeteiligung. Man kann bei Workshops mitmachen, online Vorschläge machen oder über Projekte abstimmen. Zum Beispiel beim Tempelhofer Feld in Berlin. Dort haben die Berliner zweitausendvierzehn per Volksentscheid entschieden, dass das Feld nicht bebaut wird.
+A: Ja, das war ein großer Sieg für die Bürger. Wobei die Diskussion inzwischen wieder losgeht, wegen der Wohnungsnot.
+B: Jetzt zur Geschichte. Diesmal geht es um Katrins Mutter, Frau Schmid. Erinnerst du dich? Sie wohnt jetzt in Berlin und backt die besten Zwetschgenkuchen.
+A: Ja, natürlich! Was ist mit ihr?
+B: Frau Schmid wohnt in einem Viertel in Berlin-Moabit. In ihrer Straße gibt es einen großen Parkplatz, der fast immer halb leer ist. Und die Stadt plant, ihn umzugestalten. Und es gibt eine Bürgerbeteiligung. Ein Workshop im Nachbarschaftszentrum.
+A: Und Frau Schmid geht hin?
+B: Ja, und sie nimmt Julien mit. Weil Julien technisch versiert ist und ihr helfen soll, die Online-Abstimmung zu verstehen. „Versiert“ heißt: erfahren, kompetent.
+A: Und wie war der Workshop?
+B: Sehr lebhaft. Es kamen etwa sechzig Nachbarn. Und die Meinungen waren sehr unterschiedlich. Ein Geschäftsmann wollte den Parkplatz behalten, weil seine Kunden mit dem Auto kommen. Eine junge Mutter wollte einen Spielplatz. Ein Rentner wollte Bänke und Schatten. Und eine Gruppe Jugendlicher wollte einen Basketballplatz.
+A: Typisch. Jeder hat andere Bedürfnisse.
+B: Genau. Und es wurde laut. Der Geschäftsmann und die junge Mutter haben gestritten. Und dann ist Frau Schmid aufgestanden. Mit siebzig Jahren, mit ihrem schwäbischen Akzent. Und sie hat gesagt: „Jetzt hört mal zu. Ich habe in meinem Leben schon viele Streitereien gesehen. Wir wollen doch alle dasselbe: dass unser Viertel schöner wird. Warum machen wir nicht alles ein bisschen?“
+A: Hahaha. Typisch schwäbische Pragmatik!
+B: Genau. Und dann hat Julien eine Idee gehabt. Er hat am Laptop schnell einen Plan gezeichnet. Ein Teil des Parkplatzes bleibt, aber nur für Lieferverkehr und Menschen mit Behinderung. Der Rest wird geteilt: ein Spielplatz in der Mitte, Bänke unter Bäumen am Rand, und ein kleiner Basketballkorb an der Wand. Und auf dem Dach des Nachbarschaftszentrums ein Gemeinschaftsgarten.
+A: Und haben die Leute zugestimmt?
+B: Nach einer langen Diskussion, ja. Sogar der Geschäftsmann. Weil er gemerkt hat, dass mehr Menschen im Viertel spazieren gehen werden, wenn es schöner ist. Und das bringt auch Kunden.
+A: Und wurde es umgesetzt?
+B: Zwei Jahre später, ja. Bürokratie! Hahaha. Aber heute gibt es den Platz. Und er hat einen Namen bekommen. Die Nachbarn haben abgestimmt. Er heißt „Zwetschgenplatz“. Weil Frau Schmid bei der Eröffnung zehn Zwetschgenkuchen für alle gebacken hat.
+A: Hahaha. Wie wunderbar! Bis zum Ende dieses Jahrzehnts wird der Zwetschgenplatz in jedem Reiseführer gestanden haben.
+B: Futur II! Sehr gut, Lena!
+A: Jetzt bist du dran, Hörer, Hörerin. Wie stellst du dir deine Stadt in dreißig Jahren vor? Benutze das Futur I: „In dreißig Jahren werden …“ Und versuche einen Satz im Futur II: „Bis dahin wird man … gebaut haben.“
+B: Und wenn du einen Platz in deinem Viertel umgestalten könntest, was würdest du daraus machen?
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: die Stadtplanung. Die Arbeit, bei der man entscheidet, wie eine Stadt sich entwickeln soll.
+A: Wort Nummer zwei: versiegelt. Mit Asphalt und Beton bedeckt, sodass kein Wasser in den Boden kann.
+B: Wort Nummer drei: der Vorreiter. Jemand, der etwas als Erster macht, ein Vorbild.
+A: Wort Nummer vier: die Gentrifizierung. Ein Viertel wird schöner und teurer, und die ursprünglichen Bewohner werden verdrängt.
+B: Wort Nummer fünf: das Dilemma. Eine Situation, in der man zwischen zwei schwierigen Möglichkeiten wählen muss.
+A: Und Wort Nummer sechs: die Bürgerbeteiligung. Die Bürger können bei Entscheidungen mitreden.
+B: Noch einmal: die Stadtplanung, versiegelt, der Vorreiter, die Gentrifizierung, das Dilemma, die Bürgerbeteiligung.
+A: Was lernen wir heute? Das Futur I für Vorhersagen. Das Passiv in der Zukunft. Und das Futur II für Handlungen, die in der Zukunft abgeschlossen sein werden, und für Vermutungen über die Vergangenheit.
+B: Ideen für die Stadt der Zukunft: die Schwammstadt, die Fünfzehn-Minuten-Stadt, die Superblocks, Holzhäuser und gemeinschaftliches Wohnen.
+A: Die Herausforderungen: Klimawandel, Wohnungsnot, Gentrifizierung und Datenschutz bei der Smart City.
+B: Und das Wichtigste: Die Bürger sollten mitentscheiden.
+A: Das ist das Ende von Folge neunundsechzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und geh doch mal zu einem Workshop in deinem Viertel! Servus!
+A: Tschüss!
+VOCAB: die Stadtplanung | Die Arbeit, bei der man entscheidet, wie eine Stadt sich entwickeln soll. | 🏙️
+VOCAB: versiegelt | Mit Asphalt und Beton bedeckt, sodass kein Wasser in den Boden kann. | 🧱
+VOCAB: der Vorreiter | Jemand, der etwas als Erster macht, ein Vorbild. | 🐎
+VOCAB: die Gentrifizierung | Ein Viertel wird teurer und die ursprünglichen Bewohner werden verdrängt. | 🏘️
+VOCAB: das Dilemma | Eine Situation mit zwei schwierigen Möglichkeiten. | 🔀
+VOCAB: die Bürgerbeteiligung | Die Bürger können bei Entscheidungen mitreden. | 🗳️
+QUIZ: Was beschreibt das Futur II? | Eine Handlung, die in der Zukunft abgeschlossen sein wird | Eine Handlung, die gerade passiert | Eine Gewohnheit | 1
+QUIZ: Was ist eine Schwammstadt? | Eine Stadt, die Regenwasser speichert wie ein Schwamm | Eine Stadt am Meer | Eine Stadt ohne Autos | 1
+QUIZ: Was sind die „Superblocks“ in Barcelona? | Große Einkaufszentren | Mehrere Häuserblöcke, in denen fast keine Autos fahren | Hochhäuser | 2
+QUIZ: Wonach sind die Straßen in der Seestadt Aspern benannt? | Nach Komponisten | Nach Frauen | Nach Städten | 2
+QUIZ: Wie heißt der neue Platz in Moabit? | Schmidplatz | Zwetschgenplatz | Julienplatz | 2
+`;
