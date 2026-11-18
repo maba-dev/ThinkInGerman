@@ -1603,3 +1603,197 @@ QUIZ: Was ist heute wichtiger bei einem Passwort? | Die Länge | Dass man es jed
 QUIZ: Was war das alte Passwort von Herrn Krüger? | Eins, zwei, drei, vier | Der Name seines Hundes und sein Geburtsjahr | Sein Geburtstag | 2
 QUIZ: Wie nennt sich die Gruppe im Seniorenverein? | Die Digitalen Detektive | Die Passwort-Profis | Die Internet-Polizei | 1
 `;
+
+DATA.podScripts.ep078 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge achtundsiebzig. Heute sprechen wir über eine der wichtigsten Soft Skills im Berufsleben: Feedback geben und annehmen.
+A: Soft Skills sind soziale und persönliche Fähigkeiten. Im Gegensatz zu Hard Skills, also fachlichen Fähigkeiten wie Programmieren oder Buchhaltung. Soft Skills sind zum Beispiel Kommunikation, Teamfähigkeit, Empathie und Konfliktfähigkeit.
+B: Und Feedback ist eine Rückmeldung. Man sagt einer Person, wie man ihre Arbeit oder ihr Verhalten wahrnimmt. Das kann positiv sein, also Lob, oder kritisch. Und beides ist gar nicht so einfach.
+A: In Folge zweiundsiebzig haben wir schon über die Gewaltfreie Kommunikation gesprochen. Heute gehen wir einen Schritt weiter. Wir lernen Methoden, um Feedback zu strukturieren. Und wir sprechen über den schwierigeren Teil: Wie nimmt man Kritik an, ohne sich angegriffen zu fühlen?
+B: Sprachlich üben wir heute Höflichkeitsformen und Abschwächungen auf hohem Niveau. Und die Unterscheidung zwischen Wahrnehmung und Tatsache. Ausdrücke wie: „Auf mich wirkt es so, als ob …“, „Aus meiner Perspektive …“, „Ich habe wahrgenommen, dass …“
+A: Und „als ob“ mit dem Konjunktiv II. Das ist eine interessante Struktur. „Es wirkt so, als ob du nicht vorbereitet wärst.“ Man beschreibt einen Eindruck, ohne zu behaupten, dass es so ist. Man kann auch „als“ allein benutzen, dann kommt das Verb direkt danach: „Es wirkt so, als wärst du nicht vorbereitet.“
+B: Gut. Fangen wir mit einer Frage an. Warum ist Feedback so schwierig? Lena, du gibst als Lehrerin jeden Tag Feedback.
+A: Ja. Und ich glaube, es ist schwierig, weil es um Gefühle geht. Wenn ich jemandem Kritik gebe, habe ich Angst, ihn zu verletzen. Oder ich habe Angst, dass er wütend wird. Darum vermeiden viele Menschen ehrliches Feedback. Oder sie geben es so vorsichtig, dass niemand versteht, was eigentlich gemeint ist.
+B: Und auf der anderen Seite: Wenn man Kritik bekommt, fühlt man sich oft persönlich angegriffen. Auch wenn die Kritik sachlich ist. Das Gehirn reagiert auf soziale Ablehnung ähnlich wie auf körperliche Bedrohung. Das Herz schlägt schneller, man möchte sich verteidigen oder fliehen.
+A: Und dazu kommen die kulturellen Unterschiede. Darüber haben wir oft gesprochen. In Deutschland ist Feedback eher direkt. Darum gibt es den Satz „Nicht geschimpft ist genug gelobt“, aus Folge vierundfünfzig. Das Problem dabei: Viele Deutsche geben zu wenig positives Feedback.
+B: Das stimmt. Lob ist in der deutschen Arbeitskultur manchmal Mangelware. „Mangelware“ ist etwas, von dem es zu wenig gibt. Und das ist schade, denn Studien zeigen, dass Menschen mehr leisten und zufriedener sind, wenn sie regelmäßig ehrliches Lob bekommen.
+A: Gut. Jetzt die Methoden. Die erste ist sehr bekannt, aber umstritten: die Sandwich-Methode.
+B: Das Sandwich! Erklär mal.
+A: Man packt die Kritik zwischen zwei Lob-Scheiben. Wie ein Sandwich. Zuerst etwas Positives, dann die Kritik, dann wieder etwas Positives. „Deine Präsentation war sehr gut strukturiert. Die Folien waren allerdings etwas zu voll. Aber deine Begeisterung für das Thema war ansteckend.“
+B: Klingt nett. Warum ist sie umstritten?
+A: Weil viele Menschen die Methode inzwischen kennen. Und wenn jemand mit einem Lob anfängt, denken sie sofort: „Jetzt kommt das Aber.“ Und dann glauben sie dem Lob nicht mehr. Außerdem geht die Kritik manchmal zwischen den Lobscheiben unter. Die Person hört nur das Positive und merkt gar nicht, dass es ein Problem gibt.
+B: Das ist ein guter Punkt. Das Lob wird zur Verpackung, und es verliert seinen Wert.
+A: Genau. Darum empfehlen viele Experten heute andere Methoden. Zum Beispiel die SBI-Methode. Das steht für Situation, Behavior und Impact. Auf Deutsch: Situation, Verhalten, Wirkung.
+B: Und wie funktioniert die?
+A: Erstens beschreibt man die konkrete Situation. Wann und wo? „Im Meeting gestern Nachmittag mit dem Kunden …“ Zweitens beschreibt man das beobachtbare Verhalten. Nicht die Persönlichkeit. „… hast du ihn zweimal unterbrochen, als er seine Bedenken erklärt hat.“ Und drittens beschreibt man die Wirkung. „Ich hatte den Eindruck, dass er sich danach nicht mehr ernst genommen fühlte. Er hat im Rest des Meetings kaum noch etwas gesagt.“
+B: Das ist sehr klar und sachlich. Man sagt nicht „Du bist unhöflich“, sondern beschreibt genau, was passiert ist.
+A: Genau. Und danach sollte man fragen, statt nur zu sagen, was die Person anders machen soll. „Wie hast du die Situation erlebt?“ „Was denkst du, wie wir das beim nächsten Mal lösen können?“ So wird es ein Gespräch, keine Belehrung.
+B: Und positives Feedback funktioniert genauso. Statt nur „Gut gemacht!“ sagt man konkret: „In deiner Präsentation heute hast du die komplizierten Zahlen mit dem Beispiel aus dem Alltag erklärt. Dadurch haben alle im Raum verstanden, worum es geht. Das war wirklich hilfreich.“
+A: Das ist viel wertvoller als ein allgemeines Lob. Weil die Person weiß, was genau gut war, und es wiederholen kann.
+B: Gut. Jetzt der schwierigere Teil: Feedback annehmen. Und da habe ich als Journalist viel Erfahrung. Ich bekomme ständig Kritik. Von Redakteuren, von Lesern, in den Kommentaren.
+A: Und wie gehst du damit um?
+B: Heute ganz gut. Aber am Anfang meiner Karriere war das sehr schwer für mich.
+A: Erzähl.
+B: Mein erster langer Artikel bei der Tageszeitung. Ich hatte drei Wochen daran gearbeitet. Ich war sehr stolz. Und dann hat mein Redakteur ihn zurückgegeben. Mit roten Markierungen auf jeder Seite. Und einem Satz am Ende: „Zu lang, zu kompliziert, der Anfang ist langweilig. Bitte neu schreiben.“
+A: Autsch. Das ist hart.
+B: Ich war am Boden zerstört. Ich bin nach Hause gegangen und habe mich die ganze Nacht schlecht gefühlt. Ich dachte: Ich bin ein schlechter Journalist. Ich sollte etwas anderes machen.
+A: Und am nächsten Tag?
+B: Am nächsten Tag habe ich die Kritik noch einmal gelesen. Mit etwas Abstand. Und ich habe gemerkt: Er hatte recht. Der Anfang war wirklich langweilig. Ich hatte die interessanteste Information erst auf Seite drei versteckt. Ich habe den Artikel neu geschrieben. Und er wurde viel besser.
+A: Was hast du daraus gelernt?
+B: Erstens: Nicht sofort reagieren. Wenn man Kritik bekommt, ist der erste Impuls oft, sich zu verteidigen oder zu rechtfertigen. „Ja, aber …“ Besser ist es, zuerst nur zuzuhören. Und wenn möglich, eine Nacht darüber schlafen.
+A: Zweitens?
+B: Zweitens: Die Kritik von der Person trennen. Der Redakteur hat meinen Artikel kritisiert, nicht mich als Mensch. Das ist ein wichtiger Unterschied. Ich bin nicht mein Artikel.
+A: Und drittens: Nachfragen. Wenn Kritik unklar ist, sollte man genauer nachfragen. „Was genau meinst du mit langweilig? Hast du ein Beispiel?“ So versteht man, was die andere Person eigentlich meint. Und man zeigt, dass man die Kritik ernst nimmt.
+B: Genau. Und viertens: sich bedanken. Auch wenn es schwerfällt. „Danke für das ehrliche Feedback.“ Denn ehrliches Feedback ist ein Geschenk. Es ist viel einfacher, nichts zu sagen. Die Person, die einem Kritik gibt, nimmt sich Zeit und riskiert einen Konflikt, damit man besser wird.
+A: Das ist ein schöner Gedanke. Feedback als Geschenk. Und fünftens würde ich noch hinzufügen: nicht jede Kritik ist berechtigt. Man darf und sollte Kritik prüfen. Manchmal ist eine Kritik falsch, unfair oder sagt mehr über die Person aus, die sie gibt, als über einen selbst.
+B: Das stimmt. Besonders in den sozialen Medien. Wie bei Emre in Folge siebenundvierzig. Nicht jeder Kommentar verdient Aufmerksamkeit.
+A: Und es gibt ein interessantes Modell dazu: das Johari-Fenster. Es wurde von zwei Psychologen in den Fünfzigerjahren entwickelt, Joseph Luft und Harry Ingham. Der Name kommt von ihren Vornamen: Jo und Hari.
+B: Und was zeigt das Fenster?
+A: Es hat vier Bereiche. Erstens der öffentliche Bereich: Was ich über mich weiß und was andere auch wissen. Zweitens der verborgene Bereich: Was ich über mich weiß, aber andere nicht wissen. Meine Geheimnisse. Drittens der blinde Fleck: Was andere über mich wissen, aber ich selbst nicht. Und viertens das Unbekannte: Was weder ich noch andere wissen.
+B: Und Feedback hilft beim blinden Fleck.
+A: Genau! Feedback zeigt uns, wie wir auf andere wirken. Dinge, die wir selbst nicht sehen können. Wie Markus in Folge zweiundsiebzig, der nicht wusste, wie herablassend er wirkte. Ohne Feedback bleibt der blinde Fleck groß.
+B: Das ist ein sehr hilfreiches Modell. Jetzt zur Geschichte. Diesmal geht es um Kenji. Er hat ja jetzt seine eigene Bäckerei. Und er hat zwei Angestellte.
+A: Ah, Kenji als Chef! Wie läuft das?
+B: Am Anfang hatte er Schwierigkeiten. Er ist ein sehr ruhiger, höflicher Mensch. Aus Japan, wo man Kritik oft sehr indirekt äußert. Und eine seiner Angestellten, eine junge Frau namens Jasmin, machte immer wieder den gleichen Fehler. Sie formte die Brezeln falsch. Zu dick, zu ungleichmäßig.
+A: Und Kenji hat nichts gesagt?
+B: Er hat es indirekt versucht. Er hat gesagt: „Die Brezeln sind interessant heute.“ Oder: „Vielleicht könnte man es auch anders machen.“ Aber Jasmin hat das als Lob verstanden. Hahaha.
+A: Hahaha! Das kulturelle Missverständnis! „Interessant“ bedeutet in Japan manchmal etwas Negatives, aber in Deutschland klingt es positiv.
+B: Genau. Und Kenji wurde immer frustrierter. Er hat die Brezeln heimlich nachts neu gemacht. Und er hat kaum noch geschlafen.
+A: Oh nein. Das ist nicht nachhaltig. Wer hat ihm geholfen?
+B: Herr Schmidt, der alte Bäcker aus Folge siebenundfünfzig. Er hat das Problem bemerkt. Und er hat zu Kenji gesagt: „Kenji, du musst es ihr sagen. Direkt. Sonst lernt sie es nie. Und du machst dich kaputt.“
+A: Ein guter Rat. Und wie hat Kenji es dann gemacht?
+B: Er hat mit Julien geübt. Julien hat ihm die SBI-Methode erklärt. Und am nächsten Morgen hat Kenji mit Jasmin gesprochen. Ruhig, unter vier Augen, bevor die Bäckerei aufmachte.
+A: Was hat er gesagt?
+B: Er hat gesagt: „Jasmin, ich möchte mit dir über die Brezeln sprechen. In den letzten zwei Wochen waren die Brezeln oft zu dick in der Mitte und ungleichmäßig. Ich habe bemerkt, dass einige Kunden sie dann nicht kaufen. Und ich habe sie nachts neu gemacht, weil ich unsicher war, wie ich es dir sagen soll. Das war nicht richtig von mir. Darf ich dir zeigen, wie ich sie forme?“
+A: Wow. Das war sehr ehrlich. Er hat sogar seinen eigenen Fehler zugegeben.
+B: Ja. Und Jasmin war zuerst geschockt. Sie sagte: „Warum hast du das nicht früher gesagt? Ich dachte, die Brezeln sind gut!“ Und sie war ein bisschen verletzt, dass Kenji sie heimlich neu gemacht hatte.
+A: Verständlich.
+B: Aber dann hat sie sich bedankt. Sie sagte: „Ich will ja gut sein. Bitte sag mir in Zukunft sofort, wenn etwas nicht stimmt.“ Und Kenji hat ihr gezeigt, wie man die Brezel richtig schlingt. Mit einem schnellen Dreh.
+A: Und jetzt?
+B: Jetzt macht Jasmin die besten Brezeln in Neukölln. Hahaha. Und sie haben eine neue Regel: Jeden Freitag gibt es ein kurzes Feedbackgespräch. Jeder sagt eine Sache, die gut lief, und eine Sache, die man verbessern kann. Auch Jasmin gibt Kenji Feedback.
+A: Gegenseitiges Feedback! Was hat Jasmin Kenji gesagt?
+B: Dass er zu wenig lobt. Hahaha. Sie sagte: „Du sagst mir nur, wenn etwas falsch ist. Aber du sagst nie, wenn etwas gut ist.“ Und Kenji hat gelacht und gesagt: „Ich habe zu lange in Deutschland gelebt. Nicht geschimpft ist genug gelobt!“
+A: Hahaha. Wunderbar! Jetzt bist du dran, Hörer, Hörerin. Gib einer Person Feedback mit der SBI-Methode: Situation, Verhalten, Wirkung. Zum Beispiel einem Kollegen oder einer Freundin. Sag es laut: „Gestern im Meeting hast du … Das hat bei mir den Eindruck hinterlassen, als ob …“
+B: Und gib auch ein konkretes, positives Feedback. Nicht nur „gut gemacht“, sondern genau, was gut war und warum.
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: die Rückmeldung. Eine Reaktion darauf, wie man eine Arbeit oder ein Verhalten wahrnimmt.
+A: Wort Nummer zwei: die Mangelware. Etwas, von dem es zu wenig gibt.
+B: Wort Nummer drei: als ob. Mit Konjunktiv II, für einen Eindruck. Es wirkt so, als ob du müde wärst.
+A: Wort Nummer vier: am Boden zerstört sein. Sehr traurig und enttäuscht.
+B: Wort Nummer fünf: der blinde Fleck. Etwas über sich selbst, das andere sehen, man selbst aber nicht.
+A: Und Wort Nummer sechs: sich rechtfertigen. Erklären, warum man etwas gemacht hat, um sich zu verteidigen.
+B: Noch einmal: die Rückmeldung, die Mangelware, als ob, am Boden zerstört sein, der blinde Fleck, sich rechtfertigen.
+A: Was lernen wir heute? Die Sandwich-Methode ist bekannt, aber umstritten. Besser ist die SBI-Methode: Situation, Verhalten, Wirkung. Und dann fragen statt belehren.
+B: Positives Feedback sollte genauso konkret sein wie Kritik.
+A: Beim Annehmen von Feedback: nicht sofort reagieren, die Kritik von der Person trennen, nachfragen und sich bedanken. Aber auch prüfen, ob die Kritik berechtigt ist.
+B: Und das Johari-Fenster zeigt: Feedback hilft uns, unseren blinden Fleck zu sehen.
+A: Das ist das Ende von Folge achtundsiebzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und vergiss nicht: Ehrliches Feedback ist ein Geschenk! Servus!
+A: Tschüss!
+VOCAB: die Rückmeldung | Eine Reaktion darauf, wie man eine Arbeit oder ein Verhalten wahrnimmt. | 🔁
+VOCAB: die Mangelware | Etwas, von dem es zu wenig gibt. | 🏜️
+VOCAB: als ob | Mit Konjunktiv II, für einen Eindruck: Es wirkt so, als ob du müde wärst. | 🎭
+VOCAB: am Boden zerstört sein | Sehr traurig und enttäuscht. | 💔
+VOCAB: der blinde Fleck | Etwas über sich selbst, das andere sehen, man selbst aber nicht. | 🙈
+VOCAB: sich rechtfertigen | Erklären, warum man etwas gemacht hat, um sich zu verteidigen. | 🛡️
+QUIZ: Warum ist die Sandwich-Methode umstritten? | Die Kritik geht manchmal zwischen dem Lob unter | Sie ist zu direkt | Sie ist verboten | 1
+QUIZ: Wofür steht SBI? | Situation, Verhalten, Wirkung | Sicher, Besser, Ideal | Satz, Bedeutung, Inhalt | 1
+QUIZ: Was hat der Redakteur über Jonas' ersten Artikel gesagt? | Er sei perfekt | Zu lang, zu kompliziert, der Anfang sei langweilig | Er solle kündigen | 2
+QUIZ: Was zeigt der „blinde Fleck“ im Johari-Fenster? | Was man über sich weiß, aber andere nicht | Was andere über einen wissen, man selbst aber nicht | Was niemand weiß | 2
+QUIZ: Was hat Jasmin Kenji als Feedback gegeben? | Er arbeite zu langsam | Er lobe zu wenig | Er sei zu streng | 2
+`;
+
+DATA.podScripts.ep079 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge neunundsiebzig. Heute kehren wir zu einem Lieblingsthema aller Menschen zurück, die in Deutschland oder Österreich leben: die Bürokratie!
+A: Hahaha. Ja. In Folge vierundzwanzig haben wir über die Anmeldung gesprochen. Heute gehen wir tiefer. Wir sprechen über Ämter, Anträge und Fristen. Und wir verstehen, warum die Bürokratie so ist, wie sie ist. Und was man tun kann, um nicht verrückt zu werden.
+B: Und sprachlich passt das Thema perfekt zu einer Struktur, die man in offiziellen Briefen und Formularen ständig findet: das Passiv mit Modalverb. „Der Antrag muss bis zum dreißigsten Juni eingereicht werden.“ „Die Unterlagen können online hochgeladen werden.“ „Das Formular darf nicht mit Bleistift ausgefüllt werden.“
+A: Das Passiv mit Modalverb hat drei Teile. Das Modalverb an Position zwei, also muss, kann, darf, soll. Dann am Ende das Partizip. Und ganz am Ende der Infinitiv „werden“. „Der Antrag muss eingereicht werden.“
+B: Und im Nebensatz steht das Modalverb ganz am Ende: „Ich weiß nicht, ob der Antrag online eingereicht werden kann.“ Das ist eine schöne lange Kette am Satzende. Typisch Behördendeutsch.
+A: Und in der Vergangenheit wird es noch länger: „Der Antrag hätte bis Juni eingereicht werden müssen.“ Das ist schon sehr komplex. Aber man liest es in Briefen von Behörden.
+B: Die Sprache der Behörden ist übrigens ein eigenes Thema. Man nennt sie „Amtsdeutsch“ oder „Behördendeutsch“. Und sie ist berühmt dafür, kompliziert und schwer verständlich zu sein. Mit sehr langen Wörtern und vielen Passivsätzen.
+A: Ein typisches Beispiel. Statt „Bitte schicken Sie uns die Unterlagen“ steht im Brief: „Die Zusendung der erforderlichen Unterlagen wird bis spätestens zum genannten Termin erbeten.“
+B: Hahaha. Das ist perfektes Amtsdeutsch. Wir sprechen über den Nominalstil übrigens ausführlich in Folge neunundneunzig. Gut, aber zuerst die Frage: Warum gibt es in Deutschland so viel Bürokratie?
+A: Es gibt historische Gründe. Deutschland hat eine sehr lange Tradition der Verwaltung. Schon im Preußen des achtzehnten Jahrhunderts gab es eine sehr effiziente, gut organisierte Beamtenschaft. Und der Soziologe Max Weber hat am Anfang des zwanzigsten Jahrhunderts die Bürokratie sogar als die rationalste und gerechteste Form der Verwaltung beschrieben.
+B: Die gerechteste? Wie meinte er das?
+A: Die Idee ist: Eine gute Bürokratie behandelt alle Menschen gleich. Nach klaren, schriftlichen Regeln. Unabhängig davon, ob jemand reich oder arm ist, ob er den Beamten kennt oder nicht. Das schützt vor Willkür und Korruption. „Willkür“ bedeutet: Entscheidungen ohne Regeln, nur nach Lust und Laune.
+B: Das ist ein wichtiger Punkt, den viele vergessen. In Ländern mit wenig Bürokratie gibt es oft mehr Korruption. Man braucht dann „Vitamin B“ oder Geld unter dem Tisch, um etwas zu erreichen.
+A: Genau. Die deutsche Bürokratie mag langsam sein, aber sie ist im Großen und Ganzen zuverlässig und gerecht. Und es gibt einen zweiten Grund: das Rechtssystem. Deutschland ist ein Rechtsstaat, in dem jede Entscheidung einer Behörde vor Gericht überprüft werden kann. Darum muss jede Entscheidung genau begründet und dokumentiert werden.
+B: Und dann kommt noch der Föderalismus dazu. Deutschland hat sechzehn Bundesländer, und jedes hat eigene Gesetze und Behörden. Dazu die Kommunen. Manchmal ist für das gleiche Thema der Bund, das Land und die Stadt zuständig. Und niemand weiß genau, wer.
+A: „Zuständig“, Folge vierundzwanzig! Der Passierschein A38!
+B: Hahaha. Genau! Und in Österreich ist es ähnlich. Neun Bundesländer, viele Ebenen. Und die Österreicher sind sogar noch stolzer auf ihre Titel und Formalitäten.
+A: Gut. Jetzt die wichtigsten Begriffe. Erstens: der Antrag. Ein Antrag ist eine offizielle Bitte an eine Behörde. Man beantragt etwas. Einen Pass, Kindergeld, eine Baugenehmigung, Wohngeld, BAföG. Man stellt einen Antrag.
+B: Zweitens: der Bescheid. Das ist die offizielle Antwort der Behörde. Ein Brief, in dem steht, ob der Antrag genehmigt oder abgelehnt wurde. Und warum.
+A: Drittens: die Frist. Das ist ein Zeitraum, in dem man etwas erledigen muss. Und Fristen sind in Deutschland heilig. Wenn man eine Frist verpasst, kann man oft seine Rechte verlieren.
+B: Zum Beispiel die Steuererklärung. Die muss in Deutschland normalerweise bis zum einunddreißigsten Juli des folgenden Jahres abgegeben werden. Wer zu spät ist, kann einen Verspätungszuschlag bekommen.
+A: Viertens: der Widerspruch. Wenn man mit einem Bescheid nicht einverstanden ist, kann man Widerspruch einlegen. Das heißt: Man sagt offiziell, dass man die Entscheidung nicht akzeptiert. Und die Behörde muss den Fall noch einmal prüfen.
+B: Und hier ist die Frist besonders wichtig. Für den Widerspruch hat man meistens einen Monat Zeit, nachdem man den Bescheid bekommen hat. Wer diese Frist verpasst, kann fast nichts mehr machen.
+A: Und am Ende jedes Bescheids steht eine Rechtsbehelfsbelehrung. Was für ein Wort! Das ist ein Absatz, in dem erklärt wird, wie und bis wann man Widerspruch einlegen kann.
+B: Rechtsbehelfsbelehrung! Das ist fast so schön wie die Mietschuldenfreiheitsbescheinigung aus Folge dreiunddreißig. Hahaha.
+A: Hahaha. Die deutsche Sprache und ihre Monsterwörter. Gut. Und noch ein wichtiger Begriff: die Beglaubigung. Manchmal braucht man nicht nur eine Kopie eines Dokuments, sondern eine beglaubigte Kopie. Das ist eine Kopie, auf der eine Behörde offiziell bestätigt, dass sie mit dem Original übereinstimmt. Mit Stempel und Unterschrift.
+B: Und für ausländische Dokumente braucht man oft eine beglaubigte Übersetzung. Von einem vereidigten Übersetzer. Das ist ein Übersetzer, der offiziell vom Gericht zugelassen ist.
+A: Das betrifft viele Menschen, die nach Deutschland ziehen. Geburtsurkunden, Heiratsurkunden, Zeugnisse. Alles muss übersetzt und beglaubigt werden. Das kostet Zeit und Geld.
+B: Gut. Jetzt Tipps. Wie überlebt man die Bürokratie? Erstens: Fristen sofort notieren. Wenn ein Brief von einer Behörde kommt, sofort öffnen, lesen und die Frist in den Kalender schreiben. Briefe von Behörden sollte man nie ungeöffnet liegen lassen.
+A: Zweitens: alles schriftlich. Wenn man mit einer Behörde telefoniert, sollte man sich den Namen des Mitarbeiters, das Datum und das Ergebnis notieren. Und wichtige Dinge sollte man immer schriftlich machen. Per Brief oder E-Mail. Damit man einen Beweis hat.
+B: Drittens: Kopien von allem. Folge vierundzwanzig. Der Ordner! Und heute auch digital, als PDF.
+A: Viertens: nachfragen. Wenn man einen Brief nicht versteht, ist das keine Schande. Auch Deutsche verstehen Amtsdeutsch oft nicht. Man kann bei der Behörde anrufen und fragen. Oder Hilfe suchen. Es gibt viele kostenlose Beratungsstellen. Für Migranten, für Mieter, für Familien.
+B: Fünftens: Widerspruch einlegen, wenn etwas falsch ist. Viele Menschen trauen sich das nicht. Aber Widersprüche sind oft erfolgreich. Bei manchen Bescheiden, zum Beispiel bei Leistungen vom Jobcenter oder bei der Krankenkasse, hat ein großer Teil der Widersprüche Erfolg.
+A: Und es gibt eine gute Nachricht: Die Digitalisierung. Langsam, aber sie kommt. In Deutschland gibt es das Onlinezugangsgesetz. Viele Verwaltungsleistungen sollen online möglich sein. Wobei die Umsetzung sehr viel länger gedauert hat als geplant.
+B: Und in Österreich ist man da schon weiter, wie wir in Folge vierundzwanzig gesagt haben. Mit der ID Austria. Viele Dinge kann man vom Sofa aus erledigen.
+A: Und Estland ist das große Vorbild in Europa. Dort kann man fast alles online machen. Außer heiraten, sich scheiden lassen und eine Immobilie kaufen. Da muss man noch persönlich erscheinen.
+B: Hahaha. Wenigstens die Liebe ist noch analog! Gut, jetzt zur Geschichte. Und diesmal geht es um eine große bürokratische Herausforderung. Kenji möchte die deutsche Staatsangehörigkeit beantragen.
+A: Oh! Kenji will Deutscher werden?
+B: Ja. Er lebt jetzt seit acht Jahren in Deutschland. Er hat eine eigene Bäckerei, zwei Angestellte, er spricht fließend Deutsch, er zahlt seine Steuern. Und er fühlt sich als Berliner. Seit der Reform des Staatsangehörigkeitsrechts kann man in Deutschland unter bestimmten Bedingungen schon nach fünf Jahren eingebürgert werden. Und man darf seine alte Staatsangehörigkeit inzwischen meistens behalten.
+A: Wobei das für Kenji kompliziert ist, oder? Japan erlaubt ja keine doppelte Staatsangehörigkeit.
+B: Genau. Das war eine schwere Entscheidung für ihn. Wenn er Deutscher wird, muss er nach japanischem Recht seinen japanischen Pass abgeben. Er hat lange darüber nachgedacht. Mit seiner Familie in Tokio gesprochen. Und am Ende hat er sich entschieden: Er möchte Deutscher werden. Weil Berlin sein Leben ist.
+A: Eine große Entscheidung. Und dann kam die Bürokratie?
+B: Oh ja. Zuerst musste er herausfinden, welche Behörde zuständig ist. In Berlin ist das seit einiger Zeit das Landesamt für Einwanderung. Dann musste er eine lange Liste von Unterlagen sammeln. Der Antrag muss vollständig eingereicht werden. Sonst wird er nicht bearbeitet.
+A: Welche Unterlagen?
+B: Seinen Pass, seine Geburtsurkunde, mit beglaubigter Übersetzung aus dem Japanischen. Einen Nachweis über seine Deutschkenntnisse, mindestens Niveau B1. Er hatte ein C1-Zertifikat. Einen Nachweis, dass er den Einbürgerungstest bestanden hat. Nachweise über sein Einkommen der letzten Jahre. Seine Steuerbescheide. Die Meldebescheinigung. Und so weiter.
+A: Der Einbürgerungstest! Das ist ein Test mit Fragen über Deutschland, oder?
+B: Genau. Dreiunddreißig Fragen über Politik, Geschichte und Gesellschaft. Aus einem Katalog von über dreihundert Fragen. Man muss mindestens siebzehn richtig beantworten. Zum Beispiel: „Wie viele Bundesländer hat Deutschland?“ Oder: „Was bedeutet Meinungsfreiheit?“
+A: Und Kenji hat ihn bestanden?
+B: Natürlich! Dreiunddreißig von dreiunddreißig. Er hat gesagt, dass viele Deutsche den Test wahrscheinlich nicht bestehen würden. Hahaha.
+A: Hahaha. Das ist vermutlich wahr. Und wie lange hat der Antrag gedauert?
+B: Das war das Problem. Nach dem Einreichen hat er sechs Monate nichts gehört. Gar nichts. Er hat angerufen, aber niemand ist ans Telefon gegangen. Er hat E-Mails geschrieben, ohne Antwort. In Berlin gab es zu dieser Zeit zehntausende Anträge und zu wenig Personal.
+A: Oh nein. Das ist frustrierend.
+B: Sehr. Kenji war kurz davor aufzugeben. Aber dann hat Amira ihm geraten, zu einer Beratungsstelle zu gehen. Und die Beraterin hat ihm erklärt, dass man nach einer bestimmten Zeit ohne Entscheidung eine Untätigkeitsklage beim Verwaltungsgericht einreichen kann. „Untätig“ heißt: nichts tun, inaktiv.
+A: Eine Klage gegen die Behörde, weil sie nichts macht? Das gibt es?
+B: Ja. Das ist eine Möglichkeit im deutschen Rechtssystem. Und die Beraterin hat ihm geholfen, zuerst einen freundlichen, aber bestimmten Brief zu schreiben. Mit einer Frist. Nicht gleich die Klage, sondern eine Ankündigung.
+A: Und hat das geholfen?
+B: Zwei Wochen später kam ein Brief. Sein Antrag wurde bearbeitet. Es fehlte nur noch ein Dokument. Die Bestätigung, dass er keine Vorstrafen hat. Das Führungszeugnis. Er hat es beantragt, eingereicht, und vier Monate später kam der Brief, auf den er so lange gewartet hatte.
+A: Die Einbürgerung?
+B: Ja! Er wurde zu einer feierlichen Einbürgerungsfeier eingeladen. Im Roten Rathaus in Berlin. Mit dreihundert anderen neuen Deutschen aus fünfzig Ländern. Und alle seine Freunde waren da.
+A: Wie schön! Und wer war dabei?
+B: Mira, Julien, Felix, Amira und Lukas, Emre, Herr Wagner, Herr Schmidt, Jasmin. Und sogar Frau Schulze. Sie hat Kenji zur Feier einen Kuchen gebacken. Einen Bienenstich. Ein typisch deutscher Kuchen.
+A: Ein Bienenstich zur Einbürgerung! Perfekt!
+B: Und bei der Feier musste Kenji ein Bekenntnis zum Grundgesetz sprechen. Und als er die Urkunde bekommen hat, hat er geweint. Und dann hat er gesagt: „Ich habe für dieses Papier ein Jahr lang auf Briefe gewartet. Jetzt bin ich wirklich Deutscher. Denn wer die deutsche Bürokratie überlebt, ist ein echter Deutscher!“
+A: Hahaha. Wunderbar! Jetzt bist du dran, Hörer, Hörerin. Formuliere Regeln wie in einem offiziellen Brief mit dem Passiv mit Modalverb. Zum Beispiel: „Der Antrag muss … eingereicht werden.“ „Die Unterlagen können …“ „Das Formular darf nicht …“
+B: Und erzähle von einer Erfahrung mit einer Behörde. Was war schwierig? Was hast du gelernt?
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: der Antrag. Eine offizielle Bitte an eine Behörde. Einen Antrag stellen.
+A: Wort Nummer zwei: der Bescheid. Die offizielle Antwort der Behörde auf einen Antrag.
+B: Wort Nummer drei: die Frist. Ein Zeitraum, in dem man etwas erledigen muss.
+A: Wort Nummer vier: Widerspruch einlegen. Offiziell sagen, dass man eine Entscheidung nicht akzeptiert.
+B: Wort Nummer fünf: die Willkür. Entscheidungen ohne Regeln, nur nach Lust und Laune.
+A: Und Wort Nummer sechs: die Einbürgerung. Wenn ein Ausländer die Staatsangehörigkeit eines Landes bekommt.
+B: Noch einmal: der Antrag, der Bescheid, die Frist, Widerspruch einlegen, die Willkür, die Einbürgerung.
+A: Was lernen wir heute? Das Passiv mit Modalverb: „Der Antrag muss eingereicht werden.“ Im Nebensatz: „…, ob der Antrag eingereicht werden kann.“
+B: Warum gibt es so viel Bürokratie? Die Tradition, der Rechtsstaat und der Föderalismus. Und eine gute Bürokratie schützt vor Willkür und Korruption.
+A: Die Begriffe: der Antrag, der Bescheid, die Frist, der Widerspruch, die Beglaubigung.
+B: Und die Tipps: Fristen sofort notieren, alles schriftlich, Kopien von allem, nachfragen und Widerspruch einlegen, wenn etwas falsch ist.
+A: Das ist das Ende von Folge neunundsiebzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und öffne heute noch den Brief vom Amt, der seit zwei Wochen auf deinem Tisch liegt! Servus!
+A: Tschüss!
+VOCAB: der Antrag | Eine offizielle Bitte an eine Behörde. | 📝
+VOCAB: der Bescheid | Die offizielle Antwort der Behörde auf einen Antrag. | 📬
+VOCAB: die Frist | Ein Zeitraum, in dem man etwas erledigen muss. | ⏰
+VOCAB: Widerspruch einlegen | Offiziell sagen, dass man eine Entscheidung nicht akzeptiert. | ✋
+VOCAB: die Willkür | Entscheidungen ohne Regeln, nur nach Lust und Laune. | 🎲
+VOCAB: die Einbürgerung | Ein Ausländer bekommt die Staatsangehörigkeit eines Landes. | 🪪
+QUIZ: Welcher Satz ist richtig? | Der Antrag muss bis Juni eingereicht werden. | Der Antrag muss bis Juni werden eingereicht. | Der Antrag eingereicht werden muss bis Juni. | 1
+QUIZ: Was schützt eine gute Bürokratie laut Max Weber? | Vor Willkür und Korruption | Vor zu viel Arbeit | Vor Steuern | 1
+QUIZ: Wie viel Zeit hat man meistens für einen Widerspruch? | Eine Woche | Einen Monat | Ein Jahr | 2
+QUIZ: Wie viele Fragen hat der Einbürgerungstest? | Siebzehn | Dreiunddreißig | Dreihundert | 2
+QUIZ: Welchen Kuchen hat Frau Schulze für Kenji gebacken? | Sachertorte | Bienenstich | Zwetschgenkuchen | 2
+`;
