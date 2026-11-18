@@ -858,8 +858,10 @@ const COURS_DOCS = [
   ["Suivi_Programme.xlsx", "✅", Tx("Tableau de suivi (Excel)"), Tx("À cocher chaque soir, bloc par bloc, avec un tableau de bord.")]
 ];
 const coursDays = () => D.cours.days.map(([n, lvl, wk, theme, title, exam]) => ({ n, lvl, wk, theme, title, exam: !!exam, file: "D" + String(n).padStart(3, "0") + ".pdf" }));
-const coursSize = f => { const k = D.cours.kb[f]; return !k ? "" : k >= 1024 ? (k / 1024).toFixed(1).replace(".", ",") + " Mo" : k + " Ko"; };
-const coursLinks = (f, label = "") => Tx`<a class="btn" href="cours/${f}" target="_blank" rel="noopener"${label ? ` aria-label="Ouvrir ${label}"` : ""}>Ouvrir</a><a class="btn ghost" href="cours/${f}" download="${f}"${label ? Tx` aria-label="Télécharger ${label}"` : ""}>Télécharger</a>`;
+const coursSize = f => { const k = ((EN && D.cours.kbEn) || D.cours.kb)[f]; return !k ? "" : k >= 1024 ? (k / 1024).toFixed(1).replace(".", EN ? "." : ",") + (EN ? " MB" : " Mo") : k + (EN ? " KB" : " Ko"); };
+/* English mode: the course files come from cours/en/ (same names, translated for English speakers) */
+const coursHref = h => EN && D.cours.kbEn ? h.replace(/href="cours\//g, 'href="cours/en/') : h;
+const coursLinks = (f, label = "") => coursHref(Tx`<a class="btn" href="cours/${f}" target="_blank" rel="noopener"${label ? ` aria-label="Ouvrir ${label}"` : ""}>Ouvrir</a><a class="btn ghost" href="cours/${f}" download="${f}"${label ? Tx` aria-label="Télécharger ${label}"` : ""}>Télécharger</a>`);
 const coursDoneBtn = d => { const on = known.has("j:" + d.n); return `<button class="btn done-btn" data-act="cours-done" data-n="${d.n}" aria-pressed="${on}">${on ? Tx("Fait ✓") : Tx("Marquer fait")}</button>`; };
 function pageCours(sub) {
   const days = coursDays(), done = days.filter(d => known.has("j:" + d.n)).length, next = days.find(d => !known.has("j:" + d.n));
@@ -891,7 +893,7 @@ function pageCours(sub) {
     <li><b>Complète avec le site, au même niveau :</b> podcasts, vocabulaire en images et conversation.</li>
   </ol></section>
   <section style="display:flex;flex-direction:column;gap:12px"><h2>Documents d'accompagnement</h2>
-    <div class="grid">${COURS_DOCS.map(([f, e, t, p]) => `<div class="tile"><div class="tile-top"><span class="pic" style="font-size:1.9rem">${e}</span><span class="small muted">${coursSize(f)}</span></div><h3>${t}</h3><p class="muted small">${p}</p><div class="row">${f.endsWith(".pdf") ? coursLinks(f, t) : Tx`<a class="btn" href="cours/${f}" download="${f}">Télécharger</a>`}</div></div>`).join("")}</div>
+    <div class="grid">${COURS_DOCS.map(([f, e, t, p]) => `<div class="tile"><div class="tile-top"><span class="pic" style="font-size:1.9rem">${e}</span><span class="small muted">${coursSize(f)}</span></div><h3>${t}</h3><p class="muted small">${p}</p><div class="row">${f.endsWith(".pdf") ? coursLinks(f, t) : coursHref(Tx`<a class="btn" href="cours/${f}" download="${f}">Télécharger</a>`)}</div></div>`).join("")}</div>
   </section>
   <section style="display:flex;flex-direction:column;gap:14px"><h2>Les jours, niveau par niveau</h2>
     <div class="pick-grid">${COURS_LV.map(l => { const ds = days.filter(d => d.lvl === l), k = ds.filter(d => known.has("j:" + d.n)).length; return Tx`<button class="tile cpick" style="--lc:${lvlCol(l)}" data-act="cours-lvl" data-l="${l}" aria-pressed="${l === L}"><span class="tile-top">${lvlTag(l)}<span class="small muted">${k} / ${ds.length}</span></span><b>Jours ${ds[0].n} à ${ds[ds.length - 1].n}</b><span class="small muted">${COURS_PHASE[l]}</span><span class="progress"><i style="width:${Math.round(k / ds.length * 100)}%"></i></span></button>`; }).join("")}</div>

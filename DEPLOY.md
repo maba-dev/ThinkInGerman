@@ -65,4 +65,6 @@ Le site affiche les explications en français ou en anglais. La langue suit cell
 - [data/en_ui.js](data/en_ui.js) contient les textes de l'interface. Dans [app.js](app.js), chaque texte français est entouré de `Tx("…")` ou `` Tx`…` ``, et la clé est le texte français lui-même.
 - [data/en_content.js](data/en_content.js) contient les explications : grammaire, chunks, phonétique, niveaux, conseils, thèmes des cours. La clé est là aussi le texte français.
 - **Si tu modifies ou ajoutes un texte français**, ajoute la même clé avec sa version anglaise dans le bon fichier. Sans traduction, le texte reste en français dans la version anglaise : rien ne casse.
-- Les PDF du cours restent en français (la page le signale en anglais).
+- **Cours PDF en anglais** : en mode anglais, la rubrique Cours PDF propose les fichiers de [cours/en/](cours/en/). Ce sont les mêmes noms de fichiers, adaptés aux anglophones : les 180 jours, le guide, le journal d'erreurs, le suivi, les chunks, et le tableau Excel avec ses onglets Dashboard, Daily tracker et How to use. Leurs tailles sont dans `DATA.cours.kbEn` ([data/cours.js](data/cours.js)).
+- Les textes anglais des PDF sont dans [tools/cours-en/md/](tools/cours-en/md/). Pour modifier un jour, corrige le fichier `.md` puis lance `python3 tools/cours-en/render.py D042` (ou sans argument pour tout refaire). Le dossier `tools` n'est pas publié sur Cloudflare.
+- Si tu modifies un PDF français (Cours_Allemand), pense à reporter la modification dans la version anglaise.

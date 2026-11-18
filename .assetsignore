@@ -14,3 +14,4 @@ wrangler.jsonc
 package.json
 package-lock.json
 DEPLOY.md
+tools
