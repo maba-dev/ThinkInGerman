@@ -1855,3 +1855,96 @@ QUIZ: Was ist die „umgekehrte Pyramide“ im Journalismus? | Das Wichtigste ko
 QUIZ: Was kritisierte die Lektorin an Jonas' Buch? | Die Recherche | Den schwerfälligen Stil | Die Geschichten | 2
 QUIZ: Was sagte Herr Franz über Jonas' Buch? | „Wunderbar!“ | „Gar nicht so schlecht.“ | Nichts | 2
 `;
+
+DATA.podScripts.ep100 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena. Und das ist sie also. Die hundertste Folge. Die letzte.
+B: Und ich bin Jonas. Servus. Ich muss gestehen, ich bin heute ein bisschen sentimental. Hundert Folgen. Von „Hallo, ich heiße Lena“ bis zur Ethik der Algorithmen und zur Philosophie der Arbeit.
+A: Ja. Ich erinnere mich noch genau an die erste Folge. Da haben wir ganz langsam gesprochen. „Ich bin Lena. Ich komme aus Deutschland. Ich wohne in Berlin.“ Und du hast mir erklärt, dass „Servus“ sowohl „Hallo“ als auch „Tschüss“ bedeutet.
+B: Hahaha. Und heute unterhalten wir uns über Bourdieus Habitus und Kahnemans System zwei. Und du, Hörer, Hörerin, verstehst das alles. Wenn das kein Grund zum Feiern ist.
+A: Unser Thema heute ist darum ein Rückblick. Und eine Frage, die uns die ganze Zeit begleitet hat: Was lehrt uns eine Sprache? Nicht nur über die Sprache selbst. Sondern über die Menschen, die sie sprechen. Und über uns.
+B: Und sprachlich wiederholen wir heute vieles, was wir im Niveau C1 gelernt haben. Ganz nebenbei, im Gespräch. Wie es sich für eine echte Unterhaltung gehört. Und am Ende gibt es eine Zusammenfassung des ganzen Weges.
+A: Gut. Fangen wir mit einer persönlichen Frage an. Jonas, was hat dir die Arbeit an diesem Podcast über die deutsche Sprache beigebracht? Obwohl du ja Muttersprachler bist?
+B: Erstaunlich viel. Ich habe die Sprache mit neuen Augen gesehen. Wenn man seine Muttersprache erklären muss, merkt man erst, wie seltsam, wie reich und wie eigenwillig sie ist. Ich hatte mir vorher nie überlegt, warum „das Mädchen“ neutral ist. Oder warum wir „Ich habe Hunger“ sagen und nicht „Ich bin hungrig“, obwohl beides geht.
+A: Hahaha. „Das Mädchen“. Das ist die Frage, die mir alle meine Schüler stellen. Und die Antwort ist eigentlich ganz einfach: Wörter auf „-chen“ sind immer neutral. Folge fünf! Das hat mit der Grammatik zu tun, nicht mit der Biologie.
+B: Genau. Und das hat mir etwas Wichtiges klargemacht. Eine Sprache ist kein logisches System, das jemand am Reißbrett entworfen hat. Sie ist gewachsen. Über Jahrhunderte. Mit all ihren Ausnahmen, Zufällen und Eigenheiten. Wie eine alte Stadt mit verwinkelten Gassen.
+A: Ein schönes Bild. Wie Wien oder die Altstadt von Lissabon aus Folge zweiundzwanzig. Und für mich als Lehrerin war es eine Lektion in Demut. Folge siebenundneunzig. Ich habe gemerkt, wie unglaublich viel ein Mensch leisten muss, um eine Fremdsprache auf diesem Niveau zu beherrschen. Und ich habe tiefen Respekt vor allen, die das schaffen.
+B: Gut. Und jetzt die eigentliche Frage. Was lehrt uns die deutsche Sprache? Ich mache einen Anfang. Die deutsche Sprache lehrt uns Geduld.
+A: Hahaha. Wegen dem Verb am Ende?
+B: Genau. Wegen des Verbs am Ende. Wie Mark Twain in Folge neunundneunzig gespottet hat. Im Deutschen muss man oft bis zum Schluss zuhören, um zu verstehen, was gemeint ist. „Ich habe gestern mit meinem Freund im Park lange über das Leben …“ Und erst dann kommt „gesprochen“ oder „gestritten“. Man kann niemandem ins Wort fallen, bevor man das Verb gehört hat.
+A: Das ist eigentlich ein wunderbarer Gedanke. Die Sprache erzieht zum Zuhören. Man muss den anderen ausreden lassen. Und das ist ja auch eine wichtige Lektion für die Kommunikation, wie wir sie in Folge zweiundsiebzig und achtundachtzig besprochen haben.
+B: Genau. Jetzt du. Was lehrt uns die deutsche Sprache noch?
+A: Sie lehrt uns Präzision. Das Deutsche hat für vieles ein sehr genaues Wort. Und es hat die Fähigkeit, durch Zusammensetzungen ganz neue, präzise Begriffe zu schaffen. Wir haben in Folge vierundachtzig und einundneunzig darüber gesprochen. Die Schadenfreude, das Fernweh, die Torschlusspanik.
+B: Und die Mietschuldenfreiheitsbescheinigung aus Folge dreiunddreißig! Hahaha.
+A: Hahaha. Ja, die Präzision kann auch absurd werden. Aber selbst dieses Monsterwort ist präzise. Man weiß genau, was gemeint ist. Und es lehrt uns noch etwas: die Lust an der Kombination. Man kann Begriffe zusammenfügen und dadurch neue Gedanken denken.
+B: Und die deutsche Sprache lehrt uns Höflichkeit und Distanz. Durch die Unterscheidung zwischen „Du“ und „Sie“. Folge eins. Man muss sich ständig fragen: Wie nah stehe ich diesem Menschen? Und der Übergang vom „Sie“ zum „Du“ ist ein kleines Ritual der Freundschaft.
+A: Wie bei Herrn Brinkmann und Ali in Folge fünfundneunzig. Bei einem Sauerländer Bier. Und sie lehrt uns, wie wir in Folge vierundfünfzig gesehen haben, eine gewisse Direktheit. Die Sachlichkeit. Kritik als Respekt. Und ein leises Lob.
+B: Nicht geschimpft ist genug gelobt! Und mein persönlicher Favorit: Die deutsche Sprache lehrt uns, dass es nie nur eine Art gibt, etwas zu sagen. Es gibt das Hochdeutsch und die Dialekte. Das Bairische, das Wienerische, das Berlinerische, das Sächsische, das Schwäbische. Und jede Region hat ihre eigenen Wörter. Semmel, Schrippe, Brötchen. Folge drei.
+A: Paradeiser und Tomate! Jänner und Januar! Und das lehrt uns Vielfalt. Es gibt nicht das eine, richtige Deutsch. Es gibt viele Deutsch. Und jedes ist auf seine Art richtig und schön.
+B: Gut. Und jetzt die tiefere Frage. Was lehrt uns das Lernen einer Fremdsprache überhaupt? Unabhängig davon, welche Sprache es ist?
+A: Ich glaube, die wichtigste Lektion ist die Bescheidenheit. Wer eine Fremdsprache lernt, ist am Anfang wie ein kleines Kind. Man kann sich nicht richtig ausdrücken. Man wirkt vielleicht dümmer, als man ist. Man versteht die Witze nicht. Und das ist eine sehr demütigende, aber auch sehr wertvolle Erfahrung.
+B: Weil man versteht, wie es sich anfühlt, fremd zu sein. Und das macht einen empathischer. Wer selbst einmal in einem fremden Land die Frage nach der Tüte im Supermarkt nicht verstanden hat, wie Kenji in Folge zweiundvierzig, der hat mehr Geduld mit anderen, die eine Sprache noch lernen.
+A: Genau. Die zweite Lektion ist das Durchhaltevermögen. Wie bei Hias am Großglockner. Ein Schritt nach dem anderen. Man kann eine Sprache nicht in einem Wochenende lernen. Es braucht Jahre. Und es gibt Phasen, in denen man das Gefühl hat, nicht weiterzukommen. Das berühmte Plateau.
+B: Und die dritte Lektion ist der Mut zum Fehler. Folge zweiundneunzig. Wer Angst vor Fehlern hat, lernt nie sprechen. Jeder Fehler ist ein Schritt weiter. Und die Fehler sind wie die goldenen Linien beim Kintsugi. Sie gehören zu unserer Geschichte.
+A: Und die vierte Lektion, vielleicht die schönste: Eine neue Sprache ist ein neues Fenster zur Welt. Folge einundneunzig. Man sieht die Welt mit anderen Augen. Man denkt anders. Man fühlt anders. Wie Adam, der kleine Sohn von Amira und Lukas, der die Welt dreimal sieht.
+B: Und man wird auch ein anderer Mensch. Folge achtundsechzig. Wer auf Deutsch spricht, ist vielleicht direkter, präziser, geduldiger. Und das ist keine Verfälschung der eigenen Persönlichkeit, sondern eine Erweiterung.
+A: Gut. Und jetzt möchten wir noch einmal auf unsere Geschichte zurückblicken. Auf all die Menschen, die uns in diesen hundert Folgen begleitet haben. Und erzählen, wo sie heute stehen.
+B: Fangen wir mit Julien an. Mit ihm hat alles begonnen.
+A: Ja. In Folge eins war Julien ein nervöser Softwareentwickler aus Lyon, der in meinem Deutschkurs saß und kaum ein Wort herausbrachte. „Hallo. Ich heiße Julien. Ich komme aus Frankreich.“
+B: Und heute koordiniert er ein internationales Mentoring-Programm an Programmierschulen in vier Ländern. Er hat ein Leitungsangebot abgelehnt, weil er ohne formale Macht mehr bewirken kann. Er hat unzählige Reden gehalten. Und er hat eine eigene Wohnung mit einer Küche nur für sich.
+A: Und er hat gerade eine Nachricht geschickt. Er schreibt: „Liebe Lena, lieber Jonas. Als ich nach Berlin kam, dachte ich, ich würde eine Sprache lernen. Aber ich habe ein Zuhause gefunden. Danke für alles. Euer Julien.“
+B: Oh. Das ist schön. Und Amira?
+A: Amira kam in Folge zwanzig als Krankenpflegerin aus Casablanca an. Es war Januar, es war kalt, und sie hat gefroren. Und heute ist sie stellvertretende Stationsleitung, verheiratet mit Lukas, Mutter des kleinen dreisprachigen Adam. Und sie hat für faire Gehälter gekämpft und organisiert Workshops für Kolleginnen aus dem Ausland.
+B: Und Kenji, der Pianist aus Tokio, der nicht einmal die Frage nach der Tüte verstand?
+A: Er ist heute deutscher Staatsbürger und Bäckermeister mit eigener Bäckerei in Neukölln. Er backt das Tokio-Berlin-Brot, er ist Patenonkel von Adam, und Herr Schmidt und Herr Wagner, die beiden alten Bäcker, sind seine besten Freunde geworden.
+B: Und Emre, der lustige Student mit der Mütze, der zwanzig Absagen bekommen hat?
+A: Er ist ein erfolgreicher Entwickler und ein bekannter Content Creator. Aber vor allem hat er verstanden, dass er nicht der Beweis, sondern die Ausnahme ist. Und er setzt sich jetzt dafür ein, dass andere Jugendliche aus seinem Viertel die gleichen Chancen bekommen.
+B: Und Lea, das stille Mädchen aus Wolfsburg?
+A: Sie studiert Informatik in Braunschweig und hat einen Satelliten ins All gebracht, der Bauern in Ostafrika hilft. Und ihr Vater, der fünfundzwanzig Jahre am Band bei Volkswagen gearbeitet hat, ist der stolzeste Vater der Welt.
+B: Und Mira, die immer die WG-Sitzungen organisiert hat?
+A: Sie ist Schauspielerin und Theaterpädagogin geworden. Mit sechzehn Jahren Verspätung, aber nicht zu spät. Und ihre Eltern sitzen bei jeder Premiere in der ersten Reihe.
+B: Und unsere älteren Helden. Frau Schulze und Herr Krüger.
+A: Frau Schulze wohnt immer noch in ihrem Haus in Friedrichshain, das jetzt einer Genossenschaft gehört. Sie kontrolliert immer noch die Mülltonnen. Aber jetzt mit ihrer eigenen App. Und Herr Krüger, der großherzigste Mensch in unserer Geschichte, führt mit ihr die Digitalen Detektive an.
+B: Und alle anderen. Katrin mit ihren Kuchen. Herr Yilmaz, der gelernt hat, Freitagnachmittag Fußball zu spielen. Oksana, die dafür sorgt, dass Algorithmen fair sind. Felix, dessen gescheitertes Spiel zum Erfolg wurde. Ali, der den Mittelstand digitalisiert. Und Hias, der die Berge schützt.
+A: Und Oma Hilde, die mit neunzig noch getanzt hat. Und Sarah, meine beste Freundin aus dem Schwimmverein. Und Strudel natürlich! Dein frecher Hund, der Essen vom Tisch klaut.
+B: Hahaha. Strudel lässt grüßen. Er liegt gerade unter meinem Schreibtisch und schnarcht. Und was ist mit uns beiden, Lena?
+A: Hahaha. Gute Frage. Tim und ich haben endlich einen Kleingarten bekommen. Nach drei Jahren auf der Warteliste. Ich habe meine eigenen Tomaten. Oder Paradeiser, wie du sagen würdest. Und ich arbeite an meinem Traum, der eigenen Sprachschule. Mit Unterricht für Geflüchtete. Die ersten Räume haben wir schon gefunden.
+B: Und ich habe mein Buch geschrieben, über die Wiener Kaffeehäuser. Folge neunundneunzig. Und Herr Franz hat gesagt, es sei gar nicht so schlecht. Und jetzt schreibe ich an meinem zweiten Buch. Über die Geschichten meiner Großmutter. Damit sie nicht verloren gehen, wie die meines Großvaters.
+A: Und wir beide haben in diesen hundert Folgen etwas gefunden, das wir nicht erwartet hatten. Eine Freundschaft. Über die Grenze zwischen Berlin und Wien hinweg. Zwischen Lerche und Eule.
+B: Zwischen Brötchen und Semmel. Hahaha. Ja. Das ist wahr. Danke, Lena.
+A: Danke, Jonas. Und jetzt die letzte große Zusammenfassung. Was hast du, Hörer, Hörerin, in diesen hundert Folgen gelernt?
+B: Im Niveau A1 hast du gelernt, dich vorzustellen, über deine Familie, deinen Tag, deine Wohnung und das Wetter zu sprechen. Du hast sein und haben gelernt, die Artikel, die trennbaren Verben, den Akkusativ, das Verb an Position zwei und die Modalverben.
+A: Im Niveau A2 hast du gelernt, über die Vergangenheit zu sprechen, mit dem Perfekt und dem Präteritum. Du hast Pläne gemacht, Rezepte gekocht, Städte verglichen, Geschichten erzählt, deine Meinung gesagt und Freunde gefunden. Mit dem Dativ, den Nebensätzen mit „weil“ und „dass“ und den reflexiven Verben.
+B: Im Niveau B1 hast du gelernt, zu diskutieren und zu argumentieren. Über Homeoffice, soziale Medien, Ernährung und Umwelt. Du hast den Konjunktiv II gelernt, das Futur, das Passiv, die Relativsätze und die Adjektivdeklination.
+A: Im Niveau B2 hast du gelernt, differenziert zu sprechen. Über künstliche Intelligenz, Fake News, Gehaltsverhandlungen und Teamarbeit. Mit zweiteiligen Konnektoren, der indirekten Rede, dem Futur II, dem Passiv mit Modalverb und den Redemitteln für Präsentationen.
+B: Und im Niveau C1 hast du gelernt, über die großen Fragen der Menschheit zu sprechen, wie gebildete Muttersprachler. Über Ethik und Privatsphäre, über Rhetorik und Wissenschaft, über die Philosophie der Arbeit und das Wesen der Sprache. Mit Partizipialattributen, Modalpartikeln, gehobenen Konnektoren, Konzessivsätzen und einem Gefühl für das passende Register.
+A: Das ist ein unglaublicher Weg. Und du kannst unglaublich stolz auf dich sein.
+B: Und jetzt die wichtigste Frage: Wie geht es weiter? Denn eine Sprache lernt man nie zu Ende.
+A: Genau. Auch ich lerne jeden Tag neue Wörter. Mein Rat: Bleib in Kontakt mit der Sprache. Lies deutsche Bücher, Zeitungen, Romane. Schau deutsche Filme und Serien, Folge achtundfünfzig. Hör deutsche Podcasts und Musik. Und vor allem: Sprich Deutsch. Mit Menschen. Wo immer du kannst.
+B: Und such dir eine Gemeinschaft. Einen Verein, ein Tandem, ein Ehrenamt. Folge sechsunddreißig und siebenundfünfzig. Eine Sprache lebt nur, wenn man sie mit anderen teilt.
+A: Und vielleicht kannst du jetzt selbst jemandem helfen, der gerade erst anfängt. Wer lehrt, lernt doppelt, Folge vierundvierzig. Vielleicht wirst du zum Mentor, wie Julien für Emre.
+B: Und hab Geduld mit dir. Die Kokosnuss aus Folge siebzehn. Außen hart, innen weich. Auch die deutsche Sprache ist so. Am Anfang hart. Aber wenn man sie einmal geknackt hat, ist sie voller Schätze.
+A: Und das war ja von Anfang an die Idee unseres Podcasts. Nicht übersetzen. Sondern auf Deutsch denken. Denk auf Deutsch. Und wenn du diese Folge verstanden hast, ohne in deinem Kopf zu übersetzen, dann hast du es geschafft. Dann denkst du auf Deutsch.
+B: Hör gut zu. Jetzt kommen unsere letzten „Wörter des Tages“. Die sechs wichtigsten Wörter aus hundert Folgen.
+A: Wort Nummer eins: die Neugier. Der Wunsch, Neues zu entdecken und zu verstehen. Ohne Neugier lernt man keine Sprache.
+B: Wort Nummer zwei: die Geduld. Folge sechzehn und siebzehn. Die Fähigkeit, ruhig zu warten und nicht aufzugeben.
+A: Wort Nummer drei: der Mut. Der Mut, Fehler zu machen und trotzdem zu sprechen.
+B: Wort Nummer vier: die Begegnung. Das Zusammentreffen mit anderen Menschen. Denn eine Sprache ist vor allem eine Brücke zu anderen Menschen.
+A: Wort Nummer fünf: das Zuhause. Folge zwanzig. Der Ort, an dem man sich wohlfühlt. Und vielleicht ist eine Sprache auch eine Art Zuhause.
+B: Und Wort Nummer sechs: ankommen. Folge sechzig. An einem Ort eintreffen. Und sich zu Hause fühlen.
+A: Noch einmal: die Neugier, die Geduld, der Mut, die Begegnung, das Zuhause, ankommen.
+B: Das ist das Ende von Folge hundert. Und das Ende von „Denk auf Deutsch“. Danke, dass du uns hundert Folgen lang begleitet hast. Danke für deine Zeit, deine Geduld und deinen Mut.
+A: Und jetzt kommt das letzte Quiz. Und wir sind sicher, dass du es bestehst. Und dann wünschen wir dir alles Gute auf deinem weiteren Weg mit der deutschen Sprache.
+B: Es war mir eine große Ehre. Servus, und alles Gute! Und wie man in Wien sagt: Pfiat di!
+A: Und wie man in Berlin sagt: Machs jut! Und wie man überall sagt: Auf Wiedersehen. Bis bald. Und denk auf Deutsch!
+VOCAB: die Neugier | Der Wunsch, Neues zu entdecken und zu verstehen. | 🔍
+VOCAB: die Geduld | Die Fähigkeit, ruhig zu warten und nicht aufzugeben. | ⏳
+VOCAB: der Mut | Die Kraft, trotz Angst etwas zu tun, auch Fehler zu machen. | 🦁
+VOCAB: die Begegnung | Das Zusammentreffen mit anderen Menschen. | 🤝
+VOCAB: das Zuhause | Der Ort, an dem man sich wohlfühlt. | 🏡
+VOCAB: ankommen | An einem Ort eintreffen und sich zu Hause fühlen. | 🌅
+QUIZ: Was lehrt uns das Verb am Ende des deutschen Satzes laut Jonas? | Geduld und Zuhören | Schnelligkeit | Ungeduld | 1
+QUIZ: Was hat Julien in seiner letzten Nachricht geschrieben? | Er gehe zurück nach Lyon | Er habe nicht nur eine Sprache gelernt, sondern ein Zuhause gefunden | Er wolle nicht mehr Deutsch sprechen | 2
+QUIZ: Was ist aus Kenji geworden? | Ein deutscher Staatsbürger und Bäckermeister mit eigener Bäckerei | Ein Pianist in Tokio | Ein Programmierer | 1
+QUIZ: Was haben Lena und Tim nach drei Jahren Warteliste bekommen? | Eine größere Wohnung | Einen Kleingarten | Einen Hund | 2
+QUIZ: Was war von Anfang an die Idee des Podcasts? | Alles zu übersetzen | Nicht zu übersetzen, sondern auf Deutsch zu denken | Nur Grammatik zu lernen | 2
+`;

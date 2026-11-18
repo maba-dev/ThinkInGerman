@@ -1619,9 +1619,7 @@ A: Und eine wichtige Regel: Mit Verkehrsmitteln sagt man „mit“. Ich fahre mi
 B: Mit dem Bus, mit dem Zug, mit dem Auto, mit dem Fahrrad. Aber mit der U-Bahn, mit der Straßenbahn, mit der S-Bahn.
 A: „Der“ und „das“ werden „dem“. „Die“ wird „der“. Das ist der Dativ. Aber lern einfach die Ausdrücke: mit dem Bus, mit der Bahn.
 B: Und eine Ausnahme: zu Fuß. Ich gehe zu Fuß. Ohne Verkehrsmittel. Mit den Füßen.
-A: Lena, wie kommst du zur Arbeit?
-B: Halt, ich bin Jonas! Hahaha. Du fragst mich, und ich antworte.
-A: Hahaha, entschuldige. Jonas, wie kommst du zur Arbeit?
+A: Jonas, wie kommst du zur Arbeit?
 B: Ich arbeite oft zu Hause. Aber wenn ich in die Redaktion fahre … Die Redaktion ist das Büro von der Zeitung … dann fahre ich mit der U-Bahn. Die U-Bahn in Wien ist super. Sauber, schnell und pünktlich.
 A: Die U-Bahn fährt unter der Erde. Das U heißt „Untergrund“. Und die S-Bahn fährt meistens über der Erde. Das S heißt „Stadtschnellbahn“.
 B: In Wien gibt es fünf U-Bahn-Linien. U1, U2, U3, U4, U6. Jede Linie hat eine Farbe. Die U1 ist rot, die U3 ist orange.
