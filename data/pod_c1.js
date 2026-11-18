@@ -1453,3 +1453,198 @@ QUIZ: Was bedeutete „Made in Germany“ ursprünglich? | Ein deutsches Gütesi
 QUIZ: Was ist ein großes Problem vieler Mittelständler? | Die Nachfolge | Zu viele Mitarbeiter | Zu viel Geld | 1
 QUIZ: Wie hat Herr Brinkmann das Nachfolgeproblem gelöst? | Er hat das Unternehmen an einen Investor verkauft | Er hat es in eine Stiftung überführt und eine Ingenieurin zur Geschäftsführerin gemacht | Sein Sohn hat übernommen | 2
 `;
+
+DATA.podScripts.ep096 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge sechsundneunzig. Heute widmen wir uns der vielleicht größten Herausforderung unserer Zeit: dem Klimawandel. Und zwar einer Frage, die in der Debatte oft zu kurz kommt: Sollen wir uns vor allem an den Klimawandel anpassen, oder sollen wir ihn vor allem bekämpfen? Klimaanpassung oder Klimaschutz?
+A: Zwei Begriffe, die man klar unterscheiden muss. Klimaschutz bedeutet, die Ursachen des Klimawandels zu bekämpfen. Also die Emissionen von Treibhausgasen zu reduzieren, damit sich die Erde weniger erwärmt. Man spricht auch von Mitigation, also Abschwächung.
+B: Und Klimaanpassung bedeutet, sich auf die Folgen des Klimawandels einzustellen, die bereits unvermeidlich sind. Deiche erhöhen, Städte gegen Hitze wappnen, Landwirtschaft auf Dürren vorbereiten. „Sich gegen etwas wappnen“ heißt: sich auf eine Gefahr vorbereiten und schützen.
+A: Und die Frage, wie man die begrenzten Ressourcen zwischen diesen beiden Strategien aufteilt, ist alles andere als trivial. Sie ist gewissermaßen eine Abwägung zwischen der Gegenwart und der Zukunft, zwischen Vorbeugung und Schadensbegrenzung.
+B: Sprachlich widmen wir uns heute den Konzessivsätzen. Das sind Sätze, die einen Gegengrund nennen, der die Hauptaussage aber nicht verhindert. Wir kennen schon „obwohl“. Heute erweitern wir das Repertoire auf gehobenem Niveau.
+A: Es gibt viele Möglichkeiten. „Obgleich“ und „obschon“ sind gehobenere Varianten von „obwohl“. „Wenngleich“ ebenso. Dann gibt es „so … auch“: „So wichtig der Klimaschutz auch ist, die Anpassung darf man nicht vernachlässigen.“ Und „wie … auch immer“: „Wie man es auch dreht und wendet, die Kosten bleiben hoch.“
+B: Und es gibt „zwar … aber“ aus Folge fünfundsechzig, und präpositionale Formen wie „trotz“ mit Genitiv: „Trotz aller Bemühungen steigen die Emissionen weiter.“ Und „ungeachtet“, ein sehr formelles Wort: „Ungeachtet der Warnungen der Wissenschaft wurde zu wenig unternommen.“
+A: „Ungeachtet“ heißt: ohne Rücksicht auf, trotz. Und „so … auch“ ist eine besonders elegante Konstruktion, die man in Leitartikeln oft liest. Gut. Fangen wir mit dem Stand der Dinge an. Jonas, wo stehen wir?
+B: Die Lage ist ernst. Die globale Durchschnittstemperatur liegt bereits deutlich über dem vorindustriellen Niveau. Und die letzten Jahre gehörten zu den wärmsten seit Beginn der Wetteraufzeichnungen. Das Ziel des Pariser Klimaabkommens von zweitausendfünfzehn war es, die Erwärmung auf deutlich unter zwei Grad zu begrenzen, möglichst auf eineinhalb Grad.
+A: Und das Eineinhalb-Grad-Ziel ist nach Einschätzung vieler Wissenschaftler kaum noch einzuhalten. Es sei denn, die Emissionen würden drastisch und sofort sinken, was derzeit nicht absehbar ist.
+B: Und die Folgen spüren wir schon. Auch in Deutschland und Österreich. Die Hitzesommer werden häufiger und intensiver. Es gibt mehr Dürren, die der Landwirtschaft und den Wäldern zusetzen. Und es gibt mehr Starkregen.
+A: Das schrecklichste Beispiel in Deutschland war die Flutkatastrophe im Ahrtal im Juli zweitausendeinundzwanzig. Nach extremem Starkregen verwandelte sich der kleine Fluss Ahr in einen reißenden Strom. Über hundertachtzig Menschen kamen in Deutschland ums Leben. Ganze Dörfer wurden zerstört.
+B: Eine Katastrophe, die das Land erschüttert hat. Und die Studien zeigten später, dass der Klimawandel die Wahrscheinlichkeit eines solchen Extremregens deutlich erhöht hatte. Das ist die sogenannte Attributionsforschung, die den Einfluss des Klimawandels auf einzelne Wetterereignisse berechnet.
+A: Und das Ahrtal hat auch gezeigt, wie mangelhaft die Anpassung war. Die Warnsysteme haben versagt. Viele Menschen wurden zu spät oder gar nicht gewarnt. Und es wurden Häuser in Gebieten gebaut, die eigentlich als Überschwemmungsgebiete hätten freigehalten werden müssen.
+B: Und in Österreich? Die Alpen erwärmen sich sogar etwa doppelt so schnell wie der globale Durchschnitt. Die Gletscher schmelzen dramatisch. Und es gibt immer mehr Felsstürze und Murenabgänge, weil der Permafrost auftaut, der die Berge zusammenhält.
+A: „Die Mure“ ist ein Strom aus Schlamm, Geröll und Wasser, der einen Berghang hinunterrast. Ein typisch alpines Wort. Und Hias, der Bergführer, erzählt sicher davon.
+B: Ja, Hias sagt, dass sich die Berge in seinen fünfundzwanzig Jahren als Bergführer dramatisch verändert haben. Manche klassischen Routen sind heute zu gefährlich geworden, weil der Fels bröckelt. Und Gletscher, über die er früher gelaufen ist, gibt es nicht mehr.
+A: Gut. Jetzt die eigentliche Frage. Die Debatte zwischen Klimaschutz und Klimaanpassung. Und hier gibt es interessante historische Wendungen.
+B: Ja. Lange Zeit war die Klimaanpassung in der Klimabewegung fast ein Tabu. Man befürchtete, dass die Rede von der Anpassung die Botschaft vermitteln könnte, man könne mit dem Klimawandel leben und müsse ihn nicht bekämpfen. Dass sie also eine Ausrede für Untätigkeit liefern würde.
+A: Und tatsächlich haben manche Gegner des Klimaschutzes genau so argumentiert. Sie sagten: Warum sollen wir unsere Wirtschaft mit teuren Klimaschutzmaßnahmen belasten? Die Menschheit hat sich immer an veränderte Bedingungen angepasst. Bauen wir einfach höhere Deiche und Klimaanlagen.
+B: Und das ist ein gefährlicher Trugschluss. So wichtig die Anpassung auch ist, sie hat Grenzen. Man kann sich an zwei Grad Erwärmung vielleicht anpassen. Aber an drei, vier oder fünf Grad? Irgendwann werden ganze Regionen unbewohnbar. Und manche Folgen sind unumkehrbar, etwa wenn die großen Eisschilde abschmelzen.
+A: Genau. Und es gibt die Gefahr der sogenannten Kipppunkte. Ein Kipppunkt ist eine Schwelle, ab der sich ein System plötzlich und unumkehrbar verändert. Wie ein Stuhl, den man immer weiter nach hinten neigt, bis er plötzlich umkippt.
+B: Und es gibt mehrere solcher Kipppunkte im Klimasystem. Das Abschmelzen des grönländischen Eisschildes. Das Absterben des Amazonas-Regenwaldes. Das Auftauen des Permafrosts in Sibirien, der riesige Mengen Methan freisetzen würde. Und wenn ein Kipppunkt überschritten ist, kann er weitere auslösen. Eine Kettenreaktion, ähnlich wie beim Kessler-Syndrom aus Folge neunzig.
+A: Und darum sagen fast alle Wissenschaftler heute: Es geht nicht um ein Entweder-oder, sondern um ein Sowohl-als-auch. Man braucht beides. Klimaschutz, um die Erwärmung so gering wie möglich zu halten. Und Anpassung, um mit den bereits unvermeidlichen Folgen zurechtzukommen.
+B: Es gibt eine schöne Formulierung dazu: Man muss das Unbeherrschbare vermeiden und das Unvermeidbare beherrschen.
+A: Ein sehr treffender Satz. Das Unbeherrschbare vermeiden, durch Klimaschutz. Das Unvermeidbare beherrschen, durch Anpassung. Gut. Aber wie verteilt man die Ressourcen? Und da wird es kompliziert.
+B: Ja. Denn es gibt ein strukturelles Problem. Die Vorteile von Klimaschutz und Anpassung verteilen sich sehr unterschiedlich. Wenn Deutschland seine Emissionen senkt, profitiert davon die ganze Welt, und zwar vor allem in der Zukunft. Wenn Deutschland aber einen Deich baut, profitieren davon unmittelbar die Menschen in Deutschland.
+A: Das ist ein klassisches Problem der Kollektivgüter. Das Klima ist ein globales Gemeingut, wie wir es in Folge siebenundsechzig genannt haben. Und es gibt die Versuchung, sich als Trittbrettfahrer zu verhalten.
+B: Ein „Trittbrettfahrer“ ist jemand, der von den Leistungen anderer profitiert, ohne selbst einen Beitrag zu leisten. Wie jemand, der früher auf dem Trittbrett einer Straßenbahn mitfuhr, ohne einen Fahrschein zu bezahlen.
+A: Genau. Jedes Land würde am liebsten von den Klimaschutzmaßnahmen der anderen profitieren, ohne selbst die Kosten zu tragen. Und wenn alle so denken, tut niemand genug. Das nennt man in der Spieltheorie ein Gefangenendilemma.
+B: Und dann gibt es die große Frage der globalen Gerechtigkeit. Und die ist für mich der Kern der ganzen Debatte.
+A: Erkläre.
+B: Die reichen Industrieländer, also Europa, Nordamerika, auch Deutschland, haben seit der Industrialisierung den größten Teil der historischen Emissionen verursacht. Sie haben ihren Wohlstand auf der Verbrennung von Kohle, Öl und Gas aufgebaut.
+A: Und die Folgen treffen am härtesten die Länder, die am wenigsten zum Problem beigetragen haben. Die ärmsten Länder im globalen Süden. Inselstaaten im Pazifik, die vom steigenden Meeresspiegel bedroht sind. Länder in Afrika, die unter Dürren leiden. Bangladesch, das immer häufiger überflutet wird.
+B: Und diese Länder haben oft nicht die Mittel, um sich anzupassen. Sie können keine Milliarden in Deiche und Klimaanlagen investieren. Wie Deutschland es kann.
+A: Und darum gibt es die Forderung nach Klimagerechtigkeit. Die reichen Länder sollen die armen Länder bei der Anpassung unterstützen. Und es wurde auf der Klimakonferenz zweitausendzweiundzwanzig ein Fonds für Verluste und Schäden beschlossen. Auf Englisch „Loss and Damage“. Für Schäden, die sich durch Anpassung nicht mehr verhindern lassen.
+B: Wobei die zugesagten Summen weit hinter dem tatsächlichen Bedarf zurückbleiben. Und die reichen Länder haben ihre früheren Finanzierungsversprechen oft nur verspätet oder unvollständig erfüllt.
+A: Und hier sieht man, warum die Anpassung auch eine Frage der Gerechtigkeit ist. Wer sich anpassen kann, hängt vom Wohlstand ab. Auch innerhalb Deutschlands. Wer bei einer Hitzewelle in einer schlecht isolierten Dachwohnung ohne Klimaanlage lebt, leidet viel mehr als jemand in einer klimatisierten Villa mit Garten.
+B: Und das bringt uns zurück zur Stadt der Zukunft aus Folge neunundsechzig. Die Schwammstadt, die Begrünung, die Bäume. Das ist Klimaanpassung. Und sie sollte gerade den ärmeren Vierteln zugutekommen, die oft am wenigsten Grün haben.
+A: Es gibt in Deutschland inzwischen auch Hitzeaktionspläne. Städte richten kühle Räume ein, in die sich ältere Menschen bei Hitzewellen zurückziehen können. Und Pflegeheime und Krankenhäuser werden auf Hitze vorbereitet. Denn Hitze ist eine unterschätzte Gefahr. In Deutschland sterben in heißen Sommern mehrere tausend Menschen zusätzlich an den Folgen der Hitze.
+B: Mehr als im Straßenverkehr. Und das wissen viele nicht. Die Hitze ist ein stiller Killer.
+A: Gut. Und noch eine wichtige Überlegung: die Überschneidung. Manche Maßnahmen dienen gleichzeitig dem Klimaschutz und der Anpassung. Man spricht von Synergien.
+B: Zum Beispiel?
+A: Die Renaturierung von Mooren. Ein intaktes Moor speichert riesige Mengen CO2, das ist Klimaschutz. Und es nimmt Wasser auf wie ein Schwamm und schützt vor Überschwemmungen und Dürren, das ist Anpassung. Oder Bäume in der Stadt. Sie binden CO2 und kühlen die Straßen.
+B: Und die Wiedervernässung der Moore ist in Deutschland ein großes Thema. Denn viele Moore wurden in der Vergangenheit trockengelegt, um Landwirtschaft zu betreiben. Und die trockenen Moore setzen enorme Mengen CO2 frei.
+A: Gut. Jetzt zur Geschichte. Und diesmal geht es um Hias, den Bergführer aus Tirol. Den besten Freund von Jonas.
+B: Hias! Was ist mit ihm?
+A: Hias erlebt den Klimawandel ja am eigenen Leib. In den Bergen. Und im letzten Sommer ist etwas passiert, das ihn tief erschüttert hat. Bei einer Tour mit einer Gruppe von Wanderern hat sich in der Nähe ein großer Felssturz ereignet. Tausende Kubikmeter Gestein sind einen Hang hinuntergedonnert. Ganz in der Nähe des Weges, den sie gerade genommen hatten.
+B: Oh nein. Ist jemandem etwas passiert?
+A: Zum Glück nicht. Hias hatte die Gefahr gespürt. Der Fels hatte am Morgen ungewöhnliche Geräusche gemacht, ein leises Knistern und Knacken. Und Hias hatte instinktiv entschieden, eine andere Route zu nehmen. Das hat der Gruppe das Leben gerettet.
+B: Seine Erfahrung als Bergführer. Er hat zwischen den Zeilen der Natur gelesen.
+A: Genau. Aber der Vorfall hat ihn sehr nachdenklich gemacht. Er hat gemerkt, dass sein ganzes Wissen über die Berge, das er in fünfundzwanzig Jahren gesammelt hatte, nicht mehr zuverlässig war. Die Berge verändern sich so schnell, dass die alten Erfahrungen nicht mehr gelten.
+B: Und was hat er gemacht?
+A: Er hat zwei Dinge getan. Das eine war Anpassung. Er hat sich mit anderen Bergführern und mit Geologen zusammengetan. Sie haben ein Warnsystem entwickelt. Bergführer, Hüttenwirte und Wanderer melden über eine App Beobachtungen. Neue Risse im Fels, ungewöhnliche Geräusche, kleinere Steinschläge. Und Geologen werten die Daten aus und warnen vor gefährlichen Gebieten.
+B: Eine App! Hat er da vielleicht Hilfe bekommen?
+A: Hahaha. Natürlich! Von Julien und Oksana. Über dich, Jonas. Du hast sie miteinander bekannt gemacht.
+B: Hahaha. Vitamin B, über Ländergrenzen hinweg. Und das zweite?
+A: Das zweite war Klimaschutz. Hias hat beschlossen, nicht mehr nur über den Klimawandel zu klagen, sondern etwas dagegen zu tun. Er hat seine Bergtouren verändert. Er bietet keine Touren mehr an, zu denen die Gäste aus fernen Ländern einfliegen müssen. Stattdessen arbeitet er mit der Bahn zusammen. Seine Gäste kommen mit dem Zug, und er holt sie am Bahnhof ab.
+B: Das passt zum nachhaltigen Reisen aus Folge sechsundsiebzig.
+A: Genau. Und er hat mit anderen Bergführern eine Initiative gegründet. Sie führen Schulklassen und Touristen zu den schmelzenden Gletschern. Und sie erklären dort, vor Ort, was der Klimawandel bedeutet. Er sagt: „Wenn die Menschen mit eigenen Augen sehen, wie ein Gletscher stirbt, verstehen sie es anders als aus einer Statistik.“
+B: Das Pathos aus Folge sechsundachtzig. Eine Geschichte statt einer Statistik.
+A: Genau. Und Hias hat bei einer dieser Führungen einen Satz gesagt, den die Schüler aufgeschrieben haben: „So sehr wir uns auch anpassen, die Berge können wir nicht anpassen. Wir müssen sie schützen.“
+B: Ein sehr starker Satz. Und er bringt die ganze Debatte auf den Punkt. Anpassung ist notwendig, aber sie ersetzt nicht den Schutz.
+A: Jetzt bist du dran, Hörer, Hörerin. Wie stehst du zur Frage Klimaschutz oder Klimaanpassung? Formuliere deine Position mit Konzessivsätzen auf gehobenem Niveau. Zum Beispiel: „So wichtig die Anpassung auch ist, …“, „Obgleich …“, „Ungeachtet der Kosten …“, „Wie man es auch dreht und wendet, …“
+B: Und denk an deine eigene Region. Wie macht sich der Klimawandel dort bemerkbar? Und welche Anpassungsmaßnahmen gibt es?
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: sich wappnen. Sich auf eine Gefahr vorbereiten und schützen.
+A: Wort Nummer zwei: ungeachtet. Ohne Rücksicht auf, trotz. Sehr formell.
+B: Wort Nummer drei: der Kipppunkt. Eine Schwelle, ab der sich ein System plötzlich und unumkehrbar verändert.
+A: Wort Nummer vier: der Trittbrettfahrer. Jemand, der von den Leistungen anderer profitiert, ohne selbst beizutragen.
+B: Wort Nummer fünf: unumkehrbar. So, dass man es nicht mehr rückgängig machen kann.
+A: Und Wort Nummer sechs: die Mure. Ein Strom aus Schlamm, Geröll und Wasser, der einen Berghang hinunterrast.
+B: Noch einmal: sich wappnen, ungeachtet, der Kipppunkt, der Trittbrettfahrer, unumkehrbar, die Mure.
+A: Was nehmen wir mit? Konzessivsätze auf gehobenem Niveau: obgleich, wenngleich, so … auch, wie … auch immer, ungeachtet.
+B: Klimaschutz bekämpft die Ursachen, Klimaanpassung bereitet auf die Folgen vor. Und man braucht beides: das Unbeherrschbare vermeiden und das Unvermeidbare beherrschen.
+A: Die Anpassung hat Grenzen, besonders wegen der Kipppunkte. Und es gibt das Problem der Trittbrettfahrer und der globalen Gerechtigkeit.
+B: Und viele Maßnahmen wie Moore und Stadtbäume dienen beidem zugleich.
+A: Das ist das Ende von Folge sechsundneunzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und denk an Hias: Die Berge können wir nicht anpassen. Wir müssen sie schützen. Servus!
+A: Tschüss!
+VOCAB: sich wappnen | Sich auf eine Gefahr vorbereiten und schützen. | 🛡️
+VOCAB: ungeachtet | Ohne Rücksicht auf, trotz. Sehr formell. | 🙅
+VOCAB: der Kipppunkt | Eine Schwelle, ab der sich ein System unumkehrbar verändert. | 🪑
+VOCAB: der Trittbrettfahrer | Jemand, der von anderen profitiert, ohne selbst beizutragen. | 🚋
+VOCAB: unumkehrbar | So, dass man es nicht mehr rückgängig machen kann. | ⛔
+VOCAB: die Mure | Ein Strom aus Schlamm, Geröll und Wasser am Berghang. | ⛰️
+QUIZ: Was ist der Unterschied zwischen Klimaschutz und Klimaanpassung? | Klimaschutz bekämpft die Ursachen, Anpassung bereitet auf die Folgen vor | Es gibt keinen Unterschied | Anpassung bekämpft die Ursachen | 1
+QUIZ: Was bedeutet „Das Unbeherrschbare vermeiden und das Unvermeidbare beherrschen“? | Man braucht nur Klimaschutz | Man braucht sowohl Klimaschutz als auch Anpassung | Man braucht nur Anpassung | 2
+QUIZ: Was ist ein Kipppunkt? | Eine Schwelle, ab der sich ein System plötzlich und unumkehrbar verändert | Ein Ort in den Bergen | Eine politische Entscheidung | 1
+QUIZ: Was ist ein Problem der globalen Klimagerechtigkeit? | Die ärmsten Länder leiden am meisten, obwohl sie am wenigsten beigetragen haben | Alle Länder sind gleich betroffen | Die reichen Länder leiden am meisten | 1
+QUIZ: Was hat Hias zur Anpassung entwickelt? | Ein Warnsystem, bei dem Beobachtungen per App gemeldet werden | Eine neue Seilbahn | Ein Hotel | 1
+`;
+
+DATA.podScripts.ep097 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge siebenundneunzig. Heute stellen wir eine Frage, die das Selbstverständnis moderner Gesellschaften im Kern berührt: Ist die Leistungsgesellschaft Mythos oder Realität? Und damit verbunden: Wie steht es um die soziale Mobilität?
+A: Die Leistungsgesellschaft, auf Englisch oft „Meritokratie“ genannt, ist eine Gesellschaft, in der der soziale Status, das Einkommen und die Position eines Menschen von seiner Leistung abhängen sollen. Nicht von Herkunft, Geld oder Beziehungen. Wer sich anstrengt und begabt ist, kommt nach oben.
+B: Ein schönes Versprechen, das die Grundlage vieler moderner Demokratien bildet. Und die soziale Mobilität beschreibt, wie leicht es Menschen fällt, ihre soziale Position im Vergleich zu ihren Eltern zu verändern. Insbesondere aufzusteigen.
+A: Und die Frage, die wir heute stellen, lautet: Stimmt dieses Versprechen? Oder ist es ein Mythos, der bestehende Ungleichheiten rechtfertigt? Wir haben das Thema schon in Folge vierundsiebzig über die Bildung gestreift. Heute gehen wir in die Tiefe.
+B: Sprachlich widmen wir uns heute dem Subjektivsatz und dem Objektivsatz mit „wer“, „was“ und „wie“. Und einigen sehr gehobenen Sprichwörtern und Zitaten rund um Leistung und Erfolg. Zum Beispiel: „Wer arbeitet, soll auch essen.“ „Was Hänschen nicht lernt, lernt Hans nimmermehr.“ „Jeder ist seines Glückes Schmied.“
+A: „Jeder ist seines Glückes Schmied“ ist ein besonders passendes Sprichwort für heute. Es bedeutet: Jeder ist selbst für sein Glück verantwortlich. Wie ein Schmied, der aus dem Eisen etwas formt. Und genau dieses Sprichwort werden wir heute kritisch hinterfragen.
+B: Und Sätze mit „wer“ am Anfang sind eine elegante Konstruktion: „Wer viel arbeitet, verdient viel.“ Das „wer“ leitet einen Nebensatz ein, der als Subjekt des ganzen Satzes dient. Und oft wird das im Hauptsatz mit „der“ wieder aufgegriffen: „Wer reich geboren wird, der hat es leichter.“
+A: Gut. Fangen wir mit der Geschichte des Begriffs an. Und die ist überraschend. Denn das Wort „Meritokratie“ war ursprünglich gar nicht positiv gemeint.
+B: Erzähl!
+A: Der Begriff wurde neunzehnhundertachtundfünfzig von dem britischen Soziologen Michael Young geprägt. In seinem satirischen Roman „The Rise of the Meritocracy“, also „Der Aufstieg der Meritokratie“. Und das Buch war eine Warnung, eine Dystopie. Eine „Dystopie“ ist das Gegenteil einer Utopie, also eine Vorstellung von einer schlechten, bedrohlichen Zukunft.
+B: Eine Dystopie? Das hätte ich nicht gedacht. Was war Youngs Warnung?
+A: Young beschrieb eine Zukunft, in der die Gesellschaft streng nach Intelligenz und Leistung geordnet ist. Und er zeigte, dass das zu einer neuen, besonders grausamen Form der Ungleichheit führen würde. Denn in einer Meritokratie glauben die Erfolgreichen, dass sie ihren Erfolg vollkommen verdient haben. Und die Erfolglosen müssen glauben, dass sie ihr Scheitern selbst verschuldet haben.
+B: Das ist ein bemerkenswerter Gedanke. In einer Adelsgesellschaft wusste ein armer Bauer wenigstens, dass er nicht schuld an seiner Armut war. Er war nur zufällig nicht als Adliger geboren. Aber in einer Meritokratie muss er glauben, dass er einfach nicht gut genug ist.
+A: Genau. Und das ist psychologisch sehr belastend. Die Würde der Unterlegenen wird zerstört. Und Young war entsetzt, als Politiker später seinen Begriff als positives Ideal übernahmen. Er hat kurz vor seinem Tod einen wütenden Artikel geschrieben, in dem er sich darüber beschwerte.
+B: Eine schöne Ironie der Begriffsgeschichte. Wie bei „Made in Germany“ aus Folge fünfundneunzig. Ein Begriff, der sich ins Gegenteil verkehrt. Gut. Jetzt die Fakten. Wie steht es um die soziale Mobilität in Deutschland?
+A: Und hier sind die Zahlen ernüchternd. Deutschland gehört im internationalen Vergleich zu den Ländern, in denen der Bildungserfolg besonders stark von der sozialen Herkunft abhängt. Das zeigen etwa die PISA-Studien der OECD immer wieder.
+B: Wir hatten die Zahlen in Folge vierundsiebzig. Von hundert Kindern aus Akademikerfamilien beginnen etwa achtzig ein Studium. Von hundert Kindern aus Nicht-Akademikerfamilien nur etwa fünfundzwanzig.
+A: Genau. Und eine OECD-Studie hat einmal berechnet, wie viele Generationen es dauern würde, bis ein Kind aus einer Familie mit niedrigem Einkommen das Durchschnittseinkommen erreicht. Für Deutschland kam sie auf etwa sechs Generationen. Sechs Generationen! Das sind etwa hundertachtzig Jahre.
+B: Das ist erschreckend lang. Und wie ist es in anderen Ländern?
+A: In den skandinavischen Ländern, etwa Dänemark, sind es nur zwei bis drei Generationen. Dort ist die soziale Mobilität viel höher. Und interessanterweise hat das Land, das am stärksten mit dem Versprechen des sozialen Aufstiegs verbunden ist, die USA mit ihrem „amerikanischen Traum“, eine relativ niedrige Mobilität.
+B: Der amerikanische Traum, vom Tellerwäscher zum Millionär. Und er ist in der Realität eher ein Mythos. Viele Studien zeigen, dass die Chance, aus der untersten Einkommensschicht aufzusteigen, in den USA geringer ist als in vielen europäischen Ländern.
+A: Und das bringt uns zur zentralen Frage: Warum ist die Mobilität so gering? Warum hängt der Erfolg so stark von der Herkunft ab?
+B: Da gibt es verschiedene Erklärungen. Fangen wir mit dem Geld an. Kinder aus wohlhabenden Familien haben einfach mehr Ressourcen. Nachhilfe, wenn sie in der Schule Probleme haben. Bücher und ein ruhiges Zimmer zum Lernen. Musikunterricht, Sportvereine, Auslandsaufenthalte.
+A: Und das Wichtigste ist vielleicht das Vermögen. In Deutschland ist das Vermögen noch viel ungleicher verteilt als das Einkommen. Und ein großer Teil des Vermögens wird vererbt, nicht erarbeitet. Wer eine Wohnung erbt, muss keine Miete zahlen und kann viel mehr sparen.
+B: Und das widerspricht ja direkt der Idee der Leistungsgesellschaft. Ein Erbe ist per Definition keine eigene Leistung. Es ist das Glück der Geburt.
+A: Genau. Es gibt in Deutschland eine heftige Debatte über die Erbschaftssteuer. Viele Ökonomen, auch konservative, argumentieren, dass eine höhere Erbschaftssteuer eigentlich ein Gebot der Leistungsgerechtigkeit wäre. Weil Erbschaften leistungslose Einkommen sind.
+B: Aber gerade die Erbschaftssteuer ist politisch sehr umstritten. Besonders wegen der Familienunternehmen aus Folge fünfundneunzig. Man befürchtet, dass eine hohe Erbschaftssteuer den Mittelstand gefährden könnte, weil die Erben das Unternehmen verkaufen müssten, um die Steuer zu bezahlen.
+A: Ein echtes Dilemma. Gut. Die zweite Erklärung ist subtiler. Der französische Soziologe Pierre Bourdieu hat sie sehr einflussreich beschrieben. Er sprach von verschiedenen Formen des Kapitals.
+B: Erkläre Bourdieus Theorie.
+A: Bourdieu sagte, es gibt nicht nur ökonomisches Kapital, also Geld. Sondern auch kulturelles Kapital und soziales Kapital. Das kulturelle Kapital umfasst Bildung, Wissen, aber auch Geschmack, Sprache, Umgangsformen. Wie man spricht, welche Bücher man kennt, wie man sich bei einem Abendessen benimmt.
+B: Und das soziale Kapital?
+A: Das sind die Beziehungen, das Netzwerk. Wen man kennt. Das Vitamin B, das wir in diesem Podcast so oft erwähnt haben. Und Bourdieu argumentierte, dass diese Kapitalformen in der Familie weitergegeben werden. Und dass das Bildungssystem sie belohnt, ohne dass es auffällt.
+B: Das heißt, ein Kind aus einer Akademikerfamilie spricht schon so, wie es in der Schule erwartet wird. Es kennt die Bücher, über die die Lehrer reden. Es fühlt sich in der Universität zu Hause. Und das wird dann als Begabung oder Leistung interpretiert. Obwohl es eigentlich vererbtes kulturelles Kapital ist.
+A: Genau. Bourdieu nannte das den „Habitus“. Die verinnerlichten Gewohnheiten und Denkweisen einer sozialen Schicht. Und wer den passenden Habitus mitbringt, hat einen unsichtbaren Vorteil.
+B: Und dazu gibt es eine sehr bekannte deutsche Studie. Der Soziologe Michael Hartmann hat die Elite in Deutschland untersucht. Die Vorstandsvorsitzenden der großen Unternehmen. Und er hat herausgefunden, dass ein großer Teil von ihnen aus dem gehobenen Bürgertum stammt.
+A: Und das Interessante: Selbst bei gleicher Qualifikation hatten Kinder aus dem Großbürgertum viel bessere Chancen, in Spitzenpositionen zu gelangen. Hartmann erklärte das mit dem Habitus. Die Entscheider in den Unternehmen wählten Menschen aus, die ihnen ähnlich waren. Die die gleiche souveräne Ausstrahlung hatten, die gleichen Codes kannten.
+B: Wie Leas Geschichte zeigt. Folge vierundsiebzig. Das stille Mädchen aus einer Arbeiterfamilie. Sie hatte die Fähigkeiten, aber nicht den Habitus. Und darum bekam sie zuerst nur eine Empfehlung für die Realschule.
+A: Genau. Und es gibt einen Begriff, der in diesem Zusammenhang wichtig ist: der Bildungsaufsteiger, oder neuerdings auch „Erste-Generation-Studierende“. Menschen, die als Erste in ihrer Familie studieren. Und viele berichten von einem tiefen Gefühl der Fremdheit an der Universität. Sie fühlen sich wie Hochstapler. Folge sechsundsechzig.
+B: Und gleichzeitig entfremden sie sich oft von ihrer Herkunftsfamilie. Sie sprechen plötzlich anders, haben andere Interessen. Sie gehören nirgends mehr richtig hin. Zwischen den Stühlen, wie in Folge achtundsechzig.
+A: Der französische Autor Didier Eribon hat darüber ein sehr bewegendes Buch geschrieben: „Rückkehr nach Reims“. Über seine Herkunft aus einer Arbeiterfamilie und seinen Aufstieg zum Intellektuellen in Paris. Und über die Scham, die er für seine Herkunft empfand. Das Buch wurde in Deutschland ein großer Erfolg.
+B: Gut. Und jetzt die Gegenposition. Denn es wäre zu einfach, die Leistung ganz zu leugnen.
+A: Absolut. Leistung spielt natürlich eine Rolle. Anstrengung, Fleiß, Ausdauer machen einen Unterschied. Und Menschen aus schwierigen Verhältnissen können aufsteigen. Unsere Figuren zeigen das ja. Lea, Emre, Amira.
+B: Und es gibt ein Argument, das die Verteidiger der Leistungsgesellschaft vorbringen: Wenn man den Menschen sagt, dass ihre Herkunft ihr Schicksal bestimmt, nimmt man ihnen die Motivation. Es kann zu einer sich selbst erfüllenden Prophezeiung werden. Wer glaubt, er habe keine Chance, versucht es gar nicht erst.
+A: Das ist ein berechtigter Punkt. Man darf die Strukturen nicht leugnen, aber man darf den Menschen auch nicht ihre Handlungsfähigkeit absprechen. Es ist eine schwierige Balance.
+B: Und hier kommt der amerikanische Philosoph Michael Sandel ins Spiel. Er hat ein einflussreiches Buch geschrieben: „Vom Ende des Gemeinwohls“. Im Original: „The Tyranny of Merit“, die Tyrannei der Leistung.
+A: Und was ist Sandels These?
+B: Sandel argumentiert, dass die meritokratische Denkweise zu einer gefährlichen Hybris der Gewinner geführt hat. „Die Hybris“ ist eine überhebliche, maßlose Selbstüberschätzung. Die Erfolgreichen glauben, sie hätten alles allein verdient, und blicken auf die Verlierer herab. Und die Verlierer fühlen sich gedemütigt und verachtet.
+A: Und Sandel sieht darin eine wichtige Ursache für den Aufstieg des Populismus in vielen Ländern. Die Menschen, die sich von den Eliten verachtet fühlen, wenden sich gegen diese Eliten. Und gegen die Demokratie selbst.
+B: Und Sandels Lösung?
+A: Er plädiert für eine Kultur der Demut. Die Erfolgreichen sollten anerkennen, welche Rolle das Glück in ihrem Leben gespielt hat. Das Glück, in einer bestimmten Familie geboren zu sein, in einem bestimmten Land, mit bestimmten Begabungen, die zufällig in unserer Zeit gefragt sind. Und er plädiert für eine Aufwertung der Arbeit, die keinen Universitätsabschluss erfordert. Die Würde der Arbeit.
+B: Das schließt an Folge siebenundachtzig an. Die Pflegekraft, der Müllwerker, der Bäcker. Ihre Arbeit verdient genauso viel Respekt wie die eines Bankmanagers. Vielleicht mehr.
+A: Jetzt zur Geschichte. Und diesmal geht es um Emre. Und um eine sehr persönliche Erfahrung.
+B: Emre, der inzwischen ein erfolgreicher Entwickler und bekannter Content Creator ist.
+A: Genau. Emre wurde zu einer Podiumsdiskussion eingeladen. Ein Podium ist eine erhöhte Bühne, auf der mehrere Experten diskutieren. Das Thema war: „Aufstieg durch Bildung“. Und Emre sollte als Beispiel für einen erfolgreichen Aufsteiger sprechen. Sohn türkischer Einwanderer, aus Kreuzberg, ohne Abitur, und jetzt erfolgreich in der IT.
+B: Das perfekte Vorzeigebeispiel für die Leistungsgesellschaft.
+A: Genau das hat der Moderator erwartet. Er stellte die Frage: „Emre, Sie sind der lebende Beweis, dass in Deutschland jeder es schaffen kann, wenn er sich nur anstrengt. Was raten Sie jungen Menschen aus Ihrem Viertel?“
+B: Und was hat Emre geantwortet?
+A: Emre hat lange geschwiegen. Und dann hat er gesagt: „Ich muss Sie korrigieren. Ich bin nicht der Beweis, dass jeder es schaffen kann. Ich bin die Ausnahme. Und Ausnahmen beweisen nicht die Regel.“
+B: Wow. Das hat bestimmt niemand erwartet.
+A: Nein. Und dann hat er erklärt: „Ja, ich habe hart gearbeitet. Aber ich hatte auch unglaublich viel Glück. Ich hatte eine Mutter, die mich immer unterstützt hat, obwohl sie selbst kaum zur Schule gehen konnte. Ich habe zufällig von einer kostenlosen Programmierschule erfahren. Ich hatte einen Mentor, Julien, der mich nicht aufgegeben hat, als ich zwanzig Absagen bekommen habe. Ich hatte Freunde, die mir geholfen haben.“
+B: Er hat das Glück anerkannt. Wie Sandel es fordert.
+A: Genau. Und dann hat er etwas gesagt, das den ganzen Saal still gemacht hat: „Aus meiner Klasse in der Hauptschule waren viele genauso klug wie ich. Manche klüger. Einer hat heute einen Job, den er hasst. Einer sitzt im Gefängnis. Einer ist tot. Sie haben sich nicht weniger angestrengt als ich. Sie hatten nur nicht das gleiche Glück. Wenn Sie mich als Beweis benutzen, dass jeder es schaffen kann, dann sagen Sie diesen Jungs, dass sie selbst schuld sind. Und das stimmt nicht.“
+B: Das ist ein unglaublich starker Moment. Er hat Michael Youngs Warnung in einem einzigen Satz zusammengefasst.
+A: Genau. Und der Moderator war sprachlos. Aber das Publikum hat lange applaudiert. Und Emre hat am Ende gesagt: „Mein Rat an junge Menschen ist nicht: Strengt euch an, dann schafft ihr es. Mein Rat an die Gesellschaft ist: Sorgt dafür, dass nicht nur die Glücklichen eine Chance haben.“
+B: Und hat er etwas daraus gemacht?
+A: Natürlich! Hahaha. Mit Julien und Lena hat er ein Mentoring-Programm für Jugendliche in seinem alten Viertel gegründet. Jeder Jugendliche bekommt einen Mentor. Jemanden, der an ihn glaubt. So wie Julien an Emre geglaubt hat.
+B: Mit dir, Lena? Du bist ja schon wieder dabei!
+A: Hahaha. Ja, ich unterrichte dort Deutsch. Ehrenamtlich. Folge siebenundfünfzig lässt grüßen!
+B: Jetzt bist du dran, Hörer, Hörerin. Ist die Leistungsgesellschaft für dich Mythos oder Realität? Formuliere deine Gedanken mit Sätzen, die mit „wer“ beginnen: „Wer in eine reiche Familie geboren wird, der …“ „Wer sich anstrengt, …“ Und setz dich kritisch mit dem Sprichwort auseinander: „Jeder ist seines Glückes Schmied.“
+A: Und denk an deinen eigenen Weg. Welche Rolle haben Leistung und Glück gespielt?
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: die Leistungsgesellschaft. Eine Gesellschaft, in der der Status von der Leistung abhängen soll.
+B: Wort Nummer zwei: die Dystopie. Eine Vorstellung von einer schlechten, bedrohlichen Zukunft.
+A: Wort Nummer drei: Jeder ist seines Glückes Schmied. Jeder ist selbst für sein Glück verantwortlich.
+B: Wort Nummer vier: der Habitus. Die verinnerlichten Gewohnheiten und Denkweisen einer sozialen Schicht.
+A: Wort Nummer fünf: die Hybris. Eine überhebliche, maßlose Selbstüberschätzung.
+B: Und Wort Nummer sechs: die Demut. Die Bescheidenheit, die anerkennt, dass man nicht alles allein verdient hat.
+A: Noch einmal: die Leistungsgesellschaft, die Dystopie, Jeder ist seines Glückes Schmied, der Habitus, die Hybris, die Demut.
+B: Was nehmen wir mit? Der Begriff „Meritokratie“ war ursprünglich eine Warnung von Michael Young. In einer Meritokratie glauben die Verlierer, sie seien selbst schuld.
+A: In Deutschland hängt der Bildungserfolg besonders stark von der Herkunft ab. Und das Vermögen, oft vererbt, ist sehr ungleich verteilt.
+B: Bourdieu zeigte, dass kulturelles und soziales Kapital und der Habitus unsichtbare Vorteile schaffen.
+A: Und Sandel warnt vor der Hybris der Gewinner und plädiert für Demut und die Würde aller Arbeit.
+B: Das ist das Ende von Folge siebenundneunzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und denk an Emre: Ausnahmen beweisen nicht die Regel. Tschüss!
+B: Servus!
+VOCAB: die Leistungsgesellschaft | Eine Gesellschaft, in der der Status von der Leistung abhängen soll. | 🏅
+VOCAB: die Dystopie | Eine Vorstellung von einer schlechten, bedrohlichen Zukunft. | 🌑
+VOCAB: Jeder ist seines Glückes Schmied | Jeder ist selbst für sein Glück verantwortlich. | ⚒️
+VOCAB: der Habitus | Die verinnerlichten Gewohnheiten und Denkweisen einer sozialen Schicht. | 🎩
+VOCAB: die Hybris | Eine überhebliche, maßlose Selbstüberschätzung. | 🦚
+VOCAB: die Demut | Die Bescheidenheit, die anerkennt, dass man nicht alles allein verdient hat. | 🙏
+QUIZ: Wie war der Begriff „Meritokratie“ ursprünglich gemeint? | Als positives Ideal | Als Warnung in einem satirischen Roman | Als wissenschaftlicher Fachbegriff | 2
+QUIZ: Wie viele Generationen dauert es laut einer OECD-Studie in Deutschland, bis ein Kind aus einer armen Familie das Durchschnittseinkommen erreicht? | Etwa zwei | Etwa sechs | Etwa zwanzig | 2
+QUIZ: Was meinte Bourdieu mit „kulturellem Kapital“? | Geld | Bildung, Wissen, Sprache und Umgangsformen | Kunstwerke | 2
+QUIZ: Wofür plädiert Michael Sandel? | Für mehr Wettbewerb | Für eine Kultur der Demut und die Würde aller Arbeit | Für die Abschaffung der Schulen | 2
+QUIZ: Was sagte Emre auf dem Podium? | Jeder kann es schaffen, wenn er sich anstrengt | Er sei nicht der Beweis, sondern die Ausnahme | Er habe alles allein geschafft | 2
+`;
