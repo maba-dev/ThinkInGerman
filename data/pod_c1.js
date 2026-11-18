@@ -460,3 +460,188 @@ QUIZ: Was war ein Ergebnis des finnischen Experiments? | Die Menschen arbeiteten
 QUIZ: Was haben die Empfänger im deutschen Pilotprojekt oft gemacht? | Sie haben aufgehört zu arbeiten | Weiterbildungen gemacht, den Job gewechselt und mehr gespart | Sie sind ins Ausland gezogen | 2
 QUIZ: Was hat Mira mit dem gewonnenen Grundeinkommen gemacht? | Sie hat ihre Arbeitszeit halbiert und Theater gespielt | Sie hat eine Weltreise gemacht | Sie hat alles gespart | 1
 `;
+
+DATA.podScripts.ep086 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge sechsundachtzig. Heute gehen wir zweieinhalbtausend Jahre zurück, um etwas sehr Aktuelles zu verstehen. Unser Thema ist die Kunst der Überzeugung. Die Rhetorik.
+A: Die Rhetorik ist die Lehre von der wirkungsvollen Rede. Und ihre Grundlagen wurden im antiken Griechenland gelegt, vor allem von Aristoteles. Und das Erstaunliche ist: Seine Analyse ist bis heute so zutreffend, dass sie in jedem Kommunikationsseminar, in der Werbung und in der Politik verwendet wird.
+B: Aristoteles hat drei Überzeugungsmittel unterschieden, die man bis heute mit ihren griechischen Namen bezeichnet: Ethos, Pathos und Logos. Und wer diese drei versteht, durchschaut nicht nur, wie gute Redner überzeugen, sondern auch, wie man manipuliert wird.
+A: Sprachlich widmen wir uns heute rhetorischen Stilmitteln. Also sprachlichen Mitteln, die eine Rede eindringlicher, einprägsamer und überzeugender machen. Die Anapher, die Klimax, die rhetorische Frage, die Antithese, die Metapher. Und wir werden sie nicht nur erklären, sondern auch selbst benutzen.
+B: Und wir sprechen über ein Thema, das besonders in der deutschen Geschichte eine dunkle Seite hat. Denn die Kunst der Überzeugung kann missbraucht werden. Und das Deutschland des zwanzigsten Jahrhunderts ist ein erschütterndes Beispiel dafür.
+A: Darauf kommen wir später. Fangen wir mit dem ersten Überzeugungsmittel an: dem Ethos.
+B: Das Ethos bezieht sich auf die Glaubwürdigkeit des Redners. Wir lassen uns von jemandem überzeugen, den wir für kompetent, vertrauenswürdig und moralisch integer halten. Bevor wir überhaupt hören, was jemand sagt, prüfen wir, wer es sagt.
+A: Ein Arzt, der über Gesundheit spricht, hat mehr Ethos als ein Schauspieler. Wobei die Werbung genau mit diesem Effekt spielt. Ein Schauspieler im weißen Kittel, der eine Zahnpasta empfiehlt, borgt sich das Ethos eines Zahnarztes.
+B: „Sich etwas borgen“ heißt: sich etwas leihen. Und das ist ein interessanter Punkt: Ethos kann man sich erarbeiten, aber man kann es auch vortäuschen. Durch Titel, Kleidung, Auftreten, eine tiefe Stimme. Studien zeigen übrigens, dass wir großen Menschen und Menschen mit tiefer Stimme unbewusst mehr Kompetenz zuschreiben.
+A: Was natürlich vollkommen irrational ist. Und das hängt mit der Vertrauensformel aus Folge vierundachtzig zusammen. Ethos entsteht durch Glaubwürdigkeit, Zuverlässigkeit und den Eindruck, dass es dem Redner nicht nur um sich selbst geht.
+B: Ein Redner kann sein Ethos auch gezielt stärken. Indem er von eigenen Erfahrungen erzählt. Indem er Schwächen zugibt. Paradoxerweise erhöht das oft die Glaubwürdigkeit. Wer zugibt, sich auch geirrt zu haben, wirkt ehrlicher.
+A: Das zweite Überzeugungsmittel ist das Pathos. Das Pathos zielt auf die Gefühle des Publikums. Auf Mitleid, Angst, Wut, Hoffnung, Stolz, Empörung. Menschen werden selten allein durch Argumente zum Handeln bewegt. Sie müssen emotional berührt werden.
+B: Und das ist bei Spendenaufrufen besonders deutlich. Eine Hilfsorganisation zeigt nicht eine Statistik über Millionen hungernder Kinder. Sie zeigt ein einziges Kind mit großen Augen und erzählt seine Geschichte. Das berührt uns viel stärker.
+A: Dazu gibt es sogar ein psychologisches Phänomen, den sogenannten Identifiable Victim Effect. Wir sind eher bereit, einem einzelnen, identifizierbaren Menschen zu helfen als vielen anonymen. Der Satz „Ein einzelner Tod ist eine Tragödie, eine Million Tote sind eine Statistik“ wird oft zitiert, wobei seine Herkunft unklar ist.
+B: Ein zynischer Satz, der aber eine psychologische Wahrheit trifft. Und hier liegt die Gefahr des Pathos. Gefühle können das Denken ausschalten. Wer Angst hat oder wütend ist, prüft Argumente weniger kritisch. Wir haben das in Folge siebzig bei den Fake News gesehen.
+A: Das dritte Überzeugungsmittel ist der Logos. Der Logos bezieht sich auf die Argumentation selbst. Auf Logik, Beweise, Fakten, Zahlen, Beispiele. Man überzeugt, indem man einen Sachverhalt schlüssig begründet.
+B: Und typischerweise würde man denken, dass der Logos das wichtigste Mittel sein sollte. Besonders in Deutschland, wo Sachlichkeit so geschätzt wird.
+A: Genau. Und interessanterweise gibt es da kulturelle Unterschiede. In der deutschen Kommunikationskultur wird der Logos tendenziell stärker gewichtet. Eine Präsentation in Deutschland muss vor allem gut begründet und faktenbasiert sein. In der amerikanischen Kultur spielen Pathos und persönliche Geschichten oft eine größere Rolle.
+B: Was erklärt, warum amerikanische Präsentationen auf Deutsche manchmal etwas überzogen und deutsche Präsentationen auf Amerikaner etwas trocken wirken. Hahaha.
+A: Hahaha. Genau. Aber Aristoteles betont: Die wirkungsvollste Rede verbindet alle drei. Ein glaubwürdiger Redner mit einer schlüssigen Argumentation, der zugleich die Herzen berührt.
+B: Gut. Jetzt zu den rhetorischen Stilmitteln. Lena, fang an.
+A: Erstens: die Anapher. Das ist die Wiederholung desselben Wortes oder derselben Wortgruppe am Anfang aufeinanderfolgender Sätze. Das berühmteste Beispiel ist die Rede von Martin Luther King: „I have a dream.“ Er wiederholt diesen Satz immer wieder. Und dadurch entsteht ein mitreißender Rhythmus.
+B: Auf Deutsch könnte man sagen: „Wir wollen eine Stadt, in der Kinder sicher spielen können. Wir wollen eine Stadt, in der niemand allein ist. Wir wollen eine Stadt, die allen gehört.“
+A: Sehr gut! Zweitens: die Klimax. Das ist eine Steigerung. Man ordnet Begriffe so an, dass sie immer stärker werden. Das klassische Beispiel ist der Satz, den Julius Cäsar zugeschrieben wird: „Veni, vidi, vici.“ Ich kam, ich sah, ich siegte. Wir hatten ihn schon in Folge achtzig.
+B: Oder: „Das ist gut, das ist großartig, das ist revolutionär.“ Drittens: die rhetorische Frage. Eine Frage, auf die man keine Antwort erwartet, weil die Antwort offensichtlich ist. „Wollen wir wirklich, dass unsere Kinder in einer zerstörten Umwelt aufwachsen?“ Niemand würde mit Ja antworten.
+A: Viertens: die Antithese. Das ist die Gegenüberstellung von Gegensätzen. Sie schafft Spannung und Klarheit. Das berühmte Zitat von John F. Kennedy: „Fragt nicht, was euer Land für euch tun kann. Fragt, was ihr für euer Land tun könnt.“
+B: Und Kennedy hat ja in Berlin den legendären Satz gesagt: „Ich bin ein Berliner.“ Neunzehnhundertdreiundsechzig, vor dem Schöneberger Rathaus.
+A: Und es gibt eine hartnäckige Legende, dass er damit eigentlich gesagt habe, er sei ein Pfannkuchen. Weil in manchen Gegenden Deutschlands der Krapfen „Berliner“ heißt, wie wir in Folge vier gelernt haben.
+B: Hahaha. Ja, das ist eine schöne Anekdote. Aber sie ist falsch. Der Satz war grammatikalisch völlig korrekt, und in Berlin selbst heißt das Gebäck ja „Pfannkuchen“. Niemand im Publikum hat das missverstanden. Aber die Legende hält sich hartnäckig.
+A: Fünftens: die Metapher. Ein bildlicher Ausdruck, bei dem ein Wort in einer übertragenen Bedeutung verwendet wird. „Der Eiserne Vorhang“ für die Grenze zwischen Ost und West. „Das Rückgrat der Wirtschaft“ für den Mittelstand, darüber sprechen wir in Folge fünfundneunzig.
+B: Und Metaphern sind besonders mächtig, weil sie unser Denken prägen. Ob man von einer „Flüchtlingswelle“ spricht oder von „Menschen, die Schutz suchen“, verändert die Wahrnehmung grundlegend. Eine Welle ist eine Naturgewalt, eine Bedrohung, gegen die man Dämme bauen muss.
+A: Das ist ein ganz wichtiger Punkt. Sprache ist nie neutral. Die Wahl der Metapher ist bereits eine politische Entscheidung. Man spricht von „Framing“. Darüber sprechen wir ausführlicher in Folge einundneunzig, über die Frage, ob Sprache das Denken prägt.
+B: Und jetzt die dunkle Seite. Denn alle diese Mittel können missbraucht werden. Und die deutsche Geschichte zeigt das auf erschütternde Weise.
+A: Ja. Die Nationalsozialisten waren Meister der Propaganda. Joseph Goebbels leitete ein eigenes Ministerium für Volksaufklärung und Propaganda. Und Hitler selbst setzte in seinen Reden massiv auf Pathos. Auf Wut, auf Angst, auf das Gefühl der Demütigung nach dem Ersten Weltkrieg, auf Hass gegen Sündenböcke.
+B: Ein Sündenbock ist jemand, dem man die Schuld für etwas gibt, wofür er nicht verantwortlich ist. Und die Nationalsozialisten machten die Juden zum Sündenbock für alle Probleme. Mit einer Rhetorik, die logisches Denken systematisch ausschaltete.
+A: Es gibt eine berühmte Rede von Goebbels aus dem Jahr neunzehnhundertdreiundvierzig im Berliner Sportpalast. Die sogenannte Sportpalastrede. Er stellte der Menge mehrere rhetorische Fragen, die in der Frage gipfelten: „Wollt ihr den totalen Krieg?“ Und die Menge schrie begeistert: „Ja!“
+B: Ein erschreckendes Beispiel dafür, wie rhetorische Fragen, Klimax und Massenpsychologie zusammenwirken, um Menschen zu manipulieren. Das war keine echte Frage, sondern eine inszenierte Zustimmung.
+A: Und genau deshalb hat die Rhetorik in Deutschland nach dem Krieg lange einen schlechten Ruf gehabt. Ein Politiker, der zu leidenschaftlich redet, wirkte schnell verdächtig. Die Deutschen haben eine gewisse Skepsis gegenüber charismatischen Rednern entwickelt.
+B: Was man an Angela Merkel gut sehen konnte. Sie war das Gegenteil einer leidenschaftlichen Rednerin. Nüchtern, sachlich, manchmal fast langweilig. Und vielleicht gerade deshalb hatte sie in Deutschland so viel Vertrauen. Ihr Ethos beruhte auf Sachlichkeit und Verlässlichkeit, nicht auf Pathos.
+A: Interessanter Gedanke. Die Abwesenheit von Pathos als eigene Form von Ethos. Und was können wir tun, um uns vor Manipulation zu schützen?
+B: Erstens: die Mittel kennen. Wer weiß, wie Manipulation funktioniert, erkennt sie leichter. Wenn man merkt, dass eine Rede vor allem an Gefühle appelliert, sollte man besonders wachsam sein.
+A: Zweitens: zwischen Person und Argument trennen. Ein glaubwürdiger Mensch kann auch falsche Argumente vorbringen. Und ein unsympathischer Mensch kann recht haben.
+B: Drittens: auf typische Fehlschlüsse achten. Zum Beispiel das „Argumentum ad hominem“. Man greift nicht das Argument an, sondern die Person. „Was weiß der schon, der hat ja nicht mal studiert.“ Oder der Strohmann-Trugschluss: Man verzerrt die Position des Gegners, um sie dann leichter angreifen zu können.
+A: Und die falsche Dichotomie. „Entweder du bist für uns, oder du bist gegen uns.“ Als gäbe es nur zwei Möglichkeiten. Darüber sprechen wir ausführlich in Folge achtundneunzig, über Denkfehler.
+B: Jetzt zur Geschichte. Und diesmal geht es um Amira und Lukas. Genauer gesagt: um ihre Hochzeit. Und um die Rede, die Julien als Trauzeuge halten soll.
+A: Oh, wie schön! Julien ist Trauzeuge? Ein Trauzeuge ist eine Person, die bei der Hochzeit offiziell bezeugt, dass die Ehe geschlossen wurde. Und traditionell hält der Trauzeuge eine Rede.
+B: Genau. Und Julien, der ja schon so viele Reden in unserer Geschichte gehalten hat, ist diesmal unglaublich nervös. Weil es eine Hochzeit ist. Weil alle Familien da sind, die marokkanische und die bayerische. Und weil die Rede persönlich und lustig und berührend sein soll.
+A: Die höchste Kunst der Rhetorik! Was hat er gemacht?
+B: Er hat sich Rat bei mir geholt. Wir haben uns im Café getroffen. Und ich habe ihm von Ethos, Pathos und Logos erzählt. Er hat zuerst gelacht. Er sagte: „Bei einer Hochzeitsrede brauche ich doch keine Logik.“
+A: Hahaha. Und hatte er recht?
+B: Teilweise. Ich habe ihm erklärt, dass bei einer Hochzeitsrede das Ethos daher kommt, dass er das Paar wirklich kennt. Das Pathos ist natürlich zentral. Aber ein bisschen Logos braucht man auch: eine klare Struktur, damit die Leute folgen können.
+A: Und wie hat er die Rede aufgebaut?
+B: Er hat mit einer Geschichte angefangen. Wie in Folge achtzig empfohlen. Mit der Geschichte, wie er Amira zum ersten Mal getroffen hat. In einer Bar in Neukölln, als sie beide versucht haben, Deutsch zu sprechen, obwohl sie fließend Französisch konnten.
+A: Das Ethos: Er war von Anfang an dabei.
+B: Genau. Dann hat er eine Anapher benutzt. Er sagte: „Amira ist eine Frau, die nach Berlin gekommen ist, ohne jemanden zu kennen. Amira ist eine Frau, die nachts Patienten tröstet und morgens trotzdem lacht. Amira ist eine Frau, die für ihre Kolleginnen kämpft. Und Amira ist eine Frau, die in einem blauen Dirndl auf dem Oktoberfest den richtigen Mann gefunden hat.“
+A: Hahaha! Mit der Pointe am Ende! Das Dirndl aus Folge siebenunddreißig!
+B: Genau. Alle haben gelacht. Und dann hat er eine Antithese benutzt: „Lukas ist ein Mann der Zahlen und der Wissenschaft. Amira ist eine Frau des Herzens und der Intuition. Er bringt Ordnung in ihr Leben, sie bringt Leben in seine Ordnung.“
+A: „Er bringt Ordnung in ihr Leben, sie bringt Leben in seine Ordnung.“ Das ist wunderschön. Ein Chiasmus sogar! So nennt man es, wenn die Wörter in umgekehrter Reihenfolge wiederholt werden.
+B: Genau. Und am Ende hat er einen Satz auf Arabisch gesagt, den Amiras Großmutter ihm beigebracht hatte. Und einen Satz auf Bayerisch, den Lukas' Vater ihm beigebracht hatte. Und dann auf Deutsch: „Zwei Sprachen, zwei Familien, eine Liebe.“
+A: Eine Klimax am Schluss. Und wie war die Reaktion?
+B: Amiras Großmutter hat geweint. Lukas' Vater, ein sehr wortkarger bayerischer Landwirt, hat geweint. Und am Ende hat er Julien auf die Schulter geklopft und gesagt: „Des war a scheene Red.“ Das war die schönste Kritik, die Julien je bekommen hat.
+A: Hahaha. „Das war eine schöne Rede“ auf Bayerisch. Jetzt bist du dran, Hörer, Hörerin. Schreib eine kurze Rede für einen besonderen Anlass. Eine Hochzeit, einen Geburtstag, einen Abschied. Und benutze mindestens drei rhetorische Mittel: eine Anapher, eine Antithese und eine Klimax.
+B: Und achte beim nächsten Mal, wenn du einen Politiker oder eine Werbung hörst, darauf, ob er dich mit Ethos, Pathos oder Logos überzeugen will.
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: die Anapher. Die Wiederholung desselben Wortes am Anfang aufeinanderfolgender Sätze.
+A: Wort Nummer zwei: die Klimax. Eine Steigerung, bei der die Begriffe immer stärker werden.
+B: Wort Nummer drei: die Antithese. Die Gegenüberstellung von Gegensätzen.
+A: Wort Nummer vier: der Sündenbock. Jemand, dem man die Schuld gibt, obwohl er nicht verantwortlich ist.
+B: Wort Nummer fünf: sich etwas borgen. Sich etwas leihen, auch im übertragenen Sinne.
+A: Und Wort Nummer sechs: wortkarg. Jemand, der nur sehr wenig spricht.
+B: Noch einmal: die Anapher, die Klimax, die Antithese, der Sündenbock, sich etwas borgen, wortkarg.
+A: Was nehmen wir mit? Aristoteles' drei Überzeugungsmittel: Ethos, die Glaubwürdigkeit. Pathos, die Gefühle. Logos, die Argumentation. Die wirkungsvollste Rede verbindet alle drei.
+B: Rhetorische Stilmittel: die Anapher, die Klimax, die rhetorische Frage, die Antithese, die Metapher. Und Metaphern prägen unser Denken.
+A: Die Rhetorik kann missbraucht werden, wie die NS-Propaganda zeigt. Darum haben die Deutschen eine gewisse Skepsis gegenüber charismatischen Rednern.
+B: Und zum Schutz: die Mittel kennen, Person und Argument trennen und auf Fehlschlüsse achten.
+A: Das ist das Ende von Folge sechsundachtzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und denk daran: Wer die Mittel kennt, ist schwerer zu manipulieren. Servus!
+A: Tschüss!
+VOCAB: die Anapher | Die Wiederholung desselben Wortes am Anfang aufeinanderfolgender Sätze. | 🔁
+VOCAB: die Klimax | Eine Steigerung, bei der die Begriffe immer stärker werden. | 📈
+VOCAB: die Antithese | Die Gegenüberstellung von Gegensätzen. | ☯️
+VOCAB: der Sündenbock | Jemand, dem man die Schuld gibt, obwohl er nicht verantwortlich ist. | 🐐
+VOCAB: sich etwas borgen | Sich etwas leihen, auch im übertragenen Sinne. | 🤲
+VOCAB: wortkarg | Jemand, der nur sehr wenig spricht. | 🤐
+QUIZ: Worauf bezieht sich das Ethos? | Auf die Glaubwürdigkeit des Redners | Auf die Gefühle des Publikums | Auf die Logik der Argumente | 1
+QUIZ: Was ist eine Anapher? | Eine Frage ohne Antwort | Die Wiederholung desselben Wortes am Satzanfang | Eine Steigerung | 2
+QUIZ: Was stimmt über Kennedys Satz „Ich bin ein Berliner“? | Er hat damit wirklich „Ich bin ein Pfannkuchen“ gesagt | Der Satz war korrekt, und niemand hat ihn missverstanden | Er hat ihn auf Englisch gesagt | 2
+QUIZ: Warum haben viele Deutsche eine Skepsis gegenüber charismatischen Rednern? | Wegen der Erfahrung mit der NS-Propaganda | Weil sie Reden langweilig finden | Weil es verboten ist | 1
+QUIZ: Was hat Lukas' Vater nach Juliens Rede gesagt? | Nichts | „Des war a scheene Red.“ | „Zu lang.“ | 2
+`;
+
+DATA.podScripts.ep087 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge siebenundachtzig. Heute wird es philosophisch. Wir stellen eine Frage, die durch die Automatisierung und die künstliche Intelligenz eine neue Dringlichkeit bekommen hat: Was ist eigentlich der Sinn der Arbeit?
+A: Arbeiten wir nur, um Geld zu verdienen? Oder gibt die Arbeit unserem Leben einen Sinn, eine Struktur, eine Identität? Und was würde mit uns geschehen, wenn Maschinen einen Großteil unserer Arbeit übernähmen?
+B: In Folge dreiundsechzig haben wir die praktischen Folgen der KI für die Arbeitswelt besprochen. In Folge fünfundachtzig das Grundeinkommen. Heute gehen wir eine Ebene tiefer. Zur Philosophie der Arbeit.
+A: Sprachlich üben wir heute den Umgang mit abstrakten Begriffen und Zitaten. Wir lernen, wie man philosophische Gedanken wiedergibt, wie man sich auf Autoren bezieht und wie man Positionen gegeneinander abwägt. Mit Ausdrücken wie: „Ihm zufolge …“, „Im Anschluss an …“, „In Abgrenzung zu …“, „Pointiert formuliert …“, „Dem ist entgegenzuhalten, dass …“
+B: „Ihm zufolge“ oder „laut ihm“ heißt: nach seiner Meinung. Und „zufolge“ steht übrigens meistens nach dem Nomen und mit Dativ: „Marx zufolge“, „der Studie zufolge“. Eine elegante Art, eine Position wiederzugeben.
+A: Gut. Fangen wir ganz am Anfang an. In der Antike hatte die Arbeit einen erstaunlich schlechten Ruf.
+B: Ja. Für Aristoteles und die griechischen Philosophen war körperliche Arbeit etwas für Sklaven. Ein freier Bürger sollte sich der Muße widmen. Der Muße, also der freien Zeit für Philosophie, Politik, Kunst und Gespräch. Das griechische Wort für Muße ist „scholé“, daraus stammt übrigens unser Wort „Schule“.
+A: Das ist eine faszinierende Etymologie. Die Schule war ursprünglich ein Ort der Muße, nicht der Arbeit. Und die Etymologie ist die Lehre von der Herkunft der Wörter.
+B: Und auch in der Bibel ist die Arbeit zunächst eine Strafe. Nach der Vertreibung aus dem Paradies heißt es: „Im Schweiße deines Angesichts sollst du dein Brot essen.“ Arbeit als Mühsal, als Fluch.
+A: Und das deutsche Wort „Arbeit“ hat übrigens eine ähnliche Geschichte. Es stammt vermutlich von einem alten Wort, das so etwas wie „Mühsal“ oder „Not“ bedeutete. Erst mit der Zeit bekam es eine positivere Bedeutung.
+B: Und dann kam die große Wende, die wir in Folge fünfundachtzig schon kurz erwähnt haben: die Reformation. Martin Luther und später der Calvinismus haben die Arbeit aufgewertet. Für Luther war jede ehrliche Arbeit ein Dienst an Gott. Nicht nur das Gebet im Kloster, sondern auch die Arbeit des Bauern oder des Schusters. Das deutsche Wort „Beruf“ hat hier seinen Ursprung.
+A: Ja! „Beruf“ kommt von „Berufung“. Man wird von Gott zu einer Arbeit berufen. Das ist ein Gedanke, der im Deutschen bis heute mitschwingt. „Mitschwingen“ heißt: auch vorhanden sein, unterschwellig mitklingen.
+B: Und Max Weber hat in seiner berühmten Studie über die protestantische Ethik argumentiert, dass dieser religiöse Arbeitsethos eine wichtige Grundlage für die Entstehung des modernen Kapitalismus war. Harte Arbeit und Sparsamkeit wurden zu Tugenden.
+A: Dann kam Karl Marx, im neunzehnten Jahrhundert. Für ihn war die Arbeit zunächst etwas zutiefst Menschliches. Der Mensch verwirklicht sich durch seine Arbeit. Er gestaltet die Welt und sich selbst. Aber im Kapitalismus, so Marx, sei die Arbeit entfremdet.
+B: Die Entfremdung ist ein zentraler Begriff. Was meinte Marx damit?
+A: Marx zufolge ist der Arbeiter in der Fabrik in mehrfacher Hinsicht entfremdet. Von dem Produkt seiner Arbeit, das ihm nicht gehört. Von der Tätigkeit selbst, die monoton und fremdbestimmt ist. Ein Arbeiter am Fließband dreht den ganzen Tag dieselbe Schraube, ohne zu wissen, was am Ende entsteht. Und letztlich ist er auch von sich selbst und den anderen Menschen entfremdet.
+B: Und dieser Gedanke ist erstaunlich aktuell. Wenn man an Menschen denkt, die in einem Lager Pakete sortieren, gesteuert von einem Algorithmus, der jede Sekunde misst. Oder an die Lieferfahrer aus Folge fünfundsechzig.
+A: Und es gibt einen modernen Denker, der diesen Gedanken sehr pointiert weitergeführt hat: der amerikanische Anthropologe David Graeber. Er hat zweitausendachtzehn ein Buch mit dem provokanten Titel „Bullshit Jobs“ veröffentlicht.
+B: Ein bemerkenswerter Titel. Was ist seine These?
+A: Graeber zufolge gibt es in modernen Gesellschaften eine große Zahl von Jobs, die selbst die Menschen, die sie ausüben, für vollkommen sinnlos halten. Jobs, von denen sie heimlich glauben, dass es keinen Unterschied machen würde, wenn es sie nicht gäbe. Oder dass die Welt sogar besser wäre.
+B: Und hat er Beispiele genannt?
+A: Er hat verschiedene Typen beschrieben. Den „Lakaien“, der nur dazu da ist, einen anderen wichtig aussehen zu lassen. Den „Schläger“, dessen Arbeit nur existiert, weil die Konkurrenz auch jemanden dafür hat, etwa in manchen Bereichen der Werbung oder der Unternehmensanwälte. Den „Flickschuster“, der ständig Probleme behebt, die gar nicht existieren müssten. Den „Kästchenankreuzer“, der Berichte schreibt, die niemand liest. Und den „Aufgabenverteiler“, der anderen Arbeit zuweist, die sie auch ohne ihn erledigen könnten.
+B: Hahaha. Der Kästchenankreuzer! Ich glaube, viele Menschen in großen Organisationen erkennen sich darin wieder.
+A: Genau. Und Graeber stellt eine bemerkenswerte Beobachtung an: Oft gilt eine umgekehrte Beziehung zwischen dem gesellschaftlichen Nutzen einer Arbeit und ihrer Bezahlung. Pflegekräfte, Erzieherinnen, Müllwerker, deren Arbeit unverzichtbar ist, verdienen wenig. Manche hochbezahlte Jobs dagegen leisten wenig für die Gesellschaft.
+B: Das hat man während der Pandemie sehr deutlich gesehen. Plötzlich sprach man von „systemrelevanten Berufen“. Die Pflegekraft, der Kassierer im Supermarkt, der Busfahrer. Man hat für sie applaudiert, vom Balkon. Aber an ihrer Bezahlung hat sich wenig geändert.
+A: Dem ist allerdings entgegenzuhalten, dass Graebers These auch kritisiert wurde. Empirische Untersuchungen konnten nicht bestätigen, dass sinnlose Jobs in dem Ausmaß zunehmen, wie er behauptet hat. Und was einem Menschen sinnlos erscheint, kann für das Funktionieren einer Organisation durchaus wichtig sein.
+B: Das ist ein berechtigter Einwand. Aber der Kern bleibt: Viele Menschen erleben ihre Arbeit als sinnlos. Und das hat Folgen. Für ihre Motivation und ihre Gesundheit.
+A: Und jetzt die Automatisierung. Es gibt einen berühmten Essay des Ökonomen John Maynard Keynes aus dem Jahr neunzehnhundertdreißig. Er heißt „Wirtschaftliche Möglichkeiten für unsere Enkelkinder“.
+B: Ja, und Keynes hat darin eine kühne Prognose gewagt. Er sagte voraus, dass die Menschen hundert Jahre später, also etwa im Jahr zweitausenddreißig, dank des technischen Fortschritts nur noch fünfzehn Stunden pro Woche arbeiten würden.
+A: Fünfzehn Stunden! Und wir sind im Jahr zweitausenddreißig fast angekommen. Was ist schiefgelaufen?
+B: In einem Punkt hatte Keynes recht: Die Produktivität ist enorm gestiegen. Wir könnten heute mit viel weniger Arbeit den Lebensstandard von neunzehnhundertdreißig erreichen. Aber statt weniger zu arbeiten, haben wir mehr konsumiert. Unsere Bedürfnisse sind mitgewachsen.
+A: Und Keynes hat übrigens auch eine Sorge geäußert, die ich besonders interessant finde. Er fragte sich, ob die Menschen mit der vielen freien Zeit überhaupt umgehen könnten. Er befürchtete eine Art kollektiven Nervenzusammenbruch. Weil die Menschen jahrhundertelang darauf trainiert worden seien, zu arbeiten, und nicht wüssten, was sie mit ihrer Freiheit anfangen sollen.
+B: Das ist eine bemerkenswert moderne Sorge. Man kennt das Phänomen bei Menschen, die in Rente gehen. Viele fallen in ein Loch, weil ihnen die Struktur und die Anerkennung der Arbeit fehlt. Man spricht vom „Pensionsschock“ oder Rentenschock.
+A: Und hier kommt ein Philosoph ins Spiel, der für unser Thema sehr wichtig ist: die deutsch-amerikanische Philosophin Hannah Arendt. Sie hat in ihrem Werk „Vita activa“ drei Formen menschlicher Tätigkeit unterschieden: das Arbeiten, das Herstellen und das Handeln.
+B: Erklär die Unterscheidung.
+A: Das Arbeiten dient der Erhaltung des Lebens. Essen zubereiten, putzen, die Grundbedürfnisse befriedigen. Es ist ein endloser Kreislauf, denn was man heute macht, muss man morgen wiederholen. Das Herstellen schafft dauerhafte Dinge. Ein Haus, einen Tisch, ein Kunstwerk. Etwas, das bleibt. Und das Handeln ist das Tun zwischen Menschen. Politik, Gespräch, gemeinsames Gestalten der Welt.
+B: Und was ist ihre These in Bezug auf die moderne Gesellschaft?
+A: Arendt warnte schon neunzehnhundertachtundfünfzig vor einer Gefahr. Wir hätten uns in eine „Arbeitsgesellschaft“ verwandelt, die nur noch das Arbeiten kenne. Und sie formulierte einen sehr pointierten Satz: Was uns bevorstehe, sei die Aussicht auf eine Arbeitsgesellschaft, der die Arbeit ausgegangen ist. Also die einzige Tätigkeit, auf die sie sich noch versteht.
+B: Das ist ein beklemmender Gedanke. „Beklemmend“ heißt: bedrückend, beängstigend. Eine Gesellschaft, die nur noch arbeiten kann und der die Arbeit ausgeht.
+A: Genau. Und das ist eigentlich der Kern unserer heutigen Frage. Wenn die Maschinen uns die Arbeit im Sinne Arendts abnehmen, also die mühsame, sich wiederholende Arbeit, dann könnte das eine enorme Befreiung sein. Mehr Zeit für das Herstellen und das Handeln. Für Kunst, Wissenschaft, Politik, Gemeinschaft. Für die Muße der alten Griechen.
+B: Oder es könnte zu einer Krise der Sinngebung führen. Wenn wir nicht gelernt haben, unserem Leben jenseits der Erwerbsarbeit einen Sinn zu geben.
+A: Und es gibt eine neuere Denkrichtung, die genau hier ansetzt. Der Soziologe Hartmut Rosa, einer der bekanntesten deutschen Gegenwartsphilosophen, spricht von „Resonanz“. Er sagt, ein gelingendes Leben hänge nicht von der Menge an Ressourcen ab, sondern davon, ob wir eine lebendige, antwortende Beziehung zur Welt haben.
+B: Resonanz, wie bei einem Musikinstrument. Die Welt spricht zu uns, und wir antworten. Und Arbeit kann eine solche Resonanzerfahrung sein. Wenn der Tischler das Holz spürt. Wenn die Lehrerin merkt, dass ein Schüler etwas verstanden hat. Wenn der Programmierer nach Stunden endlich das Problem gelöst hat.
+A: Aber entfremdete Arbeit ist resonanzlos. Sie ist stumm. Und Rosa zufolge liegt das Problem der modernen Gesellschaft in der ständigen Beschleunigung, die solche Resonanzerfahrungen erschwert.
+B: Jetzt zur Geschichte. Und diesmal geht es um Herrn Wagner. Den Bäcker, der seine Bäckerei an Kenji übergeben hat und in Rente gegangen ist.
+A: Ah, Herr Wagner aus Sachsen! Mit dem starken sächsischen Akzent. Wie geht es ihm?
+B: Am Anfang gar nicht gut. Herr Wagner ist fünfundvierzig Jahre lang jeden Morgen um drei Uhr aufgestanden, um Brot zu backen. Und plötzlich war da nichts mehr. Er wachte trotzdem jeden Morgen um drei Uhr auf. Und wusste nicht, was er tun sollte.
+A: Der Rentenschock. Keynes' Befürchtung im Kleinen.
+B: Genau. Er saß zu Hause, schaute fern, wurde immer stiller. Seine Frau machte sich große Sorgen. Er sagte zu ihr: „Ich bin nichts mehr wert. Ich bin nur noch ein alter Mann, der auf den Tod wartet.“
+A: Das ist erschütternd. Seine ganze Identität hing an seiner Arbeit.
+B: Ja. Und eines Tages kam Kenji vorbei. Er wollte Herrn Wagner eigentlich nur um Rat für ein altes sächsisches Rezept fragen. Den Dresdner Christstollen. Und er merkte sofort, dass es Herrn Wagner schlecht ging.
+A: Und was hat Kenji gemacht?
+B: Er hat Herrn Wagner gefragt, ob er ihm einmal pro Woche helfen würde, die alten Rezepte aufzuschreiben. Herr Wagner hatte viele Rezepte nur im Kopf, nie aufgeschrieben. Und sie würden verloren gehen, wenn niemand sie festhielte.
+A: Das ist klug. Das ist nicht mehr die mühsame Arbeit des täglichen Brotbackens. Das ist Herstellen im Sinne Arendts. Etwas Bleibendes schaffen.
+B: Genau. Und Herr Wagner hat zugestimmt. Und dann ist etwas Unerwartetes passiert. Bei den Gesprächen hat er angefangen, nicht nur Rezepte zu erzählen, sondern auch Geschichten. Wie er als Lehrling in Dresden in der DDR angefangen hat. Wie es war, als nach der Wende die großen Supermärkte kamen und viele kleine Bäckereien schließen mussten. Wie er trotzdem durchgehalten hat.
+A: Und hat Kenji das aufgeschrieben?
+B: Ja. Und zwar mit meiner Hilfe. Ich habe Herrn Wagner interviewt, wie ich es bei meinem Großvater versäumt hatte. Folge vierundsechzig. Und daraus ist ein kleines Buch geworden. Halb Rezeptbuch, halb Lebensgeschichte. „Das Brot meines Lebens“, heißt es.
+A: Wie wunderschön! Und Herr Wagner?
+B: Er ist aufgeblüht. Er hält jetzt Backkurse in einem Nachbarschaftszentrum. Für Kinder und für Geflüchtete. Und er sagt etwas, das mich sehr berührt hat: „Fünfundvierzig Jahre habe ich gearbeitet, um zu leben. Jetzt lebe ich zum ersten Mal, um etwas weiterzugeben.“
+A: Ein Satz, der die ganze Folge zusammenfasst. Der Sinn liegt vielleicht nicht in der Arbeit selbst, sondern in der Resonanz, in dem, was wir weitergeben und mit anderen teilen.
+B: Jetzt bist du dran, Hörer, Hörerin. Was bedeutet Arbeit für dich? Erlebst du sie als sinnvoll oder als entfremdet? Und gib die Position eines Philosophen wieder, mit den Ausdrücken von heute: „Marx zufolge …“, „Arendt unterscheidet zwischen …“, „Dem ist entgegenzuhalten, dass …“
+A: Und überleg dir: Was würdest du tun, wenn du nur noch fünfzehn Stunden pro Woche arbeiten müsstest, wie Keynes es vorausgesagt hat?
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: die Muße. Freie Zeit, die man für geistige oder kreative Tätigkeiten nutzt.
+B: Wort Nummer zwei: zufolge. Nach der Meinung oder Aussage von. Marx zufolge.
+A: Wort Nummer drei: die Entfremdung. Ein Gefühl der Fremdheit gegenüber der eigenen Arbeit, sich selbst und den anderen.
+B: Wort Nummer vier: mitschwingen. Unterschwellig vorhanden sein, mitklingen.
+A: Wort Nummer fünf: beklemmend. Bedrückend und beängstigend.
+B: Und Wort Nummer sechs: aufblühen. Wieder lebendig, fröhlich und aktiv werden, wie eine Blume.
+A: Noch einmal: die Muße, zufolge, die Entfremdung, mitschwingen, beklemmend, aufblühen.
+B: Was nehmen wir mit? In der Antike war Arbeit etwas für Sklaven, und die Muße galt als das Höchste. Das Wort „Schule“ kommt von „scholé“, Muße.
+A: Mit der Reformation wurde die Arbeit aufgewertet, das Wort „Beruf“ kommt von „Berufung“. Marx kritisierte die Entfremdung der Arbeit im Kapitalismus.
+B: Graeber beschrieb sinnlose „Bullshit Jobs“. Keynes sagte eine Fünfzehn-Stunden-Woche voraus und fürchtete, dass die Menschen mit der Freiheit nicht umgehen könnten.
+A: Und Arendt unterschied zwischen Arbeiten, Herstellen und Handeln. Vielleicht liegt der Sinn darin, was wir herstellen und mit anderen teilen.
+B: Das ist das Ende von Folge siebenundachtzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und frag dich heute einmal: Wofür lebst du? Tschüss!
+B: Servus!
+VOCAB: die Muße | Freie Zeit für geistige oder kreative Tätigkeiten. | 📜
+VOCAB: zufolge | Nach der Meinung oder Aussage von: Marx zufolge. | 💬
+VOCAB: die Entfremdung | Ein Gefühl der Fremdheit gegenüber der eigenen Arbeit und sich selbst. | 🌫️
+VOCAB: mitschwingen | Unterschwellig vorhanden sein, mitklingen. | 🎻
+VOCAB: beklemmend | Bedrückend und beängstigend. | 😰
+VOCAB: aufblühen | Wieder lebendig, fröhlich und aktiv werden. | 🌸
+QUIZ: Woher kommt das Wort „Schule“? | Vom griechischen Wort für Muße | Vom lateinischen Wort für Arbeit | Vom Wort für Lehrer | 1
+QUIZ: Was bedeutet „Entfremdung“ bei Marx? | Der Arbeiter ist von seinem Produkt, seiner Tätigkeit und sich selbst entfremdet | Der Arbeiter zieht in ein fremdes Land | Der Arbeiter verdient zu viel | 1
+QUIZ: Was sagte Keynes für das Jahr 2030 voraus? | Eine Fünfzehn-Stunden-Woche | Das Ende der Welt | Mehr Arbeit für alle | 1
+QUIZ: Welche drei Tätigkeiten unterscheidet Hannah Arendt? | Arbeiten, Herstellen, Handeln | Essen, Schlafen, Arbeiten | Lesen, Schreiben, Rechnen | 1
+QUIZ: Was hat Herr Wagner nach seiner Rente gemacht? | Er hat ein Buch mit Rezepten und Lebensgeschichte gemacht und gibt Backkurse | Er ist nach Sachsen gezogen | Er hat eine neue Bäckerei eröffnet | 1
+`;
