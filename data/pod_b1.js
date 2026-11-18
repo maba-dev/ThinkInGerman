@@ -1339,3 +1339,399 @@ QUIZ: Wer baute den ersten programmierbaren Computer? | Konrad Zuse | Johannes G
 QUIZ: Wie erfand Melitta Bentz den Kaffeefilter? | Mit Löschpapier aus dem Schulheft ihres Sohnes | Mit einem Stück Stoff | Mit einer Maschine | 1
 QUIZ: Was ist der Unterschied zwischen „erfinden“ und „entdecken“? | Es gibt keinen Unterschied | Man erfindet etwas Neues, man entdeckt etwas, das schon existiert | Man entdeckt nur Länder | 2
 `;
+
+DATA.podScripts.ep054 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge vierundfünfzig. Heute sprechen wir über Gefühle. Über die Gefühle, die man hat, wenn man in ein anderes Land zieht. Unser Thema: der Kulturschock.
+A: Ein Kulturschock ist ein Gefühl von Verwirrung, Stress oder sogar Angst, wenn man in eine fremde Kultur kommt. Alles ist anders: die Sprache, die Regeln, das Essen, das Verhalten der Menschen. Und man weiß nicht mehr, wie man sich verhalten soll.
+B: Fast jeder, der lange im Ausland lebt, erlebt einen Kulturschock. Auch wenn man vorher denkt: „Ach, Deutschland und Frankreich sind sich doch so ähnlich.“ Dann merkt man: Es gibt viele kleine Unterschiede, die zusammen sehr anstrengend sein können.
+A: Und heute lernen wir viele Wörter, um über Gefühle zu sprechen. Wie fühlt man sich? Einsam, überfordert, frustriert, verwirrt, erleichtert, begeistert, wohl.
+B: „Überfordert“ heißt: Es ist zu viel. Man hat das Gefühl, dass man die Situation nicht mehr schafft. Zu viele neue Informationen, zu viele Aufgaben.
+A: Und „erleichtert“ heißt: Man fühlt sich besser, weil ein Problem gelöst ist. Ein Stein fällt vom Herzen. Das ist auch ein schöner Ausdruck: „Mir ist ein Stein vom Herzen gefallen.“
+B: Und wir benutzen viele reflexive Verben mit Gefühlen: sich fühlen, sich ärgern, sich freuen, sich wundern, sich gewöhnen an, sich wohlfühlen.
+A: „Sich gewöhnen an“ ist besonders wichtig für heute. Es heißt: Etwas wird mit der Zeit normal. „Ich habe mich an das deutsche Wetter gewöhnt.“ Mit Akkusativ.
+B: Und „sich wundern über“ heißt: überrascht sein, etwas seltsam finden. „Ich habe mich gewundert, dass alle bei Rot warten.“
+A: Gut. Die Psychologen sagen, dass der Kulturschock in Phasen verläuft. Normalerweise spricht man von vier Phasen. Jonas, erklärst du sie?
+B: Gern. Die erste Phase heißt „Honeymoon-Phase“ oder „Flitterwochen-Phase“. Die Flitterwochen sind der Urlaub nach der Hochzeit. Alles ist neu und aufregend. Man ist begeistert. Das Essen ist toll, die Stadt ist schön, die Menschen sind interessant. Man macht viele Fotos und schreibt der Familie: „Hier ist alles wunderbar!“
+A: Diese Phase dauert oft ein paar Wochen oder Monate. Und dann kommt die zweite Phase.
+B: Die zweite Phase ist die Krise. Der eigentliche Kulturschock. Die Begeisterung verschwindet. Plötzlich nerven die Unterschiede. Die Bürokratie ist kompliziert, die Menschen wirken kalt, man versteht die Witze nicht, und man vermisst seine Familie, seine Freunde und das Essen von zu Hause.
+A: Man hat Heimweh. Heimweh ist der Schmerz, wenn man seine Heimat vermisst.
+B: Genau. Manche Menschen werden in dieser Phase traurig oder wütend. Sie denken: „Warum bin ich nur hierher gekommen? Bei uns ist alles besser!“ Manche schlafen schlecht oder wollen gar nicht mehr aus der Wohnung.
+A: Das ist eine schwierige Zeit. Aber dann kommt die dritte Phase: die Anpassung.
+B: Ja. Langsam versteht man die neue Kultur besser. Man lernt die Regeln. Man spricht besser die Sprache. Man findet Freunde. Und man merkt: Die Menschen sind nicht kalt, sie sind nur anders. Man beginnt, sich anzupassen.
+A: „Sich anpassen“ heißt: sich verändern, um besser in eine neue Situation zu passen.
+B: Und die vierte Phase ist die Integration oder die Akzeptanz. Man fühlt sich wohl in der neuen Kultur. Man hat ein neues Zuhause gefunden. Man kann zwischen den Kulturen wechseln. Man nimmt das Beste aus beiden Welten.
+A: Und es gibt noch eine fünfte Phase, die viele vergessen: der umgekehrte Kulturschock. Wenn man nach Jahren wieder nach Hause zurückkehrt. Und plötzlich ist die eigene Kultur fremd.
+B: Oh ja, das ist interessant! Man denkt, man kommt nach Hause und alles ist wie früher. Aber man hat sich verändert. Und die Heimat hat sich auch verändert.
+A: Gut. Jetzt sprechen wir über typische Dinge, die Ausländer in Deutschland überraschen. Was sind die größten Kulturschocks?
+B: Nummer eins ist bestimmt die Direktheit. Die Deutschen sagen sehr direkt, was sie denken. Wenn dein Kollege deine Präsentation nicht gut findet, sagt er: „Das war nicht gut. Die Folien waren zu voll.“ Ohne viel Höflichkeit drumherum.
+A: Das empfinden viele Leute als unhöflich oder sogar als aggressiv. Besonders Menschen aus Kulturen, in denen man indirekter kommuniziert. Zum Beispiel aus Japan, aus England oder aus vielen Ländern in Asien und Südamerika.
+B: Aber für die Deutschen ist das ehrlich und effizient. Die Kritik ist sachlich, nicht persönlich gemeint. Man kritisiert die Arbeit, nicht die Person.
+A: Genau. Und das Gegenteil: Wenn ein Deutscher nichts sagt, ist das oft schon ein Lob. „Nicht geschimpft ist genug gelobt“, sagt ein Sprichwort aus Schwaben. Wenn niemand schimpft, war es gut.
+B: Hahaha. Das ist sehr schwäbisch! Nummer zwei: Die Regeln und die Ordnung. Rote Ampeln, Ruhezeiten, Mülltrennung, der Sonntag. Viele Ausländer wundern sich, wie wichtig Regeln in Deutschland sind.
+A: Und dass andere Menschen einen korrigieren, wenn man eine Regel bricht. Eine fremde Person auf der Straße sagt dir: „Sie dürfen hier nicht mit dem Fahrrad fahren!“ Das passiert in vielen Ländern nie.
+B: Ja, wie Frau Schulze mit dem Müll in Folge fünfzig. Nummer drei: Der Small Talk, oder besser gesagt, der fehlende Small Talk.
+A: Genau. In Deutschland redet man nicht so viel mit Fremden. Im Supermarkt, im Bus, im Aufzug. Viele Menschen aus Amerika oder Südeuropa finden das kalt. Und wenn man fragt: „Wie geht's?“, erwartet man eine ehrliche Antwort. Nicht nur „Gut, danke!“
+B: Hahaha, ja! Ein Deutscher erzählt dir dann vielleicht zehn Minuten über seine Rückenschmerzen.
+A: Hahaha. Genau! Nummer vier: Der Sonntag. Alle Geschäfte sind zu. Für Menschen aus Ländern, in denen man jeden Tag einkaufen kann, ist das am Anfang schwer.
+B: Nummer fünf: Bargeld und Bürokratie. Darüber haben wir schon gesprochen. Formulare, Termine, Faxe, Stempel. Und dass man in manchen Restaurants nicht mit Karte zahlen kann.
+A: Und Nummer sechs: die Nacktheit. Die Sauna, FKK am Strand, Nacktbaden im See. Die Deutschen haben ein entspanntes Verhältnis zur Nacktheit. Das überrascht viele.
+B: FKK heißt „Freikörperkultur“. Das ist eine Bewegung, bei der Menschen in der Natur nackt sind. Besonders in Ostdeutschland war das sehr beliebt. Es gibt spezielle FKK-Strände.
+A: Und umgekehrt: Was ist für Deutsche im Ausland ein Kulturschock? Jonas, als du in Barcelona warst?
+B: Oh, die Uhrzeiten! In Spanien isst man um vierzehn oder fünfzehn Uhr zu Mittag und um zweiundzwanzig Uhr zu Abend. Als ich um neunzehn Uhr in ein Restaurant gehen wollte, war es leer. Der Kellner hat mich angeschaut, als wäre ich verrückt.
+A: Hahaha. Neunzehn Uhr ist in Deutschland die perfekte Zeit für das Abendessen.
+B: Und die Pünktlichkeit! Wenn man in Spanien sagt „Wir treffen uns um acht“, kommen die meisten um halb neun oder neun. Ich war immer der Erste und habe eine halbe Stunde allein gewartet.
+A: Bei mir in Kanada war es die Freundlichkeit. Alle waren so nett! Die Verkäuferin im Supermarkt fragte: „How are you today?“ Und ich habe angefangen, ihr von meinem Tag zu erzählen. Und sie hat mich ganz komisch angeschaut. Sie wollte keine Antwort! Es war nur eine Begrüßung!
+B: Hahaha! Der typische deutsche Fehler! Man nimmt die Frage wörtlich.
+A: Ja. Das war mir sehr peinlich. Jetzt Tipps. Wie geht man mit einem Kulturschock um?
+B: Erstens: Wissen, dass es normal ist. Fast jeder erlebt das. Es ist keine Schwäche. Und die Krise geht vorbei.
+A: Zweitens: Neugierig bleiben. Statt zu urteilen, fragen: Warum machen die Menschen das so? Was steckt dahinter? Oft gibt es gute Gründe für ein Verhalten, das zuerst seltsam wirkt.
+B: Drittens: Die Sprache lernen. Je besser man die Sprache spricht, desto besser versteht man die Kultur. Und desto leichter findet man Freunde.
+A: Viertens: Kontakt zu anderen suchen. Sowohl zu Einheimischen als auch zu anderen Ausländern. Die anderen Ausländer verstehen deine Gefühle. Und die Einheimischen helfen dir, die Kultur zu verstehen.
+B: Fünftens: Etwas von zu Hause behalten. Ein Ritual, ein Gericht, Musik. Das gibt Sicherheit. Zum Beispiel einmal pro Woche das Lieblingsessen aus der Heimat kochen.
+A: Und sechstens: Geduld mit sich selbst haben. Man muss nicht nach drei Monaten perfekt integriert sein. Das dauert Jahre.
+B: Jetzt zur Geschichte von Amira. Wir kennen sie ja schon lange. Aber heute erzählt sie uns, wie es wirklich am Anfang war. Nicht nur die schönen Momente.
+A: Ja, Amira hat mit uns gesprochen, und sie war sehr ehrlich. In den ersten Wochen war sie begeistert, die Honeymoon-Phase. Alles war neu und spannend. Die Stadtführung mit Jana, die Party, die neuen Freunde.
+B: Und dann?
+A: Nach drei Monaten kam die Krise. Es war Februar, es war dunkel und kalt. Im Krankenhaus waren die Kolleginnen gestresst und sprachen sehr schnell und sehr direkt mit ihr. Eine ältere Kollegin sagte einmal vor allen Patienten: „Frau Benali, so macht man das nicht. Das ist falsch.“
+B: Oh, das ist hart.
+A: Ja. In Marokko hätte man ihr das nie so vor anderen gesagt. Man hätte es privat und viel freundlicher gesagt. Amira fühlte sich gedemütigt. „Gedemütigt“ heißt: Man fühlt sich klein und schlecht, weil jemand einen vor anderen kritisiert hat.
+B: Wie hat sie reagiert?
+A: Sie ist auf die Toilette gegangen und hat geweint. Und am Abend hat sie ihre Mutter angerufen und gesagt: „Mama, ich komme nach Hause. Die Menschen hier sind so kalt.“
+B: Oh nein. Und was hat ihre Mutter gesagt?
+A: Ihre Mutter hat gesagt: „Amira, du bist so weit gekommen. Gib nicht jetzt auf. Gib dir noch drei Monate.“ Und Amira hat zugestimmt.
+B: Eine weise Mutter! Und was hat sich verändert?
+A: Ein paar Tage später hat Amira mit Jana gesprochen. Jana hat ihr erklärt: „Die Kollegin wollte dich nicht verletzen. In Deutschland sagt man Kritik direkt. Das ist nicht persönlich. Und weißt du was? Sie hat mir letzte Woche gesagt, dass du die beste neue Kollegin seit Jahren bist.“
+B: Wow! Das hat Amira wahrscheinlich sehr überrascht.
+A: Total! Sie konnte es nicht glauben. Die Kollegin, die sie so kritisiert hatte, hatte gleichzeitig hinter ihrem Rücken etwas sehr Positives gesagt. Amira hat in diesem Moment verstanden: Die Kultur funktioniert einfach anders. Die Kritik ist direkt, aber das Lob ist leise.
+B: Das ist eine wichtige Erkenntnis.
+A: Ja. Und danach hat sie angefangen, sich anzupassen. Sie hat gelernt, die direkte Kritik nicht persönlich zu nehmen. Und manchmal sagt sie jetzt selbst sehr direkt ihre Meinung. Lukas sagt manchmal lachend: „Du bist deutscher als ich!“
+B: Hahaha. Und die Heimweh-Momente?
+A: Die gibt es immer noch. Besonders im Ramadan oder bei Familienfesten. Aber sie hat ein Ritual. Jeden Freitag kocht sie Couscous, wie ihre Mutter. Und sie lädt Freunde ein. Und so teilt sie ihre Kultur mit ihren neuen Freunden. Das Beste aus beiden Welten.
+B: Wie schön. Und als sie letztes Jahr zum ersten Mal nach drei Jahren wieder nach Casablanca geflogen ist?
+A: Da hatte sie den umgekehrten Kulturschock! Sie hat sich gewundert, dass niemand pünktlich war. Und dass ihre Familie sie ständig gefragt hat, wann sie heiratet. Hahaha. Sie hat gemerkt, dass sie jetzt zwei Heimaten hat.
+B: Zwei Heimaten. Das ist ein schönes Ende. Jetzt bist du dran, Hörer, Hörerin. Was hat dich in Deutschland oder in einer anderen Kultur überrascht? Sag es laut: „Ich habe mich gewundert, dass …“
+A: Und woran hast du dich schon gewöhnt? „Ich habe mich an … gewöhnt.“ Oder woran kannst du dich noch nicht gewöhnen?
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: der Kulturschock. Das Gefühl von Stress und Verwirrung in einer fremden Kultur.
+B: Wort Nummer zwei: das Heimweh. Der Schmerz, wenn man seine Heimat vermisst.
+A: Wort Nummer drei: überfordert. Es ist zu viel, man schafft die Situation nicht mehr.
+B: Wort Nummer vier: sich gewöhnen an. Etwas wird mit der Zeit normal. Ich habe mich an das Wetter gewöhnt.
+A: Wort Nummer fünf: sich anpassen. Sich verändern, um besser in eine neue Situation zu passen.
+B: Und Wort Nummer sechs: erleichtert. Man fühlt sich besser, weil ein Problem gelöst ist.
+A: Noch einmal: der Kulturschock, das Heimweh, überfordert, sich gewöhnen an, sich anpassen, erleichtert.
+B: Was lernen wir heute? Die Phasen des Kulturschocks: Honeymoon, Krise, Anpassung, Integration. Und der umgekehrte Kulturschock.
+A: Typische Kulturschocks in Deutschland: die Direktheit, die Regeln, wenig Small Talk, der Sonntag und die Bürokratie.
+B: Die Tipps: wissen, dass es normal ist, neugierig bleiben, die Sprache lernen, Kontakte suchen und Geduld haben.
+A: Und: In Deutschland ist die Kritik oft direkt, aber das Lob ist leise.
+B: Das ist das Ende von Folge vierundfünfzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und wenn du gerade in der Krise bist: Gib dir noch drei Monate! Tschüss!
+B: Servus!
+VOCAB: der Kulturschock | Das Gefühl von Stress und Verwirrung in einer fremden Kultur. | 🌍
+VOCAB: das Heimweh | Der Schmerz, wenn man seine Heimat vermisst. | 🏠
+VOCAB: überfordert | Es ist zu viel, man schafft die Situation nicht mehr. | 😵
+VOCAB: sich gewöhnen an | Etwas wird mit der Zeit normal. | 🔄
+VOCAB: sich anpassen | Sich verändern, um besser in eine neue Situation zu passen. | 🦎
+VOCAB: erleichtert | Man fühlt sich besser, weil ein Problem gelöst ist. | 😮‍💨
+QUIZ: Wie heißt die erste Phase des Kulturschocks? | Die Krise | Die Honeymoon-Phase | Die Anpassung | 2
+QUIZ: Was bedeutet „Nicht geschimpft ist genug gelobt“? | Man lobt sehr oft | Wenn niemand schimpft, war es gut | Man schimpft nie | 2
+QUIZ: Was hat Jonas in Spanien überrascht? | Die späten Essenszeiten | Die Mülltrennung | Die Sauna | 1
+QUIZ: Was hat Amiras Mutter ihr geraten? | Sofort nach Hause zu kommen | Sich noch drei Monate Zeit zu geben | Den Job zu wechseln | 2
+QUIZ: Was kocht Amira jeden Freitag? | Couscous | Schnitzel | Tajine | 1
+`;
+
+DATA.podScripts.ep055 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Uaaah … Entschuldigung, ich gähne! Folge fünfundfünfzig. Und das Gähnen passt perfekt zum Thema. Heute sprechen wir über Schlaf und Produktivität.
+A: Hahaha. Jonas, hast du wieder zu wenig geschlafen?
+B: Ja, leider. Ich habe gestern bis zwei Uhr an meinem Buch geschrieben. Die Nachteule hat wieder zugeschlagen.
+A: Dann ist diese Folge genau richtig für dich. Wir erklären heute auf einfache Weise, was die Wissenschaft über Schlaf weiß. Warum schlafen wir? Wie viel Schlaf brauchen wir? Und was passiert, wenn wir zu wenig schlafen?
+B: Und wir lernen, wie man über wissenschaftliche Themen spricht. Mit Ausdrücken wie: „Studien zeigen, dass …“, „Forscher haben herausgefunden, dass …“, „Laut Experten …“, „Es ist erwiesen, dass …“
+A: „Erwiesen“ heißt: bewiesen, sicher, durch Forschung gezeigt. Und „laut“ heißt hier: nach Meinung von. „Laut der Studie schlafen Deutsche durchschnittlich sieben Stunden.“
+B: Und wir wiederholen die Nebensätze. Mit „dass“, „weil“, „wenn“ und neu: „obwohl“. „Obwohl“ zeigt einen Gegensatz. „Obwohl ich müde bin, arbeite ich weiter.“ Das ist eigentlich nicht logisch, aber ich mache es trotzdem.
+A: Und das Verb steht wieder am Ende, wie bei „weil“ und „dass“. „Obwohl ich gut geschlafen habe, bin ich müde.“
+B: Gut. Fangen wir mit der Grundfrage an. Warum schlafen wir überhaupt? Das ist eigentlich ein Rätsel. Ein Drittel unseres Lebens verbringen wir im Schlaf! Wenn wir achtzig Jahre alt werden, haben wir über fünfundzwanzig Jahre geschlafen.
+A: Fünfundzwanzig Jahre! Das ist unglaublich. Und lange wussten die Wissenschaftler nicht genau, warum wir so viel Zeit dafür brauchen.
+B: Heute weiß man, dass der Schlaf viele wichtige Funktionen hat. Erstens: das Gedächtnis. Im Schlaf verarbeitet das Gehirn alles, was wir am Tag erlebt und gelernt haben. Es sortiert die Informationen und speichert die wichtigen im Langzeitgedächtnis.
+A: Das ist besonders wichtig für uns, die eine Sprache lernen! Forscher haben herausgefunden, dass man neue Wörter besser behält, wenn man nach dem Lernen gut schläft.
+B: Genau. Es ist also eine gute Idee, am Abend vor dem Schlafen noch ein paar Wörter zu wiederholen. Oder eine Podcast-Folge zu hören.
+A: Hahaha. Aber nicht so spannend, dass man nicht einschlafen kann!
+B: Zweitens: die Reinigung. Im Schlaf reinigt sich das Gehirn. Es entfernt Abfallstoffe, die sich am Tag gesammelt haben. Wie eine Putzkolonne in der Nacht.
+A: Drittens: die Erholung des Körpers. Die Muskeln erholen sich, das Immunsystem wird gestärkt. Studien zeigen, dass Menschen, die wenig schlafen, öfter krank werden.
+B: Und viertens: die Gefühle. Im Schlaf werden Emotionen verarbeitet. Wer zu wenig schläft, ist schneller gereizt, ängstlicher und hat schlechtere Laune.
+A: „Gereizt“ heißt: schnell wütend, schnell genervt. Wie Jonas nach dem Fasten! Hahaha.
+B: Hahaha. Genau. Jetzt die Schlafphasen. Der Schlaf ist nicht immer gleich. Es gibt verschiedene Phasen. Den leichten Schlaf, den Tiefschlaf und den REM-Schlaf.
+A: Im Tiefschlaf erholt sich vor allem der Körper. Und im REM-Schlaf träumen wir am meisten. REM steht für „Rapid Eye Movement“, also schnelle Augenbewegungen. In dieser Phase bewegen sich die Augen unter den Augenlidern hin und her.
+B: Und diese Phasen wiederholen sich mehrmals pro Nacht. Ein Zyklus dauert ungefähr neunzig Minuten. Darum fühlt man sich manchmal müder, wenn man mitten im Tiefschlaf geweckt wird, als wenn man am Ende eines Zyklus aufwacht.
+A: Gut. Wie viel Schlaf brauchen wir? Laut Experten brauchen Erwachsene zwischen sieben und neun Stunden pro Nacht. Jugendliche brauchen mehr, acht bis zehn Stunden. Und Babys bis zu siebzehn Stunden.
+B: Aber es gibt individuelle Unterschiede. Manche Menschen fühlen sich mit sieben Stunden fit, andere brauchen neun. Es gibt auch sehr wenige Menschen, die genetisch bedingt mit sechs Stunden auskommen. Aber das ist sehr selten. Die meisten, die denken, sie brauchen wenig Schlaf, sind einfach chronisch müde.
+A: Und laut Umfragen schlafen viele Deutsche zu wenig. Ungefähr ein Drittel der Erwachsenen schläft regelmäßig weniger als sechs Stunden. Und viele haben Schlafprobleme.
+B: Jetzt zu den Chronotypen. Das passt perfekt zu uns. Lena, du bist eine Lerche, und ich bin eine Eule. Das ist nicht nur ein Witz, das ist Wissenschaft!
+A: Ja! Der Chronotyp ist der natürliche Rhythmus eines Menschen. Lerchen werden früh müde und wachen früh auf. Sie sind am Morgen am produktivsten. Eulen werden spät müde und wachen spät auf. Sie sind am Abend am produktivsten.
+B: Und die meisten Menschen sind irgendwo dazwischen. Und der Chronotyp ist zum großen Teil genetisch. Man kann ihn nur ein bisschen verändern.
+A: Das Problem ist: Unsere Gesellschaft ist für Lerchen gemacht. Die Schule beginnt um acht, die Arbeit oft um acht oder neun. Die Eulen müssen jeden Tag gegen ihre innere Uhr kämpfen. Das nennt man „sozialen Jetlag“.
+B: Sozialer Jetlag! Das ist ein toller Begriff. Ein Jetlag ist das Gefühl nach einem langen Flug in eine andere Zeitzone. Man ist müde, obwohl es Tag ist. Und viele Eulen fühlen sich jeden Montag so.
+A: Genau. Und besonders Jugendliche sind oft Eulen. Ihr Rhythmus verschiebt sich in der Pubertät nach hinten. Darum sind viele Schüler in der ersten Stunde um acht Uhr total müde. Es gibt Schulen, die darum später beginnen. Und die Schüler haben bessere Noten.
+B: Ich wünschte, meine Schule hätte das gemacht! Ich habe in der ersten Stunde immer geschlafen. Besonders in Mathe. Hahaha.
+A: Darum warst du schlecht in Mathe! Nicht weil du dumm warst, sondern weil du eine Eule bist!
+B: Endlich eine wissenschaftliche Ausrede! Danke, Lena!
+A: Hahaha. Jetzt die Produktivität. Was passiert, wenn wir zu wenig schlafen?
+B: Studien zeigen, dass schon eine Nacht mit wenig Schlaf die Konzentration, das Gedächtnis und die Kreativität stark verschlechtert. Nach vierundzwanzig Stunden ohne Schlaf reagiert man ungefähr so langsam wie mit einem Promille Alkohol im Blut.
+A: Ein Promille! Damit darf man in Deutschland nicht mehr Auto fahren. Die Grenze ist null Komma fünf Promille.
+B: Genau. Und Menschen mit zu wenig Schlaf überschätzen ihre Leistung. Sie denken, sie sind fit. Aber Tests zeigen, dass sie viel mehr Fehler machen.
+A: Und langfristig? Wenn man über Monate und Jahre zu wenig schläft, steigt das Risiko für viele Krankheiten. Herzkrankheiten, Diabetes, Übergewicht, Depressionen.
+B: Das ist ernst. Darum sagen viele Experten: Schlaf ist kein Luxus, sondern eine Notwendigkeit. Wie Essen und Trinken.
+A: Und in manchen Firmen gibt es eine Kultur, in der man stolz ist, wenig zu schlafen. „Ich schlafe nur vier Stunden, ich arbeite so viel!“ Das ist eigentlich gefährlich.
+B: Ja. Und der Mittagsschlaf? Die Siesta? Ist das gut?
+A: Ein kurzer Mittagsschlaf ist laut Studien sehr gut. Aber nur zehn bis zwanzig Minuten. Das nennt man auch „Powernap“. Länger sollte er nicht sein, sonst kommt man in den Tiefschlaf und ist danach noch müder.
+B: Und es gibt einen Trick, den ich kenne: Man trinkt einen Kaffee und legt sich sofort danach zwanzig Minuten hin. Das Koffein wirkt nach ungefähr zwanzig Minuten. Man wacht also genau dann auf, wenn der Kaffee wirkt!
+A: Hahaha. Der Kaffee-Nap! Typisch Jonas. Jetzt Tipps für einen besseren Schlaf. Laut Experten gibt es ein paar einfache Regeln. Man nennt das „Schlafhygiene“.
+B: Erstens: Regelmäßige Zeiten. Jeden Tag ungefähr zur gleichen Zeit ins Bett gehen und aufstehen. Auch am Wochenende! Das ist schwer, aber sehr wirksam.
+A: Zweitens: Kein Bildschirm eine Stunde vor dem Schlafen. Das blaue Licht von Handy und Laptop sagt dem Gehirn: Es ist noch Tag! Und es produziert weniger Melatonin. Melatonin ist das Hormon, das uns müde macht.
+B: Drittens: Ein dunkles, ruhiges und kühles Schlafzimmer. Die ideale Temperatur liegt bei ungefähr sechzehn bis achtzehn Grad.
+A: Viertens: Kein Kaffee nach vierzehn Uhr. Das Koffein bleibt viele Stunden im Körper. Auch wenn man es nicht merkt, verschlechtert es den Schlaf.
+B: Oh nein. Ich trinke meinen letzten Kaffee oft um achtzehn Uhr.
+A: Jonas! Das erklärt vieles. Fünftens: Kein Alkohol am Abend. Viele denken, dass Alkohol beim Einschlafen hilft. Das stimmt, aber der Schlaf ist danach viel schlechter. Man wacht öfter auf.
+B: Und sechstens: Tageslicht am Morgen. Wenn man morgens nach draußen geht, hilft das der inneren Uhr. Darum ist der Spaziergang mit Strudel am Morgen eigentlich sehr gut für mich.
+A: Siehst du? Strudel ist dein Schlaftherapeut! Hahaha.
+B: Hahaha. Jetzt zur Geschichte. Julien hat ein Problem. Er schläft seit Wochen sehr schlecht. Er hat ein großes Projekt bei der Arbeit, eine neue Piscine und dazu viele Workshops. Er arbeitet bis Mitternacht am Laptop. Und dann liegt er im Bett und kann nicht einschlafen. Weil er an den Code denkt.
+A: Ah, das kenne ich. Das Gedankenkarussell. Man denkt und denkt und kann nicht aufhören.
+B: Genau. Am Morgen ist er total müde und trinkt drei Kaffee. Am Nachmittag noch zwei. Und am Abend ist er dann wieder wach und kann nicht schlafen. Ein Teufelskreis.
+A: „Ein Teufelskreis“ ist eine Situation, in der ein Problem ein anderes Problem verursacht, und das wieder das erste Problem verstärkt. Man kommt nicht heraus.
+B: Genau. Und dann passierte etwas. Bei einem Workshop hat Julien einen großen Fehler gemacht. Er hat einen Teil vom Code gelöscht, an dem die Studenten zwei Wochen gearbeitet hatten. Aus Versehen, weil er so müde war.
+A: Oh nein! Was ist passiert?
+B: Zum Glück gab es eine Sicherungskopie. Aber Julien war geschockt. Und Katrin hat ihn zur Seite genommen und gesagt: „Julien, du siehst furchtbar aus. Du musst etwas ändern.“
+A: Gut, dass sie es ehrlich sagt. Was hat er geändert?
+B: Er hat mit Amira gesprochen. Sie arbeitet ja im Krankenhaus und kennt sich gut aus. Sie hat ihm die Tipps zur Schlafhygiene gegeben. Und er hat einen Plan gemacht.
+A: Welchen Plan?
+B: Erstens: Ab einundzwanzig Uhr kein Laptop mehr. Er schreibt alle Gedanken über die Arbeit auf einen Zettel. So muss er im Bett nicht mehr daran denken. Zweitens: Kein Kaffee nach vierzehn Uhr. Statt Kaffee trinkt er am Nachmittag Kräutertee. Drittens: Jeden Morgen eine halbe Stunde mit dem Fahrrad zur Arbeit. Bei Tageslicht.
+A: Und viertens?
+B: Viertens: Er liest am Abend ein Buch auf Deutsch. Ein echtes Buch aus Papier. Herr Krüger hat ihm einen Krimi geschenkt. Und nach zwanzig Seiten schläft er ein. Hahaha. Nicht weil das Buch langweilig ist, sondern weil er entspannt ist.
+A: Und? Hat es funktioniert?
+B: Nach zwei Wochen ja. Am Anfang war es schwer, besonders ohne den Nachmittagskaffee. Aber jetzt schläft er wieder sieben bis acht Stunden. Und er sagt: „Ich bin produktiver, obwohl ich weniger arbeite. Ich schaffe in sechs Stunden mit Schlaf mehr als früher in zehn Stunden ohne Schlaf.“
+A: Das ist die wichtigste Erkenntnis. Mehr Schlaf bedeutet nicht weniger Arbeit, sondern bessere Arbeit.
+B: Jetzt bist du dran, Hörer, Hörerin. Bist du eine Lerche oder eine Eule? Sag es laut: „Ich bin eine …, weil …“
+A: Und wie viele Stunden schläfst du? Und was könntest du verbessern? „Obwohl ich …, schlafe ich …“ „Ich sollte …“
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: erwiesen. Bewiesen, durch Forschung gezeigt. Es ist erwiesen, dass Schlaf wichtig ist.
+B: Wort Nummer zwei: obwohl. Für einen Gegensatz. Obwohl ich müde bin, arbeite ich weiter.
+A: Wort Nummer drei: das Gedächtnis. Die Fähigkeit, sich an Dinge zu erinnern.
+B: Wort Nummer vier: gereizt. Schnell wütend und genervt.
+A: Wort Nummer fünf: der Chronotyp. Der natürliche Rhythmus: Lerche oder Eule.
+B: Und Wort Nummer sechs: der Teufelskreis. Ein Problem verursacht ein anderes und verstärkt sich selbst.
+A: Noch einmal: erwiesen, obwohl, das Gedächtnis, gereizt, der Chronotyp, der Teufelskreis.
+B: Was lernen wir heute? Ausdrücke für Wissenschaft: „Studien zeigen, dass …“, „Laut Experten …“, „Es ist erwiesen, dass …“
+A: Nebensätze mit „obwohl“: Obwohl ich müde bin, arbeite ich. Das Verb am Ende.
+B: Der Schlaf ist wichtig für das Gedächtnis, die Erholung und die Gefühle. Erwachsene brauchen sieben bis neun Stunden.
+A: Lerchen und Eulen, der soziale Jetlag und die Schlafhygiene: regelmäßige Zeiten, kein Bildschirm am Abend, kein Kaffee nach vierzehn Uhr.
+B: Das ist das Ende von Folge fünfundfünfzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und dann: Gute Nacht! Oder guten Morgen, wenn du eine Lerche bist! Tschüss!
+B: Servus! Ich gehe jetzt schlafen. Ehrlich!
+VOCAB: erwiesen | Bewiesen, durch Forschung gezeigt. | 🔬
+VOCAB: obwohl | Für einen Gegensatz: Obwohl ich müde bin, arbeite ich. | ↔️
+VOCAB: das Gedächtnis | Die Fähigkeit, sich an Dinge zu erinnern. | 🧠
+VOCAB: gereizt | Schnell wütend und genervt. | 😠
+VOCAB: der Chronotyp | Der natürliche Schlafrhythmus: Lerche oder Eule. | 🦉
+VOCAB: der Teufelskreis | Ein Problem verursacht ein anderes und verstärkt sich selbst. | 🌀
+QUIZ: Wie viel Schlaf brauchen Erwachsene laut Experten? | Vier bis fünf Stunden | Sieben bis neun Stunden | Zehn bis zwölf Stunden | 2
+QUIZ: Welcher Satz ist richtig? | Obwohl ich bin müde, arbeite ich. | Obwohl ich müde bin, arbeite ich. | Obwohl ich müde bin, ich arbeite. | 2
+QUIZ: Was ist der „soziale Jetlag“? | Müdigkeit nach einem Flug | Eulen müssen gegen ihre innere Uhr leben | Zu viele Partys | 2
+QUIZ: Wie lang sollte ein Mittagsschlaf sein? | Zehn bis zwanzig Minuten | Zwei Stunden | Eine Stunde | 1
+QUIZ: Was macht Julien jetzt ab einundzwanzig Uhr nicht mehr? | Lesen | Am Laptop arbeiten | Tee trinken | 2
+`;
+
+DATA.podScripts.ep056 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge sechsundfünfzig. Heute sprechen wir über ein Thema, bei dem Lena und ich sehr unterschiedliche Meinungen haben. Videospiele.
+A: Hahaha. Ja, das stimmt. Jonas spielt gern, ich fast nie. Und die Frage heute ist: Sind Videospiele nur ein Hobby? Oder können sie auch ein Beruf sein? Und sind sie gut oder schlecht für uns?
+B: Wir sprechen über die Gaming-Branche. Eine Branche ist ein Bereich der Wirtschaft. Die Autobranche, die Modebranche, die IT-Branche. Und die Gaming-Branche ist heute riesig. Sie macht mehr Umsatz als die Film- und Musikindustrie zusammen.
+A: Der Umsatz ist das ganze Geld, das eine Firma oder Branche mit ihren Produkten einnimmt. Wow, mehr als Film und Musik zusammen? Das wusste ich nicht.
+B: Ja! Weltweit spielen über drei Milliarden Menschen Videospiele. Auf dem Handy, auf dem Computer, auf der Konsole. In Deutschland spielt ungefähr jede zweite Person regelmäßig. Und das Durchschnittsalter der Spieler ist über dreißig Jahre!
+A: Über dreißig? Ich dachte, das sind vor allem Kinder und Jugendliche.
+B: Das ist ein Vorurteil. Ein Vorurteil ist eine feste Meinung über etwas, ohne es genau zu kennen. Die Spieler, die als Kinder in den Achtziger- und Neunzigerjahren angefangen haben, spielen heute noch. Und viele ältere Menschen spielen auf dem Handy. Rätselspiele, Kartenspiele, Wortspiele.
+A: Stimmt. Meine Oma Hilde spielt jeden Tag ein Wortspiel auf ihrem Handy! Ich hätte nie gedacht, dass sie eine Gamerin ist. Hahaha.
+B: Siehst du! Oma Hilde ist eine Gamerin! Und heute lernen wir viele Wörter aus diesem Bereich. Und wir üben, wie man eine Debatte führt, mit Pro- und Contra-Argumenten. Und mit Ausdrücken wie: „Ich verstehe deinen Punkt, aber …“, „Da muss ich dir widersprechen.“, „Das ist ein gutes Argument.“
+A: Gut. Jonas, du bist der Gamer. Fang an. Was spielst du?
+B: Ich spiele vor allem Strategiespiele und Abenteuerspiele mit einer guten Geschichte. Am liebsten Spiele, in denen man eine ganze Welt erkunden kann. „Erkunden“ heißt: einen unbekannten Ort entdecken und kennenlernen.
+A: Und wie viel spielst du?
+B: Vielleicht fünf Stunden pro Woche. Meistens am Sonntagabend, zum Entspannen. Für mich ist das wie ein gutes Buch oder eine gute Serie. Nur interaktiv. Ich bin nicht nur Zuschauer, sondern Teil der Geschichte.
+A: Hmm. Da muss ich dir ein bisschen widersprechen. Ich finde, ein Buch regt die Fantasie mehr an. Beim Lesen muss ich mir alles selbst vorstellen. Im Spiel sehe ich alles schon auf dem Bildschirm.
+B: Ich verstehe deinen Punkt. Aber bei vielen Spielen muss man Entscheidungen treffen. Die Geschichte verändert sich je nach meinen Entscheidungen. Das ist eine ganz andere Art von Kreativität. Man fragt sich: Was würde ich in dieser Situation tun?
+A: Das ist ein gutes Argument. Okay. Fangen wir mit den Vorteilen an. Was sagt die Forschung? Sind Videospiele gut für uns?
+B: Es gibt viele Studien, die positive Effekte zeigen. Erstens: Bestimmte Spiele verbessern die Reaktionsgeschwindigkeit, die räumliche Vorstellung und die Konzentration. Besonders Actionspiele.
+A: Die räumliche Vorstellung ist die Fähigkeit, sich Dinge in drei Dimensionen vorzustellen. Wichtig zum Beispiel für Architekten oder Chirurgen.
+B: Genau. Es gibt sogar Studien mit Chirurgen. Chirurgen, die regelmäßig Videospiele spielen, machen bei bestimmten Operationen weniger Fehler.
+A: Interessant! Zweitens?
+B: Zweitens: Problemlösung. Viele Spiele sind Rätsel. Man muss nachdenken, planen, Strategien entwickeln. Und man lernt, mit Fehlern umzugehen. Wenn man im Spiel verliert, probiert man es einfach noch einmal. Das trainiert die Frustrationstoleranz.
+A: Frustrationstoleranz! Ein schönes langes Wort. Es heißt: die Fähigkeit, Frust auszuhalten, ohne aufzugeben.
+B: Drittens: das Soziale. Viele spielen online zusammen mit Freunden oder in Teams. Man muss kommunizieren, zusammenarbeiten, Rollen verteilen. Und für Menschen, die im Alltag schüchtern sind oder isoliert leben, können Online-Spiele ein Ort sein, wo sie Freunde finden.
+A: Und viertens, für uns besonders wichtig: Sprachen lernen!
+B: Ja! Viele Menschen haben ihr Englisch durch Videospiele gelernt. Und man kann die Sprache im Spiel auf Deutsch stellen. Dann liest und hört man Deutsch, und man will verstehen, weil man weiterkommen will. Das ist perfekt zum Lernen.
+A: Gut. Jetzt die Nachteile. Und hier habe ich einige Bedenken.
+B: Bitte, ich höre zu.
+A: Erstens: Die Sucht. Es gibt Menschen, die nicht mehr aufhören können. Die Weltgesundheitsorganisation erkennt die Computerspielsucht seit einigen Jahren offiziell als Krankheit an. Menschen spielen zehn, zwölf Stunden am Tag. Sie vernachlässigen ihre Arbeit, ihre Freunde, ihre Gesundheit.
+B: „Vernachlässigen“ heißt: sich nicht genug um etwas kümmern. Das stimmt, das ist ein ernstes Problem. Aber es betrifft nur einen kleinen Teil der Spieler. Die meisten spielen ganz normal.
+A: Das stimmt zwar, aber die Spiele sind oft so gemacht, dass sie süchtig machen. Wie die sozialen Medien in Folge siebenundvierzig. Mit Belohnungen, Punkten, Levels und dem Gefühl: Nur noch eine Runde!
+B: Da hast du recht. Und besonders problematisch sind die sogenannten „Lootboxen“. Das sind virtuelle Überraschungskisten. Man bezahlt echtes Geld und bekommt etwas Zufälliges. Vielleicht etwas Tolles, vielleicht etwas Nutzloses.
+A: Das ist doch wie Glücksspiel!
+B: Genau. Und darum sind Lootboxen in manchen Ländern schon verboten oder streng reguliert. In Belgien zum Beispiel. In Deutschland müssen Spiele mit solchen Kaufmöglichkeiten eine höhere Altersfreigabe bekommen.
+A: Zweitens: die Gewalt. Viele Eltern machen sich Sorgen, dass gewalttätige Spiele ihre Kinder aggressiv machen.
+B: Das ist eine alte Debatte. Man nannte solche Spiele früher in Deutschland „Killerspiele“. Aber die Forschung ist sich nicht einig. Die meisten großen Studien zeigen keinen klaren Zusammenhang zwischen gewalttätigen Spielen und echter Gewalt.
+A: Aber es gibt Altersgrenzen, oder?
+B: Ja, in Deutschland gibt es die USK. Die Unterhaltungssoftware Selbstkontrolle. Sie prüft jedes Spiel und gibt eine Altersfreigabe. Ab null, ab sechs, ab zwölf, ab sechzehn oder ab achtzehn Jahren. Das steht auf jeder Verpackung, mit einer Farbe.
+A: Gut. Und drittens: die Bewegung. Wer viel spielt, sitzt viel. Und bewegt sich wenig.
+B: Das stimmt. Das gilt aber auch für Serien und Bücher. Hahaha. Aber ja, man sollte genug Sport machen.
+A: Gut. Und jetzt die zweite Frage: Kann man mit Videospielen Geld verdienen? Kann es ein Beruf sein?
+B: Absolut! Und auf viele Arten. Erstens: Man kann Spiele entwickeln. Die Spielebranche braucht Programmierer, Grafikdesigner, Musiker, Autoren, Testerinnen und Projektmanager. In Deutschland gibt es viele Spielefirmen, besonders in Berlin, Hamburg und München.
+A: Und es gibt Studiengänge für Game Design, oder?
+B: Ja, an vielen Hochschulen. Und zweitens: E-Sport. Das ist professioneller Wettkampf mit Videospielen. Es gibt Ligen, Turniere und Mannschaften. Wie beim Fußball. Und die besten Spieler verdienen Millionen.
+A: Millionen? Mit Spielen?
+B: Ja! Die größten Turniere haben Preisgelder von über zwanzig Millionen Dollar. Und die Finale werden in riesigen Stadien gespielt. Mit zehntausenden Zuschauern. Und Millionen schauen online zu.
+A: Das ist für mich schwer vorzustellen. Zehntausende Menschen, die anderen Menschen beim Spielen zuschauen?
+B: Hahaha. Aber Lena, Millionen Menschen schauen anderen Menschen beim Fußballspielen zu. Wo ist der Unterschied?
+A: Hmm. Okay, das ist ein gutes Argument. Ich muss darüber nachdenken. Aber ist E-Sport wirklich ein Sport? Man sitzt doch nur.
+B: Das ist eine große Diskussion in Deutschland! Der Deutsche Olympische Sportbund erkennt E-Sport nicht als richtigen Sport an. Weil die körperliche Bewegung fehlt. Aber die Spieler sagen: Wir trainieren acht Stunden am Tag, wir brauchen schnelle Reflexe, Konzentration, Strategie und Teamarbeit. Und viele Profis machen auch körperliches Training.
+A: Interessant. Und die dritte Möglichkeit?
+B: Streaming. Man spielt live im Internet, und Menschen schauen zu. Die Streamer kommentieren, machen Witze, reden mit den Zuschauern im Chat. Und sie verdienen Geld durch Werbung, Spenden und Abonnements. Manche Streamer haben Millionen Follower.
+A: Wie Emre mit seinen Programmiervideos.
+B: Genau. Aber Achtung: Nur ein sehr kleiner Teil verdient wirklich gut damit. Die meisten verdienen fast nichts. Es ist wie bei Musikern oder Schauspielern.
+A: Jetzt zur Geschichte von Felix. Felix ist der neue Mitbewohner von Mira und Kenji. Erinnerst du dich? Der Student aus München, der nachts Videospiele spielt.
+B: Ja! Der Grund für Kenjis Schlafprobleme.
+A: Genau. Felix studiert Informatik, aber sein großer Traum ist es, Spiele zu entwickeln. Er möchte ein eigenes Spiel machen. Und seit Monaten arbeitet er jede Nacht daran. Nicht nur spielen, sondern auch programmieren.
+B: Ah, darum war er immer nachts wach!
+A: Ja. Und sein Spiel ist sehr besonders. Es spielt in Berlin. Man ist ein junger Mensch, der neu in die Stadt kommt. Und man muss Deutsch lernen, eine Wohnung finden, zum Bürgeramt gehen, den Müll richtig trennen und Freunde finden.
+B: Hahaha! Das klingt wie unser Podcast als Spiel!
+A: Genau! Und die Charaktere im Spiel basieren auf seinen Mitbewohnern. Es gibt eine Bäckerin aus Japan, eine strenge Nachbarin, die den Müll kontrolliert, und eine Freundin, die ständig WG-Sitzungen organisiert.
+B: Hahaha! Mira, Frau Schulze und Kenji! Wissen sie das?
+A: Am Anfang nicht. Aber dann zeigte Felix ihnen das Spiel. Mira war zuerst ein bisschen beleidigt. „Ich organisiere doch nicht ständig WG-Sitzungen!“ Aber dann musste sie lachen. Und Kenji fand seine Figur toll. Sie backt im Spiel Brot, und man bekommt dafür Energie.
+B: Und was ist mit dem Spiel passiert?
+A: Felix hat es Julien gezeigt. Und Julien war begeistert. Er sagte: „Das ist nicht nur ein Spiel. Das ist ein Werkzeug zum Deutschlernen!“ Denn im Spiel muss man auf Deutsch lesen und auf Deutsch antworten. Je besser man Deutsch kann, desto weiter kommt man.
+B: Wie genial! Ein Sprachlernspiel!
+A: Genau. Julien hat ihm geholfen, das Spiel bei einem Wettbewerb für junge Spieleentwickler in Berlin einzureichen. Und Felix hat den zweiten Platz gewonnen! Mit fünftausend Euro Preisgeld.
+B: Wow! Und jetzt?
+A: Jetzt arbeitet er mit einer kleinen Spielefirma zusammen. Das Spiel soll nächstes Jahr veröffentlicht werden. Und als Erstes hat er von dem Preisgeld gute Kopfhörer mit Mikrofon gekauft. Damit man ihn nachts nicht mehr hört.
+B: Hahaha! Für Kenji! Wie aufmerksam!
+A: Ja. Und seine Eltern, die immer gesagt haben: „Hör auf mit diesen Spielen, das ist Zeitverschwendung!“, sind jetzt sehr stolz.
+B: Jetzt bist du dran, Hörer, Hörerin. Spielst du Videospiele? Was denkst du: Sind Videospiele eher gut oder eher schlecht? Sag es laut: „Ich finde, dass Videospiele …, weil … Andererseits …“
+A: Und widersprich höflich einer anderen Meinung: „Ich verstehe deinen Punkt, aber …“
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: die Branche. Ein Bereich der Wirtschaft. Die Gaming-Branche.
+B: Wort Nummer zwei: das Vorurteil. Eine feste Meinung über etwas, ohne es genau zu kennen.
+A: Wort Nummer drei: erkunden. Einen unbekannten Ort entdecken und kennenlernen.
+B: Wort Nummer vier: vernachlässigen. Sich nicht genug um etwas kümmern.
+A: Wort Nummer fünf: der Umsatz. Das ganze Geld, das eine Firma mit ihren Produkten einnimmt.
+B: Und Wort Nummer sechs: die Frustrationstoleranz. Die Fähigkeit, Frust auszuhalten, ohne aufzugeben.
+A: Noch einmal: die Branche, das Vorurteil, erkunden, vernachlässigen, der Umsatz, die Frustrationstoleranz.
+B: Was lernen wir heute? Die Gaming-Branche ist riesig, und der durchschnittliche Spieler ist über dreißig.
+A: Vorteile: Konzentration, Problemlösung, Teamarbeit und Sprachenlernen. Nachteile: Sucht, Lootboxen und zu wenig Bewegung.
+B: Berufe mit Spielen: Spieleentwicklung, E-Sport und Streaming.
+A: Und Ausdrücke für Debatten: „Ich verstehe deinen Punkt, aber …“, „Da muss ich dir widersprechen.“, „Das ist ein gutes Argument.“
+B: Das ist das Ende von Folge sechsundfünfzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und wenn du spielst, stell die Sprache auf Deutsch! Tschüss!
+B: Servus! Und: Nur noch eine Runde!
+VOCAB: die Branche | Ein Bereich der Wirtschaft. | 🏭
+VOCAB: das Vorurteil | Eine feste Meinung über etwas, ohne es genau zu kennen. | 🙈
+VOCAB: erkunden | Einen unbekannten Ort entdecken und kennenlernen. | 🗺️
+VOCAB: vernachlässigen | Sich nicht genug um etwas kümmern. | 🥀
+VOCAB: der Umsatz | Das ganze Geld, das eine Firma mit ihren Produkten einnimmt. | 📈
+VOCAB: die Frustrationstoleranz | Die Fähigkeit, Frust auszuhalten, ohne aufzugeben. | 🧘
+QUIZ: Wie alt ist der durchschnittliche Spieler? | Unter fünfzehn | Über dreißig | Über sechzig | 2
+QUIZ: Was sind Lootboxen? | Virtuelle Überraschungskisten für echtes Geld | Spielkonsolen | Turniere | 1
+QUIZ: Was macht die USK in Deutschland? | Sie organisiert E-Sport-Turniere | Sie gibt Spielen eine Altersfreigabe | Sie entwickelt Spiele | 2
+QUIZ: Wo spielt Felix' Spiel? | In München | In Berlin | In Tokio | 2
+QUIZ: Was kauft Felix zuerst von seinem Preisgeld? | Eine Konsole | Kopfhörer mit Mikrofon | Ein Auto | 2
+`;
+
+DATA.podScripts.ep057 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge siebenundfünfzig. Heute sprechen wir über Menschen, die anderen helfen, ohne Geld dafür zu bekommen. Unser Thema ist das Ehrenamt.
+A: Ein Ehrenamt ist eine Arbeit, die man freiwillig und ohne Bezahlung macht. Für die Gesellschaft, für andere Menschen, für die Umwelt, für Tiere. Die Person, die das macht, ist ehrenamtlich tätig. Oder man sagt: Sie engagiert sich.
+B: Und in Deutschland und Österreich ist das Ehrenamt sehr verbreitet. In Deutschland engagiert sich fast jede dritte Person. Das sind fast dreißig Millionen Menschen!
+A: Dreißig Millionen! Das ist beeindruckend. Ohne diese Menschen würden viele Dinge nicht funktionieren. Sportvereine, die freiwillige Feuerwehr, die Tafeln, Hilfe für Geflüchtete, Besuche bei alten Menschen.
+B: Und heute lernen wir dabei die Relativsätze. Relativsätze geben mehr Informationen über ein Nomen. Zum Beispiel: „Das ist die Frau, die im Tierheim hilft.“ „Die im Tierheim hilft“ ist der Relativsatz. Er erklärt, welche Frau ich meine.
+A: Relativsätze beginnen mit einem Relativpronomen. Meistens sind das die gleichen Wörter wie die Artikel: der, die, das. Und wie bei allen Nebensätzen steht das Verb am Ende.
+B: Das Relativpronomen richtet sich nach dem Nomen, das es erklärt. Bei einem maskulinen Nomen „der“, bei einem femininen „die“, bei einem neutralen „das“. Und im Plural „die“.
+A: Zum Beispiel: „Der Mann, der bei der Feuerwehr ist.“ „Die Frau, die Deutsch unterrichtet.“ „Das Kind, das im Verein spielt.“ „Die Leute, die helfen.“
+B: Und dann wird es ein bisschen komplizierter. Das Relativpronomen ändert sich je nach Fall. Wenn es im Akkusativ steht: „Der Mann, den ich gestern getroffen habe.“ Den! Weil ich ihn getroffen habe. Akkusativ.
+A: Und im Dativ: „Die Frau, der ich geholfen habe.“ Der! Weil „helfen“ den Dativ braucht. Und „Der Mann, dem ich das Buch gegeben habe.“
+B: Und im Plural im Dativ ist es „denen“. „Die Kinder, denen ich Nachhilfe gebe.“ Das ist eine besondere Form.
+A: Das ist am Anfang schwer. Mein Tipp: Hör heute gut zu. Wir benutzen viele Relativsätze. Mit der Zeit bekommst du ein Gefühl dafür.
+B: Gut. Jetzt zum Ehrenamt. Lena, engagierst du dich ehrenamtlich?
+A: Ja! Seit drei Jahren gebe ich jeden Samstagvormittag kostenlosen Deutschunterricht für Geflüchtete. In einem Nachbarschaftszentrum in Neukölln. Das ist ein Ort, an dem sich die Menschen aus dem Viertel treffen.
+B: Das ist toll. Wie bist du dazu gekommen?
+A: Zweitausendfünfzehn kamen sehr viele Geflüchtete nach Deutschland, vor allem aus Syrien. Ich habe damals im Fernsehen die Bilder gesehen und dachte: Ich bin Deutschlehrerin. Das ist genau das, was ich kann. Ich muss helfen.
+B: Und wer sind deine Schüler?
+A: Ganz verschiedene Menschen. Eine Frau aus Afghanistan, die in ihrer Heimat Ärztin war. Ein junger Mann aus Eritrea, der jetzt eine Ausbildung als Elektriker macht. Und seit dem Krieg in der Ukraine auch viele Frauen und Kinder aus der Ukraine.
+B: Und was gefällt dir an dieser Arbeit?
+A: Die Dankbarkeit. Und die Geschichten. Jeder Mensch, der in meinen Kurs kommt, hat eine unglaubliche Geschichte. Manche sind sehr traurig. Und trotzdem lachen wir zusammen. Und wenn ich sehe, wie jemand, der vor einem Jahr kein Wort Deutsch konnte, plötzlich eine Arbeit findet, bin ich so glücklich.
+B: Das kann ich verstehen. Und gibt es eine Person, an die du dich besonders erinnerst?
+A: Ja. Ein älterer Mann aus Syrien. Er heißt Mahmoud. Er war in Damaskus Musiklehrer. Er hat ein Jahr lang jeden Samstag gelernt. Er war der fleißigste Schüler, den ich je hatte. Und heute unterrichtet er Kinder in einer Musikschule in Berlin. Auf Deutsch!
+B: Wie schön. Das ist ein Mann, auf den du stolz sein kannst.
+A: Ja. Und du, Jonas? Engagierst du dich auch?
+B: Ja, ich helfe einmal pro Monat im Tierheim in Wien. In dem Tierheim, aus dem Strudel kommt. Ich gehe mit den Hunden spazieren, die noch keine Familie haben. Und ich schreibe Texte für die Webseite. Kleine Porträts von den Tieren, die ein Zuhause suchen.
+A: Oh, das ist schön! Du benutzt dein Talent als Journalist.
+B: Genau. Ich schreibe zum Beispiel: „Bello ist ein alter Hund, der gern auf dem Sofa liegt und den man am Ohr kraulen muss. Er sucht eine ruhige Familie, die ihm viel Liebe gibt.“ Und manchmal finden die Tiere dadurch schneller ein Zuhause.
+A: Wie toll. Jetzt die verschiedenen Arten von Ehrenamt. Der größte Bereich ist der Sport. Fast alle Trainer in Sportvereinen sind ehrenamtlich. Sie trainieren die Kinder am Nachmittag und am Wochenende, ohne Geld.
+B: Dann gibt es die freiwillige Feuerwehr. Das ist sehr wichtig. In Deutschland gibt es über eine Million freiwillige Feuerwehrleute. In den kleinen Städten und Dörfern gibt es oft keine Berufsfeuerwehr. Nur Freiwillige, die einen normalen Job haben. Und wenn es brennt, lassen sie alles stehen und fahren los.
+A: Auch mitten in der Nacht?
+B: Ja, auch mitten in der Nacht. Sie haben einen kleinen Pieper. Wenn er piept, müssen sie sofort zur Feuerwache. Und in Österreich ist das ähnlich. Fast alle Feuerwehren in Österreich sind freiwillig.
+A: Das ist bewundernswert. Dann gibt es die Tafeln. Wir haben sie kurz erwähnt. Die Tafeln sammeln Lebensmittel, die Supermärkte nicht mehr verkaufen, die aber noch gut sind. Und sie verteilen sie an Menschen, die wenig Geld haben.
+B: In Deutschland gibt es fast tausend Tafeln. Und fast alle Helfer sind Ehrenamtliche. Viele davon sind Rentner, die sich nach dem Berufsleben eine neue Aufgabe suchen.
+A: Dann gibt es Ehrenamt im sozialen Bereich: Besuche im Altenheim, Hilfe für Menschen mit Behinderung, Nachhilfe für Kinder, Telefonseelsorge.
+B: Die Telefonseelsorge ist ein Telefon, das man Tag und Nacht anrufen kann, wenn es einem sehr schlecht geht. Und am anderen Ende sitzen Ehrenamtliche, die zuhören.
+A: Und dann der Umweltschutz: Bäume pflanzen, Müll im Park sammeln, Tiere schützen. Und die Politik: Viele Bürgermeister in kleinen Gemeinden machen das ehrenamtlich.
+B: Und was ist die Motivation? Warum machen so viele Menschen etwas, ohne Geld dafür zu bekommen?
+A: Laut Umfragen sagen die meisten: Sie wollen anderen helfen. Sie wollen die Gesellschaft mitgestalten. Und es macht Spaß. Man trifft andere Menschen, man lernt Neues, und man fühlt sich gebraucht.
+B: „Sich gebraucht fühlen“ ist ein schöner Ausdruck. Es heißt: Man hat das Gefühl, dass man wichtig ist und dass andere einen brauchen.
+A: Genau. Und Studien zeigen, dass Menschen, die sich engagieren, oft glücklicher und gesünder sind. Helfen tut also nicht nur den anderen gut, sondern auch einem selbst.
+B: Und für Menschen, die neu in Deutschland sind, ist das Ehrenamt eine fantastische Möglichkeit, die Sprache zu üben, Leute kennenzulernen und sich zu integrieren.
+A: Absolut. Und es sieht gut im Lebenslauf aus. Viele Arbeitgeber in Deutschland schätzen ehrenamtliches Engagement sehr. Es zeigt, dass man Verantwortung übernimmt.
+B: Gibt es auch Kritik am Ehrenamt?
+A: Ja, ein bisschen. Manche sagen, dass der Staat sich zu sehr auf die Ehrenamtlichen verlässt. Zum Beispiel bei den Tafeln. Eigentlich sollte es in einem reichen Land wie Deutschland gar nicht nötig sein, dass Menschen Lebensmittel von einer Tafel bekommen.
+B: Das ist ein wichtiger Punkt. Das Ehrenamt sollte die Arbeit des Staates ergänzen, aber nicht ersetzen.
+A: Genau. Jetzt die Geschichte. Kenji hat in der Bäckerei ein Problem bemerkt. Jeden Abend bleiben viele Brote und Brötchen übrig. Die Bäckerei kann sie am nächsten Tag nicht mehr verkaufen. Und sie werden weggeworfen.
+B: Oh, das ist schade. Lebensmittelverschwendung.
+A: Ja. In Deutschland werden jedes Jahr über zehn Millionen Tonnen Lebensmittel weggeworfen. Kenji fand das furchtbar. Er hat mit Herrn Wagner gesprochen, dem Bäcker, für den er arbeitet.
+B: Und was haben sie gemacht?
+A: Sie haben Kontakt mit der Tafel in Neukölln aufgenommen. Und jetzt holt jeden Abend um neunzehn Uhr eine ehrenamtliche Helferin die Brote ab, die übrig sind. Sie heißt Frau Yıldız. Sie ist siebzig Jahre alt, kommt aus der Türkei und lebt seit fünfzig Jahren in Berlin.
+B: Und Kenji hat sie kennengelernt?
+A: Ja! Und Frau Yıldız hat ihn eingeladen, einmal bei der Tafel zu helfen. Am Samstag, wenn die Lebensmittel verteilt werden. Und Kenji ist hingegangen.
+B: Wie war es?
+A: Am Anfang war er ein bisschen unsicher. Aber dann hat er die Menschen gesehen, die in der Schlange warteten. Eine junge Mutter mit drei Kindern. Ein alter Mann, der allein lebt und dessen Rente nicht reicht. Ein Student, der kaum Geld hat. Und er hat verstanden, wie wichtig diese Arbeit ist.
+B: „Dessen Rente“! Ein Relativpronomen im Genitiv! Sehr fortgeschritten, Lena.
+A: Hahaha. Ja, das ist für B1 schon schwer. Aber man hört es manchmal. Jedenfalls hilft Kenji jetzt jeden Samstag bei der Tafel. Und er hat eine Idee gehabt. Er backt jeden Freitag ein besonderes Brot nur für die Tafel. Mit den Resten vom Teig.
+B: Das Tokio-Berlin-Brot für alle!
+A: Genau! Und jetzt kommt das Schönste. Der alte Mann, der allein lebt, heißt Herr Schmidt. Er war früher Bäcker. Und er hat Kenji erzählt, dass er seit seiner Rente sehr einsam ist. Er hat niemanden, mit dem er sprechen kann.
+B: Oh, das ist traurig.
+A: Ja. Und Kenji hat ihn gefragt: „Möchten Sie mir am Freitag beim Backen helfen? Sie haben so viel Erfahrung.“ Und Herr Schmidt hat Tränen in den Augen gehabt. Jetzt kommt er jeden Freitag in die Bäckerei. Er zeigt Kenji alte Rezepte, die nur noch wenige kennen. Und Herr Wagner hat gesagt: „Das ist der beste Mitarbeiter, den ich nie bezahlen muss!“
+B: Hahaha! Wie schön! Aus einem Ehrenamt sind zwei geworden.
+A: Genau. Und Herr Schmidt sagt: „Ich fühle mich wieder gebraucht.“
+B: Jetzt bist du dran, Hörer, Hörerin. Engagierst du dich ehrenamtlich? Oder möchtest du das tun? Sag es laut: „Ich möchte mich für … engagieren, weil …“
+A: Und beschreibe eine Person, die du bewunderst, mit einem Relativsatz: „Ich bewundere eine Person, die …“
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: das Ehrenamt. Eine Arbeit, die man freiwillig und ohne Bezahlung macht.
+B: Wort Nummer zwei: sich engagieren. Sich aktiv für etwas einsetzen. Ich engagiere mich im Tierheim.
+A: Wort Nummer drei: der Relativsatz. Ein Nebensatz, der mehr Informationen über ein Nomen gibt. Die Frau, die hilft.
+B: Wort Nummer vier: die Tafel. Eine Organisation, die Lebensmittel an Menschen mit wenig Geld verteilt.
+A: Wort Nummer fünf: sich gebraucht fühlen. Das Gefühl haben, dass man wichtig ist.
+B: Und Wort Nummer sechs: bewundernswert. So gut, dass man es bewundert.
+A: Noch einmal: das Ehrenamt, sich engagieren, der Relativsatz, die Tafel, sich gebraucht fühlen, bewundernswert.
+B: Was lernen wir heute? Relativsätze mit der, die, das. Akkusativ: den. Dativ: dem, der, und im Plural denen. Das Verb am Ende.
+A: Das Ehrenamt: Fast dreißig Millionen Menschen in Deutschland engagieren sich. Im Sport, bei der Feuerwehr, bei den Tafeln und im sozialen Bereich.
+B: Die Motivation: helfen, Spaß, Kontakte und sich gebraucht fühlen.
+A: Und die Kritik: Das Ehrenamt sollte den Staat ergänzen, nicht ersetzen.
+B: Das ist das Ende von Folge siebenundfünfzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und vielleicht findest du bald ein Ehrenamt, das dir Freude macht! Tschüss!
+B: Servus!
+VOCAB: das Ehrenamt | Eine Arbeit, die man freiwillig und ohne Bezahlung macht. | 🤲
+VOCAB: sich engagieren | Sich aktiv für etwas einsetzen. | 💪
+VOCAB: der Relativsatz | Ein Nebensatz, der mehr über ein Nomen sagt: die Frau, die hilft. | 🔗
+VOCAB: die Tafel | Eine Organisation, die Lebensmittel an Menschen mit wenig Geld verteilt. | 🥖
+VOCAB: sich gebraucht fühlen | Das Gefühl haben, dass man wichtig ist. | ❤️
+VOCAB: bewundernswert | So gut, dass man es bewundert. | 🌟
+QUIZ: Wie viele Menschen engagieren sich in Deutschland ehrenamtlich? | Drei Millionen | Fast dreißig Millionen | Hundert Millionen | 2
+QUIZ: Welcher Satz ist richtig? | Das ist der Mann, den ich geholfen habe. | Das ist der Mann, dem ich geholfen habe. | Das ist der Mann, der ich geholfen habe. | 2
+QUIZ: Wo hilft Jonas ehrenamtlich? | Bei der Feuerwehr | Im Tierheim | Bei der Tafel | 2
+QUIZ: Was war Mahmoud in Syrien von Beruf? | Arzt | Musiklehrer | Bäcker | 2
+QUIZ: Was macht Herr Schmidt jetzt jeden Freitag? | Er backt mit Kenji in der Bäckerei | Er geht zur Feuerwehr | Er unterrichtet Deutsch | 1
+`;
