@@ -1919,3 +1919,342 @@ QUIZ: Was ruft man beim Karneval in Köln? | Helau! | Kölle Alaaf! | Prost! | 2
 QUIZ: Als was verkleidet sich Julien? | Als Pirat | Als Croissant | Als Katze | 2
 QUIZ: Was bedeutet die Dirndl-Schleife links? | Die Frau ist verheiratet | Die Frau ist Single | Die Frau ist Kellnerin | 2
 `;
+
+DATA.podScripts.ep038 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge achtunddreißig. Lena, wie geht es dir? Du siehst müde aus. Na ja, ich höre, dass du müde bist.
+A: Hahaha. Ja, ich bin müde. Ich hatte eine volle Woche. Und das ist unser Thema heute: Eine volle Woche. Termine planen.
+B: Wir lernen, wie man Termine macht, verschiebt und absagt. Und wir lernen den Dativ. Besonders mit Personen. Ich gebe dir einen Termin. Ich helfe meiner Mutter. Ich schreibe dem Chef.
+A: Der Dativ ist oft die Person, die etwas bekommt. Ich gebe meinem Freund ein Buch. Wer bekommt das Buch? Mein Freund. Das ist der Dativ.
+B: Und das Buch ist der Akkusativ. Das, was man gibt. Also: Ich gebe dem Freund das Buch. Dativ, dann Akkusativ.
+A: Die Formen im Dativ: Der wird „dem“. Die wird „der“. Das wird „dem“. Und im Plural: die wird „den“, und das Nomen bekommt ein „n“. Den Kindern, den Freunden.
+B: Und die Pronomen: ich wird „mir“, du wird „dir“, er wird „ihm“, sie wird „ihr“, wir wird „uns“, ihr wird „euch“, sie wird „ihnen“. Und Sie wird „Ihnen“.
+A: Kannst du mir helfen? Ich gebe dir das Buch. Wir schreiben ihm eine Nachricht. Ich danke Ihnen.
+B: Und es gibt Verben, die immer den Dativ brauchen. Helfen, danken, gefallen, gehören, antworten, gratulieren, schmecken, passen.
+A: Ich helfe dir. Das gehört mir. Ich antworte dem Lehrer. Das Essen schmeckt mir. Der Termin passt mir nicht.
+B: „Der Termin passt mir nicht“! Ein sehr wichtiger Satz für heute. Und es gibt Präpositionen mit Dativ: mit, nach, bei, seit, von, zu, aus.
+A: Ich gehe zum Arzt. Ich treffe mich mit einer Freundin. Ich bin bei meiner Mutter. Ich komme vom Zahnarzt.
+B: „Zum“ ist zu dem. „Zur“ ist zu der. „Vom“ ist von dem. „Beim“ ist bei dem.
+A: Super. Jetzt meine volle Woche. Jonas, hör zu. Am Montag hatte ich um acht Uhr Unterricht. Bis zwölf. Dann musste ich zum Zahnarzt. Um dreizehn Uhr. Kontrolle. Und danach habe ich meiner Kollegin geholfen. Sie zieht um.
+B: Am Montag schon! Und Dienstag?
+A: Am Dienstag hatte ich den ganzen Tag Unterricht. Und am Abend eine Teamsitzung. Mit allen Lehrern. Bis einundzwanzig Uhr! Danach war ich so müde.
+B: Eine Teamsitzung bis einundzwanzig Uhr. Das ist lang.
+A: Und am Mittwoch? Am Mittwoch war die Elternversammlung … nein, das ist nicht richtig, ich habe keine Kinder. Hahaha. Am Mittwoch hatte ich einen Termin beim Finanzamt. Wegen meiner Steuererklärung. Und am Abend bin ich zum Yoga gegangen. Das war das Beste in der Woche.
+B: Yoga gegen den Stress. Gut. Und Donnerstag?
+A: Donnerstag war Tims Geburtstag! Ich habe ihm eine Party organisiert. Mit seinen Freunden. In einer Bar. Ich habe ihm auch ein Geschenk gekauft. Einen neuen Rucksack.
+B: Was für ein Programm! Und Freitag?
+A: Am Freitag musste ich zur Bank. Ich habe ein neues Konto eröffnet. Und am Abend bin ich mit dem Zug nach Hamburg gefahren. Zu meiner Oma. Sie hatte am Samstag Geburtstag. Neunzig Jahre!
+B: Oma Hilde wurde neunzig! Das große Fest! Wie war es?
+A: Wunderbar! Die ganze Familie war da. Vierzig Personen. Und Oma hat getanzt! Wie sie es versprochen hatte. Mit jedem Enkel einmal. Ich habe ihr ein Fotoalbum geschenkt. Mit Fotos aus neunzig Jahren.
+B: Wie schön! Ein Fotoalbum. Das hat ihr bestimmt gefallen.
+A: Sehr! Sie hat geweint. Und am Sonntag bin ich zurückgefahren. Der Zug hatte natürlich Verspätung. Zwei Stunden. Ich war um Mitternacht zu Hause.
+B: Die Deutsche Bahn! Das ist eine sehr volle Woche, Lena. Kein Wunder, dass du müde bist.
+A: Ja. Ich brauche Urlaub. Hahaha. Und deine Woche, Jonas?
+B: Meine Woche war ruhiger. Ich bin freiberuflich, also plane ich meine Zeit selbst. Am Montag habe ich an meinem Buch geschrieben. Über die Kaffeehäuser.
+A: Oh, du schreibst wirklich! Wie weit bist du?
+B: Ich habe schon drei Kapitel geschrieben. Ein Kapitel ist ein Teil von einem Buch. Und am Dienstag hatte ich ein Interview. Mit einem alten Kellner. Er arbeitet seit fünfzig Jahren im Café Hawelka. Er hat mir wunderbare Geschichten erzählt.
+B: Am Mittwoch hatte ich einen Termin bei meiner Tierärztin. Mit Strudel. Er hatte eine Impfung. Und er hat sich sehr gewehrt. Er wollte nicht. Hahaha.
+A: Armer Strudel! Und dann?
+B: Am Donnerstag wollte ich mich mit Clara treffen. Aber sie musste absagen. Sie war krank. Wir haben den Termin auf nächste Woche verschoben.
+A: Jetzt die wichtigen Wörter. Einen Termin vereinbaren heißt: einen Termin machen. Zusammen eine Zeit finden.
+B: Einen Termin verschieben heißt: den Termin auf eine andere Zeit legen. Später oder früher. Wir verschieben das Treffen auf Freitag.
+A: Und einen Termin absagen heißt: Man sagt, dass man nicht kommen kann. Der Termin findet nicht statt.
+B: Und zusagen ist das Gegenteil. Man sagt: Ja, ich komme.
+A: Jetzt eine Szene am Telefon. Ich bin Lena. Ich rufe beim Friseur an. Jonas ist der Friseur.
+B: Okay! Salon Schnittig, guten Tag. Was kann ich für Sie tun?
+A: Guten Tag. Ich möchte einen Termin vereinbaren. Zum Haareschneiden.
+B: Gern. Wann passt es Ihnen?
+A: Haben Sie am Mittwoch etwas frei? Am Nachmittag?
+B: Hmm, am Mittwoch sind wir leider ausgebucht. „Ausgebucht“ heißt: Es gibt keinen freien Termin mehr. Aber am Donnerstag um fünfzehn Uhr hätte ich etwas frei.
+A: Donnerstag um fünfzehn Uhr passt mir leider nicht. Da arbeite ich. Geht es auch später?
+B: Um achtzehn Uhr dreißig?
+A: Ja, das passt mir gut. Perfekt.
+B: Wie ist Ihr Name, bitte?
+A: Lena Hoffmann.
+B: Gut, Frau Hoffmann. Donnerstag um achtzehn Uhr dreißig. Bis dann!
+A: Danke, bis Donnerstag. Auf Wiederhören!
+B: Sehr gut! Die Sätze: „Wann passt es Ihnen?“ „Das passt mir gut.“ „Das passt mir leider nicht.“ „Geht es auch später?“ Mit Dativ: mir, Ihnen.
+A: Und wenn man absagen muss? Das ist auch wichtig. Man ruft an und sagt: „Leider muss ich meinen Termin absagen. Ich bin krank.“
+B: Und man sagt immer früh ab! Mindestens vierundzwanzig Stunden vorher. Beim Arzt muss man sonst manchmal bezahlen. Auch wenn man nicht gekommen ist!
+A: Ja, das ist wichtig. In Deutschland ist es sehr unhöflich, einfach nicht zu kommen. Ohne abzusagen. Das nennt man „versetzen“. Er hat mich versetzt.
+B: „Versetzen“ heißt: Man wartet auf jemanden, aber er kommt nicht. Und er sagt nichts. Sehr unhöflich!
+A: Jetzt der Kalender. Die Deutschen lieben ihren Kalender. Viele planen Wochen oder Monate im Voraus. „Im Voraus“ heißt: lange vorher.
+B: Ja! Wenn du einen Deutschen zum Abendessen einladen möchtest, musst du oft drei Wochen vorher fragen. Er sagt: „Moment, ich schaue in meinen Kalender. Am achtzehnten hätte ich Zeit.“
+A: Hahaha. Das ist so wahr! Spontan ist schwer in Deutschland. In anderen Ländern fragt man: „Hast du heute Abend Zeit?“ In Deutschland ist man dann oft schon verplant.
+B: „Verplant“ heißt: Alle Termine sind schon geplant. Kein Platz mehr. In Wien ist das ein bisschen lockerer. Wir sind spontaner. Man trifft sich im Kaffeehaus. Ohne lange Planung.
+A: Jetzt die Geschichte von Julien. Julien hat ein Problem. Seine Familie kommt zu Besuch. Aus Lyon. Seine Eltern und seine zwei Schwestern. Für eine Woche!
+B: Oh! Das war sein Plan für das neue Jahr! Seiner Familie Berlin zeigen.
+A: Genau. Aber in dieser Woche hat Julien sehr viel Arbeit. Es ist eine neue Piscine an der Schule. Hundertfünfzig neue Studenten.
+B: Oh nein! Was macht er?
+A: Er macht einen Plan. Er schreibt alles in seinen Kalender. Am Montag holt er seine Familie vom Flughafen ab. Um zwanzig Uhr, nach der Arbeit. Er zeigt ihnen seine Wohnung. Und er kocht ihnen ein Abendessen.
+B: In seiner eigenen Küche! Mit der Einbauküche!
+A: Genau! Am Dienstag arbeitet er. Aber er gibt seinen Eltern eine Liste. Mit allen Sehenswürdigkeiten. Er sagt ihnen: „Geht zum Brandenburger Tor, zur Museumsinsel und zur East Side Gallery.“
+B: Und die Schwestern?
+A: Seine Schwester Sophie ist Studentin. Sie möchte die Programmierschule sehen. Also nimmt Julien sie mit zur Arbeit. Er zeigt ihr alles. Und Emre zeigt ihr seine App. Sophie findet das sehr interessant!
+B: Und die andere Schwester? Claire, die Krankenschwester?
+A: Ah! Julien hat eine Idee. Er stellt Claire Amira vor. Beide sind Krankenpflegerinnen. Sie treffen sich am Mittwoch. Amira zeigt Claire das Krankenhaus. Und sie sprechen Französisch zusammen. Sie verstehen sich sofort sehr gut.
+B: Wie schön! Und Juliens Eltern?
+A: Am Donnerstag hat Julien einen Tag frei genommen. Er hat seinem Chef gesagt: „Meine Familie ist da. Kann ich am Donnerstag frei haben?“ Und Herr Yilmaz hat gesagt: „Natürlich! Die Familie ist wichtig.“
+B: Was machen sie am Donnerstag?
+A: Sie fahren nach Potsdam. Zum Schloss Sanssouci. Und dort treffen sie Herrn Krüger! Den Vermieter von Julien. Er zeigt ihnen den Park. Und er lädt alle zu Kaffee und Kuchen ein.
+B: Herr Krüger ist der Beste! Hahaha.
+A: Ja! Juliens Mutter sagt danach: „Julien, du hast so nette Freunde hier. Ich verstehe jetzt, warum du in Berlin bleibst.“
+B: Und am Wochenende?
+A: Am Samstag gibt es ein großes Abendessen. Alle Freunde von Julien kommen. Mira, Kenji, Emre, Amira, Katrin. In Juliens kleiner Wohnung. Zwölf Personen! Wie bei Hias.
+B: Hahaha. Kleine Wohnung, große Party! Und am Sonntag?
+A: Am Sonntag fährt die Familie wieder nach Hause. Am Flughafen umarmt Juliens Vater ihn. Er sagt: „Ich bin stolz auf dich.“ Das hat er Julien noch nie gesagt.
+B: Oh, das ist ein emotionaler Moment.
+A: Ja. Und am Montag ist Julien müde. Wie ich jetzt. Aber sehr glücklich.
+B: Jetzt bist du dran, Hörer, Hörerin. Wie sieht deine Woche aus? Sag es laut: Am Montag habe ich einen Termin beim … Am Dienstag treffe ich mich mit …
+A: Und vereinbare einen Termin. Sag es laut: Passt Ihnen Donnerstag um zehn Uhr? Sehr gut!
+B: Und jetzt unser Teil: „Wörter des Tages“.
+A: Wort Nummer eins: vereinbaren. Einen Termin zusammen festlegen. Wir haben einen Termin vereinbart.
+B: Wort Nummer zwei: verschieben. Einen Termin auf eine andere Zeit legen.
+A: Wort Nummer drei: absagen. Sagen, dass man nicht kommen kann.
+B: Wort Nummer vier: passen. Hier: Die Zeit ist gut für mich. Der Termin passt mir.
+A: Wort Nummer fünf: ausgebucht. Kein freier Termin mehr.
+B: Und Wort Nummer sechs: im Voraus. Lange vorher. Die Deutschen planen im Voraus.
+A: Noch einmal: vereinbaren, verschieben, absagen, passen, ausgebucht, im Voraus.
+B: Was lernen wir heute? Den Dativ: dem, der, dem, den. Mir, dir, ihm, ihr, uns, euch, ihnen.
+A: Verben mit Dativ: helfen, danken, gefallen, gehören, passen. Das passt mir gut.
+B: Präpositionen mit Dativ: mit, nach, bei, seit, von, zu, aus. Zum Arzt, beim Friseur.
+A: Und Termine: vereinbaren, verschieben, absagen, zusagen. Und nie jemanden versetzen!
+B: Das ist das Ende von Folge achtunddreißig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und eine ruhige Woche für dich! Tschüss!
+B: Servus! Und schlaf dich aus, Lena!
+VOCAB: vereinbaren | Einen Termin zusammen festlegen. | 🤝
+VOCAB: verschieben | Einen Termin auf eine andere Zeit legen. | ↔️
+VOCAB: absagen | Sagen, dass man nicht kommen kann. | 🚫
+VOCAB: passen | Die Zeit ist gut für mich. Der Termin passt mir. | 👌
+VOCAB: ausgebucht | Es gibt keinen freien Termin mehr. | 📕
+VOCAB: im Voraus | Lange vorher. | ⏩
+QUIZ: Welcher Satz ist richtig? | Ich helfe dich. | Ich helfe dir. | Ich helfe du. | 2
+QUIZ: Was hat Lena Oma Hilde geschenkt? | Einen Rucksack | Ein Fotoalbum | Blumen | 2
+QUIZ: Was bedeutet „einen Termin verschieben“? | Den Termin auf eine andere Zeit legen | Den Termin vergessen | Zum Termin gehen | 1
+QUIZ: Wen stellt Julien seiner Schwester Claire vor? | Emre | Amira | Katrin | 2
+QUIZ: Was sagt Juliens Vater am Flughafen? | Ich bin stolz auf dich | Komm nach Hause | Berlin ist zu kalt | 1
+`;
+
+DATA.podScripts.ep039 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge neununddreißig. Heute sprechen wir über Geld. Über Preise, das Budget und das Sparen.
+A: Und wir lernen die Possessivartikel. Mein, dein, sein, ihr, unser, euer, ihr. Mein Geld, dein Konto, unser Budget.
+B: Possessivartikel zeigen, wem etwas gehört. Das ist mein Handy. Das ist dein Buch. Das ist sein Auto.
+A: Mein ist für ich. Dein für du. Sein für er und es. Ihr für sie. Unser für wir. Euer für ihr. Und ihr für sie, Plural. Und Ihr, mit großem I, für Sie.
+B: „Sein“ und „ihr“ sind manchmal schwierig. Julien hat ein Auto. Das ist sein Auto. Amira hat ein Auto. Das ist ihr Auto. Es kommt auf die Person an, die etwas hat.
+A: Und die Endungen sind wie bei „ein“. Mein Vater, meine Mutter, mein Kind. Ich sehe meinen Vater. Akkusativ! Ich helfe meiner Mutter. Dativ!
+B: Genau. Mein Konto, meine Bank, mein Geld. Ich überweise meiner Schwester Geld. Ich bezahle meine Miete.
+A: Sehr gut. Jetzt das Geld. Die Deutschen und das Geld. Das ist ein spezielles Thema.
+B: Die Deutschen sind bekannt als Sparer. Sie sparen sehr viel. Von hundert Euro sparen viele Deutsche zehn oder elf Euro. Das ist viel im Vergleich zu anderen Ländern.
+A: Ja. Und sie lieben Bargeld. Wir haben das schon in Folge vier gelernt. Viele Deutsche bezahlen lieber mit Bargeld als mit Karte. Sie sagen: „Nur Bares ist Wahres.“
+B: „Bares“ ist Bargeld. Und „Wahres“ ist die Wahrheit. Also: Nur Bargeld ist echtes Geld. Ein altes Sprichwort.
+A: Heute bezahlen viele junge Leute mit Karte oder mit dem Handy. Aber die älteren Leute haben oft viel Bargeld im Portemonnaie.
+B: Das Portemonnaie ist die Geldbörse. Oder das Geldbeutel. Oder die Brieftasche. Viele Wörter!
+A: In Österreich sagt man „Geldtascherl“. Hahaha. Sehr süß.
+B: Genau! Das Geldtascherl. Jetzt das Konto. Ein Bankkonto ist wichtig in Deutschland. Das Gehalt kommt auf das Konto. Und man bezahlt die Miete vom Konto.
+A: Man hat ein Girokonto. Das ist das normale Konto für jeden Tag. Und ein Sparkonto. Für das Geld, das man spart.
+B: Und es gibt die IBAN. Eine lange Nummer für das Konto. Sie beginnt in Deutschland mit DE und in Österreich mit AT.
+A: Und die Überweisung. Man schickt Geld von einem Konto auf ein anderes Konto. Mit der IBAN. Zum Beispiel für die Miete.
+B: Und der Dauerauftrag. Das ist eine Überweisung, die automatisch jeden Monat passiert. Zum Beispiel für die Miete am ersten Tag vom Monat.
+A: Und die Lastschrift. Da nimmt die Firma das Geld selbst von deinem Konto. Zum Beispiel für den Handyvertrag oder den Strom.
+B: Gut. Jetzt das Budget. Ein Budget ist ein Plan für das Geld. Wie viel Geld habe ich? Wie viel gebe ich aus?
+A: „Ausgeben“ heißt: Geld für etwas bezahlen. Ich gebe viel Geld für Bücher aus. Und das Gegenteil ist „einnehmen“ oder „verdienen“.
+B: Lena, machst du ein Budget?
+A: Ja! Ich bin ein bisschen streng mit meinem Geld. Ich habe eine App. Jeden Monat schreibe ich alle Einnahmen und alle Ausgaben auf.
+B: Was sind deine größten Ausgaben?
+A: Die Miete natürlich. Tim und ich bezahlen zusammen zwölfhundert Euro warm. Also bezahle ich sechshundert Euro. Das ist ungefähr ein Drittel von meinem Gehalt.
+B: Und dann?
+A: Dann das Essen. Ungefähr dreihundert Euro pro Monat. Dann die Versicherungen. Die Krankenversicherung kommt vom Gehalt. Aber ich habe auch eine Haftpflichtversicherung.
+B: Die Haftpflichtversicherung! Die hat fast jeder Deutsche.
+A: Ja. Wenn man etwas kaputt macht, das einer anderen Person gehört, bezahlt die Versicherung. Zum Beispiel: Ich lasse bei einer Freundin das Handy fallen. Oder mein Wasser läuft beim Nachbarn durch die Decke.
+B: Die Deutschen lieben Versicherungen! Es gibt Versicherungen für alles. Für das Handy, für das Fahrrad, für die Brille, für den Hund.
+A: Hahaha. Ja. Und dann habe ich das Deutschlandticket. Fünfzig, sechzig Euro pro Monat. Und mein Handyvertrag. Und Streaming-Dienste. Und das Fitnessstudio.
+B: Und wie viel sparst du?
+A: Ich versuche, jeden Monat zweihundert Euro zu sparen. Für den Urlaub. Und für meinen Traum: meine eigene Sprachschule.
+B: Super! Und ich? Ich bin ehrlich: Ich bin nicht gut mit Geld. Als Freiberufler habe ich keine regelmäßigen Einnahmen. Manchmal bekomme ich viel Geld, manchmal fast nichts.
+A: Das ist schwer. Wie planst du dann?
+B: Ich habe ein Konto für die Steuern. Wenn ich Geld bekomme, lege ich sofort dreißig Prozent auf dieses Konto. Weil ich am Ende vom Jahr Steuern bezahlen muss. Und das ist sehr viel.
+A: Das ist klug! Und deine größten Ausgaben?
+B: Die Miete. Siebenhundert Euro für meine Wohnung in Wien. Dann das Essen. Und … die Kaffeehäuser. Hahaha. Ich gebe sehr viel Geld im Kaffeehaus aus. Vielleicht hundertfünfzig Euro pro Monat!
+A: Hundertfünfzig Euro für Kaffee! Jonas!
+B: Ich weiß, ich weiß. Aber das ist meine Arbeit! Ich recherchiere für mein Buch! Hahaha.
+A: Gute Ausrede. Eine Ausrede ist ein Grund, der nicht ganz wahr ist. Hahaha.
+B: Und Strudel! Ein Hund kostet viel Geld. Futter, Tierarzt, Versicherung, Hundesteuer. Fast hundert Euro pro Monat.
+A: Jetzt Spartipps. Wie kann man Geld sparen? Erstens: Selbst kochen. Nicht so oft im Restaurant essen. Das spart sehr viel.
+B: Zweitens: Second-Hand kaufen. Auf dem Flohmarkt, online. Kleidung, Möbel, Bücher. Gebraucht ist günstiger und gut für die Umwelt.
+A: Drittens: Verträge kontrollieren. Viele Leute haben alte Verträge. Für das Handy, für das Fitnessstudio, für Streaming. Und sie benutzen sie nicht. Kündigen!
+B: Viertens: Die Fünfzig-dreißig-zwanzig-Regel. Fünfzig Prozent vom Geld für die wichtigen Dinge. Miete, Essen, Versicherung. Dreißig Prozent für die schönen Dinge. Hobbys, Restaurants, Urlaub. Und zwanzig Prozent sparen.
+A: Das ist eine gute Regel! Und fünftens: Am Anfang vom Monat sparen. Nicht am Ende. Wenn man am Ende vom Monat sparen will, ist oft kein Geld mehr da.
+B: Hahaha, das stimmt. Am Ende vom Geld ist immer noch so viel Monat übrig!
+A: „Am Ende vom Geld ist noch so viel Monat übrig.“ Das ist ein lustiger Satz. Man dreht den normalen Satz um.
+A: Jonas, erinnerst du dich an die Zeit vor dem Euro?
+B: Oh ja! In Österreich hatten wir den Schilling. Und in Deutschland gab es die D-Mark. Die Deutsche Mark. Der Euro ist erst seit zweitausendzwei als Bargeld da.
+A: Ich war damals ein Kind. Ich erinnere mich, dass mein Taschengeld plötzlich halb so viel war. Vorher hatte ich zehn Mark pro Woche. Und dann fünf Euro.
+B: Das Taschengeld ist das Geld, das Kinder jede Woche oder jeden Monat von den Eltern bekommen. Für kleine Sachen. Süßigkeiten, Comics, Spielzeug.
+A: Genau. Und viele ältere Leute rechnen heute noch in D-Mark. Meine Oma sagt immer: „Fünf Euro für einen Kaffee? Das sind zehn Mark! Unglaublich!“
+B: Hahaha. Meine Mutter macht das auch mit dem Schilling. Ein Euro waren ungefähr vierzehn Schilling. Sie sagt: „Siebzig Schilling für ein Schnitzel!“ Und sie ist schockiert.
+A: Viele Leute sagen: Der Euro ist ein „Teuro“. Weil nach der Einführung viele Preise gestiegen sind. Ein Wortspiel mit „teuer“ und „Euro“.
+B: Teuro! Das ist lustig. Und heute? Die Preise steigen immer noch. Das nennt man Inflation. Alles wird teurer. Das Essen, die Energie, die Mieten.
+A: Ja. Darum ist das Sparen heute schwieriger. Aber auch wichtiger.
+B: Und noch ein wichtiger Punkt: Über Geld spricht man in Deutschland nicht gern. Man fragt nicht: „Wie viel verdienst du?“ Das ist sehr privat.
+A: Stimmt! Das Gehalt ist ein Tabu. Viele Leute wissen nicht einmal, wie viel ihre Freunde oder Kollegen verdienen. In anderen Ländern ist das anders.
+B: In Österreich ist es genauso. Über Geld spricht man nicht. Man hat es. Oder man hat es nicht. Hahaha.
+A: Und wenn man reich ist, zeigt man es nicht. Kein teures Auto vor dem Haus, keine goldene Uhr. Bescheidenheit ist wichtig. Bescheiden heißt: Man zeigt nicht, was man hat.
+B: Jetzt die Geschichte von Emre. Emre macht jetzt sein Praktikum. Er verdient zum ersten Mal richtiges Geld. Tausendzweihundert Euro pro Monat.
+A: Sein erstes Gehalt! Was macht er damit?
+B: Im ersten Monat gibt er alles aus. Er kauft neue Kopfhörer. Neue Schuhe. Ein Videospiel. Er geht jeden Abend essen. Mit seinen Freunden. Er lädt alle ein.
+A: Oh nein. Und am Ende vom Monat?
+B: Am zwanzigsten ist sein Konto leer! Er hat kein Geld mehr. Für zehn Tage. Er muss seine Mutter fragen. „Mama, kannst du mir fünfzig Euro leihen?“
+A: Hahaha. Und seine Mutter?
+B: Seine Mutter sagt: „Emre, mein Sohn. Ich gebe dir das Geld. Aber du musst lernen, mit deinem Geld zu planen.“
+A: Weise Mutter! Und dann?
+B: Dann spricht Emre mit Lena! Mit dir!
+A: Mit mir? Hahaha. Woher kennt er mich?
+B: In unserer Geschichte natürlich! Julien hat ihm von deiner Budget-App erzählt. Und Emre installiert die App. Er schreibt alles auf. Und er sieht: Er gibt dreihundert Euro pro Monat für Essen im Restaurant aus. Und hundert Euro für Videospiele!
+A: Das ist viel. Und was ändert er?
+B: Er kocht jetzt öfter selbst. Seine Mutter hat ihm ihre Rezepte gegeben. Türkische Rezepte. Linsensuppe, gefüllte Paprika, Börek. Und er spart jeden Monat hundertfünfzig Euro.
+A: Super! Wofür spart er?
+B: Für seinen Führerschein! Das war sein Ziel für das neue Jahr. Der Führerschein kostet ungefähr dreitausend Euro in Deutschland. Mit hundertfünfzig Euro pro Monat braucht er zwanzig Monate.
+A: Das ist realistisch. Und ein gutes Ziel. Bravo, Emre!
+B: Und seine Mutter ist sehr stolz. Er hat ihr die fünfzig Euro zurückgegeben. Mit einer Schachtel Pralinen dazu.
+A: Hahaha. Mit Zinsen! Zinsen sind das Extra-Geld, das man bekommt, wenn man Geld auf der Bank hat. Oder das man bezahlt, wenn man Geld leiht.
+B: Genau! Jetzt bist du dran, Hörer, Hörerin. Wofür gibst du viel Geld aus? Sag es laut: Ich gebe viel Geld für … aus.
+A: Und wofür sparst du? Sag es laut: Ich spare für … Sehr gut!
+B: Und jetzt unser Teil: „Wörter des Tages“.
+A: Wort Nummer eins: sparen. Geld nicht ausgeben, sondern behalten. Für später.
+B: Wort Nummer zwei: ausgeben. Geld für etwas bezahlen. Ich gebe viel Geld für Kaffee aus.
+A: Wort Nummer drei: das Konto. Das Geld bei der Bank. Das Girokonto, das Sparkonto.
+B: Wort Nummer vier: die Überweisung. Geld von einem Konto auf ein anderes schicken.
+A: Wort Nummer fünf: die Versicherung. Sie bezahlt, wenn etwas passiert. Die Haftpflichtversicherung.
+B: Und Wort Nummer sechs: die Ausrede. Ein Grund, der nicht ganz wahr ist.
+A: Noch einmal: sparen, ausgeben, das Konto, die Überweisung, die Versicherung, die Ausrede.
+B: Was lernen wir heute? Die Possessivartikel: mein, dein, sein, ihr, unser, euer, ihr. Mit Endungen wie „ein“: meinen Vater, meiner Mutter.
+A: Das Geld in Deutschland: Die Deutschen sparen viel und lieben Bargeld. Und Versicherungen!
+B: Die Bank: das Girokonto, die IBAN, die Überweisung, der Dauerauftrag.
+A: Und die Spartipps: Selbst kochen, gebraucht kaufen, alte Verträge kündigen und am Anfang vom Monat sparen.
+B: Das ist das Ende von Folge neununddreißig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und gib nicht alles im Kaffeehaus aus! Tschüss!
+B: Hahaha. Servus!
+VOCAB: sparen | Geld nicht ausgeben, sondern für später behalten. | 🐷
+VOCAB: ausgeben | Geld für etwas bezahlen. | 💸
+VOCAB: das Konto | Das Geld bei der Bank: das Girokonto, das Sparkonto. | 🏦
+VOCAB: die Überweisung | Geld von einem Konto auf ein anderes schicken. | 🔁
+VOCAB: die Versicherung | Sie bezahlt, wenn etwas Schlimmes passiert. | 🛡️
+VOCAB: die Ausrede | Ein Grund, der nicht ganz wahr ist. | 🙊
+QUIZ: Welcher Satz ist richtig, wenn Amira ein Auto hat? | Das ist sein Auto. | Das ist ihr Auto. | Das ist dein Auto. | 2
+QUIZ: Wie viel gibt Jonas pro Monat im Kaffeehaus aus? | Fünfzig Euro | Hundertfünfzig Euro | Fünfhundert Euro | 2
+QUIZ: Was macht die Haftpflichtversicherung? | Sie bezahlt, wenn man etwas von anderen kaputt macht | Sie bezahlt den Urlaub | Sie bezahlt die Miete | 1
+QUIZ: Was ist die Fünfzig-dreißig-zwanzig-Regel? | Wichtiges, Schönes, Sparen | Miete, Essen, Kaffee | Montag, Mittwoch, Freitag | 1
+QUIZ: Wofür spart Emre? | Für einen Urlaub | Für seinen Führerschein | Für ein Videospiel | 2
+`;
+
+DATA.podScripts.ep040 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge vierzig. Die letzte Folge vom Niveau A2!
+A: Schon! Die Zeit vergeht so schnell. Heute sprechen wir über ein Thema, das für viele sehr wichtig ist: Freunde finden im Ausland.
+B: Wenn man in ein neues Land zieht, ist am Anfang alles neu. Die Sprache, die Stadt, die Arbeit. Und man kennt niemanden. Man fühlt sich manchmal einsam.
+A: „Einsam“ heißt: Man ist allein und das macht traurig. Man hat niemanden zum Reden.
+B: Heute lernen wir, wie man Leute einlädt, wie man zusagt und absagt. Und wir lernen die reflexiven Verben. Sich freuen, sich treffen, sich verabreden, sich fühlen.
+A: Reflexive Verben haben ein Reflexivpronomen. Das Pronomen zeigt zurück auf das Subjekt. Ich freue mich. Du freust dich. Er freut sich.
+B: Die Pronomen sind: mich, dich, sich, uns, euch, sich. Und für „Sie“ auch: sich. Freuen Sie sich?
+A: Wichtige reflexive Verben: sich freuen, sich treffen, sich verabreden, sich fühlen, sich interessieren für, sich vorstellen, sich anmelden, sich entschuldigen, sich ausruhen, sich beeilen.
+B: Viele davon kennen wir schon! Sich vorstellen aus Folge eins. Sich anmelden aus Folge vierundzwanzig. Sich beeilen aus Folge fünfunddreißig.
+A: Genau. Und eine wichtige Sache: sich freuen auf und sich freuen über. „Sich freuen auf“ ist für die Zukunft. Ich freue mich auf das Wochenende. Es kommt noch.
+B: Und „sich freuen über“ ist für etwas, das schon da ist. Ich freue mich über das Geschenk. Ich habe es schon bekommen.
+A: Super erklärt. Jetzt das Thema. Jonas, du hast einmal im Ausland gewohnt, oder?
+B: Ja, für ein Jahr. Während dem Studium habe ich ein Erasmus-Jahr in Barcelona gemacht. Erasmus ist ein Programm für Studenten in Europa. Man studiert ein Jahr in einem anderen Land.
+A: Barcelona! Wie war es?
+B: Am Anfang war es schwer. Ich habe kein Spanisch gesprochen. Und kein Katalanisch. In Barcelona spricht man beides. Ich habe mich die ersten zwei Wochen sehr einsam gefühlt.
+A: Was hast du gemacht?
+B: Ich habe mich für einen Sprachkurs angemeldet. Und ich bin zu allen Erasmus-Partys gegangen. Dort habe ich Leute aus der ganzen Welt getroffen. Aus Italien, aus Polen, aus Frankreich.
+A: Die Erasmus-Partys sind berühmt!
+B: Hahaha, ja. Aber das Problem: Wir haben alle Englisch gesprochen. Und nicht Spanisch. Und wir waren immer unter uns. Nur Ausländer. Ich hatte fast keine spanischen Freunde.
+A: Das ist ein typisches Problem. Man bleibt in der „Expat-Blase“. Eine Blase ist wie ein runder Ball aus Luft. Man ist drinnen und hat keinen Kontakt nach draußen.
+B: Genau. Und dann habe ich etwas geändert. Ich habe mich einem Fußballverein angeschlossen. Einem kleinen Verein im Viertel. Dort waren nur Spanier und Katalanen. Niemand hat Englisch gesprochen.
+A: Ah, der Verein! Wie in Folge sechsunddreißig!
+B: Genau. Am Anfang habe ich nichts verstanden. Aber nach dem Training sind wir immer in eine Bar gegangen. Die dritte Halbzeit! Und dort habe ich Spanisch gelernt. Und echte Freunde gefunden.
+A: Hast du noch Kontakt?
+B: Ja! Mit zwei von ihnen. Pau und Jordi. Sie haben mich letztes Jahr in Wien besucht. Und wir sprechen immer noch Spanisch zusammen.
+A: Wie schön! Und ich? Ich habe nach dem Abitur sechs Monate in Kanada gearbeitet. In Montreal. Als Au-pair.
+B: Ein Au-pair wohnt bei einer Familie im Ausland. Man kümmert sich um die Kinder. Und man bekommt ein Zimmer, Essen und ein bisschen Taschengeld.
+A: Genau. Die Familie war sehr nett. Aber die Kinder waren sehr wild! Drei Jungen. Fünf, sieben und neun Jahre alt. Hahaha.
+B: Oh, drei wilde Jungen! Wie hast du Freunde gefunden?
+A: Ich habe mich mit anderen Au-pairs verabredet. Wir haben uns jeden Mittwoch in einem Café getroffen. Aus Deutschland, aus Mexiko, aus Japan. Wir haben über die Familien gesprochen und gelacht.
+B: Eine Selbsthilfegruppe für Au-pairs! Hahaha.
+A: Genau so! Und ich habe mich für einen Kochkurs angemeldet. Dort habe ich eine Frau aus Montreal kennengelernt. Sie heißt Isabelle. Wir sind heute noch Freundinnen. Wir schreiben uns jede Woche.
+B: Jetzt die Sprache für Einladungen. Wie lädt man jemanden ein?
+A: Informell: „Hast du Lust, am Samstag ins Kino zu gehen?“ „Hast du am Freitag Zeit? Wir könnten etwas trinken gehen.“ „Kommst du mit zum Konzert?“
+B: Formeller: „Ich möchte Sie gern zum Abendessen einladen.“ „Hätten Sie Lust, am Sonntag zu uns zu kommen?“
+A: Und wie sagt man zu? Positiv: „Ja, gern!“ „Sehr gern, ich freue mich!“ „Super Idee, ich bin dabei!“ „Klar, warum nicht?“
+B: „Ich bin dabei“ heißt: Ich mache mit. Ich komme. Sehr informell und sehr beliebt.
+A: Und wie sagt man ab? Höflich: „Das ist sehr nett, aber leider kann ich nicht.“ „Schade, am Samstag habe ich schon etwas vor.“ „Leider habe ich keine Zeit. Vielleicht ein anderes Mal?“
+B: „Etwas vorhaben“ heißt: einen Plan haben. Ich habe am Samstag etwas vor. Ich bin schon verplant.
+A: Und ganz wichtig: Wenn man absagt, macht man oft einen neuen Vorschlag. „Leider kann ich am Samstag nicht. Aber wie wäre es mit Sonntag?“
+B: „Wie wäre es mit …?“ ist ein super Satz für Vorschläge. Wie wäre es mit einem Kaffee? Wie wäre es mit nächster Woche?
+A: Jetzt Tipps. Wie findet man Freunde in Deutschland oder in Österreich? Wir haben in den letzten Folgen viele Ideen gehört. Fassen wir zusammen.
+B: Tipp Nummer eins: In einen Verein gehen. Sport, Musik, Hobby. Man trifft jede Woche dieselben Leute. Und langsam entsteht eine Freundschaft.
+A: Tipp Nummer zwei: Ein Sprach-Tandem. Ich helfe dir mit meiner Sprache, du hilfst mir mit Deutsch. Man trifft sich im Café.
+B: Tipp Nummer drei: In einer WG wohnen. Wie Julien! Man hat sofort Kontakt. Und man übt jeden Tag Deutsch in der Küche.
+A: Tipp Nummer vier: Ehrenamtlich arbeiten. Zum Beispiel in einer Tafel. Die Tafel verteilt Lebensmittel an arme Menschen. Oder in einem Tierheim. Man hilft und lernt Leute kennen.
+B: Tipp Nummer fünf: Die Kollegen fragen. „Was macht ihr nach der Arbeit? Darf ich mitkommen?“ Viele Deutsche sind am Anfang zurückhaltend. „Zurückhaltend“ heißt: Sie sind ein bisschen reserviert, sie warten. Aber wenn man fragt, freuen sie sich.
+A: Und Tipp Nummer sechs: Geduld haben. Die Kokosnuss! Außen hart, innen weich. Eine Freundschaft in Deutschland braucht Zeit. Aber dann hält sie oft ein Leben lang.
+B: Und Tipp Nummer sieben: Deutsch sprechen! Auch mit Fehlern. Die Leute freuen sich, wenn du Deutsch sprichst. Und so kommst du aus der Expat-Blase heraus.
+A: Jetzt die große Geschichte. Die letzte Geschichte vom Niveau A2. Es ist ein Jahr später. Julien ist seit zwei Jahren in Berlin. Und er organisiert eine Party.
+B: Eine Party! Für wen?
+A: Für alle seine Freunde. Er nennt sie „Die Party der Freundschaft“. Er möchte allen danken. Er schreibt eine Einladung in der WhatsApp-Gruppe: „Liebe Freunde! Ich lade euch am Samstag zu mir ein. Um neunzehn Uhr. Jeder bringt etwas zu essen mit. Ich freue mich auf euch!“
+B: Wer sagt zu?
+A: Mira schreibt: „Super, ich bin dabei! Ich bringe einen Salat mit.“ Kenji schreibt: „Ja, gern! Ich bringe Brot. Selbst gebacken, natürlich.“
+B: Hahaha. Kenji und sein Brot. Und die anderen?
+A: Emre schreibt: „Klar! Ich bringe Börek. Das Rezept von meiner Mutter.“ Amira schreibt: „Ich freue mich sehr! Ich komme mit Jana. Und mit Lukas.“
+B: Lukas? Wer ist Lukas?
+A: Lukas ist der Arzt aus München! Vom Oktoberfest! Sie sind jetzt zusammen. Er ist nach Berlin gezogen. Für Amira!
+B: Oh! Die Dirndl-Schleife hat funktioniert! Hahaha.
+A: Genau! Und Katrin schreibt: „Leider kann ich nicht um sieben. Ich muss meiner Mutter beim Umzug helfen. Aber ich komme später, um neun. Ist das okay?“ Und Julien schreibt: „Natürlich! Bring deine Mutter mit!“
+B: Frau Schmid! Mit Zwetschgenkuchen!
+A: Ja! Und Herr Krüger kommt auch. Mit seinem Hund. Und Herr Yilmaz, der Chef. Und Sophie aus Brasilien, Ali aus Ägypten … Zwanzig Personen in Juliens kleiner Wohnung.
+B: Wieder eine kleine Wohnung und eine große Party! Wie bei Hias!
+A: Hahaha, genau. Am Samstag ist die Wohnung voll. Es gibt Essen aus der ganzen Welt. Börek, Sushi, Salat, Tajine, Zwetschgenkuchen, französischer Käse. Und deutsches Brot von Kenji.
+B: Und dann?
+A: Um zehn Uhr steht Julien auf einen Stuhl. Er macht eine kleine Rede. Auf Deutsch. Eine Rede ist ein Text, den man vor vielen Leuten spricht.
+B: Was sagt er?
+A: Er sagt: „Liebe Freunde. Vor zwei Jahren bin ich nach Berlin gekommen. Ich habe niemanden gekannt. Ich habe schlecht Deutsch gesprochen. Ich habe mich oft einsam gefühlt.“
+B: Und dann?
+A: „Aber dann habe ich euch kennengelernt. Mira und Kenji haben mir ein Zuhause gegeben. Emre hat mir das echte Berlin gezeigt. Katrin hat mir bei der Arbeit geholfen. Amira war immer für mich da. Und Herr Krüger hat mir eine Wohnung gegeben.“
+B: Das ist sehr bewegend.
+A: „Ich habe gelernt: Man findet nicht nur Freunde. Man baut eine Familie. Danke, dass ihr meine Berliner Familie seid. Prost!“
+B: Und alle rufen „Prost!“ und heben die Gläser.
+A: Genau. Und Amira hat Tränen in den Augen. Und Emre ruft: „Rede! Rede! Noch eine Rede!“ Und alle lachen.
+B: Und um Mitternacht klingelt der Nachbar?
+A: Hahaha, natürlich! Der Nachbar klingelt. Er ist sauer wegen der Musik. Aber Julien lädt ihn ein. Und er bekommt ein Stück Zwetschgenkuchen von Frau Schmid.
+B: Die beste Lösung, wie immer! Jetzt bist du dran, Hörer, Hörerin. Lade eine Freundin ein. Sag es laut: Hast du Lust, am Samstag …?
+A: Und jetzt sag höflich ab und mach einen neuen Vorschlag. Sag es laut: Leider kann ich nicht. Aber wie wäre es mit …? Sehr gut!
+B: Und jetzt unser Teil: „Wörter des Tages“.
+A: Wort Nummer eins: einsam. Allein, und das macht traurig.
+B: Wort Nummer zwei: sich freuen auf. Positiv an die Zukunft denken. Ich freue mich auf das Wochenende.
+A: Wort Nummer drei: sich verabreden. Ein Treffen mit jemandem planen. Wir haben uns für Samstag verabredet.
+B: Wort Nummer vier: zusagen. Sagen, dass man kommt. Das Gegenteil ist absagen.
+A: Wort Nummer fünf: etwas vorhaben. Einen Plan haben. Am Samstag habe ich schon etwas vor.
+B: Und Wort Nummer sechs: zurückhaltend. Ein bisschen reserviert, nicht sofort offen.
+A: Noch einmal: einsam, sich freuen auf, sich verabreden, zusagen, etwas vorhaben, zurückhaltend.
+B: Was haben wir im Niveau A2 gelernt? Das Perfekt mit haben und sein. Das Präteritum von sein, haben und den Modalverben.
+A: Möchten und wollen. Den Imperativ. Die Häufigkeit. Den Komparativ und den Superlativ. Die Wechselpräpositionen.
+B: Nebensätze mit weil und dass. Meinungen sagen mit finden und gefallen. Den Dativ. Die Possessivartikel. Und heute die reflexiven Verben.
+A: Und die Themen: das Wochenende, der Urlaub, Pläne, die Anmeldung, das Kochen, die Gesundheit, früher und heute, Berlin und Wien, der erste Job, der Weg, eine Party, Programmieren, eine Wohnung, Musik und Filme, der Flughafen, Vereine, Feste, Termine, Geld und Freunde.
+B: Das ist unglaublich viel! Du kannst sehr stolz sein. Du kannst jetzt über deine Vergangenheit sprechen, über deine Pläne, deine Meinung sagen und Geschichten erzählen.
+A: Im Niveau B1 werden die Gespräche länger und tiefer. Wir diskutieren Themen. Homeoffice, soziale Medien, Umwelt. Und wir lernen den Konjunktiv II. Wenn ich im Lotto gewinnen würde …
+B: Und Julien, Amira, Emre und alle anderen? Sie kommen auch mit ins Niveau B1. Ihre Geschichten gehen weiter.
+A: Das ist das Ende von Folge vierzig und das Ende vom Niveau A2. Danke fürs Zuhören! Jetzt kommt das letzte A2-Quiz.
+B: Herzlichen Glückwunsch! Du hast A2 geschafft! Wir freuen uns auf dich im Niveau B1. Servus!
+A: Tschüss und bis bald!
+VOCAB: einsam | Allein, und das macht traurig. | 🥀
+VOCAB: sich freuen auf | Positiv an etwas in der Zukunft denken. | 😊
+VOCAB: sich verabreden | Ein Treffen mit jemandem planen. | 📲
+VOCAB: zusagen | Sagen, dass man kommt. Das Gegenteil ist absagen. | ✔️
+VOCAB: etwas vorhaben | Schon einen Plan haben. | 🗓️
+VOCAB: zurückhaltend | Ein bisschen reserviert, nicht sofort offen. | 🥥
+QUIZ: Welcher Satz ist richtig? | Ich freue mich auf das Wochenende. | Ich freue auf das Wochenende. | Ich freue mir auf das Wochenende. | 1
+QUIZ: Wie hat Jonas in Barcelona echte spanische Freunde gefunden? | Auf Erasmus-Partys | In einem Fußballverein | In der Universität | 2
+QUIZ: Was sagt man für einen neuen Vorschlag? | Wie wäre es mit Sonntag? | Ich bin dabei! | Prost! | 1
+QUIZ: Wer ist Lukas? | Juliens Bruder | Der Arzt aus München, jetzt Amiras Partner | Emres Chef | 2
+QUIZ: Was sagt Julien in seiner Rede? | Danke, dass ihr meine Berliner Familie seid | Ich gehe zurück nach Lyon | Ich mag Berlin nicht | 1
+`;
