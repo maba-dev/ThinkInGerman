@@ -925,3 +925,417 @@ QUIZ: Warum ist Tiefkühlgemüse oft eine gute Alternative? | Es wird direkt nac
 QUIZ: Was trank Kenji jeden Tag zu viel? | Kaffee | Cola | Wein | 2
 QUIZ: Wie heißt Kenjis neues Brot? | Wiener Brot | Tokio-Berlin-Brot | Japanbrot | 2
 `;
+
+DATA.podScripts.ep050 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge fünfzig. Die Hälfte unseres Podcasts! Und wir feiern mit einem Thema, das typisch deutsch ist wie kaum ein anderes: Mülltrennung und Pfand.
+A: Hahaha. Ja, für viele Menschen, die nach Deutschland kommen, ist die Mülltrennung ein echter Kulturschock. Man steht in der Küche mit einem Joghurtbecher in der Hand und fragt sich: In welche Tonne gehört das jetzt?
+B: Die Tonne ist der große Behälter für den Müll. Und in Deutschland gibt es nicht eine Tonne, sondern vier, fünf oder sogar sechs verschiedene Tonnen.
+A: Heute lernen wir also viele Wörter rund um Umwelt und Müll. Und wir sprechen darüber, warum die Deutschen so viel Wert auf Mülltrennung legen.
+B: „Wert auf etwas legen“ heißt: etwas sehr wichtig finden. Die Deutschen legen großen Wert auf Pünktlichkeit. Und auf Mülltrennung.
+A: Gut. Fangen wir mit den Tonnen an. Jede Farbe hat eine Bedeutung. Und Achtung: Die Farben können von Stadt zu Stadt ein bisschen anders sein. Ich erkläre das System in Berlin.
+B: Und ich sage dann, wie es in Wien ist. Da gibt es auch Unterschiede.
+A: Okay. Erstens: die gelbe Tonne. Oder der gelbe Sack. Dort kommen Verpackungen aus Plastik und Metall hinein. Joghurtbecher, Plastikflaschen ohne Pfand, Konservendosen, Folien, Tetrapaks.
+B: Ein Tetrapak ist eine Verpackung für Milch oder Saft. Aus Karton mit einer dünnen Schicht Plastik und Aluminium.
+A: Genau. Zweitens: die blaue Tonne. Für Papier und Karton. Zeitungen, Kartons von Paketen, Papiertüten. Aber kein schmutziges Papier! Eine fettige Pizzaschachtel gehört nicht in die blaue Tonne.
+B: Oh, die Pizzaschachtel! Die große Frage. Wohin damit?
+A: Wenn sie sehr fettig ist, in den Restmüll. Wenn sie sauber ist, ins Papier. Das ist eine Wissenschaft für sich. Hahaha.
+B: Und drittens?
+A: Drittens: die braune Tonne. Die Biotonne. Für Essensreste, Obst- und Gemüseschalen, Kaffeesatz, Teebeutel, Gartenabfälle. Daraus wird Kompost oder Biogas gemacht.
+B: Der Kaffeesatz ist das, was nach dem Kaffeekochen übrig bleibt. Das Pulver. In meinem Haushalt gibt es sehr viel Kaffeesatz! Hahaha.
+A: Natürlich. Viertens: die schwarze oder graue Tonne. Der Restmüll. Für alles, was nirgendwo anders hineinpasst. Windeln, Staubsaugerbeutel, Zigaretten, kaputtes Geschirr.
+B: Und fünftens: das Glas. Für Glas gibt es keine Tonne vor dem Haus, sondern große Container auf der Straße. Glascontainer.
+A: Und dort muss man das Glas nach Farben trennen! Weißglas, Grünglas und Braunglas. Und blaues Glas? Kommt ins Grünglas.
+B: Hahaha. Das wusste ich nicht! Und man darf das Glas nicht zu jeder Zeit einwerfen.
+A: Genau! Das ist sehr deutsch. Weil es laut ist, wenn das Glas in den Container fällt, darf man nur werktags zwischen sieben und zwanzig Uhr einwerfen. Nicht am Sonntag, nicht in der Nacht. Wegen der Ruhezeiten.
+B: Typisch! Die Ruhezeiten gelten sogar für den Müll.
+A: Und dann gibt es noch Sondermüll. Batterien, Farben, Elektrogeräte, Medikamente. Das bringt man zu einem Wertstoffhof oder zurück ins Geschäft. Batterien kann man zum Beispiel in jedem Supermarkt abgeben.
+B: Ein Wertstoffhof ist ein Ort, wo man besondere Abfälle und große Sachen abgeben kann. Alte Möbel, Kühlschränke, Fernseher.
+A: Genau. Und in Wien? Wie ist es dort?
+B: In Wien ist es ähnlich, aber die Farben sind anders. Altpapier kommt in die rote Tonne. Plastikflaschen und Metall in die gelbe Tonne. Biomüll in die braune Tonne. Und Restmüll in die graue Tonne. Glas wie in Deutschland in Containern, getrennt nach Weißglas und Buntglas.
+A: Rote Tonne für Papier! Das wäre für einen Berliner sehr verwirrend.
+B: Hahaha. Ja. Und wer zwischen Berlin und Wien umzieht, muss alles neu lernen. Und in Wien gibt es ein interessantes Detail: Viel vom Restmüll wird verbrannt. In der berühmten Müllverbrennungsanlage Spittelau. Die wurde von dem Künstler Friedensreich Hundertwasser gestaltet. Sie ist bunt, mit einer goldenen Kugel. Sie sieht aus wie ein Märchenschloss.
+A: Ein Märchenschloss für Müll! Nur in Wien. Und die Wärme vom Verbrennen heizt Wohnungen, oder?
+B: Genau. Fernwärme. Viele Wiener Wohnungen werden mit der Wärme aus dem Müll geheizt. Sehr effizient.
+A: Jetzt das Pfand. Wir haben es in Folge achtzehn schon kurz erklärt. Heute genauer.
+B: Gut. Das Pfand ist ein Geldbetrag, den man beim Kauf einer Flasche oder Dose extra bezahlt. Wenn man die leere Flasche zurückbringt, bekommt man das Geld zurück.
+A: Es gibt in Deutschland zwei Arten von Pfand. Das Einwegpfand und das Mehrwegpfand. Einwegflaschen sind meistens aus Plastik, Dosen aus Metall. Das Pfand beträgt fünfundzwanzig Cent. Die Flaschen werden nicht wieder befüllt, sondern recycelt.
+B: Und Mehrwegflaschen sind meistens aus Glas. Bierflaschen zum Beispiel. Das Pfand ist niedriger: acht oder fünfzehn Cent. Diese Flaschen werden gereinigt und wieder befüllt. Bis zu fünfzigmal!
+A: Fünfzigmal! Das ist viel besser für die Umwelt. Und man bringt die Flaschen in den Supermarkt, in den Pfandautomaten. Oder man bringt ganze Bierkästen zurück. Ein Bierkasten ist eine Kiste mit zwanzig Flaschen.
+B: Und in Berlin gibt es eine soziale Seite vom Pfand. Viele Menschen ohne viel Geld sammeln Pfandflaschen. Auf der Straße, in Parks, in Mülleimern. Sie verdienen damit ein bisschen Geld.
+A: Ja. Darum stellen viele Berliner ihre leeren Flaschen neben den Mülleimer. Nicht in den Mülleimer. Damit die Flaschensammler sie leichter nehmen können und nicht im Müll suchen müssen.
+B: Das ist eine schöne Geste. Und in manchen Städten gibt es sogar „Pfandringe“. Das sind Ringe am Mülleimer, wo man die Flaschen hineinstellen kann.
+A: Genau. Und in Österreich gibt es das Einwegpfand erst seit zweitausendfünfundzwanzig. Vorher gab es nur Pfand auf manche Glasflaschen.
+B: Ja, das ist neu für uns. Die Österreicher müssen sich noch daran gewöhnen. Am Anfang haben viele Leute die Flaschen einfach weggeworfen. Und das Geld verschenkt.
+A: Jetzt die Frage: Warum ist Mülltrennung in Deutschland so wichtig? Was denkst du, Jonas?
+B: Ich glaube, es gibt mehrere Gründe. Erstens: Umweltbewusstsein. Die Umweltbewegung war in Deutschland schon in den Siebziger- und Achtzigerjahren sehr stark. Es gibt sogar eine Partei, die Grünen, die aus dieser Bewegung entstanden ist.
+A: Zweitens: Deutschland hat wenig Rohstoffe. Rohstoffe sind Materialien aus der Natur, wie Öl, Metall oder Holz. Darum ist es wirtschaftlich sinnvoll, Materialien wiederzuverwenden.
+B: Und drittens: Ordnung. Die Deutschen lieben Ordnung und klare Regeln. Und Mülltrennung ist ein perfektes System mit klaren Regeln.
+A: Hahaha. Das ist ein Klischee, aber ein bisschen wahr. Und es gibt auch Kritik. Manche sagen, dass die Mülltrennung nicht so effektiv ist, wie die Leute denken. Viel Plastik aus der gelben Tonne wird gar nicht recycelt, sondern verbrannt. Oder ins Ausland exportiert.
+B: Das stimmt. Die Recyclingquote für Plastik ist nicht so hoch, wie man hofft. Darum sagen viele Experten: Das Beste ist, gar nicht so viel Müll zu produzieren.
+A: Genau. Es gibt ein Motto: „Vermeiden, wiederverwenden, recyceln.“ In dieser Reihenfolge. Zuerst sollte man Müll vermeiden. Dann Dinge wiederverwenden. Und erst am Ende recyceln.
+B: Und in Berlin gibt es immer mehr Unverpackt-Läden. Dort kauft man Lebensmittel ohne Verpackung. Man bringt eigene Gläser und Dosen mit und füllt Nudeln, Reis, Müsli oder Öl hinein.
+A: Ich kaufe manchmal dort ein. Es ist ein bisschen teurer, aber ich produziere viel weniger Müll. Und ich habe immer einen Stoffbeutel dabei. Und eine wiederverwendbare Kaffeetasse.
+B: Und es gibt eine Steuer für Einwegbecher, oder?
+A: In Deutschland müssen Cafés seit zweitausenddreiundzwanzig Mehrwegbecher anbieten. Das ist Pflicht. Man kann sich also einen Becher gegen Pfand ausleihen und später zurückgeben.
+B: Jetzt die Geschichte von Julien. Julien ist ja schon seit zwei Jahren in Berlin. Aber er hat mit der Mülltrennung immer noch Probleme.
+A: Hahaha. Wie viele Franzosen. Erzähl!
+B: In seiner neuen Wohnung in Friedrichshain gibt es im Hof sechs verschiedene Tonnen. Und eine Nachbarin, Frau Schulze. Sie ist siebzig Jahre alt und wohnt seit fünfzig Jahren im Haus. Und sie kontrolliert die Mülltonnen.
+A: Oh nein. Die Müll-Polizei!
+B: Genau! Eines Morgens klingelt Frau Schulze an Juliens Tür. Sie hat einen Joghurtbecher in der Hand. Sie sagt: „Junger Mann! Das hier war im Papiermüll! Das gehört in die gelbe Tonne!“
+A: Hahaha. Und Julien?
+B: Julien war total überrascht. Er sagte: „Oh, Entschuldigung! Ich dachte, der Becher ist aus Karton.“ Und Frau Schulze sagte streng: „Nein! Da ist ein Plastikdeckel und eine Aluschicht. Gelbe Tonne!“
+A: Das ist so typisch. Und was ist dann passiert?
+B: Julien fühlte sich schlecht. Er wollte keinen Streit mit der Nachbarin. Also hatte er eine Idee. Er ist Programmierer. Er programmierte eine kleine App. Man fotografiert einen Gegenstand, und die App sagt einem, in welche Tonne er gehört.
+A: Eine Müll-App! Genial!
+B: Und dann ging er zu Frau Schulze. Er klingelte und sagte: „Frau Schulze, ich brauche Ihre Hilfe. Sie sind die Expertin im Haus. Können Sie meine App testen?“
+A: Oh, wie clever! Er macht sie zur Expertin!
+B: Genau. Frau Schulze war zuerst skeptisch. Sie hat kein Smartphone. Aber Julien zeigte ihr alles auf seinem Handy. Und sie testeten die App zusammen. Mit fünfzig Gegenständen aus Frau Schulzes Küche.
+A: Und funktionierte die App?
+B: Bei vierzig Gegenständen ja. Bei zehn hat Frau Schulze gesagt: „Falsch! Ganz falsch!“ Und sie hat Julien alles erklärt. Und er hat die App verbessert. Zwei Wochen lang besuchte er sie fast jeden Tag.
+A: Und jetzt?
+B: Jetzt sind sie Freunde! Frau Schulze lädt Julien jeden Sonntag zum Kaffee ein. Sie erzählt ihm von Berlin in den Siebzigerjahren, als das Haus noch in Ostberlin war. Und Julien hat ihr ein Smartphone geschenkt. Sie benutzt jetzt die App, die sie selbst verbessert hat.
+A: Wie schön! Aus einem Konflikt wurde eine Freundschaft.
+B: Ja. Und die App heißt jetzt „Frau Schulze sagt“. Und über zehntausend Leute in Berlin haben sie heruntergeladen.
+A: Hahaha! Frau Schulze ist berühmt! Jetzt bist du dran, Hörer, Hörerin. Wie ist die Mülltrennung in deinem Land? Sag es laut: „In meinem Land trennt man den Müll … / nicht …“
+B: Und erkläre einem Freund, in welche Tonne in Deutschland eine Bananenschale, eine Zeitung und eine Plastikflasche ohne Pfand gehören.
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: die Tonne. Der große Behälter für den Müll.
+A: Wort Nummer zwei: die Verpackung. Das, worin ein Produkt verkauft wird. Plastik, Karton, Glas.
+B: Wort Nummer drei: der Restmüll. Der Müll, der in keine andere Tonne passt.
+A: Wort Nummer vier: Wert legen auf. Etwas sehr wichtig finden.
+B: Wort Nummer fünf: der Rohstoff. Ein Material aus der Natur, wie Öl, Holz oder Metall.
+A: Und Wort Nummer sechs: vermeiden. Etwas nicht entstehen lassen. Müll vermeiden.
+B: Noch einmal: die Tonne, die Verpackung, der Restmüll, Wert legen auf, der Rohstoff, vermeiden.
+A: Was lernen wir heute? Die Mülltrennung in Deutschland: die gelbe Tonne für Verpackungen, die blaue für Papier, die braune für Bio, die schwarze für Restmüll. Und Glas nach Farben getrennt.
+B: In Wien ist das Papier in der roten Tonne!
+A: Das Pfand: fünfundzwanzig Cent für Einweg, acht oder fünfzehn Cent für Mehrweg. Und leere Flaschen neben den Mülleimer stellen.
+B: Und das Motto: vermeiden, wiederverwenden, recyceln.
+A: Das ist das Ende von Folge fünfzig. Die Hälfte vom Podcast ist geschafft! Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und denk an Frau Schulze, wenn du deinen Müll trennst! Servus!
+A: Tschüss!
+VOCAB: die Tonne | Der große Behälter für den Müll. | 🗑️
+VOCAB: die Verpackung | Das, worin ein Produkt verkauft wird: Plastik, Karton, Glas. | 📦
+VOCAB: der Restmüll | Der Müll, der in keine andere Tonne passt. | ⚫
+VOCAB: Wert legen auf | Etwas sehr wichtig finden. | ⭐
+VOCAB: der Rohstoff | Ein Material aus der Natur, wie Öl, Holz oder Metall. | 🪵
+VOCAB: vermeiden | Etwas nicht entstehen lassen. | 🙅
+QUIZ: In welche Tonne gehört in Berlin ein Joghurtbecher? | In die blaue Tonne | In die gelbe Tonne | In die braune Tonne | 2
+QUIZ: Welche Farbe hat die Papiertonne in Wien? | Blau | Rot | Gelb | 2
+QUIZ: Wie viel Pfand hat eine Einwegflasche in Deutschland? | Acht Cent | Fünfundzwanzig Cent | Einen Euro | 2
+QUIZ: Warum stellen viele Berliner leere Flaschen neben den Mülleimer? | Damit Flaschensammler sie leichter nehmen können | Weil der Mülleimer voll ist | Weil es Pflicht ist | 1
+QUIZ: Wie heißt Juliens App? | Müll-Berlin | Frau Schulze sagt | Gelbe Tonne | 2
+`;
+
+DATA.podScripts.ep051 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge einundfünfzig. Heute ziehen wir wieder in eine WG. Unser Thema: Leben in einer Wohngemeinschaft. Mit allen Regeln und Pflichten.
+A: Wir haben schon in Folge dreiunddreißig über die WG gesprochen, über die Wohnungssuche und das WG-Casting. Heute geht es um das Zusammenleben. Was darf man? Was muss man? Und was passiert, wenn es Streit gibt?
+B: Und wir üben dafür die Modalverben „müssen“ und „dürfen“, und besonders den Unterschied zwischen „nicht müssen“ und „nicht dürfen“. Das ist sehr wichtig und für viele Lernende verwirrend.
+A: „Müssen“ heißt: Es ist notwendig, es ist eine Pflicht. „Ich muss am Samstag das Bad putzen.“ Ich habe keine Wahl.
+B: „Dürfen“ heißt: Es ist erlaubt. Ich habe die Erlaubnis. „In unserer WG darf man Gäste mitbringen.“
+A: Und jetzt kommt das Wichtige. „Nicht müssen“ heißt: Es ist nicht notwendig. Man kann, aber man muss nicht. „Du musst nicht jeden Tag kochen.“ Das ist deine Entscheidung.
+B: Aber „nicht dürfen“ heißt: Es ist verboten. „Man darf in der Wohnung nicht rauchen.“ Das ist eine klare Regel.
+A: Im Englischen ist das ganz anders. „You must not“ heißt „du darfst nicht“. Darum machen viele Leute hier Fehler. Wenn ein Deutscher sagt: „Du musst nicht kommen“, heißt das nicht, dass du nicht kommen darfst! Es heißt nur, dass es keine Pflicht ist.
+B: Genau. Und es gibt noch „sollen“. Das ist eine Regel oder ein Auftrag von einer anderen Person. „Mira sagt, ich soll den Müll rausbringen.“ Und „können“ für Möglichkeiten: „Wir können am Sonntag zusammen kochen.“
+A: Gut. Jetzt zur WG. Ich habe ja im Studium in Hamburg in einer WG gewohnt. Mit vier Leuten. Und wir hatten viele Regeln. Manche geschrieben, manche ungeschrieben.
+B: Erzähl! Welche Regeln?
+A: Die wichtigste geschriebene Regel war der Putzplan. Er hing am Kühlschrank. Jede Woche hatte jede Person eine Aufgabe. Küche, Bad, Flur oder Müll. Und am Sonntag musste alles fertig sein.
+B: Und wenn jemand nicht geputzt hat?
+A: Dann gab es eine Strafe! Wer nicht geputzt hatte, musste in der nächsten Woche zwei Aufgaben übernehmen. Oder einen Kasten Bier für die WG kaufen. Hahaha.
+B: Eine Bier-Strafe! Sehr studentisch.
+A: Ja. Andere Regeln: Man durfte in der Wohnung nicht rauchen. Nur auf dem Balkon. Man durfte unter der Woche nach zweiundzwanzig Uhr keine laute Musik hören. Und man musste Bescheid sagen, wenn man Übernachtungsgäste hatte.
+B: „Bescheid sagen“ heißt: informieren. Ich sage dir Bescheid, wenn ich komme. Ein sehr nützlicher Ausdruck.
+A: Genau. Und die Lebensmittel? Das ist immer ein großes Thema in WGs. In unserer WG hatte jeder ein eigenes Fach im Kühlschrank. Und es gab eine Gemeinschaftskasse für Sachen, die alle benutzen. Toilettenpapier, Spülmittel, Salz, Öl, Kaffee.
+B: Eine Gemeinschaftskasse ist ein gemeinsames Geld. Jeder zahlt jeden Monat zum Beispiel zehn Euro ein.
+A: Genau. Und eine ungeschriebene Regel: Man darf nicht einfach das Essen der anderen nehmen. Ohne zu fragen. Das ist das größte Verbrechen in einer WG! Hahaha.
+B: Hahaha. Ja! Der berühmte Joghurt-Dieb! In jeder WG gibt es einen.
+A: In meiner WG war es Max. Er hat immer meinen Joghurt gegessen. Und dann hat er gesagt: „Oh, das war deiner? Ich dachte, er gehört allen.“ Jede Woche!
+B: Und was hast du gemacht?
+A: Ich habe meinen Namen auf alles geschrieben. Mit einem dicken Stift. „LENA! NICHT ESSEN!“ Auf jeden Joghurt, jeden Käse, jede Milch.
+B: Hahaha. Das ist sehr deutsch. Und hat es funktioniert?
+A: Nein! Max hat einfach weitergegessen. Am Ende haben wir in einer WG-Sitzung darüber gesprochen. Und Max musste mir jeden Monat einen Sechserpack Joghurt kaufen. Seitdem war Ruhe.
+B: Ah, die WG-Sitzung! Wie funktioniert das genau?
+A: Eine WG-Sitzung ist ein Treffen von allen Mitbewohnern. In vielen WGs einmal pro Monat. Man spricht über Probleme, über Geld, über den Putzplan, über neue Regeln. Manchmal mit Protokoll!
+B: Mit Protokoll! Typisch deutsch.
+A: Hahaha. Ja, in meiner WG schrieb immer Sophie das Protokoll. Sie studierte Jura. „Jura“ ist das Studium von Recht und Gesetzen. Sie wurde später Anwältin.
+B: Natürlich! Eine Juristin muss alles aufschreiben. Hahaha.
+A: Und du, Jonas? Du warst doch mit Hias in einer WG, oder?
+B: Ja! Drei Jahre in Wien. Mit Hias und zwei anderen Studenten. Aber unsere WG war ganz anders als deine. Wir hatten keine Regeln. Gar keine.
+A: Keine Regeln? Und wie hat das funktioniert?
+B: Gar nicht! Hahaha. Es war das totale Chaos. Die Küche war immer schmutzig. Im Kühlschrank lebten Dinge, die keiner kannte. Und niemand wollte den Müll rausbringen.
+A: Oh Gott. Das klingt furchtbar.
+B: Es war furchtbar. Und Hias, der ordentlichste von uns, hat irgendwann gestreikt. „Streiken“ heißt: aus Protest nicht arbeiten. Er hat eine Woche lang nichts mehr gespült. Er hat gesagt: „Ich spüle nicht mehr, bis ihr auch spült.“
+B: Nach einer Woche hatten wir keinen sauberen Teller und keine saubere Tasse mehr. Wir mussten aus Töpfen essen und aus Marmeladengläsern trinken.
+A: Hahaha! Und dann?
+B: Dann haben wir endlich eine WG-Sitzung gemacht. Die erste und einzige. Und wir haben einen Putzplan erstellt. Und eine Regel: Wer kocht, muss nicht spülen. Und wer nicht kocht, muss spülen.
+A: Das ist eine faire Regel!
+B: Ja. Und danach war es viel besser. Es ist komisch, aber die Regeln haben uns freier gemacht. Weil wir nicht mehr jeden Tag streiten mussten.
+A: Das ist eine interessante Erkenntnis. Regeln können auch Freiheit geben. Jetzt ein paar typische WG-Konflikte und wie man sie lösen kann. Erstens: der Lärm. Jemand hört laut Musik oder hat oft Besuch.
+B: Lösung: Ruhezeiten vereinbaren. Zum Beispiel: Unter der Woche ab zweiundzwanzig Uhr Ruhe. Am Wochenende ab Mitternacht. Und vorher Bescheid sagen, wenn man eine Party macht.
+A: Zweitens: das Badezimmer am Morgen. Alle müssen zur gleichen Zeit zur Arbeit oder zur Uni. Und es gibt nur ein Bad.
+B: Lösung: Ein Zeitplan für das Bad. Und nicht eine Stunde unter der Dusche stehen! Hahaha.
+A: Drittens: das Geld. Jemand bezahlt seinen Teil der Rechnungen nicht pünktlich. Für Strom, Internet und so weiter.
+B: Lösung: Alles transparent machen. Es gibt Apps, in denen man alle gemeinsamen Ausgaben einträgt. Die App rechnet aus, wer wem wie viel schuldet.
+A: Viertens: die unterschiedlichen Vorstellungen von Sauberkeit. Für die eine Person ist die Küche sauber, für die andere ist sie schmutzig.
+B: Das ist vielleicht das schwierigste Problem. Lösung: Konkret festlegen, was „sauber“ heißt. Zum Beispiel: Das Geschirr muss am selben Abend gespült werden. Der Herd muss nach dem Kochen abgewischt werden.
+A: Und die wichtigste Regel für alle Konflikte: direkt und freundlich ansprechen. Nicht passiv-aggressive Zettel an den Kühlschrank hängen!
+B: Hahaha. Die passiv-aggressiven Zettel! Das ist ein deutsches Phänomen. Es gibt sogar Bücher und Webseiten mit den lustigsten WG-Zetteln.
+A: Ja! Zum Beispiel: „Liebe Mitbewohner, das Geschirr spült sich leider nicht von allein. Danke.“ Oder: „Wer auch immer meinen Käse gegessen hat: Ich weiß, wer du bist.“
+B: Hahaha. Oder: „Der Müll hat Gefühle. Er möchte auch mal raus.“
+A: Hahaha. Genau. Lustig, aber es hilft nicht. Besser ist ein ehrliches Gespräch.
+B: Jetzt zur Geschichte. Mira und Kenji wohnen ja noch in der alten WG. Seit Julien ausgezogen ist, haben sie einen neuen Mitbewohner. Er heißt Felix. Er kommt aus München und ist zwanzig Jahre alt. Er studiert Informatik.
+A: Ein neuer Mitbewohner! Wie läuft es?
+B: Am Anfang sehr gut. Felix ist nett, lustig und hilfsbereit. Aber nach einem Monat gibt es Probleme. Felix spielt jede Nacht Videospiele. Mit Kopfhörern, aber er spricht laut mit seinen Freunden online. Bis drei Uhr morgens.
+A: Oh nein. Und Kenji muss um vier Uhr in der Bäckerei sein!
+B: Genau! Kenji schläft fast nicht mehr. Er ist total müde. Und Felix kocht oft, aber er spült nie. Die Küche sieht aus wie in Jonas' alter WG.
+A: Hahaha. Was machen Mira und Kenji?
+B: Zuerst schreibt Kenji einen Zettel. Einen sehr höflichen Zettel. „Lieber Felix, könntest du bitte nachts etwas leiser sein? Ich muss sehr früh aufstehen. Vielen Dank! Kenji.“
+A: Ein höflicher Zettel. Aber hilft das?
+B: Nein. Felix sieht den Zettel gar nicht. Er geht nie an den Kühlschrank, wo der Zettel hängt. Er bestellt nur Pizza. Hahaha.
+A: Also brauchen sie eine WG-Sitzung.
+B: Genau. Mira organisiert eine WG-Sitzung. Am Sonntagabend, mit Tee und Kenjis Brot. Mira beginnt: „Felix, wir mögen dich wirklich. Aber wir müssen über ein paar Sachen sprechen.“
+A: Ein guter Anfang. Positiv beginnen.
+B: Dann erklärt Kenji ruhig sein Problem: „Ich muss jeden Tag um halb vier aufstehen. Wenn du bis drei Uhr laut sprichst, kann ich nicht schlafen. Ich bin seit zwei Wochen sehr müde.“
+A: Und Felix?
+B: Felix ist total überrascht. Er sagt: „Oh nein! Das wusste ich nicht! Ich dachte, man hört mich nicht, weil ich Kopfhörer habe. Es tut mir wirklich leid, Kenji!“
+A: Er wusste es also wirklich nicht.
+B: Genau. Das ist oft so. Die Leute merken nicht, dass sie stören. Dann sprechen sie über das Spülen. Felix sagt: „Ehrlich gesagt habe ich zu Hause bei meinen Eltern nie gespült. Meine Mutter hat immer alles gemacht.“
+A: Hahaha. Typisch. Das „Hotel Mama“.
+B: Genau. „Hotel Mama“ ist ein lustiger Ausdruck. Er bedeutet: Man wohnt bei den Eltern und die Mutter macht alles. Und dann vereinbaren sie neue Regeln. Felix darf natürlich weiter spielen, aber ab Mitternacht muss er leise sein oder im Wohnzimmer spielen, das weiter weg von Kenjis Zimmer ist. Und er muss sein Geschirr noch am selben Abend spülen.
+A: Und sie schreiben die Regeln auf?
+B: Natürlich! Mira schreibt ein Protokoll. Und alle unterschreiben. Hahaha.
+A: Sehr deutsch! Und funktioniert es?
+B: Ja! Felix hält sich an die Regeln. Und zum Dank backt Kenji ihm jeden Samstag Brezeln. Weil Felix aus Bayern kommt und die Brezeln von zu Hause vermisst.
+A: Oh, wie schön. Ende gut, alles gut.
+B: Jetzt bist du dran, Hörer, Hörerin. Stell dir vor, du wohnst in einer WG. Welche Regeln findest du wichtig? Sag es laut, mit „müssen“ und „dürfen“: „In unserer WG muss man … Man darf nicht …“
+A: Und erkläre den Unterschied: „Du musst nicht …“ und „Du darfst nicht …“ Ein Beispiel für jeden Satz.
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: dürfen. Es ist erlaubt. In der WG darf man Gäste mitbringen.
+B: Wort Nummer zwei: nicht dürfen. Es ist verboten. Man darf in der Wohnung nicht rauchen.
+A: Wort Nummer drei: nicht müssen. Es ist nicht notwendig. Du musst nicht jeden Tag kochen.
+B: Wort Nummer vier: Bescheid sagen. Informieren. Sag mir Bescheid, wenn du kommst.
+A: Wort Nummer fünf: die Gemeinschaftskasse. Ein gemeinsames Geld für Dinge, die alle benutzen.
+B: Und Wort Nummer sechs: streiken. Aus Protest nicht arbeiten.
+A: Noch einmal: dürfen, nicht dürfen, nicht müssen, Bescheid sagen, die Gemeinschaftskasse, streiken.
+B: Was lernen wir heute? „Müssen“ ist eine Pflicht, „dürfen“ ist eine Erlaubnis. Und Achtung: „Nicht müssen“ heißt „nicht notwendig“, aber „nicht dürfen“ heißt „verboten“.
+A: Typische WG-Regeln: der Putzplan, die Ruhezeiten, die Gemeinschaftskasse, das eigene Kühlschrankfach.
+B: Typische Konflikte: Lärm, das Bad am Morgen, Geld und Sauberkeit.
+A: Und die beste Lösung: keine passiv-aggressiven Zettel, sondern ein ehrliches Gespräch in der WG-Sitzung.
+B: Das ist das Ende von Folge einundfünfzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und spül dein Geschirr! Tschüss!
+B: Servus!
+VOCAB: dürfen | Es ist erlaubt. | ✅
+VOCAB: nicht dürfen | Es ist verboten. | 🚭
+VOCAB: nicht müssen | Es ist nicht notwendig, man kann aber. | 🆗
+VOCAB: Bescheid sagen | Jemanden informieren. | 📢
+VOCAB: die Gemeinschaftskasse | Ein gemeinsames Geld für Dinge, die alle benutzen. | 🫙
+VOCAB: streiken | Aus Protest nicht arbeiten. | ✊
+QUIZ: Was heißt „Du musst nicht kommen“? | Du darfst nicht kommen | Es ist nicht notwendig, dass du kommst | Du sollst kommen | 2
+QUIZ: Wer hat in Lenas WG immer ihren Joghurt gegessen? | Sophie | Max | Hias | 2
+QUIZ: Was hat Hias in der Wiener WG gemacht? | Er ist ausgezogen | Er hat eine Woche lang nicht gespült | Er hat die Polizei gerufen | 2
+QUIZ: Warum kann Kenji nicht schlafen? | Felix spricht nachts laut beim Spielen | Die Katze ist laut | Die Nachbarn feiern | 1
+QUIZ: Was bedeutet „Hotel Mama“? | Ein billiges Hotel | Man wohnt bei den Eltern und die Mutter macht alles | Ein Hotel nur für Mütter | 2
+`;
+
+DATA.podScripts.ep052 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge zweiundfünfzig. Heute schauen wir in die Kristallkugel. Wir sprechen über den Verkehr der Zukunft.
+A: Eine Kristallkugel ist eine Glaskugel, in der Wahrsagerinnen angeblich die Zukunft sehen. Wir sind keine Wahrsager, aber wir machen heute Vorhersagen. Wie werden wir in zwanzig oder dreißig Jahren reisen? Mit fliegenden Autos? Mit selbstfahrenden Bussen? Oder wieder mit dem Fahrrad?
+B: Und dafür lernen wir das Futur I. Die Zukunftsform mit „werden“. „Ich werde morgen nach Hamburg fahren.“ „In zwanzig Jahren werden die meisten Autos elektrisch fahren.“
+A: Das Futur I ist einfach: „werden“ an Position zwei und das Verb im Infinitiv am Ende. Wie bei den Modalverben.
+B: Die Formen von „werden“: ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden. Achtung bei „du wirst“ und „er wird“. Das „e“ wird zum „i“.
+A: Und wann benutzt man das Futur? Wir haben in Folge dreiundzwanzig gelernt, dass man für die Zukunft oft einfach das Präsens benutzt. „Morgen fahre ich nach Hamburg.“ Das ist ganz normal.
+B: Das Futur mit „werden“ benutzt man vor allem in drei Situationen. Erstens für Vorhersagen und Prognosen. „Es wird morgen regnen.“ „Die Preise werden steigen.“
+A: Zweitens für Versprechen und feste Absichten. „Ich werde dich nie vergessen.“ „Ich werde ab morgen mehr Sport machen.“ Das klingt sehr entschlossen.
+B: Und drittens für Vermutungen über die Gegenwart. Das ist interessant. „Wo ist Lena?“ „Sie wird wohl noch im Büro sein.“ Das heißt: Ich glaube, sie ist im Büro, aber ich bin nicht sicher.
+A: Mit „wohl“ oder „wahrscheinlich“. „Er wird wohl krank sein.“ „Das wird schon stimmen.“ Sehr nützlich.
+B: Gut. Und „werden“ hat ja auch noch andere Bedeutungen. „Ich werde müde.“ Das heißt: Ich bin nicht müde, aber langsam komme ich in diesen Zustand. Und „Ich werde Lehrerin.“ Das ist ein Beruf in der Zukunft.
+A: Und beim Passiv, das lernen wir in der nächsten Folge. „Werden“ ist ein sehr fleißiges Verb im Deutschen!
+B: Hahaha. Ein Arbeitstier! Gut, jetzt zur Zukunft des Verkehrs. Lena, wie wirst du in zwanzig Jahren zur Arbeit fahren?
+A: Ich hoffe, immer noch mit dem Fahrrad! Hahaha. Aber vielleicht mit einem E-Bike, wenn ich älter bin. Und ich glaube, die Städte werden viel fahrradfreundlicher sein.
+B: Fahrradfreundlich heißt: Es gibt gute Bedingungen für Fahrräder. Viele Radwege, sichere Kreuzungen, Parkplätze für Fahrräder.
+A: Genau. Kopenhagen und Amsterdam sind dafür bekannte Beispiele. Dort fahren fast die Hälfte der Menschen mit dem Fahrrad zur Arbeit. Und Paris hat in den letzten Jahren viele Straßen für Autos gesperrt und Radwege gebaut. Berlin wird hoffentlich bald folgen.
+B: Ich glaube, die größte Veränderung wird das selbstfahrende Auto sein. Ein Auto, das ohne Fahrer fährt. Mit Kameras, Sensoren und künstlicher Intelligenz.
+A: Glaubst du wirklich, dass das kommen wird? Man spricht seit Jahren darüber, aber es dauert immer länger.
+B: Ja, es dauert länger, als man gedacht hat. Aber ich bin überzeugt, dass es kommen wird. In manchen Städten in Amerika und China fahren schon Robotertaxis ohne Fahrer. Man bestellt sie mit einer App, und ein leeres Auto kommt.
+A: Ein leeres Auto! Das ist ein bisschen unheimlich. „Unheimlich“ heißt: Es macht ein bisschen Angst, weil es fremd und seltsam ist.
+B: Hahaha, ja. Aber stell dir die Vorteile vor. Erstens: weniger Unfälle. Die meisten Unfälle passieren durch menschliche Fehler. Müdigkeit, Alkohol, Handy am Steuer. Ein Computer wird nicht müde und trinkt keinen Alkohol.
+A: Das stimmt. Zweitens?
+B: Zweitens: Man kann die Zeit im Auto nutzen. Man kann lesen, arbeiten, schlafen oder einen Film schauen, während das Auto fährt. Und ältere Menschen oder Menschen mit Behinderung, die nicht selbst fahren können, werden mobiler sein.
+A: Das ist ein wichtiger Punkt. Aber ich habe auch Bedenken. Ein Bedenken ist eine Sorge, ein Zweifel.
+B: Welche?
+A: Erstens: Wer ist verantwortlich, wenn es einen Unfall gibt? Der Hersteller? Der Besitzer? Der Programmierer? Das ist rechtlich sehr kompliziert.
+B: Das stimmt. Darüber diskutieren die Juristen schon seit Jahren.
+A: Zweitens: Werden dann nicht noch mehr Leute Auto fahren? Wenn man im Auto bequem arbeiten und schlafen kann, wird man vielleicht weiter weg von der Stadt wohnen und jeden Tag zwei Stunden pendeln. Dann haben wir noch mehr Stau.
+B: „Pendeln“ heißt: jeden Tag zwischen Wohnort und Arbeitsort hin und her fahren. Viele Menschen pendeln in Deutschland. Manche über hundert Kilometer pro Tag.
+A: Und drittens: Was passiert mit den Taxifahrern, Busfahrern und Lkw-Fahrern? Das sind viele Arbeitsplätze, die dann verschwinden werden.
+B: Das ist ein ernstes Thema. Darüber sprechen wir auch in Folge dreiundsechzig, über künstliche Intelligenz und die Arbeitswelt.
+A: Gut. Ein anderes Thema: das Elektroauto. In der Europäischen Union dürfen ab zweitausendfünfunddreißig keine neuen Autos mit Benzin- oder Dieselmotor mehr verkauft werden. So ist zumindest der Plan.
+B: Ab zweitausendfünfunddreißig! Das ist nicht mehr lange. In Deutschland, dem Land der Autos, ist das ein großes Thema. Volkswagen, BMW, Mercedes, Audi, Porsche. Die deutsche Autoindustrie muss sich komplett verändern.
+A: Genau. Und Wolfsburg, wo Julien manchmal arbeitet, ist die Stadt von Volkswagen. Dort hängen zehntausende Arbeitsplätze von der Autoindustrie ab.
+B: Und die Elektroautos haben auch Probleme. Die Batterien brauchen seltene Rohstoffe, wie Lithium und Kobalt. Und es gibt noch nicht genug Ladestationen. Eine Ladestation ist der Ort, wo man das Elektroauto auflädt.
+A: Und der Strom muss aus erneuerbaren Energien kommen. Aus Sonne und Wind. Sonst ist das Elektroauto nicht wirklich gut für das Klima.
+B: Das stimmt. Und dann gibt es noch ganz verrückte Ideen für die Zukunft. Fliegende Taxis! Kleine elektrische Flugzeuge, die wie Drohnen senkrecht starten und landen. Es gibt sogar deutsche Firmen, die daran arbeiten.
+A: Fliegende Taxis? Glaubst du, dass wir in zwanzig Jahren mit dem Taxi über Berlin fliegen werden?
+B: Hmm. Ehrlich gesagt bin ich skeptisch. Vielleicht für reiche Leute oder für Notfälle. Aber nicht für alle. Der Himmel wäre sonst voll mit Lärm.
+A: Das glaube ich auch. Und der Hyperloop? Davon hat man vor ein paar Jahren viel gehört. Eine Art Zug in einer Röhre ohne Luft. Er sollte mit über tausend Kilometern pro Stunde fahren.
+B: Ja, aber ich glaube, das wird noch sehr lange ein Traum bleiben. Die Technik ist extrem teuer und kompliziert. Ich glaube eher an gute, normale Züge. Mehr Schnellzüge, mehr Nachtzüge, ein europäisches Bahnnetz, in dem man ohne Probleme von Lissabon nach Helsinki fahren kann.
+A: Das wäre schön. Mit einem Ticket für ganz Europa. Und pünktlich!
+B: Hahaha. Pünktlich! Das ist die verrückteste Vorhersage von allen!
+B: Lena, und das Fliegen? Wird man in Zukunft noch so viel fliegen wie heute?
+A: Das ist eine große Frage. Flugzeuge produzieren sehr viel CO2. Und es gibt noch keine gute Alternative zum Kerosin, dem Treibstoff für Flugzeuge. Elektrische Flugzeuge gibt es nur für sehr kurze Strecken, weil die Batterien zu schwer sind.
+B: Es gibt Forschung zu Flugzeugen mit Wasserstoff. Und zu synthetischen Treibstoffen, die mit grünem Strom hergestellt werden. Aber das ist noch sehr teuer.
+A: Ich glaube, dass das Fliegen teurer werden wird. Und dass die Menschen weniger kurze Flüge machen werden. Frankreich hat zum Beispiel schon manche Inlandsflüge verboten, wenn man die Strecke in weniger als zweieinhalb Stunden mit dem Zug fahren kann.
+B: Das ist eine radikale Maßnahme. Aber logisch. Warum soll man von Paris nach Lyon fliegen, wenn der Schnellzug genauso schnell ist?
+A: Genau. Und in Deutschland? Von Berlin nach München fliegen immer noch viele Leute. Obwohl der ICE nur vier Stunden braucht.
+B: Und in Österreich gibt es keine Inlandsflüge mehr zwischen Wien und Salzburg. Die Fluggesellschaft hat sie eingestellt. Jetzt fahren alle mit dem Zug. Zweieinhalb Stunden.
+A: Das ist ein gutes Beispiel. Und noch etwas wird sich ändern, glaube ich: Wir werden weniger reisen müssen. Wegen Videokonferenzen. Früher ist man für ein Meeting von zwei Stunden nach London geflogen. Heute macht man das online.
+B: Das stimmt. Die Pandemie hat das sehr verändert. Viele Geschäftsreisen werden nie wieder zurückkommen.
+A: Gut, und die Städte? Wie werden die Städte aussehen?
+B: Ich glaube, es wird weniger Autos in den Innenstädten geben. Viele Städte planen autofreie Zonen. In Wien gibt es schon viele Begegnungszonen. Das sind Straßen, in denen Fußgänger, Radfahrer und Autos gleichberechtigt sind. Die Autos dürfen nur zwanzig Kilometer pro Stunde fahren.
+A: Und es gibt die Idee der „Fünfzehn-Minuten-Stadt“. Alles, was man im Alltag braucht, sollte man in fünfzehn Minuten zu Fuß oder mit dem Fahrrad erreichen können. Die Arbeit, die Schule, den Arzt, den Supermarkt, den Park.
+B: Das ist eigentlich eine alte Idee! Früher waren die Städte genau so. Erst mit dem Auto sind die Wege so lang geworden.
+A: Interessant! Die Zukunft ist also ein bisschen die Vergangenheit. Jetzt zur Geschichte. Julien arbeitet manchmal auf dem Campus in Wolfsburg. Und dort hat die Schule ein neues Projekt mit einer Autofirma. Die Studenten sollen eine Software für selbstfahrende Autos entwickeln.
+B: Wow, das ist ein spannendes Projekt!
+A: Ja. Julien leitet das Projekt. Zehn Studenten arbeiten sechs Monate lang daran. Sie bekommen ein kleines Testauto. Kein echtes Auto, sondern ein Modell, ungefähr so groß wie ein Kinderwagen. Mit Kameras und Sensoren.
+B: Und was ist die Aufgabe?
+A: Das kleine Auto soll allein durch einen Parcours fahren. Ein Parcours ist eine Strecke mit Hindernissen. Mit Kurven, Ampeln, Fußgängern aus Pappe und plötzlichen Hindernissen.
+B: Und am Anfang?
+A: Am Anfang war es eine Katastrophe. Das Auto fuhr gegen jede Wand. Es hielt an grünen Ampeln und fuhr bei roten weiter. Und einmal fuhr es direkt in den Fußgänger aus Pappe. Der arme Pappmann!
+B: Hahaha. Zum Glück nur aus Pappe!
+A: Genau. Aber die Studenten gaben nicht auf. Eine Studentin aus der Ukraine, Oksana, hatte eine wichtige Idee. Sie sagte: „Das Auto muss nicht nur sehen, es muss auch vorhersagen. Wenn ein Fußgänger am Straßenrand steht, wird er wahrscheinlich gleich über die Straße gehen.“
+B: Das Auto muss also die Zukunft vorhersagen! Wie wir heute im Podcast!
+A: Hahaha. Genau! Und nach fünf Monaten fuhr das kleine Auto perfekt durch den Parcours. Ohne Unfall. Und am Ende gab es eine Präsentation vor Ingenieuren der Autofirma.
+B: Und wie war die Reaktion?
+A: Die Ingenieure waren beeindruckt. Und ein Ingenieur sagte zu Julien: „Ihre Studenten werden die Zukunft des Verkehrs gestalten.“ Und zwei Studenten, auch Oksana, haben danach ein Praktikum bei der Firma bekommen.
+B: Super! Und Julien? Wie fährt er selbst?
+A: Hahaha. Julien hat immer noch kein Auto. Er fährt mit dem Fahrrad und mit dem Zug. Er sagt: „Ich programmiere die Zukunft des Autos, aber ich selbst brauche keins.“
+B: Das ist sehr berlinerisch! Jetzt bist du dran, Hörer, Hörerin. Wie wird der Verkehr in zwanzig Jahren aussehen? Mach eine Vorhersage mit „werden“. Sag es laut: „In zwanzig Jahren werden wir … Die Städte werden …“
+A: Und gib ein Versprechen für die Zukunft. „Ich werde …“ Zum Beispiel: „Ich werde öfter mit dem Fahrrad fahren.“
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: die Vorhersage. Eine Aussage über die Zukunft. Die Wettervorhersage.
+B: Wort Nummer zwei: selbstfahrend. Ein Auto fährt ohne Fahrer, mit Computer und Sensoren.
+A: Wort Nummer drei: pendeln. Jeden Tag zwischen Wohnort und Arbeitsort hin und her fahren.
+B: Wort Nummer vier: unheimlich. Es macht ein bisschen Angst, weil es fremd und seltsam ist.
+A: Wort Nummer fünf: die Bedenken. Sorgen oder Zweifel. Ich habe Bedenken.
+B: Und Wort Nummer sechs: die Ladestation. Der Ort, wo man ein Elektroauto auflädt.
+A: Noch einmal: die Vorhersage, selbstfahrend, pendeln, unheimlich, die Bedenken, die Ladestation.
+B: Was lernen wir heute? Das Futur I: „werden“ plus Infinitiv. Ich werde fahren, du wirst fahren, er wird fahren.
+A: Man benutzt es für Vorhersagen, für Versprechen und für Vermutungen: „Sie wird wohl im Büro sein.“
+B: Die Zukunft des Verkehrs: Elektroautos, selbstfahrende Autos, mehr Fahrräder, bessere Züge und Städte mit weniger Autos.
+A: Und die Fünfzehn-Minuten-Stadt: Alles ist in fünfzehn Minuten erreichbar.
+B: Das ist das Ende von Folge zweiundfünfzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und gute Fahrt in die Zukunft! Tschüss!
+B: Servus!
+VOCAB: die Vorhersage | Eine Aussage über die Zukunft. | 🔮
+VOCAB: selbstfahrend | Ein Auto fährt ohne Fahrer, mit Computer und Sensoren. | 🚗
+VOCAB: pendeln | Jeden Tag zwischen Wohnort und Arbeitsort hin und her fahren. | 🔁
+VOCAB: unheimlich | Es macht ein bisschen Angst, weil es fremd und seltsam ist. | 👻
+VOCAB: die Bedenken | Sorgen oder Zweifel. | 🤔
+VOCAB: die Ladestation | Der Ort, wo man ein Elektroauto auflädt. | 🔌
+QUIZ: Welcher Satz ist im Futur I? | Ich fahre morgen nach Hamburg. | Ich werde morgen nach Hamburg fahren. | Ich bin nach Hamburg gefahren. | 2
+QUIZ: Was bedeutet „Sie wird wohl im Büro sein“? | Sie ist sicher im Büro | Ich vermute, sie ist im Büro | Sie wird morgen im Büro sein | 2
+QUIZ: Ab wann sollen in der EU keine neuen Benzinautos mehr verkauft werden? | Ab zweitausenddreißig | Ab zweitausendfünfunddreißig | Ab zweitausendfünfzig | 2
+QUIZ: Was ist eine Begegnungszone in Wien? | Ein Parkplatz | Eine Straße, in der alle gleichberechtigt sind | Ein Bahnhof | 2
+QUIZ: Welche Idee hatte Oksana? | Das Auto muss vorhersagen, was passiert | Das Auto muss schneller fahren | Das Auto braucht mehr Kameras | 1
+`;
+
+DATA.podScripts.ep053 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge dreiundfünfzig. Heute reisen wir durch die Geschichte der Technik. Unser Thema: Erfindungen aus Deutschland und Österreich.
+A: Eine Erfindung ist etwas Neues, das es vorher nicht gab. Eine neue Maschine, ein neues Produkt, eine neue Idee. Und die Person, die etwas erfindet, ist der Erfinder oder die Erfinderin.
+B: Und Deutschland ist bekannt als „Land der Dichter und Denker“. Aber auch als Land der Ingenieure und Erfinder. Es gibt viele Dinge, die wir jeden Tag benutzen und die aus Deutschland oder Österreich kommen. Manche wirst du sicher kennen, andere werden dich überraschen.
+A: Und für dieses Thema lernen wir das Passiv. Das Passiv benutzt man, wenn die Handlung wichtiger ist als die Person, die etwas macht. „Das Auto wurde in Deutschland erfunden.“ Hier ist das Auto wichtig, nicht unbedingt die Person.
+B: Das Passiv bildet man mit „werden“ plus Partizip. Im Präsens: „Das Brot wird gebacken.“ „Die Briefe werden geschrieben.“
+A: Und in der Vergangenheit, im Präteritum: „Das Brot wurde gebacken.“ „Die Briefe wurden geschrieben.“ Das Präteritum-Passiv ist sehr häufig, besonders in Texten über Geschichte.
+B: Und im Perfekt: „Das Brot ist gebacken worden.“ Mit „sein“ und „worden“. Aber das hört man seltener, weil es etwas lang ist.
+A: Und wenn man die Person doch nennen will, benutzt man „von“. „Das Auto wurde von Carl Benz erfunden.“
+B: Vergleiche: Aktiv: „Carl Benz erfand das Auto.“ Passiv: „Das Auto wurde von Carl Benz erfunden.“ Beide Sätze sind richtig. Im Aktiv steht die Person im Mittelpunkt, im Passiv die Sache.
+A: Gut. Jetzt die Erfindungen! Fangen wir mit der berühmtesten an. Jonas?
+B: Das Auto! Achtzehnhundertsechsundachtzig wurde von Carl Benz in Mannheim das erste moderne Auto gebaut. Es hatte drei Räder und einen Benzinmotor. Und es fuhr ungefähr sechzehn Kilometer pro Stunde.
+A: Sechzehn Kilometer pro Stunde! Mit dem Fahrrad bin ich schneller!
+B: Hahaha. Ja. Und es gibt eine tolle Geschichte. Die erste lange Autofahrt der Welt wurde nicht von Carl Benz gemacht, sondern von seiner Frau, Bertha Benz.
+A: Oh, das kenne ich! Erzähl!
+B: Achtzehnhundertachtundachtzig nahm Bertha Benz das Auto, ohne es ihrem Mann zu sagen. Mit ihren zwei Söhnen fuhr sie von Mannheim nach Pforzheim, wo ihre Mutter wohnte. Über hundert Kilometer! Unterwegs musste sie Benzin in einer Apotheke kaufen, weil es noch keine Tankstellen gab. Und sie reparierte das Auto mit ihrer Haarnadel und ihrem Strumpfband.
+A: Mit einer Haarnadel! Was für eine mutige Frau! Sie hat gezeigt, dass das Auto funktioniert.
+B: Genau. Ohne sie hätte vielleicht niemand an das Auto geglaubt. Die Apotheke in Wiesloch nennt man heute „die erste Tankstelle der Welt“.
+A: Wunderbar. Meine Erfindung ist noch älter: der Buchdruck. Um vierzehnhundertfünfzig wurde von Johannes Gutenberg in Mainz der Buchdruck mit beweglichen Buchstaben erfunden.
+B: Das war eine der wichtigsten Erfindungen der Menschheit, oder?
+A: Absolut. Vorher wurden Bücher mit der Hand geschrieben. Das dauerte Monate oder Jahre. Bücher waren extrem teuer, und nur reiche Menschen und Klöster hatten welche. Mit dem Buchdruck konnten plötzlich viele Bücher schnell und günstig hergestellt werden.
+B: Und das hat die Welt verändert. Wissen wurde für viel mehr Menschen zugänglich. „Zugänglich“ heißt: Man kann es erreichen und benutzen.
+A: Genau. Ohne den Buchdruck hätte es die Reformation von Martin Luther vielleicht nicht gegeben. Seine Bibel auf Deutsch wurde tausendfach gedruckt. Und sie hat auch die deutsche Sprache stark geprägt.
+B: „Prägen“ heißt: einen starken Einfluss haben, etwas formen. Luther hat die deutsche Sprache geprägt.
+A: Genau. Gut, Nummer drei!
+B: Eine Erfindung, die jeder in der Hand hat: die MP3! Das Format für Musikdateien. Es wurde in den Achtziger- und Neunzigerjahren am Fraunhofer-Institut in Erlangen entwickelt.
+A: Die MP3 kommt aus Deutschland? Das wusste ich nicht!
+B: Ja! Und es gibt eine lustige Geschichte: Die Forscher haben das Format mit dem Lied „Tom's Diner“ von Suzanne Vega getestet. Hunderte Male. Weil die Stimme so klar war. Darum nennt man Suzanne Vega manchmal „die Mutter der MP3“.
+A: Hahaha. Wie toll! Nummer vier passt perfekt zu Julien: der Computer! Neunzehnhunderteinundvierzig wurde von Konrad Zuse in Berlin der erste funktionierende programmierbare Computer gebaut. Der Z3.
+B: Der erste Computer kam aus Berlin? Das ist für Julien interessant!
+A: Ja! Er war natürlich riesig und langsam. Viel langsamer als ein modernes Handy. Leider wurde er im Zweiten Weltkrieg bei einem Bombenangriff zerstört. Aber im Deutschen Museum in München steht eine Kopie.
+B: Faszinierend. Jetzt eine Erfindung aus Österreich. Die Nähmaschine wurde von einem Österreicher erfunden! Josef Madersperger, ein Schneider aus Wien, baute um achtzehnhundertvierzehn eine der ersten Nähmaschinen.
+A: Oh, wie interessant. Ist er reich geworden?
+B: Leider nein. Er bekam nie Anerkennung für seine Erfindung und starb sehr arm. Später wurde die Nähmaschine von anderen weiterentwickelt und verkauft. Das ist eine traurige Geschichte, die man bei vielen Erfindern findet.
+A: Leider. Weitere bekannte Erfindungen aus Deutschland: Das Aspirin wurde achtzehnhundertsiebenundneunzig von der Firma Bayer entwickelt. Der Dieselmotor wurde von Rudolf Diesel erfunden. Die Röntgenstrahlen wurden von Wilhelm Conrad Röntgen entdeckt. Dafür bekam er den ersten Nobelpreis für Physik.
+B: „Entdecken“ ist etwas anderes als „erfinden“. Man erfindet etwas Neues, das es vorher nicht gab. Aber man entdeckt etwas, das schon existiert, aber noch niemand kannte. Röntgen hat die Strahlen nicht erfunden, er hat sie entdeckt.
+A: Gute Erklärung. Und dann gibt es Alltagsdinge. Der Kaffeefilter wurde neunzehnhundertacht von einer Hausfrau aus Dresden erfunden. Melitta Bentz. Sie war genervt, weil der Kaffee immer Kaffeesatz in der Tasse hatte.
+B: Ah, Melitta! Die Firma gibt es heute noch!
+A: Genau. Sie nahm ein Blatt Löschpapier aus dem Schulheft ihres Sohnes und legte es in einen Topf mit Löchern. Und der Kaffeefilter war erfunden! Sie meldete ein Patent an und gründete eine Firma.
+B: Ein Patent ist ein offizielles Recht. Nur der Erfinder darf seine Erfindung benutzen und verkaufen. Für eine bestimmte Zeit. Melitta Bentz war eine kluge Frau. Anders als der arme Madersperger.
+A: Genau. Und die Thermoskanne, der Teddybär, die Zahnpasta in der Tube, das Fahrrad … Na ja, die erste Laufmaschine. Das Laufrad wurde achtzehnhundertsiebzehn von Karl Drais erfunden. Ohne Pedale. Man stieß sich mit den Füßen vom Boden ab.
+B: Wie die Laufräder für kleine Kinder heute!
+A: Genau so! Und auch der Airbag im Auto, die Chipkarte und der Dübel kommen aus Deutschland. Der Dübel ist ein kleines Plastikteil. Man steckt es in ein Loch in der Wand, und dann kann man eine Schraube hineindrehen. Sehr praktisch für jeden, der ein Regal aufhängen will.
+B: Hahaha. Der Dübel! Keine elegante Erfindung, aber sehr nützlich. Er wurde von Artur Fischer erfunden. Er hatte über tausend Patente!
+A: Über tausend! Wow. Und ich habe gelesen, dass Deutschland immer noch eines der Länder mit den meisten Patenten in Europa ist.
+B: Ja, besonders in der Autoindustrie, im Maschinenbau und in der Medizintechnik. Und ein großer Teil kommt nicht von großen Firmen, sondern vom Mittelstand. Von kleinen und mittleren Firmen. Darüber sprechen wir in Folge fünfundneunzig.
+B: Und eine Erfindung für Sportfans! Die Fußballschuhe mit Schraubstollen. Stollen sind kleine Spitzen unter dem Schuh, damit man auf dem Rasen nicht rutscht. Sie wurden von Adi Dassler bekannt gemacht, dem Gründer von Adidas.
+A: Adidas! Und sein Bruder Rudolf hat Puma gegründet, oder?
+B: Genau! Die zwei Brüder hatten zusammen eine Schuhfabrik in Herzogenaurach, einer kleinen Stadt in Bayern. Aber sie haben sich gestritten. So sehr, dass sie zwei Firmen gegründet haben. Auf zwei Seiten vom Fluss. Und die ganze Stadt war geteilt. Die Leute haben nicht in die Bäckerei oder Kneipe der anderen Seite gehen wollen.
+A: Wow, ein Bruderstreit, der eine ganze Stadt geteilt hat. Und heute sind beide Firmen weltberühmt.
+B: Und angeblich hat Deutschland die Fußballweltmeisterschaft neunzehnhundertvierundfünfzig auch wegen dieser Schuhe gewonnen. Es hat geregnet, und die deutschen Spieler konnten längere Stollen in die Schuhe schrauben. Das „Wunder von Bern“!
+A: Und eine ganz moderne Erfindung: Ein großer Teil der Forschung für den ersten mRNA-Impfstoff gegen Corona wurde in Mainz gemacht. Von der Firma BioNTech. Von einem Ehepaar, Uğur Şahin und Özlem Türeci, deren Familien aus der Türkei kommen.
+B: Das ist eine sehr schöne Geschichte. Eine moderne Erfolgsgeschichte, die zeigt, wie wichtig Einwanderung für Deutschland ist.
+A: Genau. Und interessant: Mainz! Die Stadt von Gutenberg. Fast sechshundert Jahre später wieder eine Erfindung, die die Welt verändert hat.
+B: Jetzt zur Geschichte von Emre. Emre hat jetzt seinen Job als Content Creator. Und er macht eine Videoserie über deutsche Erfindungen. Für junge Leute, lustig erklärt.
+A: Eine tolle Idee!
+B: Für das erste Video wollte er die Geschichte von Melitta Bentz und dem Kaffeefilter erzählen. Er hat ein Löschpapier und einen alten Topf genommen und versucht, den ersten Kaffeefilter nachzubauen.
+A: Und? Hat es funktioniert?
+B: Nein! Das Papier ist gerissen, und der ganze Kaffee lief auf den Tisch und auf seine Hose. Es war ein komplettes Chaos. Aber er hat das Video trotzdem gepostet. Mit dem Titel: „Melitta Bentz war klüger als ich.“
+A: Hahaha! Das Video war bestimmt ein Erfolg.
+B: Ja! Eine Million Aufrufe. Für das zweite Video hat er Bertha Benz' Fahrt nachgemacht. Mit dem Fahrrad! Von Mannheim nach Pforzheim. Hundertsechs Kilometer in einem Tag.
+A: Mit dem Fahrrad! Das ist sportlich!
+B: Ja, und er hat unterwegs in der Apotheke in Wiesloch angehalten. Der ersten Tankstelle der Welt. Und dort hat er die Apothekerin interviewt. Sie hat erzählt, dass jedes Jahr Touristen aus der ganzen Welt kommen, um die Apotheke zu sehen.
+A: Wie schön. Und für das dritte Video?
+B: Für das dritte Video hat er Kenji eingeladen. Sie haben über das Brot gesprochen. Und Kenji hat erklärt, dass das deutsche Brot zwar keine Erfindung ist, aber zum immateriellen Kulturerbe der UNESCO gehört. Die deutsche Brotkultur!
+A: Das stimmt! Seit zweitausendvierzehn. Wie das Wiener Kaffeehaus.
+B: Genau. Und am Ende des Videos hat Kenji ein Patent angemeldet. Nein, Spaß. Hahaha. Aber er hat sein Tokio-Berlin-Brot präsentiert. Und Emre hat gesagt: „Vielleicht wird dieses Brot eines Tages auch in einem Museum stehen.“
+A: Hahaha. Im Deutschen Museum! Neben dem Z3 von Konrad Zuse.
+B: Jetzt bist du dran, Hörer, Hörerin. Welche Erfindung aus Deutschland oder Österreich hat dich heute überrascht? Erzähl es im Passiv. „Der … wurde von … erfunden.“
+A: Und welche Erfindung aus deinem Land findest du wichtig? „In meinem Land wurde … erfunden.“
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: die Erfindung. Etwas Neues, das es vorher nicht gab.
+B: Wort Nummer zwei: entdecken. Etwas finden, das schon existiert, aber noch niemand kannte.
+A: Wort Nummer drei: das Patent. Ein offizielles Recht: Nur der Erfinder darf seine Erfindung benutzen und verkaufen.
+B: Wort Nummer vier: prägen. Einen starken Einfluss haben, etwas formen.
+A: Wort Nummer fünf: zugänglich. Man kann es erreichen und benutzen.
+B: Und Wort Nummer sechs: das Passiv. Die Form, bei der die Handlung wichtiger ist als die Person. Das Auto wurde erfunden.
+A: Noch einmal: die Erfindung, entdecken, das Patent, prägen, zugänglich, das Passiv.
+B: Was lernen wir heute? Das Passiv mit „werden“ plus Partizip. Präsens: Das Brot wird gebacken. Präteritum: Das Brot wurde gebacken.
+A: Und mit „von“ die Person: Das Auto wurde von Carl Benz erfunden.
+B: Erfindungen aus Deutschland und Österreich: das Auto, der Buchdruck, der Computer, die MP3, der Kaffeefilter, der Dübel und die Nähmaschine.
+A: Und der Unterschied: Man erfindet etwas Neues, aber man entdeckt etwas, das schon existiert.
+B: Das ist das Ende von Folge dreiundfünfzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und vielleicht erfindest du ja bald etwas! Tschüss!
+B: Servus!
+VOCAB: die Erfindung | Etwas Neues, das es vorher nicht gab. | 💡
+VOCAB: entdecken | Etwas finden, das schon existiert, aber noch niemand kannte. | 🔭
+VOCAB: das Patent | Ein offizielles Recht: Nur der Erfinder darf die Erfindung verkaufen. | 📜
+VOCAB: prägen | Einen starken Einfluss haben, etwas formen. | 🖋️
+VOCAB: zugänglich | Man kann es erreichen und benutzen. | 🔓
+VOCAB: das Passiv | Die Form, bei der die Handlung wichtiger ist als die Person. | 🔄
+QUIZ: Welcher Satz ist im Passiv? | Carl Benz erfand das Auto. | Das Auto wurde von Carl Benz erfunden. | Carl Benz hat das Auto erfunden. | 2
+QUIZ: Wo kaufte Bertha Benz das Benzin? | An einer Tankstelle | In einer Apotheke | In einem Restaurant | 2
+QUIZ: Wer baute den ersten programmierbaren Computer? | Konrad Zuse | Johannes Gutenberg | Rudolf Diesel | 1
+QUIZ: Wie erfand Melitta Bentz den Kaffeefilter? | Mit Löschpapier aus dem Schulheft ihres Sohnes | Mit einem Stück Stoff | Mit einer Maschine | 1
+QUIZ: Was ist der Unterschied zwischen „erfinden“ und „entdecken“? | Es gibt keinen Unterschied | Man erfindet etwas Neues, man entdeckt etwas, das schon existiert | Man entdeckt nur Länder | 2
+`;
