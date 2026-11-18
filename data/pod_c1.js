@@ -1252,3 +1252,204 @@ QUIZ: Was forderte das Volksbegehren „Deutsche Wohnen und Co. enteignen“? | 
 QUIZ: Was ist das Besondere am Wiener Modell? | Fast die Hälfte der Wiener lebt in Wohnungen, die dem freien Markt weitgehend entzogen sind | Alle Wohnungen sind privat | Es gibt keine Mieten | 1
 QUIZ: An wen wurde Juliens Haus am Ende verkauft? | An den Investor | An eine Wohnungsbaugenossenschaft | An Julien | 2
 `;
+
+DATA.podScripts.ep094 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge vierundneunzig. Heute wird es lustig. Hoffentlich. Denn wir sprechen über ein Thema, das zu den schwierigsten Dingen beim Erlernen einer Fremdsprache gehört: den Humor. Und zwar über Humor in verschiedenen Kulturen, über Ironie und Understatement.
+A: Man sagt, man beherrsche eine Fremdsprache erst wirklich, wenn man in ihr Witze verstehen und selbst lustig sein kann. Denn Humor setzt ein tiefes Verständnis voraus. Für die Sprache, für Wortspiele, für kulturelle Anspielungen und für das, was zwischen den Zeilen steht.
+B: Und wir müssen natürlich gleich mit dem größten Klischee aufräumen. „Mit etwas aufräumen“ heißt hier: einen Irrtum beseitigen. Denn es gibt ein weltweit verbreitetes Vorurteil: Die Deutschen haben keinen Humor.
+A: Hahaha. Ja, das hört man überall. Es gibt sogar einen bekannten Witz: Was ist das kürzeste Buch der Welt? „Tausend Jahre deutscher Humor.“
+B: Hahaha. Und das Lustige ist: Die Deutschen erzählen diesen Witz selbst über sich. Was schon zeigt, dass sie sehr wohl Humor haben. Selbstironie ist eine der höchsten Formen des Humors.
+A: Sprachlich widmen wir uns heute genau diesen feinen Formen: der Ironie, dem Sarkasmus, dem Understatement, der Übertreibung und dem Wortspiel. Und den sprachlichen Signalen, an denen man sie erkennt. Zum Beispiel Modalpartikeln wie „ja“, „wohl“, „schon“ in bestimmten Kontexten, oder die Intonation.
+B: Und wir lernen Ausdrücke wie „etwas mit einem Augenzwinkern sagen“, also nicht ganz ernst meinen. Oder „etwas für bare Münze nehmen“, also etwas wörtlich und ernst nehmen, das ironisch gemeint war.
+A: Gut. Fangen wir mit einer Unterscheidung an. Ironie, Sarkasmus und Zynismus werden oft verwechselt. Was ist der Unterschied?
+B: Ironie bedeutet, etwas zu sagen, aber das Gegenteil zu meinen. Und zwar so, dass der Zuhörer es versteht. Wenn es draußen in Strömen regnet und ich sage: „Herrliches Wetter heute!“, dann ist das ironisch. Ironie ist oft spielerisch und kann liebevoll sein.
+A: Sarkasmus ist eine schärfere, bissigere Form der Ironie. Sie ist verletzend und will jemanden treffen oder verspotten. Wenn ein Kollege einen Fehler macht und man sagt: „Großartig, du bist wirklich ein Genie“, dann ist das Sarkasmus.
+B: Und Zynismus ist eigentlich keine Form des Humors, sondern eine Haltung. Ein Zyniker glaubt nicht an das Gute, an Ideale, an Moral. Er verspottet alles mit einer bitteren Verachtung. Wir hatten das Wort schon in Folge sechsundsechzig beim Burnout.
+A: Sehr gut erklärt. Und jetzt zum deutschen Humor. Ist er wirklich so schlecht wie sein Ruf?
+B: Ich glaube, das Problem ist, dass der deutsche Humor oft anders funktioniert, als Außenstehende erwarten. Und zwar wegen der Trennung von Ernst und Spaß, die wir aus Folge achtundachtzig kennen. In Deutschland gibt es eine relativ klare Grenze. Bei der Arbeit ist man ernst, im Privatleben lustig.
+A: Das stimmt. Wenn ein Deutscher eine wichtige Besprechung leitet, macht er tendenziell weniger Witze als ein Brite oder Amerikaner. Weil Humor bei ernsten Themen als unpassend, fast respektlos gilt. Man könnte den Eindruck erwecken, man nehme die Sache nicht ernst.
+B: Während ein Brite fast jede Rede mit einem Witz beginnt. Auch bei einer Beerdigung. Und das Verblüffende: Gerade deshalb halten viele Briten die Deutschen für humorlos. Weil sie den Humor im falschen Kontext suchen.
+A: Und der deutsche Humor ist oft direkter, manchmal derber, oft situationskomisch. Es gibt eine lange Tradition von Komikern wie Loriot. Er ist vielleicht der wichtigste deutsche Humorist des zwanzigsten Jahrhunderts.
+B: Loriot! Den lieben alle Deutschen. Erzähl von ihm.
+A: Loriot, mit bürgerlichem Namen Vicco von Bülow, war ein Meister der feinen Beobachtung. Seine Sketche zeigen oft ganz alltägliche Situationen in der deutschen Mittelschicht. Ehepaare, die sich nichts mehr zu sagen haben. Spießige Bürger, die sich an Regeln klammern. Und der Humor entsteht daraus, dass die Kommunikation zwischen den Menschen auf absurde Weise scheitert.
+B: Ein berühmter Sketch spielt beim Frühstück. Ein Ehepaar streitet sich darüber, wie lange das Frühstücksei gekocht wurde. Der Mann besteht darauf, dass ein Ei viereinhalb Minuten kochen muss, und dass es heute zu hart ist. Und die Frau sagt, sie habe es nach Gefühl gekocht.
+A: Und der Streit über das Ei wird immer grotesker. Und es ist eigentlich eine tiefgründige Satire über die Kommunikationsprobleme in einer Ehe und über die deutsche Pedanterie. „Pedanterie“ ist eine übertriebene Genauigkeit und Kleinlichkeit.
+B: Und es gibt einen Sketch mit einer Nudel. Ein Mann macht einer Frau in einem Restaurant einen Heiratsantrag. Und dabei hängt ihm eine Nudel im Gesicht. Und die Frau versucht die ganze Zeit, ihn darauf hinzuweisen. Aber er lässt sie nicht zu Wort kommen.
+A: Hahaha. Ja. Und Loriot hat auch einen berühmten Satz geprägt: „Ein Leben ohne Mops ist möglich, aber sinnlos.“ Er liebte Möpse, also diese kleine Hunderasse.
+B: Hahaha. Der Satz ist zu einem geflügelten Wort geworden. Ein „geflügeltes Wort“ ist ein Zitat, das so bekannt geworden ist, dass jeder es kennt und benutzt.
+A: Genau. Und jetzt der österreichische Humor. Der ist ja noch einmal ganz anders, oder?
+B: Absolut. Der österreichische, besonders der Wiener Humor, ist tiefschwarz und melancholisch. Wir haben in Folge vierunddreißig über den schwarzen Humor gesprochen und über die besondere Beziehung der Wiener zum Tod. Es gibt den Begriff „der Wiener Schmäh“, aus Folge achtundzwanzig.
+A: Erklär ihn noch einmal genauer.
+B: Der Schmäh ist schwer zu übersetzen. Es ist eine Mischung aus Charme, Ironie, Witz und einer gewissen Verlogenheit. Man sagt etwas Freundliches, meint aber vielleicht etwas ganz anderes. Und der andere weiß das, und beide genießen das Spiel. Wenn ein Wiener Kellner sagt „Gnä' Frau, Sie schauen heute wieder bezaubernd aus“, ist das Schmäh. Halb ernst, halb Spiel.
+A: Und es gibt einen typischen Wiener Witz über den Tod. Kannst du einen erzählen?
+B: Gern. Ein Mann liegt im Sterben. Er ruft seine Frau und sagt: „Ich rieche den Apfelstrudel, den du gerade backst. Kann ich noch ein letztes Stück haben?“ Und die Frau antwortet: „Nein, der ist für das Begräbnis.“
+A: Hahaha! Das ist so schwarz. Und so wienerisch.
+B: Hahaha. Genau. Und es gibt den berühmten österreichischen Kabarettisten Helmut Qualtinger, der eine Figur namens „Herr Karl“ geschaffen hat. Ein opportunistischer, kleinbürgerlicher Wiener, der sich durch alle politischen Systeme laviert. Und durch diese Figur hat Qualtinger auf sehr bissige Weise die Mitschuld vieler Österreicher am Nationalsozialismus thematisiert.
+A: Das zeigt etwas Wichtiges: Humor kann ein sehr scharfes politisches Instrument sein. Die Satire.
+B: Genau. Und in Deutschland gibt es eine lange Tradition des politischen Kabaretts. Und auch der Satire in Zeitschriften. Die Satirezeitschrift „Titanic“ ist bekannt für ihre provokanten Titelbilder.
+A: Gut. Und jetzt der britische Humor, den wir als Kontrast brauchen, um das Konzept des Understatements zu verstehen.
+B: Das Understatement ist die Untertreibung. Man stellt etwas als weniger bedeutend dar, als es ist. Und die Briten sind die unbestrittenen Meister darin. Wenn ein Brite in einem schweren Sturm auf dem Schiff steht und sagt „It's a bit windy today“, dann ist das Understatement.
+A: Oder das berühmte Beispiel: Während der schlimmen Bombardierungen Londons im Zweiten Weltkrieg hingen in manchen beschädigten Geschäften Schilder mit der Aufschrift „More open than usual“. Also: „Offener als sonst.“ Weil die Fenster und Türen weggesprengt waren.
+B: Das ist ein wunderbares Beispiel für Humor als Form der Resilienz. Folge zweiundneunzig! Mit Humor eine unerträgliche Situation erträglich machen.
+A: Und hier liegt ein großes Problem für die interkulturelle Kommunikation. Die Deutschen, die tendenziell Low Context sind und Verstärker benutzen, nehmen das britische Understatement oft für bare Münze. Wenn ein Brite sagt „I'm not entirely sure that's a good idea“, versteht der Deutsche „Er hat leichte Bedenken“. Der Brite meint aber: „Das ist eine katastrophale Idee.“
+B: Hahaha. Genau wie die Tabelle aus Folge achtundachtzig. Und umgekehrt verstehen die Briten die deutsche Direktheit oft nicht als Humor, selbst wenn sie so gemeint ist.
+A: Und das bringt uns zu einem der größten Probleme mit Humor in einer Fremdsprache: der Ironie. Ironie ist für Nicht-Muttersprachler extrem schwer zu erkennen. Weil sie oft nur durch die Intonation oder den Kontext signalisiert wird.
+B: Und das kann zu peinlichen Missverständnissen führen. Wenn jemand ironisch sagt „Na toll, schon wieder Verspätung bei der Bahn“, und ein Lernender denkt, die Person freue sich wirklich über die Verspätung.
+A: Oder umgekehrt: Wenn ein Lernender etwas ironisch meint, aber die Intonation nicht stimmt, wird er ernst genommen. Darum ist es in einer Fremdsprache oft sicherer, mit Ironie vorsichtig zu sein, bis man sich wirklich sicher fühlt.
+B: Und es gibt noch eine besondere Form, die für das Deutsche typisch ist: das Wortspiel. Weil das Deutsche so viele Möglichkeiten hat, Wörter zu kombinieren, sind Wortspiele sehr beliebt. Besonders in der Werbung und bei Friseursalons.
+A: Hahaha. Die Friseursalons! Es gibt in Deutschland eine regelrechte Tradition von witzigen Namen für Friseure. „Haarmonie“, von Harmonie und Haar. „Kamm in“, wie „Come in“. „Vier Haareszeiten“, von den vier Jahreszeiten. „Haarscharf“.
+B: Hahaha. Und „Schnittstelle“! Und Fischrestaurants mit Namen wie „Fischers Fritz“. Oder der berühmte Zungenbrecher: „Fischers Fritz fischt frische Fische.“
+A: Und dann gibt es einen sehr typischen Bereich des deutschen Humors: die Witze über bestimmte Regionen und Berufe. Die Ostfriesenwitze zum Beispiel. Die Ostfriesen leben im äußersten Nordwesten Deutschlands, und sie sind traditionell die Zielscheibe von Witzen über angebliche Einfältigkeit.
+B: Und die Ostfriesen nehmen das mit Humor und erzählen inzwischen selbst Ostfriesenwitze. Und in Österreich gibt es die Burgenländerwitze. Das Burgenland ist das östlichste Bundesland.
+A: Und Beamtenwitze. Über die Langsamkeit der Bürokratie. Folge neunundsiebzig! „Was ist der Unterschied zwischen einem Beamten und einer Schnecke? Die Schnecke hat einen Schleim, der Beamte hat einen Stempel.“ Ah, nein, das ist ein schlechter Witz. Hahaha.
+B: Hahaha. Ein sehr schlechter Witz, Lena. Aber genau das ist auch eine Form von Humor. Der absichtlich schlechte Witz. Der Flachwitz!
+A: Ja! Flachwitze sind in Deutschland unglaublich beliebt. Ein Flachwitz ist ein absichtlich simpler, oft sehr dummer Witz, meistens mit einem Wortspiel. Man lacht nicht, weil er lustig ist, sondern weil er so schlecht ist. „Was macht ein Pirat am Computer? Er drückt die Enter-Taste.“
+B: Hahaha. Oh nein! Das ist furchtbar. Und darum lustig. Und das sagt vielleicht etwas Tiefes über den deutschen Humor. Eine gewisse Freude am Absurden, am Banalen.
+A: Gut. Und jetzt die Frage: Kann man Humor überhaupt übersetzen?
+B: Oft nicht. Wortspiele lassen sich fast nie übersetzen. Und Witze, die auf kulturellen Anspielungen beruhen, funktionieren nur, wenn man die Kultur kennt. Übersetzer von Komödien und Comics stehen vor einer unlösbaren Aufgabe. Sie müssen oft ganz neue Witze erfinden.
+A: Ein gutes Beispiel sind die Asterix-Comics, die wir in Folge vierundzwanzig erwähnt haben. Die deutschen Übersetzungen sind berühmt dafür, dass sie eigene, neue Wortspiele erfunden haben, die im französischen Original gar nicht vorkommen. Manche halten die deutsche Version sogar für witziger als das Original.
+B: Und die Namen! Im Original heißen die Charaktere oft ganz anders. Der Barde heißt im Französischen „Assurancetourix“, im Deutschen „Troubadix“. Ein völlig neues Wortspiel.
+A: Jetzt zur Geschichte. Diesmal geht es um Oksana, die ukrainische Data Scientist. Und um ihren ersten großen Auftritt mit Humor.
+B: Oksana? Die ja eher als sehr direkt und ernst gilt.
+A: Genau das ist der Punkt. Oksana wurde eingeladen, auf einer großen Tech-Konferenz in Berlin einen Vortrag über Fairness in Algorithmen zu halten. Über ihre Arbeit aus Folge einundachtzig. Und ihre Kollegen haben ihr geraten, den Vortrag mit einem Witz zu beginnen, um das Publikum aufzulockern.
+B: Ein gängiger Rat. Wie in Folge achtzig mit dem Aufhänger.
+A: Genau. Und Oksana hat einen Witz vorbereitet, der in der Ukraine sehr beliebt ist. Ein Witz mit schwarzem Humor über Bürokratie in der Sowjetunion. Und sie hat ihn auf Deutsch übersetzt.
+B: Oh je. Ich ahne, was passiert ist.
+A: Ja. Sie hat den Witz erzählt. Und es war totenstill im Saal. Niemand hat gelacht. Das Publikum hat sie verwirrt angeschaut. Der Witz beruhte auf einem Wortspiel im Russischen, das auf Deutsch völlig verloren ging. Und auf Anspielungen, die niemand im Publikum verstand.
+B: Ein klassischer kultureller Flop. Was hat sie gemacht?
+A: Und genau das war der Moment. Oksana hat einen Moment gestutzt. „Stutzen“ heißt: plötzlich innehalten, weil man überrascht ist. Und dann hat sie ganz trocken gesagt: „Okay. Das war ein Experiment. Ich wollte testen, ob mein Algorithmus für ukrainischen Humor auch in Deutschland funktioniert. Er funktioniert offensichtlich nicht. Das Modell braucht mehr Trainingsdaten.“
+B: Hahaha! Brillant! Sie hat den Flop in einen Witz verwandelt!
+A: Genau! Und der ganze Saal hat gelacht. Laut und lange. Weil es ein Witz über ihr eigenes Thema war, über Algorithmen und Trainingsdaten. Und weil sie mit Selbstironie auf das Scheitern reagiert hat.
+B: Die höchste Form des Humors, wie wir am Anfang gesagt haben. Und hat es dem Vortrag geholfen?
+A: Enorm. Das Publikum war danach vollkommen auf ihrer Seite. Und sie hat gesagt, das sei eigentlich die perfekte Illustration ihres Themas gewesen. Ein Witz, der in einem Kontext funktioniert, funktioniert in einem anderen nicht. Genau wie ein Algorithmus, der mit den Daten einer Gruppe trainiert wurde und bei einer anderen versagt.
+B: Wow. Das ist fast zu perfekt. Ein ungewolltes, aber geniales Gleichnis.
+A: Und nach dem Vortrag kam ein älterer Herr zu ihr. Er sagte: „Ich habe jahrelang behauptet, Ukrainer hätten keinen Humor. Sie haben mich vom Gegenteil überzeugt.“ Und Oksana hat geantwortet: „Und ich habe jahrelang behauptet, Deutsche hätten keinen Humor. Sie haben mich heute auch vom Gegenteil überzeugt.“
+B: Hahaha. Ein schöner Abschluss. Jetzt bist du dran, Hörer, Hörerin. Erzähle einen Witz auf Deutsch. Vielleicht einen Flachwitz. Und erkläre, warum er lustig ist. Oder warum nicht.
+A: Und versuche einmal, etwas ironisch zu sagen. Achte dabei auf die Intonation. Zum Beispiel: „Na super, schon wieder Montag!“
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: das Understatement. Die Untertreibung, etwas als weniger bedeutend darstellen, als es ist.
+B: Wort Nummer zwei: etwas für bare Münze nehmen. Etwas wörtlich und ernst nehmen, das ironisch gemeint war.
+A: Wort Nummer drei: die Pedanterie. Übertriebene Genauigkeit und Kleinlichkeit.
+B: Wort Nummer vier: das geflügelte Wort. Ein Zitat, das so bekannt ist, dass jeder es benutzt.
+A: Wort Nummer fünf: der Flachwitz. Ein absichtlich simpler, oft sehr dummer Witz.
+B: Und Wort Nummer sechs: stutzen. Plötzlich innehalten, weil man überrascht ist.
+A: Noch einmal: das Understatement, etwas für bare Münze nehmen, die Pedanterie, das geflügelte Wort, der Flachwitz, stutzen.
+B: Was nehmen wir mit? Ironie meint das Gegenteil, Sarkasmus ist bissig und verletzend, Zynismus ist eine Haltung der Verachtung.
+A: Der deutsche Humor trennt oft Ernst und Spaß. Loriot ist der große Meister der feinen Beobachtung. Der Wiener Humor ist schwarz und melancholisch, mit dem Schmäh.
+B: Das britische Understatement wird von Deutschen oft für bare Münze genommen. Und Wortspiele lassen sich fast nie übersetzen.
+A: Und Selbstironie ist die höchste Form des Humors, wie Oksana gezeigt hat.
+B: Das ist das Ende von Folge vierundneunzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und ein Leben ohne Humor ist möglich, aber sinnlos. Tschüss!
+B: Servus!
+VOCAB: das Understatement | Die Untertreibung, etwas als weniger bedeutend darstellen. | 🤏
+VOCAB: etwas für bare Münze nehmen | Etwas wörtlich und ernst nehmen, das ironisch gemeint war. | 🪙
+VOCAB: die Pedanterie | Übertriebene Genauigkeit und Kleinlichkeit. | 📏
+VOCAB: das geflügelte Wort | Ein Zitat, das so bekannt ist, dass jeder es benutzt. | 🕊️
+VOCAB: der Flachwitz | Ein absichtlich simpler, oft sehr dummer Witz. | 🥞
+VOCAB: stutzen | Plötzlich innehalten, weil man überrascht ist. | ⏸️
+QUIZ: Was ist der Unterschied zwischen Ironie und Sarkasmus? | Sarkasmus ist schärfer und will verletzen | Es gibt keinen Unterschied | Ironie ist immer böse | 1
+QUIZ: Wer war Loriot? | Ein bedeutender deutscher Humorist | Ein österreichischer Kabarettist | Ein britischer Komiker | 1
+QUIZ: Was ist ein Beispiel für britisches Understatement? | „It's a bit windy today“ während eines schweren Sturms | „Das ist absolut falsch“ | Ein lauter Witz | 1
+QUIZ: Was ist ein Flachwitz? | Ein absichtlich simpler, oft dummer Witz | Ein Witz über flache Länder | Ein sehr intelligenter Witz | 1
+QUIZ: Wie reagierte Oksana, als niemand über ihren Witz lachte? | Sie verließ die Bühne | Sie machte einen selbstironischen Witz über ihren Algorithmus | Sie erzählte den Witz noch einmal | 2
+`;
+
+DATA.podScripts.ep095 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge fünfundneunzig. Heute sprechen wir über etwas, das man oft als das Rückgrat der deutschen Wirtschaft bezeichnet. Und das im Ausland erstaunlich wenig bekannt ist: den Mittelstand.
+A: Wenn man im Ausland an die deutsche Wirtschaft denkt, denkt man an große Namen. Volkswagen, Siemens, BMW, Bosch, SAP. Aber die eigentliche Stärke der deutschen Wirtschaft liegt woanders. In Hunderttausenden kleiner und mittlerer Unternehmen, oft in Familienbesitz, oft in kleinen Städten auf dem Land.
+B: Und der Begriff „Mittelstand“ ist übrigens so typisch deutsch, dass er in andere Sprachen als Lehnwort übernommen wurde. Im Englischen spricht man manchmal einfach von „the Mittelstand“. Wie „Kindergarten“ oder „Angst“.
+A: Sprachlich widmen wir uns heute der Wirtschaftssprache auf hohem Niveau. Und insbesondere der Nominalisierung, die für Wirtschaftstexte so typisch ist. Wir haben sie in Folge neunundsiebzig beim Amtsdeutsch kurz erwähnt. Heute schauen wir genauer hin. Und in Folge neunundneunzig sprechen wir über ihre Vor- und Nachteile.
+B: Nominalisierung bedeutet: Man macht aus einem Verb oder Adjektiv ein Nomen. Statt „Das Unternehmen wächst schnell“ sagt man „das schnelle Wachstum des Unternehmens“. Statt „Die Firma exportiert“ sagt man „der Export der Firma“. Und dadurch kann man sehr viele Informationen in einen Satz packen.
+A: Typische Endungen für Nominalisierungen sind: „-ung“, wie „die Entwicklung“, „-heit“ und „-keit“, wie „die Wettbewerbsfähigkeit“, „-ion“, wie „die Produktion“, und der substantivierte Infinitiv, wie „das Wachsen“.
+B: Gut. Fangen wir mit einer Definition an. Was ist der Mittelstand eigentlich?
+A: Das ist gar nicht so einfach, denn es gibt keine einheitliche Definition. Eine gängige Definition, die etwa das Institut für Mittelstandsforschung verwendet, bezieht sich auf die Größe. Unternehmen mit weniger als fünfhundert Mitarbeitern und weniger als fünfzig Millionen Euro Jahresumsatz.
+B: Aber der Begriff ist eigentlich mehr als eine Größenangabe. Er beschreibt eine bestimmte Art, ein Unternehmen zu führen. Und viele Unternehmen, die deutlich größer sind, verstehen sich trotzdem als Mittelstand.
+A: Genau. Es geht um eine besondere Unternehmenskultur. Und die hat mehrere typische Merkmale. Das wichtigste ist die Einheit von Eigentum und Führung. Das Unternehmen gehört oft einer Familie, und die Familie leitet es auch. Häufig schon in der dritten, vierten oder sogar fünften Generation.
+B: Und das hat enorme Folgen für die Art, wie das Unternehmen geführt wird. Ein börsennotiertes Unternehmen muss jedes Quartal gute Zahlen für die Aktionäre liefern. Ein Familienunternehmen denkt in Generationen. Der Inhaber will das Unternehmen an seine Kinder und Enkel weitergeben, nicht schnell Gewinne maximieren.
+A: Das ist der zentrale Unterschied: die langfristige Orientierung. Ein Mittelständler investiert lieber in eine Maschine, die sich in zwanzig Jahren auszahlt, als in eine kurzfristige Gewinnsteigerung. Und er entlässt in einer Krise nicht sofort seine Mitarbeiter, weil er sie oft persönlich kennt.
+B: Und das zweite Merkmal: die regionale Verwurzelung. Viele Mittelständler sind nicht in Großstädten angesiedelt, sondern in kleinen Städten oder auf dem Land. In der Schwäbischen Alb, im Sauerland, in Ostwestfalen, in Franken. Orte, deren Namen man im Ausland noch nie gehört hat.
+A: Und dort sind sie oft der größte Arbeitgeber. Sie prägen das ganze Leben der Region. Sie finanzieren den Sportverein, das Feuerwehrfest, das Altersheim. Das Unternehmen und die Gemeinde sind eng miteinander verflochten.
+B: Und das dritte Merkmal, das vielleicht faszinierendste: die sogenannten Hidden Champions.
+A: Ja! Der Begriff wurde von dem deutschen Unternehmensberater Hermann Simon geprägt. Hidden Champions sind wenig bekannte Unternehmen, die in ihrer Nische Weltmarktführer sind. „Die Nische“ ist hier ein kleiner, spezialisierter Bereich des Marktes.
+B: Und Deutschland hat mit Abstand mehr dieser Hidden Champions als jedes andere Land der Welt. Hermann Simon zählte weltweit etwa dreitausend, und fast die Hälfte davon kommen aus dem deutschsprachigen Raum. Aus Deutschland, Österreich und der Schweiz.
+A: Und die Beispiele sind oft verblüffend. Es gibt eine Firma, die weltweit führend bei Dübeln ist. Artur Fischer aus Folge dreiundfünfzig! Mit über tausend Patenten.
+B: Es gibt Firmen, die Weltmarktführer sind bei Schrauben, bei Ventilen, bei Industriepumpen, bei Etikettiermaschinen. Bei Präzisionsmessgeräten, bei Spezialklebstoffen, bei Orgelpfeifen.
+A: Und ein besonders schönes Beispiel ist eine Firma, die weltweit einen großen Teil der Mundharmonikas herstellt. Hohner aus Trossingen in Baden-Württemberg. Ihre Mundharmonikas wurden von Bluesmusikern auf der ganzen Welt gespielt, von Bob Dylan bis zu den Beatles.
+B: Und dann gibt es Firmen, deren Produkte jeder kennt, aber niemand weiß, wer sie herstellt. Zum Beispiel stammen viele der Teile in den Maschinen, mit denen weltweit Computerchips hergestellt werden, von deutschen Spezialfirmen. Eine Firma aus Oberkochen in Baden-Württemberg stellt hochpräzise Optiken her, ohne die die modernsten Chips der Welt nicht produziert werden könnten.
+A: Und das zeigt eine interessante Strategie. Diese Firmen konzentrieren sich auf einen sehr kleinen Bereich. Aber in diesem Bereich sind sie die Besten der Welt. Statt viele Produkte mittelmäßig zu machen, machen sie ein einziges Produkt perfekt. Und verkaufen es weltweit.
+B: Das ist die Kombination aus Spezialisierung und Globalisierung. Lokal verwurzelt, aber global aktiv. Man spricht manchmal von „glokal“.
+A: Und warum ist Deutschland gerade bei dieser Art von Unternehmen so erfolgreich?
+B: Es gibt mehrere Erklärungen. Erstens die Geschichte. Deutschland war bis achtzehnhunderteinundsiebzig ein Flickenteppich aus vielen kleinen Staaten. Es gab keine zentrale Hauptstadt wie Paris oder London, die alle Wirtschaft an sich zog. Darum ist die Wirtschaft in Deutschland bis heute dezentral verteilt.
+A: „Der Flickenteppich“ ist ein Teppich aus vielen verschiedenen Stoffresten. Ein schönes Bild für das zersplitterte Deutschland vor der Reichsgründung. Zweitens?
+B: Zweitens das duale Ausbildungssystem, über das wir in Folge dreizehn gesprochen haben. Die Kombination aus Arbeit im Betrieb und Unterricht in der Berufsschule bringt hochqualifizierte Fachkräfte hervor. Facharbeiter, Mechatroniker, Werkzeugmacher. Und genau diese Fachkräfte braucht man, um hochpräzise Produkte herzustellen.
+A: Drittens die Finanzierung. In Deutschland gibt es ein dichtes Netz von regionalen Banken. Die Sparkassen und die Volksbanken. Sie kennen die lokalen Unternehmen oft seit Jahrzehnten und vergeben langfristige Kredite. Man spricht vom „Hausbankprinzip“.
+B: Und viertens eine Kultur der Ingenieurskunst und der Qualität. Das berühmte „Made in Germany“. Wobei es eine ironische Geschichte zu diesem Begriff gibt.
+A: Ja! Erzähl!
+B: Der Begriff „Made in Germany“ wurde ursprünglich gar nicht von den Deutschen erfunden, sondern von den Briten. Achtzehnhundertsiebenundachtzig hat das britische Parlament ein Gesetz beschlossen, nach dem importierte Waren ihr Herkunftsland angeben mussten. Und das war als Warnung gedacht. Deutsche Produkte galten damals als billige, minderwertige Kopien britischer Waren.
+A: Der Stempel sollte also die britischen Kunden vor schlechter deutscher Qualität warnen! Und dann hat sich das völlig umgekehrt.
+B: Genau. Die deutschen Hersteller haben ihre Qualität so stark verbessert, dass „Made in Germany“ zu einem Gütesiegel wurde. Zu einem weltweiten Synonym für hohe Qualität. Eine der schönsten Ironien der Wirtschaftsgeschichte.
+A: Das ist wunderbar. Ein Schimpfwort wird zu einem Ehrentitel. Gut. Und jetzt die Herausforderungen. Denn der Mittelstand steht vor großen Problemen.
+B: Das erste und vielleicht größte Problem: die Nachfolge. Viele Mittelständler werden von der Generation der Babyboomer geführt, die jetzt in Rente geht. Und viele finden keinen Nachfolger. Die Kinder wollen das Unternehmen nicht übernehmen. Sie wollen lieber in Berlin in einem Start-up arbeiten oder Ärztin werden.
+A: Und das ist ein ernstes Problem. Jedes Jahr müssen Zehntausende Unternehmen einen Nachfolger finden. Und wenn sie keinen finden, müssen sie schließen oder an einen Investor verkaufen. Und dann geht oft die besondere Unternehmenskultur verloren.
+B: Das zweite Problem: der Fachkräftemangel. Folge dreiundsechzig. Gerade die Unternehmen in ländlichen Regionen haben große Schwierigkeiten, qualifizierte Mitarbeiter zu finden. Viele junge Menschen ziehen in die Städte und wollen nicht auf dem Land leben.
+A: Und das dritte Problem: die Digitalisierung. Viele Mittelständler waren lange auf ihre traditionellen Stärken fokussiert. Auf Maschinenbau, auf mechanische Präzision. Und die Digitalisierung haben einige verschlafen.
+B: „Etwas verschlafen“ heißt: eine wichtige Entwicklung oder einen Termin nicht bemerken, zu spät reagieren. Und es gibt die Sorge, dass Deutschland bei der künstlichen Intelligenz und der Softwareentwicklung den Anschluss verliert. Dass die Zukunft nicht in den perfekten Maschinen, sondern in der Software liegt.
+A: Und das vierte Problem: die Energiekosten und die geopolitische Lage. Nach dem russischen Angriff auf die Ukraine sind die Energiepreise stark gestiegen. Und gerade energieintensive Mittelständler hatten große Schwierigkeiten.
+B: Gut. Aber es gibt auch eine positive Entwicklung. Viele Mittelständler haben gerade ihre langfristige Denkweise genutzt, um sich auf die großen Veränderungen einzustellen. Etwa auf die Energiewende. Es gibt Familienunternehmen, die zu Pionieren bei erneuerbaren Energien geworden sind.
+A: Und einige arbeiten inzwischen eng mit Start-ups zusammen. Die Tradition trifft auf die Innovation. Was uns zur Geschichte bringt.
+B: Genau. Und diesmal geht es um Ali, den Freelancer aus Ägypten, den wir aus Folge fünfundsechzig kennen.
+A: Ali! Der sich auf Webseiten für kleine Geschäfte in Neukölln spezialisiert hat.
+B: Genau. Und Ali hat einen ungewöhnlichen Auftrag bekommen. Ein Familienunternehmen aus dem Sauerland hat ihn kontaktiert. Eine Firma, die seit hundertzwanzig Jahren Präzisionsventile für die Industrie herstellt. Ein typischer Hidden Champion. Weltmarktführer in einer kleinen Nische.
+A: Und warum ausgerechnet Ali?
+B: Der Firmenchef, Herr Brinkmann, ist zweiundsechzig und führt das Unternehmen in der vierten Generation. Und er hatte ein Problem. Seine Firma verkaufte ihre Ventile weltweit, aber fast ausschließlich über persönliche Kontakte und Messen. Es gab keinen Online-Handel, keine moderne Webseite. Und die Kunden in Asien und im Nahen Osten wollten zunehmend online bestellen.
+A: Die verschlafene Digitalisierung.
+B: Genau. Und Herr Brinkmann hatte gehört, dass Ali besonders gut mit Kunden aus dem arabischen Raum kommunizieren kann. Ein großer Teil seiner Kunden in der Ölindustrie und in Wasseraufbereitungsanlagen sitzen im Nahen Osten. Also hat er Ali eingeladen.
+A: Und wie war die erste Begegnung?
+B: Ali ist mit dem Zug ins Sauerland gefahren, in ein kleines Dorf mit dreitausend Einwohnern. Und er war zuerst etwas eingeschüchtert. Ein traditionsreiches Unternehmen, ein älterer, sehr förmlicher Chef. Und er dachte: Was will dieser Mann von einem jungen Freelancer aus Neukölln?
+A: Und Herr Brinkmann?
+B: Herr Brinkmann war zuerst auch skeptisch. Er sprach ihn mit „Sie“ an, sehr förmlich. Er zeigte ihm die Produktion. Und Ali war fasziniert. Er sah, mit welcher Präzision die Ventile hergestellt wurden. Toleranzen von wenigen Tausendstel Millimetern. Und er sah, wie stolz die Mitarbeiter auf ihre Arbeit waren. Viele arbeiteten schon seit dreißig Jahren dort.
+A: Und dann?
+B: Beim Mittagessen in der Kantine hat Herr Brinkmann etwas Persönliches erzählt. Sein Sohn wollte die Firma nicht übernehmen. Er war Arzt in Hamburg. Und Herr Brinkmann hatte große Sorge, was aus dem Unternehmen und den zweihundert Mitarbeitern werden würde.
+A: Das Nachfolgeproblem.
+B: Genau. Und Ali hat ihm zugehört. Und er hat erzählt, dass sein eigener Vater in Kairo eine kleine Werkstatt hatte. Und dass er auch nicht dort weitergearbeitet hat, sondern nach Deutschland gegangen ist. Und dass er das manchmal bereut.
+A: Eine unerwartete Verbindung. Zwei Väter, zwei Söhne, zwei Länder.
+B: Ja. Und nach diesem Gespräch war das Eis gebrochen. „Das Eis ist gebrochen“ heißt: Die anfängliche Distanz und Fremdheit ist verschwunden. Und Ali hat in den nächsten Monaten die digitale Strategie des Unternehmens entwickelt. Eine moderne, mehrsprachige Webseite auf Deutsch, Englisch und Arabisch. Ein Online-System, mit dem die Kunden Ersatzteile direkt bestellen konnten.
+A: Und hat es funktioniert?
+B: Sehr gut. Die Online-Bestellungen aus dem Nahen Osten haben sich innerhalb eines Jahres verdreifacht. Und Ali hat ein Team junger Programmierer aus der Programmierschule eingestellt, um das System zu betreuen. Darunter Oksana für die Datenanalyse.
+A: Und das Nachfolgeproblem?
+B: Das ist der überraschende Teil. Herr Brinkmann hat eine ungewöhnliche Lösung gefunden. Er hat beschlossen, das Unternehmen nicht an einen Investor zu verkaufen, sondern in eine Stiftung zu überführen. Eine sogenannte Verantwortungseigentum-Struktur. Das Unternehmen gehört dann sich selbst. Die Gewinne bleiben im Unternehmen, und niemand kann es einfach verkaufen.
+A: Das ist ein Modell, das in Deutschland eine lange Tradition hat. Bosch und Zeiss gehören zum Beispiel großen Teilen Stiftungen. So bleibt die langfristige Orientierung über Generationen erhalten.
+B: Genau. Und die neue Geschäftsführung? Herr Brinkmann hat eine erfahrene Ingenieurin aus dem eigenen Betrieb zur Geschäftsführerin gemacht. Sie arbeitet seit zwanzig Jahren dort. Und Ali hat er als Berater für die digitale Transformation behalten.
+A: Und hat sich Ali mit Herrn Brinkmann angefreundet?
+B: Ja, sehr. Am Ende des Projekts hat Herr Brinkmann ihm das „Du“ angeboten. Bei einem Sauerländer Bier. Und er hat gesagt: „Ich habe geglaubt, die Zukunft meiner Firma liege in der Familie. Aber vielleicht liegt sie in den Menschen, die an sie glauben. Egal, woher sie kommen.“
+A: Jetzt bist du dran, Hörer, Hörerin. Beschreibe ein Unternehmen, das du kennst, mit möglichst vielen Nominalisierungen. Zum Beispiel: „Die Stärke des Unternehmens liegt in der Spezialisierung auf … Die Herausforderung besteht in der Digitalisierung …“
+B: Und denk darüber nach: Würdest du lieber für einen großen Konzern oder für einen Mittelständler arbeiten? Warum?
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: das Rückgrat. Hier: die tragende, wichtigste Grundlage von etwas.
+A: Wort Nummer zwei: der Hidden Champion. Ein wenig bekanntes Unternehmen, das in seiner Nische Weltmarktführer ist.
+B: Wort Nummer drei: die Nische. Ein kleiner, spezialisierter Bereich des Marktes.
+A: Wort Nummer vier: der Flickenteppich. Etwas, das aus vielen verschiedenen, nicht zusammenpassenden Teilen besteht.
+B: Wort Nummer fünf: etwas verschlafen. Eine wichtige Entwicklung zu spät bemerken.
+A: Und Wort Nummer sechs: das Eis ist gebrochen. Die anfängliche Distanz ist verschwunden.
+B: Noch einmal: das Rückgrat, der Hidden Champion, die Nische, der Flickenteppich, etwas verschlafen, das Eis ist gebrochen.
+A: Was nehmen wir mit? Der Mittelstand besteht aus kleinen und mittleren, oft familiengeführten Unternehmen mit langfristiger Orientierung und regionaler Verwurzelung.
+B: Deutschland hat besonders viele Hidden Champions, Weltmarktführer in kleinen Nischen. Gründe sind die dezentrale Geschichte, die duale Ausbildung, die regionalen Banken und die Kultur der Qualität.
+A: „Made in Germany“ war ursprünglich eine britische Warnung vor schlechter Qualität und wurde zu einem Gütesiegel.
+B: Und die Herausforderungen sind die Nachfolge, der Fachkräftemangel, die Digitalisierung und die Energiekosten.
+A: Das ist das Ende von Folge fünfundneunzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und vielleicht ist das nächste Produkt, das du benutzt, von einem Hidden Champion aus einem kleinen Dorf. Servus!
+A: Tschüss!
+VOCAB: das Rückgrat | Die tragende, wichtigste Grundlage von etwas. | 🦴
+VOCAB: der Hidden Champion | Ein wenig bekanntes Unternehmen, das in seiner Nische Weltmarktführer ist. | 🏆
+VOCAB: die Nische | Ein kleiner, spezialisierter Bereich des Marktes. | 🧩
+VOCAB: der Flickenteppich | Etwas aus vielen verschiedenen, nicht zusammenpassenden Teilen. | 🧶
+VOCAB: etwas verschlafen | Eine wichtige Entwicklung zu spät bemerken. | 😴
+VOCAB: das Eis ist gebrochen | Die anfängliche Distanz ist verschwunden. | 🧊
+QUIZ: Was ist ein typisches Merkmal des Mittelstands? | Die Einheit von Eigentum und Führung und eine langfristige Orientierung | Schnelle Gewinne für Aktionäre | Sitz nur in Großstädten | 1
+QUIZ: Was sind Hidden Champions? | Wenig bekannte Weltmarktführer in kleinen Nischen | Große bekannte Konzerne | Erfolgreiche Sportler | 1
+QUIZ: Was bedeutete „Made in Germany“ ursprünglich? | Ein deutsches Gütesiegel | Eine britische Warnung vor angeblich schlechter Qualität | Ein Slogan der deutschen Regierung | 2
+QUIZ: Was ist ein großes Problem vieler Mittelständler? | Die Nachfolge | Zu viele Mitarbeiter | Zu viel Geld | 1
+QUIZ: Wie hat Herr Brinkmann das Nachfolgeproblem gelöst? | Er hat das Unternehmen an einen Investor verkauft | Er hat es in eine Stiftung überführt und eine Ingenieurin zur Geschäftsführerin gemacht | Sein Sohn hat übernommen | 2
+`;
