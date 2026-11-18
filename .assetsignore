@@ -1,0 +1,16 @@
+# Files that must not be published as static assets on Cloudflare
+.git
+.gitignore
+.assetsignore
+.env
+.dev.vars
+.wrangler
+.netlify
+node_modules
+server
+netlify
+netlify.toml
+wrangler.jsonc
+package.json
+package-lock.json
+DEPLOY.md

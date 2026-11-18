@@ -846,10 +846,10 @@ function sampleErr(code) {
 }
 function sampleUnavailable(what) {
   if (SAMPLE_STATE === "pending") return `<div class="panel"><p class="muted">Connexion…</p></div>`;
-  return `<div class="panel"><h3>${what} n'est pas disponible ici</h3><p class="muted">Ouvre ce site depuis claude.ai, ou depuis sa version en ligne (Netlify) configurée avec une clé API. ${SAMPLE_STATE === "denied" ? "L'accès a été refusé pour cette page." : ""}</p></div>`;
+  return `<div class="panel"><h3>${what} n'est pas disponible ici</h3><p class="muted">Ouvre ce site depuis claude.ai, ou depuis sa version en ligne (Cloudflare ou Netlify) configurée avec une clé API. ${SAMPLE_STATE === "denied" ? "L'accès a été refusé pour cette page." : ""}</p></div>`;
 }
 
-/* Outside claude.ai (e.g. on Netlify), Claude is reached through the site's own function /api/claude,
+/* Outside claude.ai (on Cloudflare or Netlify), Claude is reached through the site's own function /api/claude,
    which keeps the API key on the server. Same interface as the claude.ai capability: sample(input, opts) and sample.json(). */
 const API_URL = "/api/claude";
 function parseJsonLoose(text) {

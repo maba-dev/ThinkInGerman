@@ -1,0 +1,16 @@
+// Cloudflare Workers config. "name" must match the Worker's name in the Cloudflare dashboard.
+// Secrets (ANTHROPIC_API_KEY, SITE_ACCESS_CODE) are set in the dashboard: Settings > Variables and Secrets.
+{
+  "name": "thinkingermanofmaba",
+  "main": "server/worker.mjs",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  // Keep variables added in the dashboard when a new version is deployed from Git.
+  "keep_vars": true,
+  "observability": { "enabled": true }
+}
