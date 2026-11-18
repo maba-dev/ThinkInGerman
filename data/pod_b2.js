@@ -1235,3 +1235,185 @@ QUIZ: Was ist der Reparaturbonus in Österreich? | Der Staat bezahlt einen Teil 
 QUIZ: Was hat Kenji zu Felix gesagt? | Er solle mehr kaufen | Etwas zu machen macht glücklicher als etwas zu kaufen | Er solle ausziehen | 2
 QUIZ: Was hat Felix mit dem Geld aus dem Verkauf gemacht? | Eine Reise nach Island gebucht | Eine neue Konsole gekauft | Es gespart | 1
 `;
+
+DATA.podScripts.ep074 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge vierundsiebzig. Heute führen wir eine Bildungsdebatte. Die Frage lautet: Sollte ein Studium kostenlos sein?
+A: Eine Frage, die in verschiedenen Ländern ganz unterschiedlich beantwortet wird. In Deutschland ist das Studium an staatlichen Universitäten für die meisten Studierenden kostenlos. In England oder in den USA kann ein Studium dagegen zehntausende Euro kosten.
+B: Und wir nutzen diese Debatte, um Konnektoren zu üben. Konnektoren sind Wörter, die Sätze und Gedanken logisch verbinden. Sie sind für einen guten, strukturierten Text oder eine überzeugende Argumentation unverzichtbar. „Unverzichtbar“ heißt: Man kann nicht darauf verzichten, man braucht es unbedingt.
+A: Wir unterscheiden heute vier Gruppen. Erstens Konnektoren für eine Folge, also wenn etwas das Ergebnis von etwas anderem ist: „deshalb“, „daher“, „folglich“, „somit“. „Das Studium ist kostenlos. Deshalb können auch Kinder aus ärmeren Familien studieren.“
+B: Achtung: Diese Wörter sind Adverbien, keine Konjunktionen. Sie stehen auf Position eins, und dann kommt sofort das Verb. „Deshalb können …“, nicht „deshalb sie können“.
+A: Zweitens Konnektoren für einen Gegensatz: „trotzdem“, „dennoch“, „allerdings“, „jedoch“. „Das Studium ist kostenlos. Trotzdem studieren weniger Kinder aus Arbeiterfamilien.“
+B: Drittens Konnektoren für eine Ergänzung: „außerdem“, „zudem“, „darüber hinaus“, „ferner“. Und viertens für einen Grund: „denn“, „nämlich“. „Denn“ ist eine Konjunktion auf Position null, das Verb bleibt an Position zwei. „Viele arbeiten neben dem Studium, denn das Leben in der Stadt ist teuer.“
+A: Und „nämlich“ ist besonders interessant. Es steht in der Mitte des Satzes und erklärt den Grund: „Viele arbeiten neben dem Studium. Das Leben in der Stadt ist nämlich teuer.“ Das klingt sehr natürlich und gesprochen.
+B: Gut. Fangen wir mit der Situation in Deutschland an. Seit wann ist das Studium kostenlos?
+A: Eigentlich gab es in den meisten Bundesländern schon lange keine Studiengebühren. Aber um zweitausendsechs haben einige Bundesländer allgemeine Studiengebühren eingeführt. Fünfhundert Euro pro Semester. Ein Semester ist ein halbes Studienjahr.
+B: Und dann?
+A: Dann gab es massive Proteste. Studenten haben demonstriert, Hörsäle besetzt, gestreikt. Und in Bayern gab es sogar ein Volksbegehren. Das ist ein direktes Verfahren, bei dem die Bürger selbst ein Gesetz fordern können. Und es war erfolgreich. Bis zweitausendvierzehn haben alle Bundesländer die allgemeinen Studiengebühren wieder abgeschafft.
+B: Interessant. Die Bürger haben die Gebühren also wieder abgeschafft. Aber es gibt Ausnahmen, oder?
+A: Ja. Man muss einen Semesterbeitrag bezahlen, für die Verwaltung, das Studentenwerk und oft für ein Semesterticket für Bus und Bahn. Das sind zwischen hundert und vierhundert Euro pro Semester. Und in Baden-Württemberg müssen Studierende aus Ländern außerhalb der EU Gebühren bezahlen, fünfzehnhundert Euro pro Semester.
+B: Und in Österreich?
+A: Erzähl du! Du bist der Österreicher.
+B: Hahaha. Gut. In Österreich ist das Studium an öffentlichen Universitäten für Österreicher und EU-Bürger auch weitgehend kostenlos, solange man in der Regelstudienzeit plus zwei Semester bleibt. Wer länger braucht, zahlt etwa dreihundertsechzig Euro pro Semester. Und Studierende aus Ländern außerhalb der EU zahlen das Doppelte.
+A: Die Regelstudienzeit ist die offizielle Zeit, die ein Studium dauern soll. Zum Beispiel sechs Semester für einen Bachelor. Gut, jetzt die Debatte. Ich vertrete die Position: Das Studium sollte kostenlos sein. Und du, Jonas, übernimmst die Gegenposition. Auch wenn es vielleicht nicht deine echte Meinung ist.
+B: Gut, ich spiele den Advocatus Diaboli. Den Anwalt des Teufels. Das ist ein Ausdruck für jemanden, der bewusst die Gegenposition vertritt, um eine Diskussion anzuregen.
+A: Perfekt. Mein erstes Argument: Chancengleichheit. Bildung ist ein Menschenrecht. Und jedes Kind sollte die gleiche Chance haben zu studieren, unabhängig davon, wie viel Geld die Eltern haben. Wenn ein Studium Geld kostet, schreckt das gerade Kinder aus ärmeren Familien ab. Folglich verstärkt das die soziale Ungleichheit.
+B: Ein starkes Argument. Allerdings zeigen die Zahlen, dass das in Deutschland trotz kostenlosem Studium nicht funktioniert. Von hundert Kindern aus Akademikerfamilien beginnen etwa achtzig ein Studium. Von hundert Kindern aus Familien ohne Studienabschluss nur etwa fünfundzwanzig. Die Gebührenfreiheit allein schafft also keine Chancengleichheit.
+A: Das stimmt zwar, aber mit Studiengebühren wäre es noch schlimmer. Die Hürden liegen woanders, früher im Bildungssystem. Darüber können wir gleich sprechen. Mein zweites Argument: Ein Studium nützt der ganzen Gesellschaft, nicht nur dem Einzelnen. Wir brauchen Ärzte, Ingenieure, Lehrer, Wissenschaftler. Wenn mehr Menschen studieren, profitiert die ganze Gesellschaft. Deshalb sollte die Gesellschaft auch dafür bezahlen.
+B: Dagegen kann man einwenden: Wer studiert, verdient später im Durchschnitt deutlich mehr als jemand ohne Studium. Über das ganze Leben gerechnet sind das oft mehrere hunderttausend Euro. Ist es dann gerecht, dass die Bäckerin und der Busfahrer mit ihren Steuern das Studium des zukünftigen Zahnarztes bezahlen, der später viel mehr verdienen wird?
+A: Hmm. Das ist ein provokantes Argument. Aber der Zahnarzt bezahlt später auch viel mehr Steuern. Über die Steuern gibt er der Gesellschaft etwas zurück. Das ist ja das Prinzip der progressiven Besteuerung. Wer mehr verdient, zahlt einen höheren Steuersatz.
+B: Gutes Gegenargument. Mein nächster Punkt: die Qualität. Die deutschen Universitäten sind chronisch unterfinanziert. Die Hörsäle sind überfüllt, es gibt zu wenige Professoren, die Gebäude sind oft alt und renovierungsbedürftig. In manchen Fächern kommen über hundert Studierende auf einen Professor. Mit Studiengebühren hätten die Universitäten mehr Geld für bessere Lehre.
+A: Das ist ein berechtigter Punkt. Aber die Lösung wäre, dass der Staat mehr in die Universitäten investiert. Nicht, dass die Studierenden bezahlen. Zudem hat sich gezeigt, dass die Studiengebühren früher oft gar nicht in die Lehre geflossen sind, sondern in andere Bereiche der Verwaltung.
+B: Mein letztes Argument: die Wertschätzung. Was nichts kostet, ist nichts wert, sagt man. Manche argumentieren, dass Studierende ohne Gebühren weniger motiviert sind und länger studieren. Mit Gebühren würde man sich mehr anstrengen und schneller fertig werden.
+A: Dieses Argument halte ich für schwach. Die meisten Studierenden studieren nicht länger, weil sie faul sind, sondern weil sie nebenbei arbeiten müssen. Fast zwei Drittel der Studierenden in Deutschland haben einen Nebenjob. Denn die Mieten in den Universitätsstädten sind enorm gestiegen. Ein WG-Zimmer in München kostet inzwischen oft über siebenhundert Euro.
+B: Siebenhundert Euro für ein Zimmer! Das ist unglaublich.
+A: Ja. Und das bringt mich zu einem wichtigen Punkt, bei dem wir uns vielleicht einig sind: Das Studium mag kostenlos sein, aber das Leben als Student ist es nicht. Und darum ist die Studienfinanzierung mindestens genauso wichtig wie die Gebühren.
+B: Du meinst das BAföG?
+A: Genau. Das BAföG ist eine staatliche Unterstützung für Studierende, deren Eltern nicht genug Geld haben. Die Hälfte ist ein Zuschuss, den man nicht zurückzahlen muss, und die andere Hälfte ist ein zinsloses Darlehen. Ein Darlehen ist ein Kredit, Geld, das man später zurückzahlen muss.
+B: Aber viele bekommen kein BAföG, obwohl sie es bräuchten.
+A: Leider ja. Nur etwa jeder achte Studierende bekommt BAföG. Viele wissen nicht, dass sie Anspruch haben. Andere haben Angst vor den Schulden. Und viele finden den Antrag zu kompliziert. Bürokratie, Folge vierundzwanzig! Hahaha.
+B: Und jetzt muss ich meine Rolle als Advocatus Diaboli kurz verlassen. Ich glaube, die eigentliche Ungerechtigkeit liegt viel früher. Im Schulsystem.
+A: Genau das wollte ich vorhin sagen. In Deutschland werden die Kinder schon nach der vierten Klasse auf verschiedene Schulen verteilt. Mit zehn Jahren! Gymnasium, Realschule oder Hauptschule. Und diese Entscheidung hängt sehr stark vom sozialen Hintergrund ab.
+B: In Österreich ist es ähnlich. Auch dort gibt es diese frühe Trennung nach der Volksschule. Und Studien zeigen, dass zwei Kinder mit den gleichen Noten unterschiedliche Empfehlungen bekommen können, je nachdem, ob die Eltern Akademiker sind oder nicht.
+A: Folglich entscheidet sich die Bildungskarriere eigentlich schon mit zehn Jahren, nicht mit achtzehn. Und dann hilft ein kostenloses Studium wenig, wenn man gar nicht erst das Abitur macht.
+B: Das ist ein ernüchterndes Fazit. „Ernüchternd“ heißt: Es zerstört eine Illusion, es macht realistisch und ein bisschen enttäuscht.
+A: Ja. Aber es zeigt auch, wo man ansetzen müsste. Mehr Unterstützung in der Grundschule, spätere Trennung, mehr Durchlässigkeit zwischen den Schulformen. Und Programme, die Kindern aus Nicht-Akademikerfamilien Mut machen.
+B: Es gibt da übrigens eine tolle Initiative: ArbeiterKind.de. Ehrenamtliche Mentoren, die selbst als Erste in ihrer Familie studiert haben, helfen jungen Menschen, die als Erste in ihrer Familie studieren wollen.
+A: Jetzt zur Geschichte. Diesmal geht es um Lea. Das Mädchen aus Wolfsburg, das an der Programmierschule angenommen wurde.
+B: Lea! Ich mag ihre Geschichte sehr.
+A: Ja. Lea kommt aus einer Familie, in der niemand studiert hat. Ihr Vater arbeitet seit fünfundzwanzig Jahren am Band bei Volkswagen. Ihre Mutter ist Verkäuferin in einem Supermarkt. Und nach der vierten Klasse hat ihre Lehrerin ihr die Realschule empfohlen, nicht das Gymnasium. Obwohl Leas Noten eigentlich gut waren.
+B: Das typische Problem.
+A: Genau. Lea hat dann die mittlere Reife gemacht und eine Ausbildung angefangen. Aber durch den Workshop mit Julien hat sie gemerkt, wie sehr sie Programmieren liebt. Und jetzt ist sie an der Programmierschule. Die ist ja kostenlos und braucht kein Abitur.
+B: Perfekt für sie.
+A: Ja. Aber nach einem Jahr hat sie sich gefragt, ob sie nicht doch Informatik an einer Universität studieren sollte. Weil manche Firmen einen offiziellen Abschluss wollen. Und weil sie sich für die Theorie interessiert. Künstliche Intelligenz, Algorithmen, Mathematik.
+B: Aber ohne Abitur?
+A: Das ist das Interessante. In Deutschland kann man auch ohne Abitur studieren. Mit einer abgeschlossenen Berufsausbildung und mehreren Jahren Berufserfahrung. Oder mit einer speziellen Prüfung. Viele wissen das nicht. Und Lea wusste es auch nicht.
+B: Wer hat es ihr gesagt?
+A: Julien. Er hat sich informiert. Und er hat sie mit einer Mentorin von ArbeiterKind.de in Kontakt gebracht. Sie heißt Sandra, ist Professorin für Informatik und war selbst das erste Kind in ihrer Familie, das studiert hat. Ihr Vater war Bergmann im Ruhrgebiet.
+B: Wie inspirierend. Und was hat Sandra ihr geraten?
+A: Sandra hat gesagt: „Deine Herkunft bestimmt nicht deine Zukunft. Aber du musst wissen, welche Türen offen sind.“ Und sie hat Lea erklärt, wie sie über einen Umweg an die Universität kommen kann. Lea macht jetzt neben der Programmierschule die Fachhochschulreife an einer Abendschule.
+B: Viel Arbeit!
+A: Sehr viel. Und das Schwierigste war eigentlich nicht die Arbeit, sondern das Gespräch mit ihren Eltern. Ihr Vater hat zuerst gesagt: „Studieren? Das ist nichts für Leute wie uns. Mach lieber etwas Sicheres.“
+B: Ähnlich wie bei Mira in Folge vierundsechzig.
+A: Genau. Aber Lea hat ihrem Vater ihr Spiel gezeigt, das sie mit fünfzehn programmiert hatte. Das Spiel mit der Figur, die immer schneller wird. Und sie hat erklärt, was sie lernen möchte. Und ihr Vater hat lange zugeschaut. Dann hat er gesagt: „Ich habe fünfundzwanzig Jahre Autos gebaut. Vielleicht wirst du die Software dafür schreiben.“
+B: Oh, wie schön. Er hat ihr seinen Segen gegeben.
+A: Ja. Und Lea hat ein Ziel: In zwei Jahren will sie an der Technischen Universität in Braunschweig Informatik studieren. Mit BAföG. Und Sandra wird ihre Mentorin bleiben.
+B: Und vielleicht wird sie später selbst Mentorin für andere.
+A: Das hat sie schon versprochen. Jetzt bist du dran, Hörer, Hörerin. Sollte ein Studium kostenlos sein? Bilde deine eigene Meinung und begründe sie. Benutze mindestens vier Konnektoren: „deshalb“, „trotzdem“, „außerdem“ und „denn“ oder „nämlich“.
+B: Und versuch einmal, wie ich heute, die Gegenposition zu vertreten. Als Advocatus Diaboli. Das ist eine sehr gute Übung, um die eigene Argumentation zu prüfen.
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: unverzichtbar. Man kann nicht darauf verzichten, man braucht es unbedingt.
+A: Wort Nummer zwei: die Chancengleichheit. Alle Menschen haben die gleichen Möglichkeiten, unabhängig von ihrer Herkunft.
+B: Wort Nummer drei: der Advocatus Diaboli. Jemand, der bewusst die Gegenposition vertritt, um eine Diskussion anzuregen.
+A: Wort Nummer vier: das Darlehen. Ein Kredit, Geld, das man später zurückzahlen muss.
+B: Wort Nummer fünf: ernüchternd. Es zerstört eine Illusion und macht realistisch.
+A: Und Wort Nummer sechs: die Herkunft. Woher man kommt: das Land, die Familie, die soziale Schicht.
+B: Noch einmal: unverzichtbar, die Chancengleichheit, der Advocatus Diaboli, das Darlehen, ernüchternd, die Herkunft.
+A: Was lernen wir heute? Konnektoren für eine Folge: deshalb, daher, folglich. Für einen Gegensatz: trotzdem, dennoch, allerdings. Für eine Ergänzung: außerdem, zudem, darüber hinaus. Und für einen Grund: denn, nämlich.
+B: In Deutschland ist das Studium weitgehend kostenlos. Trotzdem studieren Kinder aus Nicht-Akademikerfamilien viel seltener.
+A: Die Argumente: Chancengleichheit und Nutzen für die Gesellschaft auf der einen Seite. Unterfinanzierung und die Frage der Gerechtigkeit auf der anderen.
+B: Und die eigentliche Ungerechtigkeit liegt oft früher, im Schulsystem.
+A: Das ist das Ende von Folge vierundsiebzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und denk daran: Deine Herkunft bestimmt nicht deine Zukunft. Servus!
+A: Tschüss!
+VOCAB: unverzichtbar | Man kann nicht darauf verzichten, man braucht es unbedingt. | 🔑
+VOCAB: die Chancengleichheit | Alle haben die gleichen Möglichkeiten, unabhängig von ihrer Herkunft. | ⚖️
+VOCAB: der Advocatus Diaboli | Jemand, der bewusst die Gegenposition vertritt. | 😈
+VOCAB: das Darlehen | Ein Kredit: Geld, das man später zurückzahlen muss. | 🏦
+VOCAB: ernüchternd | Es zerstört eine Illusion und macht realistisch. | 🫗
+VOCAB: die Herkunft | Woher man kommt: das Land, die Familie, die soziale Schicht. | 🧭
+QUIZ: Welcher Satz ist richtig? | Das Studium ist kostenlos. Deshalb viele können studieren. | Das Studium ist kostenlos. Deshalb können viele studieren. | Das Studium ist kostenlos, deshalb viele studieren können. | 2
+QUIZ: Was haben die Bürger in Bayern mit einem Volksbegehren erreicht? | Höhere Studiengebühren | Die Abschaffung der Studiengebühren | Neue Universitäten | 2
+QUIZ: Wie viele Studierende in Deutschland haben einen Nebenjob? | Fast keiner | Fast zwei Drittel | Alle | 2
+QUIZ: Was ist das BAföG? | Eine Prüfung für die Universität | Eine staatliche Unterstützung für Studierende | Eine Studentenparty | 2
+QUIZ: Was hat Leas Vater am Ende gesagt? | Studieren ist nichts für uns | Vielleicht wirst du die Software für die Autos schreiben | Du musst bei Volkswagen arbeiten | 2
+`;
+
+DATA.podScripts.ep075 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge fünfundsiebzig. Heute sprechen wir über etwas, das unser Leben stärker bestimmt, als wir denken: Gewohnheiten.
+A: Eine Gewohnheit ist ein Verhalten, das wir so oft wiederholt haben, dass es automatisch geworden ist. Wir denken nicht mehr darüber nach. Zähne putzen, den Kaffee am Morgen, den Weg zur Arbeit, das Handy in die Hand nehmen, sobald es still wird.
+B: Und Forscher schätzen, dass ein erheblicher Teil unseres täglichen Verhaltens aus Gewohnheiten besteht. Manche Studien sprechen von etwa vierzig Prozent. Das heißt: Fast die Hälfte von dem, was wir jeden Tag tun, entscheiden wir eigentlich gar nicht bewusst.
+A: Das ist eine faszinierende und gleichzeitig ein bisschen beunruhigende Vorstellung. Heute erklären wir, wie Gewohnheiten entstehen, warum es so schwer ist, schlechte Gewohnheiten loszuwerden, und wie man neue, gute Gewohnheiten aufbauen kann. Zum Beispiel jeden Tag Deutsch zu lernen!
+B: Und sprachlich üben wir heute, wie man Prozesse und Abläufe beschreibt. Mit Ausdrücken wie: „Zunächst …“, „Anschließend …“, „Daraufhin …“, „Sobald …“, „Je öfter …, desto …“ Und mit dem Passiv und mit „man“.
+A: Besonders „je … desto“ ist wichtig. Es zeigt, dass zwei Dinge zusammen wachsen oder zusammen abnehmen. „Je öfter man etwas wiederholt, desto automatischer wird es.“ Nach „je“ steht das Verb am Ende, wie in einem Nebensatz. Und nach „desto“ kommt ein Komparativ und dann direkt das Verb.
+B: Noch ein Beispiel: „Je müder ich bin, desto mehr Süßigkeiten esse ich.“ Hahaha. Das stimmt leider bei mir.
+A: Hahaha. Bei mir auch! Gut, fangen wir mit der Wissenschaft an. Wie entsteht eine Gewohnheit? Es gibt ein sehr bekanntes Modell, das der Journalist Charles Duhigg in seinem Buch über Gewohnheiten populär gemacht hat: die Gewohnheitsschleife.
+B: Eine Schleife ist ein Kreis, etwas, das sich immer wiederholt. Und diese Schleife hat drei Teile.
+A: Erstens: der Auslöser. Auf Englisch „Cue“. Das ist das Signal, das die Gewohnheit startet. Es kann ein Ort sein, eine Uhrzeit, ein Gefühl, eine Person oder eine vorherige Handlung. Zum Beispiel: Ich komme nach Hause und lege die Schlüssel auf den Tisch.
+B: Zweitens: die Routine. Das ist das Verhalten selbst. Ich setze mich aufs Sofa und schalte den Fernseher ein.
+A: Und drittens: die Belohnung. Das ist das gute Gefühl, das man danach bekommt. Ich entspanne mich, ich muss nicht mehr nachdenken. Und das Gehirn lernt: Wenn ich nach Hause komme, setze ich mich aufs Sofa, und dann fühle ich mich gut.
+B: Und je öfter diese Schleife abläuft, desto stärker wird die Verbindung im Gehirn. Bis irgendwann der Auslöser automatisch die Routine startet. Ohne dass man darüber nachdenkt.
+A: Und in diesem Moment ist die Gewohnheit entstanden. Der amerikanische Autor James Clear hat das Modell erweitert. Er fügt noch einen Schritt hinzu: das Verlangen. Zwischen dem Auslöser und der Routine steht ein Verlangen, also ein starker Wunsch. Man will nicht eigentlich fernsehen, man will sich entspannen.
+B: Das ist ein wichtiger Unterschied. Es geht nicht um das Verhalten selbst, sondern um das Gefühl, das wir uns davon erhoffen.
+A: Genau. Und das erklärt auch, warum es so schwer ist, schlechte Gewohnheiten loszuwerden. Wenn man nur die Routine verbietet, bleibt das Verlangen. Der Stress ist noch da, die Langeweile ist noch da. Und das Gehirn sucht weiter nach der Belohnung.
+B: Wie lange dauert es eigentlich, bis eine neue Gewohnheit entsteht? Man hört oft die Zahl einundzwanzig Tage.
+A: Ja, das ist ein Mythos! Wie in Folge neunundvierzig. Die Zahl einundzwanzig kommt ursprünglich aus einem Buch eines Schönheitschirurgen aus den Sechzigerjahren. Er hat beobachtet, dass seine Patienten etwa einundzwanzig Tage brauchten, um sich an ihr neues Gesicht zu gewöhnen. Das hatte gar nichts mit Gewohnheiten zu tun.
+B: Hahaha. Und was sagt die echte Forschung?
+A: Eine Studie am University College in London hat Menschen beobachtet, die eine neue Gewohnheit aufbauen wollten. Zum Beispiel jeden Tag nach dem Frühstück ein Glas Wasser trinken oder fünfzehn Minuten laufen. Im Durchschnitt hat es sechsundsechzig Tage gedauert, bis das Verhalten automatisch war. Aber die Spanne war riesig: zwischen achtzehn und zweihundertvierundfünfzig Tagen.
+B: Zweihundertvierundfünfzig Tage! Das ist fast ein Jahr.
+A: Ja. Je komplizierter die Gewohnheit, desto länger dauert es. Ein Glas Wasser trinken geht schnell. Jeden Tag Sport machen dauert viel länger. Und eine gute Nachricht aus der Studie: Wenn man einmal einen Tag ausgelassen hat, war das kein Problem. Die Gewohnheit wurde trotzdem aufgebaut. Man muss also nicht perfekt sein.
+B: Das ist tröstlich. Gut, jetzt die praktischen Strategien. Wie baut man eine neue Gewohnheit auf? Nehmen wir als Beispiel: jeden Tag zwanzig Minuten Deutsch lernen.
+A: Perfektes Beispiel! Erstens: den Auslöser klar machen. Man braucht einen festen Zeitpunkt und Ort. Nicht „Ich lerne irgendwann am Tag Deutsch“, sondern „Nach dem Frühstück setze ich mich an den Küchentisch und höre eine Folge Denk auf Deutsch“.
+B: James Clear nennt das „Habit Stacking“. Auf Deutsch vielleicht: Gewohnheiten stapeln. Man hängt die neue Gewohnheit an eine bestehende Gewohnheit an. „Nachdem ich meinen Kaffee eingeschenkt habe, öffne ich die Lern-App.“ Der Kaffee wird zum Auslöser.
+A: Zweitens: es attraktiv machen. Man kann die neue Gewohnheit mit etwas verbinden, das man gern macht. Zum Beispiel den Lieblingspodcast nur beim Joggen hören. Dann freut man sich aufs Joggen.
+B: Drittens: es einfach machen. Und das ist vielleicht der wichtigste Punkt. Je einfacher eine Gewohnheit, desto wahrscheinlicher macht man sie. Am Anfang lieber zu klein als zu groß. Nicht „Ich lerne jeden Tag eine Stunde“, sondern „Ich lerne jeden Tag zwei Minuten“.
+A: Zwei Minuten? Das klingt lächerlich wenig.
+B: Genau das ist der Trick! Die Zwei-Minuten-Regel. Man fängt so klein an, dass man gar keine Ausrede hat. Und meistens macht man dann ohnehin länger. Das Wichtigste ist nicht die Dauer, sondern dass man anfängt und dass es zur Routine wird. Man muss erst die Gewohnheit etablieren, bevor man sie verbessern kann.
+A: Das macht Sinn. Und die Umgebung spielt eine große Rolle. Wenn man mehr Obst essen will, legt man es sichtbar auf den Tisch. Wenn man weniger Süßigkeiten essen will, kauft man sie nicht oder versteckt sie im obersten Schrank.
+B: Ich muss zugeben, dass ich Schokolade im Schreibtisch habe. Genau neben der Tastatur. Hahaha.
+A: Jonas! Das ist das Gegenteil von dem, was man machen sollte!
+B: Ich weiß. Viertens: es befriedigend machen. Eine sofortige Belohnung. Das Problem bei vielen guten Gewohnheiten ist, dass die Belohnung erst viel später kommt. Wenn ich heute Deutsch lerne, spreche ich nicht morgen fließend. Darum hilft es, den Fortschritt sichtbar zu machen.
+A: Zum Beispiel mit einem Kalender, auf dem man jeden Tag ein Kreuz macht. Das nennt man auch die „Seinfeld-Methode“. Der Komiker Jerry Seinfeld soll jeden Tag einen Witz geschrieben und ein rotes Kreuz in den Kalender gemacht haben. Und nach ein paar Tagen entsteht eine Kette. Und man will die Kette nicht unterbrechen.
+B: Und viele Lern-Apps benutzen genau das. Mit Tagesserien und kleinen Flammen. Gamification, Folge sechsundfünfzig!
+A: Genau. Und jetzt: Wie wird man eine schlechte Gewohnheit los? Im Grunde macht man das Gegenteil. Den Auslöser unsichtbar machen. Die Routine unattraktiv und schwierig machen. Und die Belohnung unbefriedigend.
+B: Zum Beispiel beim Handy. Wenn man weniger am Handy sein will, legt man es in ein anderes Zimmer. Man löscht die Apps vom Startbildschirm. Man stellt den Bildschirm auf Schwarz-Weiß. Dann ist es weniger attraktiv.
+A: Schwarz-Weiß? Interessant. Das habe ich noch nie probiert.
+B: Es funktioniert erstaunlich gut! Ohne die bunten Farben ist Instagram plötzlich viel langweiliger. Und ein sehr wichtiger Punkt: Man sollte die schlechte Gewohnheit durch eine bessere ersetzen, die das gleiche Verlangen befriedigt. Wenn ich aus Stress Süßigkeiten esse, brauche ich eine andere Strategie gegen Stress. Zum Beispiel einen kurzen Spaziergang.
+A: Und noch ein letzter, tieferer Gedanke von James Clear. Er sagt, die effektivste Methode sei, an der eigenen Identität zu arbeiten. Nicht: „Ich will Deutsch lernen“, sondern: „Ich bin jemand, der Deutsch lernt.“ Nicht: „Ich will mit dem Rauchen aufhören“, sondern: „Ich bin kein Raucher.“
+B: Der Unterschied ist subtil, aber stark. Jede kleine Handlung ist dann wie eine Stimme für die Person, die man werden will.
+A: Jetzt zur Geschichte. Diesmal geht es um Jonas selbst. Denn Jonas hat eine schlechte Gewohnheit, die er seit Jahren loswerden will.
+B: Oh nein. Du erzählst jetzt von mir?
+A: Ja! Du hast mir erlaubt, die Geschichte zu erzählen. Jonas schreibt ja seit einem Jahr an seinem Buch über die Wiener Kaffeehäuser. Und er hat ein Problem. Er schiebt das Schreiben immer auf. Das nennt man „prokrastinieren“ oder auf Deutsch „aufschieben“.
+B: Ja, leider. Ich bin ein Weltmeister im Aufschieben. Hahaha.
+A: Jonas setzt sich zum Schreiben hin. Und dann checkt er zuerst die E-Mails. Dann die Nachrichten. Dann Instagram. Dann macht er Kaffee. Dann muss Strudel raus. Und plötzlich ist der Vormittag vorbei, und er hat drei Sätze geschrieben.
+B: Das ist ehrlich gesagt sehr realistisch.
+A: Hahaha. Und nach Folge sechsundsechzig, über Burnout, hat Jonas beschlossen, etwas zu ändern. Er hat die Methode von heute ausprobiert. Erstens hat er seinen Auslöser analysiert. Er hat gemerkt, dass er immer prokrastiniert, wenn ein Kapitel schwierig wird. Das Verlangen dahinter ist, der Unsicherheit auszuweichen.
+B: Das war eine wichtige Erkenntnis. Ich schiebe nicht auf, weil ich faul bin, sondern weil ich Angst habe, dass der Text nicht gut wird.
+A: Genau. Dann hat er einen neuen Auslöser eingebaut. Nach dem Morgenspaziergang mit Strudel geht er direkt ins Kaffeehaus. Ohne Laptop, nur mit einem Notizbuch und einem Füller. Mit dem Füller seines Großvaters!
+B: Der Füller aus Folge dreiundsiebzig, den ich nie benutzt habe.
+A: Genau. Und jetzt benutzt er ihn jeden Tag. Er hat die Zwei-Minuten-Regel angewendet. Er muss nur einen einzigen Satz schreiben. Mehr nicht. Und meistens schreibt er dann eine Stunde oder länger.
+B: Und das Handy?
+A: Das Handy bleibt zu Hause. Und am Abend macht er ein Kreuz in seinen Kalender. Und er hat seine Identität verändert. Er sagt nicht mehr „Ich versuche, ein Buch zu schreiben“, sondern „Ich bin Schriftsteller“.
+B: Am Anfang fühlte sich das komisch an. Wie eine Lüge. Aber jetzt fühlt es sich richtig an.
+A: Und das Ergebnis? Nach drei Monaten hat Jonas zehn neue Kapitel geschrieben. Mehr als im ganzen Jahr davor. Und der Kellner im Kaffeehaus, ein älterer, grantiger Herr namens Herr Franz, bringt ihm jeden Morgen ungefragt seine Melange und sagt: „Na, Herr Schriftsteller, wie geht's dem Buch?“
+B: Hahaha. Und Herr Franz wird natürlich ein Kapitel in meinem Buch bekommen.
+A: Natürlich! Jetzt bist du dran, Hörer, Hörerin. Welche Gewohnheit möchtest du aufbauen? Beschreibe den Ablauf mit den Schritten von heute: „Zunächst … Sobald … Anschließend …“ Und formuliere einen Satz mit „je … desto“.
+B: Und formuliere deine neue Identität: „Ich bin jemand, der …“
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: der Auslöser. Das Signal, das eine Gewohnheit startet.
+A: Wort Nummer zwei: je … desto. Zwei Dinge wachsen zusammen. Je öfter, desto leichter.
+B: Wort Nummer drei: das Verlangen. Ein starker Wunsch nach etwas.
+A: Wort Nummer vier: aufschieben. Etwas, das man machen sollte, auf später verschieben. Man sagt auch: prokrastinieren.
+B: Wort Nummer fünf: etablieren. Etwas fest einführen, sodass es dauerhaft bleibt.
+A: Und Wort Nummer sechs: loswerden. Sich von etwas befreien, das man nicht mehr will.
+B: Noch einmal: der Auslöser, je … desto, das Verlangen, aufschieben, etablieren, loswerden.
+A: Was lernen wir heute? Die Gewohnheitsschleife: Auslöser, Verlangen, Routine, Belohnung.
+B: Eine neue Gewohnheit dauert im Durchschnitt nicht einundzwanzig, sondern sechsundsechzig Tage. Und ein verpasster Tag ist kein Problem.
+A: Die Strategien: den Auslöser klar machen, es attraktiv machen, es einfach machen mit der Zwei-Minuten-Regel und es befriedigend machen.
+B: Und die tiefste Strategie: an der eigenen Identität arbeiten. „Ich bin jemand, der Deutsch lernt.“
+A: Das ist das Ende von Folge fünfundsiebzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und mach heute ein Kreuz in deinen Kalender! Servus!
+A: Tschüss!
+VOCAB: der Auslöser | Das Signal, das eine Gewohnheit startet. | 🔔
+VOCAB: je … desto | Zwei Dinge wachsen zusammen: je öfter, desto leichter. | 📈
+VOCAB: das Verlangen | Ein starker Wunsch nach etwas. | 🔥
+VOCAB: aufschieben | Etwas auf später verschieben. | ⏭️
+VOCAB: etablieren | Etwas fest einführen, sodass es dauerhaft bleibt. | 🏗️
+VOCAB: loswerden | Sich von etwas befreien, das man nicht mehr will. | 👋
+QUIZ: Welcher Satz ist richtig? | Je öfter man übt, desto leichter es wird. | Je öfter man übt, desto leichter wird es. | Je man übt öfter, desto wird es leichter. | 2
+QUIZ: Wie lange dauerte es laut der Londoner Studie im Durchschnitt, bis eine Gewohnheit automatisch war? | Einundzwanzig Tage | Sechsundsechzig Tage | Ein Jahr | 2
+QUIZ: Was ist die Zwei-Minuten-Regel? | Man fängt mit einer sehr kleinen Version der Gewohnheit an | Man darf nur zwei Minuten am Handy sein | Man schläft zwei Minuten länger | 1
+QUIZ: Warum schiebt Jonas das Schreiben auf? | Weil er faul ist | Weil er Angst hat, dass der Text nicht gut wird | Weil er keine Zeit hat | 2
+QUIZ: Womit schreibt Jonas jetzt im Kaffeehaus? | Mit dem Laptop | Mit dem Füller seines Großvaters | Mit dem Handy | 2
+`;
