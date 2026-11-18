@@ -645,3 +645,203 @@ QUIZ: Was sagte Keynes für das Jahr 2030 voraus? | Eine Fünfzehn-Stunden-Woche
 QUIZ: Welche drei Tätigkeiten unterscheidet Hannah Arendt? | Arbeiten, Herstellen, Handeln | Essen, Schlafen, Arbeiten | Lesen, Schreiben, Rechnen | 1
 QUIZ: Was hat Herr Wagner nach seiner Rente gemacht? | Er hat ein Buch mit Rezepten und Lebensgeschichte gemacht und gibt Backkurse | Er ist nach Sachsen gezogen | Er hat eine neue Bäckerei eröffnet | 1
 `;
+
+DATA.podScripts.ep088 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge achtundachtzig. Heute sprechen wir über ein Thema, das sich wie ein roter Faden durch unseren ganzen Podcast zieht: interkulturelle Kompetenz. Und zwar konkret im Team, im Berufsleben.
+A: „Wie ein roter Faden“ ist eine schöne Redewendung. Sie bezeichnet ein durchgehendes Motiv, das sich durch etwas hindurchzieht. Sie stammt übrigens angeblich von Goethe, der sich auf einen roten Faden bezog, der in alle Taue der britischen Marine eingeflochten gewesen sein soll.
+B: Und in unserer Geschichte haben wir ja immer wieder interkulturelle Begegnungen erlebt. Julien aus Frankreich, Amira aus Marokko, Kenji aus Japan, Oksana aus der Ukraine. Und immer wieder ging es um die Frage: Wie kommuniziert man über kulturelle Grenzen hinweg?
+A: Heute schauen wir uns das systematischer an. Mit wissenschaftlichen Modellen, mit einem besonderen Fokus auf die viel zitierte deutsche Direktheit, aber auch mit einer gehörigen Portion Skepsis gegenüber Stereotypen.
+B: Sprachlich üben wir heute, wie man differenziert über Verallgemeinerungen spricht. Denn wer über Kulturen redet, läuft ständig Gefahr, in Klischees zu verfallen. Wir lernen Ausdrücke wie: „tendenziell“, „im Großen und Ganzen“, „mit gewissen Einschränkungen“, „das trifft nicht auf alle zu“, „zugespitzt formuliert“, „pauschal lässt sich das nicht sagen“.
+A: „Pauschal“ heißt: allgemein, ohne Unterschiede zu machen. Und „zugespitzt“ heißt: bewusst übertrieben, um einen Punkt deutlich zu machen. Diese Ausdrücke sind wichtig, weil sie zeigen, dass man sich der Grenzen seiner Aussage bewusst ist.
+B: Gut. Fangen wir mit einer Warnung an. Wenn wir über „die Deutschen“ oder „die Franzosen“ sprechen, reden wir über statistische Tendenzen. Nicht über einzelne Menschen. Innerhalb einer Kultur gibt es enorme Unterschiede. Zwischen Generationen, Regionen, sozialen Schichten und natürlich Individuen.
+A: Ein Berliner ist anders als ein Bayer, ein Hamburger anders als ein Kölner. Und ein Wiener ist sowieso ganz anders. Hahaha.
+B: Hahaha. Absolut. Und trotzdem gibt es kulturelle Muster, die die Forschung durchaus belegen kann. Und die zu kennen, kann sehr hilfreich sein. Die Kunst besteht darin, sie als Hypothese zu nutzen, nicht als Schublade.
+A: „In eine Schublade stecken“ heißt: jemanden vorschnell einer Kategorie zuordnen, ohne ihn als Individuum zu sehen. Gut. Eines der einflussreichsten Modelle stammt vom niederländischen Sozialpsychologen Geert Hofstede. Er hat in den Siebzigerjahren Zehntausende Mitarbeiter des Computerkonzerns IBM in über fünfzig Ländern befragt.
+B: Und aus diesen Daten hat er verschiedene Kulturdimensionen abgeleitet. Also Achsen, auf denen sich Kulturen unterscheiden lassen. Die wichtigsten sind: Machtdistanz, Individualismus, Unsicherheitsvermeidung und die Langfristorientierung.
+A: Die Machtdistanz beschreibt, wie sehr die weniger Mächtigen in einer Gesellschaft eine ungleiche Machtverteilung akzeptieren und erwarten. In Kulturen mit hoher Machtdistanz spricht man den Chef nicht einfach an, man widerspricht ihm nicht öffentlich. In Kulturen mit niedriger Machtdistanz sind die Hierarchien flacher.
+B: Und Deutschland liegt bei der Machtdistanz eher niedrig, Österreich sogar sehr niedrig. Was viele überrascht, weil man an die Titel denkt. „Herr Doktor“, „Frau Magister“. Aber im Arbeitsalltag sind die Hierarchien in Österreich relativ flach.
+A: Interessant. Die Unsicherheitsvermeidung beschreibt, wie sehr sich Menschen durch unklare, unvorhersehbare Situationen bedroht fühlen. Und hier liegt Deutschland ziemlich hoch. Was vieles erklärt. Die Liebe zu Regeln, zu Planung, zu Versicherungen, die wir in Folge neununddreißig angesprochen haben. Und zur Bürokratie.
+B: Und Frankreich liegt da übrigens noch höher. Was Julien vielleicht überrascht hätte. Hahaha. Aber Hofstedes Modell wurde auch kritisiert. Es basiert auf Daten aus nur einem einzigen Unternehmen, die zudem schon Jahrzehnte alt sind. Und es behandelt Nationen als einheitliche Kulturen, was sie natürlich nicht sind.
+A: Ein berechtigter Einwand. Darum schauen wir uns ein zweites, praxisnäheres Modell an. Die amerikanische Forscherin Erin Meyer hat in ihrem Buch „The Culture Map“ acht Skalen beschrieben, auf denen sich Kulturen im Berufsleben unterscheiden. Und einige davon sind für das Verständnis der Deutschen besonders aufschlussreich.
+B: Fangen wir mit der Kommunikation an. Meyer unterscheidet zwischen Low-Context- und High-Context-Kulturen. Das Konzept stammt ursprünglich vom Anthropologen Edward Hall.
+A: In Low-Context-Kulturen sagt man explizit, was man meint. Die Botschaft steckt in den Worten selbst. Man ist präzise, klar, eindeutig. Und man wiederholt lieber einmal zu viel, als missverstanden zu werden. Deutschland, die Niederlande, die USA und skandinavische Länder sind typische Low-Context-Kulturen.
+B: Und in High-Context-Kulturen steckt viel von der Bedeutung im Kontext. In der Beziehung, im Tonfall, in dem, was nicht gesagt wird. Man muss zwischen den Zeilen lesen. Japan ist das Paradebeispiel. Aber auch Frankreich, China, viele arabische Länder.
+A: Und das erklärt das Missverständnis zwischen Kenji und Jasmin in Folge achtundsiebzig perfekt. Kenji sagte „Die Brezeln sind interessant heute“ und meinte eine deutliche Kritik. Jasmin hörte ein Lob. High Context traf auf Low Context.
+B: Genau. Es gibt sogar eine japanische Redewendung für die Fähigkeit, die Stimmung zu lesen: „kuuki wo yomu“, wörtlich „die Luft lesen“. Und jemand, der das nicht kann, gilt als unhöflich.
+A: Die zweite Skala ist für uns besonders wichtig: das Feedback. Und hier gibt es einen faszinierenden Befund. Man würde vermuten, dass Low-Context-Kulturen auch beim negativen Feedback direkt sind. Aber das ist nicht immer so.
+B: Erklär das.
+A: Die USA sind eine Low-Context-Kultur, aber beim negativen Feedback eher indirekt. Amerikaner verpacken Kritik oft in viel Lob. Das Sandwich aus Folge achtundsiebzig. Deutsche hingegen sind sowohl Low-Context als auch beim negativen Feedback sehr direkt.
+B: Und das führt zu typischen Missverständnissen. Ein Amerikaner hört von seinem deutschen Kollegen: „Diese Präsentation hat drei gravierende Fehler.“ Und er ist schockiert und fühlt sich gedemütigt. Der Deutsche hat aber nur eine sachliche Rückmeldung gegeben und hält den Amerikaner im Übrigen für sehr kompetent.
+A: Und umgekehrt hört ein Deutscher von seinem amerikanischen Kollegen: „That's a really interesting approach, maybe we could think about some small adjustments.“ Und er denkt, alles ist in Ordnung. Dabei hat der Amerikaner eigentlich gemeint: Das ist völlig falsch, mach es neu.
+B: Hahaha. Eine Quelle unendlicher Missverständnisse. Und Meyer gibt den Rat, sich solcher sprachlicher Verstärker und Abschwächer bewusst zu sein. Deutsche benutzen tendenziell Verstärker: „absolut falsch“, „völlig inakzeptabel“. Amerikaner und Briten benutzen eher Abschwächer: „slightly concerned“, „not quite there yet“.
+A: Die Briten sind da die Meister. Es gibt eine berühmte, halb scherzhafte Tabelle, die übersetzt, was Briten sagen und was sie meinen. Wenn ein Brite sagt „With the greatest respect“, meint er eigentlich: „Ich halte Sie für einen Idioten.“ Hahaha.
+B: Hahaha. Und wenn er sagt „That's not bad“, meint er „Das ist hervorragend“. Und „Quite good“ heißt eigentlich „ein bisschen enttäuschend“. Für Deutsche ist das ein Minenfeld.
+A: Die dritte Skala, die für Deutschland interessant ist: Vertrauen. Meyer unterscheidet zwischen aufgabenbasiertem und beziehungsbasiertem Vertrauen.
+B: In aufgabenbasierten Kulturen entsteht Vertrauen durch die Arbeit selbst. Man vertraut jemandem, weil er zuverlässig liefert, kompetent ist, seine Termine einhält. Die persönliche Beziehung ist zweitrangig. Deutschland und die USA sind hier typische Beispiele.
+A: In beziehungsbasierten Kulturen entsteht Vertrauen durch die persönliche Beziehung. Man isst zusammen, trinkt zusammen, lernt die Familie kennen. Erst dann macht man Geschäfte. Viele Länder in Asien, Südamerika, Afrika und der arabischen Welt sind hier zu verorten. Und auch Frankreich und Italien eher als Deutschland.
+B: Und das erklärt, warum deutsche Geschäftsleute im Ausland manchmal ungeduldig werden. Sie wollen schnell zur Sache kommen. Während ihre Partner erst einmal lange essen und plaudern wollen. Und dann wirkt der Deutsche unhöflich und kalt.
+A: Und umgekehrt erklärt es die Kokosnuss aus Folge siebzehn. In Deutschland trennt man Beruf und Privatleben. Man kann jahrelang eng mit Kollegen zusammenarbeiten, ohne sie privat zu kennen. Das empfinden Menschen aus beziehungsbasierten Kulturen oft als distanziert.
+B: Und die vierte Skala: die Zeitwahrnehmung. Meyer unterscheidet zwischen linearer und flexibler Zeit. In linearen Kulturen wird Zeit in klare Abschnitte eingeteilt. Ein Termin ist ein Termin. Pünktlichkeit ist wichtig. Man erledigt eine Aufgabe nach der anderen.
+A: Deutschland, die Schweiz und Skandinavien sind die Spitzenreiter. Wobei man ehrlicherweise anmerken muss, dass die Deutsche Bahn in dieser Hinsicht nicht besonders deutsch ist. Hahaha.
+B: Hahaha. Ein Paradox! Und in flexiblen Kulturen ist Zeit dehnbar. Termine sind Richtwerte. Man macht mehrere Dinge gleichzeitig und passt sich den Umständen an. Und wenn ein wichtiger Mensch kommt, unterbricht man das Meeting für ihn.
+A: Wir haben das in Folge vierundfünfzig gesehen, als Jonas in Spanien immer der Erste war, der kam. Und Amira in Casablanca, wo niemand pünktlich war.
+B: Gut. Und jetzt die Kernfrage: Wie entwickelt man interkulturelle Kompetenz? Was macht einen guten interkulturellen Kommunikator aus?
+A: Erstens: das Bewusstsein für die eigene kulturelle Prägung. Das klingt banal, ist aber entscheidend. Die meisten Menschen halten ihre eigenen kulturellen Normen für natürlich und universell. Für „normal“. Man erkennt die eigene Kultur oft erst, wenn man auf eine andere trifft. Wie ein Fisch, der erst merkt, dass er im Wasser lebt, wenn man ihn herausholt.
+B: Ein schönes Bild. Zweitens: Ambiguitätstoleranz. Das ist die Fähigkeit, Mehrdeutigkeit und Unsicherheit auszuhalten, ohne sofort zu urteilen. Wenn sich jemand anders verhält, als man erwartet, nicht sofort annehmen, er sei unhöflich, sondern sich fragen: Welche andere Erklärung könnte es geben?
+A: Das ist besonders für Deutsche eine Herausforderung, angesichts der hohen Unsicherheitsvermeidung. Drittens: die Fähigkeit zum Perspektivwechsel. Sich vorstellen, wie die eigene Kommunikation auf andere wirken könnte. Was für mich sachliches Feedback ist, kann für jemand anderen eine Demütigung sein.
+B: Und viertens: Metakommunikation. Also über die Kommunikation selbst sprechen. In interkulturellen Teams ist es sehr hilfreich, die unterschiedlichen Stile offen anzusprechen. „Bei uns in Deutschland ist es üblich, Kritik direkt zu äußern. Das ist nicht persönlich gemeint. Wie ist das bei euch?“
+A: Das ist vielleicht der wichtigste Tipp überhaupt. Unterschiede benennen, statt sie zu ignorieren.
+B: Jetzt zur Geschichte. Diesmal ein ganz besonderes Team. Julien koordiniert ja das gemeinsame Mentoring-Programm der vier Campusse aus Folge vierundachtzig. Und jetzt soll das Programm auf einen neuen Campus übertragen werden. In Tokio.
+A: In Tokio! Wie passend. Und Kenji hilft bestimmt?
+B: Genau. Kenji hat angeboten, als kultureller Vermittler zu helfen. Und das war bitter nötig. Denn beim ersten Videocall zwischen dem Berliner Team und dem Tokioter Team ist einiges schiefgelaufen.
+A: Was ist passiert?
+B: Das Berliner Team, angeführt von einem sehr direkten Kollegen namens Thomas, hat das Konzept präsentiert. Und dann hat Thomas gefragt: „Was haltet ihr davon? Gibt es Kritik?“ Und das Tokioter Team hat freundlich gelächelt und gesagt: „Das ist ein sehr interessantes Konzept. Wir werden es sorgfältig prüfen.“
+A: Oh je. „Sehr interessant“ und „sorgfältig prüfen“. In Japan kann das ein sehr höfliches Nein sein.
+B: Genau. Thomas hat das als Zustimmung verstanden. Er hat sofort einen detaillierten Zeitplan geschickt, mit Fristen. Und dann kam wochenlang keine Antwort.
+A: Und Thomas war bestimmt frustriert.
+B: Sehr. Er hat eine ziemlich scharfe E-Mail geschrieben. „Wir haben vor drei Wochen einen klaren Zeitplan vereinbart. Leider haben wir noch keine Rückmeldung erhalten. Bitte antworten Sie bis Freitag.“
+A: Aus deutscher Sicht eine normale, sachliche E-Mail. Aus japanischer Sicht vermutlich eine Ohrfeige.
+B: Genau das. Das Tokioter Team war zutiefst verletzt. Und dann hat Kenji eingegriffen. Er hat mit beiden Seiten gesprochen. Zuerst mit den Kollegen in Tokio, auf Japanisch. Und er hat herausgefunden, dass sie mit dem Konzept tatsächlich große Probleme hatten.
+A: Welche Probleme?
+B: Das Peer-Learning-Prinzip, bei dem Studierende sich gegenseitig bewerten und kritisieren, widersprach stark der japanischen Kultur. Dort ist es unüblich, Kommilitonen offen zu kritisieren, besonders ältere. Und der Gedanke, dass es keine Lehrer gibt, fanden manche geradezu respektlos gegenüber der Rolle des Lehrers, des „Sensei“.
+A: Das ist ja ein fundamentaler Konflikt. Und das hatten sie im Videocall nicht gesagt?
+B: Nein, weil es unhöflich gewesen wäre, das Konzept der Gäste direkt vor allen zu kritisieren. Sie wollten es intern besprechen und dann eine diplomatische Lösung vorschlagen. Aber dann kam die E-Mail von Thomas und hat sie unter Druck gesetzt.
+A: Und was hat Kenji dann gemacht?
+B: Er hat mit Julien und Thomas in Berlin gesprochen und den Hintergrund erklärt. Thomas war zunächst ungläubig. Er sagte: „Warum haben sie das nicht einfach gesagt?“ Und Kenji hat geantwortet: „Sie haben es gesagt. Du hast nur nicht zugehört.“
+A: Ein bemerkenswerter Satz. „Sie haben es gesagt, du hast nur nicht zugehört.“
+B: Ja. Und dann hat Julien eine Idee gehabt. Statt eines weiteren Videocalls ist er mit Kenji nach Tokio geflogen. Wie bei den anderen Campussen. Sie haben zuerst zusammen gegessen, mehrere Abende lang. Beziehungsbasiertes Vertrauen. Und erst danach haben sie über die Arbeit gesprochen.
+A: Und haben sie eine Lösung gefunden?
+B: Ja, eine sehr kreative. Sie haben das Peer-Learning angepasst. Die Bewertungen in Tokio erfolgen anonym, sodass niemand das Gesicht verliert. Und es gibt erfahrene Mentoren, die eine Rolle ähnlich wie ein Sensei haben. Nicht als Lehrer, der alles erklärt, sondern als respektierte Begleiter.
+A: Das ist die Essenz interkultureller Kompetenz. Nicht das eigene Modell einfach übertragen, sondern es gemeinsam anpassen.
+B: Genau. Und das Interessanteste: Einige Elemente aus Tokio wurden danach auch in Berlin übernommen. Die anonymen Bewertungen haben dort nämlich auch geholfen. Besonders für die stilleren Studierenden wie Lea.
+A: Und Thomas?
+B: Thomas hat sich bei dem Tokioter Team mit einem langen, sehr höflichen Brief entschuldigt. Mit Kenjis Hilfe formuliert. Und er hat gesagt, er habe in diesen Wochen mehr über Kommunikation gelernt als in zwanzig Jahren Berufsleben.
+A: Jetzt bist du dran, Hörer, Hörerin. Wie würdest du deine eigene Kultur auf den Skalen von Erin Meyer einordnen? Direkt oder indirekt? Aufgaben- oder beziehungsbasiert? Lineare oder flexible Zeit? Formuliere differenziert: „Tendenziell …“, „Pauschal lässt sich das nicht sagen, aber …“, „Zugespitzt formuliert …“
+B: Und denk an ein interkulturelles Missverständnis, das du erlebt hast. Wie hätte man es mit Metakommunikation vermeiden können?
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: der rote Faden. Ein durchgehendes Motiv, das sich durch etwas hindurchzieht.
+A: Wort Nummer zwei: pauschal. Allgemein, ohne Unterschiede zu machen.
+B: Wort Nummer drei: in eine Schublade stecken. Jemanden vorschnell einer Kategorie zuordnen.
+A: Wort Nummer vier: zwischen den Zeilen lesen. Verstehen, was nicht direkt gesagt wird.
+B: Wort Nummer fünf: die Ambiguitätstoleranz. Die Fähigkeit, Mehrdeutigkeit auszuhalten, ohne sofort zu urteilen.
+A: Und Wort Nummer sechs: das Minenfeld. Eine Situation voller versteckter Gefahren, in der man leicht einen Fehler macht.
+B: Noch einmal: der rote Faden, pauschal, in eine Schublade stecken, zwischen den Zeilen lesen, die Ambiguitätstoleranz, das Minenfeld.
+A: Was nehmen wir mit? Kulturelle Muster sind statistische Tendenzen, keine Schubladen. Sie sind als Hypothese nützlich.
+B: Hofstedes Kulturdimensionen und Erin Meyers Skalen helfen, Unterschiede zu verstehen: Low und High Context, direktes und indirektes Feedback, aufgaben- und beziehungsbasiertes Vertrauen, lineare und flexible Zeit.
+A: Deutschland ist tendenziell eine Low-Context-Kultur mit direktem Feedback, aufgabenbasiertem Vertrauen und linearer Zeit. Mit vielen regionalen und individuellen Ausnahmen.
+B: Und interkulturelle Kompetenz bedeutet: die eigene Prägung erkennen, Ambiguität aushalten, die Perspektive wechseln und über Kommunikation sprechen.
+A: Das ist das Ende von Folge achtundachtzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und vergiss nicht: Manchmal sagen die anderen es schon, wir hören nur nicht zu. Servus!
+A: Tschüss!
+VOCAB: der rote Faden | Ein durchgehendes Motiv, das sich durch etwas hindurchzieht. | 🧵
+VOCAB: pauschal | Allgemein, ohne Unterschiede zu machen. | 📦
+VOCAB: in eine Schublade stecken | Jemanden vorschnell einer Kategorie zuordnen. | 🗄️
+VOCAB: zwischen den Zeilen lesen | Verstehen, was nicht direkt gesagt wird. | 📖
+VOCAB: die Ambiguitätstoleranz | Die Fähigkeit, Mehrdeutigkeit auszuhalten, ohne sofort zu urteilen. | 🌗
+VOCAB: das Minenfeld | Eine Situation voller versteckter Gefahren. | 💣
+QUIZ: Was ist eine Low-Context-Kultur? | Man sagt explizit, was man meint | Man muss zwischen den Zeilen lesen | Man spricht sehr wenig | 1
+QUIZ: Wie unterscheiden sich Deutsche und Amerikaner beim negativen Feedback? | Deutsche sind direkter, Amerikaner verpacken Kritik oft in Lob | Beide sind gleich direkt | Amerikaner sind direkter | 1
+QUIZ: Was bedeutet aufgabenbasiertes Vertrauen? | Vertrauen entsteht durch zuverlässige Arbeit | Vertrauen entsteht durch gemeinsames Essen | Vertrauen ist unwichtig | 1
+QUIZ: Was meinte das Tokioter Team mit „sehr interessant, wir werden es sorgfältig prüfen“? | Begeisterte Zustimmung | Eigentlich hatten sie große Bedenken | Sie hatten keine Zeit | 2
+QUIZ: Was sagte Kenji zu Thomas? | „Du musst lauter sprechen.“ | „Sie haben es gesagt. Du hast nur nicht zugehört.“ | „Sie mögen dich nicht.“ | 2
+`;
+
+DATA.podScripts.ep089 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge neunundachtzig. Heute sprechen wir über ein Thema, das durch die Corona-Pandemie eine ungeahnte gesellschaftliche Brisanz bekommen hat: das Vertrauen in die Wissenschaft. Und das schwierige Verhältnis von Expertise und Unsicherheit.
+A: „Brisanz“ bezeichnet die Eigenschaft eines Themas, sehr umstritten und explosiv zu sein. Ein brisantes Thema löst heftige Reaktionen aus. Und kaum ein Thema war in den letzten Jahren brisanter als die Frage, wem man in einer Krise glauben soll.
+B: Während der Pandemie wurden Virologen plötzlich zu Fernsehstars. In Deutschland kannte auf einmal jeder Christian Drosten. Wissenschaftliche Begriffe wie Inzidenz, Reproduktionszahl oder Peer-Review gehörten plötzlich zum Alltagswortschatz.
+A: Und gleichzeitig erlebten wir eine enorme Polarisierung. Die einen vertrauten der Wissenschaft fast blind, die anderen misstrauten ihr zutiefst. Und Wissenschaftler wurden bedroht und beschimpft.
+B: Heute wollen wir verstehen, wie Wissenschaft eigentlich funktioniert. Warum Unsicherheit kein Zeichen von Schwäche, sondern von Ehrlichkeit ist. Und warum das Vertrauen in die Wissenschaft für eine Demokratie so wichtig ist.
+A: Sprachlich üben wir heute, wie man präzise über Wahrscheinlichkeit, Gewissheit und Zweifel spricht. Auf einem Niveau, das über die einfachen Vermutungen aus Folge dreiundsechzig hinausgeht. Mit Ausdrücken wie: „Es gilt als gesichert, dass …“, „Die Befundlage deutet darauf hin, dass …“, „Nach derzeitigem Kenntnisstand …“, „Es lässt sich nicht ausschließen, dass …“, „Dies ist umstritten.“
+B: „Nach derzeitigem Kenntnisstand“ ist ein besonders wichtiger Ausdruck. Er drückt genau aus, was Wissenschaft ist: das beste verfügbare Wissen zu einem bestimmten Zeitpunkt. Das sich ändern kann, wenn neue Erkenntnisse hinzukommen.
+A: Gut. Fangen wir mit einem grundlegenden Missverständnis an. Viele Menschen stellen sich Wissenschaft als eine Sammlung von festen, unumstößlichen Wahrheiten vor. Etwas, das in Lehrbüchern steht und für immer gilt.
+B: Und das ist falsch. Wissenschaft ist kein fertiges Gebäude, sondern ein Prozess. Eine Methode, um sich der Wahrheit schrittweise anzunähern. Und dazu gehört, dass man sich irrt und seine Meinung ändert.
+A: Und hier ist ein Philosoph zentral, den man in diesem Zusammenhang kennen sollte: Karl Popper. Ein in Wien geborener Philosoph, der übrigens jahrelang in Neuseeland und England gelehrt hat. Er hat ein Prinzip formuliert, das für das moderne Wissenschaftsverständnis grundlegend ist: die Falsifizierbarkeit.
+B: Ein Wiener! Natürlich. Erklär das Prinzip.
+A: Popper zufolge kann man eine wissenschaftliche Theorie niemals endgültig beweisen. Man kann sie nur widerlegen. Er hat dafür ein berühmtes Beispiel gebracht: die Schwäne. Wenn man tausend weiße Schwäne sieht, ist damit nicht bewiesen, dass alle Schwäne weiß sind. Aber wenn man einen einzigen schwarzen Schwan sieht, ist die Behauptung widerlegt.
+B: Und tatsächlich wurden in Australien schwarze Schwäne entdeckt. Was die Europäer lange für unmöglich gehalten hatten.
+A: Genau. Und daraus folgt: Eine gute wissenschaftliche Theorie muss so formuliert sein, dass man sie prinzipiell widerlegen könnte. Sie muss falsifizierbar sein. Eine Behauptung, die sich nicht widerlegen lässt, egal was passiert, ist keine Wissenschaft.
+B: Zum Beispiel eine Verschwörungstheorie. Wenn es keine Beweise gibt, heißt es: „Das zeigt, wie gut sie alles vertuschen.“ Wenn es Gegenbeweise gibt, heißt es: „Die sind gefälscht.“ Eine solche Theorie lässt sich durch nichts widerlegen. Und genau deshalb ist sie unwissenschaftlich.
+A: Ein sehr wichtiger Punkt. Eine Immunisierung gegen Kritik, wie Popper sagen würde. Und das bedeutet: Der Zweifel ist der Motor der Wissenschaft. Wissenschaftler versuchen nicht, ihre Theorien zu bestätigen, sondern sie zu widerlegen. Und was diese Versuche übersteht, gilt vorläufig als gesichert.
+B: Gut. Und wie wird wissenschaftliches Wissen überprüft? Da gibt es ein zentrales Verfahren: das Peer-Review.
+A: Wenn ein Wissenschaftler eine Studie veröffentlichen will, schickt er sie an eine Fachzeitschrift. Und die Zeitschrift lässt die Studie von anderen, unabhängigen Experten auf dem gleichen Gebiet begutachten. Sie prüfen die Methoden, die Daten und die Schlussfolgerungen. Und oft muss die Studie überarbeitet werden, bevor sie veröffentlicht wird.
+B: Das ist wieder das Peer-Prinzip aus Folge vierundvierzig! Gleichrangige prüfen sich gegenseitig.
+A: Genau. Wobei auch das Peer-Review nicht perfekt ist. Gutachter können Fehler übersehen, oder sie haben eigene Interessen. Und es gibt die sogenannte Replikationskrise.
+B: Was ist das?
+A: In den letzten Jahren hat man in manchen Disziplinen festgestellt, dass sich die Ergebnisse vieler veröffentlichter Studien nicht wiederholen ließen. Wenn andere Forscher das gleiche Experiment durchführten, kamen sie zu anderen Ergebnissen. Besonders betroffen war die Psychologie. Ein großes Projekt hat versucht, hundert psychologische Studien zu wiederholen. Und nur bei weniger als der Hälfte gelang es.
+B: Das ist erschreckend. Aber andererseits auch ein Zeichen, dass die Wissenschaft sich selbst korrigiert. Sie hat dieses Problem ja selbst entdeckt und arbeitet daran.
+A: Genau so sehe ich es auch. Die Fähigkeit zur Selbstkorrektur ist die eigentliche Stärke der Wissenschaft. Kein anderes System des Wissens kritisiert sich selbst so systematisch. Und daraus sind Reformen entstanden: die Vorregistrierung von Studien, die Offenlegung der Daten, größere Stichproben.
+B: Und jetzt die Pandemie. Denn hier zeigte sich das Problem der Unsicherheit in aller Schärfe. Lena, was ist da schiefgelaufen?
+A: Das Grundproblem war, dass die Öffentlichkeit Gewissheit wollte, die Wissenschaft aber nur vorläufiges Wissen bieten konnte. Ein neues Virus, über das man anfangs fast nichts wusste. Und die Erkenntnisse änderten sich ständig.
+B: Zum Beispiel die Masken. Am Anfang hieß es, Masken würden wenig bringen. Später hieß es, sie seien sehr wichtig. Und viele Menschen sagten: „Die Wissenschaftler wissen ja selbst nicht, was sie wollen. Warum sollten wir ihnen glauben?“
+A: Und das ist genau das Missverständnis. Dass sich die Empfehlung änderte, war kein Zeichen von Inkompetenz, sondern davon, dass die Wissenschaft funktionierte. Neue Daten führten zu neuen Erkenntnissen. Das ist kein Fehler, das ist der Kern des wissenschaftlichen Arbeitens.
+B: Wobei man fairerweise auch sagen muss, dass die Kommunikation oft schlecht war. Wenn Unsicherheit als Gewissheit präsentiert wird, und sich dann als falsch erweist, verliert man Vertrauen. Es wäre ehrlicher gewesen, von Anfang an zu sagen: „Nach derzeitigem Kenntnisstand empfehlen wir …, aber das kann sich ändern.“
+A: Das ist ein ganz wichtiger Punkt. Christian Drosten hat übrigens genau das immer wieder betont. In seinem Podcast hat er oft gesagt, was man weiß, was man nicht weiß und wie sicher er sich ist. Und manche haben ihm genau das vorgeworfen. Als ob Ehrlichkeit über Unsicherheit eine Schwäche wäre.
+B: Und es gab noch ein zweites Problem. Die Vermischung von Wissenschaft und Politik. Die Wissenschaft kann sagen, wie ein Virus sich verbreitet und welche Maßnahmen wie wirken. Aber ob man Schulen schließt, ist keine wissenschaftliche, sondern eine politische Entscheidung. Weil man verschiedene Werte abwägen muss: Gesundheit, Bildung, Wirtschaft, Freiheit.
+A: Das ist eine entscheidende Unterscheidung. Der Soziologe Max Weber, wieder er, hat das schon vor hundert Jahren in seinem Vortrag „Wissenschaft als Beruf“ formuliert. Die Wissenschaft kann sagen, was ist und welche Mittel zu welchem Ziel führen. Aber sie kann nicht sagen, welches Ziel man wählen soll. Das ist eine Frage der Werte.
+B: Und wenn Politiker sagen „Wir folgen der Wissenschaft“, dann verschleiern sie manchmal, dass sie eigentlich eine Wertentscheidung treffen. Und wenn diese Entscheidung unpopulär ist, richtet sich der Ärger gegen die Wissenschaftler.
+A: Genau das ist passiert. Wissenschaftler wurden zu Sündenböcken, wie in Folge sechsundachtzig. Sie bekamen Morddrohungen. Viele haben sich danach aus der öffentlichen Kommunikation zurückgezogen. Was ein großer Verlust für die Gesellschaft ist.
+B: Und jetzt ein interessanter Befund. Wie steht es eigentlich um das Vertrauen in die Wissenschaft in Deutschland? Es gibt dazu jedes Jahr eine Umfrage, das sogenannte Wissenschaftsbarometer.
+A: Und die Ergebnisse sind differenziert. Während der Pandemie stieg das Vertrauen zunächst stark an. Eine große Mehrheit vertraute der Wissenschaft. Später sank es wieder etwas, blieb aber insgesamt auf einem recht hohen Niveau. Eine kleinere, aber lautstarke Gruppe misstraut der Wissenschaft jedoch grundsätzlich.
+B: Und warum misstrauen manche Menschen der Wissenschaft? Das ist eine wichtige Frage, und man sollte sie nicht mit Arroganz beantworten.
+A: Absolut. Es gibt verschiedene Gründe. Erstens die Abhängigkeit von Geldgebern. Viele Menschen vermuten, dass Wissenschaftler im Interesse der Industrie forschen. Und das ist nicht ganz unbegründet. Es gab historische Fälle, in denen die Tabakindustrie oder die Ölindustrie Studien finanziert hat, um Zweifel an den Gefahren des Rauchens oder des Klimawandels zu säen.
+B: Das ist ein wichtiger Punkt. Das Buch „Die Machiavellis der Wissenschaft“ der Historiker Naomi Oreskes und Erik Conway hat dokumentiert, wie gezielt Zweifel gestreut wurde. Und das hat das Vertrauen nachhaltig beschädigt.
+A: Zweitens die Erfahrung, sich nicht gehört zu fühlen. Wenn Wissenschaftler und Eliten herablassend über „die einfachen Leute“ sprechen, entsteht Ablehnung. Wer sich nicht ernst genommen fühlt, wendet sich ab.
+B: Drittens die Komplexität. Wissenschaft ist oft schwer zu verstehen. Und einfache, eindeutige Antworten von Verschwörungstheoretikern wirken attraktiver als komplizierte, unsichere wissenschaftliche Erkenntnisse.
+A: Und viertens: Vertrauen in die Wissenschaft hängt oft mit dem Vertrauen in Institutionen insgesamt zusammen. Wer dem Staat, den Medien und den Eliten generell misstraut, misstraut oft auch der Wissenschaft.
+B: Gut. Und was kann man tun? Wie lässt sich das Vertrauen stärken?
+A: Erstens: Transparenz über Unsicherheit. Die Wissenschaft sollte offen sagen, was sie weiß und was nicht. Und zwischen gesicherten Erkenntnissen und vorläufigen Vermutungen unterscheiden.
+B: Zweitens: Wissenschaftskommunikation verbessern. Wissenschaftler sollten lernen, verständlich zu sprechen, ohne zu vereinfachen. Und zuhören, nicht nur belehren.
+A: Drittens: Bildung. Schon in der Schule sollte man nicht nur wissenschaftliche Fakten lernen, sondern auch, wie Wissenschaft funktioniert. Warum Unsicherheit dazugehört. Wie man eine seriöse Studie von einer unseriösen unterscheidet.
+B: Und viertens, und das finde ich besonders wichtig: Vertrauen in die Wissenschaft heißt nicht blindes Vertrauen. Ein gesundes, kritisches Vertrauen. Man sollte fragen dürfen. Die Wissenschaft lebt ja vom Zweifel. Der Unterschied ist, ob man aus Neugier zweifelt oder aus Prinzip.
+A: Ein schöner Gedanke. Kritisches Vertrauen statt blinden Glaubens oder grundsätzlichen Misstrauens. Jetzt zur Geschichte. Diesmal geht es um Amira, die ja als Pflegefachfrau während der Pandemie gearbeitet hat. Und um ihre eigene Familie.
+B: Ah, das ist bestimmt eine persönliche Geschichte.
+A: Ja. Amiras jüngerer Bruder, Youssef, lebt in Casablanca. Und während der Pandemie hat er in den sozialen Medien viele Videos gesehen, die gegen die Impfung waren. Und er war überzeugt, dass die Impfung gefährlich sei. Dass sie unfruchtbar mache und dass sie Mikrochips enthalte.
+B: Die klassischen Mythen. Wie hat Amira reagiert?
+A: Am Anfang sehr emotional. Sie hat ihn angeschrien, am Telefon. Sie hat gesagt: „Du bist so dumm! Ich sehe jeden Tag Menschen auf der Intensivstation sterben, und du glaubst irgendwelchen Videos!“
+B: Verständlich, aber nicht hilfreich vermutlich.
+A: Genau. Youssef hat aufgelegt und wochenlang nicht mehr mit ihr gesprochen. Und Amira war verzweifelt. Weil er auch Kontakt mit ihren Eltern hatte, die schon älter und gefährdet waren.
+B: Und was hat sie dann gemacht?
+A: Sie hat mit Lukas darüber gesprochen. Und Lukas, der ja Arzt ist, hat ihr etwas Kluges gesagt: „Wenn du ihn als dumm behandelst, verteidigt er sich. Niemand ändert seine Meinung, wenn er sich angegriffen fühlt. Versuch zuerst zu verstehen, warum er Angst hat.“
+B: Das ist psychologisch sehr klug. Und hat sie es versucht?
+A: Ja. Beim nächsten Telefonat hat sie nicht argumentiert, sondern gefragt. „Youssef, was macht dir eigentlich Angst?“ Und Youssef hat erzählt, dass er Angst hatte, weil die Impfung so schnell entwickelt worden war. Und weil er der Regierung nicht vertraute. Und weil ein Freund nach der Impfung krank geworden war.
+B: Das sind ja eigentlich nachvollziehbare Sorgen, hinter den Mythen.
+A: Genau. Und Amira hat diese Sorgen ernst genommen. Sie hat erklärt, warum die Entwicklung so schnell ging. Nicht weil man Schritte übersprungen hatte, sondern weil man jahrelange Vorarbeit an der mRNA-Technologie hatte, weil viele Phasen parallel liefen und weil sehr viel Geld zur Verfügung stand. Sie hat ihm von der Firma in Mainz erzählt, aus Folge dreiundfünfzig.
+B: Die Gründer mit türkischen Wurzeln!
+A: Genau. Und sie hat zugegeben, was man nicht wusste. Sie hat gesagt: „Ich kann dir nicht garantieren, dass die Impfung für jeden völlig ohne Nebenwirkungen ist. Das kann niemand. Aber nach allem, was wir wissen, ist das Risiko durch das Virus viel größer.“
+B: Die Ehrlichkeit über Unsicherheit hat ihre Glaubwürdigkeit gestärkt.
+A: Genau das. Youssef hat gesagt, das sei das erste Mal, dass ihm jemand nicht einfach gesagt habe, er sei dumm. Und dass ihm jemand zugegeben habe, dass es keine absolute Sicherheit gibt. Gerade das habe ihn überzeugt.
+B: Und hat er sich impfen lassen?
+A: Nach zwei Wochen Bedenkzeit, ja. Und er hat auch seine Eltern ermutigt. Und er hat später gesagt: „Ich habe nicht der Wissenschaft vertraut. Ich habe meiner Schwester vertraut. Und meine Schwester hat mir die Wissenschaft erklärt.“
+B: Ein Satz, der viel über Vertrauen aussagt. Vertrauen in die Wissenschaft läuft oft über Menschen, denen wir persönlich vertrauen.
+A: Jetzt bist du dran, Hörer, Hörerin. Wie stehst du zur Wissenschaft? Formuliere eine wissenschaftliche Aussage mit den richtigen Abstufungen der Gewissheit: „Es gilt als gesichert, dass …“, „Die Befundlage deutet darauf hin, dass …“, „Nach derzeitigem Kenntnisstand …“, „Es lässt sich nicht ausschließen, dass …“
+B: Und denk an eine Situation, in der du jemanden mit anderen Ansichten überzeugen wolltest. Hast du argumentiert oder zugehört?
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: die Brisanz. Die Eigenschaft eines Themas, sehr umstritten und explosiv zu sein.
+A: Wort Nummer zwei: nach derzeitigem Kenntnisstand. Nach dem besten verfügbaren Wissen zum jetzigen Zeitpunkt.
+B: Wort Nummer drei: widerlegen. Beweisen, dass eine Behauptung falsch ist.
+A: Wort Nummer vier: die Falsifizierbarkeit. Die Eigenschaft einer Theorie, dass man sie prinzipiell widerlegen könnte.
+B: Wort Nummer fünf: Zweifel säen. Gezielt Unsicherheit verbreiten.
+A: Und Wort Nummer sechs: verschleiern. Etwas absichtlich undeutlich machen, damit man es nicht klar erkennt.
+B: Noch einmal: die Brisanz, nach derzeitigem Kenntnisstand, widerlegen, die Falsifizierbarkeit, Zweifel säen, verschleiern.
+A: Was nehmen wir mit? Wissenschaft ist kein fertiges Gebäude, sondern ein Prozess der schrittweisen Annäherung an die Wahrheit. Popper zufolge kann man Theorien nicht beweisen, nur widerlegen.
+B: Das Peer-Review und die Selbstkorrektur, etwa nach der Replikationskrise, sind die Stärken der Wissenschaft.
+A: In der Pandemie wurde Unsicherheit oft mit Inkompetenz verwechselt. Und Wissenschaft und politische Wertentscheidungen wurden vermischt.
+B: Und Vertrauen entsteht durch Ehrlichkeit über Unsicherheit, durch Zuhören statt Belehren und oft durch Menschen, denen wir persönlich vertrauen.
+A: Das ist das Ende von Folge neunundachtzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und zweifle ruhig. Aber aus Neugier, nicht aus Prinzip. Servus!
+A: Tschüss!
+VOCAB: die Brisanz | Die Eigenschaft eines Themas, sehr umstritten und explosiv zu sein. | 💥
+VOCAB: nach derzeitigem Kenntnisstand | Nach dem besten verfügbaren Wissen zum jetzigen Zeitpunkt. | 🔬
+VOCAB: widerlegen | Beweisen, dass eine Behauptung falsch ist. | ❌
+VOCAB: die Falsifizierbarkeit | Eine Theorie muss sich prinzipiell widerlegen lassen. | 🦢
+VOCAB: Zweifel säen | Gezielt Unsicherheit verbreiten. | 🌱
+VOCAB: verschleiern | Etwas absichtlich undeutlich machen. | 🌫️
+QUIZ: Was besagt Poppers Prinzip der Falsifizierbarkeit? | Theorien kann man endgültig beweisen | Theorien kann man nicht beweisen, nur widerlegen | Alle Theorien sind falsch | 2
+QUIZ: Was ist die Replikationskrise? | Viele Studienergebnisse ließen sich nicht wiederholen | Es gibt zu wenige Wissenschaftler | Studien werden nicht veröffentlicht | 1
+QUIZ: Was hat Max Weber über die Wissenschaft gesagt? | Sie kann sagen, welches Ziel man wählen soll | Sie kann sagen, was ist, aber nicht, welches Ziel man wählen soll | Sie ist immer politisch | 2
+QUIZ: Was hat Lukas Amira geraten? | Ihren Bruder als dumm zu behandeln | Zuerst zu verstehen, warum ihr Bruder Angst hat | Den Kontakt abzubrechen | 2
+QUIZ: Was hat Youssef am Ende gesagt? | Er vertraue nur der Regierung | Er habe seiner Schwester vertraut, und sie habe ihm die Wissenschaft erklärt | Er bleibe gegen die Impfung | 2
+`;
