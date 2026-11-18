@@ -364,7 +364,7 @@ function practiceHtml(key, kind, topic, material) {
   state.practiceSpec[key] = { kind, topic, material };
   const p = state.practice[key];
   let inner;
-  if (!SAMPLE) inner = SAMPLE_STATE === "pending" ? '<p class="muted small">Connexion…</p>' : '<p class="muted small">Pour créer ces exercices, ouvre le site depuis claude.ai, ou depuis sa version en ligne configurée avec une clé API.</p>';
+  if (!SAMPLE) inner = SAMPLE_STATE === "pending" ? '<p class="muted small">Connexion…</p>' : '<p class="muted small">Pour créer ces exercices, ouvre le site depuis claude.ai, ou depuis sa version en ligne configurée avec l\'IA.</p>';
   else if (p === "loading") inner = `<div class="row"><span class="muted">Préparation de 8 exercices à ton niveau… (10 à 30 secondes)</span><button class="btn ghost" data-act="practice-stop" data-k="${key}">Arrêter</button></div>`;
   else if (p && p.items) inner = mcq(`pr-${key}-${p.v}`, p.items, (score, n) => `Score : ${score} / ${n}. ${score >= n - 1 ? "Excellent !" : "Lis les explications, puis génère une nouvelle série."}`) + `<button class="btn" data-act="practice-gen" data-k="${key}" style="align-self:flex-start">8 nouveaux exercices</button>`;
   else inner = `<button class="btn primary" data-act="practice-gen" data-k="${key}" style="align-self:flex-start">Créer 8 exercices</button>`;
@@ -578,7 +578,7 @@ function pageStories(sub) {
   const list = D.stories.filter(s => s.lvl === L), gen = genStories().filter(s => s.lvl === L);
   const tile = s => `<a class="tile" href="#stories-${s.id}"><div class="tile-top"><span class="pic story-cover">${esc(s.e)}</span>${s.gen ? '<span class="chip">Écrite par IA</span>' : ""}</div><h3>${esc(s.title)}</h3><p class="pic" style="font-size:1.4rem;letter-spacing:4px">${s.scenes.map(x => [...x.e][0] || "").join("")}</p><p class="muted small">${s.scenes.length} scènes · ${s.questions.length} questions${known.has("s:" + s.id) ? " · lue ✓" : ""}</p></a>`;
   let genPanel;
-  if (!SAMPLE) genPanel = SAMPLE_STATE === "pending" ? '<p class="muted small">Connexion…</p>' : '<p class="muted small">Pour créer des histoires illimitées, ouvre le site depuis claude.ai, ou depuis sa version en ligne configurée avec une clé API.</p>';
+  if (!SAMPLE) genPanel = SAMPLE_STATE === "pending" ? '<p class="muted small">Connexion…</p>' : '<p class="muted small">Pour créer des histoires illimitées, ouvre le site depuis claude.ai, ou depuis sa version en ligne configurée avec l\'IA.</p>';
   else if (storyGen) genPanel = `<div class="row"><span class="muted">Écriture de ton histoire de niveau ${L}… (20 à 60 secondes)</span><button class="btn ghost" data-act="story-stop">Arrêter</button></div>`;
   else genPanel = `<div class="chips">${STORY_THEMES.map(([id, l]) => `<button class="chip" data-act="story-theme" data-t="${id}" aria-pressed="${state.storyTheme === id}">${l}</button>`).join("")}</div><button class="btn primary" data-act="story-gen" style="align-self:flex-start">Créer une nouvelle histoire ${L}</button>`;
   return `${pageHead("Lecture", "Mini-histoires", `Des histoires courtes en images, écrites pour le niveau ${L}, avec l'audio. Les mots difficiles sont expliqués par une image et de l'allemand simple, jamais par une traduction. Relis la même histoire plusieurs jours de suite.`)}
@@ -891,6 +891,7 @@ function sampleErr(code) {
     not_granted: "Tu n'as pas autorisé ce site à créer du contenu. Tu peux changer ça dans le menu Permissions de l'artifact.",
     sampling_disabled: "Cette fonction n'est pas disponible pour ce compte.",
     rate_limited: "Limite d'utilisation atteinte pour l'instant. Réessaie dans un moment.",
+    daily_quota: "Le quota gratuit d'IA du jour est épuisé. Il se recharge chaque nuit (1 h du matin, heure de Paris, en hiver ; 2 h en été).",
     session_expired: "Reconnecte-toi à claude.ai, puis réessaie.",
     refused: "Cette demande a été refusée. Reformule ton message.",
     empty_completion: "La réponse est vide. Réessaie.",
@@ -901,7 +902,7 @@ function sampleErr(code) {
 }
 function sampleUnavailable(what) {
   if (SAMPLE_STATE === "pending") return `<div class="panel"><p class="muted">Connexion…</p></div>`;
-  return `<div class="panel"><h3>${what} n'est pas disponible ici</h3><p class="muted">Ouvre ce site depuis claude.ai, ou depuis sa version en ligne (Cloudflare ou Netlify) configurée avec une clé API. ${SAMPLE_STATE === "denied" ? "L'accès a été refusé pour cette page." : ""}</p></div>`;
+  return `<div class="panel"><h3>${what} n'est pas disponible ici</h3><p class="muted">Ouvre ce site depuis claude.ai, ou depuis sa version en ligne (Cloudflare ou Netlify) configurée avec l'IA. ${SAMPLE_STATE === "denied" ? "L'accès a été refusé pour cette page." : ""}</p></div>`;
 }
 
 /* Outside claude.ai (on Cloudflare or Netlify), Claude is reached through the site's own function /api/claude,
@@ -913,6 +914,18 @@ function parseJsonLoose(text) {
   if (a >= 0 && b > a) tries.push(text.slice(a, b + 1));
   for (const t of tries) { if (!t) continue; try { return JSON.parse(t); } catch (e) { /* next */ } }
   return undefined;
+}
+/* One line of the server's answer. Claude: NDJSON {"t"} / {"done"} / {"error"}.
+   Free Cloudflare Workers AI: Server-Sent Events "data: {...}", passed through untouched by the server. */
+function readLine(line) {
+  line = line.trim();
+  if (!line.startsWith("data:")) return line.startsWith("{") ? JSON.parse(line) : null;
+  const d = line.slice(5).trim();
+  if (d === "[DONE]") return { done: true };
+  let o; try { o = JSON.parse(d); } catch (e) { return null; }
+  if (o.error) return { error: "upstream_error" };
+  const t = typeof o.response === "string" ? o.response : (o.choices && o.choices[0] && o.choices[0].delta && o.choices[0].delta.content) || "";
+  return t ? { t } : null;
 }
 function makeServerSample() {
   const post = (input, opts) => fetch(API_URL, {
@@ -950,7 +963,8 @@ function makeServerSample() {
         while ((i = buf.indexOf("\n")) >= 0) {
           const line = buf.slice(0, i); buf = buf.slice(i + 1);
           if (!line.trim()) continue;
-          const m = JSON.parse(line);
+          const m = readLine(line);
+          if (!m) continue;
           if (m.t) { text += m.t; if (opts.onText) opts.onText({ text, delta: m.t }); }
           else if (m.error) throw { code: m.error, message: m.error, text };
           else if (m.done) truncated = !!m.truncated;
