@@ -56,3 +56,13 @@ npm install
 npx wrangler login          # l'IA gratuite passe par ton compte Cloudflare, même en local
 npx wrangler dev            # http://localhost:8787
 ```
+
+## Traduction (bouton English / Français)
+
+Le site affiche les explications en français ou en anglais. La langue suit celle du navigateur, et le bouton du menu permet de la changer (choix mémorisé dans le navigateur). L'allemand ne change jamais.
+
+- [data/i18n.js](data/i18n.js) choisit la langue et ne charge les fichiers anglais que si l'anglais est actif.
+- [data/en_ui.js](data/en_ui.js) contient les textes de l'interface. Dans [app.js](app.js), chaque texte français est entouré de `Tx("…")` ou `` Tx`…` ``, et la clé est le texte français lui-même.
+- [data/en_content.js](data/en_content.js) contient les explications : grammaire, chunks, phonétique, niveaux, conseils, thèmes des cours. La clé est là aussi le texte français.
+- **Si tu modifies ou ajoutes un texte français**, ajoute la même clé avec sa version anglaise dans le bon fichier. Sans traduction, le texte reste en français dans la version anglaise : rien ne casse.
+- Les PDF du cours restent en français (la page le signale en anglais).

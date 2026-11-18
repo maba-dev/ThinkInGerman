@@ -456,6 +456,10 @@ a.tile:hover, button.tile:hover { border-color: var(--accent); box-shadow: var(-
   .wordpill .icon-btn { width: 36px; height: 36px; }
   input, select, textarea { font-size: 16px !important; }
 }
+/* ---------- language switch ---------- */
+.lang-btn { align-self: flex-start; border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 99px; padding: 4px 12px; font-weight: 700; font-size: .8rem; }
+.lang-btn:hover { border-color: var(--accent); }
+@media (max-width: 860px) { .lang-btn { position: absolute; top: 10px; right: calc(max(16px, env(safe-area-inset-right, 0px)) + 46px); padding: 6px 10px; } }
 /* ---------- install banner (pwa.js) ---------- */
 .pwa-bar { position: fixed; z-index: 50; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom, 0px)); display: flex; align-items: center; gap: 10px; padding: 10px 10px 10px 12px; background: var(--card); color: var(--ink); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,.18); }
 .pwa-bar img { border-radius: 10px; flex: none; }
@@ -465,34 +469,36 @@ a.tile:hover, button.tile:hover { border-color: var(--accent); box-shadow: var(-
 
 <div class="app">
   <aside class="rail" id="rail">
-    <a class="brand" href="#home"><b>Denk auf Deutsch</b><span>Voir · Écouter · Dire — sans traduire</span></a>
-    <div class="lvl-switch" id="lvl-switch" role="group" aria-label="Mon niveau"></div>
+    <a class="brand" href="#home"><b>Denk auf Deutsch</b><span data-en="See · Listen · Say — without translating">Voir · Écouter · Dire — sans traduire</span></a>
+    <button class="lang-btn" id="lang-btn" type="button" data-act="set-lang"></button>
+    <div class="lvl-switch" id="lvl-switch" role="group" aria-label="Mon niveau" data-en-label="My level"></div>
     <nav class="nav" id="nav" aria-label="Sections"></nav>
     <div class="settings" id="settings">
-      <button class="icon-btn gear" id="gear" aria-label="Réglages audio" title="Réglages audio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16 9a4 4 0 0 1 0 6"/></svg></button>
-      <label>Voix
+      <button class="icon-btn gear" id="gear" aria-label="Réglages audio" title="Réglages audio" data-en-label="Audio settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16 9a4 4 0 0 1 0 6"/></svg></button>
+      <label><span data-en="Voice">Voix</span>
         <select id="set-engine"></select>
       </label>
-      <label>Vitesse
+      <label><span data-en="Speed">Vitesse</span>
         <select id="set-rate">
-          <option value="0.7">Lente (0,7)</option>
-          <option value="0.85">Posée (0,85)</option>
-          <option value="1" selected>Normale</option>
-          <option value="1.15">Rapide (1,15)</option>
+          <option value="0.7" data-en="Slow (0.7)">Lente (0,7)</option>
+          <option value="0.85" data-en="Steady (0.85)">Posée (0,85)</option>
+          <option value="1" selected data-en="Normal">Normale</option>
+          <option value="1.15" data-en="Fast (1.15)">Rapide (1,15)</option>
         </select>
       </label>
-      <label class="switch">Mode immersion<br>(français caché)
+      <label class="switch"><span data-en="Immersion mode<br>(English hidden)">Mode immersion<br>(français caché)</span>
         <input type="checkbox" id="set-immersion" checked>
       </label>
     </div>
   </aside>
-  <main id="main"><div class="page"><p class="muted">Chargement…</p></div></main>
+  <main id="main"><div class="page"><p class="muted" data-en="Loading…">Chargement…</p></div></main>
 </div>
 <div class="pop" id="pop" hidden></div>
 <div class="toast" id="toast" hidden></div>
-<div class="nowplaying" id="nowplaying" hidden><span>Lecture en cours</span><button id="stop-btn">Stop</button></div>
+<div class="nowplaying" id="nowplaying" hidden><span data-en="Now playing">Lecture en cours</span><button id="stop-btn">Stop</button></div>
 <div class="listening" id="listening" hidden></div>
 
+<script src="data/i18n.js"></script>
 <script src="data/extra.js"></script>
 <script src="data/vocab.js"></script>
 <script src="data/vocab_more.js"></script>

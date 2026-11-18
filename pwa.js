@@ -8,6 +8,7 @@
   if ("serviceWorker" in navigator && secure) {
     window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => {}); });
   }
+  const EN = window.DATA && DATA.LANG === "en";
   const KEY = "dad:pwa-hint";
   const seen = () => { try { return localStorage.getItem(KEY) === "1"; } catch (e) { return false; } };
   const remember = () => { try { localStorage.setItem(KEY, "1"); } catch (e) { /* storage blocked */ } };
@@ -22,7 +23,7 @@
     bar.className = "pwa-bar";
     bar.innerHTML = '<img src="icons/icon-192.png" alt="" width="40" height="40"><p></p>'
       + (actionLabel ? '<button class="btn primary" type="button"></button>' : "")
-      + '<button class="icon-btn" type="button" aria-label="Fermer">✕</button>';
+      + '<button class="icon-btn" type="button" aria-label="' + (EN ? "Close" : "Fermer") + '">✕</button>';
     bar.querySelector("p").textContent = text;
     if (actionLabel) {
       const b = bar.querySelector(".btn");
@@ -37,7 +38,7 @@
   window.addEventListener("beforeinstallprompt", e => {
     e.preventDefault();
     deferred = e;
-    banner("Installe l'appli : une icône sur ton écran d'accueil, même hors connexion.", "Installer", async () => {
+    banner(EN ? "Install the app: an icon on your home screen, even offline." : "Installe l'appli : une icône sur ton écran d'accueil, même hors connexion.", EN ? "Install" : "Installer", async () => {
       deferred.prompt();
       try { await deferred.userChoice; } catch (err) { /* ignore */ }
       remember();
@@ -49,7 +50,7 @@
   const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
   if (ios) {
     window.addEventListener("load", () => setTimeout(() => {
-      banner("Pour installer l'appli : touche le bouton Partager ⬆️ de Safari, puis « Sur l'écran d'accueil ».", "", null);
+      banner(EN ? "To install the app: tap Safari's Share button ⬆️, then “Add to Home Screen”." : "Pour installer l'appli : touche le bouton Partager ⬆️ de Safari, puis « Sur l'écran d'accueil ».", "", null);
     }, 2500));
   }
 })();
