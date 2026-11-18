@@ -845,3 +845,205 @@ QUIZ: Was hat Max Weber über die Wissenschaft gesagt? | Sie kann sagen, welches
 QUIZ: Was hat Lukas Amira geraten? | Ihren Bruder als dumm zu behandeln | Zuerst zu verstehen, warum ihr Bruder Angst hat | Den Kontakt abzubrechen | 2
 QUIZ: Was hat Youssef am Ende gesagt? | Er vertraue nur der Regierung | Er habe seiner Schwester vertraut, und sie habe ihm die Wissenschaft erklärt | Er bleibe gegen die Impfung | 2
 `;
+
+DATA.podScripts.ep090 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge neunzig. Heute richten wir den Blick nach oben. Zu den Sternen. Wir stellen eine der ganz großen Fragen: Lohnt sich die Raumfahrt?
+A: Lohnt es sich, Milliarden auszugeben, um Menschen auf den Mond oder auf den Mars zu schicken, während auf der Erde Menschen hungern, das Klima kollabiert und Schulen verfallen? Oder ist die Raumfahrt gerade wegen dieser Probleme unverzichtbar?
+B: Eine Debatte, die so alt ist wie die Raumfahrt selbst. Schon in den Sechzigerjahren, während des Wettlaufs zum Mond, gab es heftige Kritik. Und heute, mit privaten Unternehmen und Milliardären, die ins All fliegen, ist sie aktueller denn je.
+A: Sprachlich widmen wir uns heute einer Struktur, die für die gehobene Schriftsprache und besonders für wissenschaftliche Texte typisch ist: den erweiterten Partizipialattributen. Wir haben sie in Folge zweiundachtzig kurz angesprochen. Heute vertiefen wir sie.
+B: Ein Partizipialattribut ist ein Partizip, das wie ein Adjektiv vor einem Nomen steht und erweitert werden kann. „Die fliegende Rakete.“ Das ist einfach. Aber man kann es erweitern: „Die mit über hundert Tonnen Treibstoff beladene, von Cape Canaveral aus startende Rakete.“
+A: Das klingt kompliziert, aber es ist eigentlich eine Verdichtung. Statt zweier Relativsätze, „die Rakete, die mit über hundert Tonnen Treibstoff beladen ist und die von Cape Canaveral aus startet“, packt man alles vor das Nomen.
+B: Es gibt zwei Arten von Partizipien. Das Partizip Präsens mit „-end“: „die startende Rakete“, also die Rakete, die gerade startet. Es drückt etwas Gleichzeitiges und Aktives aus. Und das Partizip Perfekt: „die gestartete Rakete“, also die Rakete, die gestartet ist. Bei transitiven Verben hat es oft passive Bedeutung: „die gebaute Station“, also die Station, die gebaut wurde.
+A: Und es gibt noch eine dritte, besonders elegante Form: das Gerundivum mit „zu“ plus Partizip Präsens. „Die zu lösenden Probleme“, also die Probleme, die gelöst werden müssen. „Eine nicht zu unterschätzende Gefahr“, eine Gefahr, die man nicht unterschätzen darf.
+B: Die liest man oft in Zeitungen. „Eine nicht zu unterschätzende Herausforderung.“ Der Trick beim Lesen: Man sucht zuerst den Artikel und dann das dazugehörige Nomen. Und dann liest man den Teil dazwischen.
+A: Gut, das war viel Grammatik. Jetzt zur Raumfahrt. Fangen wir mit einem historischen Rückblick an. Und der führt, wie so oft, auch nach Deutschland. Mit einer sehr ambivalenten Geschichte.
+B: Du meinst Wernher von Braun.
+A: Genau. Wernher von Braun war ein deutscher Raketeningenieur. Im Zweiten Weltkrieg entwickelte er für die Nationalsozialisten die V2-Rakete, die erste Großrakete der Welt. Sie wurde gegen London und Antwerpen eingesetzt und tötete Tausende Menschen. Und noch mehr Menschen starben bei ihrer Herstellung. Zwangsarbeiter und KZ-Häftlinge, die im Lager Mittelbau-Dora unter unmenschlichen Bedingungen arbeiten mussten.
+B: Und nach dem Krieg wurde von Braun von den Amerikanern in die USA gebracht. Zusammen mit vielen anderen deutschen Wissenschaftlern. Die Operation hieß „Paperclip“. Und dort wurde er zum Vater des amerikanischen Raumfahrtprogramms. Er entwickelte die Saturn-V-Rakete, die die Astronauten zum Mond brachte.
+A: Eine zutiefst widersprüchliche Biografie. Der gleiche Mann, dessen Raketen auf London fielen, brachte die ersten Menschen auf den Mond. Und die Frage, inwieweit er moralisch für die Verbrechen verantwortlich war, wird bis heute kontrovers diskutiert.
+B: Der amerikanische Satiriker Tom Lehrer hat dazu ein bitterböses Lied geschrieben. Darin heißt es sinngemäß: Wenn die Raketen hochgehen, wen kümmert es, wo sie herunterkommen? Das sei nicht seine Abteilung, sagt Wernher von Braun.
+A: Eine sehr scharfe Kritik an der moralischen Gleichgültigkeit eines Wissenschaftlers, der sich nur für die Technik interessiert, nicht für ihre Folgen. Das ist eine Frage, die uns auch heute bei der KI begegnet, wie in Folge einundachtzig.
+B: Gut. Dann zur eigentlichen Debatte. Ich vertrete die Pro-Seite. Ja, die Raumfahrt lohnt sich.
+A: Und ich die kritische Seite. Wobei ich, wie so oft, nicht völlig dagegen bin.
+B: Mein erstes Argument: der technologische Nutzen. Viele Technologien, die wir heute täglich benutzen, sind direkt oder indirekt aus der Raumfahrt hervorgegangen. Satellitennavigation, also das GPS in unseren Handys. Wettersatelliten, ohne die moderne Wettervorhersagen undenkbar wären. Die Satellitenkommunikation.
+A: Wobei ich da ein bisschen widersprechen muss. Man hört oft Mythen über angebliche Erfindungen der Raumfahrt. Zum Beispiel, dass die Teflonpfanne oder der Klettverschluss aus der Raumfahrt stammen. Das stimmt nicht. Beide gab es schon vorher. Die Raumfahrt hat sie nur bekannt gemacht.
+B: Das ist richtig. Aber der Nutzen der Satelliten ist unbestreitbar. Und hier kommt mein zweites Argument: die Erdbeobachtung. Und das ist, ironischerweise, ein Argument für die Raumfahrt gerade wegen der Probleme auf der Erde. Ohne Satelliten wüssten wir viel weniger über den Klimawandel.
+A: Das ist ein starkes Argument. Die von Satelliten gesammelten Daten über das schmelzende Eis an den Polen, den steigenden Meeresspiegel und die Abholzung der Regenwälder sind für die Klimaforschung unverzichtbar.
+B: Genau. Und das europäische Erdbeobachtungsprogramm Copernicus liefert kostenlos riesige Mengen an Daten. Für die Landwirtschaft, für den Katastrophenschutz, für die Klimaforschung. Bei Überschwemmungen oder Waldbränden helfen die Satellitenbilder, Menschenleben zu retten.
+A: Gut, das gestehe ich dir zu. Aber das betrifft die unbemannte Raumfahrt, also Satelliten. Meine Kritik richtet sich vor allem gegen die bemannte Raumfahrt. Menschen ins All zu schicken, ist um ein Vielfaches teurer und riskanter. Und vieles, was Menschen dort tun, könnten Roboter günstiger erledigen.
+B: Ein häufiger Einwand. Meine Antwort: Erstens können Menschen flexibel auf unvorhergesehene Situationen reagieren, was Roboter bisher nur begrenzt können. Und zweitens: die Inspiration. Und das ist mein drittes Argument.
+A: Die Inspiration. Das klingt mir ein bisschen pathetisch, ehrlich gesagt.
+B: Vielleicht. Aber es ist real. Die Mondlandung neunzehnhundertneunundsechzig wurde von über einer halben Milliarde Menschen live im Fernsehen verfolgt. Eine ganze Generation wurde dadurch inspiriert, Wissenschaftler und Ingenieure zu werden. Man spricht vom „Apollo-Effekt“.
+A: Das bestreite ich nicht. Aber ich möchte die Kosten ins Spiel bringen. Das Apollo-Programm kostete nach heutigem Wert weit über zweihundert Milliarden Dollar. Und die Internationale Raumstation ISS gilt als eines der teuersten Objekte, das die Menschheit je gebaut hat, mit Gesamtkosten von über hundert Milliarden.
+B: Klingt viel. Aber im Verhältnis? Das Budget der europäischen Raumfahrtagentur ESA beträgt pro Jahr und pro europäischem Bürger nur einen relativ kleinen Betrag. Etwa so viel wie ein Kinoticket.
+A: Das ist ein geschickter rhetorischer Trick. Hahaha. Wie wir in Folge sechsundachtzig gelernt haben. Man macht eine große Zahl klein, indem man sie pro Person umrechnet. Aber absolut sind es trotzdem Milliarden, die woanders fehlen.
+B: Hahaha. Erwischt. Aber das gilt für jede Ausgabe. Und mein viertes Argument ist ein langfristiges: das Überleben der Menschheit. Manche argumentieren, dass die Menschheit langfristig nur überleben kann, wenn sie mehrere Planeten besiedelt. Für den Fall einer globalen Katastrophe. Ein Asteroideneinschlag, ein Supervulkan, ein Atomkrieg.
+A: Und hier, muss ich sagen, werde ich sehr skeptisch. Besonders bei den Plänen einiger Milliardäre, die eine Kolonie auf dem Mars gründen wollen. Der Mars ist ein lebensfeindlicher Ort. Es gibt keine atmosphärische Luft zum Atmen, eine tödliche Strahlung, Temperaturen von minus sechzig Grad im Durchschnitt.
+B: Das stimmt. Selbst nach einem Atomkrieg oder mit einem katastrophalen Klimawandel wäre die Erde immer noch unendlich viel bewohnbarer als der Mars.
+A: Genau! Und ich finde es fast zynisch, wenn reiche Menschen davon träumen, auf den Mars zu flüchten, statt ihr Geld einzusetzen, um die Erde zu retten. Das ist eine Art Weltflucht. Der Astronom und Autor Carl Sagan hat übrigens nach dem berühmten Foto „Pale Blue Dot“ einen wunderbaren Text geschrieben.
+B: Das Foto, das die Raumsonde Voyager neunzehnhundertneunzig aus sechs Milliarden Kilometern Entfernung aufgenommen hat. Auf dem die Erde nur ein winziger, blassblauer Punkt ist. Ein Staubkorn in einem Sonnenstrahl.
+A: Genau. Und Sagan schreibt sinngemäß, dass dieser kleine Punkt alles ist, was wir haben. Dass jeder Mensch, den wir je geliebt haben, jeder Krieg, jede Kultur auf diesem winzigen Staubkorn stattgefunden hat. Und dass es keinen Ort gibt, zumindest in absehbarer Zukunft, zu dem wir auswandern könnten. Und dass dies unsere Verantwortung unterstreicht, freundlicher miteinander umzugehen und diesen einzigen Ort zu bewahren.
+B: Ein bewegender Gedanke. Und er zeigt etwas Paradoxes: Die Raumfahrt hat uns gerade dadurch etwas über die Erde gelehrt, dass sie uns von ihr entfernt hat. Man spricht vom sogenannten „Overview-Effekt“.
+A: Erklär den Begriff.
+B: Viele Astronauten berichten, dass der Anblick der Erde aus dem All ihr Bewusstsein grundlegend verändert hat. Sie sehen einen kleinen, zerbrechlichen Planeten ohne sichtbare Grenzen, umgeben von einer hauchdünnen Atmosphäre. Und sie empfinden plötzlich eine tiefe Verbundenheit mit der ganzen Menschheit und ein starkes Bedürfnis, den Planeten zu schützen.
+A: Das ist eigentlich das schönste Argument für die Raumfahrt. Sie verändert unseren Blick auf uns selbst. Auch der deutsche Astronaut Alexander Gerst hat darüber gesprochen. Er hat von der ISS aus Botschaften an seine Enkelkinder gesendet, in denen er sich für den Zustand des Planeten entschuldigte.
+B: Ja, das war sehr bewegend. Er sagte, er habe die Rauchwolken der Waldbrände und die zurückgehenden Gletscher von oben gesehen. Und er wünsche sich, dass seine Generation nicht als diejenige in Erinnerung bleibe, die den Planeten zerstört hat.
+A: Und dann gibt es noch die neue Dimension: die Kommerzialisierung. Private Unternehmen wie die von Elon Musk oder Jeff Bezos dominieren inzwischen große Teile der Raumfahrt. Und das wirft ganz neue Fragen auf.
+B: Zum Beispiel der Weltraumtourismus. Superreiche, die für Millionen ein paar Minuten in den Weltraum fliegen. Und die dabei enorm viel CO2 ausstoßen. Das empfinden viele als dekadent.
+A: „Dekadent“ heißt: Verfall und übertriebenen Luxus zeigend. Und ein weiteres Problem ist der Weltraumschrott. Inzwischen kreisen Tausende von Satelliten und Millionen kleiner Trümmerteile um die Erde. Ein einziges Netzwerk für Satelliteninternet umfasst schon Tausende Satelliten.
+B: Und Astronomen beklagen, dass diese Satelliten den Nachthimmel verschmutzen und ihre Beobachtungen stören. Und es droht das sogenannte Kessler-Syndrom.
+A: Was ist das?
+B: Eine Kettenreaktion. Wenn ein Satellit mit Weltraumschrott zusammenstößt, entstehen Tausende neuer Trümmer. Die wiederum mit anderen Satelliten kollidieren. Und so weiter. Im schlimmsten Fall könnten bestimmte Umlaufbahnen für Jahrzehnte unbrauchbar werden.
+A: Und wer regelt das? Wem gehört der Weltraum?
+B: Das ist eine spannende rechtliche Frage. Der Weltraumvertrag von neunzehnhundertsiebenundsechzig legt fest, dass der Weltraum allen Menschen gehört und kein Staat Himmelskörper beanspruchen darf. Aber er wurde für eine Zeit geschrieben, als nur Staaten Raumfahrt betrieben. Für private Unternehmen gibt es große Lücken.
+A: Der Weltraum als Gemeingut, wie in Folge siebenundsechzig. Jetzt zur Geschichte. Diesmal geht es um Lea. Die ja in Braunschweig Informatik studieren will.
+B: Lea! Was ist mit ihr?
+A: Lea hat inzwischen tatsächlich ihre Fachhochschulreife gemacht und studiert jetzt an der Technischen Universität Braunschweig. Und Braunschweig ist, das wissen viele nicht, ein wichtiger Standort für die Luft- und Raumfahrtforschung. Das Deutsche Zentrum für Luft- und Raumfahrt hat dort ein großes Institut.
+B: Und Lea interessiert sich dafür?
+A: Sehr. Sie ist in einem studentischen Projekt, das einen kleinen Satelliten baut. Einen sogenannten CubeSat. Das ist ein winziger Satellit, nur zehn mal zehn mal zehn Zentimeter groß. Wie ein Würfel. Und Studierende auf der ganzen Welt bauen solche Satelliten, um zu lernen.
+B: Das ist ja toll! Und was soll ihr Satellit machen?
+A: Er soll die Bodenfeuchtigkeit messen. Für die Landwirtschaft in Regionen, die von Dürre bedroht sind. Lea ist für die Software zuständig. Sie programmiert das System, das die Daten auswertet und zur Erde schickt.
+B: Ein perfektes Beispiel für den Nutzen der unbemannten Raumfahrt. Und wie läuft es?
+A: Es gab viele Rückschläge. Der erste Prototyp ist bei einem Test in einer Vakuumkammer kaputtgegangen. Das ist eine Kammer, in der man die Bedingungen im All simuliert. Und die Elektronik hat die extremen Temperaturen nicht ausgehalten.
+B: Und hat sie aufgegeben?
+A: Natürlich nicht. Wie Hias gesagt hat: Ein Schritt nach dem anderen. Und nach zwei Jahren Arbeit war der Satellit fertig. Und dann kam der große Tag. Der Start. Der Satellit wurde zusammen mit anderen kleinen Satelliten auf einer Rakete ins All gebracht.
+B: Und Lea war dabei?
+A: Sie hat den Start live im Kontrollraum der Universität verfolgt. Zusammen mit ihrem Team. Und mit einem besonderen Gast: ihrem Vater. Dem Mann, der fünfundzwanzig Jahre am Band bei Volkswagen gearbeitet hat und der gesagt hatte, Studieren sei nichts für Leute wie sie.
+B: Oh, wie schön! Und?
+A: Als das erste Signal des Satelliten empfangen wurde, ein kleines Piepen aus dem All, haben alle gejubelt und sich umarmt. Und Leas Vater hat geweint. Und er hat gesagt: „Ich habe mein Leben lang Autos gebaut, die auf der Straße fahren. Und meine Tochter baut einen Satelliten, der um die Erde fliegt.“
+B: Ein unglaublicher Moment. Von Wolfsburg in den Weltraum.
+A: Und die Daten des Satelliten werden inzwischen von einer Forschungsgruppe genutzt, die mit Bauern in Ostafrika zusammenarbeitet. Damit sie besser planen können, wann sie säen und bewässern.
+B: Das ist vielleicht die beste Antwort auf unsere Frage. Die Raumfahrt lohnt sich, wenn sie dem Leben auf der Erde dient.
+A: Jetzt bist du dran, Hörer, Hörerin. Lohnt sich die Raumfahrt? Formuliere deine Position mit erweiterten Partizipialattributen. Zum Beispiel: „Die von Satelliten gesammelten Daten …“, „Die mit enormen Kosten verbundene bemannte Raumfahrt …“, „Eine nicht zu unterschätzende Gefahr …“
+B: Und denk an das Foto vom blassblauen Punkt. Was bedeutet es für dich?
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: das Partizipialattribut. Ein Partizip, das wie ein Adjektiv vor einem Nomen steht und erweitert werden kann.
+A: Wort Nummer zwei: nicht zu unterschätzen. So bedeutend, dass man es nicht unterschätzen darf.
+B: Wort Nummer drei: lebensfeindlich. So, dass Leben dort kaum möglich ist.
+A: Wort Nummer vier: der Overview-Effekt. Die Veränderung des Bewusstseins beim Anblick der Erde aus dem All.
+B: Wort Nummer fünf: dekadent. Verfall und übertriebenen Luxus zeigend.
+A: Und Wort Nummer sechs: der Rückschlag. Ein Ereignis, das einen Fortschritt unterbricht oder zurückwirft.
+B: Noch einmal: das Partizipialattribut, nicht zu unterschätzen, lebensfeindlich, der Overview-Effekt, dekadent, der Rückschlag.
+A: Was nehmen wir mit? Erweiterte Partizipialattribute verdichten Informationen: „die mit Treibstoff beladene, startende Rakete“. Und das Gerundivum: „die zu lösenden Probleme“.
+B: Die Raumfahrt hat eine ambivalente Geschichte, verkörpert durch Wernher von Braun.
+A: Für die Raumfahrt sprechen die Satelliten für Navigation und Klimaforschung, die Inspiration und der Overview-Effekt. Dagegen die enormen Kosten, der Weltraumschrott und die Illusion, auf den Mars flüchten zu können.
+B: Und vielleicht ist die beste Antwort: Die Raumfahrt lohnt sich, wenn sie uns hilft, unseren einzigen Planeten zu bewahren.
+A: Das ist das Ende von Folge neunzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und schau heute Abend einmal in den Sternenhimmel. Wenn die Satelliten ihn noch nicht verdecken. Servus!
+A: Tschüss!
+VOCAB: das Partizipialattribut | Ein Partizip vor einem Nomen, das wie ein Adjektiv erweitert werden kann. | 🧩
+VOCAB: nicht zu unterschätzen | So bedeutend, dass man es nicht unterschätzen darf. | ⚠️
+VOCAB: lebensfeindlich | So, dass Leben dort kaum möglich ist. | 🪐
+VOCAB: der Overview-Effekt | Die Veränderung des Bewusstseins beim Anblick der Erde aus dem All. | 🌍
+VOCAB: dekadent | Verfall und übertriebenen Luxus zeigend. | 🍾
+VOCAB: der Rückschlag | Ein Ereignis, das einen Fortschritt unterbricht. | ↩️
+QUIZ: Was bedeutet „die zu lösenden Probleme“? | Die Probleme, die gelöst wurden | Die Probleme, die gelöst werden müssen | Die Probleme, die man nicht lösen kann | 2
+QUIZ: Was entwickelte Wernher von Braun im Zweiten Weltkrieg? | Die V2-Rakete | Den ersten Satelliten | Das GPS | 1
+QUIZ: Was ist der „Overview-Effekt“? | Astronauten verändern ihr Bewusstsein beim Anblick der Erde aus dem All | Ein technisches Problem im All | Eine Methode der Navigation | 1
+QUIZ: Was ist das Kessler-Syndrom? | Eine Krankheit von Astronauten | Eine Kettenreaktion von Zusammenstößen im Weltraum | Eine Form von Heimweh | 2
+QUIZ: Was soll Leas Satellit messen? | Die Temperatur auf dem Mars | Die Bodenfeuchtigkeit für die Landwirtschaft | Die Zahl der Sterne | 2
+`;
+
+DATA.podScripts.ep091 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge einundneunzig. Heute stellen wir eine Frage, die gewissermaßen den Kern unseres ganzen Podcasts berührt. Schließlich heißt er „Denk auf Deutsch“. Die Frage lautet: Prägt die Sprache das Denken?
+A: Denken wir anders, je nachdem, welche Sprache wir sprechen? Sieht ein Deutscher die Welt anders als ein Japaner oder ein Araber? Und was passiert in unserem Kopf, wenn wir eine neue Sprache lernen?
+B: Diese Frage beschäftigt Philosophen, Linguisten und Psychologen seit Jahrhunderten. Und sie hat einen Namen: die Hypothese der linguistischen Relativität. Oder nach ihren bekanntesten Vertretern: die Sapir-Whorf-Hypothese.
+A: Sprachlich widmen wir uns heute dem Konjunktiv in seinen feinsten Nuancen. Und einigen besonders gehobenen Konnektoren und Partikeln, die man in wissenschaftlichen Essays findet: „mithin“, „gleichwohl“, „indes“, „insofern“, „gewissermaßen“, „mitnichten“.
+B: „Mitnichten“ ist ein schönes, etwas altmodisches Wort. Es bedeutet: keineswegs, überhaupt nicht. „Das ist mitnichten bewiesen.“ Und „gleichwohl“ bedeutet: trotzdem, dennoch. „Die Hypothese ist umstritten, gleichwohl hat sie die Forschung bereichert.“
+A: Und „indes“ ist eine elegante Alternative zu „jedoch“ oder „während“. „Die einen glauben an einen starken Einfluss, andere indes bezweifeln ihn.“ Man findet es vor allem in der Schriftsprache und in Feuilletons, also den Kulturteilen der Zeitungen.
+B: Gut. Fangen wir mit der Geschichte der Idee an. Und die beginnt, wie so oft, mit einem Deutschen. Mit Wilhelm von Humboldt.
+A: Ja, der ältere Bruder des berühmten Naturforschers Alexander von Humboldt. Wilhelm war Sprachwissenschaftler, Philosoph und hat übrigens die Universität in Berlin gegründet, die heute seinen Namen trägt. Und er vertrat Anfang des neunzehnten Jahrhunderts die These, dass jede Sprache eine eigene „Weltansicht“ enthält.
+B: Eine Weltansicht. Das heißt, jede Sprache ist nicht nur ein Werkzeug, um Gedanken auszudrücken, sondern sie formt die Gedanken selbst. Humboldt schrieb sinngemäß, die Sprache sei das bildende Organ des Gedankens.
+A: Ein Jahrhundert später haben zwei Amerikaner diese Idee aufgegriffen. Der Linguist Edward Sapir und vor allem sein Schüler Benjamin Lee Whorf. Whorf war übrigens im Hauptberuf gar kein Wissenschaftler, sondern Brandschutzinspektor bei einer Versicherung.
+B: Ein Brandschutzinspektor! Das ist großartig. Und wie kam er auf seine Ideen?
+A: Gerade durch seinen Beruf. Er hat beobachtet, dass Arbeiter neben Fässern mit der Aufschrift „leer“, auf Englisch „empty“, unvorsichtig rauchten. Weil „leer“ für sie „harmlos“ bedeutete. Dabei enthielten diese Fässer explosive Dämpfe und waren viel gefährlicher als volle Fässer. Das Wort hat ihr Verhalten geprägt.
+B: Ein faszinierendes Beispiel. Und dann hat er die Sprache der Hopi erforscht. Ein indigenes Volk in Arizona.
+A: Genau. Und Whorf behauptete, die Hopi-Sprache habe keine Wörter und grammatischen Formen für Zeit, so wie wir sie kennen. Keine Vergangenheit, Gegenwart und Zukunft im europäischen Sinn. Und deshalb würden die Hopi Zeit grundlegend anders wahrnehmen als Europäer.
+B: Eine spektakuläre These. Aber stimmte sie?
+A: Mitnichten. Spätere Linguisten, besonders Ekkehart Malotki, ein deutscher Sprachwissenschaftler, haben die Hopi-Sprache gründlich untersucht. Und sie fanden zahlreiche Ausdrücke für Zeit. Whorf hatte sich schlicht geirrt. Er hatte die Sprache nicht gut genug gekannt.
+B: Und das hat die ganze Hypothese in Verruf gebracht. „In Verruf bringen“ heißt: den guten Ruf von etwas beschädigen. Jahrzehntelang galt die Sapir-Whorf-Hypothese unter Linguisten als widerlegt, fast als peinlich.
+A: Und ein weiterer Mythos, der damit zusammenhängt, ist der berühmte Mythos von den vielen Wörtern für Schnee in den Sprachen der Inuit.
+B: Ah ja, der Klassiker. Angeblich haben die Inuit fünfzig oder hundert Wörter für Schnee.
+A: Und das ist ein hartnäckiger Mythos, der immer weiter übertrieben wurde. Die Inuit-Sprachen bilden Wörter durch das Aneinanderhängen von Bausteinen, ähnlich wie das Deutsche mit seinen Zusammensetzungen. Man kann darum unendlich viele Wörter bilden. Auch das Deutsche hat Pulverschnee, Neuschnee, Schneematsch, Harsch, Firn. Und Skifahrer haben noch viel mehr Wörter.
+B: Hahaha. Als Österreicher kann ich das bestätigen. Wir haben mindestens zehn Wörter für Schnee! Gut. Man muss also zwischen zwei Versionen der Hypothese unterscheiden.
+A: Genau. Es gibt die starke Version, den linguistischen Determinismus. Sie besagt, dass die Sprache das Denken bestimmt. Dass man nur denken kann, wofür man Wörter hat. Und diese starke Version gilt heute als widerlegt.
+B: Denn sonst könnte man ja nie etwas Neues denken. Und man könnte nicht übersetzen. Und Babys, die noch nicht sprechen, könnten nicht denken. Was offensichtlich falsch ist.
+A: Genau. Und dann gibt es die schwache Version, die linguistische Relativität. Sie besagt, dass die Sprache das Denken beeinflusst. Dass sie bestimmte Denkweisen erleichtert oder nahelegt. Und diese schwache Version hat in den letzten Jahrzehnten ein erstaunliches Comeback erlebt. Mit neuen, sorgfältigen Experimenten.
+B: Und da gibt es faszinierende Beispiele. Fangen wir mit den Farben an.
+A: Ja. Verschiedene Sprachen teilen das Farbspektrum unterschiedlich ein. Das Russische zum Beispiel hat zwei Grundwörter für Blau. „Goluboj“ für Hellblau und „sinij“ für Dunkelblau. Sie gelten im Russischen als verschiedene Farben, so wie für uns Rot und Rosa.
+B: Und haben Russen deshalb eine andere Wahrnehmung?
+A: Ein Experiment hat gezeigt, dass russische Sprecher verschiedene Blautöne schneller unterscheiden konnten, wenn sie über die Grenze zwischen „goluboj“ und „sinij“ hinweggingen. Englische Sprecher, die nur „blue“ haben, zeigten diesen Vorteil nicht. Der Effekt ist zwar klein, aber messbar.
+B: Interessant. Die Sprache schärft also die Wahrnehmung an bestimmten Grenzen. Das zweite Beispiel ist für mich besonders verblüffend: die Orientierung im Raum.
+A: Ja, das ist vielleicht das stärkste Beispiel. Es gibt eine Aborigine-Sprache in Australien, das Guugu Yimithirr. Und diese Sprache hat keine Wörter für links und rechts. Stattdessen benutzen die Sprecher ausschließlich die Himmelsrichtungen. Norden, Süden, Osten, Westen.
+B: Also nicht „Das Glas steht links von dir“, sondern „Das Glas steht nordwestlich von dir“?
+A: Genau. Selbst bei kleinen Dingen. „Da ist eine Ameise an deinem südlichen Bein.“ Und das bedeutet: Die Sprecher müssen jederzeit wissen, wo Norden ist. Auch in einem fremden Gebäude, auch im Dunkeln. Und tatsächlich haben Studien gezeigt, dass sie eine unglaubliche Orientierungsfähigkeit haben. Sie wissen immer, in welche Richtung sie schauen.
+B: Das ist unglaublich. Eine Sprache, die einen inneren Kompass trainiert. Und hier sieht man den Einfluss sehr deutlich. Die Sprache zwingt einen dazu, auf bestimmte Dinge zu achten.
+A: Genau das ist der Kern, den der Linguist Roman Jakobson sehr treffend formuliert hat: Sprachen unterscheiden sich nicht in dem, was man in ihnen sagen kann, sondern in dem, was man in ihnen sagen muss.
+B: Ein brillanter Satz. Und das Deutsche zwingt uns ja auch zu einigem. Zum Beispiel zum grammatischen Geschlecht.
+A: Ja! Und dazu gibt es ein berühmtes Experiment der Psychologin Lera Boroditsky. Sie hat deutsche und spanische Sprecher gebeten, Gegenstände mit Adjektiven zu beschreiben. Gegenstände, die in den beiden Sprachen ein unterschiedliches Geschlecht haben.
+B: Zum Beispiel?
+A: Die Brücke. Im Deutschen ist sie feminin, „die Brücke“. Im Spanischen maskulin, „el puente“. Und die deutschen Sprecher beschrieben die Brücke eher mit Adjektiven wie „schön“, „elegant“, „schlank“, „zerbrechlich“. Die spanischen Sprecher eher mit „stark“, „groß“, „gefährlich“, „robust“.
+B: Hahaha. Das ist ja fast komisch. Die Grammatik färbt die Wahrnehmung.
+A: Wobei man fairerweise sagen muss, dass dieses Experiment in Folgestudien nicht immer bestätigt werden konnte. Die Replikationskrise aus Folge neunundachtzig. Die Befunde sind gleichwohl anregend, aber mit Vorsicht zu genießen.
+B: Und dann gibt es noch die Frage, die uns in Folge achtundsechzig beschäftigt hat. Warum fühlen sich Menschen in verschiedenen Sprachen wie verschiedene Personen? Das hängt vielleicht auch damit zusammen.
+A: Und es gibt eine interessante Studie über moralische Entscheidungen. Menschen wurden vor ein klassisches moralisches Dilemma gestellt. Würdest du einen Menschen opfern, um fünf andere zu retten? Und wenn sie die Frage in einer Fremdsprache beantworteten, entschieden sie sich häufiger für die nüchterne, rationale Lösung. In der Muttersprache entschieden sie emotionaler.
+B: Das passt zu dem, was wir in Folge achtundsechzig gesagt haben. Die Fremdsprache schafft eine emotionale Distanz. Man denkt kühler, berechnender.
+A: Genau. Man spricht vom Fremdsprachen-Effekt. Und er ist durchaus relevant, wenn man bedenkt, dass viele internationale Verhandlungen und Entscheidungen in einer Fremdsprache stattfinden, meist auf Englisch.
+B: Und jetzt das Deutsche selbst. Gibt es Dinge, die das Deutsche besonders gut ausdrücken kann? Die berühmten unübersetzbaren Wörter?
+A: Oh ja, die liebt die ganze Welt. „Schadenfreude“, die Freude am Unglück anderer. „Fernweh“, die Sehnsucht nach fernen Orten, das Gegenteil von Heimweh. „Gemütlichkeit“, aus Folge sechs. „Weltschmerz“, die tiefe Traurigkeit über die Unvollkommenheit der Welt.
+B: Und „Torschlusspanik“. Die Angst, dass man im Leben etwas verpasst, weil die Zeit abläuft. Das Wort kommt von den Stadttoren im Mittelalter, die abends geschlossen wurden. Wer zu spät kam, musste draußen bleiben.
+A: Wunderbar. Und „Verschlimmbessern“, also etwas verbessern wollen und es dabei verschlimmern. Oder „Kummerspeck“, das Gewicht, das man durch Essen aus Kummer zunimmt.
+B: Hahaha. Kummerspeck! Wobei man hier fragen muss: Heißt das, dass Deutsche Schadenfreude stärker empfinden als andere? Mitnichten. Das Gefühl kennt jeder Mensch. Die Deutschen haben nur ein praktisches Wort dafür.
+A: Genau. Das ist ein wichtiger Punkt. Dass eine Sprache kein eigenes Wort für etwas hat, bedeutet nicht, dass ihre Sprecher es nicht empfinden oder denken können. Sie brauchen nur mehr Wörter, um es zu beschreiben. Wie wir das hier ständig tun.
+B: Und das Deutsche hat diese besondere Fähigkeit zur Wortbildung durch Zusammensetzungen, die wir in Folge vierundachtzig besprochen haben. Man kann für fast jedes Konzept spontan ein neues Wort erfinden. Das ist vielleicht der eigentliche Zauber.
+A: Gut. Und was bedeutet das für das Lernen einer Fremdsprache? Für dich, Hörer, Hörerin?
+B: Ich glaube, es bedeutet etwas Wunderschönes. Wenn man eine neue Sprache lernt, lernt man nicht nur neue Wörter für alte Gedanken. Man gewinnt neue Möglichkeiten, die Welt zu sehen. Man erweitert seinen geistigen Horizont.
+A: Und das ist genau die Idee hinter unserem Podcast. Wir übersetzen nicht. Wir versuchen, dich direkt auf Deutsch denken zu lassen. Weil eine Sprache, die man nur über die Übersetzung kennt, eine fremde Sprache bleibt. Erst wenn man in ihr denkt, wird sie zu einer eigenen.
+B: Es gibt einen schönen Satz, der Karl dem Großen zugeschrieben wird: „Eine zweite Sprache zu sprechen, heißt, eine zweite Seele zu besitzen.“ Ob er das wirklich gesagt hat, ist fraglich. Aber es ist wahr.
+A: Jetzt zur Geschichte. Und diesmal geht es um ein Kind. Den Sohn von Amira und Lukas.
+B: Was? Haben die beiden ein Kind bekommen? Das wusste ich ja gar nicht!
+A: Hahaha. Doch! Ein Jahr nach der Hochzeit wurde ihr Sohn geboren. Er heißt Adam. Und er wächst dreisprachig auf. Amira spricht mit ihm Arabisch, ihre Muttersprache. Lukas spricht mit ihm Deutsch, mit bayerischen Einschlägen. Und weil Amira und Lukas sich oft auf Französisch unterhalten, hört er auch diese Sprache.
+B: Drei Sprachen! Wie Folge achtundsechzig empfohlen. Jeder Elternteil spricht seine stärkste Sprache.
+A: Genau. Und Amira hat am Anfang Angst gehabt, dass Adam verwirrt wird. Dass er keine Sprache richtig lernt. Und ihre Mutter in Casablanca sagte, das sei zu viel für ein Kind.
+B: Eine verbreitete Sorge, die aber unbegründet ist.
+A: Genau. Lukas hat sich als Wissenschaftler informiert und Amira die Studien gezeigt. Kinder können problemlos mehrere Sprachen gleichzeitig lernen. Manchmal fangen sie etwas später an zu sprechen oder mischen die Sprachen am Anfang. Aber das ist ganz normal und geht vorbei.
+B: Und wie entwickelt sich Adam?
+A: Wunderbar. Mit drei Jahren spricht er alle drei Sprachen. Und er weiß genau, mit wem er welche Sprache spricht. Mit Mama Arabisch, mit Papa Deutsch, mit Oma in Bayern Bayerisch, und mit Kenji, seinem Patenonkel, hat er sogar ein paar Wörter Japanisch gelernt.
+B: Kenji ist der Patenonkel! Wie schön. Ein Pate ist eine Person, die bei der Taufe oder Namensgebung die Verantwortung übernimmt, sich um ein Kind zu kümmern.
+A: Genau. Und dann ist etwas passiert, das Amira tief berührt hat. Adam hat angefangen, die Sprachen zu benutzen, um seine Gefühle unterschiedlich auszudrücken. Wenn er sich wehtut und weint, ruft er auf Arabisch nach Mama. Wenn er Fußball spielt und jubelt, ruft er auf Bayerisch: „Hob i's gsogt!“
+B: Hahaha. „Hab ich's gesagt“ auf Bayerisch! Wunderbar.
+A: Und eines Abends, beim Zubettgehen, hat er Amira etwas gefragt. Er hat auf Deutsch gefragt: „Mama, warum heißt der Mond auf Deutsch ‚der‘ Mond, aber die Sonne ‚die‘ Sonne?“
+B: Eine philosophische Frage von einem Dreijährigen! Und auf Französisch ist es ja umgekehrt. „La lune“, die Mondin, und „le soleil“, der Sonne.
+A: Genau! Und Amira hat ihm geantwortet: „Weil jede Sprache die Welt ein bisschen anders sieht. Und du hast das Glück, sie dreimal zu sehen.“
+B: Was für eine wunderschöne Antwort. Die ganze Folge in einem Satz.
+A: Jetzt bist du dran, Hörer, Hörerin. Glaubst du, dass deine Muttersprache dein Denken beeinflusst? Und hat sich dein Denken verändert, seit du Deutsch lernst? Formuliere deine Gedanken mit den gehobenen Konnektoren von heute: „Gleichwohl …“, „Mitnichten …“, „… indes …“, „Gewissermaßen …“
+B: Und gibt es in deiner Muttersprache ein Wort, das man nicht ins Deutsche übersetzen kann? Versuche, es auf Deutsch zu erklären.
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: mitnichten. Keineswegs, überhaupt nicht.
+A: Wort Nummer zwei: gleichwohl. Trotzdem, dennoch.
+B: Wort Nummer drei: in Verruf bringen. Den guten Ruf von etwas beschädigen.
+A: Wort Nummer vier: das Fernweh. Die Sehnsucht nach fernen Orten.
+B: Wort Nummer fünf: die Torschlusspanik. Die Angst, im Leben etwas zu verpassen, weil die Zeit abläuft.
+A: Und Wort Nummer sechs: der Pate. Eine Person, die die Verantwortung übernimmt, sich um ein Kind zu kümmern.
+B: Noch einmal: mitnichten, gleichwohl, in Verruf bringen, das Fernweh, die Torschlusspanik, der Pate.
+A: Was nehmen wir mit? Die Idee, dass die Sprache das Denken prägt, geht auf Wilhelm von Humboldt zurück und wurde durch Sapir und Whorf bekannt.
+B: Die starke Version, dass Sprache das Denken bestimmt, ist widerlegt. Die schwache Version, dass Sprache das Denken beeinflusst, wird durch neuere Experimente gestützt.
+A: Beispiele: die russischen Blautöne, die Orientierung der Guugu Yimithirr und vielleicht das grammatische Geschlecht. Und Sprachen unterscheiden sich darin, was man sagen muss, nicht was man sagen kann.
+B: Und eine neue Sprache zu lernen heißt, die Welt mit neuen Augen zu sehen.
+A: Das ist das Ende von Folge einundneunzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und denk daran: Jede Sprache sieht die Welt ein bisschen anders. Servus!
+A: Tschüss!
+VOCAB: mitnichten | Keineswegs, überhaupt nicht. | 🚫
+VOCAB: gleichwohl | Trotzdem, dennoch. | ↪️
+VOCAB: in Verruf bringen | Den guten Ruf von etwas beschädigen. | 📉
+VOCAB: das Fernweh | Die Sehnsucht nach fernen Orten. | ✈️
+VOCAB: die Torschlusspanik | Die Angst, im Leben etwas zu verpassen, weil die Zeit abläuft. | 🚪
+VOCAB: der Pate | Eine Person, die die Verantwortung für ein Kind mitübernimmt. | 🤗
+QUIZ: Wer vertrat als Erster die Idee, dass jede Sprache eine eigene „Weltansicht“ enthält? | Wilhelm von Humboldt | Karl Marx | Max Weber | 1
+QUIZ: Was war Benjamin Lee Whorf im Hauptberuf? | Professor | Brandschutzinspektor | Arzt | 2
+QUIZ: Was gilt heute als widerlegt? | Die starke Version: Sprache bestimmt das Denken | Die schwache Version: Sprache beeinflusst das Denken | Beide Versionen | 1
+QUIZ: Was ist besonders an der Sprache Guugu Yimithirr? | Sie hat keine Wörter für links und rechts, nur Himmelsrichtungen | Sie hat keine Verben | Sie hat hundert Wörter für Schnee | 1
+QUIZ: Was antwortete Amira auf Adams Frage nach dem Mond? | Jede Sprache sieht die Welt ein bisschen anders, und er sieht sie dreimal | Das ist eben so | Er soll schlafen gehen | 1
+`;
