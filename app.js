@@ -138,6 +138,7 @@ const Audio = {
       const u = new SpeechSynthesisUtterance(l.text);
       const vv = l.voice === "B" ? vB : v;
       if (vv) { u.voice = vv; u.lang = vv.lang; } else { u.lang = ({ at: "de-AT", ch: "de-CH" })[eng] || "de-DE"; }
+      if (l.voice && (!vB || vB === v)) u.pitch = l.voice === "B" ? 0.7 : 1.2; /* one voice only: Lena higher, Jonas lower */
       u.rate = rate;
       u.onstart = () => { if (this.current === token && onLine) onLine(l.id); };
       u.onend = next; u.onerror = next;
@@ -965,7 +966,15 @@ function parsePod(text) {
 }
 const wordCount = lines => lines.reduce((a, l) => a + l.t.split(/\s+/).filter(Boolean).length, 0);
 let podGen = null;
-function podReady(id) { try { return localStorage.getItem("dad:pod:" + id) != null; } catch (e) { return false; } }
+/* Fixed episodes (data/pod_*.js) are part of the site and need no AI; the others are written by AI once and kept in the browser. */
+const POD_FIXED = {};
+function podFixed(id) {
+  const t = (window.DATA && DATA.podScripts || {})[id];
+  if (!t) return null;
+  return POD_FIXED[id] || (POD_FIXED[id] = parsePod(t));
+}
+function podData(id) { return podFixed(id) || store.get("pod:" + id, null); }
+function podReady(id) { if (podFixed(id)) return true; try { return localStorage.getItem("dad:pod:" + id) != null; } catch (e) { return false; } }
 function podGenerate(ep) {
   if (!SAMPLE || podGen) return;
   const ctl = new AbortController();
@@ -1011,7 +1020,7 @@ function podLive(ep) {
   box.innerHTML = d.lines.slice(-5).map(l => `<div class="line"><span class="spk ${l.s}">${HOST[l.s]}</span><span class="t">${esc(l.t)}</span></div>`).join("");
 }
 function podPlay(ep, from) {
-  const d = store.get("pod:" + ep.id, null); if (!d) return;
+  const d = podData(ep.id); if (!d) return;
   const clear = () => $$(".transcript .line.playing").forEach(x => x.classList.remove("playing"));
   Audio.speak(d.lines.slice(from).map((l, i) => ({ text: l.t, id: "pl-" + (from + i), voice: l.s })), {
     onLine: id => { clear(); if (id) { const el = document.getElementById(id); if (el) { el.classList.add("playing"); el.scrollIntoView({ block: "nearest", behavior: "smooth" }); } } },
@@ -1023,11 +1032,11 @@ function pagePodcasts(sub) {
   if (sub) { const ep = D.podcasts.find(x => x.id === sub); if (ep) return podcastView(ep); }
   const L = curLvl();
   const list = D.podcasts.filter(p => p.lvl === L);
-  return `${pageHead("Écoute longue", "Podcasts", `${list.length} épisodes d'environ 15 minutes pour le niveau ${L}. Lena (Berlin) et Jonas (Vienne) discutent d'un sujet de la vie réelle, à ton niveau, sans jamais traduire. Chaque épisode a sa transcription, ses 6 mots du jour et un quiz. Chaque épisode est écrit par IA la première fois que tu l'ouvres (environ une minute), puis il reste enregistré dans ce navigateur.`)}
+  return `${pageHead("Écoute longue", "Podcasts", `${list.length} épisodes d'environ 15 minutes pour le niveau ${L}. Lena (Berlin) et Jonas (Vienne) discutent d'un sujet de la vie réelle, à ton niveau, sans jamais traduire. Chaque épisode a sa transcription, ses 6 mots du jour et un quiz. Les épisodes marqués « Prêt à écouter » font partie du site : pas besoin d'IA. Les autres sont écrits par IA la première fois que tu les ouvres (environ une minute), puis ils restent enregistrés dans ce navigateur.`)}
   <div class="grid">${list.map(p => { const ready = podReady(p.id); return `<a class="tile" href="#podcasts-${p.id}"><div class="tile-top"><span class="eyebrow">Épisode ${p.n}</span>${lvlTag(p.lvl)}</div><h3>${esc(p.title)}</h3><p class="muted small">${esc(p.focus)}</p><p class="small">${known.has("e:" + p.id) ? "Écouté ✓" : ready ? "Prêt à écouter" : '<span class="muted">À créer</span>'}</p></a>`; }).join("")}</div>`;
 }
 function podcastView(ep) {
-  const d = store.get("pod:" + ep.id, null);
+  const d = podData(ep.id), fixed = !!podFixed(ep.id);
   const g = POD_GUIDE[ep.lvl];
   const idx = D.podcasts.indexOf(ep), nxt = D.podcasts[idx + 1] && D.podcasts[idx + 1].lvl === ep.lvl ? D.podcasts[idx + 1] : null;
   let body;
@@ -1063,7 +1072,7 @@ function podcastView(ep) {
         if (score >= n - 1 && !known.has("e:" + ep.id)) toggleKnown("e:" + ep.id);
         return `Score : ${score} / ${n}. ${score >= n - 1 ? "Épisode marqué comme écouté ✓" : "Réécoute l'épisode (avec le texte cette fois) et réessaie."}`;
       })}</section>` : ""}
-      <button class="btn ghost" data-act="pod-regen" data-id="${ep.id}" style="align-self:flex-start">Réécrire cet épisode</button>`;
+      ${fixed ? "" : `<button class="btn ghost" data-act="pod-regen" data-id="${ep.id}" style="align-self:flex-start">Réécrire cet épisode</button>`}`;
   }
   return `<a class="btn ghost back" href="#podcasts">← Podcasts ${ep.lvl}</a>
   <header class="page-head"><div class="row">${lvlTag(ep.lvl)}<span class="eyebrow">Épisode ${ep.n} / 100</span></div><h1>${esc(ep.title)}</h1><p>${esc(ep.focus)}</p></header>
