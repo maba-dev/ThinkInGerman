@@ -397,6 +397,23 @@ a.tile:hover, button.tile:hover { border-color: var(--accent); box-shadow: var(-
 @media (max-width: 860px) { .lvl-switch { margin-right: 44px; } .nav-sep { display: none; } }
 
 
+/* ---------- cours PDF ---------- */
+.csteps { margin: 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 8px; }
+.cpick { cursor: pointer; border-width: 2px; }
+.cpick:hover { border-color: var(--lc); }
+.cpick[aria-pressed="true"] { border-color: var(--lc); box-shadow: inset 0 0 0 1px var(--lc); }
+.cweek { display: flex; flex-direction: column; gap: 10px; }
+.clist { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr)); }
+.cday { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px 14px; align-items: center; padding: 14px 16px; }
+.cday .gtxt { align-items: flex-start; }
+.cday.known { border-color: var(--good); background: var(--good-soft); }
+.cday.next { outline: 3px solid var(--spark); outline-offset: 1px; }
+.cnum { font-family: var(--f-display); font-weight: 800; font-size: 1.3rem; color: var(--muted); min-width: 2em; text-align: center; font-variant-numeric: tabular-nums; }
+.cday .acts { grid-column: 2; display: flex; flex-wrap: wrap; gap: 6px; }
+.cday .btn, .lvl-hero .btn { padding: 5px 12px; font-size: .85rem; }
+.done-btn[aria-pressed="true"] { background: var(--good); border-color: var(--good); color: #fff; }
+@media (max-width: 560px) { .clist { grid-template-columns: minmax(0, 1fr); } .cday { padding: 12px; } .cday .acts { grid-column: 1 / -1; } }
+
 /* ---------- German: article colours ---------- */
 .art { font-weight: 700; }
 .art.der { color: var(--der); }
@@ -487,6 +504,7 @@ a.tile:hover, button.tile:hover { border-color: var(--accent); box-shadow: var(-
 <script src="data/grammar_more.js"></script>
 <script src="data/stories.js"></script>
 <script src="data/phonetics.js"></script>
+<script src="data/cours.js"></script>
 <script src="data/podcasts.js"></script>
 <script src="data/pod_a1.js"></script>
 <script src="data/pod_a2.js"></script>
