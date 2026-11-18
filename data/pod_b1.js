@@ -1735,3 +1735,322 @@ QUIZ: Wo hilft Jonas ehrenamtlich? | Bei der Feuerwehr | Im Tierheim | Bei der T
 QUIZ: Was war Mahmoud in Syrien von Beruf? | Arzt | Musiklehrer | Bäcker | 2
 QUIZ: Was macht Herr Schmidt jetzt jeden Freitag? | Er backt mit Kenji in der Bäckerei | Er geht zur Feuerwehr | Er unterrichtet Deutsch | 1
 `;
+
+DATA.podScripts.ep058 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge achtundfünfzig. Heute wird es gemütlich. Wir sitzen virtuell auf dem Sofa und sprechen über Serien. Unser Thema: Diese Serie musst du sehen!
+A: Wir lernen, wie man eine Serie oder einen Film beschreibt und empfiehlt. „Empfehlen“ heißt: jemandem sagen, dass etwas gut ist und dass er es ausprobieren sollte. „Ich empfehle dir diese Serie.“
+B: Und wir lernen viele Wörter aus der Welt der Serien und Filme. Die Handlung, die Hauptfigur, die Staffel, die Folge, der Spannungsbogen, das Ende. Und Ausdrücke wie „Es geht um …“, „Die Serie spielt in …“, „Die Hauptfigur ist …“
+A: Und ganz wichtig: Wir lernen, wie man eine Serie beschreibt, ohne zu spoilern.
+B: Spoilern! Das ist ein englisches Wort, das man im Deutschen auch benutzt. Es heißt: das Ende oder wichtige Überraschungen verraten. „Verraten“ heißt: ein Geheimnis erzählen.
+A: Und das ist das Schlimmste, was man machen kann! Wenn jemand sagt: „Am Ende stirbt die Hauptfigur“, und du hast die Serie noch nicht gesehen …
+B: Furchtbar! Darum sagt man oft: „Achtung, Spoiler!“ Oder: „Ich will nichts verraten, aber …“
+A: Gut. Jetzt der Wortschatz. Eine Serie besteht aus Staffeln. Eine Staffel ist eine Gruppe von Folgen, die zusammen gezeigt werden. Oft acht bis zwölf Folgen pro Staffel. Und manche Serien haben zehn Staffeln oder mehr.
+B: Die Handlung ist die Geschichte. Was passiert? Und die Figuren sind die Personen in der Geschichte. Die Hauptfigur ist die wichtigste Person. Und die Nebenfiguren sind die anderen.
+A: Der Schauspieler oder die Schauspielerin spielt die Figur. Und der Regisseur oder die Regisseurin entscheidet, wie die Serie gemacht wird.
+B: Dann gibt es die Genres. Das Genre ist die Art von Geschichte. Krimi, Thriller, Drama, Komödie, Science-Fiction, Fantasy, Horror, Dokumentation, Liebesgeschichte.
+A: Und Adjektive, um eine Serie zu beschreiben: spannend, lustig, berührend, düster, realistisch, überraschend, vorhersehbar, langatmig.
+B: „Düster“ heißt: dunkel, ernst, mit traurigen oder bedrohlichen Gefühlen. „Vorhersehbar“ heißt: Man weiß schon vorher, was passieren wird. Das ist negativ. Und „langatmig“ heißt: zu lang, zu langsam, ein bisschen langweilig.
+A: Und dann gibt es noch den Cliffhanger. Das ist das Ende einer Folge, bei dem es sehr spannend ist. Und man muss unbedingt die nächste Folge sehen. Darum schaut man oft fünf Folgen hintereinander.
+B: Das nennt man „Bingewatching“. Viele Folgen hintereinander schauen. Auf Deutsch sagt man manchmal auch „Komaglotzen“. „Glotzen“ ist ein umgangssprachliches Wort für „schauen“. Hahaha.
+A: Komaglotzen! Das ist ein tolles Wort. Und die Glotze ist ein altes umgangssprachliches Wort für den Fernseher.
+B: Gut. Jetzt die Empfehlungen. Wir haben beide eine Lieblingsserie mitgebracht. Lena, fang an!
+A: Meine Empfehlung ist eine deutsche Serie, die ich schon in Folge vierunddreißig kurz erwähnt habe: „Dark“. Sie war die erste deutsche Serie auf Netflix und weltweit ein riesiger Erfolg.
+B: Und worum geht es?
+A: Die Serie spielt in einer kleinen deutschen Stadt namens Winden. Eine fiktive Stadt, die es nicht wirklich gibt. Mitten im Wald, neben einem Atomkraftwerk. Und am Anfang verschwindet ein Kind. Spurlos. „Spurlos“ heißt: ohne irgendein Zeichen, ohne Hinweis.
+B: Das klingt nach einem Krimi.
+A: Am Anfang ja. Aber dann wird es viel mehr. Ohne zu viel zu verraten: Es geht um Zeitreisen. Die Geschichte spielt in verschiedenen Zeiten. In den Achtzigerjahren, in den Fünfzigerjahren und in der Gegenwart. Und die Familien der Stadt sind auf sehr komplizierte Weise miteinander verbunden.
+B: Und was gefällt dir an der Serie?
+A: Erstens die Atmosphäre. Sie ist sehr düster. Es regnet fast immer, der Wald ist dunkel und geheimnisvoll. Die Musik ist fantastisch. Zweitens die Geschichte. Sie ist extrem clever und komplex. Man muss sich wirklich konzentrieren. Ich habe mir während des Schauens Notizen gemacht und einen Stammbaum gezeichnet!
+B: Hahaha. Einen Stammbaum! Ein Stammbaum zeigt die Familie: Wer ist mit wem verwandt.
+A: Genau. Und drittens: Es ist eine deutsche Serie, die zeigt, dass man in Deutschland nicht nur Krimis über Kommissare machen kann. Hahaha.
+B: Und für wen ist die Serie?
+A: Für alle, die komplizierte Geschichten mögen und gern nachdenken. Aber nicht für Leute, die nebenbei schauen und aufs Handy gucken wollen. Dann versteht man nichts.
+B: Und für Deutschlernende?
+A: Es ist eine gute Übung, weil sie auf Deutsch gedreht wurde. Aber die Geschichte ist kompliziert. Ich empfehle, die Serie zuerst mit deutschen Untertiteln zu schauen. Das hilft sehr.
+B: Und wie würdest du sie bewerten? Von eins bis zehn?
+A: Neun von zehn. Ein Punkt weniger, weil die letzte Staffel wirklich sehr kompliziert ist. Hahaha.
+B: Super Empfehlung. Jetzt meine. Meine Empfehlung ist eine österreichische Serie: „Braunschlag“.
+A: Die kenne ich nicht! Erzähl!
+B: „Braunschlag“ ist eine Komödie von David Schalko. Sie spielt in einem kleinen, armen Dorf im Waldviertel, in Niederösterreich. Das Dorf ist pleite. Völlig pleite. Und der Bürgermeister hat eine verrückte Idee, um Touristen anzulocken.
+A: Was für eine Idee?
+B: Er erfindet ein Wunder! Er erzählt, dass die Jungfrau Maria im Dorf erschienen ist. Damit Pilger kommen und Geld ins Dorf bringen. Pilger sind religiöse Menschen, die zu heiligen Orten reisen.
+A: Hahaha! Das ist frech!
+B: Ja! Und dann passiert alles Mögliche. Das Chaos wird immer größer. Ich will nichts verraten, aber es gibt viele absurde und sehr lustige Situationen. Und die Figuren sind wunderbar. Der Bürgermeister, sein bester Freund, der Wirt, der Pfarrer, der Polizist. Alle sind ein bisschen verrückt.
+A: Und was gefällt dir besonders?
+B: Der Humor. Es ist sehr schwarzer, sehr österreichischer Humor. Ironisch, böse und gleichzeitig ein bisschen melancholisch. Die Serie zeigt das Leben auf dem Land in Österreich, mit allen Problemen, aber mit viel Liebe. Und die Schauspieler sind die besten in Österreich.
+A: Und für Deutschlernende?
+B: Hmm. Das ist das Problem. Sie sprechen sehr viel Dialekt. Niederösterreichischen Dialekt. Sogar Deutsche brauchen manchmal Untertitel! Hahaha. Also ich empfehle sie für Leute, die schon ein gutes Niveau haben. Oder für Leute, die einen Österreicher als Freund haben, der alles erklären kann.
+A: Hahaha. So wie mich, die dich hat!
+B: Genau! Ich gebe ihr zehn von zehn. Weil sie mich jedes Mal zum Lachen bringt.
+A: Gut. Jetzt ein paar Tipps, wie man eine Empfehlung gut strukturiert. Erstens: Der Titel und das Genre. „Ich empfehle dir die Serie … Es ist ein Krimi.“
+B: Zweitens: Wo und wann spielt die Serie? „Die Serie spielt in Berlin in den Zwanzigerjahren.“
+A: Drittens: Worum geht es? Kurz, ohne Spoiler. „Es geht um eine Familie, die …“
+B: Viertens: Was ist besonders gut? „Mir gefällt besonders …“ „Die Schauspieler sind großartig.“ „Die Geschichte ist sehr überraschend.“
+A: Fünftens: Für wen ist die Serie? „Wenn du Krimis magst, wird dir die Serie gefallen.“ „Die Serie ist nichts für Leute, die …“
+B: Und sechstens: Die Bewertung. „Ich gebe ihr acht von zehn Punkten.“ Oder: „Die Serie ist ein Muss!“ Ein Muss ist etwas, das man unbedingt gesehen haben muss.
+A: Gut. Und noch eine wichtige Sache: der Tatort!
+B: Oh ja, der Tatort! Die heiligste Tradition im deutschen Fernsehen!
+A: Der Tatort ist eine Krimiserie, die es seit neunzehnhundertsiebzig gibt. Jeden Sonntagabend um zwanzig Uhr fünfzehn im Ersten, dem ersten deutschen Fernsehprogramm. Und Millionen Deutsche schauen ihn. Jede Woche!
+B: Und das Besondere: Jede Folge spielt in einer anderen Stadt. Mit anderen Kommissaren. In Münster, in Köln, in Hamburg, in Berlin. Und auch in Wien! Und in der Schweiz.
+A: Und viele Leute treffen sich am Sonntagabend in Kneipen oder bei Freunden, um zusammen Tatort zu schauen. Das nennt man „Tatort-Abend“. Es gibt Kneipen mit großem Bildschirm, wo alle zusammen schauen und am Ende diskutieren, wer der Mörder war.
+B: Es ist fast ein Ritual. Und am Montag im Büro spricht man darüber. „Hast du gestern den Tatort gesehen?“
+A: Und mein Lieblingsteam ist das Team aus Münster. Ein arroganter Rechtsmediziner und ein müder Kommissar. Sie streiten sich die ganze Zeit. Es ist mehr Komödie als Krimi. Hahaha.
+B: Und in Österreich ist das Wiener Team sehr beliebt. Mit Moritz Eisner und Bibi Fellner. Sie sind sehr wienerisch. Grantig, aber mit Herz.
+A: Jetzt zur Geschichte. Amira und Lukas haben ein Problem. Sie streiten sich immer über die Serien.
+B: Hahaha. Ein typisches Paarproblem! Erzähl!
+A: Amira liebt romantische Serien und Dramen. Geschichten über Familien und Liebe. Und Lukas liebt Science-Fiction und Thriller. Raumschiffe, Roboter, Verschwörungen. Jeden Abend diskutieren sie zwanzig Minuten, was sie schauen. Und am Ende schauen sie gar nichts, weil sie zu müde sind.
+B: Hahaha. Das kenne ich! Was haben sie gemacht?
+A: Lukas hatte eine Idee. Ein Spiel. Jeder muss dem anderen eine Serie empfehlen. Aber die Empfehlung muss perfekt sein. Mit Begründung, ohne Spoiler, und mit einem Argument, warum es dem anderen gefallen würde. Und der andere muss mindestens drei Folgen schauen.
+B: Gute Idee. Was hat Amira empfohlen?
+A: Amira hat eine türkische Serie empfohlen, die sie über Emre kennengelernt hatte. Eine Familiengeschichte über drei Generationen in Istanbul. Sie hat gesagt: „Du wirst sie lieben, weil es eine große Verschwörung um das Familienunternehmen gibt. Und in jeder Folge gibt es einen Cliffhanger.“
+B: Clever! Sie hat ein Argument gefunden, das für Lukas interessant ist.
+A: Genau. Und Lukas hat „Dark“ empfohlen. Er hat gesagt: „Ich weiß, es ist Science-Fiction. Aber eigentlich ist es eine Geschichte über Familien, über Liebe und über Verlust. Es wird dich sehr berühren.“
+B: Und? Haben die Empfehlungen funktioniert?
+A: Total! Nach drei Folgen wollten beide nicht mehr aufhören. Lukas hat die türkische Serie in einer Woche geschaut, mit Untertiteln. Und er hat angefangen, ein bisschen Türkisch zu lernen. Er wollte die Lieder verstehen.
+B: Hahaha. Und Amira?
+A: Amira hat „Dark“ geschaut und war total fasziniert. Aber sie hat sich auch einen Stammbaum gemacht, wie ich. Hahaha. Und sie hat gesagt: „Jetzt verstehe ich, warum du Science-Fiction magst.“
+B: Wie schön. Durch die Serien haben sie sich besser verstanden.
+A: Genau. Und jetzt haben sie ein neues Ritual: Jeden Sonntag schauen sie zusammen Tatort. Mit Popcorn und mit Wetten, wer der Mörder ist. Wer verliert, muss die ganze Woche spülen.
+B: Hahaha. Wer gewinnt meistens?
+A: Amira! Sie sagt, als Krankenpflegerin erkennt sie sofort, wer lügt.
+B: Jetzt bist du dran, Hörer, Hörerin. Empfiehl eine Serie oder einen Film. Ohne Spoiler! Sag es laut: „Ich empfehle dir … Es ist ein … Die Serie spielt in … Es geht um … Mir gefällt besonders …“
+A: Und für wen ist sie? „Wenn du … magst, wird sie dir gefallen.“
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: empfehlen. Sagen, dass etwas gut ist und dass man es ausprobieren sollte.
+B: Wort Nummer zwei: die Staffel. Eine Gruppe von Folgen einer Serie.
+A: Wort Nummer drei: verraten. Ein Geheimnis erzählen. Ich will nichts verraten.
+B: Wort Nummer vier: düster. Dunkel, ernst, mit bedrohlicher Stimmung.
+A: Wort Nummer fünf: vorhersehbar. Man weiß schon vorher, was passieren wird.
+B: Und Wort Nummer sechs: der Cliffhanger. Ein spannendes Ende, bei dem man sofort weiterschauen will.
+A: Noch einmal: empfehlen, die Staffel, verraten, düster, vorhersehbar, der Cliffhanger.
+B: Was lernen wir heute? Eine Serie beschreiben: „Es geht um …“, „Die Serie spielt in …“, „Die Hauptfigur ist …“
+A: Eine gute Empfehlung: Titel, Genre, Ort und Zeit, Handlung ohne Spoiler, was besonders gut ist, für wen und die Bewertung.
+B: Zwei Empfehlungen: „Dark“ für komplizierte Zeitreisen und „Braunschlag“ für schwarzen österreichischen Humor.
+A: Und die Tradition: Jeden Sonntag um zwanzig Uhr fünfzehn kommt der Tatort.
+B: Das ist das Ende von Folge achtundfünfzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und viel Spaß beim Komaglotzen! Aber mit deutschen Untertiteln! Tschüss!
+B: Servus!
+VOCAB: empfehlen | Sagen, dass etwas gut ist und dass man es ausprobieren sollte. | 👉
+VOCAB: die Staffel | Eine Gruppe von Folgen einer Serie. | 📺
+VOCAB: verraten | Ein Geheimnis erzählen. | 🤐
+VOCAB: düster | Dunkel, ernst, mit bedrohlicher Stimmung. | 🌑
+VOCAB: vorhersehbar | Man weiß schon vorher, was passieren wird. | 🥱
+VOCAB: der Cliffhanger | Ein spannendes Ende, bei dem man sofort weiterschauen will. | 🧗
+QUIZ: Was bedeutet „spoilern“? | Eine Serie schlecht finden | Das Ende oder wichtige Überraschungen verraten | Viele Folgen hintereinander schauen | 2
+QUIZ: Worum geht es in „Dark“? | Um eine Familie in Istanbul | Um Zeitreisen in einer kleinen Stadt | Um einen Bürgermeister in Österreich | 2
+QUIZ: Welche Idee hat der Bürgermeister in „Braunschlag“? | Er baut ein Hotel | Er erfindet ein Wunder | Er verkauft das Dorf | 2
+QUIZ: Wann kommt der Tatort im Fernsehen? | Jeden Sonntag um zwanzig Uhr fünfzehn | Jeden Montag um acht Uhr | Jeden Freitag um Mitternacht | 1
+QUIZ: Was muss beim Tatort-Spiel von Amira und Lukas der Verlierer machen? | Kochen | Die ganze Woche spülen | Den Müll rausbringen | 2
+`;
+
+DATA.podScripts.ep059 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge neunundfünfzig. Heute besuchen wir die Welt der Programmierer. Unser Thema: Bugs, Abstürze und Kaffee. Ein Tag im Leben eines Entwicklers.
+A: Und wir haben einen besonderen Gast. Na ja, nicht wirklich. Aber wir erzählen den Tag von Julien, Stunde für Stunde. Und dabei lernen wir ein Grammatikthema, das viele Lernende fürchten: die Adjektivdeklination.
+B: Oh, die Adjektivendungen! Der große Feind aller Deutschlernenden! Hahaha.
+A: Hahaha. Ja. Aber keine Angst. Wir erklären es heute ganz entspannt. Und ehrlich gesagt: Auch viele Muttersprachler könnten die Regeln nicht erklären. Sie benutzen die Endungen einfach automatisch, weil sie sie tausendmal gehört haben.
+B: Genau. Das Ziel ist nicht, alle Tabellen auswendig zu lernen. Das Ziel ist, ein Gefühl dafür zu bekommen. Durch Hören, Hören, Hören.
+A: Gut. Erinnere dich: Wenn das Adjektiv nach dem Nomen steht, gibt es keine Endung. „Der Kaffee ist heiß.“ „Der Code ist kompliziert.“ Ganz einfach.
+B: Aber wenn das Adjektiv vor dem Nomen steht, bekommt es eine Endung. „Der heiße Kaffee.“ „Ein komplizierter Code.“ Und diese Endung hängt von drei Dingen ab: vom Genus, also maskulin, feminin oder neutral, vom Kasus, also Nominativ, Akkusativ, Dativ, und vom Artikel davor.
+A: Es gibt drei Situationen. Erstens: nach dem bestimmten Artikel. Der, die, das. Da ist die Endung meistens „-e“ oder „-en“. Der neue Computer. Die alte Tastatur. Das große Problem.
+B: Im Nominativ Singular immer „-e“. Und fast überall sonst „-en“. Ich kaufe den neuen Computer. Mit dem neuen Computer. Die neuen Computer. Das ist die einfachste Situation.
+A: Ein Tipp: Wenn der Artikel schon zeigt, welches Genus und welcher Kasus es ist, muss das Adjektiv nicht viel arbeiten. Es bekommt nur „-e“ oder „-en“. Der Artikel hat die Arbeit schon gemacht.
+B: Zweitens: nach dem unbestimmten Artikel. Ein, eine, ein. Und auch nach kein, mein, dein und so weiter. Hier muss das Adjektiv manchmal mehr arbeiten. Weil „ein“ nicht zeigt, ob es maskulin oder neutral ist.
+A: Darum sagt man: ein neuer Computer, mit „-er“, wie bei „der“. Und: ein großes Problem, mit „-es“, wie bei „das“. Aber: eine alte Tastatur, mit „-e“.
+B: Das Adjektiv übernimmt also die Endung vom bestimmten Artikel, wenn „ein“ sie nicht zeigt. Der Computer, ein neuer Computer. Das Problem, ein großes Problem.
+A: Und drittens: ohne Artikel. Dann muss das Adjektiv alles allein zeigen. Es bekommt die Endung vom bestimmten Artikel. Heißer Kaffee, wie „der“. Kalte Milch, wie „die“. Frisches Brot, wie „das“.
+B: Das ist zum Beispiel bei Mengen oder auf Speisekarten typisch. „Frischer Kaffee, warme Brötchen, hausgemachter Kuchen.“
+A: Genau. Und jetzt hören wir viele Beispiele in unserer Geschichte. Achte auf die Adjektive!
+B: Okay. Wir erzählen den Tag von Julien. Es ist ein ganz normaler Montag. Oder sagen wir: ein ganz normaler, chaotischer Montag. Hahaha.
+A: Sieben Uhr dreißig. Juliens alter Wecker klingelt. Julien hat schlecht geschlafen. Er hatte einen seltsamen Traum. Ein riesiger Bug hat ihn durch einen dunklen Wald gejagt.
+B: Hahaha. Ein Programmierer-Albtraum! Ein Albtraum ist ein schlimmer, schrecklicher Traum.
+A: Genau. Er steht auf, geht in seine kleine Küche und macht sich einen starken Kaffee. Mit seiner neuen italienischen Espressomaschine. Das war ein teures Geschenk von seinen Eltern zum Geburtstag.
+B: Hast du die Adjektive gehört? „Seine kleine Küche“, „einen starken Kaffee“, „seiner neuen italienischen Espressomaschine“, „ein teures Geschenk“.
+A: Genau. Acht Uhr fünfzehn. Julien fährt mit seinem grünen Fahrrad zur Arbeit. Es ist ein kalter, aber sonniger Morgen. Die Luft ist frisch.
+B: Neun Uhr. Julien kommt in der Programmierschule an. Das große, moderne Gebäude ist schon voll. Hunderte junge Studenten sitzen vor ihren Computern. Manche sind die ganze Nacht geblieben. Sie sehen müde aus und trinken kalten Kaffee aus großen Bechern.
+A: Und Julien geht in die kleine Küche für die Mitarbeiter. Dort trinkt er seinen zweiten Kaffee des Tages. Mit Katrin, die gerade einen frischen Apfelkuchen mitgebracht hat.
+B: Ah, Katrin und ihre Kuchen! Das ist die beste Tradition in der Schule.
+A: Neun Uhr dreißig: das Daily. Das ist ein kurzes Meeting mit dem ganzen Team. Jeden Morgen, fünfzehn Minuten. Jede Person sagt drei Dinge: Was habe ich gestern gemacht? Was mache ich heute? Gibt es ein Problem?
+B: Das Daily haben wir schon in Folge drei kurz erwähnt. Es kommt aus einer Arbeitsmethode, die viele IT-Firmen benutzen. Man nennt sie „agil“. Agil heißt: flexibel und schnell. Man arbeitet in kurzen Phasen und passt den Plan immer wieder an.
+A: Genau. Und Julien sagt im Daily: „Gestern habe ich den neuen Workshop über Datenbanken vorbereitet. Heute muss ich einen wichtigen Bug in unserer internen Plattform finden. Und das Problem ist: Ich weiß nicht, wo er ist.“
+B: Hahaha. Das ist das typische Problem von Programmierern!
+A: Zehn Uhr. Julien setzt sich an seinen großen Bildschirm und beginnt mit der Suche. Das Problem ist folgendes: Die Plattform, auf der die Studenten ihre Projekte abgeben, stürzt seit gestern Abend immer wieder ab. Aber nur manchmal. Und niemand weiß, warum.
+B: Ein Bug, der nur manchmal auftritt! Das ist der schlimmste Bug. Die Programmierer haben dafür einen lustigen Namen: Heisenbug. Nach dem Physiker Werner Heisenberg. Weil der Bug verschwindet, wenn man ihn beobachten will.
+A: Hahaha! Ein Physiker-Witz! Das ist sehr nerdig. Gut. Julien liest die Logdateien. Das sind lange Textdateien, in denen der Computer alles aufschreibt, was er macht. Tausende Zeilen. Er sucht nach einer kleinen, versteckten Fehlermeldung.
+B: Elf Uhr. Kaffee Nummer drei. Und immer noch keine Lösung.
+A: Zwölf Uhr dreißig. Mittagspause. Julien geht mit Emre, der heute zu Besuch ist, zu einem kleinen vietnamesischen Restaurant um die Ecke. Sie essen eine heiße Pho-Suppe. Und Julien erzählt Emre von dem mysteriösen Bug.
+B: Und Emre? Hat er eine Idee?
+A: Emre fragt: „Was hat sich gestern geändert? Habt ihr gestern etwas Neues installiert?“ Und Julien denkt nach. Und dann fällt es ihm ein: Gestern Nachmittag hat ein Kollege ein kleines Update gemacht. Ein Update für die Datenbank.
+B: Aha! Eine heiße Spur! Eine Spur ist ein Zeichen, das zur Lösung führen kann. Wie bei einem Detektiv.
+A: Genau. Programmieren ist ein bisschen wie Detektivarbeit. Dreizehn Uhr dreißig. Julien kommt zurück und schaut sich das Update an. Und er findet etwas. Eine kleine Zeile im Code. Ein fehlendes Komma! Nur ein einziges, kleines Komma.
+B: Ein Komma! Ein einziges Komma hat die ganze Plattform zum Absturz gebracht?
+A: Ja! Das passiert wirklich oft. Ein kleiner Fehler mit großen Folgen. Julien korrigiert das Komma. Und testet. Und … die Plattform stürzt immer noch ab!
+B: Oh nein! Was?
+A: Vierzehn Uhr. Kaffee Nummer vier. Julien ist frustriert. Er hat Kopfschmerzen. Er macht einen kurzen Spaziergang um den Block. Mit frischer Luft im Kopf denkt er besser.
+B: Das ist ein guter Tipp. Wenn man nicht weiterkommt, eine Pause machen. Viele gute Ideen kommen beim Spazierengehen. Oder unter der Dusche.
+A: Genau. Und beim Spazierengehen hat er eine Idee. Er erinnert sich an eine alte Methode, die viele Programmierer benutzen: das Quietscheentchen-Debugging.
+B: Das Quietscheentchen-Debugging? Was ist das denn? Hahaha.
+A: Ein Quietscheentchen ist eine kleine gelbe Ente aus Gummi, für die Badewanne. Und die Methode ist so: Man erklärt seinen Code laut, Zeile für Zeile, einer Gummiente. Und beim Erklären merkt man oft selbst, wo der Fehler ist.
+B: Das ist ja genial! Wie bei Folge vierundvierzig: „Wer lehrt, lernt doppelt.“ Man versteht etwas besser, wenn man es erklärt.
+A: Genau! Julien hat tatsächlich eine kleine gelbe Ente auf seinem Schreibtisch. Ein Geschenk von Mira. Und er erklärt der Ente laut seinen Code. Seine Kollegen schauen ihn ein bisschen komisch an. Hahaha.
+B: Und? Hat die Ente geholfen?
+A: Ja! Nach zehn Minuten merkt er es: Das Problem war nicht nur das Komma. Das Update hat dazu geführt, dass zu viele Anfragen gleichzeitig an die Datenbank geschickt werden. Und wenn viele Studenten gleichzeitig ihre Projekte abgeben, ist die Datenbank überlastet.
+B: Überlastet heißt: Es ist zu viel auf einmal. Die Maschine schafft es nicht mehr.
+A: Genau. Darum stürzte die Plattform nur manchmal ab. Nur wenn sehr viele Studenten gleichzeitig online waren! Zum Beispiel am Abend vor einer Deadline.
+B: Natürlich! Am Abend vor einer Deadline geben alle gleichzeitig ab. Wie bei Studenten überall auf der Welt! Hahaha.
+A: Hahaha. Genau! Sechzehn Uhr. Julien schreibt eine Lösung. Er programmiert eine Warteschlange. Die Anfragen werden jetzt nacheinander bearbeitet, nicht alle gleichzeitig. Wie die Leute im Supermarkt an der Kasse.
+B: Und funktioniert es?
+A: Er testet die Lösung mit tausend simulierten Studenten. Und die Plattform läuft stabil. Kein einziger Absturz! Julien springt auf und ruft: „Ja! Endlich!“ Alle Kollegen klatschen.
+B: Das ist das beste Gefühl für einen Programmierer. Wenn der Code endlich funktioniert!
+A: Ja. Siebzehn Uhr. Julien schreibt eine kurze Dokumentation. Damit die Kollegen verstehen, was er gemacht hat. Und er stellt die gelbe Ente auf einen besonderen Platz auf seinem Schreibtisch. Als Ehrenmitglied des Teams.
+B: Hahaha. Die Ente hat die Plattform gerettet!
+A: Achtzehn Uhr. Feierabend. Julien fährt mit dem Fahrrad nach Hause. Er ist müde, aber zufrieden. Und er hat heute fünf Tassen Kaffee getrunken. Das ist eindeutig zu viel.
+B: Ich dachte, er trinkt nach vierzehn Uhr keinen Kaffee mehr? Folge fünfundfünfzig!
+A: Hahaha. Ja, normalerweise nicht. Aber heute war ein Notfall. Und darum hat er heute Abend auch Probleme beim Einschlafen. Aber das ist eine andere Geschichte.
+B: Gut. Und jetzt fassen wir die Adjektive zusammen, die wir gehört haben. Mit dem bestimmten Artikel: der alte Wecker, die kleine Küche, das große Gebäude, mit dem neuen Update.
+A: Mit dem unbestimmten Artikel: ein seltsamer Traum, eine kleine gelbe Ente, ein teures Geschenk, einen starken Kaffee.
+B: Und ohne Artikel: kalter Kaffee, frische Luft, hundert junge Studenten.
+A: Und noch ein Tipp: Viele Lernende haben am Anfang Probleme damit. Das ist normal. Auch auf C1-Niveau macht man manchmal noch Fehler. Und das ist kein Problem. Die Leute verstehen dich trotzdem. Kommunikation ist wichtiger als Perfektion.
+B: Genau. Wie beim Code: Es muss funktionieren. Ein fehlendes Komma ist nicht das Ende der Welt. Na ja, im Code manchmal schon. Hahaha.
+A: Hahaha. Jetzt bist du dran, Hörer, Hörerin. Beschreibe deinen Arbeitsplatz oder deinen Schreibtisch mit vielen Adjektiven. Sag es laut: „Auf meinem großen Schreibtisch steht ein alter Computer. Daneben liegt ein rotes Notizbuch …“
+B: Und erkläre einer Gummiente, oder einem Freund, ein Problem, das du gerade hast. Vielleicht findest du die Lösung!
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: der Albtraum. Ein schlimmer, schrecklicher Traum.
+A: Wort Nummer zwei: agil. Flexibel und schnell. Eine agile Arbeitsmethode.
+B: Wort Nummer drei: die Spur. Ein Zeichen, das zur Lösung führen kann.
+A: Wort Nummer vier: abstürzen. Der Computer oder ein Programm funktioniert plötzlich nicht mehr.
+B: Wort Nummer fünf: überlastet. Es ist zu viel auf einmal. Die Maschine schafft es nicht mehr.
+A: Und Wort Nummer sechs: das Quietscheentchen. Eine kleine gelbe Ente aus Gummi für die Badewanne.
+B: Noch einmal: der Albtraum, agil, die Spur, abstürzen, überlastet, das Quietscheentchen.
+A: Was lernen wir heute? Die Adjektivdeklination. Nach dem bestimmten Artikel meistens „-e“ oder „-en“: der neue Computer, den neuen Computer.
+B: Nach dem unbestimmten Artikel zeigt das Adjektiv das Genus: ein neuer Computer, ein großes Problem, eine alte Tastatur.
+A: Und ohne Artikel trägt das Adjektiv die Endung vom Artikel: heißer Kaffee, kalte Milch, frisches Brot.
+B: Und ein Tag als Entwickler: das Daily, Logdateien, ein Heisenbug, ein fehlendes Komma und das Quietscheentchen-Debugging.
+A: Das ist das Ende von Folge neunundfünfzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und denk daran: Kommunikation ist wichtiger als perfekte Endungen! Servus!
+A: Tschüss!
+VOCAB: der Albtraum | Ein schlimmer, schrecklicher Traum. | 😱
+VOCAB: agil | Flexibel und schnell. Eine agile Arbeitsmethode. | 🏃
+VOCAB: die Spur | Ein Zeichen, das zur Lösung führen kann. | 🐾
+VOCAB: abstürzen | Ein Computer oder Programm funktioniert plötzlich nicht mehr. | 💥
+VOCAB: überlastet | Es ist zu viel auf einmal, die Maschine schafft es nicht mehr. | 🥵
+VOCAB: das Quietscheentchen | Eine kleine gelbe Ente aus Gummi für die Badewanne. | 🦆
+QUIZ: Welche Form ist richtig? | ein neue Computer | ein neuer Computer | ein neuen Computer | 2
+QUIZ: Was ist ein „Heisenbug“? | Ein Bug, der verschwindet, wenn man ihn beobachten will | Ein sehr großer Bug | Ein Bug in der Physik | 1
+QUIZ: Welche Frage stellt Emre beim Mittagessen? | Was hat sich gestern geändert? | Wie spät ist es? | Wo ist die Ente? | 1
+QUIZ: Warum stürzte die Plattform nur manchmal ab? | Wenn sehr viele Studenten gleichzeitig online waren | Nur am Wochenende | Nur bei Regen | 1
+QUIZ: Wie heißt die Methode mit der Gummiente? | Ente-Programmierung | Quietscheentchen-Debugging | Bade-Debugging | 2
+`;
+
+DATA.podScripts.ep060 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge sechzig. Die letzte Folge vom Niveau B1!
+A: Unglaublich, wie schnell die Zeit vergeht! Und für diese letzte B1-Folge haben wir ein Thema gewählt, das dich seit Folge drei begleitet: die trennbaren Verben. Aufstehen, anrufen, herausfinden und viele mehr.
+B: Die trennbaren Verben sind eine der Besonderheiten der deutschen Sprache. Für viele Lernende sind sie am Anfang verwirrend. Und trotzdem sind sie überall im Alltag. Man kann kaum einen Satz sagen, ohne ein trennbares Verb zu benutzen.
+A: Heute wiederholen wir die Regeln. Und dann gehen wir einen Schritt weiter. Wir sprechen über die Bedeutung der Vorsilben. Denn viele trennbare Verben haben eine Logik. Wenn man die Vorsilben versteht, kann man viele neue Verben verstehen, ohne sie gelernt zu haben.
+B: Eine Vorsilbe ist der kleine Teil am Anfang vom Verb. Bei „aufstehen“ ist es „auf“. Bei „anrufen“ ist es „an“. Bei „herausfinden“ ist es „heraus“.
+A: Gut. Zuerst die Regeln. Im Hauptsatz im Präsens und Präteritum wird das Verb getrennt. Der Hauptteil steht an Position zwei, die Vorsilbe am Ende. „Ich stehe um sieben Uhr auf.“ „Er rief mich gestern an.“
+B: Im Perfekt kommt das „ge“ in die Mitte. „Ich bin um sieben Uhr aufgestanden.“ „Er hat mich angerufen.“
+A: Mit Modalverben und im Futur bleibt das Verb zusammen, im Infinitiv am Ende. „Ich muss morgen früh aufstehen.“ „Ich werde dich anrufen.“
+B: In Nebensätzen bleibt das Verb auch zusammen, am Ende. „Ich bin müde, weil ich so früh aufgestanden bin.“ „Weißt du, wann er ankommt?“
+A: Und mit „zu“ kommt das „zu“ in die Mitte. „Ich habe vergessen, dich anzurufen.“ „Es ist schwer, früh aufzustehen.“
+B: Und im Imperativ steht die Vorsilbe am Ende. „Ruf mich an!“ „Steh auf!“ „Mach das Fenster zu!“
+A: Super. Aber Achtung: Nicht alle Vorsilben sind trennbar. Die Vorsilben be-, ge-, er-, ver-, zer-, ent-, emp- und miss- sind nie trennbar. „Ich verstehe.“ „Ich bezahle.“ „Ich erzähle.“ Und sie haben im Perfekt kein „ge“: verstanden, bezahlt, erzählt.
+B: Und wie hört man den Unterschied? Bei trennbaren Verben ist die Betonung auf der Vorsilbe. AUFstehen, ANrufen, EINkaufen. Bei untrennbaren Verben ist die Betonung auf dem Verb. verSTEHen, beZAHlen, erZÄHlen.
+A: Genau. Das ist ein sehr guter Tipp für die Aussprache. Jetzt zu den Bedeutungen. Fangen wir mit „auf“ an. Jonas?
+B: „Auf“ hat mehrere Bedeutungen. Erstens: nach oben. Aufstehen, aufheben, aufsteigen. Zweitens: öffnen. Aufmachen, aufschließen. Das Gegenteil ist „zu“: zumachen, zuschließen.
+A: Drittens: der Anfang einer Handlung. Aufwachen, aufblühen. Und viertens: etwas vollständig oder bis zum Ende machen. Aufessen, das heißt: alles essen, nichts übrig lassen. Austrinken. Aufräumen.
+B: „Iss bitte deinen Teller auf!“ Das sagen alle Eltern. Hahaha.
+A: Genau. Nächste Vorsilbe: „an“. Die Grundbedeutung ist: Kontakt, Annäherung, Beginn.
+B: Anrufen: Kontakt mit dem Telefon. Ansprechen: zu jemandem sprechen, der Kontakt beginnt. Anfangen: der Beginn. Ankommen: man kommt an einem Ort an. Anmachen, also das Licht oder das Radio einschalten.
+A: Und das Gegenteil von „an“ ist oft „aus“. Anmachen, ausmachen. Anziehen, ausziehen. Einschalten, ausschalten.
+B: Und „aus“ hat auch die Bedeutung: nach draußen. Ausgehen, aussteigen, ausziehen aus einer Wohnung. Oder: bis zum Ende. Austrinken, ausschlafen.
+A: „Ausschlafen“ ist ein wunderbares Wort. Es heißt: so lange schlafen, bis man von allein aufwacht. Ohne Wecker. Am Sonntag schlafe ich aus.
+B: Das ist mein Lieblingswort! Hahaha. Und „ein“ ist das Gegenteil von „aus“, wenn es um Bewegung geht. Einsteigen, einziehen, eintreten, einkaufen. Nach innen.
+A: Dann „mit“. Das heißt: zusammen mit anderen. Mitkommen, mitnehmen, mitbringen, mitmachen, mitsingen.
+B: „Kommst du mit?“ ist eine sehr häufige Frage. Und „Bring bitte Wein mit!“ ist eine typische Bitte für eine Party.
+A: Dann „zurück“: wieder an den Anfang. Zurückkommen, zurückgeben, zurückrufen. „Ich rufe dich später zurück.“
+B: Und „weg“: an einen anderen Ort, nicht mehr hier. Weggehen, wegwerfen, wegnehmen, weglaufen.
+A: Und „vor“: nach vorne oder im Voraus. Vorstellen, vorbereiten, vorschlagen, vorlesen. „Ich lese dir die Geschichte vor.“
+B: Und „nach“: hinterher, oder kontrollieren. Nachdenken, nachfragen, nachschauen, nachmachen. „Ich muss darüber nachdenken.“
+A: Und dann gibt es die zusammengesetzten Vorsilben mit „her“ und „hin“. Das ist ein bisschen kompliziert. „Her“ bedeutet: in Richtung zum Sprecher. „Hin“ bedeutet: weg vom Sprecher.
+B: „Komm her!“ heißt: Komm zu mir. „Geh hin!“ heißt: Geh dorthin, weg von mir.
+A: Und daraus entstehen Vorsilben wie: herein, heraus, hinein, hinaus, herunter, hinunter. Und im Alltag sagt man oft nur „rein“, „raus“, „runter“, „rauf“. „Komm rein!“ „Geh raus!“
+B: Und manche dieser Verben haben eine übertragene Bedeutung. Zum Beispiel „herausfinden“. Man findet nicht wirklich etwas aus einem Ort heraus. Es heißt: durch Suchen die Antwort entdecken.
+A: Und das ist das Schwierige: Viele trennbare Verben haben eine wörtliche und eine übertragene Bedeutung. Zum Beispiel „ausgehen“. Wörtlich: nach draußen gehen. Aber auch: am Abend weggehen, feiern. Und: Das Licht geht aus. Und: Mir geht das Geld aus. Das heißt: Ich habe bald kein Geld mehr.
+B: Oder „aufgeben“. Man kann einen Brief aufgeben, also zur Post bringen. Man kann ein Paket aufgeben. Aber man kann auch einen Traum aufgeben. Also: nicht mehr versuchen.
+A: Und „vorstellen“! Das hat zwei sehr verschiedene Bedeutungen. „Ich stelle mich vor“ heißt: Ich sage meinen Namen. Folge eins! Aber „Ich stelle mir etwas vor“ heißt: Ich denke an ein Bild in meinem Kopf. Mit Dativ. „Stell dir vor, du bist in Paris!“
+B: Und „anmachen“. Das Licht anmachen, das Radio anmachen. Aber umgangssprachlich auch: mit jemandem flirten, oft auf eine unangenehme Art. „Er hat sie in der Bar angemacht.“ Und es heißt auch: Das macht mich an. Das gefällt mir sehr.
+A: Hahaha. Ja, Vorsicht mit „anmachen“! Je nach Kontext ist die Bedeutung ganz anders.
+B: Jetzt eine Übung. Ich sage dir eine Situation, und du antwortest mit einem passenden trennbaren Verb. Okay, Lena?
+A: Okay, ich bin bereit!
+B: Dein Handy klingelt, aber du bist unter der Dusche.
+A: Ich rufe später zurück.
+B: Im Zimmer ist es dunkel.
+A: Ich mache das Licht an.
+B: Du gehst zu einer Party. Was machst du mit dem Wein?
+A: Ich bringe ihn mit.
+B: Du hast den ganzen Tag keine Zeit gehabt, über ein Problem zu denken. Am Abend …
+A: … denke ich in Ruhe darüber nach.
+B: Perfekt! Und eine schwierige zum Schluss: Du hast keine Lust mehr, Deutsch zu lernen. Was sagst du?
+A: Ich gebe nicht auf! Niemals!
+B: Hahaha. Die beste Antwort! Jetzt du, Hörer, Hörerin. Du bist am Bahnhof und dein Zug ist da. Was machst du? … Richtig: Du steigst ein!
+A: Jetzt zur Geschichte. Die letzte Geschichte vom Niveau B1. Und wir haben uns etwas Besonderes überlegt. Wir erzählen einen Tag, an dem sich alle unsere Figuren treffen.
+B: Alle? Julien, Amira, Emre, Kenji, Mira, Katrin?
+A: Alle! Es ist ein Samstag im Juni. Und es ist ein besonderer Tag: Kenji eröffnet seine eigene Bäckerei. Herr Wagner ist in Rente gegangen, und Kenji hat die Bäckerei übernommen.
+B: Endlich! Das war sein großer Traum!
+A: Ja. Am Morgen steht Kenji um drei Uhr auf. Er ist so aufgeregt, dass er kaum geschlafen hat. Er fängt sofort an, den Teig vorzubereiten. Herr Schmidt, der alte Bäcker aus Folge siebenundfünfzig, kommt um vier Uhr und hilft ihm.
+B: Herr Schmidt! Wie schön, dass er dabei ist.
+A: Um sieben Uhr kommt Mira mit einem riesigen Blumenstrauß vorbei. Und mit Pixel, der Katze. Pixel darf natürlich nicht in die Bäckerei rein. Hygiene! Also bleibt er draußen und schaut durch das Fenster herein.
+B: Hahaha. Armer Pixel!
+A: Um acht Uhr schließt Kenji die Tür auf. Und draußen wartet schon eine lange Schlange! Emre hat am Abend vorher ein Video über die Eröffnung gepostet. Und hunderte Leute sind gekommen.
+B: Die Macht der sozialen Medien! Und die ersten Kunden?
+A: Die ersten Kunden sind Frau Schulze, die Nachbarin von Julien, und Herr Krüger mit seinem Hund. Herr Krüger ist extra aus Potsdam hergefahren. Frau Schulze probiert das Tokio-Berlin-Brot und sagt: „Hm. Nicht schlecht, junger Mann.“ Das ist das größte Kompliment, das man von ihr bekommen kann. Hahaha.
+B: Wie in Folge vierundfünfzig gesagt: In Deutschland ist das Lob leise!
+A: Genau! Um zehn Uhr kommen Julien und Katrin. Julien bringt eine gelbe Gummiente mit. Er stellt sie auf die Theke und sagt: „Für Glück. Sie hat schon eine ganze Plattform gerettet.“
+B: Hahaha. Die berühmte Ente!
+A: Um zwölf Uhr kommen Amira und Lukas. Amira hat eine besondere Nachricht. Sie zeigt allen ihre Hand. Dort ist ein Ring! Lukas hat ihr einen Heiratsantrag gemacht. Am Wochenende vorher, auf dem Gipfel des Berges in Tirol. Mit Hias als Bergführer.
+B: Oh! Wie romantisch! Auf dem Berg, wo sie zum ersten Mal mit Hias war!
+A: Genau. Alle umarmen sie und gratulieren. Und Kenji sagt sofort: „Die Hochzeitstorte backe ich! Das ist mein Geschenk!“
+B: Und am Nachmittag?
+A: Am Nachmittag schließt Kenji die Bäckerei früher zu. Alles ist ausverkauft! „Ausverkauft“ heißt: Es gibt nichts mehr. Alles ist verkauft. Und dann machen alle zusammen ein Picknick im Park, direkt neben der Bäckerei.
+B: Ein Picknick mit allen Figuren! Wie ein großes Familienfest.
+A: Genau. Sie sitzen auf Decken im Gras. Es gibt Brot, Käse, Obst, Börek von Emres Mutter, Couscous von Amira und Zwetschgenkuchen von Frau Schmid. Und Julien macht wieder eine kleine Rede.
+B: Natürlich! Julien und seine Reden!
+A: Er sagt: „Vor ein paar Jahren sind die meisten von uns in eine fremde Stadt gekommen. Wir haben am Anfang nichts verstanden. Wir haben uns verlaufen, wir haben Fehler gemacht, wir hatten Heimweh. Aber wir haben nicht aufgegeben. Und heute sind wir hier zusammen. Auf Kenjis Traum!“
+B: Und alle stoßen an. „Anstoßen“ heißt: die Gläser zusammenhalten und „Prost“ sagen. Noch ein trennbares Verb!
+A: Hahaha, genau! Und am Abend sitzen alle noch lange im Park. Die Sonne geht spät unter. Es ist Juni in Berlin. Und Kenji schaut auf seine Bäckerei und sagt leise: „Ich glaube, ich bin angekommen.“
+B: „Ankommen“. Das letzte trennbare Verb. Und vielleicht das schönste. Wörtlich heißt es: an einem Ort eintreffen. Aber es heißt auch: sich zu Hause fühlen. Seinen Platz gefunden haben.
+A: Wie schön. Jetzt bist du dran, Hörer, Hörerin. Erzähle deinen Tag mit möglichst vielen trennbaren Verben. Sag es laut: „Heute bin ich um … aufgestanden. Dann habe ich … Am Abend gehe ich …“
+B: Und wo bist du angekommen? Auf deinem Weg mit der deutschen Sprache?
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: die Vorsilbe. Der kleine Teil am Anfang vom Verb. Auf, an, aus, ein, mit.
+A: Wort Nummer zwei: ausschlafen. So lange schlafen, bis man von allein aufwacht.
+B: Wort Nummer drei: nachdenken. Lange und gründlich über etwas denken.
+A: Wort Nummer vier: sich etwas vorstellen. Ein Bild im Kopf haben. Stell dir vor!
+B: Wort Nummer fünf: ausverkauft. Es gibt nichts mehr, alles ist verkauft.
+A: Und Wort Nummer sechs: ankommen. An einem Ort eintreffen. Und auch: sich zu Hause fühlen.
+B: Noch einmal: die Vorsilbe, ausschlafen, nachdenken, sich etwas vorstellen, ausverkauft, ankommen.
+A: Was haben wir im Niveau B1 gelernt? Perfekt und Präteritum für Geschichten. „Seit“ und „vor“ für die Dauer. Meinungen begründen und diskutieren.
+B: Den Konjunktiv II für Träume und höfliche Bitten. „Sollte“ für Ratschläge. „Müssen“, „dürfen“ und den Unterschied zwischen „nicht müssen“ und „nicht dürfen“.
+A: Das Futur mit „werden“. Das Passiv. Nebensätze mit „obwohl“. Relativsätze. Die Adjektivdeklination. Und heute die Bedeutung der Vorsilben bei trennbaren Verben.
+B: Und viele Themen: Homeoffice, soziale Medien, Ernährung, Schlaf, Umwelt, Kulturschock, Videospiele, Ehrenamt, Erfindungen, Serien und ein Tag als Entwickler.
+A: Du kannst jetzt über fast alle Themen des Alltags sprechen, deine Meinung sagen und begründen, Geschichten erzählen und diskutieren. Das ist ein großer Schritt.
+B: Im Niveau B2 werden die Themen anspruchsvoller. „Anspruchsvoll“ heißt: schwieriger, mit höheren Anforderungen. Künstliche Intelligenz, Gehaltsverhandlungen, Fake News, Bürokratie, Teamarbeit. Und wir lernen nuancierter zu sprechen. Mit „während“, „obwohl“, „zwar … aber“, indirekter Rede und vielem mehr.
+A: Und unsere Freunde aus Berlin und Wien kommen natürlich wieder mit.
+B: Das ist das Ende von Folge sechzig und das Ende vom Niveau B1. Danke fürs Zuhören! Jetzt kommt das letzte B1-Quiz.
+A: Herzlichen Glückwunsch! Du hast B1 geschafft! Und vergiss nie: Gib nicht auf! Tschüss!
+B: Servus! Und wir sehen uns im Niveau B2!
+VOCAB: die Vorsilbe | Der kleine Teil am Anfang vom Verb: auf, an, aus, ein, mit. | 🧩
+VOCAB: ausschlafen | So lange schlafen, bis man von allein aufwacht. | 😴
+VOCAB: nachdenken | Lange und gründlich über etwas denken. | 🤔
+VOCAB: sich etwas vorstellen | Ein Bild im Kopf haben. Stell dir vor! | 🌈
+VOCAB: ausverkauft | Es gibt nichts mehr, alles ist verkauft. | 🈵
+VOCAB: ankommen | An einem Ort eintreffen, und auch: sich zu Hause fühlen. | 🏡
+QUIZ: Welcher Satz ist richtig? | Ich habe vergessen, dich anrufen. | Ich habe vergessen, dich anzurufen. | Ich habe vergessen, dich zu anrufen. | 2
+QUIZ: Welches Verb ist nicht trennbar? | aufstehen | verstehen | anrufen | 2
+QUIZ: Was bedeutet „Mir geht das Geld aus“? | Ich gebe viel Geld aus | Ich habe bald kein Geld mehr | Ich gehe mit Geld aus | 2
+QUIZ: Was bringt Julien zur Eröffnung der Bäckerei mit? | Blumen | Eine gelbe Gummiente | Einen Kuchen | 2
+QUIZ: Was hat Lukas Amira auf dem Berg gemacht? | Einen Heiratsantrag | Ein Picknick | Ein Foto | 1
+`;
