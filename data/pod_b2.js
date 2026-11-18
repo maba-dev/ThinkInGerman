@@ -1417,3 +1417,189 @@ QUIZ: Was ist die Zwei-Minuten-Regel? | Man fängt mit einer sehr kleinen Versio
 QUIZ: Warum schiebt Jonas das Schreiben auf? | Weil er faul ist | Weil er Angst hat, dass der Text nicht gut wird | Weil er keine Zeit hat | 2
 QUIZ: Womit schreibt Jonas jetzt im Kaffeehaus? | Mit dem Laptop | Mit dem Füller seines Großvaters | Mit dem Handy | 2
 `;
+
+DATA.podScripts.ep076 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge sechsundsiebzig. Heute packen wir wieder die Koffer. Aber diesmal stellen wir eine kritische Frage: Wie kann man reisen, ohne ein typischer Tourist zu sein? Unser Thema ist nachhaltiges Reisen.
+A: „Nachhaltig“ ist eines der wichtigsten Wörter unserer Zeit. Es bedeutet: so, dass man die Umwelt und die Ressourcen nicht zerstört, sondern auch für zukünftige Generationen erhält. Und beim Reisen geht es nicht nur um die Umwelt, sondern auch um die Menschen vor Ort.
+B: Denn Tourismus ist ein Dilemma, wie in Folge neunundsechzig. Einerseits bringt er Geld, Arbeitsplätze und kulturellen Austausch. Andererseits zerstört er manchmal genau das, was die Touristen sehen wollen.
+A: Und sprachlich üben wir heute Ausdrücke, um Absichten und Ziele zu beschreiben. Mit „um … zu“, „damit“, „sodass“ und „anstatt … zu“.
+B: „Um … zu“ benutzt man, wenn das Subjekt in beiden Teilen gleich ist. „Ich reise mit dem Zug, um die Umwelt zu schonen.“ Ich reise, und ich schone. Gleiches Subjekt.
+A: „Damit“ benutzt man, wenn die Subjekte verschieden sind. Oder auch bei gleichem Subjekt. „Ich kaufe auf dem lokalen Markt ein, damit das Geld bei den Menschen vor Ort bleibt.“ Ich kaufe, aber das Geld bleibt. Verschiedene Subjekte. Und „damit“ leitet einen Nebensatz ein, das Verb steht am Ende.
+B: „Sodass“ zeigt eine Folge, ein Ergebnis. „Es kamen so viele Touristen, sodass die Einwohner nicht mehr in ihrer Stadt leben konnten.“
+A: Und „anstatt … zu“ zeigt eine Alternative. „Anstatt in ein großes Hotel zu gehen, übernachte ich bei einer Familie.“ Man macht das eine statt des anderen.
+B: Gut. Fangen wir mit dem Problem an. Es gibt einen Begriff, der in den letzten Jahren sehr bekannt geworden ist: Übertourismus. Oder auf Englisch: „Overtourism“.
+A: Übertourismus bedeutet: An einem Ort gibt es so viele Touristen, dass es für die Einwohner, die Umwelt oder sogar für die Touristen selbst negativ wird.
+B: Das berühmteste Beispiel ist Venedig. Die Stadt hat nur noch etwa fünfzigtausend Einwohner in der historischen Altstadt. Vor siebzig Jahren waren es dreimal so viele. Aber jedes Jahr kommen Millionen Touristen. An manchen Tagen sind mehr Touristen in der Stadt als Einwohner.
+A: Und die Einwohner ziehen weg, weil die Wohnungen zu Ferienwohnungen werden, die Mieten steigen und es keine normalen Geschäfte mehr gibt. Nur noch Souvenirläden. Venedig verlangt inzwischen an bestimmten Tagen eine Eintrittsgebühr für Tagesbesucher. Fünf oder zehn Euro.
+B: Eintritt für eine Stadt! Wie in einem Museum. Und Barcelona hat ähnliche Probleme. Dort gab es Demonstrationen von Einwohnern gegen den Massentourismus. Sie haben Touristen mit Wasserpistolen bespritzt. Mit dem Slogan: „Tourists go home!“
+A: Das ist natürlich extrem. Aber es zeigt, wie groß die Frustration ist. Und auch in Deutschland und Österreich gibt es Orte mit Übertourismus.
+B: Absolut. Hallstatt in Österreich ist ein bekanntes Beispiel. Ein kleines, wunderschönes Dorf am See. Es hat ungefähr siebenhundert Einwohner. Aber in manchen Jahren kamen bis zu einer Million Besucher. Viele davon aus Asien, weil das Dorf in Filmen und in den sozialen Medien sehr bekannt wurde. Und in China gibt es sogar eine Kopie von Hallstatt!
+A: Eine Kopie? Wirklich?
+B: Ja! In der Provinz Guangdong hat man das Dorf nachgebaut. Mit dem See und den Häusern. Und viele Touristen wollten danach das Original sehen. Die Einwohner von Hallstatt haben irgendwann einen Bauzaun aufgestellt, damit die Leute nicht mehr an einer bestimmten Stelle Fotos machen. Das ist ein Symbol für das Problem geworden.
+A: Und in Deutschland? Neuschwanstein natürlich. Das Märchenschloss von König Ludwig dem Zweiten in Bayern. Über eine Million Besucher pro Jahr. Und die meisten kommen nur für zwei Stunden, machen ein Foto und fahren weiter.
+B: Und das ist ein Teil des Problems: der Tagestourismus. Busse kommen, die Leute steigen aus, machen Selfies, kaufen vielleicht einen Magneten und fahren wieder. Sie lassen wenig Geld da, aber viel Müll und Verkehr.
+A: Und die sozialen Medien verstärken das. Alle wollen das gleiche Foto vom gleichen Ort. Der „Instagram-Spot“. Es gibt Orte, an denen man stundenlang anstehen muss, um ein bestimmtes Foto zu machen.
+B: Gut. Und der zweite große Punkt ist die Umwelt. Besonders das Fliegen. Wir haben in Folge zweiundfünfzig darüber gesprochen. Ein Flug von Berlin nach New York und zurück verursacht pro Person etwa so viel CO2 wie ein Jahr Autofahren.
+A: Und Kreuzfahrten sind ein weiteres Problem. Große Kreuzfahrtschiffe verbrauchen enorme Mengen an Treibstoff und verschmutzen die Luft in den Hafenstädten. Und sie bringen tausende Touristen auf einmal in kleine Städte.
+B: Gut. Jetzt die Lösungen. Wie kann man reisen, ohne Tourist zu sein? Oder zumindest ein besserer Tourist?
+A: Erstens: langsamer reisen. „Slow Travel“. Anstatt in zehn Tagen fünf Länder zu besuchen, bleibt man lieber zehn Tage an einem Ort. Man lernt die Gegend wirklich kennen. Man geht in die gleichen Cafés, man lernt die Menschen kennen.
+B: Ich finde das so viel schöner. In Folge fünfundvierzig habe ich von Island erzählt. Ich habe am Ende nicht viel von der Insel gesehen, weil ich zwei Tage bei dem Bauern geblieben bin. Aber das war das intensivste Erlebnis.
+A: Zweitens: in der Nebensaison reisen. Die Nebensaison ist die Zeit, in der weniger Touristen kommen. Nicht im August nach Italien, sondern im Mai oder Oktober. Es ist günstiger, ruhiger, und die Einwohner sind entspannter.
+B: Drittens: weniger bekannte Orte entdecken. Anstatt nach Hallstatt zu fahren, kann man in eines der vielen anderen, genauso schönen Dörfer im Salzkammergut fahren. Wo es fast keine Touristen gibt. Österreich ist voll von wunderschönen Orten, die niemand auf Instagram kennt.
+A: Und in Deutschland? Die Sächsische Schweiz ist schön, aber oft voll. Aber es gibt das Fichtelgebirge, die Uckermark, die Schwäbische Alb. Wunderbare Regionen, die viele Deutsche selbst nicht kennen.
+B: Viertens: mit dem Zug reisen statt mit dem Flugzeug, wo es möglich ist. Und die Reise selbst als Teil des Urlaubs sehen. Mit dem Nachtzug, Folge zweiundzwanzig, ist man über Nacht in Wien, in Paris, in Rom.
+A: Fünftens: lokal einkaufen und essen. Damit das Geld bei den Menschen vor Ort bleibt. Nicht bei großen internationalen Ketten, sondern im kleinen Familienrestaurant, beim lokalen Bäcker, auf dem Markt.
+B: Sechstens: die Sprache lernen. Zumindest ein paar Wörter. Wir haben das in Folge fünfundvierzig gesagt. Aber es ist wirklich wichtig. Es zeigt Respekt. Und es öffnet Türen.
+A: Und siebtens: die lokalen Regeln und die Kultur respektieren. Sich angemessen kleiden, besonders in religiösen Orten. Fragen, bevor man Menschen fotografiert. Leise sein in Wohngebieten.
+B: Und es gibt auch neue Formen des Reisens. Zum Beispiel „Workaway“ oder „WWOOFing“. Man arbeitet ein paar Stunden pro Tag auf einem Bauernhof, in einem Hostel oder in einem sozialen Projekt, und bekommt dafür Unterkunft und Essen. So lernt man Land und Leute wirklich kennen.
+A: Oder Wohnungstausch. Man tauscht für zwei Wochen die Wohnung mit einer Familie aus einem anderen Land. Man wohnt wie ein Einheimischer, in einem normalen Wohnviertel, statt in einem Hotel.
+B: Und natürlich: Urlaub vor der eigenen Haustür. Man muss nicht immer weit reisen, um etwas Neues zu entdecken. Viele Menschen kennen die Region, in der sie wohnen, kaum.
+A: Das stimmt. Ich wohne seit neun Jahren in Berlin und habe Brandenburg kaum erkundet. Dabei gibt es dort wunderschöne Seen, Wälder und kleine Städte.
+B: Und es gibt eine interessante Kritik an der ganzen Idee. Manche sagen: Der „Nicht-Tourist“, der alles authentisch erleben will, ist auch ein Problem. Weil er in die letzten ruhigen Viertel geht und dort die Gentrifizierung startet. Wie in Folge neunundsechzig.
+A: Das ist ein guter Punkt. Ein Tourist, der unbedingt kein Tourist sein will, ist eben auch ein Tourist. Hahaha. Vielleicht ist das Ziel nicht, kein Tourist zu sein, sondern ein respektvoller Gast.
+B: Ein respektvoller Gast. Das gefällt mir. Jetzt zur Geschichte. Diesmal geht es um Amira und Lukas. Sie planen ihre Hochzeitsreise.
+A: Oh, schön! Die Flitterwochen! Wohin wollen sie?
+B: Am Anfang hatten sie unterschiedliche Pläne. Lukas wollte auf die Malediven. Weißer Strand, ein Bungalow über dem Wasser, Luxus. Amira wollte eigentlich nach Marokko, damit Lukas ihre ganze Familie kennenlernt.
+A: Zwei sehr unterschiedliche Ideen.
+B: Ja. Und dann hat Amira etwas über die Malediven gelesen. Dass viele Inseln wegen des steigenden Meeresspiegels in Gefahr sind. Und dass viele Luxusresorts kaum Geld an die lokale Bevölkerung geben. Und dass der Flug sehr viel CO2 verursacht.
+A: Und Lukas?
+B: Lukas war zuerst enttäuscht. Er sagte: „Wir heiraten nur einmal. Ich will auch einmal im Leben Luxus.“ Und das ist ja auch verständlich.
+A: Natürlich. Und wie haben sie einen Kompromiss gefunden?
+B: Sie haben sich hingesetzt und überlegt, was ihnen eigentlich wichtig ist. Lukas wollte Ruhe, Meer und etwas Besonderes. Amira wollte ihre Familie und ihre Kultur zeigen. Und beide wollten nicht ständig im Flugzeug sitzen.
+A: Und die Lösung?
+B: Sie fahren mit dem Zug von Berlin nach Südfrankreich, und von dort mit der Fähre über das Mittelmeer nach Marokko. Die Reise dauert drei Tage. Aber sie ist ein Teil der Flitterwochen. Mit einer Nacht in Paris und einer Nacht in Barcelona.
+A: Wie romantisch! Eine Reise mit Zug und Schiff.
+B: Genau. Und in Marokko verbringen sie zuerst eine Woche bei Amiras Familie in Casablanca. Lukas lernt die ganze Familie kennen. Die Mutter, die Brüder, die Tanten, die Cousins. Und sie feiern eine zweite, marokkanische Hochzeit.
+A: Zwei Hochzeiten! Und danach?
+B: Danach reisen sie in den Süden, an die Atlantikküste. In ein kleines Gästehaus in einem Dorf in der Nähe von Essaouira. Es gehört einer Familie, die mit dem Geld aus dem Tourismus eine Schule im Dorf unterstützt. Dort gibt es keinen Luxus. Aber das Meer, die Ruhe und einen wunderbaren Sonnenuntergang jeden Abend.
+A: Und hat Lukas den Luxus vermisst?
+B: Er sagt, das sei der größte Luxus seines Lebens gewesen. Nicht der teure Bungalow, sondern die Zeit. Die Stille. Und das Gefühl, willkommen zu sein. Amiras Großmutter hat ihm jeden Morgen frisches Brot gebacken. Und sie hat ihm Arabisch beigebracht. Ein paar Wörter jeden Tag.
+A: Wie schön. Und hat er etwas Arabisch gelernt?
+B: Genug, um bei der marokkanischen Hochzeit eine kleine Rede zu halten. Auf Arabisch, mit vielen Fehlern. Und Amiras Mutter hat geweint. Wie Amira bei Frau Beckers Abschiedsfeier.
+A: Die Reden in unserer Geschichte sind immer emotional! Hahaha. Jetzt bist du dran, Hörer, Hörerin. Plane eine nachhaltige Reise. Beschreibe deine Absichten mit „um … zu“, „damit“ und „anstatt … zu“. Zum Beispiel: „Ich reise mit dem Zug, um …“ „Ich übernachte bei …, damit …“ „Anstatt … zu …, …“
+B: Und denk an einen Ort in deiner Nähe, den du noch nie besucht hast. Vielleicht ist das dein nächstes Reiseziel!
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: nachhaltig. So, dass man die Umwelt und die Ressourcen auch für zukünftige Generationen erhält.
+A: Wort Nummer zwei: der Übertourismus. So viele Touristen, dass es für den Ort negativ wird.
+B: Wort Nummer drei: die Nebensaison. Die Zeit, in der weniger Touristen kommen.
+A: Wort Nummer vier: anstatt … zu. Man macht das eine statt des anderen.
+B: Wort Nummer fünf: die Unterkunft. Der Ort, wo man auf einer Reise schläft. Hotel, Pension, Gästehaus.
+A: Und Wort Nummer sechs: der Einheimische. Eine Person, die an einem Ort lebt, kein Tourist.
+B: Noch einmal: nachhaltig, der Übertourismus, die Nebensaison, anstatt … zu, die Unterkunft, der Einheimische.
+A: Was lernen wir heute? Absichten ausdrücken: „um … zu“ bei gleichem Subjekt, „damit“ bei verschiedenen Subjekten, „sodass“ für eine Folge und „anstatt … zu“ für eine Alternative.
+B: Der Übertourismus: Venedig, Barcelona, Hallstatt und Neuschwanstein. Die Einwohner leiden unter zu vielen Besuchern.
+A: Die Lösungen: langsamer reisen, in der Nebensaison, weniger bekannte Orte, mit dem Zug, lokal einkaufen und die Sprache lernen.
+B: Und das Ziel: nicht unbedingt kein Tourist sein, sondern ein respektvoller Gast.
+A: Das ist das Ende von Folge sechsundsiebzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und gute Reise, als respektvoller Gast! Servus!
+A: Tschüss!
+VOCAB: nachhaltig | So, dass Umwelt und Ressourcen für zukünftige Generationen erhalten bleiben. | 🌱
+VOCAB: der Übertourismus | So viele Touristen, dass es für den Ort negativ wird. | 🧳
+VOCAB: die Nebensaison | Die Zeit, in der weniger Touristen kommen. | 🍂
+VOCAB: anstatt … zu | Man macht das eine statt des anderen. | 🔄
+VOCAB: die Unterkunft | Der Ort, wo man auf einer Reise schläft. | 🛏️
+VOCAB: der Einheimische | Eine Person, die an einem Ort lebt, kein Tourist. | 🏘️
+QUIZ: Welcher Satz ist richtig? | Ich reise mit dem Zug, damit die Umwelt zu schonen. | Ich reise mit dem Zug, um die Umwelt zu schonen. | Ich reise mit dem Zug, um ich schone die Umwelt. | 2
+QUIZ: Was hat Venedig gegen den Übertourismus eingeführt? | Ein Verbot für Touristen | Eine Eintrittsgebühr für Tagesbesucher an bestimmten Tagen | Mehr Hotels | 2
+QUIZ: Was gibt es von Hallstatt in China? | Eine Kopie des Dorfes | Ein Restaurant | Eine Partnerstadt | 1
+QUIZ: Wie reisen Amira und Lukas nach Marokko? | Mit dem Flugzeug | Mit Zug und Fähre | Mit dem Auto | 2
+QUIZ: Was hat Lukas bei der marokkanischen Hochzeit gemacht? | Er hat gekocht | Er hat eine kleine Rede auf Arabisch gehalten | Er hat getanzt | 2
+`;
+
+DATA.podScripts.ep077 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge siebenundsiebzig. Heute sprechen wir über ein Thema, das jeden betrifft, der ein Smartphone oder einen Computer benutzt. Also fast alle. Unser Thema: Cybersicherheit für alle.
+A: Cybersicherheit bedeutet: der Schutz von Computern, Netzwerken, Programmen und Daten vor Angriffen, Diebstahl und Schaden. Und das klingt zuerst sehr technisch. Aber eigentlich geht es um ganz alltägliche Dinge. Passwörter, verdächtige E-Mails, unsichere WLAN-Netze, gestohlene Daten.
+B: Und die meisten Angriffe richten sich nicht gegen große Firmen oder Regierungen, sondern gegen ganz normale Menschen. Weil normale Menschen oft am leichtesten zu täuschen sind. Die Kriminellen sagen: Der Mensch ist die größte Schwachstelle.
+A: „Die Schwachstelle“ ist der schwache Punkt in einem System, wo ein Angriff am leichtesten ist. Und heute lernen wir, wie wir diese Schwachstelle stärker machen. Mit Julien als unserem technischen Berater im Hintergrund. Hahaha.
+B: Und sprachlich üben wir heute Warnungen, Ratschläge und Anweisungen in verschiedenen Formen. Mit Imperativ, mit „sollte“, mit Infinitivkonstruktionen und mit dem Passiv mit Modalverb. Wobei wir das Passiv mit Modalverb ausführlicher in Folge neunundsiebzig behandeln.
+A: Zum Beispiel: „Öffnen Sie keine unbekannten Anhänge!“ Das ist ein Imperativ. „Man sollte niemals das gleiche Passwort mehrmals benutzen.“ „Es empfiehlt sich, die Zwei-Faktor-Authentifizierung zu aktivieren.“ Und „Passwörter müssen regelmäßig überprüft werden.“
+B: „Es empfiehlt sich“ ist ein typisch formeller Ausdruck. Er bedeutet: Es ist eine gute Idee, man sollte. Man findet ihn oft in offiziellen Anleitungen und Ratgebern.
+A: Gut. Fangen wir mit dem häufigsten Angriff an: Phishing. Das Wort kommt von „fishing“, also angeln. Die Kriminellen werfen einen Köder aus und warten, dass jemand anbeißt.
+B: Beim Phishing bekommt man eine Nachricht, meistens eine E-Mail oder SMS, die aussieht, als käme sie von einer vertrauenswürdigen Organisation. Von der Bank, von der Post, von einem Paketdienst, von der Krankenkasse, von einem Online-Shop. Und man soll auf einen Link klicken und seine Daten eingeben.
+A: Zum Beispiel: „Ihr Konto wurde aus Sicherheitsgründen gesperrt. Bitte bestätigen Sie Ihre Daten innerhalb von vierundzwanzig Stunden, sonst wird Ihr Konto gelöscht.“ Und der Link führt zu einer gefälschten Webseite, die genauso aussieht wie die echte Bankseite.
+B: Und wenn man dort sein Passwort eingibt, haben es die Kriminellen. Wie erkennt man Phishing? Es gibt typische Warnsignale.
+A: Erstens: Zeitdruck. „Sofort“, „innerhalb von vierundzwanzig Stunden“, „letzte Warnung“. Die Kriminellen wollen, dass man in Panik gerät und nicht nachdenkt. Wie bei den Fake News in Folge siebzig: Starke Gefühle sind ein Warnsignal.
+B: Zweitens: Die Absenderadresse. Oft sieht der Name richtig aus, „Deutsche Bank“, aber die echte E-Mail-Adresse ist etwas wie „service at bank-sicherheit-123 punkt com“. Man sollte immer die vollständige Adresse prüfen.
+A: Drittens: Die Anrede. Seriöse Firmen sprechen einen meistens mit dem Namen an. „Sehr geehrte Frau Hoffmann.“ Phishing-Mails schreiben oft „Sehr geehrter Kunde“ oder „Lieber Nutzer“.
+B: Wobei das nicht mehr ganz zuverlässig ist. Die Kriminellen werden immer besser. Durch Datenlecks kennen sie oft schon den Namen. Und dank künstlicher Intelligenz sind die Texte inzwischen fast fehlerfrei. Früher konnte man Phishing oft an schlechtem Deutsch erkennen. Heute nicht mehr.
+A: Viertens: Links prüfen. Bevor man klickt, sollte man mit der Maus über den Link fahren, ohne zu klicken. Dann sieht man, wohin der Link wirklich führt. Und im Zweifel: nicht klicken, sondern die Webseite der Bank selbst im Browser eingeben.
+B: Und die wichtigste Regel: Eine seriöse Bank fragt einen niemals per E-Mail oder SMS nach Passwort, PIN oder TAN. Niemals. Wer danach fragt, ist ein Betrüger.
+A: Und es gibt auch Telefonbetrug. Man nennt das „Vishing“, von „Voice“ und „Phishing“. Jemand ruft an und gibt sich als Mitarbeiter der Bank, der Polizei oder einer Technikfirma aus.
+B: Und eine besonders gemeine Variante ist der Enkeltrick. Oder heute der Enkeltrick per WhatsApp. Eltern oder Großeltern bekommen eine Nachricht: „Hallo Mama, das ist meine neue Nummer. Mein Handy ist kaputt.“ Und dann nach ein paar Nachrichten: „Ich habe ein Problem, kannst du mir schnell Geld überweisen? Es ist dringend.“
+A: Und das funktioniert erschreckend oft. Weil die Eltern helfen wollen. Und weil sie in Stress geraten. Der Schaden geht in Deutschland jedes Jahr in die Millionen.
+B: Der Tipp: Immer die Person unter der alten, bekannten Nummer zurückrufen. Oder eine persönliche Frage stellen, die nur die echte Person beantworten kann. Manche Familien vereinbaren sogar ein geheimes Codewort.
+A: Ein Codewort für die Familie! Das ist eine gute Idee. Jetzt die Passwörter. Das ist das zweite große Thema.
+B: Ja. Und hier machen die meisten Menschen die gleichen Fehler. Jedes Jahr veröffentlicht das Hasso-Plattner-Institut in Potsdam eine Liste der beliebtesten Passwörter in Deutschland. Und auf Platz eins steht seit Jahren: eins, zwei, drei, vier, fünf, sechs.
+A: Hahaha. Wirklich? Nach so vielen Warnungen?
+B: Ja! Und auf den nächsten Plätzen: „Passwort“, „Hallo“, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun. Und „Schatz“. Solche Passwörter knacken Computer in Sekunden.
+A: „Knacken“ heißt hier: ein Passwort oder einen Code durch Ausprobieren herausfinden. Wie ein Tresor, den man aufbricht.
+B: Genau. Was macht ein gutes Passwort aus? Früher hat man gesagt: Es muss kompliziert sein, mit Sonderzeichen, Zahlen, Groß- und Kleinbuchstaben. Und man soll es alle drei Monate ändern.
+A: Und das hat sich geändert, oder?
+B: Ja. Heute empfiehlt das Bundesamt für Sicherheit in der Informationstechnik, kurz BSI, vor allem lange Passwörter. Länge ist wichtiger als Komplexität. Zum Beispiel eine Passphrase. Ein Satz aus mehreren zufälligen Wörtern. „Elefant Kaffeetasse Regenschirm Montag“. Das ist sehr lang und trotzdem leicht zu merken.
+A: Und das regelmäßige Ändern?
+B: Das empfiehlt man nicht mehr, wenn es keinen Grund gibt. Denn wer gezwungen wird, das Passwort ständig zu ändern, macht es meistens einfacher. „Sommer2024“, dann „Herbst2024“. Hahaha. Man ändert es nur, wenn es einen Verdacht gibt, dass es gestohlen wurde.
+A: Und die wichtigste Regel: Für jeden Dienst ein anderes Passwort. Denn wenn ein Online-Shop gehackt wird und das Passwort gestohlen wird, probieren die Kriminellen es sofort bei E-Mail, Bank und sozialen Medien aus.
+B: Aber wie soll man sich hundert verschiedene Passwörter merken?
+A: Mit einem Passwort-Manager. Das ist ein Programm, das alle Passwörter verschlüsselt speichert. Man muss sich nur noch ein einziges, sehr gutes Master-Passwort merken. Und der Passwort-Manager erzeugt für jeden Dienst ein zufälliges, starkes Passwort.
+B: Und dann der vielleicht wichtigste Schutz überhaupt: die Zwei-Faktor-Authentifizierung. Auch Zwei-Faktor-Anmeldung genannt.
+A: Das bedeutet: Um sich anzumelden, braucht man zwei verschiedene Dinge. Etwas, das man weiß, also das Passwort. Und etwas, das man besitzt, zum Beispiel das Handy, auf das ein Code geschickt wird. Oder eine App, die einen Code erzeugt.
+B: Das heißt: Selbst wenn ein Krimineller das Passwort stiehlt, kann er sich nicht anmelden, weil er das Handy nicht hat. Es empfiehlt sich, die Zwei-Faktor-Authentifizierung überall zu aktivieren, wo es möglich ist. Besonders bei E-Mail und Bank.
+A: Gut. Und weitere Tipps? Erstens: Updates. Man sollte Software und Betriebssysteme immer aktualisieren. Viele Updates schließen Sicherheitslücken. Wer sie ignoriert, lässt die Tür offen.
+B: Zweitens: öffentliche WLAN-Netze. Im Café, am Flughafen, im Hotel. Dort sollte man keine sensiblen Dinge machen, wie Online-Banking. Oder ein VPN benutzen. Ein VPN verschlüsselt die Verbindung.
+A: Drittens: Datensicherung. Regelmäßig Backups machen. Eine Kopie der wichtigen Daten auf einer externen Festplatte oder in einer Cloud. Folge zweiunddreißig: speichern, speichern, speichern!
+B: Und das ist besonders wichtig wegen Ransomware. Das ist eine Schadsoftware, die alle Daten auf dem Computer verschlüsselt. Und dann verlangen die Kriminellen ein Lösegeld, damit man die Daten zurückbekommt. Wer ein aktuelles Backup hat, muss nicht bezahlen.
+A: Und viertens: Was man in sozialen Medien teilt. Viele Menschen posten Informationen, die für Kriminelle nützlich sind. Das Geburtsdatum, den Namen des Haustieres, die Schule, den Urlaub. Und genau das sind oft die Antworten auf Sicherheitsfragen.
+B: Und wer postet „Endlich zwei Wochen Urlaub in Thailand!“, sagt auch Einbrechern: Meine Wohnung ist zwei Wochen leer.
+A: Gut. Jetzt zur Geschichte. Und diesmal geht es um Herrn Krüger. Den netten Rentner aus Potsdam mit dem Hund, der Julien die Wohnung vermietet hat.
+B: Oh nein. Ich ahne schon etwas.
+A: Ja. Herr Krüger ist zweiundsiebzig, sehr freundlich und vertrauensvoll. Eines Tages bekommt er eine SMS. „Ihr Paket konnte nicht zugestellt werden. Bitte bestätigen Sie Ihre Adresse und zahlen Sie eine Gebühr von einem Euro neunundneunzig.“ Mit einem Link.
+B: Der klassische Paket-Betrug.
+A: Genau. Und Herr Krüger wartet tatsächlich auf ein Paket. Er hat ein Buch für seine Enkelin bestellt. Also klickt er auf den Link. Die Webseite sieht aus wie die echte Seite eines Paketdienstes. Und er gibt seine Kreditkartendaten ein. Für einen Euro neunundneunzig, das ist ja nicht viel.
+B: Oh nein. Und dann?
+A: Am nächsten Tag ruft ihn seine Bank an. Eine echte Mitarbeiterin. Sie sagt, es gebe verdächtige Abbuchungen von seiner Kreditkarte. Achthundert Euro für Elektronik in einem Online-Shop in Asien. Herr Krüger ist geschockt.
+B: Zum Glück hat die Bank es bemerkt.
+A: Ja. Die Bank hat die Karte sofort gesperrt. Und weil Herr Krüger es schnell gemeldet hat, bekommt er das Geld wahrscheinlich zurück. Aber er schämt sich sehr. Er sagt: „Ich bin doch nicht dumm. Wie konnte mir das passieren?“
+B: Das ist das Problem. Die Opfer schämen sich, und deshalb sprechen sie nicht darüber. Und andere machen den gleichen Fehler.
+A: Genau. Er ruft Julien an. Und Julien kommt sofort nach Potsdam. Er sagt: „Herr Krüger, das hat nichts mit Dummheit zu tun. Diese Betrüger sind Profis. Das passiert auch IT-Experten.“
+B: Und was haben sie gemacht?
+A: Zuerst haben sie Anzeige bei der Polizei erstattet. Das kann man in Deutschland auch online machen. Dann hat Julien mit Herrn Krüger seine digitale Sicherheit überprüft. Und er hat einiges gefunden. Herr Krüger hatte für alle Konten das gleiche Passwort: den Namen seines Hundes und sein Geburtsjahr.
+B: Oh je. Und der Name des Hundes steht wahrscheinlich in seinem Facebook-Profil.
+A: Natürlich! Mit vielen Fotos. Hahaha. Also haben sie zusammen einen Passwort-Manager eingerichtet. Julien hat Herrn Krüger erklärt, wie man eine Passphrase bildet. Und Herr Krüger hat sich eine sehr lange Passphrase ausgedacht, die nur er versteht.
+B: Und die Zwei-Faktor-Authentifizierung?
+A: Haben sie überall aktiviert. Und dann hatte Herr Krüger eine Idee. Er ist sehr aktiv in einem Seniorenverein in Potsdam. Und er hat gesagt: „Wenn mir das passiert, passiert das vielen anderen auch. Und alle schämen sich.“
+B: Ich ahne, was jetzt kommt.
+A: Ja! Er hat Julien gebeten, im Seniorenverein einen Vortrag über Cybersicherheit zu halten. Und Herr Krüger hat am Anfang selbst erzählt, was ihm passiert ist. Ganz offen. Und plötzlich haben die anderen auch erzählt. Eine Frau hatte den WhatsApp-Enkeltrick erlebt. Ein Mann hatte einem falschen Microsoft-Mitarbeiter Zugriff auf seinen Computer gegeben.
+B: Und vorher hatte niemand darüber gesprochen.
+A: Genau. Aus Scham. Und jetzt treffen sie sich einmal im Monat. Sie nennen sich die „Digitalen Detektive“. Hahaha. Sie zeigen sich gegenseitig verdächtige Nachrichten und warnen sich. Und Frau Schulze aus Berlin ist auch dabei, nachdem sie in Folge siebzig ihre eigene Erfahrung mit der falschen Wasser-Nachricht gemacht hat.
+B: Die Digitalen Detektive! Herr Krüger und Frau Schulze! Was für ein Team!
+A: Jetzt bist du dran, Hörer, Hörerin. Gib einem Freund oder einer Freundin Ratschläge zur Cybersicherheit. Benutze verschiedene Formen: „Klick nie auf …!“ „Man sollte …“ „Es empfiehlt sich, … zu …“
+B: Und denk an deine eigenen Passwörter. Gibt es eines, das du mehrmals benutzt? Vielleicht ist heute ein guter Tag, um das zu ändern.
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: die Schwachstelle. Der schwache Punkt in einem System, wo ein Angriff am leichtesten ist.
+A: Wort Nummer zwei: es empfiehlt sich. Es ist eine gute Idee, man sollte. Formell.
+B: Wort Nummer drei: verdächtig. So, dass man vermutet, etwas ist falsch oder kriminell.
+A: Wort Nummer vier: knacken. Ein Passwort oder einen Code durch Ausprobieren herausfinden.
+B: Wort Nummer fünf: verschlüsseln. Daten so verändern, dass nur berechtigte Personen sie lesen können.
+A: Und Wort Nummer sechs: Anzeige erstatten. Eine Straftat bei der Polizei melden.
+B: Noch einmal: die Schwachstelle, es empfiehlt sich, verdächtig, knacken, verschlüsseln, Anzeige erstatten.
+A: Was lernen wir heute? Phishing erkennt man an Zeitdruck, falschen Absendern und verdächtigen Links. Und eine Bank fragt nie per E-Mail nach dem Passwort.
+B: Gute Passwörter sind lang, wie eine Passphrase. Für jeden Dienst ein anderes, mit einem Passwort-Manager.
+A: Die Zwei-Faktor-Authentifizierung ist einer der wichtigsten Schutzmechanismen. Und Updates und Backups sind Pflicht.
+B: Und das Wichtigste: Wer Opfer wird, sollte sich nicht schämen, sondern darüber sprechen. Damit andere gewarnt sind.
+A: Das ist das Ende von Folge siebenundsiebzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und aktiviere heute noch die Zwei-Faktor-Authentifizierung! Servus!
+A: Tschüss!
+VOCAB: die Schwachstelle | Der schwache Punkt in einem System. | 🎯
+VOCAB: es empfiehlt sich | Es ist eine gute Idee, man sollte. Formell. | 👍
+VOCAB: verdächtig | So, dass man vermutet, etwas ist falsch oder kriminell. | 🕵️
+VOCAB: knacken | Ein Passwort oder einen Code durch Ausprobieren herausfinden. | 🔓
+VOCAB: verschlüsseln | Daten so verändern, dass nur Berechtigte sie lesen können. | 🔐
+VOCAB: Anzeige erstatten | Eine Straftat bei der Polizei melden. | 🚔
+QUIZ: Was ist ein typisches Warnsignal für Phishing? | Eine persönliche Anrede mit dem Namen | Starker Zeitdruck und Drohungen | Eine lange, freundliche E-Mail | 2
+QUIZ: Was ist das beliebteste Passwort in Deutschland? | Passwort | Eins, zwei, drei, vier, fünf, sechs | Der eigene Name | 2
+QUIZ: Was ist heute wichtiger bei einem Passwort? | Die Länge | Dass man es jeden Monat ändert | Dass es kurz ist | 1
+QUIZ: Was war das alte Passwort von Herrn Krüger? | Eins, zwei, drei, vier | Der Name seines Hundes und sein Geburtsjahr | Sein Geburtstag | 2
+QUIZ: Wie nennt sich die Gruppe im Seniorenverein? | Die Digitalen Detektive | Die Passwort-Profis | Die Internet-Polizei | 1
+`;
