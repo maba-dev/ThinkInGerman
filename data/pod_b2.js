@@ -277,3 +277,393 @@ QUIZ: Welche Berufe gelten als relativ sicher? | Einfache Buchhaltung | Pflegekr
 QUIZ: Welches Problem bemerkte man an der Programmierschule? | Manche Studenten konnten ihren eigenen Code nicht erklären | Die Computer waren zu langsam | Es gab zu wenig Studenten | 1
 QUIZ: Was war Katrins Lösung? | KI komplett verbieten | Studenten müssen ihren Code live verändern und erklären | Nur noch Papier und Stift benutzen | 2
 `;
+
+DATA.podScripts.ep064 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge vierundsechzig. Heute wird es ein bisschen melancholisch, aber hoffentlich auch tröstlich. Wir sprechen über das Bedauern. Über Dinge, die wir anders gemacht hätten, wenn wir es nur gewusst hätten.
+A: „Bedauern“ ist das Gefühl, wenn man sich wünscht, dass man in der Vergangenheit eine andere Entscheidung getroffen hätte. Man bereut etwas. Und jeder Mensch kennt dieses Gefühl. Die verpasste Chance, das ungesagte Wort, der falsche Weg.
+B: Und dafür brauchen wir eine Form, die man auf dem Niveau B2 sicher beherrschen sollte: den Konjunktiv II der Vergangenheit. In Folge sechsundvierzig haben wir den Konjunktiv II der Gegenwart gelernt. „Wenn ich reich wäre, würde ich reisen.“ Das ist ein Traum über die Gegenwart oder Zukunft.
+A: Heute geht es um die Vergangenheit. Um Dinge, die nicht passiert sind und die man nicht mehr ändern kann. „Wenn ich mehr gelernt hätte, hätte ich die Prüfung bestanden.“ Die Prüfung ist vorbei. Ich habe nicht genug gelernt. Ich habe sie nicht bestanden. Das ist die Realität. Und der Konjunktiv II der Vergangenheit beschreibt die alternative Realität.
+B: Die Form ist eigentlich logisch. Man nimmt das Perfekt und ersetzt „haben“ durch „hätte“ und „sein“ durch „wäre“. Perfekt: „Ich habe gelernt.“ Konjunktiv: „Ich hätte gelernt.“ Perfekt: „Ich bin gefahren.“ Konjunktiv: „Ich wäre gefahren.“
+A: Also: „hätte“ oder „wäre“ an Position zwei, und das Partizip am Ende. Und ob man „hätte“ oder „wäre“ benutzt, hängt vom Verb ab, genau wie beim Perfekt.
+B: Und es gibt drei typische Strukturen. Erstens der irreale Wunsch: „Hätte ich das nur gewusst!“ Oder: „Wenn ich das doch gewusst hätte!“ Mit „nur“ oder „doch“ verstärkt man den Wunsch. Das Verb steht dabei entweder am Anfang oder, mit „wenn“, am Ende.
+A: Zweitens der irreale Bedingungssatz: „Wenn ich früher losgefahren wäre, hätte ich den Zug nicht verpasst.“ Beide Teile im Konjunktiv der Vergangenheit.
+B: Und drittens Vorwürfe und Ratschläge im Nachhinein. „Du hättest mir das früher sagen sollen!“ „Ich hätte besser aufpassen müssen.“ Mit Modalverben steht der Infinitiv doppelt am Ende: „hätte … sagen sollen“, „hätte … aufpassen müssen“. Das ist der sogenannte doppelte Infinitiv.
+A: „Im Nachhinein“ ist übrigens ein wichtiger Ausdruck für heute. Er bedeutet: später, wenn man mehr weiß. Im Nachhinein ist man immer klüger.
+B: Es gibt dafür auch ein schönes Sprichwort: „Hinterher ist man immer schlauer.“ Oder: „Wenn das Wörtchen ‚wenn‘ nicht wär, wär mein Vater Millionär.“
+A: Hahaha. Das ist ein lustiges Sprichwort! Es bedeutet: Mit „wenn“ kann man sich alles vorstellen, aber es hilft nichts. Die Realität ist, wie sie ist.
+B: Gut. Und jetzt wird es persönlich. Lena, gibt es etwas in deinem Leben, das du bereust?
+A: Hmm. Ja, ein paar Dinge. Das Größte ist vielleicht folgendes: Als ich zwanzig war, hatte ich die Möglichkeit, ein Jahr in Japan zu studieren. Mit einem Stipendium. Und ich habe nein gesagt.
+B: Warum?
+A: Aus Angst. Ich hatte Angst vor der fremden Sprache, vor der Entfernung, davor, allein zu sein. Und ich war damals frisch verliebt. In einen Mann, mit dem ich drei Monate später nicht mehr zusammen war. Hahaha.
+B: Oh nein. Der klassische Fehler.
+A: Ja. Wenn ich damals nach Japan gegangen wäre, hätte ich wahrscheinlich Japanisch gelernt. Ich hätte eine ganz andere Kultur kennengelernt. Vielleicht wäre ich sogar dort geblieben. Wer weiß, vielleicht wäre ich heute Deutschlehrerin in Tokio.
+B: Und wie gehst du heute damit um?
+A: Lange hat es mich geärgert. Aber heute sehe ich es anders. Wenn ich nach Japan gegangen wäre, hätte ich vielleicht nie Tim kennengelernt. Ich wäre nicht nach Berlin gezogen. Ich hätte nicht diesen Podcast mit dir gemacht. Jede Entscheidung führt zu einem anderen Leben, und mein Leben ist eigentlich ziemlich schön.
+B: Das ist eine weise Perspektive. Und du warst ja später mit Tim in Japan. Folge dreißig, Shinjuku!
+A: Genau! Mit zweihundert Ausgängen. Hahaha. Und du, Jonas? Was bereust du?
+B: Ich bereue vor allem eine Sache, die mit meinem Großvater zu tun hat. Dem Großvater, der den Bauernhof in den Bergen hatte.
+A: Erzähl.
+B: Mein Großvater hat sehr viel erlebt. Er war ein Kind während des Zweiten Weltkriegs, er hat die Nachkriegszeit erlebt, er hat den Bauernhof aus dem Nichts aufgebaut. Er hatte unglaubliche Geschichten. Und als Kind fand ich sie langweilig. Ich wollte lieber spielen.
+A: Das ist bei Kindern ganz normal.
+B: Ja. Und als ich älter wurde und Journalist war, wollte ich immer ein langes Interview mit ihm machen. Mit Aufnahmegerät, alles aufschreiben. Ich habe es immer verschoben. „Nächsten Sommer“, habe ich gesagt. „Wenn ich mehr Zeit habe.“ Und dann ist er gestorben. Ganz plötzlich, an einem Herzinfarkt.
+A: Oh, Jonas. Das tut mir leid.
+B: Danke. Ich hätte das Interview viel früher machen sollen. Ich hätte mir einfach die Zeit nehmen müssen. Er hätte sich so gefreut. Und jetzt sind viele seiner Geschichten für immer verloren.
+A: Hast du daraus etwas gelernt?
+B: Ja, sehr viel. Seitdem verschiebe ich solche Dinge nicht mehr. Ich habe ein langes Interview mit meiner Großmutter gemacht, die noch lebt. Über drei Tage. Und mit meinen Eltern. Ich habe alles aufgenommen. Und daraus entsteht vielleicht mal ein Buch. Nach dem Kaffeehausbuch.
+A: Das ist eine sehr schöne Idee. Aus dem Bedauern ist etwas Positives entstanden.
+B: Und das bringt uns zu einem interessanten Thema: Was sagt die Psychologie über das Bedauern?
+A: Es gibt eine sehr bekannte Beobachtung. Eine australische Palliativpflegerin, Bronnie Ware, hat viele Jahre lang sterbende Menschen begleitet. Eine Palliativpflegerin kümmert sich um Menschen, die bald sterben werden. Und sie hat aufgeschrieben, was diese Menschen am meisten bereuten.
+B: Und was war das?
+A: Sie nennt fünf Dinge. Erstens: „Ich wünschte, ich hätte den Mut gehabt, mein eigenes Leben zu leben, und nicht das Leben, das andere von mir erwartet haben.“
+B: Das ist stark. Und zweitens?
+A: Zweitens: „Ich wünschte, ich hätte nicht so viel gearbeitet.“ Das sagten besonders viele Männer. Sie hatten die Kindheit ihrer Kinder verpasst.
+B: Drittens?
+A: Drittens: „Ich wünschte, ich hätte den Mut gehabt, meine Gefühle auszudrücken.“ Viele hatten ihre Gefühle unterdrückt, um Konflikte zu vermeiden.
+B: Viertens?
+A: Viertens: „Ich wünschte, ich hätte den Kontakt zu meinen Freunden gehalten.“ Viele hatten gute Freundschaften im Laufe der Jahre verloren, weil sie zu beschäftigt waren.
+B: Und fünftens?
+A: Und fünftens: „Ich wünschte, ich hätte mir erlaubt, glücklicher zu sein.“ Viele erkannten erst am Ende, dass Glück eine Entscheidung ist. Dass sie aus Gewohnheit und Angst vor Veränderung in ihrem Alltag geblieben waren.
+B: Puh. Das macht nachdenklich. Und es fällt auf, dass niemand bereut, zu wenig Geld verdient oder zu wenig gekauft zu haben.
+A: Genau. Und es gibt auch wissenschaftliche Studien über das Bedauern. Der Psychologe Thomas Gilovich hat herausgefunden, dass Menschen kurzfristig eher ihre Handlungen bereuen, also Dinge, die sie getan haben. „Hätte ich das nur nicht gesagt!“ Aber langfristig bereuen sie viel mehr ihre Unterlassungen. Also Dinge, die sie nicht getan haben.
+B: „Die Unterlassung“ ist das Nicht-Tun. Wenn man etwas unterlässt, macht man es nicht. Also bereut man am Ende des Lebens eher die nicht genutzten Chancen als die Fehler.
+A: Genau. Die Reise, die man nicht gemacht hat. Die Liebeserklärung, die man nicht ausgesprochen hat. Der Beruf, den man nicht ausprobiert hat.
+B: Das spricht eigentlich dafür, mutiger zu sein. Lieber etwas versuchen und scheitern, als es nie versucht zu haben.
+A: Ja. Und es gibt noch eine wichtige Erkenntnis: Bedauern kann nützlich sein. Wenn man daraus lernt. Wie bei dir mit deinem Großvater. Aber wenn man ständig darüber nachgrübelt, ohne etwas zu ändern, macht es unglücklich.
+B: „Grübeln“ heißt: lange und intensiv über etwas nachdenken, oft über Probleme, ohne zu einer Lösung zu kommen. Man dreht sich im Kreis.
+A: Genau. Jetzt zur Geschichte. Diesmal geht es um Mira. Wir kennen sie seit vielen Folgen als die organisierte Mitbewohnerin, die die WG-Sitzungen leitet. Aber wir wissen eigentlich wenig über ihre Vergangenheit.
+B: Stimmt! Was macht Mira eigentlich beruflich?
+A: Mira arbeitet als Projektmanagerin in einer Versicherung. Ein sicherer Job, gut bezahlt. Aber sie ist nicht glücklich. Und an einem Abend, nach ein paar Gläsern Wein, hat sie Kenji und Julien etwas erzählt, was sie noch niemandem erzählt hatte.
+B: Was denn?
+A: Als sie achtzehn war, wollte sie Schauspielerin werden. Sie hatte eine Einladung zu einer Aufnahmeprüfung an der berühmten Schauspielschule Ernst Busch in Berlin. Das ist eine der besten Schauspielschulen in Deutschland, und es ist sehr schwer, dort aufgenommen zu werden.
+B: Und? Ist sie hingegangen?
+A: Nein. Ihre Eltern haben gesagt: „Schauspielerin ist kein richtiger Beruf. Davon kann man nicht leben. Studier lieber etwas Vernünftiges.“ Und Mira hat auf sie gehört. Sie hat Betriebswirtschaft studiert. Und die Einladung zur Prüfung hat sie ignoriert.
+B: Der erste Punkt von Bronnie Ware. Das Leben, das andere von einem erwarten.
+A: Genau. Mira sagte an diesem Abend: „Wenn ich damals zur Prüfung gegangen wäre, wäre mein Leben vielleicht ganz anders verlaufen. Vielleicht hätte ich es nicht geschafft. Aber ich hätte es wenigstens versucht. Und das ist es, was mich so ärgert. Ich habe es nicht einmal versucht.“
+B: Das ist traurig. Wie haben Julien und Kenji reagiert?
+A: Kenji war ganz still. Dann hat er gesagt: „Mira, ich habe Klavier studiert. Und jetzt bin ich Bäcker. Ich habe mit dreißig etwas völlig Neues angefangen. Es ist nie zu spät.“
+B: Gutes Argument von Kenji.
+A: Und Julien hat gesagt: „Du kannst die Vergangenheit nicht ändern. Aber du kannst heute etwas tun. Warum spielst du nicht in einem Amateurtheater? Es gibt in Berlin so viele.“
+B: Und hat Mira das gemacht?
+A: Zuerst hat sie gezögert. Sie sagte: „Ich bin jetzt vierunddreißig. Ich hätte das mit achtzehn machen müssen.“ Aber am nächsten Wochenende hat Julien ihr den Link zu einem Theaterkurs geschickt. Eine Gruppe in Kreuzberg, die einmal pro Woche probt und zweimal im Jahr ein Stück aufführt.
+B: Und sie hat sich angemeldet?
+A: Ja! Nach einer Woche Überlegen. Und nach drei Monaten kam die erste Aufführung. Ein Stück von Bertolt Brecht. Mira spielte eine kleine, aber wichtige Rolle. Und alle waren da. Julien, Kenji, Amira, Lukas, Emre, Katrin. Sogar Frau Schulze, die Nachbarin!
+B: Frau Schulze im Theater! Hahaha. Und wie war es?
+A: Mira war unglaublich. Nach der Vorstellung hat sie geweint, vor Glück. Und sie sagte: „Ich habe sechzehn Jahre gewartet. Aber ich bin froh, dass ich nicht noch länger gewartet habe.“
+B: Und ihre Eltern?
+A: Ihre Eltern waren auch da. Ganz hinten. Mira hatte sie eingeladen, ohne zu wissen, ob sie kommen. Und nach der Vorstellung kam ihr Vater zu ihr und sagte leise: „Wir hätten dich damals unterstützen sollen. Es tut mir leid.“
+B: Oh. Das ist ein starker Moment. Auch die Eltern haben etwas bereut.
+A: Ja. Und Mira sagte: „Es ist okay, Papa. Ich bin jetzt hier.“
+B: Wunderschön. Jetzt bist du dran, Hörer, Hörerin. Denk an eine Entscheidung in deinem Leben. Was wäre passiert, wenn du dich anders entschieden hättest? Sag es laut: „Wenn ich damals … hätte, wäre …“
+A: Und formuliere einen Ratschlag im Nachhinein für dich selbst: „Ich hätte … sollen.“ Und dann, ganz wichtig: Was kannst du heute tun, um nicht in zwanzig Jahren dasselbe zu bereuen?
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: bereuen. Sich wünschen, dass man etwas in der Vergangenheit anders gemacht hätte.
+B: Wort Nummer zwei: im Nachhinein. Später, wenn man mehr weiß.
+A: Wort Nummer drei: die Unterlassung. Das Nicht-Tun, wenn man etwas nicht macht.
+B: Wort Nummer vier: grübeln. Lange über Probleme nachdenken, ohne eine Lösung zu finden.
+A: Wort Nummer fünf: verpassen. Eine Chance oder einen Termin nicht nutzen, zu spät kommen.
+B: Und Wort Nummer sechs: zögern. Nicht sofort handeln, weil man unsicher ist.
+A: Noch einmal: bereuen, im Nachhinein, die Unterlassung, grübeln, verpassen, zögern.
+B: Was lernen wir heute? Den Konjunktiv II der Vergangenheit: „hätte“ oder „wäre“ plus Partizip. „Ich hätte gelernt. Ich wäre gefahren.“
+A: Irreale Wünsche: „Hätte ich das nur gewusst!“ Irreale Bedingungen: „Wenn ich früher losgefahren wäre, hätte ich den Zug nicht verpasst.“
+B: Und mit Modalverben den doppelten Infinitiv: „Ich hätte das früher machen sollen.“
+A: Die Forschung zeigt: Langfristig bereut man eher, was man nicht getan hat. Und es ist selten zu spät, etwas zu ändern.
+B: Das ist das Ende von Folge vierundsechzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und tu heute etwas, das du sonst vielleicht irgendwann bereuen würdest. Tschüss!
+B: Servus!
+VOCAB: bereuen | Sich wünschen, dass man etwas in der Vergangenheit anders gemacht hätte. | 😔
+VOCAB: im Nachhinein | Später, wenn man mehr weiß. | 🔙
+VOCAB: die Unterlassung | Das Nicht-Tun, wenn man etwas nicht macht. | 🚫
+VOCAB: grübeln | Lange über Probleme nachdenken, ohne eine Lösung zu finden. | 🌀
+VOCAB: verpassen | Eine Chance oder einen Termin nicht nutzen, zu spät kommen. | 🚉
+VOCAB: zögern | Nicht sofort handeln, weil man unsicher ist. | ⏸️
+QUIZ: Welcher Satz ist richtig? | Wenn ich mehr gelernt hätte, hätte ich die Prüfung bestanden. | Wenn ich mehr lernen würde, hätte ich bestanden. | Wenn ich mehr gelernt habe, hätte ich bestanden. | 1
+QUIZ: Wohin wollte Lena mit zwanzig für ein Jahr gehen? | Nach Kanada | Nach Japan | Nach Italien | 2
+QUIZ: Was bereut Jonas? | Kein Interview mit seinem Großvater gemacht zu haben | Nicht Pilot geworden zu sein | Seinen Hund adoptiert zu haben | 1
+QUIZ: Was bereut man laut der Forschung langfristig eher? | Die Dinge, die man getan hat | Die Dinge, die man nicht getan hat | Das Geld, das man ausgegeben hat | 2
+QUIZ: Was wollte Mira mit achtzehn werden? | Ärztin | Schauspielerin | Bäckerin | 2
+`;
+
+DATA.podScripts.ep065 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge fünfundsechzig. Heute sprechen wir über eine Entwicklung, die die Arbeitswelt in den letzten fünfzehn Jahren stark verändert hat: die Gig-Economy und neue Arbeitsformen.
+A: Der Begriff „Gig“ kommt ursprünglich aus der Musikwelt. Ein Gig ist ein einzelner Auftritt, ein Konzert. Ein Musiker hat keinen festen Arbeitgeber, sondern spielt mal hier, mal dort. Und die Gig-Economy überträgt dieses Prinzip auf viele andere Berufe.
+B: Statt einer festen Anstellung mit einem Arbeitsvertrag, Urlaub und Kündigungsschutz erledigt man einzelne Aufträge. Oft über Online-Plattformen oder Apps. Man liefert Essen aus, fährt Menschen durch die Stadt, putzt Wohnungen, übersetzt Texte oder programmiert Webseiten. Für verschiedene Kunden, ohne langfristige Bindung.
+A: Und das ist ein Thema, bei dem die Meinungen sehr weit auseinandergehen. Die einen sprechen von Freiheit und Flexibilität, die anderen von Ausbeutung und Unsicherheit. „Ausbeutung“ bedeutet: Jemand nutzt die Arbeit anderer Menschen unfair aus, ohne angemessen zu bezahlen.
+B: Und sprachlich üben wir heute zweiteilige Konjunktionen. Die sind auf dem Niveau B2 sehr wichtig, weil sie helfen, differenziert zu argumentieren. „Zwar … aber“, „nicht nur … sondern auch“, „sowohl … als auch“, „weder … noch“ und „entweder … oder“.
+A: „Zwar … aber“ benutzt man, um etwas zuzugeben und dann einen Gegensatz zu nennen. „Die Arbeit ist zwar flexibel, aber sie ist auch unsicher.“ Man gibt der anderen Seite zuerst recht, und dann kommt das eigentliche Argument.
+B: „Nicht nur … sondern auch“ verstärkt eine Aussage. „Freelancer müssen nicht nur ihre Arbeit erledigen, sondern auch ihre Steuern und Versicherungen selbst organisieren.“
+A: „Sowohl … als auch“ heißt: beide. „Sowohl die Plattformen als auch die Kunden profitieren.“ Und „weder … noch“ ist das Gegenteil: keines von beiden. „Viele Fahrer haben weder bezahlten Urlaub noch eine Krankenversicherung über den Arbeitgeber.“
+B: Und „entweder … oder“ zeigt eine Wahl zwischen zwei Möglichkeiten. „Entweder man akzeptiert die Bedingungen, oder man bekommt keine Aufträge.“
+A: Gut. Fangen wir mit einer Unterscheidung an, die in Deutschland sehr wichtig ist. Es gibt zwei Arten von Selbstständigen. Die klassischen Freiberufler und die sogenannten Solo-Selbstständigen in der Plattformarbeit. Jonas, du bist ja selbst Freiberufler.
+B: Genau. In Deutschland und Österreich gibt es eine spezielle Kategorie: die Freien Berufe. Dazu gehören zum Beispiel Journalisten, Ärzte mit eigener Praxis, Anwälte, Architekten, Übersetzer, Künstler. Sie arbeiten selbstständig, haben aber oft spezialisierte Qualifikationen und können ihre Preise relativ frei bestimmen.
+A: Und die Plattformarbeit ist anders?
+B: Ja. Bei der Plattformarbeit bestimmt meistens die Plattform den Preis und die Bedingungen. Der Fahrradkurier, der für eine Liefer-App fährt, kann nicht sagen: „Diese Lieferung kostet heute zehn Euro.“ Die App sagt ihm, was er bekommt. Und oft wird er von einem Algorithmus gesteuert. Der Algorithmus entscheidet, wer welchen Auftrag bekommt, und bewertet die Arbeit.
+A: Das heißt, man ist zwar formal selbstständig, aber in der Praxis ziemlich abhängig.
+B: Genau. Und da liegt das große Problem: die sogenannte Scheinselbstständigkeit. Das ist ein wichtiges Wort in Deutschland. Es bedeutet: Jemand ist offiziell selbstständig, arbeitet aber in Wirklichkeit wie ein Angestellter. Er hat feste Arbeitszeiten, bekommt Anweisungen, arbeitet nur für einen Auftraggeber. Aber er hat nicht die Rechte eines Angestellten.
+A: Und warum machen Firmen das?
+B: Weil es für sie viel billiger ist. In Deutschland muss ein Arbeitgeber für Angestellte einen großen Teil der Sozialversicherung bezahlen. Rentenversicherung, Krankenversicherung, Arbeitslosenversicherung, Pflegeversicherung. Ungefähr zwanzig Prozent zusätzlich zum Gehalt. Bei Selbstständigen spart die Firma diese Kosten. Der Selbstständige muss alles selbst bezahlen.
+A: Und Scheinselbstständigkeit ist in Deutschland illegal, oder?
+B: Ja. Wenn die Behörden feststellen, dass jemand scheinselbstständig ist, muss die Firma alle Sozialbeiträge nachzahlen, teilweise für mehrere Jahre. Das kann sehr teuer werden. Darum prüfen viele Firmen genau, bevor sie mit Freelancern arbeiten.
+A: Gut. Jetzt die positive Seite. Jonas, warum hast du dich für die Selbstständigkeit entschieden?
+B: Die Freiheit ist für mich das Wichtigste. Ich kann sowohl meine Themen als auch meine Arbeitszeiten selbst wählen. Wenn ich am Dienstagvormittag mit Strudel in den Wienerwald gehen will, mache ich das. Und ich arbeite dafür am Samstag. Niemand sagt mir, wann ich wo sein muss.
+A: Und finanziell?
+B: Finanziell ist es zwar unsicherer, aber in guten Jahren verdiene ich sogar mehr als früher in der festen Stelle. Und ich habe nicht nur einen Auftraggeber, sondern mehrere. Wenn eine Zeitung mich nicht mehr bucht, habe ich noch andere. Das ist eigentlich eine andere Art von Sicherheit.
+A: Interessanter Gedanke. Man ist von niemandem vollständig abhängig.
+B: Genau. Aber ich muss zugeben, dass ich privilegiert bin. Ich habe eine gute Ausbildung, ein Netzwerk aus fünfzehn Jahren und einen Namen in der Branche. Für einen jungen Menschen, der neu anfängt, sieht es ganz anders aus.
+A: Und das ist der entscheidende Punkt, finde ich. Die Gig-Economy ist für hochqualifizierte Menschen mit gefragten Fähigkeiten oft eine große Chance. Ein guter Programmierer, eine erfahrene Designerin, ein spezialisierter Berater können als Freelancer sehr gut verdienen und frei arbeiten.
+B: Während für Menschen mit weniger Qualifikationen, die vielleicht keine andere Wahl haben, die Gig-Economy oft prekär ist. „Prekär“ heißt: unsicher, instabil, mit wenig Schutz. Prekäre Arbeitsverhältnisse.
+A: Genau. Ein Fahrradkurier, der bei Regen, Schnee und Hitze für wenige Euro pro Lieferung durch die Stadt fährt, hat weder bezahlten Urlaub noch Lohnfortzahlung im Krankheitsfall. Wenn er sich bei einem Unfall verletzt, hat er kein Einkommen. Und viele dieser Kuriere sind Migranten oder Studenten, die dringend Geld brauchen.
+B: Und es gibt inzwischen auch Protest. In Berlin haben sich Lieferfahrer organisiert, um für bessere Bedingungen zu kämpfen. Sie haben gestreikt, Betriebsräte gegründet. Ein Betriebsrat ist eine Vertretung der Mitarbeiter in einer Firma. In Deutschland hat der Betriebsrat viele Rechte.
+A: Und die Europäische Union hat reagiert. Es gibt eine neue EU-Richtlinie für Plattformarbeit. Sie sieht vor, dass Plattformarbeiter als Angestellte gelten, wenn die Plattform sie stark kontrolliert. Und dass Algorithmen transparenter werden müssen. Ein Fahrer soll zum Beispiel wissen, warum er weniger Aufträge bekommt.
+B: Das ist ein wichtiger Schritt. Wobei es noch dauern dürfte, bis das in allen Ländern umgesetzt ist.
+A: Und wie sieht es in Österreich aus, Jonas? Dort gibt es ja auch viele Essenslieferanten auf Fahrrädern.
+B: Ja, und bei uns gab es eine interessante Entwicklung. Für Fahrradboten gibt es seit einigen Jahren einen eigenen Kollektivvertrag. Das ist ein Tarifvertrag für eine ganze Branche, mit Mindestlohn, Urlaubsgeld und Weihnachtsgeld. Das war damals sogar der erste Kollektivvertrag dieser Art in Europa.
+A: Das klingt doch gut.
+B: Ja, allerdings gilt er nur für Fahrer, die angestellt sind. Viele arbeiten weiterhin als freie Dienstnehmer, und für sie gilt er nicht. Also gibt es auch bei uns zwei Klassen von Fahrern. Das zeigt, wie schwer es ist, die Plattformarbeit in die traditionellen Strukturen einzuordnen.
+A: Gut. Ein weiterer Aspekt ist die soziale Absicherung im Alter. Viele Selbstständige sparen nicht genug für die Rente.
+B: Das ist ein riesiges Problem. In Deutschland sind viele Selbstständige nicht verpflichtet, in die gesetzliche Rentenversicherung einzuzahlen. Und gerade in den ersten Jahren, wenn das Geld knapp ist, denkt man nicht an die Rente in dreißig Jahren. Experten befürchten, dass viele heutige Solo-Selbstständige im Alter arm sein werden. Darum wird diskutiert, eine Rentenpflicht für alle Selbstständigen einzuführen.
+A: Ich muss zugeben, dass du mich ein bisschen zum Nachdenken gebracht hast. Sorgst du selbst für die Rente vor?
+B: Ja, inzwischen schon. Aber ehrlich gesagt erst seit zwei Jahren. In den ersten Jahren habe ich es vernachlässigt. Das bereue ich. Ich hätte früher anfangen sollen. Folge vierundsechzig lässt grüßen! Hahaha.
+A: Hahaha. Siehst du, die Grammatik ist überall. Jetzt eine Frage, die mich wirklich interessiert: Ist das die Zukunft der Arbeit? Werden in zwanzig Jahren alle Freelancer sein?
+B: Ich glaube nicht. In Deutschland ist die feste Anstellung immer noch die Norm. Ungefähr neun von zehn Erwerbstätigen sind abhängig beschäftigt. Und viele Menschen, gerade in Deutschland, legen großen Wert auf Sicherheit. Der unbefristete Vertrag ist für viele das Ziel.
+A: Das stimmt. Die Deutschen sind traditionell eher risikoscheu. „Risikoscheu“ heißt: Man vermeidet Risiken, man ist lieber vorsichtig.
+B: Aber die Mischformen nehmen zu. Viele Menschen haben eine Teilzeitstelle und arbeiten zusätzlich freiberuflich. Oder sie wechseln zwischen Phasen der Anstellung und Phasen der Selbstständigkeit. Man spricht von „Patchwork-Karrieren“. Wie eine Decke aus vielen verschiedenen Stoffstücken.
+A: Schönes Bild. Jetzt zur Geschichte. Wir haben eine neue Figur. Erinnerst du dich an Ali aus Ägypten? Er war beim Kochabend an der Programmierschule dabei, in Folge fünfundzwanzig.
+B: Ja! Er hat Koshari gekocht.
+A: Genau. Ali hat die Programmierschule vor einem Jahr abgeschlossen. Und er hat beschlossen, nicht in eine Firma zu gehen, sondern als Freelancer zu arbeiten. Er entwickelt Webseiten und Apps für kleine Unternehmen.
+B: Mutig. Wie lief der Anfang?
+A: Am Anfang war es schwer. Er hatte zwar gute Fähigkeiten, aber keine Kunden. Er hat sich auf großen internationalen Freelancer-Plattformen angemeldet. Und dort war die Konkurrenz riesig. Programmierer aus der ganzen Welt, die für sehr wenig Geld arbeiten. Er musste seine Preise so niedrig ansetzen, dass er kaum davon leben konnte.
+B: Das Problem des globalen Wettbewerbs.
+A: Genau. In den ersten sechs Monaten hat er manchmal sechzig Stunden pro Woche gearbeitet und trotzdem weniger verdient als ein Praktikant. Er war erschöpft und dachte daran aufzugeben.
+B: Und dann?
+A: Dann hat er seine Strategie geändert. Julien hat ihm einen wichtigen Rat gegeben: „Konkurrier nicht über den Preis. Konkurrier über das, was dich besonders macht.“ Und Ali hat überlegt: Was macht mich besonders?
+B: Und?
+A: Er spricht nicht nur Arabisch und Englisch, sondern inzwischen auch sehr gut Deutsch. Und er kennt viele kleine Geschäfte in Berlin, die von Menschen aus arabischen Ländern geführt werden. Restaurants, Lebensmittelgeschäfte, Friseursalons auf der Sonnenallee in Neukölln. Viele von ihnen haben keine Webseite oder nur eine schlechte. Und sie haben Schwierigkeiten mit der deutschen Bürokratie für Online-Shops.
+B: Eine Marktlücke! Eine Marktlücke ist ein Bedarf, den noch niemand erfüllt.
+A: Genau. Ali hat sich auf diese Kunden spezialisiert. Er macht zweisprachige Webseiten auf Deutsch und Arabisch, mit Online-Bestellung. Und er erklärt seinen Kunden auch die rechtlichen Sachen, wie Impressum und Datenschutz. In ihrer Muttersprache.
+B: Das ist ein echter Mehrwert. Und funktioniert es?
+A: Sehr gut! Die Kunden empfehlen ihn weiter. Vitamin B, natürlich. Hahaha. Nach einem Jahr hat er so viele Aufträge, dass er nicht nur einen, sondern zwei ehemalige Studenten der Programmierschule als Freelancer beschäftigt. Und er verdient jetzt deutlich besser.
+B: Und denkt er an die Rente?
+A: Ja! Julien hat ihn daran erinnert, frühzeitig vorzusorgen. Und Ali hat einen Termin bei einer Beraterin gemacht. Er zahlt jetzt freiwillig in die Rentenversicherung ein und hat eine Berufsunfähigkeitsversicherung abgeschlossen.
+B: Sehr vernünftig. Und wie fühlt er sich?
+A: Er sagt: „Die Selbstständigkeit ist zwar anstrengend, aber ich bin mein eigener Chef. Und ich helfe meiner Community. Das ist mir wichtiger als ein sicherer Job in einem Großraumbüro.“
+B: Eine schöne Geschichte, die beide Seiten zeigt. Die Härte am Anfang und die Chancen, wenn man seine Nische findet.
+A: Jetzt bist du dran, Hörer, Hörerin. Würdest du lieber als Freelancer oder als Angestellter arbeiten? Argumentiere mit zweiteiligen Konjunktionen. „Die Selbstständigkeit bietet zwar …, aber … Sie bedeutet nicht nur …, sondern auch …“
+B: Und formuliere einen Satz mit „weder … noch“ und einen mit „sowohl … als auch“.
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: die Ausbeutung. Die Arbeit anderer unfair ausnutzen, ohne angemessen zu bezahlen.
+A: Wort Nummer zwei: die Scheinselbstständigkeit. Offiziell selbstständig, aber in Wirklichkeit wie ein Angestellter, ohne dessen Rechte.
+B: Wort Nummer drei: prekär. Unsicher, instabil, mit wenig Schutz.
+A: Wort Nummer vier: der Betriebsrat. Die gewählte Vertretung der Mitarbeiter in einer Firma.
+B: Wort Nummer fünf: risikoscheu. Man vermeidet Risiken und ist lieber vorsichtig.
+A: Und Wort Nummer sechs: die Marktlücke. Ein Bedarf, den noch niemand erfüllt.
+B: Noch einmal: die Ausbeutung, die Scheinselbstständigkeit, prekär, der Betriebsrat, risikoscheu, die Marktlücke.
+A: Was lernen wir heute? Zweiteilige Konjunktionen: zwar … aber, nicht nur … sondern auch, sowohl … als auch, weder … noch, entweder … oder.
+B: Die Gig-Economy: Freiheit und Flexibilität auf der einen Seite, Unsicherheit und fehlende Absicherung auf der anderen.
+A: Ein großes Problem ist die Scheinselbstständigkeit. Und die EU will Plattformarbeiter besser schützen.
+B: Und die Tipps: Nicht über den Preis konkurrieren, sondern über das, was einen besonders macht. Und früh für die Rente vorsorgen!
+A: Das ist das Ende von Folge fünfundsechzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und egal, wie du arbeitest: Pass gut auf dich auf! Servus!
+A: Tschüss!
+VOCAB: die Ausbeutung | Die Arbeit anderer unfair ausnutzen, ohne angemessen zu bezahlen. | ⛓️
+VOCAB: die Scheinselbstständigkeit | Offiziell selbstständig, aber in Wirklichkeit wie ein Angestellter ohne dessen Rechte. | 🎭
+VOCAB: prekär | Unsicher, instabil, mit wenig Schutz. | 🧱
+VOCAB: der Betriebsrat | Die gewählte Vertretung der Mitarbeiter in einer Firma. | 🗳️
+VOCAB: risikoscheu | Man vermeidet Risiken und ist lieber vorsichtig. | 🛡️
+VOCAB: die Marktlücke | Ein Bedarf, den noch niemand erfüllt. | 🧩
+QUIZ: Welcher Satz ist richtig? | Die Arbeit ist zwar flexibel, aber unsicher. | Die Arbeit ist zwar flexibel, sondern unsicher. | Die Arbeit ist flexibel zwar, aber unsicher. | 1
+QUIZ: Was ist Scheinselbstständigkeit? | Offiziell selbstständig, aber in Wirklichkeit wie ein Angestellter | Eine besonders erfolgreiche Selbstständigkeit | Ein Nebenjob am Wochenende | 1
+QUIZ: Was sieht die neue EU-Richtlinie für Plattformarbeit vor? | Plattformen werden verboten | Plattformarbeiter gelten als Angestellte, wenn die Plattform sie stark kontrolliert | Alle müssen Freelancer werden | 2
+QUIZ: Was war Juliens Rat an Ali? | Die Preise noch weiter senken | Nicht über den Preis konkurrieren, sondern über das, was ihn besonders macht | Eine feste Stelle suchen | 2
+QUIZ: Auf welche Kunden hat sich Ali spezialisiert? | Große internationale Firmen | Kleine Geschäfte in Berlin, die von Menschen aus arabischen Ländern geführt werden | Krankenhäuser | 2
+`;
+
+DATA.podScripts.ep066 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge sechsundsechzig. Heute sprechen wir über ein ernstes Thema, das leider immer mehr Menschen betrifft, besonders in Branchen mit hohem Druck: Burnout. Und wir konzentrieren uns dabei auf die Tech-Branche, weil wir mit Julien und seinen Kollegen viele Beispiele aus dieser Welt kennen.
+A: Bevor wir anfangen, ein wichtiger Hinweis: Wir sind keine Ärzte oder Psychologen. Wenn du selbst das Gefühl hast, dass es dir dauerhaft schlecht geht, such dir bitte professionelle Hilfe. In Deutschland ist der erste Schritt oft der Hausarzt. Und es gibt die Telefonseelsorge, die rund um die Uhr erreichbar ist.
+B: Genau. Und heute lernen wir sprachlich, wie man über Gefühle, Belastungen und Grenzen spricht. Und wir üben einige Nomen-Verb-Verbindungen, die in diesem Zusammenhang sehr häufig sind. Zum Beispiel: „unter Druck stehen“, „eine Pause einlegen“, „Grenzen setzen“, „Hilfe in Anspruch nehmen“, „Rücksicht nehmen“.
+A: Nomen-Verb-Verbindungen sind feste Kombinationen aus einem Nomen und einem Verb, die zusammen eine Bedeutung haben. Man kann sie nicht frei verändern. Man sagt „eine Entscheidung treffen“, nicht „eine Entscheidung machen“. Und „Hilfe in Anspruch nehmen“ heißt einfach: Hilfe nutzen, Hilfe annehmen.
+B: Gut. Fangen wir mit der Definition an. Was ist eigentlich ein Burnout? Lena?
+A: Das Wort kommt aus dem Englischen und bedeutet wörtlich „ausgebrannt“. Wie eine Kerze, die so lange gebrannt hat, dass nichts mehr übrig ist. Die Weltgesundheitsorganisation beschreibt Burnout als ein Syndrom, das durch chronischen Stress am Arbeitsplatz entsteht, der nicht erfolgreich bewältigt wurde. „Bewältigen“ heißt: mit einer schwierigen Situation fertig werden, sie meistern.
+B: Und es gibt drei typische Merkmale. Erstens: eine tiefe Erschöpfung. Nicht die normale Müdigkeit nach einem langen Tag, sondern eine Erschöpfung, die auch nach dem Wochenende oder nach dem Urlaub nicht verschwindet. Man wacht morgens auf und ist schon müde.
+A: Zweitens: eine zunehmende innere Distanz zur Arbeit. Man wird zynisch, negativ, gleichgültig. Dinge, die einem früher wichtig waren, sind plötzlich egal. Man denkt: „Wozu das alles?“
+B: „Zynisch“ heißt: bitter und negativ, man glaubt nicht mehr an das Gute oder an den Sinn von etwas. Und „gleichgültig“ heißt: Es ist einem egal, man hat keine Gefühle mehr dafür.
+A: Und drittens: eine verringerte Leistungsfähigkeit. Man kann sich nicht mehr konzentrieren, macht mehr Fehler, braucht für alles länger. Und das verstärkt den Stress noch mehr. Ein Teufelskreis, wie in Folge fünfundfünfzig.
+B: Und oft kommen körperliche Symptome dazu. Kopfschmerzen, Schlafstörungen, Magenprobleme, häufige Infekte, Herzrasen. Der Körper sendet Warnsignale.
+A: Und ein wichtiger Punkt: Burnout entwickelt sich meistens langsam. Über Monate oder Jahre. Am Anfang stehen oft Menschen, die sehr engagiert sind. Die ihre Arbeit lieben, die sich sehr stark identifizieren. Man sagt: Wer nie gebrannt hat, kann auch nicht ausbrennen.
+B: Das ist ein bitterer Satz, aber er trifft es. Gerade die motiviertesten Menschen sind gefährdet. Und warum ist die Tech-Branche besonders betroffen?
+A: Es gibt mehrere Gründe. Erstens: die Kultur. Besonders in Start-ups gibt es oft eine Kultur der ständigen Verfügbarkeit und Überstunden. Lange Arbeitstage werden als Zeichen von Engagement gefeiert. Es gibt sogar einen Begriff dafür: „Hustle Culture“. Die Kultur des ständigen Schuftens.
+B: „Schuften“ ist umgangssprachlich und heißt: sehr hart arbeiten, bis zur Erschöpfung.
+A: Zweitens: der schnelle Wandel. In der IT verändern sich die Technologien ständig. Wer nicht ständig lernt, hat das Gefühl, abgehängt zu werden. Neue Programmiersprachen, neue Werkzeuge, jetzt die KI. Das erzeugt einen permanenten Druck, mithalten zu müssen.
+B: Und drittens: die Bereitschaftsdienste. Viele Entwickler haben „On-Call“-Zeiten. Das heißt: Wenn nachts ein System abstürzt, müssen sie erreichbar sein und das Problem lösen. Um drei Uhr morgens, am Wochenende, im Urlaub. Wer weiß, dass jederzeit das Handy klingeln kann, kann nie wirklich abschalten.
+A: Viertens: das Hochstapler-Syndrom. Auf Englisch „Impostor Syndrome“. Viele, auch sehr erfolgreiche Menschen in der IT, haben das Gefühl, eigentlich nicht gut genug zu sein. Sie haben Angst, dass irgendwann alle merken, dass sie nur so tun als ob. Und um das zu verhindern, arbeiten sie immer mehr.
+B: Ein Hochstapler ist eine Person, die vorgibt, etwas zu sein, was sie nicht ist. Und das Hochstapler-Syndrom ist das Gefühl, selbst so eine Person zu sein, obwohl man es eigentlich gar nicht ist.
+A: Genau. Und das ist erstaunlich verbreitet. Ich kenne es übrigens auch als Lehrerin. Manchmal denke ich nach zehn Jahren noch: „Bin ich wirklich eine gute Lehrerin?“
+B: Das kann ich gut verstehen. Das kennen wahrscheinlich die meisten Menschen, die ihre Arbeit ernst nehmen.
+A: Und du, Jonas? Hattest du schon mal eine Phase, in der du kurz vor einem Burnout standest?
+B: Ja. Ehrlich gesagt ja. Das war in meinem letzten Jahr bei der Tageszeitung. Wir hatten sehr viele Kündigungen in der Redaktion. Die Zeitung musste sparen. Und die Arbeit von drei Kollegen wurde auf zwei Leute verteilt. Ich habe oft zwölf Stunden am Tag gearbeitet, auch am Wochenende.
+A: Und wie hast du gemerkt, dass etwas nicht stimmt?
+B: Zuerst habe ich es gar nicht gemerkt. Das ist das Tückische. „Tückisch“ heißt: gefährlich, weil man die Gefahr nicht gleich sieht. Ich habe gedacht, das ist eben eine stressige Phase. Aber dann konnte ich nicht mehr schlafen. Ich bin jede Nacht um vier Uhr aufgewacht und habe an die Arbeit gedacht. Und ich habe Dinge, die ich früher geliebt habe, nicht mehr genossen. Ich bin nicht mehr ins Kaffeehaus gegangen. Ich habe keine Bücher mehr gelesen.
+A: Das klingt nach den typischen Warnsignalen.
+B: Ja. Und eines Tages hat Hias mich angerufen. Er wollte eine Bergtour machen. Und ich habe gesagt: „Keine Zeit.“ Zum dritten Mal hintereinander. Und Hias hat gesagt: „Jonas, du klingst wie ein anderer Mensch. Was ist los mit dir?“
+A: Ein guter Freund.
+B: Ja. Dieser Satz hat mich getroffen. Und ich bin zu meinem Hausarzt gegangen. Er hat mich für drei Wochen krankgeschrieben und mir eine Therapeutin empfohlen. Und in dieser Zeit habe ich beschlossen, zu kündigen und freiberuflich zu arbeiten.
+A: Das war also der Hintergrund deiner Kündigung. Das hast du vorher nie erzählt.
+B: Nein. Darüber spricht man nicht gern. Und genau das ist das Problem. Psychische Erkrankungen sind immer noch ein Tabu. Viele schämen sich und holen sich zu spät Hilfe. Darum erzähle ich es heute.
+A: Danke, dass du so offen bist, Jonas. Das ist mutig.
+B: Gern. Was mir in der Therapie geholfen hat, war vor allem zu lernen, Grenzen zu setzen. Nein zu sagen. Und zu akzeptieren, dass ich nicht alles perfekt machen muss.
+A: Gut. Dann sprechen wir über Prävention. „Prävention“ heißt: Vorbeugung. Maßnahmen, damit etwas Schlimmes gar nicht erst passiert. Was kann man selbst tun?
+B: Erstens: die Warnsignale ernst nehmen. Wenn man über Wochen schlecht schläft, gereizt ist, keine Freude mehr empfindet, sollte man das nicht ignorieren.
+A: Zweitens: klare Grenzen zwischen Arbeit und Privatleben ziehen. Feste Arbeitszeiten, das Handy abends ausschalten, im Urlaub keine E-Mails lesen. In Frankreich gibt es übrigens ein „Recht auf Abschalten“. Arbeitgeber mit mehr als fünfzig Mitarbeitern müssen Regeln für die Nichterreichbarkeit festlegen.
+B: In Deutschland gibt es so ein Gesetz nicht, aber manche Firmen haben eigene Regeln. Bei einem großen Autohersteller werden zum Beispiel abends keine E-Mails auf die Diensthandys weitergeleitet.
+A: Drittens: Ausgleich schaffen. Sport, Natur, Hobbys, Freunde. Dinge, die nichts mit der Arbeit zu tun haben und Energie geben.
+B: Viertens: Hilfe in Anspruch nehmen. Mit Freunden sprechen, mit dem Arzt, mit einer Therapeutin. In Deutschland übernimmt die Krankenkasse die Kosten für eine Psychotherapie. Allerdings muss man oft lange auf einen Platz warten, manchmal mehrere Monate.
+A: Und die Arbeitgeber? Was können sie tun?
+B: Sehr viel. Realistische Ziele setzen, genug Personal einstellen, eine Kultur schaffen, in der man über Belastung sprechen darf. Und Führungskräfte schulen, damit sie Warnsignale bei ihren Mitarbeitern erkennen. In Deutschland sind Arbeitgeber übrigens gesetzlich verpflichtet, auch die psychischen Belastungen am Arbeitsplatz zu beurteilen. Das nennt man Gefährdungsbeurteilung.
+A: Gut. Jetzt zur Geschichte. Und diesmal geht es um Herrn Yilmaz, den Chef der Programmierschule. Wir kennen ihn als ruhigen, guten Chef.
+B: Ja, er hört immer zu und findet Kompromisse.
+A: Genau. Aber in den letzten Monaten war die Schule enorm gewachsen. Neue Campusse, mehr Studenten, mehr Partnerfirmen, viele Reisen nach Wolfsburg und Heilbronn. Und Herr Yilmaz hat alles selbst organisieren wollen. Er hat jeden Abend bis spät gearbeitet, jedes Wochenende E-Mails beantwortet.
+B: Der typische engagierte Mensch, der seine Arbeit liebt.
+A: Genau. Julien hat bemerkt, dass Herr Yilmaz sich verändert hatte. Er, der früher immer gelassen war, wurde in Meetings ungeduldig. Er hat Entscheidungen ständig verschoben. Und er hat bei einem Teamfest, das er früher immer selbst organisiert hatte, nach einer halben Stunde gesagt, er müsse noch arbeiten, und ist gegangen.
+B: Die innere Distanz.
+A: Ja. Julien war unsicher. Darf man seinen eigenen Chef darauf ansprechen? Das ist heikel. „Heikel“ heißt: schwierig und empfindlich, man muss vorsichtig sein.
+B: Was hat er gemacht?
+A: Er hat zuerst mit Katrin gesprochen. Sie kennt Herrn Yilmaz schon viel länger. Und Katrin hat gesagt: „Ich habe das auch bemerkt. Wir sollten es zusammen ansprechen. Nicht als Kritik, sondern weil wir uns Sorgen machen.“
+B: Klug. Zu zweit, und aus Sorge, nicht als Vorwurf.
+A: Genau. Sie haben Herrn Yilmaz zu einem Mittagessen eingeladen. Draußen, in einem ruhigen Restaurant. Und Katrin hat vorsichtig angefangen: „Murat, wir arbeiten jetzt seit sechs Jahren zusammen. Und wir haben das Gefühl, dass es dir in letzter Zeit nicht gut geht. Wir wollen dir nicht zu nahe treten, aber wir machen uns Sorgen.“
+B: „Jemandem zu nahe treten“ heißt: jemanden mit einer persönlichen Bemerkung verletzen oder in seine Privatsphäre eindringen.
+A: Genau. Herr Yilmaz war zuerst überrascht und hat abgewehrt. „Mir geht es gut. Es ist nur viel zu tun im Moment.“ Aber dann hat Julien gesagt: „Sie haben uns immer gesagt, dass wir auf uns aufpassen sollen. Dass niemand allein ist. Das gilt auch für Sie.“
+B: Und dann?
+A: Dann war Herr Yilmaz lange still. Und dann hat er zugegeben, dass er seit Monaten kaum schläft. Dass er Herzrasen hat. Dass er das Gefühl hat, die ganze Schule hängt nur von ihm ab, und wenn er einen Fehler macht, bricht alles zusammen.
+B: Das klassische Muster. Er hat die Verantwortung für alles allein getragen.
+A: Ja. Und es war das erste Mal, dass er es jemandem gesagt hat. Er hat danach einen Termin beim Arzt gemacht und eine Auszeit von sechs Wochen genommen. Und das Team hat in dieser Zeit gezeigt, dass die Schule auch ohne ihn funktioniert. Katrin hat die Leitung übernommen, Julien hat die Partnerfirmen betreut.
+B: Und als er zurückkam?
+A: Er hat die Aufgaben neu verteilt. Katrin ist jetzt stellvertretende Leiterin. Und er hat eine feste Regel für sich selbst: Am Freitagnachmittag arbeitet er nicht mehr. Er spielt Fußball mit seinem Sohn. Und er hat in einem Teammeeting offen über seine Erfahrung gesprochen.
+B: Das ist stark. Ein Chef, der zeigt, dass Schwäche menschlich ist.
+A: Genau. Und danach haben sich mehrere Mitarbeiter getraut, über ihre eigenen Belastungen zu sprechen. Die Schule hat jetzt einmal im Monat ein offenes Gespräch über psychische Gesundheit. Und eine Psychologin bietet anonyme Beratungen an.
+B: Aus einer Krise ist eine bessere Kultur entstanden.
+A: Jetzt bist du dran, Hörer, Hörerin. Wie gehst du mit Stress um? Wo setzt du Grenzen? Benutze mindestens drei Nomen-Verb-Verbindungen. Zum Beispiel: „Wenn ich unter Druck stehe, lege ich eine Pause ein.“ „Ich nehme Rücksicht auf …“ „Ich setze Grenzen, indem …“
+B: Und wenn du möchtest, denk an eine Person in deinem Umfeld. Geht es ihr gut? Vielleicht ist heute ein guter Tag, um nachzufragen.
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: bewältigen. Mit einer schwierigen Situation fertig werden.
+A: Wort Nummer zwei: gleichgültig. Es ist einem egal, man hat keine Gefühle mehr dafür.
+B: Wort Nummer drei: tückisch. Gefährlich, weil man die Gefahr nicht gleich sieht.
+A: Wort Nummer vier: heikel. Schwierig und empfindlich, man muss vorsichtig sein.
+B: Wort Nummer fünf: Grenzen setzen. Klar sagen, was man akzeptiert und was nicht.
+A: Und Wort Nummer sechs: Hilfe in Anspruch nehmen. Hilfe nutzen und annehmen.
+B: Noch einmal: bewältigen, gleichgültig, tückisch, heikel, Grenzen setzen, Hilfe in Anspruch nehmen.
+A: Was lernen wir heute? Nomen-Verb-Verbindungen: unter Druck stehen, eine Pause einlegen, eine Entscheidung treffen, Rücksicht nehmen, Hilfe in Anspruch nehmen.
+B: Burnout hat drei Merkmale: tiefe Erschöpfung, innere Distanz und verringerte Leistungsfähigkeit. Es entwickelt sich langsam und trifft oft die engagiertesten Menschen.
+A: Prävention: Warnsignale ernst nehmen, Grenzen ziehen, Ausgleich schaffen und Hilfe annehmen.
+B: Und manchmal braucht es einen Freund, der sagt: „Du klingst wie ein anderer Mensch.“
+A: Das ist das Ende von Folge sechsundsechzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und pass gut auf dich auf. Servus!
+A: Tschüss!
+VOCAB: bewältigen | Mit einer schwierigen Situation fertig werden. | 🧗
+VOCAB: gleichgültig | Es ist einem egal, man hat keine Gefühle mehr dafür. | 😶
+VOCAB: tückisch | Gefährlich, weil man die Gefahr nicht gleich sieht. | 🕳️
+VOCAB: heikel | Schwierig und empfindlich, man muss vorsichtig sein. | 🥚
+VOCAB: Grenzen setzen | Klar sagen, was man akzeptiert und was nicht. | 🚧
+VOCAB: Hilfe in Anspruch nehmen | Hilfe nutzen und annehmen. | 🤝
+QUIZ: Was ist kein typisches Merkmal von Burnout? | Tiefe Erschöpfung | Mehr Energie und Motivation | Innere Distanz zur Arbeit | 2
+QUIZ: Was ist das „Hochstapler-Syndrom“? | Das Gefühl, nicht gut genug zu sein, obwohl man es ist | Eine Angst vor großen Höhen | Ein Problem mit dem Computer | 1
+QUIZ: Wer hat Jonas gefragt, was mit ihm los ist? | Lena | Hias | Seine Mutter | 2
+QUIZ: Was gibt es in Frankreich? | Ein Recht auf Abschalten | Ein Verbot von Überstunden | Eine Pflicht zur Therapie | 1
+QUIZ: Was macht Herr Yilmaz jetzt am Freitagnachmittag? | Er arbeitet länger | Er spielt Fußball mit seinem Sohn | Er reist nach Wolfsburg | 2
+`;
+
+DATA.podScripts.ep067 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge siebenundsechzig. Heute sprechen wir über ein Phänomen, das für viele Menschen außerhalb der IT-Welt rätselhaft ist: Open Source. Oder auf Deutsch: offener Quellcode.
+A: Und die provokante Frage im Titel lautet: Ist Open Source Arbeit umsonst? Denn tatsächlich arbeiten Millionen Menschen auf der ganzen Welt in ihrer Freizeit an Software, die sie dann kostenlos zur Verfügung stellen. Warum machen sie das?
+B: „Umsonst“ hat übrigens zwei Bedeutungen im Deutschen, und das passt perfekt zu unserem Thema. Erstens: kostenlos, gratis. „Der Eintritt ist umsonst.“ Und zweitens: vergeblich, ohne Ergebnis. „Ich habe umsonst gewartet, er ist nicht gekommen.“
+A: Das ist ein schönes Wortspiel für heute. Ist Open Source Arbeit, für die man nichts bekommt? Oder ist sie vergeblich? Oder ganz im Gegenteil, sehr wertvoll?
+B: Und sprachlich üben wir heute Ausdrücke, um Motivationen und Gründe differenziert darzustellen. Zum Beispiel: „Ausschlaggebend ist …“ „Eine wesentliche Rolle spielt …“ „Das liegt unter anderem daran, dass …“ „Nicht zuletzt …“
+A: „Ausschlaggebend“ heißt: entscheidend, der wichtigste Grund. Und „nicht zuletzt“ benutzt man für einen letzten Punkt, der aber trotzdem sehr wichtig ist. „Nicht zuletzt spielt auch der Spaß eine Rolle.“
+B: Gut. Fangen wir mit der Erklärung an. Was ist Quellcode? Jedes Programm, jede App, jede Webseite besteht aus Code. Aus Anweisungen in einer Programmiersprache. Das ist der Quellcode. Er ist sozusagen das Rezept der Software.
+A: Und bei normaler, kommerzieller Software ist dieses Rezept geheim. Man kann das Programm benutzen, aber man kann nicht sehen, wie es funktioniert. Und man darf es nicht verändern.
+B: Bei Open-Source-Software dagegen ist der Quellcode öffentlich. Jeder kann ihn lesen, verändern, verbessern und weitergeben. Unter bestimmten Bedingungen, die in einer Lizenz festgelegt sind.
+A: Eine Lizenz ist eine offizielle Erlaubnis mit Regeln. Und es gibt verschiedene Open-Source-Lizenzen. Manche sagen: Du darfst alles machen, sogar ein kommerzielles Produkt daraus bauen. Andere sagen: Wenn du den Code veränderst und weitergibst, muss auch deine Version wieder offen sein.
+B: Das klingt alles sehr idealistisch und vielleicht ein bisschen nach einer Nische. Aber das Gegenteil ist der Fall. Open Source ist überall. Fast jede Webseite, die du besuchst, läuft auf Servern mit dem Betriebssystem Linux. Und Linux ist Open Source.
+A: Und Android, das Betriebssystem auf den meisten Smartphones der Welt, basiert auf Linux. Der Webbrowser Firefox ist Open Source. Wikipedia benutzt Open-Source-Software. Und auch viele Werkzeuge, mit denen künstliche Intelligenz entwickelt wird.
+B: Es gibt Schätzungen, dass über neunzig Prozent aller modernen Software Open-Source-Komponenten enthält. Ohne Open Source würde das Internet, wie wir es kennen, nicht funktionieren.
+A: Das ist beeindruckend. Und wer hat das alles geschrieben?
+B: Teilweise große Firmen, die ihre Mitarbeiter dafür bezahlen. Aber zu einem großen Teil auch Freiwillige. Menschen, die abends und am Wochenende programmieren, ohne dafür Geld zu bekommen. Und da stellt sich die Frage: Warum?
+A: Und darüber gibt es inzwischen viel Forschung. Die Motivationen sind sehr unterschiedlich. Fangen wir mit der intrinsischen Motivation an. „Intrinsisch“ heißt: von innen kommend. Man macht etwas, weil es einem selbst Freude macht, nicht wegen einer Belohnung von außen.
+B: Genau. Viele Entwickler sagen: Programmieren macht einfach Spaß. Es ist wie ein Rätsel lösen. Und bei Open Source kann man an Projekten arbeiten, die einen wirklich interessieren. Ohne Chef, ohne Deadlines, ohne Kunden, die ihre Meinung ändern.
+A: Das ist wie bei einem Hobby. Manche Menschen stricken, manche spielen Fußball, manche programmieren.
+B: Zweitens: das Lösen eines eigenen Problems. Viele Open-Source-Projekte sind entstanden, weil jemand ein Problem hatte und keine gute Lösung fand. Er hat ein kleines Programm geschrieben, um sein Problem zu lösen. Und dann dachte er: Vielleicht hilft das auch anderen. Und er hat es veröffentlicht.
+A: Linux ist ein berühmtes Beispiel. Der finnische Student Linus Torvalds hat es neunzehnhunderteinundneunzig als Hobbyprojekt angefangen. Er wollte einfach ein eigenes Betriebssystem für seinen Computer. Und er hat in einer Nachricht geschrieben, es sei nur ein Hobby und werde nichts Großes und Professionelles.
+B: Hahaha. Und heute läuft fast das ganze Internet darauf. Das ist eine der schönsten Ironien der Technikgeschichte.
+A: Drittens: das Lernen. Für viele, besonders junge Entwickler, ist Open Source die beste Schule. Man kann den Code von sehr erfahrenen Programmierern lesen. Und wenn man selbst etwas beiträgt, bekommt man Feedback von Experten aus der ganzen Welt.
+B: Das ist wie Peer-Learning aus Folge vierundvierzig, nur weltweit. Und viertens, und das ist eine eher extrinsische Motivation: die Karriere. „Extrinsisch“ ist das Gegenteil von intrinsisch. Die Motivation kommt von außen, durch eine Belohnung.
+A: Und welche Belohnung gibt es bei Open Source?
+B: Die Reputation, also der gute Ruf. Wer in bekannten Open-Source-Projekten mitarbeitet, zeigt öffentlich, was er kann. Das ist wie ein Portfolio. Viele Firmen schauen sich bei Bewerbungen die Open-Source-Beiträge an. Manche Entwickler haben ihre Traumstelle bekommen, weil eine Firma auf ihren Open-Source-Code aufmerksam geworden ist.
+A: Das heißt, es ist zwar unbezahlte Arbeit, aber sie zahlt sich langfristig aus.
+B: Genau. Und fünftens, und das finde ich am schönsten: die Gemeinschaft und die Ideale. Viele Menschen in der Open-Source-Bewegung glauben, dass Wissen frei sein sollte. Dass Software ein Gemeingut ist, wie Luft oder Wasser. Etwas, das allen gehört. Und dass niemand von großen Konzernen abhängig sein sollte.
+A: Ein Gemeingut ist etwas, das der ganzen Gemeinschaft gehört und von allen genutzt werden kann. Und das klingt fast politisch.
+B: Das ist es auch. Die Freie-Software-Bewegung in den Achtzigerjahren war sehr politisch. Und in Deutschland gibt es eine lange Tradition. Der Chaos Computer Club in Berlin und Hamburg, gegründet neunzehnhunderteinundachtzig, ist eine der ältesten Hackervereinigungen der Welt. Er setzt sich für Informationsfreiheit und Datenschutz ein.
+A: Wobei „Hacker“ hier nicht Kriminelle meint, sondern Menschen, die Technik kreativ erforschen und verstehen wollen.
+B: Genau. Das wird oft verwechselt. Gut, jetzt die Schattenseiten. Denn Open Source hat auch Probleme.
+A: Ja, und ein großes Problem ist die Überlastung der Maintainer. Ein Maintainer ist die Person, die ein Open-Source-Projekt betreut. Die Fehler korrigiert, neue Beiträge prüft und Fragen beantwortet.
+B: Und das Problem ist: Manche dieser Projekte werden von Millionen Menschen und von riesigen Firmen genutzt. Aber sie werden nur von einer oder zwei Personen betreut. In ihrer Freizeit. Ohne Bezahlung.
+A: Es gibt einen bekannten Comic, der das perfekt zeigt. Man sieht einen großen Turm aus Bausteinen, der die ganze moderne digitale Infrastruktur darstellt. Und ganz unten steht ein winziger Baustein, auf dem alles ruht. Und darauf steht: „Ein Projekt, das irgendeine Person in Nebraska seit zweitausenddrei in ihrer Freizeit pflegt.“
+B: Hahaha. Und das ist leider keine Übertreibung. Es gab tatsächlich große Sicherheitslücken in wichtigen Open-Source-Bibliotheken, weil die Betreuer schlicht keine Zeit und kein Geld hatten, um alles zu prüfen.
+A: Und viele Maintainer erleben auch einen Burnout. Folge sechsundsechzig. Sie bekommen hunderte Anfragen, Beschwerden und Forderungen. Manche Nutzer sind sehr unfreundlich und verlangen sofortige Hilfe. Obwohl sie nichts bezahlen.
+B: Und große Firmen verdienen Milliarden mit Produkten, die auf Open Source basieren, geben aber wenig zurück. Das empfinden viele als ungerecht.
+A: Gibt es Lösungen?
+B: Es gibt Ansätze. Manche Plattformen ermöglichen es, Open-Source-Entwickler direkt mit Spenden zu unterstützen. Manche Firmen bezahlen ihre Mitarbeiter dafür, an Open-Source-Projekten zu arbeiten. Und in Deutschland gibt es seit einigen Jahren eine staatliche Förderung: Der Bund finanziert über eine Agentur die Pflege wichtiger Open-Source-Infrastruktur.
+A: Interessant. Der Staat erkennt also an, dass Open Source eine Art öffentliches Gut ist. Wie Straßen oder Brücken.
+B: Genau. Digitale Infrastruktur. Und es gibt auch Städte und Behörden, die selbst auf Open Source umsteigen, um unabhängiger von großen Softwarekonzernen zu werden. Das Bundesland Schleswig-Holstein zum Beispiel stellt seine Verwaltung schrittweise auf Open-Source-Software um.
+A: Jonas, eine Frage, die mich als Nicht-Programmiererin interessiert: Gibt es Open Source auch außerhalb der Software?
+B: Oh ja, die Idee hat sich stark verbreitet. Wikipedia ist im Grunde ein Open-Source-Lexikon. Millionen Freiwillige schreiben und korrigieren Artikel, und jeder darf die Inhalte unter bestimmten Bedingungen weiterverwenden.
+A: Stimmt. Und es gibt OpenStreetMap, eine Weltkarte, die von Freiwilligen gezeichnet wird. Manche Hilfsorganisationen benutzen sie bei Naturkatastrophen, weil sie oft genauer ist als kommerzielle Karten.
+B: Und es gibt Open Hardware, also Baupläne für Geräte, die jeder nachbauen darf. Und Open Science, bei der Forscher ihre Daten und Ergebnisse frei zugänglich machen. Das hat zum Beispiel während der Pandemie sehr geholfen, weil Forscher weltweit sofort auf die Daten zugreifen konnten.
+A: Und es gibt freie Bildungsmaterialien. Lehrer teilen ihre Arbeitsblätter und Unterrichtsideen kostenlos. Das mache ich übrigens auch. Ich habe ein paar Übungen online gestellt, die Lehrerinnen in ganz Deutschland benutzen.
+B: Dann bist du ja auch Teil der Open-Source-Bewegung, Lena!
+A: Hahaha. Offenbar ja. Ohne es zu wissen.
+A: Jetzt zur Geschichte. Diesmal geht es um Julien selbst. Er hat schon vor Jahren in Lyon an einem kleinen Open-Source-Projekt mitgearbeitet. Eine Bibliothek, die hilft, Texte in verschiedenen Sprachen richtig zu formatieren. Mit Datumsformaten, Zahlen und so weiter.
+B: Etwas sehr Nützliches, aber nicht besonders spektakulär.
+A: Genau. Und Julien hat das Projekt eigentlich vergessen. Bis er eines Tages eine Nachricht bekommt. Von einer Entwicklerin aus Japan. Sie schreibt: „Ihre Bibliothek wird in einer App benutzt, die Millionen Menschen nutzen. Und wir haben einen kritischen Fehler gefunden. Können Sie helfen?“
+B: Oh! Millionen Menschen! Und Julien wusste das nicht?
+A: Nein! Er war total überrascht. Er hatte keine Ahnung, dass sein kleines Hobbyprojekt so weit verbreitet ist. Und der andere Maintainer, ein Freund aus Lyon, hatte schon vor zwei Jahren aufgehört, weil er keine Zeit mehr hatte.
+B: Das klassische Problem. Was hat Julien gemacht?
+A: Er hat ein ganzes Wochenende gearbeitet, um den Fehler zu beheben. Ohne Bezahlung. Und er hat gemerkt, dass er das nicht dauerhaft allein schaffen kann. Also hatte er eine Idee. Er hat das Projekt an der Programmierschule vorgestellt. Als Lernprojekt für die Studenten.
+B: Das ist clever! Die Studenten lernen an einem echten Projekt, und das Projekt bekommt Unterstützung.
+A: Genau. Zehn Studenten haben sich gemeldet. Sie haben Fehler gefunden, Tests geschrieben, die Dokumentation verbessert. Und Felix, der Mitbewohner von Mira, hat eine Übersetzungsfunktion für das Arabische und Japanische hinzugefügt.
+B: Felix! Der Spieleentwickler!
+A: Ja. Und dann kam noch eine Überraschung. Die japanische Firma, deren App die Bibliothek nutzt, hat sich gemeldet und angeboten, das Projekt finanziell zu unterstützen. Mit einer regelmäßigen Spende. Und von diesem Geld kann die Schule jetzt zwei Studenten bezahlen, die das Projekt als Werkstudenten betreuen.
+B: Wunderbar! Aus einem fast vergessenen Hobbyprojekt ist ein nachhaltiges Projekt geworden.
+A: Genau. Und Julien sagt jetzt: „Ich habe damals umsonst gearbeitet, im Sinne von kostenlos. Aber es war nicht umsonst, im Sinne von vergeblich.“
+B: Was für ein schöner Abschluss mit unserem Wortspiel!
+A: Jetzt bist du dran, Hörer, Hörerin. Hast du schon mal etwas freiwillig und unbezahlt gemacht, weil es dir wichtig war? Was war deine Motivation? Benutze die Ausdrücke von heute: „Ausschlaggebend war für mich …“ „Eine wesentliche Rolle hat … gespielt.“ „Nicht zuletzt …“
+B: Und erkläre jemandem, der nichts von Technik versteht, was Open Source ist. In drei oder vier Sätzen.
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: umsonst. Kostenlos, aber auch: vergeblich, ohne Ergebnis.
+A: Wort Nummer zwei: ausschlaggebend. Entscheidend, der wichtigste Grund.
+B: Wort Nummer drei: intrinsisch. Von innen kommend, aus eigener Freude, nicht wegen einer Belohnung.
+A: Wort Nummer vier: der Ruf. Was andere Menschen über einen denken, die Reputation.
+B: Wort Nummer fünf: das Gemeingut. Etwas, das der ganzen Gemeinschaft gehört und von allen genutzt werden kann.
+A: Und Wort Nummer sechs: die Lizenz. Eine offizielle Erlaubnis mit Regeln.
+B: Noch einmal: umsonst, ausschlaggebend, intrinsisch, der Ruf, das Gemeingut, die Lizenz.
+A: Was lernen wir heute? Open Source bedeutet: Der Quellcode ist öffentlich und darf gelesen, verändert und weitergegeben werden.
+B: Open Source ist überall: Linux, Android, Firefox und der größte Teil der modernen Software.
+A: Die Motivationen: Spaß, eigene Probleme lösen, Lernen, Karriere und Ideale. Und die Probleme: überlastete Maintainer und Firmen, die wenig zurückgeben.
+B: Und Ausdrücke für Gründe: ausschlaggebend, eine wesentliche Rolle spielen, das liegt daran, dass, nicht zuletzt.
+A: Das ist das Ende von Folge siebenundsechzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und denk daran: Was umsonst ist, ist nicht immer umsonst! Servus!
+A: Tschüss!
+VOCAB: umsonst | Kostenlos, aber auch: vergeblich, ohne Ergebnis. | 🆓
+VOCAB: ausschlaggebend | Entscheidend, der wichtigste Grund. | 🎯
+VOCAB: intrinsisch | Von innen kommend, aus eigener Freude. | 💛
+VOCAB: der Ruf | Was andere Menschen über einen denken, die Reputation. | 🏅
+VOCAB: das Gemeingut | Etwas, das der ganzen Gemeinschaft gehört. | 🌐
+VOCAB: die Lizenz | Eine offizielle Erlaubnis mit Regeln. | 📄
+QUIZ: Welche zwei Bedeutungen hat „umsonst“? | Kostenlos und vergeblich | Schnell und langsam | Neu und alt | 1
+QUIZ: Wer hat Linux gegründet? | Ein finnischer Student als Hobbyprojekt | Eine große amerikanische Firma | Die deutsche Regierung | 1
+QUIZ: Was ist ein Maintainer? | Ein Nutzer, der nichts bezahlt | Die Person, die ein Open-Source-Projekt betreut | Ein Hacker | 2
+QUIZ: Was bedeutet „intrinsische Motivation“? | Die Motivation kommt von außen, durch Geld | Die Motivation kommt von innen, aus Freude | Man hat keine Motivation | 2
+QUIZ: Wer unterstützt Juliens Projekt am Ende finanziell? | Die deutsche Regierung | Eine japanische Firma | Herr Yilmaz | 2
+`;
