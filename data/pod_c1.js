@@ -1047,3 +1047,208 @@ QUIZ: Was gilt heute als widerlegt? | Die starke Version: Sprache bestimmt das D
 QUIZ: Was ist besonders an der Sprache Guugu Yimithirr? | Sie hat keine Wörter für links und rechts, nur Himmelsrichtungen | Sie hat keine Verben | Sie hat hundert Wörter für Schnee | 1
 QUIZ: Was antwortete Amira auf Adams Frage nach dem Mond? | Jede Sprache sieht die Welt ein bisschen anders, und er sieht sie dreimal | Das ist eben so | Er soll schlafen gehen | 1
 `;
+
+DATA.podScripts.ep092 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge zweiundneunzig. Heute sprechen wir über etwas, das niemand gern erlebt, das aber zu jedem Leben dazugehört: das Scheitern. Und wir stellen eine provokante These auf: Scheitern kann eine Strategie sein.
+A: Wir sprechen über Resilienz, über Innovation und über eine Kultur, die in Deutschland bis heute ein schwieriges Verhältnis zum Scheitern hat. Ganz im Gegensatz etwa zum Silicon Valley, wo das Scheitern fast gefeiert wird.
+B: „Resilienz“ ist ein Begriff, der ursprünglich aus der Werkstoffkunde stammt. Er beschreibt die Fähigkeit eines Materials, nach einer Verformung in seinen ursprünglichen Zustand zurückzukehren. Und in der Psychologie bezeichnet er die seelische Widerstandskraft. Die Fähigkeit, Krisen zu bewältigen und gestärkt aus ihnen hervorzugehen.
+A: Sprachlich widmen wir uns heute Redewendungen und idiomatischen Ausdrücken rund um Erfolg und Misserfolg. Das Deutsche ist reich an bildhaften Ausdrücken für das Scheitern. „Auf die Nase fallen“, „Schiffbruch erleiden“, „in die Hose gehen“, „den Bach runtergehen“, „sich die Finger verbrennen“, „wieder auf die Beine kommen“.
+B: Und viele davon sind wunderbar anschaulich. „Schiffbruch erleiden“ stammt natürlich aus der Seefahrt. Ein Schiff, das zerbricht. „Sich die Finger verbrennen“ heißt: durch eine riskante Handlung Schaden erleiden. Und „etwas geht in die Hose“ ist umgangssprachlich und bedeutet: etwas misslingt.
+A: Gut. Fangen wir mit der kulturellen Dimension an. Jonas, warum tun sich die Deutschen so schwer mit dem Scheitern?
+B: Ich glaube, das hängt mit dem zusammen, was wir in Folge achtundachtzig über die hohe Unsicherheitsvermeidung gesagt haben. Die Deutschen lieben Planung, Sicherheit, Perfektion. Und das Scheitern ist das Gegenteil davon. Es ist das, was man durch gute Planung vermeiden wollte.
+A: Und es gibt eine lange Tradition des Perfektionismus. Die deutsche Ingenieurskunst, „Made in Germany“. Ein deutsches Produkt muss funktionieren. Ein Fehler ist eine Schande. Und das überträgt sich auf das ganze Leben.
+B: Und es gibt eine ganz konkrete, rechtliche Seite. Lange Zeit war eine Firmenpleite in Deutschland ein soziales Stigma. Wer mit einem Unternehmen in die Insolvenz ging, galt als Versager. „Die Insolvenz“ ist der juristische Begriff für die Zahlungsunfähigkeit, wenn ein Unternehmen seine Schulden nicht mehr bezahlen kann.
+A: Und bis vor einigen Jahren konnte es in Deutschland sehr lange dauern, bis man nach einer Privatinsolvenz schuldenfrei war. Inzwischen hat man das Verfahren auf drei Jahre verkürzt, auch unter dem Einfluss einer europäischen Richtlinie. Aber das Stigma bleibt teilweise bestehen.
+B: Im Silicon Valley ist das ganz anders. Dort gilt ein gescheitertes Start-up fast als Qualifikation. Ein Gründer, der schon zweimal gescheitert ist, gilt als erfahren. Er hat aus seinen Fehlern gelernt. Es gibt sogar den Spruch „Fail fast, fail often“. Scheitere schnell, scheitere oft.
+A: Wobei man auch diese Kultur kritisch sehen sollte. Sie kann zu einer gewissen Verantwortungslosigkeit führen. Und sie verschleiert, dass sich das Scheitern nicht jeder leisten kann. Ein Gründer mit reichen Eltern kann leichter scheitern als jemand, der sein ganzes Erspartes verliert.
+B: Ein wichtiger Punkt. Das Recht auf Scheitern ist auch eine Frage des Privilegs. Gut. Aber jetzt die eigentliche These: Warum kann Scheitern eine Strategie sein?
+A: Fangen wir mit der Innovation an. Fast jede große Erfindung ist das Ergebnis unzähliger gescheiterter Versuche. Es gibt den berühmten Satz, der Thomas Edison zugeschrieben wird. Er soll nach Tausenden gescheiterten Versuchen, eine Glühbirne zu bauen, gesagt haben: „Ich bin nicht gescheitert. Ich habe zehntausend Wege gefunden, die nicht funktionieren.“
+B: Ob er es wirklich gesagt hat, ist wie so oft fraglich. Aber der Gedanke ist zentral. Jedes Scheitern liefert eine Information. Man lernt, was nicht funktioniert. Und kommt der Lösung näher.
+A: Und es gibt Erfindungen, die direkt aus einem Fehler entstanden sind. Das Penicillin zum Beispiel. Der schottische Forscher Alexander Fleming hatte neunzehnhundertachtundzwanzig vergessen, eine Bakterienkultur wegzuräumen, bevor er in den Urlaub fuhr. Als er zurückkam, war ein Schimmelpilz darauf gewachsen, der die Bakterien abgetötet hatte.
+B: Eine schlampige Laborarbeit, die Millionen Menschenleben gerettet hat. Und die berühmten gelben Haftnotizen.
+A: Ja! Ein Chemiker wollte eigentlich einen besonders starken Klebstoff entwickeln. Aber heraus kam ein ganz schwacher Klebstoff, der kaum hielt. Ein Fehlschlag. Jahrelang wusste niemand, was man damit anfangen sollte. Bis ein Kollege eine Idee hatte. Er sang in einem Kirchenchor und ärgerte sich, dass seine Lesezeichen ständig aus dem Gesangbuch fielen.
+B: Und so entstanden die Klebezettel, die heute in jedem Büro hängen. Aus einem misslungenen Klebstoff. Das nennt man Serendipität. Ein schöner Begriff.
+A: Erklär ihn.
+B: Serendipität ist die zufällige Entdeckung von etwas Wertvollem, nach dem man gar nicht gesucht hat. Aber das Wichtige ist: Der Zufall allein reicht nicht. Man muss offen genug sein, um den Wert des unerwarteten Ergebnisses zu erkennen. Fleming hätte die verschimmelte Kultur auch einfach wegwerfen können.
+A: Und das bringt uns zu einem modernen Konzept aus der Start-up-Welt und der Softwareentwicklung: dem schnellen Experimentieren. Man spricht vom „Lean Startup“ oder vom Prototyping. Statt jahrelang ein perfektes Produkt zu planen, baut man schnell eine einfache Version, testet sie mit echten Kunden und lernt aus dem Feedback.
+B: Und das Scheitern ist dabei eingeplant. Man scheitert früh und billig, statt spät und teuer. Das ist eigentlich das Gegenteil des deutschen Perfektionismus. Und es erklärt vielleicht, warum Deutschland bei bestimmten digitalen Innovationen hinterherhinkt.
+A: „Hinterherhinken“ heißt: zurückbleiben, langsamer sein als andere. Und es gibt ein sehr treffendes Beispiel aus Deutschland. Den Flughafen BER, über den wir in Folge fünfunddreißig gesprochen haben.
+B: Ah ja, das Paradebeispiel des Scheiterns! Neun Jahre zu spät, Milliarden über dem Budget.
+A: Genau. Und eines der Probleme war, dass man versucht hat, alles perfekt zu planen, aber ständig die Pläne geändert hat. Und als die Probleme auftauchten, hat man sie zu lange vertuscht, statt sie offen anzusprechen. Weil niemand das Scheitern zugeben wollte. Eine Kultur, in der Fehler bestraft werden, führt dazu, dass Fehler versteckt werden.
+B: Das ist genau das, was wir in Folge zweiundsiebzig über die psychologische Sicherheit gesagt haben. Die Teams im Krankenhaus, die Fehler meldeten statt sie zu vertuschen, waren die besseren.
+A: Genau. Und daraus folgt eine wichtige Unterscheidung. Nicht jedes Scheitern ist gleich. Die Harvard-Professorin Amy Edmondson, die wir aus Folge zweiundsiebzig kennen, unterscheidet drei Arten von Fehlern.
+B: Welche?
+A: Erstens die vermeidbaren Fehler. Fehler bei Routineaufgaben, durch Unaufmerksamkeit oder mangelnde Sorgfalt. Ein Pilot, der eine Checkliste vergisst. Diese Fehler sind tatsächlich schlecht und sollten vermieden werden.
+B: Zweitens?
+A: Zweitens die komplexen Fehler. Sie entstehen in komplexen Systemen durch das unglückliche Zusammentreffen mehrerer Faktoren. Niemand ist allein schuld. Man sollte sie analysieren und daraus lernen.
+B: Und drittens?
+A: Drittens die intelligenten Fehler. Das sind die Fehler, die bei echten Experimenten in neuem Terrain entstehen. Wenn man etwas Neues ausprobiert, dessen Ausgang man nicht kennen kann. Diese Fehler sind nicht nur unvermeidbar, sondern wertvoll. Sie liefern neue Erkenntnisse. Und genau diese Fehler sollte eine gute Kultur fördern.
+B: Das ist eine sehr hilfreiche Unterscheidung. Denn „Scheitern feiern“ heißt nicht, schlampige Arbeit zu feiern. Es heißt, mutige Experimente zu ermutigen.
+A: Genau. Und jetzt zur Resilienz, also zur persönlichen Seite. Wie geht man mit dem eigenen Scheitern um?
+B: Hier gibt es ein sehr einflussreiches Konzept der amerikanischen Psychologin Carol Dweck: das „Mindset“, also die Denkhaltung. Sie unterscheidet zwischen einem statischen und einem wachstumsorientierten Mindset.
+A: Erklär den Unterschied.
+B: Menschen mit einem statischen Mindset glauben, dass ihre Fähigkeiten festgelegt sind. Man ist intelligent oder nicht, begabt oder nicht. Und für sie ist ein Scheitern ein Beweis dafür, dass sie nicht gut genug sind. Darum vermeiden sie Herausforderungen.
+A: Und Menschen mit einem wachstumsorientierten Mindset?
+B: Sie glauben, dass man Fähigkeiten durch Anstrengung und Übung entwickeln kann. Für sie ist ein Scheitern keine Aussage über ihren Wert, sondern eine Gelegenheit zu lernen. Und darum suchen sie Herausforderungen, statt sie zu meiden.
+A: Und das hat direkte Folgen für das Sprachenlernen! Wer denkt „Ich bin einfach nicht sprachbegabt“, gibt beim ersten Fehler auf. Wer denkt „Ich lerne aus jedem Fehler“, macht weiter.
+B: Wobei auch Dwecks Theorie inzwischen kritisch gesehen wird. Groß angelegte Studien haben gezeigt, dass Trainings zum Mindset in der Schule oft nur kleine Effekte haben. Die Idee ist anregend, aber sie ist kein Wundermittel.
+A: Wie so vieles, was wir in diesem Podcast besprochen haben. Die Wirklichkeit ist komplexer als die eingängigen Theorien. Und noch ein wichtiger Aspekt der Resilienz: die Trennung von Person und Leistung. Wie in Folge achtundsiebzig beim Feedback. Ich bin nicht mein Scheitern. Ein gescheitertes Projekt macht mich nicht zu einem gescheiterten Menschen.
+B: Und es gibt eine schöne japanische Kunstform, die das wunderbar verkörpert: Kintsugi. Kenji hat mir davon erzählt.
+A: Erzähl!
+B: Kintsugi ist die Kunst, zerbrochene Keramik zu reparieren. Aber nicht, indem man die Bruchstellen versteckt. Sondern indem man sie mit Gold betont. Man klebt die Scherben mit einem Lack zusammen, der mit Goldstaub vermischt ist. Und am Ende ist die reparierte Schale schöner und wertvoller als vorher. Gerade wegen ihrer Brüche.
+A: Was für ein wunderschönes Bild für die Resilienz. Die Brüche gehören zu unserer Geschichte. Sie machen uns nicht schwächer, sondern einzigartig.
+B: Und es gibt in Deutschland übrigens eine interessante Initiative: die „Fuckup Nights“. Veranstaltungen, bei denen Gründer und Manager auf einer Bühne öffentlich von ihrem größten Scheitern erzählen. Sie stammen ursprünglich aus Mexiko und finden inzwischen auch in vielen deutschen Städten statt.
+A: Ein sehr mutiges Format. Und es hilft, das Stigma abzubauen. Wenn erfolgreiche Menschen offen über ihr Scheitern sprechen, merken andere, dass sie nicht allein sind. Jetzt zur Geschichte. Und diesmal geht es um Felix, den Spieleentwickler.
+B: Felix! Was ist mit seinem Spiel passiert? Es sollte ja veröffentlicht werden.
+A: Das ist genau die Geschichte. Felix' Spiel über das Deutschlernen in Berlin, aus Folge sechsundfünfzig, wurde tatsächlich veröffentlicht. Mit großen Erwartungen. Und es war ein Flop.
+B: Oh nein. Ein Flop ist ein Misserfolg, besonders bei einem Produkt oder einem Film.
+A: Genau. In den ersten Monaten haben es nur wenige tausend Menschen gekauft. Die Spielefirma hatte mit viel mehr gerechnet. Die Kritiken waren gemischt. Manche fanden es zu kompliziert, andere zu einfach. Und die Firma beschloss, das Spiel nicht weiter zu unterstützen.
+B: Das muss für Felix ein harter Schlag gewesen sein. Er hatte ja jahrelang daran gearbeitet.
+A: Ja. Er ist tief abgestürzt. Er hat sich wochenlang in seinem Zimmer eingeschlossen. Er hat gedacht, er sei ein Versager. Er hat seinen Eltern, die ja anfangs gegen seine Spielentwicklung gewesen waren, nicht einmal erzählt, dass das Spiel gescheitert war. Er hat sich so geschämt.
+B: Das statische Mindset. Er hat das Scheitern des Spiels als sein eigenes Scheitern gesehen.
+A: Genau. Und dann hat Kenji ihm die Geschichte vom Kintsugi erzählt. Und er hat ihm eine kleine reparierte Schale geschenkt. Mit goldenen Linien. Und er hat gesagt: „Dein Spiel ist zerbrochen. Aber es ist nicht wertlos. Schau dir an, wo die Brüche sind.“
+B: Und hat Felix das verstanden?
+A: Zuerst nicht. Aber dann hat er angefangen, die Rückmeldungen der Spieler genauer zu lesen. Nicht die negativen Kritiken, sondern was die wenigen begeisterten Spieler geschrieben hatten. Und er hat etwas Überraschendes entdeckt.
+B: Was denn?
+A: Die begeisterten Spieler waren fast alle Lehrerinnen und Lehrer. Sprachlehrer, die das Spiel in ihrem Unterricht benutzten. Sie schrieben, es sei ein großartiges Werkzeug, um Deutsch zu unterrichten. Aber es sei als Unterhaltungsspiel vermarktet worden, nicht als Lernwerkzeug. Darum hätten es die richtigen Leute nie gefunden.
+B: Serendipität! Die Lösung lag in einem unerwarteten Ergebnis.
+A: Genau. Felix hatte das Spiel für die falsche Zielgruppe gemacht. Und er hat beschlossen, es neu auszurichten. Er hat mich kontaktiert, weil ich ja Deutschlehrerin bin. Und zusammen haben wir das Spiel überarbeitet. Für den Unterricht. Mit Übungen, mit verschiedenen Niveaus, mit einer Funktion für Lehrer.
+B: Du warst dabei? Das wusste ich nicht!
+A: Hahaha. Ja, ein kleines Geheimnis. Und dann haben wir das Spiel nicht über die großen Spieleplattformen, sondern direkt an Sprachschulen und Volkshochschulen angeboten. Und es wurde ein Erfolg. Inzwischen benutzen es Hunderte Schulen in ganz Europa.
+B: Wunderbar! Aus einem Flop wurde ein Erfolg, weil er die Brüche genau angeschaut hat.
+A: Genau. Und Felix hat bei einer Fuckup Night in Berlin von seiner Geschichte erzählt. Und er hat am Ende die goldene Schale von Kenji hochgehalten und gesagt: „Mein erstes Spiel ist gescheitert. Aber ohne dieses Scheitern hätte ich nie herausgefunden, wofür es eigentlich gut ist.“
+B: Und seine Eltern?
+A: Er hat ihnen endlich alles erzählt. Und sein Vater hat gesagt: „Ich bin stolzer auf dich, weil du wieder aufgestanden bist, als ich es gewesen wäre, wenn es sofort geklappt hätte.“
+B: Jetzt bist du dran, Hörer, Hörerin. Erzähl von einem Scheitern in deinem Leben. Was hast du daraus gelernt? Benutze die Redewendungen von heute: „Ich bin damals auf die Nase gefallen …“, „Das ist völlig in die Hose gegangen …“, „Aber ich bin wieder auf die Beine gekommen …“
+A: Und denk an Kintsugi. Welche Bruchstelle in deinem Leben ist vielleicht zu einer goldenen Linie geworden?
+B: Und jetzt unsere „Wörter des Tages“.
+A: Wort Nummer eins: die Resilienz. Die seelische Widerstandskraft, die Fähigkeit, Krisen zu bewältigen.
+B: Wort Nummer zwei: auf die Nase fallen. Einen Misserfolg erleben, scheitern.
+A: Wort Nummer drei: hinterherhinken. Zurückbleiben, langsamer sein als andere.
+B: Wort Nummer vier: die Serendipität. Die zufällige Entdeckung von etwas Wertvollem, nach dem man nicht gesucht hat.
+A: Wort Nummer fünf: wieder auf die Beine kommen. Sich nach einer Krise erholen.
+B: Und Wort Nummer sechs: der Flop. Ein Misserfolg, besonders bei einem Produkt.
+A: Noch einmal: die Resilienz, auf die Nase fallen, hinterherhinken, die Serendipität, wieder auf die Beine kommen, der Flop.
+B: Was nehmen wir mit? In Deutschland gibt es eine lange Tradition des Perfektionismus und ein Stigma des Scheiterns. Im Silicon Valley gilt es fast als Qualifikation, wobei sich das nicht jeder leisten kann.
+A: Viele große Innovationen entstanden aus Fehlern, durch Serendipität. Und Amy Edmondson unterscheidet vermeidbare, komplexe und intelligente Fehler. Nur die intelligenten sollte man feiern.
+B: Resilienz bedeutet, die eigene Person vom Scheitern zu trennen und es als Gelegenheit zum Lernen zu sehen.
+A: Und wie beim Kintsugi können die Brüche zu goldenen Linien werden.
+B: Das ist das Ende von Folge zweiundneunzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und hab keine Angst, beim Deutschsprechen Fehler zu machen. Jeder Fehler ist ein Schritt weiter. Tschüss!
+B: Servus!
+VOCAB: die Resilienz | Die seelische Widerstandskraft, Krisen zu bewältigen. | 🌿
+VOCAB: auf die Nase fallen | Einen Misserfolg erleben, scheitern. | 🤕
+VOCAB: hinterherhinken | Zurückbleiben, langsamer sein als andere. | 🐢
+VOCAB: die Serendipität | Die zufällige Entdeckung von etwas Wertvollem. | 🍀
+VOCAB: wieder auf die Beine kommen | Sich nach einer Krise erholen. | 🧍
+VOCAB: der Flop | Ein Misserfolg, besonders bei einem Produkt. | 📉
+QUIZ: Woher stammt der Begriff „Resilienz“ ursprünglich? | Aus der Werkstoffkunde | Aus der Medizin | Aus der Musik | 1
+QUIZ: Wie entstand das Penicillin? | Durch einen geplanten Versuch | Durch einen Fehler: eine vergessene Bakterienkultur | Durch Zufall in einem Restaurant | 2
+QUIZ: Welche Fehler sollte eine gute Kultur laut Amy Edmondson fördern? | Vermeidbare Fehler | Intelligente Fehler bei echten Experimenten | Alle Fehler gleich | 2
+QUIZ: Was ist Kintsugi? | Eine japanische Kunst, zerbrochene Keramik mit Gold zu reparieren | Ein japanisches Gericht | Eine Kampfkunst | 1
+QUIZ: Wer waren die begeisterten Spieler von Felix' Spiel? | Kinder | Sprachlehrerinnen und Sprachlehrer | Professionelle Gamer | 2
+`;
+
+DATA.podScripts.ep093 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge dreiundneunzig. Heute widmen wir uns einem Thema, das in Berlin, München, Hamburg und vielen anderen Städten zu den drängendsten sozialen Fragen unserer Zeit gehört: der Wohnungskrise.
+A: Wir haben in Folge dreiunddreißig über die Wohnungssuche gesprochen, aus der Perspektive eines Einzelnen. Heute schauen wir uns die strukturellen Ursachen an. Warum fehlen so viele Wohnungen? Warum steigen die Mieten so rasant? Und welche Lösungen werden diskutiert?
+B: Und es ist ein Thema, bei dem die Emotionen hochkochen. Für viele Menschen ist eine bezahlbare Wohnung längst keine Selbstverständlichkeit mehr. Familien finden keine größere Wohnung, Studierende zahlen Unsummen für winzige Zimmer, ältere Menschen werden aus ihren Vierteln verdrängt.
+A: Sprachlich widmen wir uns heute den sogenannten Passiversatzformen. Das sind Konstruktionen, die eine passivische Bedeutung haben, aber ohne das Hilfsverb „werden“ auskommen. Sie sind in der Schriftsprache und besonders in Sachtexten sehr häufig.
+B: Es gibt mehrere Formen. Erstens „sein“ plus „zu“ plus Infinitiv. „Das Problem ist zu lösen.“ Das kann zwei Bedeutungen haben: Das Problem kann gelöst werden. Oder: Das Problem muss gelöst werden. Der Kontext entscheidet.
+A: Zweitens „sich lassen“ plus Infinitiv. „Das Problem lässt sich lösen.“ Das heißt: Das Problem kann gelöst werden. Drittens Adjektive auf „-bar“ und „-lich“. „Das Problem ist lösbar.“ „Die Miete ist bezahlbar.“ „Das ist verständlich.“
+B: Und viertens das reflexive Verb: „Der Schlüssel findet sich.“ Und fünftens Verben wie „bekommen“ oder „erhalten“: „Die Mieter bekommen eine Entschädigung ausgezahlt.“ Das ist das sogenannte Rezipientenpassiv.
+A: Sehr gut. Und bei unserem Thema passt das perfekt, denn in der Politik hört man ständig Sätze wie: „Der Wohnungsmangel lässt sich nicht kurzfristig beheben.“ „Die Mieten sind kaum noch bezahlbar.“ „Es ist dringend zu handeln.“
+B: Gut. Fangen wir mit den Zahlen an, um die Dimension zu verstehen. In vielen deutschen Großstädten haben sich die Mieten für neue Verträge in den letzten fünfzehn Jahren in etwa verdoppelt. In Berlin war der Anstieg besonders drastisch, weil die Stadt lange Zeit sehr günstig war.
+A: Und viele Haushalte geben inzwischen weit mehr als ein Drittel ihres Einkommens für die Miete aus. Wir haben in Folge dreiunddreißig gesagt, dass ein Drittel als Obergrenze gilt. Für einen erheblichen Teil der Mieter in den Großstädten liegt die Belastung deutlich darüber, manchmal bei der Hälfte des Einkommens.
+B: Und es fehlen Hunderttausende Wohnungen. Die Bundesregierung hatte sich zum Ziel gesetzt, vierhunderttausend neue Wohnungen pro Jahr zu bauen. Dieses Ziel wurde Jahr für Jahr deutlich verfehlt.
+A: Gut. Kommen wir zu den Ursachen. Und hier ist es wichtig, zu verstehen, dass es nicht eine einzige Ursache gibt, sondern ein ganzes Geflecht. Ein „Geflecht“ ist ein Netz aus vielen miteinander verbundenen Fäden.
+B: Erste Ursache: die steigende Nachfrage. Immer mehr Menschen ziehen in die Städte. Wegen der Arbeitsplätze, der Universitäten, der Kultur. Und gleichzeitig leben immer mehr Menschen allein. Die Zahl der Einpersonenhaushalte ist enorm gestiegen. Wo früher eine Familie mit vier Personen in einer Wohnung lebte, leben heute vielleicht zwei Singles in zwei Wohnungen.
+A: Dazu kommt die Zuwanderung. Deutschland ist ein Einwanderungsland, und die Menschen, die kommen, brauchen natürlich auch Wohnraum. Wobei man hier vorsichtig sein muss, dass dieses Argument nicht für Hetze missbraucht wird. Die Wohnungskrise ist kein Problem, das sich auf Migration reduzieren lässt.
+B: „Hetze“ ist die gezielte Verbreitung von Hass gegen eine Gruppe. Ein sehr wichtiger Punkt. Zweite Ursache: das zu geringe Angebot. Es wird schlicht zu wenig gebaut. Und warum wird zu wenig gebaut?
+A: Weil das Bauen in Deutschland sehr teuer und langwierig geworden ist. Die Baukosten sind stark gestiegen, durch teurere Materialien, durch den Fachkräftemangel im Handwerk, den wir in Folge dreiundsechzig besprochen haben. Und durch die gestiegenen Zinsen, die Kredite für Bauprojekte verteuern.
+B: Und durch die Bürokratie! Folge neunundsiebzig. Die Bauvorschriften in Deutschland sind extrem umfangreich. Es gibt Tausende Normen und Vorschriften, für den Brandschutz, den Schallschutz, die Energieeffizienz, die Barrierefreiheit, die Anzahl der Parkplätze. Jede einzelne ist für sich genommen sinnvoll. Aber zusammen machen sie das Bauen teuer und langsam.
+A: Und die Genehmigungsverfahren dauern oft Jahre. Bis ein Bebauungsplan aufgestellt ist, bis alle Gutachten vorliegen, bis alle Einsprüche geprüft sind. Es gibt Projekte, bei denen zwischen der Idee und dem Einzug der ersten Mieter ein ganzes Jahrzehnt vergeht.
+B: Und dann gibt es noch das Phänomen, das man im Englischen „NIMBY“ nennt. „Not in my backyard.“ Auf Deutsch etwa: „Nicht in meinem Hinterhof.“ Viele Menschen sind grundsätzlich dafür, dass mehr Wohnungen gebaut werden. Aber nicht in ihrer Nachbarschaft. Nicht vor ihrem Fenster. Nicht auf der Wiese, auf der sie mit dem Hund spazieren gehen.
+A: Das ist ein menschlich verständliches, aber gesellschaftlich problematisches Verhalten. Dritte Ursache: die Spekulation und die Finanzialisierung des Wohnens.
+B: Das ist ein wichtiger und umstrittener Punkt. Erklär ihn.
+A: In den letzten Jahrzehnten wurden Wohnungen immer stärker zu einer Kapitalanlage. Besonders in der Phase sehr niedriger Zinsen haben Investoren, Fonds und große Wohnungskonzerne massiv in Immobilien investiert. Für sie ist eine Wohnung nicht in erster Linie ein Zuhause, sondern ein Renditeobjekt. Die Rendite ist der Gewinn, den eine Investition bringt.
+B: Und in Berlin hat das eine besondere Geschichte. Anfang der Zweitausenderjahre war die Stadt hoch verschuldet. Und sie hat Zehntausende städtische Wohnungen an private Investoren verkauft, um Geld in die Kasse zu bekommen. Damals erschien das als vernünftige Sparmaßnahme.
+A: Und heute bereuen das viele. Die Stadt hat damit die Kontrolle über einen großen Teil des Wohnungsmarktes verloren. Und einige dieser Wohnungen musste sie später zu viel höheren Preisen wieder zurückkaufen.
+B: Ein klassisches Beispiel für eine Entscheidung, die im Nachhinein als Fehler erscheint. Folge vierundsechzig! Und die vierte Ursache: die Gentrifizierung, über die wir in Folge neunundsechzig gesprochen haben. Wenn ein Viertel attraktiv wird, steigen die Mieten, und die ursprünglichen Bewohner werden verdrängt.
+A: Und eine fünfte, oft übersehene Ursache: der Leerstand und die Zweckentfremdung. Manche Wohnungen stehen leer, weil die Besitzer auf höhere Preise warten. Und viele Wohnungen werden als Ferienwohnungen an Touristen vermietet, statt dauerhaft an Bewohner. Wie wir in Folge sechsundsiebzig gesehen haben.
+B: Berlin hat deshalb ein Zweckentfremdungsverbot eingeführt. Man darf eine Wohnung nicht einfach ohne Genehmigung dauerhaft als Ferienwohnung vermieten. Wer dagegen verstößt, muss mit hohen Strafen rechnen.
+A: Gut. Kommen wir zu den Lösungsansätzen. Und hier wird es politisch, denn die Vorschläge reichen von marktliberal bis sozialistisch. Fangen wir mit den regulierenden Maßnahmen an.
+B: Erstens die Mietpreisbremse. Sie wurde in Deutschland zweitausendfünfzehn eingeführt. In Gebieten mit angespanntem Wohnungsmarkt darf die Miete bei einer Neuvermietung höchstens zehn Prozent über der ortsüblichen Vergleichsmiete liegen.
+A: Und hat sie funktioniert?
+B: Die Bilanz ist gemischt. Sie hat den Anstieg in manchen Fällen leicht gebremst. Aber es gibt viele Ausnahmen, etwa für Neubauten und umfassend modernisierte Wohnungen. Und viele Vermieter halten sich nicht daran, weil viele Mieter ihre Rechte nicht kennen oder sich nicht trauen, sie einzufordern. Aus Angst, die Wohnung zu verlieren.
+A: Und Berlin hat einen noch radikaleren Weg versucht: den Mietendeckel. Zweitausendzwanzig wurden die Mieten für fünf Jahre eingefroren und teilweise sogar gesenkt.
+B: Und das Bundesverfassungsgericht hat den Mietendeckel zweitausendeinundzwanzig gekippt. „Etwas kippen“ heißt hier: eine Regelung für ungültig erklären. Allerdings nicht, weil die Idee an sich verfassungswidrig war, sondern weil das Land Berlin nicht zuständig war. Das Mietrecht ist Sache des Bundes.
+A: Ein typisch deutsches Problem der Zuständigkeit. Und viele Mieter mussten danach die gesparte Miete nachzahlen. Was für manche eine große finanzielle Belastung war.
+B: Und dann gab es in Berlin ein noch radikaleres Projekt: das Volksbegehren „Deutsche Wohnen und Co. enteignen“. Benannt nach einem der großen Wohnungskonzerne.
+A: Ja, das war ein politisches Erdbeben. Die Initiative forderte, dass große Wohnungsunternehmen mit mehr als dreitausend Wohnungen in Berlin vergesellschaftet werden. Also gegen eine Entschädigung in öffentliches Eigentum überführt werden. Gestützt auf einen Artikel des Grundgesetzes, der so etwas grundsätzlich erlaubt, der aber noch nie angewendet worden war.
+B: Und beim Volksentscheid zweitausendeinundzwanzig hat eine deutliche Mehrheit der Berliner dafür gestimmt. Über fünfzig Prozent.
+A: Allerdings war das Ergebnis nicht bindend für den Senat. Und die Umsetzung zieht sich seitdem hin. Eine Expertenkommission hat geprüft, ob die Vergesellschaftung rechtlich möglich wäre, und kam zu dem Schluss, dass sie grundsätzlich zulässig sei. Aber politisch ist sie heftig umstritten.
+B: Die Befürworter argumentieren, dass Wohnen ein Grundrecht sei und nicht dem Profitstreben unterworfen werden dürfe. Die Kritiker halten dagegen, dass eine Enteignung kein einziges neues Gebäude schaffe, sondern nur Besitzverhältnisse ändere. Und dass sie potenzielle Investoren abschrecke.
+A: Und das ist ein wichtiges Argument. Denn die Grundursache bleibt der Mangel an Wohnungen. Und den kann man nur durch Bauen beheben. Was die marktliberale Seite betont.
+B: Die marktliberale Seite sagt: Weniger Regulierung, schnellere Genehmigungen, mehr Bauland, und die Mieten sinken von selbst, weil das Angebot steigt. Regulierungen wie die Mietpreisbremse würden das Bauen sogar unattraktiv machen und das Problem verschärfen.
+A: Und die Wahrheit liegt vermutlich, wie so oft, irgendwo dazwischen. Man braucht beides: mehr Bauen und gleichzeitig einen Schutz der Mieter, damit sie nicht in der Zwischenzeit aus ihren Wohnungen gedrängt werden.
+B: Und hier kommt wieder Wien ins Spiel. Das Wiener Modell, über das wir in Folge achtundzwanzig gesprochen haben.
+A: Ja, und zwar als internationales Vorbild. Erzähl, Jonas, du bist der Experte.
+B: Gern. Wien hat einen völlig anderen Weg gewählt als Berlin. Wien hat seine städtischen Wohnungen nie verkauft. Im Gegenteil. Seit fast hundert Jahren, seit dem sogenannten „Roten Wien“ der Zwanzigerjahre, baut die Stadt kontinuierlich eigene Wohnungen. Den Gemeindebau.
+A: Und das Ergebnis?
+B: Etwa ein Viertel der Wiener lebt in städtischen Gemeindewohnungen. Und ein weiteres Viertel in geförderten Wohnungen von gemeinnützigen Bauträgern, die keinen Gewinn machen dürfen. Das heißt, fast die Hälfte der Wiener lebt in Wohnungen, die dem freien Markt weitgehend entzogen sind.
+A: Und das dämpft die Mieten in der ganzen Stadt. Weil die privaten Vermieter mit den günstigen öffentlichen Wohnungen konkurrieren müssen.
+B: Genau. Und das Besondere: Der Gemeindebau ist nicht nur für Arme. Die Einkommensgrenzen sind so hoch, dass auch die Mittelschicht Anspruch hat. Dadurch entsteht eine soziale Durchmischung. Der Busfahrer wohnt neben der Ärztin. Und es entstehen keine Ghettos wie in manchen anderen Städten.
+A: Und es gibt eine berühmte Anlage, den Karl-Marx-Hof. Ein riesiger Gemeindebau aus den Zwanzigerjahren, über einen Kilometer lang. Mit Wäschereien, Kindergärten, Bädern und Bibliotheken. Er war ein Symbol für das Rote Wien.
+B: Wobei auch das Wiener Modell seine Probleme hat. Die Wartezeiten sind lang, wie in Folge dreiunddreißig erwähnt. Und manche Menschen bleiben jahrzehntelang in ihrer günstigen Gemeindewohnung, auch wenn sie inzwischen viel verdienen. Und auch in Wien steigen die Mieten auf dem privaten Markt.
+A: Aber im internationalen Vergleich gilt Wien zu Recht als Vorbild. Und der entscheidende Punkt ist die langfristige Perspektive. Wien hat in hundert Jahren nie aufgehört, Wohnungen zu bauen. Berlin hat seine verkauft. Das ist der Unterschied.
+B: Jetzt zur Geschichte. Diesmal geht es um Julien und seine Wohnung in Friedrichshain. Die Wohnung, die er von Herrn Krüger gemietet hat.
+A: Oh nein. Ich ahne, dass etwas passiert ist.
+B: Ja. Herr Krüger ist inzwischen achtzig Jahre alt. Und er hat beschlossen, sein Vermögen zu ordnen. Seine Tochter in Kanada möchte das Haus, in dem Julien wohnt, verkaufen. Ein Investor hat ein sehr hohes Angebot gemacht.
+A: Und was bedeutet das für Julien?
+B: Der Investor plant, das Haus umfassend zu modernisieren und die Wohnungen danach einzeln als Eigentumswohnungen zu verkaufen. Und für Julien hätte das bedeutet, dass seine Miete nach der Modernisierung stark gestiegen wäre. Möglicherweise so stark, dass er sich die Wohnung nicht mehr hätte leisten können.
+A: Eine typische Verdrängungsgeschichte. Und Frau Schulze wohnt ja auch in diesem Haus!
+B: Genau! Frau Schulze, die seit fünfzig Jahren dort wohnt. Für sie wäre ein Umzug in ihrem Alter eine Katastrophe gewesen. Und auch andere Mieter im Haus waren betroffen. Eine junge Familie mit zwei Kindern, ein Rentnerehepaar.
+A: Und was haben sie gemacht?
+B: Zuerst waren alle verzweifelt. Aber dann hat Julien sich informiert. Und er hat etwas über das sogenannte Vorkaufsrecht herausgefunden. In bestimmten Gebieten, sogenannten Milieuschutzgebieten, kann die Stadt unter bestimmten Bedingungen ein Haus vor einem privaten Investor kaufen, um die Bewohner zu schützen.
+A: Wobei das Bundesverwaltungsgericht dieses Instrument zweitausendeinundzwanzig stark eingeschränkt hat.
+B: Genau, darum war das schwierig. Aber es gab eine andere Möglichkeit. Julien hat mit den anderen Mietern eine Mieterversammlung organisiert. Und sie haben sich an eine Genossenschaft gewandt.
+A: Eine Wohnungsbaugenossenschaft. Das ist eine Art Gemeinschaft, in der die Mitglieder gemeinsam Wohnungen besitzen. Jedes Mitglied zahlt einen Anteil und hat ein lebenslanges Wohnrecht. Und die Genossenschaft arbeitet nicht gewinnorientiert.
+B: Genau. Und die Genossenschaft war interessiert, das Haus zu kaufen. Aber sie konnte nicht so viel zahlen wie der Investor. Und hier kam Herr Krüger ins Spiel.
+A: Was hat er gemacht?
+B: Julien hat Herrn Krüger besucht und ihm die Situation erklärt. Von Frau Schulze, die seit fünfzig Jahren dort wohnt. Von der jungen Familie. Und Herr Krüger war tief betroffen. Er hatte gar nicht gewusst, was der Investor plante. Er hat mit seiner Tochter in Kanada telefoniert. Lange.
+A: Und?
+B: Er hat seine Tochter überzeugt, das Haus an die Genossenschaft zu verkaufen. Für weniger Geld, als der Investor geboten hatte. Er sagte zu ihr: „Ich habe genug Geld für mein Alter. Aber ich möchte nicht, dass Menschen meinetwegen ihr Zuhause verlieren. Das Haus soll ein Zuhause bleiben, keine Geldanlage.“
+A: Was für ein großherziger Mensch. Herr Krüger hat ja schon in so vielen Folgen geholfen.
+B: Ja. Und jetzt gehört das Haus der Genossenschaft. Julien, Frau Schulze und alle anderen Mieter sind Mitglieder geworden und haben ein lebenslanges Wohnrecht. Die Mieten sind stabil. Und Frau Schulze hat bei der Feier im Hof gesagt: „Ich habe die Mauer überlebt, die Wende und die Investoren. Jetzt bleibe ich hier, bis man mich raustragen muss.“
+A: Hahaha. Das ist sehr Frau Schulze! Jetzt bist du dran, Hörer, Hörerin. Was sind deiner Meinung nach die wichtigsten Maßnahmen gegen die Wohnungskrise? Formuliere sie mit Passiversatzformen. Zum Beispiel: „Der Wohnungsmangel lässt sich nur durch … beheben.“ „Die Mieten müssen bezahlbar bleiben.“ „Es ist dringend zu prüfen, ob …“
+B: Und vergleiche die Situation in deiner Stadt mit Berlin oder Wien.
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: das Geflecht. Ein Netz aus vielen miteinander verbundenen Faktoren.
+A: Wort Nummer zwei: sich lassen. Als Passiversatz: Das Problem lässt sich lösen, es kann gelöst werden.
+B: Wort Nummer drei: die Rendite. Der Gewinn, den eine Investition bringt.
+A: Wort Nummer vier: etwas kippen. Eine Regelung für ungültig erklären.
+B: Wort Nummer fünf: die Genossenschaft. Eine Gemeinschaft, in der die Mitglieder gemeinsam etwas besitzen und nicht gewinnorientiert arbeiten.
+A: Und Wort Nummer sechs: die Hetze. Die gezielte Verbreitung von Hass gegen eine Gruppe.
+B: Noch einmal: das Geflecht, sich lassen, die Rendite, etwas kippen, die Genossenschaft, die Hetze.
+A: Was nehmen wir mit? Passiversatzformen: „sein zu“ plus Infinitiv, „sich lassen“, Adjektive auf „-bar“, und das Rezipientenpassiv mit „bekommen“.
+B: Die Ursachen der Wohnungskrise: steigende Nachfrage, zu wenig Neubau wegen Kosten und Bürokratie, Spekulation, Gentrifizierung und Zweckentfremdung.
+A: Die Lösungsansätze reichen von Mietpreisbremse und Mietendeckel über Enteignung bis zur Deregulierung des Bauens.
+B: Und das Wiener Modell zeigt: Langfristiger öffentlicher und gemeinnütziger Wohnungsbau kann die Mieten für alle dämpfen.
+A: Das ist das Ende von Folge dreiundneunzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und denk an Herrn Krüger: Ein Haus soll ein Zuhause sein, keine Geldanlage. Servus!
+A: Tschüss!
+VOCAB: das Geflecht | Ein Netz aus vielen miteinander verbundenen Faktoren. | 🕸️
+VOCAB: sich lassen | Als Passiversatz: Das Problem lässt sich lösen. | 🔧
+VOCAB: die Rendite | Der Gewinn, den eine Investition bringt. | 💹
+VOCAB: etwas kippen | Eine Regelung für ungültig erklären. | ⚖️
+VOCAB: die Genossenschaft | Eine Gemeinschaft, die etwas gemeinsam und nicht gewinnorientiert besitzt. | 🏘️
+VOCAB: die Hetze | Die gezielte Verbreitung von Hass gegen eine Gruppe. | 📢
+QUIZ: Was bedeutet „Das Problem lässt sich lösen“? | Das Problem kann gelöst werden | Das Problem wurde gelöst | Man soll das Problem lassen | 1
+QUIZ: Warum wurde der Berliner Mietendeckel gekippt? | Weil das Land Berlin für das Mietrecht nicht zuständig war | Weil die Mieten zu niedrig waren | Weil niemand ihn wollte | 1
+QUIZ: Was forderte das Volksbegehren „Deutsche Wohnen und Co. enteignen“? | Mehr private Investoren | Die Vergesellschaftung großer Wohnungsunternehmen gegen Entschädigung | Den Bau von Hochhäusern | 2
+QUIZ: Was ist das Besondere am Wiener Modell? | Fast die Hälfte der Wiener lebt in Wohnungen, die dem freien Markt weitgehend entzogen sind | Alle Wohnungen sind privat | Es gibt keine Mieten | 1
+QUIZ: An wen wurde Juliens Haus am Ende verkauft? | An den Investor | An eine Wohnungsbaugenossenschaft | An Julien | 2
+`;
