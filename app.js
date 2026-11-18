@@ -75,6 +75,7 @@ function toggleKnown(id) {
   known.has(id) ? known.delete(id) : known.add(id);
   store.set("known", [...known]);
   renderNav();
+  refreshProgress();
 }
 const countKnown = prefix => [...known].filter(k => k.startsWith(prefix)).length;
 
@@ -305,7 +306,18 @@ function progress(L) {
     audio: [k(d, "d:" + L + ":", x => x), d.length], podcasts: [k(e, "e:", x => x.id), e.length]
   };
 }
-const overall = pr => { const r = Object.values(pr).map(([a, b]) => (b ? a / b : 0)); return Math.round(r.reduce((x, y) => x + y, 0) / r.length * 100); };
+const overall = pr => { const r = Object.values(pr).map(([a, b]) => (b ? a / b : 0)); return r.reduce((x, y) => x + y, 0) / r.length * 100; };
+/* progress is the average of the 8 modules: one star = a few hundredths of a percent,
+   so below 10 % show one decimal (at least 0.1 as soon as something is ticked) and keep the bar visible */
+const pctTxt = p => p <= 0 ? "0" : p >= 10 ? String(Math.floor(p)) : Math.min(9.9, Math.ceil(p * 10) / 10).toFixed(1).replace(".", EN ? "." : ",");
+const barW = p => p > 0 ? `max(${p.toFixed(2)}%, 6px)` : "0";
+/* live update of the home page counters when a star is ticked (no full re-render) */
+function refreshProgress() {
+  const el = $("#home-pct"), L = curLvl(); if (!el || !L) return;
+  const pr = progress(L), p = overall(pr);
+  el.textContent = pctTxt(p) + " %"; $("#home-bar").style.width = barW(p);
+  $$(".tile.mod[data-mod]").forEach(t => { const v = pr[t.dataset.mod]; if (!v) return; const n = t.querySelector(".mod-n"), b = t.querySelector(".progress i"); if (n) n.textContent = `${v[0]} / ${v[1]}`; if (b) b.style.width = barW(v[1] ? v[0] / v[1] * 100 : 0); });
+}
 const MODULES = [
   ["vocab", Tx("Vocabulaire"), "🖼️", L => Tx`${lvlVocab(L).length} mots en images, quiz « écoute → image » et « image → mot »`],
   ["grammar", Tx("Grammaire"), "🧩", L => Tx`${D.grammar.filter(x => x.lvl === L).length} points avec ligne du temps, piège du francophone et quiz`],
@@ -323,7 +335,7 @@ function renderNav() {
   const L = curLvl(); const pr = L ? progress(L) : null;
   $("#lvl-switch").innerHTML = LEVELS.map(l => Tx`<button class="lvl-btn" style="--lc:var(--${l.toLowerCase()})" data-act="set-level" data-l="${l}" aria-pressed="${l === L}" title="Passer au niveau ${l}">${l}</button>`).join("");
   const a = (id, label, small) => `<a href="#${id}"${id === currentBase ? ' aria-current="page"' : ""}>${label}<small>${small || ""}</small></a>`;
-  let html = a("home", L ? Tx`Mon parcours ${L}` : Tx("Choisir mon niveau"), L ? overall(pr) + " %" : "");
+  let html = a("home", L ? Tx`Mon parcours ${L}` : Tx("Choisir mon niveau"), L ? pctTxt(overall(pr)) + " %" : "");
   if (L) html += Tx`<span class="nav-sep">Modules ${L}</span>` + MODULES.map(([id, label]) => a(id, label, pr[id] ? `${pr[id][0]}/${pr[id][1]}` : "")).join("");
   html += Tx`<span class="nav-sep">Général</span>` + a("cours", Tx("Cours PDF"), `${countKnown("j:")}/180`) + a("levels", Tx("Test & niveaux")) + a("tips", Tx("Conseils"));
   $("#nav").innerHTML = html;
@@ -467,8 +479,8 @@ function pageHome() {
     <div class="lvl-hero-band"><b>${L}</b><span>${esc(info.name)}</span></div>
     <div class="lvl-hero-body">
       <span class="eyebrow">Mon parcours · niveau ${info.fr.toLowerCase()}</span>
-      <h1>Niveau ${L} : <em>${pct} %</em> du parcours</h1>
-      <div class="progress big"><i style="width:${pct}%"></i></div>
+      <h1>Niveau ${L} : <em id="home-pct">${pctTxt(pct)} %</em> du parcours</h1>
+      <div class="progress big"><i id="home-bar" style="width:${barW(pct)}"></i></div>
       <p class="muted">À ce niveau, tu apprends à : ${info.can.slice(0, 2).map(x => esc(x.charAt(0).toLowerCase() + x.slice(1))).join(" ; ")}.</p>
       ${steps.length ? Tx`<div class="row"><span class="eyebrow">Continuer</span>${steps.map(([h, k, t]) => `<a class="btn${h.startsWith("grammar") ? " primary" : ""}" href="#${h}">${k} : ${esc(t)}</a>`).join("")}</div>` : ""}
     </div>
@@ -476,7 +488,7 @@ function pageHome() {
 
   <section style="display:flex;flex-direction:column;gap:12px">
     <h2>Les modules du niveau ${L}</h2>
-    <div class="modgrid">${MODULES.map(([id, label, e, desc]) => { const v = pr[id]; const r = v && v[1] ? Math.round(v[0] / v[1] * 100) : null; return `<a class="tile mod" href="#${id}"><div class="tile-top"><span class="pic" style="font-size:1.9rem">${e}</span>${v ? `<span class="small muted">${v[0]} / ${v[1]}</span>` : ""}</div><h3>${label}</h3><p class="muted small">${desc(L)}</p>${r !== null ? `<div class="progress"><i style="width:${r}%"></i></div>` : ""}</a>`; }).join("")}</div>
+    <div class="modgrid">${MODULES.map(([id, label, e, desc]) => { const v = pr[id]; const r = v && v[1] ? v[0] / v[1] * 100 : null; return `<a class="tile mod" data-mod="${id}" href="#${id}"><div class="tile-top"><span class="pic" style="font-size:1.9rem">${e}</span>${v ? `<span class="small muted mod-n">${v[0]} / ${v[1]}</span>` : ""}</div><h3>${label}</h3><p class="muted small">${desc(L)}</p>${r !== null ? `<div class="progress"><i style="width:${barW(r)}"></i></div>` : ""}</a>`; }).join("")}</div>
   </section>
 
   <section style="display:flex;flex-direction:column;gap:12px">
