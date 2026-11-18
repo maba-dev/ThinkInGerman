@@ -790,3 +790,1132 @@ QUIZ: Wann mussten Lena und ihre Freunde nach Hause kommen? | Wenn die Straßenl
 QUIZ: Was war Oma Hilde von Beruf? | Lehrerin | Schneiderin | Krankenpflegerin | 2
 QUIZ: Was ist das Präteritum von „können“? | ich könnte | ich konnte | ich kannte | 2
 `;
+
+DATA.podScripts.ep028 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena aus Berlin.
+B: Und hier ist Jonas aus Wien. Servus! Folge achtundzwanzig. Und heute gibt es ein Duell!
+A: Ein Duell! Berlin gegen Wien. Welche Stadt ist besser? Wir vergleichen die zwei Städte.
+B: Und wir lernen dabei den Komparativ und den Superlativ. Groß, größer, am größten. Schön, schöner, am schönsten.
+A: Der Komparativ ist für Vergleiche zwischen zwei Sachen. Man nimmt das Adjektiv und gibt „-er“ dazu. Klein, kleiner. Schnell, schneller. Billig, billiger.
+B: Und dann kommt „als“. Berlin ist größer als Wien. Wien ist kleiner als Berlin. Nicht „wie“! „Als“.
+A: Genau. „Wie“ benutzt man, wenn zwei Sachen gleich sind. Mit „so“. Wien ist so schön wie Berlin. Oder: Wien ist nicht so groß wie Berlin.
+B: Und der Superlativ ist Nummer eins. Der Beste. Man sagt „am“ und „-sten“. Am kleinsten, am schnellsten, am billigsten.
+A: Oder mit Artikel: der schönste Park, die größte Stadt, das beste Café.
+B: Viele kurze Adjektive bekommen einen Umlaut. Alt, älter, am ältesten. Groß, größer, am größten. Jung, jünger, am jüngsten. Warm, wärmer, am wärmsten.
+A: Und es gibt ein paar unregelmäßige Formen. Die musst du lernen. Gut, besser, am besten. Viel, mehr, am meisten. Gern, lieber, am liebsten. Hoch, höher, am höchsten.
+B: Super. Jetzt das Duell! Runde eins: die Größe. Lena?
+A: Berlin hat ungefähr drei Komma acht Millionen Einwohner. Einwohner sind die Menschen, die in einer Stadt wohnen. Berlin ist die größte Stadt in Deutschland. Und eine der größten Städte in der Europäischen Union.
+B: Wien hat ungefähr zwei Millionen Einwohner. Also ist Berlin fast doppelt so groß wie Wien. Aber Wien ist die größte Stadt in Österreich. Fast ein Viertel aller Österreicher wohnt in Wien!
+A: Ein Viertel! Das ist viel. Also: Berlin ist größer. Punkt für Berlin?
+B: Größer ist nicht immer besser! Hahaha. Runde zwei: die Geschichte. Wien ist älter. Viel älter. Die Römer haben schon vor zweitausend Jahren hier gewohnt. Und Wien war jahrhundertelang die Hauptstadt von einem riesigen Reich. Die Habsburger haben von Wien aus regiert.
+A: Berlin ist jünger. Erst achthundert Jahre alt. Aber die Geschichte von Berlin im zwanzigsten Jahrhundert ist sehr wichtig. Die Mauer, die Teilung in Ost und West, und dann der Mauerfall neunzehnhundertneunundachtzig.
+B: Der Mauerfall war ein historischer Moment. Die ganze Welt hat zugeschaut.
+A: Ja. Also: Wien ist älter, aber Berlins Geschichte ist dramatischer. Unentschieden?
+B: Unentschieden heißt: Niemand gewinnt. Okay, unentschieden. Runde drei: die Lebensqualität.
+A: Oh, ich weiß schon, was du sagst. Hahaha.
+B: Genau! Wien ist seit vielen Jahren die lebenswerteste Stadt der Welt! In vielen internationalen Rankings ist Wien auf Platz eins. Die beste Lebensqualität!
+A: „Lebenswert“ heißt: Man kann dort gut leben. Und warum ist Wien so gut?
+B: Viele Gründe. Erstens: Die Wohnungen sind billiger als in anderen Hauptstädten. Wien hat viele Gemeindewohnungen. Die Stadt besitzt die Wohnungen und vermietet sie günstig. Fast die Hälfte der Wiener wohnt in einer geförderten Wohnung.
+A: Das ist beeindruckend. In Berlin ist die Miete in den letzten zehn Jahren viel teurer geworden. Sie ist fast doppelt so hoch wie früher.
+B: Zweitens: Die öffentlichen Verkehrsmittel sind besser. Die U-Bahn ist sauberer und pünktlicher als in Berlin. Und die Jahreskarte kostet nur einen Euro pro Tag. Dreihundertfünfundsechzig Euro im Jahr!
+A: Okay, okay. Ich muss sagen: Die U-Bahn in Wien ist wirklich sauberer. Die Berliner U-Bahn ist manchmal ziemlich schmutzig.
+B: Drittens: Wien ist sicherer. Und grüner. Fast die Hälfte von Wien ist grün. Parks, Wälder, Weinberge.
+A: Aber Berlin ist auch sehr grün! Berlin hat mehr Bäume als jede andere Stadt in Europa. Und viele Seen. Ich glaube, Berlin hat mehr Wasser als Venedig. Mehr Brücken als Venedig!
+B: Wirklich? Mehr Brücken als Venedig?
+A: Ja! Berlin hat fast tausend Brücken. Venedig hat ungefähr vierhundert. Das wissen viele Leute nicht.
+B: Interessant! Okay, aber die Lebensqualität … Punkt für Wien?
+A: Ja, Punkt für Wien. Ich bin fair. Runde vier: die Kultur und das Nachtleben. Hier gewinnt Berlin!
+B: Erzähl.
+A: Berlin ist kreativer und verrückter als jede andere Stadt. Hier wohnen Künstler, Musiker, Designer, Programmierer aus der ganzen Welt. Es gibt über hundertfünfzig Museen. Und das Nachtleben ist das berühmteste in Europa. Die Clubs sind am Wochenende von Freitag bis Montag offen!
+B: Von Freitag bis Montag! Ohne Pause?
+A: Ohne Pause! Und Berlin ist toleranter. Hier kann jeder sein, wie er will. Niemand schaut dich komisch an. Egal, was du trägst oder wen du liebst.
+B: Wien ist klassischer. Wir haben die Oper, die Wiener Philharmoniker, die großen Museen. Mozart, Beethoven und Strauss haben in Wien gelebt. Wien ist die Hauptstadt der klassischen Musik.
+A: Das stimmt. Für klassische Musik ist Wien die Nummer eins. Aber für moderne Kultur ist Berlin besser.
+B: Okay, ein Punkt für jede Stadt. Runde fünf: das Essen. Und hier gewinnt Wien, ganz klar.
+A: Hmm, warum?
+B: Die Wiener Küche ist die einzige Küche der Welt mit dem Namen einer Stadt! Wiener Schnitzel, Tafelspitz, Kaiserschmarrn, Sachertorte, Apfelstrudel. Und die Kaffeehäuser!
+A: Okay, die Wiener Küche ist berühmter. Aber Berlin ist internationaler! Hier kannst du Essen aus jedem Land der Welt essen. Vietnamesisch, türkisch, syrisch, äthiopisch, koreanisch. Und billiger als in Wien.
+B: Und der Döner?
+A: Natürlich! Der Berliner Döner ist der beste der Welt. Und die Currywurst.
+B: Hmm. Ich finde die Wiener Würstel besser. Den Käsekrainer am Würstelstand. Das ist eine Wurst mit Käse innen. Um drei Uhr in der Nacht, nach einer Party. Perfekt!
+A: Okay, das klingt auch gut. Hahaha. Runde sechs: die Menschen. Die Berliner sind bekannt für die „Berliner Schnauze“.
+B: Was ist das?
+A: Die Berliner Schnauze ist die typische Art zu sprechen. Direkt, ein bisschen frech, ein bisschen unfreundlich. Aber mit Humor. Der Busfahrer sagt nicht „Guten Tag“. Er sagt: „Na, wat is?“
+B: Hahaha. Und in Wien gibt es den „Wiener Schmäh“. Das ist der Wiener Humor. Charmant, ironisch, ein bisschen melancholisch. Und die Wiener sind grantig. Wir haben das in Folge neunzehn gelernt.
+A: Also: Die Berliner sind direkter, und die Wiener sind charmanter?
+B: Genau. Und höflicher! In Wien sagt man noch „Herr Doktor“ und „Frau Magister“. Wir lieben Titel. In Berlin sagt man einfach „du“.
+A: Das stimmt. Berlin ist lockerer, Wien ist formeller.
+B: Und noch eine Runde, Lena! Runde sieben: das Wetter.
+A: Oh nein. Hier verliert Berlin, oder?
+B: Hahaha. Ich glaube, ja. In Wien scheint die Sonne öfter. Wir haben ungefähr zweitausend Sonnenstunden pro Jahr. Der Sommer ist wärmer, und der Winter ist kälter, aber sonniger.
+A: Berlin hat weniger Sonne. Und der Winter ist grauer und länger. Aber im Sommer ist Berlin wunderbar. Die Tage sind länger, weil Berlin weiter im Norden liegt. Im Juni ist es bis zehn Uhr hell.
+B: Das stimmt. In Wien wird es im Juni schon um halb zehn dunkel. Eine halbe Stunde früher.
+A: Und noch etwas: In Wien gibt es mehr Wind. Der Wind in Wien ist berühmt.
+B: Ja, leider. Das ist der einzige Nachteil von Wien! Hahaha. Okay, Punkt für Wien beim Wetter?
+A: Okay, okay. Punkt für Wien. Aber dann Runde acht: der Preis. Wie teuer ist ein Tag in der Stadt?
+B: Gute Idee. Ein Kaffee im Kaffeehaus in Wien kostet ungefähr vier oder fünf Euro. Eine Melange.
+A: In Berlin kostet ein Cappuccino ungefähr drei Euro fünfzig. Ein bisschen billiger. Und ein Döner kostet zwischen fünf und sieben Euro. Früher war er viel billiger! Vor zehn Jahren hat ein Döner drei Euro gekostet.
+B: In Wien ist das Essen im Restaurant ein bisschen teurer als in Berlin. Aber die Wohnungen sind günstiger. Am Ende ist es ungefähr gleich.
+A: Also unentschieden beim Preis. Das Duell ist wirklich schwer!
+B: Also, das Ergebnis? Ich glaube, wir haben ein Unentschieden.
+A: Ja! Beide Städte sind wunderbar. Berlin ist größer, jünger, kreativer und internationaler. Wien ist älter, eleganter, sicherer und lebenswerter.
+B: Und welche Stadt ist für dich am schönsten, Lena?
+A: Natürlich Berlin! Und für dich?
+B: Natürlich Wien! Hahaha. Jeder liebt seine Stadt am meisten.
+A: Jetzt die Geschichte von Julien. Er hat zwei Angebote. Zwei Stellen. Eine in Berlin, an der Programmierschule. Und eine neue in Wien! Auch an einer Programmierschule. Die Schule in Wien hat ihn eingeladen.
+B: Oh! Zwei Angebote! Was macht er?
+A: Er macht eine Liste. Pro und Contra. Für Berlin: Er hat schon Freunde. Emre, Mira, Kenji, Amira. Er kennt die Stadt. Und die Arbeit gefällt ihm.
+B: Und für Wien?
+A: Das Gehalt in Wien ist ein bisschen höher. Die Wohnungen sind billiger. Und Wien ist schöner, sagen viele Leute. Und näher an Frankreich? Nein, eigentlich nicht.
+B: Hahaha, nein. Paris ist von Berlin und Wien ungefähr gleich weit weg.
+A: Julien fährt für ein Wochenende nach Wien. Er besucht die Schule. Er trinkt eine Melange im Kaffeehaus. Er isst ein Schnitzel. Er fährt mit dem Riesenrad. Er sagt: „Wien ist wunderschön. Ruhiger und eleganter als Berlin.“
+B: Und? Was ist seine Entscheidung?
+A: Am Sonntagabend sitzt er im Zug zurück nach Berlin. Er denkt lange nach. Und er schreibt eine Nachricht an Mira: „Wien ist schöner. Aber Berlin ist mein Zuhause. Ich bleibe!“
+B: Oh, wie schön! Ich bin ein bisschen traurig für Wien, aber das verstehe ich.
+A: Mira antwortet mit zwanzig Herzen. Und Kenji backt einen Kuchen. Zur Feier.
+B: Jetzt bist du dran, Hörer, Hörerin. Vergleiche zwei Städte, die du kennst. Sag es laut: … ist größer als … … ist schöner als …
+A: Und welche Stadt ist für dich am schönsten? Sag es laut: Am schönsten finde ich … Sehr gut!
+B: Und jetzt unser Teil: „Wörter des Tages“.
+A: Wort Nummer eins: der Komparativ. Die Form für Vergleiche. Größer, schöner, besser. Mit „als“.
+B: Wort Nummer zwei: der Superlativ. Die Nummer eins. Am größten, am schönsten, am besten.
+A: Wort Nummer drei: der Einwohner. Eine Person, die in einer Stadt wohnt. Berlin hat fast vier Millionen Einwohner.
+B: Wort Nummer vier: lebenswert. Man kann dort gut leben. Wien ist sehr lebenswert.
+A: Wort Nummer fünf: unentschieden. Niemand gewinnt. Das Duell endet unentschieden.
+B: Und Wort Nummer sechs: das Angebot. Hier: eine Stelle, die man bekommen kann. Julien hat zwei Angebote.
+A: Noch einmal: der Komparativ, der Superlativ, der Einwohner, lebenswert, unentschieden, das Angebot.
+B: Was lernen wir heute? Den Komparativ mit „-er“ und „als“: Berlin ist größer als Wien.
+A: Gleich mit „so … wie“: Wien ist so schön wie Berlin.
+B: Den Superlativ: am größten, der schönste Park. Und die unregelmäßigen Formen: gut, besser, am besten. Viel, mehr, am meisten. Gern, lieber, am liebsten.
+A: Und: Berlin ist kreativer, Wien ist lebenswerter. Und beide sind wunderbar.
+B: Das ist das Ende von Folge achtundzwanzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Besuch uns in Berlin! Tschüss!
+B: Oder in Wien! Servus!
+VOCAB: der Komparativ | Die Form für Vergleiche: größer, schöner, besser. | ⚖️
+VOCAB: der Superlativ | Die Nummer eins: am größten, am besten. | 🏆
+VOCAB: der Einwohner | Eine Person, die in einer Stadt oder einem Land wohnt. | 👥
+VOCAB: lebenswert | Man kann dort gut leben. | 🌳
+VOCAB: unentschieden | Niemand gewinnt. | 🤝
+VOCAB: das Angebot | Etwas, das man bekommen kann, zum Beispiel eine Stelle. | 📨
+QUIZ: Welcher Satz ist richtig? | Berlin ist größer wie Wien. | Berlin ist größer als Wien. | Berlin ist mehr groß als Wien. | 2
+QUIZ: Was ist der Superlativ von „gut“? | am gutesten | am besten | am guten | 2
+QUIZ: Was hat Berlin mehr als Venedig? | Brücken | Kanäle | Touristen | 1
+QUIZ: Was ist der „Wiener Schmäh“? | Ein Kuchen | Der Wiener Humor | Eine Wurst | 2
+QUIZ: Wo möchte Julien am Ende bleiben? | In Wien | In Berlin | In Lyon | 2
+`;
+
+DATA.podScripts.ep029 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge neunundzwanzig. Heute erzählen wir von unserem ersten Job.
+A: Wir sprechen über Berufserfahrung. Was hast du schon gearbeitet? Welche Jobs hattest du? Was hast du dort gelernt?
+B: Und wir üben das Perfekt. Viel Perfekt! Ich habe gearbeitet, ich habe verdient, ich bin gegangen.
+A: Die Berufserfahrung ist sehr wichtig in Deutschland. Im Lebenslauf schreibt man alle Jobs und Praktika. Der Lebenslauf ist ein Dokument mit deiner Ausbildung und deiner Arbeit. Für eine Bewerbung.
+B: Eine Bewerbung ist, wenn man eine Stelle möchte. Man schickt einen Brief und den Lebenslauf an eine Firma. Man bewirbt sich.
+A: „Sich bewerben“ ist ein reflexives Verb. Ich bewerbe mich bei einer Firma. Ich habe mich als Kellnerin beworben.
+B: Gut. Lena, was war dein erster Job?
+A: Mein erster Job war mit fünfzehn Jahren. Ich habe Zeitungen ausgetragen. Jeden Samstagmorgen um sechs Uhr. Mit dem Fahrrad, in meinem Viertel in Hamburg.
+B: Zeitungen austragen! Das war früher ein typischer Job für Jugendliche. Jugendliche sind junge Leute zwischen dreizehn und achtzehn.
+A: Ja. Ich habe jeden Samstag zweihundert Zeitungen in die Briefkästen gesteckt. Bei Regen, bei Schnee, bei Wind. Und ich habe zwanzig Euro pro Woche verdient. „Verdienen“ heißt: Geld für die Arbeit bekommen.
+B: Zwanzig Euro für so viel Arbeit! Was hast du mit dem Geld gemacht?
+A: Ich habe gespart. Ein ganzes Jahr. Und dann habe ich mir einen MP3-Player gekauft. Das war mein großer Traum. Ich war so stolz!
+B: Ein MP3-Player! Das war damals modern. Und was hast du bei dem Job gelernt?
+A: Ich habe gelernt, pünktlich und zuverlässig zu sein. Die Leute haben jeden Samstag auf ihre Zeitung gewartet. Ich konnte nicht einfach im Bett bleiben.
+B: Sehr deutsch! Hahaha.
+A: Und später, im Studium, habe ich als Kellnerin gearbeitet. In einem Café in Hamburg. Drei Jahre lang. Zwei Abende pro Woche und am Wochenende.
+B: Kellnerin! Wie war das?
+A: Anstrengend, aber lustig. Anstrengend heißt: Es kostet viel Energie. Man ist danach müde. Ich musste acht Stunden stehen und laufen. Und schwere Tabletts tragen. Mit vielen Gläsern und Tellern.
+B: Hast du mal ein Tablett fallen lassen?
+A: Oh ja! An meinem ersten Tag. Ein Tablett mit sechs Gläsern Bier. Direkt auf einen Gast! Ich wollte im Boden verschwinden.
+B: Oh nein! Was hat der Gast gesagt?
+A: Er war sehr nett. Er hat gelacht und gesagt: „Kein Problem, ich wollte sowieso duschen.“ Und er hat mir trotzdem Trinkgeld gegeben.
+B: Hahaha! Was für ein netter Mann. Was hast du als Kellnerin gelernt?
+A: Ich habe gelernt, mit vielen verschiedenen Menschen zu sprechen. Freundlich zu bleiben, auch wenn die Gäste unfreundlich sind. Und mehrere Sachen gleichzeitig zu machen. Das hilft mir heute als Lehrerin sehr.
+B: Das ist eine gute Erfahrung. Und dein erster richtiger Job? Nach dem Studium?
+A: Ich habe Germanistik studiert. Und nach dem Studium bin ich nach Berlin gezogen. Ich habe zuerst ein Praktikum bei einer Sprachschule gemacht. Sechs Monate. Ein Praktikum ist eine Zeit, wo man in einer Firma arbeitet und lernt. Oft am Anfang der Karriere. Mit wenig Geld oder ohne Geld.
+B: Und dann?
+A: Dann hat die Sprachschule mir eine feste Stelle angeboten. Und seitdem bin ich Lehrerin. Seit acht Jahren.
+B: Super! Ein Praktikum, das zu einer festen Stelle führt. Das ist der Traum.
+A: Und du, Jonas? Was war dein erster Job?
+B: Mein allererster Job war auf dem Bauernhof von meinen Großeltern. Aber dafür habe ich kein Geld bekommen. Nur Essen und Liebe. Hahaha.
+A: Das zählt auch!
+B: Mein erster bezahlter Job war mit sechzehn. Ich habe in den Sommerferien in einem Hotel in Salzburg gearbeitet. Als Tellerwäscher in der Küche.
+A: Tellerwäscher! Das ist ein harter Job.
+B: Sehr hart! Zehn Stunden pro Tag in einer heißen Küche. Berge von Tellern und Töpfen. Der Koch war sehr streng. Er hat immer geschrien. „Schneller, Jonas! Schneller!“
+A: Oh nein. Hast du durchgehalten? „Durchhalten“ heißt: nicht aufgeben, bis zum Ende weitermachen.
+B: Ja, ich habe den ganzen Sommer durchgehalten. Zwei Monate. Und am Ende hat der Koch gesagt: „Du warst der beste Tellerwäscher in diesem Sommer.“ Das war das schönste Kompliment meines Lebens!
+A: Hahaha, wie süß. Und was hast du gelernt?
+B: Ich habe gelernt, dass jede Arbeit wichtig ist. Ohne saubere Teller gibt es kein Restaurant. Und ich habe viel Respekt für die Leute in der Küche.
+A: Das ist eine wichtige Lektion. Und dann? Wie bist du Journalist geworden?
+B: Während dem Studium habe ich für eine kleine Studentenzeitung geschrieben. Gratis. Über Konzerte und Filme. Dann habe ich ein Praktikum bei einer großen Zeitung in Wien gemacht. Dort habe ich sehr viel gelernt. Ich habe Interviews gemacht, Artikel geschrieben, Fotos gemacht.
+A: Und dann eine feste Stelle?
+B: Ja, ich war fünf Jahre fest angestellt. Bei einer Tageszeitung. „Fest angestellt“ heißt: Man hat einen Arbeitsvertrag ohne Ende. Ein sicherer Job.
+A: Aber jetzt bist du freiberuflich.
+B: Genau. Vor drei Jahren habe ich gekündigt. „Kündigen“ heißt: Man beendet den Arbeitsvertrag. Ich wollte freier sein. Mehr eigene Projekte machen. Wie diesen Podcast!
+A: Mutig! Mutig heißt: Man hat keine Angst, etwas Neues zu machen.
+B: Ja, ein bisschen mutig. Und ein bisschen verrückt. Hahaha.
+B: Lena, und der schlechteste Job? Hattest du einen Job, den du gar nicht mochtest?
+A: Oh ja! Einmal habe ich für zwei Wochen in einem Callcenter gearbeitet. Ich musste Leute anrufen und ihnen einen neuen Handyvertrag verkaufen.
+B: Oh nein. Die Leute waren bestimmt nicht begeistert.
+A: Überhaupt nicht! Viele haben sofort aufgelegt. „Auflegen“ heißt: das Telefonat beenden. Manche haben geschrien. Eine alte Dame hat mir eine halbe Stunde von ihrer Katze erzählt, und dann hat sie nichts gekauft. Hahaha.
+B: Das ist eigentlich süß! Und warum hast du aufgehört?
+A: Ich konnte das nicht. Ich wollte den Leuten nichts verkaufen, was sie nicht brauchen. Nach zwei Wochen habe ich gekündigt. Aber ich habe gelernt: Ich will mit Menschen arbeiten, aber ehrlich.
+B: Mein schlechtester Job war als Werbeträger. Ich musste in einem großen Kostüm auf der Straße stehen. Als Banane!
+A: Als Banane? Hahaha! Wofür?
+B: Für einen neuen Obstladen. Ich habe Flyer verteilt. Acht Stunden lang, im Juli, bei dreißig Grad. In einem Bananenkostüm. Ich habe so geschwitzt!
+A: Das ist das lustigste, was ich heute gehört habe. Gibt es Fotos?
+B: Leider ja. Meine Schwester Anna hat Fotos gemacht. Sie zeigt sie bei jeder Familienfeier.
+A: Hahaha. Und was hast du als Banane gelernt?
+B: Dass man über sich selbst lachen muss. Und dass Humor sehr wichtig ist. Auch im Beruf.
+A: Jetzt ein paar Wörter für die Arbeit. Der Arbeitgeber ist die Firma. Der Arbeitnehmer ist die Person, die arbeitet.
+B: Das Gehalt ist das Geld, das man jeden Monat bekommt. In Österreich bekommt man übrigens vierzehn Gehälter pro Jahr! Ein Extragehalt im Sommer und eins im Winter. Das Urlaubsgeld und das Weihnachtsgeld.
+A: Vierzehn Gehälter! In Deutschland bekommen das nicht alle. Manche Firmen bezahlen Weihnachtsgeld, aber nicht alle.
+B: Und der Minijob. Das ist typisch deutsch. Ein kleiner Job mit wenig Stunden. Man verdient bis zu ungefähr fünfhundert Euro im Monat. Und man bezahlt keine Steuern.
+A: Viele Studenten und Rentner haben einen Minijob. Zum Beispiel im Supermarkt oder im Café.
+B: Und der Werkstudent. Ein Student, der neben dem Studium bei einer Firma arbeitet. Zwanzig Stunden pro Woche. In seinem Fachbereich.
+A: Jetzt die Geschichte von Emre. Erinnerst du dich? Der Student an der Programmierschule. Er sucht sein erstes Praktikum.
+B: Ja! Das war sein Plan für das neue Jahr.
+A: Genau. Emre hat sich bei zwanzig Firmen beworben. Er hat zwanzig Bewerbungen geschrieben. Mit Lebenslauf und Anschreiben. Das Anschreiben ist der Brief: Warum möchte ich bei Ihnen arbeiten?
+B: Zwanzig Bewerbungen! Und?
+A: Er hat fünfzehn Absagen bekommen. Eine Absage ist eine negative Antwort. „Leider müssen wir Ihnen mitteilen …“ Und von vier Firmen hat er gar keine Antwort bekommen.
+B: Oh, das ist frustrierend. Was hat er gemacht?
+A: Er war traurig. Er wollte aufgeben. Aber Julien hat mit ihm gesprochen. Julien hat gesagt: „Emre, das ist normal. Jeder bekommt Absagen. Ich habe auch viele bekommen. Mach weiter!“
+B: Julien ist ein guter Mentor.
+A: Ja. Julien hat ihm geholfen, den Lebenslauf zu verbessern. Sie haben seine Projekte von der Programmierschule hinzugefügt. Eine App für Fahrräder. Eine Webseite für das Restaurant seines Onkels.
+B: Das sind gute Projekte! Praktische Erfahrung.
+A: Genau. Und dann hat Emre eine Einladung bekommen! Zu einem Vorstellungsgespräch bei einem Start-up. Eine kleine Firma, die eine App für Lebensmittel macht.
+B: Und wie war das Gespräch?
+A: Er war sehr nervös. Aber er hat von seinen Projekten erzählt. Mit viel Leidenschaft. Leidenschaft heißt: Man liebt etwas sehr. Man hat viel Energie und Begeisterung dafür.
+B: Und?
+A: Eine Woche später hat die Firma angerufen. Emre hat das Praktikum bekommen! Sechs Monate. Mit Gehalt!
+B: Juhu! Bravo, Emre!
+A: Ja! Und am Abend haben alle in der WG gefeiert. Emre hat gesagt: „Ich habe zwanzig Absagen bekommen. Aber ich brauche nur ein Ja!“
+B: Was für ein schöner Satz. Man braucht nur ein Ja.
+A: Jetzt bist du dran, Hörer, Hörerin. Was war dein erster Job? Sag es laut: Mein erster Job war … Ich habe als … gearbeitet.
+B: Und was hast du dort gelernt? Sag es laut: Ich habe gelernt, … Sehr gut!
+A: Und jetzt unser Teil: „Wörter des Tages“.
+B: Wort Nummer eins: die Berufserfahrung. Alles, was man schon gearbeitet und gelernt hat.
+A: Wort Nummer zwei: der Lebenslauf. Ein Dokument mit Ausbildung und Arbeit, für eine Bewerbung.
+B: Wort Nummer drei: sich bewerben. Eine Stelle haben möchten und es der Firma schreiben. Ich bewerbe mich als Kellner.
+A: Wort Nummer vier: verdienen. Geld für die Arbeit bekommen. Ich habe zwanzig Euro pro Woche verdient.
+B: Wort Nummer fünf: das Praktikum. Eine Zeit, wo man in einer Firma arbeitet und lernt.
+A: Und Wort Nummer sechs: die Absage. Eine negative Antwort. Leider eine Absage.
+B: Noch einmal: die Berufserfahrung, der Lebenslauf, sich bewerben, verdienen, das Praktikum, die Absage.
+A: Was lernen wir heute? Das Perfekt für Erfahrungen: Ich habe als Kellnerin gearbeitet. Ich bin nach Berlin gezogen.
+B: Jobs: Zeitungen austragen, Kellnerin, Tellerwäscher, das Praktikum, der Minijob, der Werkstudent.
+A: Die Bewerbung: der Lebenslauf, das Anschreiben, das Vorstellungsgespräch, die Absage.
+B: Und: In Österreich gibt es vierzehn Gehälter. Und man braucht nur ein Ja!
+A: Das ist das Ende von Folge neunundzwanzig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und viel Erfolg bei der Arbeit! Servus!
+A: Tschüss!
+VOCAB: die Berufserfahrung | Alles, was man schon gearbeitet und gelernt hat. | 🗃️
+VOCAB: der Lebenslauf | Ein Dokument mit Ausbildung und Arbeit, für eine Bewerbung. | 📃
+VOCAB: sich bewerben | Einer Firma schreiben, weil man eine Stelle haben möchte. | ✉️
+VOCAB: verdienen | Geld für die Arbeit bekommen. | 💵
+VOCAB: das Praktikum | Eine Zeit, in der man in einer Firma arbeitet und lernt. | 🎓
+VOCAB: die Absage | Eine negative Antwort. | 🙅
+QUIZ: Was war Lenas erster Job? | Kellnerin | Zeitungen austragen | Lehrerin | 2
+QUIZ: Was ist an Lenas erstem Tag als Kellnerin passiert? | Sie hat ein Tablett auf einen Gast fallen lassen | Sie ist zu spät gekommen | Sie hat das Café verlassen | 1
+QUIZ: Wo hat Jonas als Tellerwäscher gearbeitet? | In einem Hotel in Salzburg | In einem Kaffeehaus in Wien | Auf dem Bauernhof | 1
+QUIZ: Wie viele Gehälter bekommt man in Österreich pro Jahr? | Zwölf | Dreizehn | Vierzehn | 3
+QUIZ: Wie viele Absagen hat Emre bekommen? | Keine | Fünfzehn | Zwanzig | 2
+`;
+
+DATA.podScripts.ep030 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge dreißig. Heute haben wir uns verlaufen!
+A: „Sich verlaufen“ heißt: Man geht den falschen Weg und weiß nicht mehr, wo man ist. Man ist verloren in einer Stadt.
+B: Das passiert jedem. Besonders in einer neuen Stadt. Oder wenn das Handy keinen Akku hat.
+A: In Folge acht haben wir schon gelernt, wie man nach dem Weg fragt. Heute gehen wir einen Schritt weiter. Wir lernen die Wechselpräpositionen.
+B: Die Wechselpräpositionen! Ein großes Wort für eine wichtige Sache. Es sind neun Präpositionen: in, an, auf, über, unter, vor, hinter, neben und zwischen.
+A: Sie heißen Wechselpräpositionen, weil sie wechseln. Manchmal kommt der Dativ, manchmal der Akkusativ. „Wechseln“ heißt: ändern.
+B: Die Regel ist so: Wo? Dann Dativ. Wohin? Dann Akkusativ.
+A: „Wo“ ist eine Position. Etwas ist an einem Ort. Ohne Bewegung. Das Buch liegt auf dem Tisch. Ich bin in der Küche. Das Auto steht vor dem Haus.
+B: „Wohin“ ist eine Richtung. Eine Bewegung zu einem Ort. Ich lege das Buch auf den Tisch. Ich gehe in die Küche. Ich fahre das Auto vor das Haus.
+A: Hör den Unterschied: Ich bin in der Küche. Wo? Dativ. Ich gehe in die Küche. Wohin? Akkusativ.
+B: Die Formen. Im Dativ wird „der“ zu „dem“, „die“ zu „der“, „das“ zu „dem“. Im Akkusativ wird nur „der“ zu „den“. „Die“ und „das“ bleiben gleich.
+A: Also: Ich sitze auf dem Stuhl. Wo? Dativ. Ich setze mich auf den Stuhl. Wohin? Akkusativ.
+B: Und die Verbpaare sind sehr hilfreich. Liegen und legen. Stehen und stellen. Sitzen und setzen. Hängen und hängen.
+A: „Liegen“, „stehen“, „sitzen“ sind Positionen. Wo? Dativ. Das Handy liegt auf dem Tisch. Die Flasche steht im Kühlschrank. Die Katze sitzt auf dem Sofa.
+B: „Legen“, „stellen“, „setzen“ sind Bewegungen. Wohin? Akkusativ. Ich lege das Handy auf den Tisch. Ich stelle die Flasche in den Kühlschrank. Ich setze die Katze auf das Sofa.
+A: Und Kurzformen: in dem wird „im“. In das wird „ins“. An dem wird „am“. An das wird „ans“.
+B: Ich bin im Kino. Ich gehe ins Kino. Ich bin am Strand. Ich fahre ans Meer.
+A: Super. Jetzt erzählen wir Geschichten. Jonas, hast du dich schon einmal richtig verlaufen?
+B: Oh ja! In Venedig. Venedig ist eine Stadt in Italien. Sie ist auf dem Wasser gebaut. Es gibt keine Autos, nur Boote und kleine Straßen. Und hunderte Brücken.
+A: Venedig ist ein Labyrinth, oder?
+B: Ein totales Labyrinth! Ein Labyrinth ist ein Ort mit vielen Wegen. Man findet den Ausgang nicht. Ich war mit Freunden in einem Restaurant. Nach dem Essen wollte ich allein ins Hotel zurückgehen. Zu Fuß.
+A: Und dein Handy?
+B: Mein Handy hatte keinen Akku mehr. Natürlich! Ich bin über eine Brücke gegangen. Dann in eine kleine Straße. Dann über eine andere Brücke. Und plötzlich war ich an einem Kanal. Ohne Weg weiter!
+A: Ein Kanal ist wie ein kleiner Fluss in der Stadt.
+B: Genau. Ich bin zurückgegangen. Aber alle Straßen sahen gleich aus. Alte Häuser, kleine Brücken, Wasser. Ich bin eine Stunde im Kreis gelaufen. Immer wieder auf denselben Platz!
+A: Hahaha. Im Kreis laufen! Was hast du dann gemacht?
+B: Ich habe einen alten Mann gefragt. Er saß auf einer Bank vor seinem Haus. Er hat kein Englisch und kein Deutsch gesprochen. Nur Italienisch. Aber er hat mit den Händen erklärt. Und dann ist er einfach aufgestanden und hat mich zum Hotel gebracht!
+A: Wie nett! Ein echter Held.
+B: Ja! Er hat mich bis vor die Tür gebracht. Ich wollte ihm Geld geben, aber er wollte nichts. Er hat nur gelacht und „Buonanotte!“ gesagt. Gute Nacht!
+A: Das ist eine schöne Geschichte. Darum will ich Italienisch lernen, oder?
+B: Hahaha, genau. Und du, Lena?
+A: Meine Geschichte ist aus Tokio. Ich war vor fünf Jahren in Japan. Mit Tim. Tokio ist riesig. Die größte Stadt der Welt. Mit dem Umland fast vierzig Millionen Menschen!
+B: Vierzig Millionen! Das ist halb Deutschland in einer Stadt.
+A: Genau. Und das Problem: Die U-Bahn in Tokio ist sehr kompliziert. Es gibt viele Linien von verschiedenen Firmen. Und die Bahnhöfe sind riesig. Der Bahnhof Shinjuku ist der größte Bahnhof der Welt. Mit über zweihundert Ausgängen!
+B: Zweihundert Ausgänge! Unglaublich.
+A: Ja. Und Tim und ich sind im Bahnhof Shinjuku aus der U-Bahn ausgestiegen. Wir wollten zu unserem Hotel. Aber wir haben den richtigen Ausgang nicht gefunden. Wir sind durch unterirdische Gänge gelaufen. Unter der Erde. Mit Geschäften, Restaurants und tausenden Menschen.
+B: Eine Stadt unter der Stadt!
+A: Genau. Nach einer halben Stunde sind wir endlich auf die Straße gegangen. Aber auf der falschen Seite vom Bahnhof. Unser Hotel war auf der anderen Seite! Zwei Kilometer weit weg.
+B: Und dann?
+A: Dann haben wir ein Taxi genommen. Die Taxitür in Tokio geht automatisch auf. Und der Fahrer trägt weiße Handschuhe. Sehr elegant. Er hat das Hotel in fünf Minuten gefunden.
+B: Taxi! Die beste Lösung. Hahaha.
+A: Ja. Und in Japan gibt es ein Problem: Die Straßen haben oft keine Namen! Die Adressen sind nach Vierteln und Blöcken organisiert. Das ist für Europäer sehr schwer.
+B: Keine Straßennamen! Das ist interessant. In Wien haben alle Straßen Namen. Und die Hausnummern sind klar.
+A: Jetzt üben wir die Wechselpräpositionen mit einem Spiel. Ich beschreibe ein Zimmer. Und du sagst, wo alles ist. Okay?
+B: Okay!
+A: Ich lege meine Tasche auf den Stuhl. Wo ist die Tasche jetzt?
+B: Die Tasche liegt auf dem Stuhl. Dativ!
+A: Ich hänge das Bild an die Wand. Wo hängt das Bild?
+B: Das Bild hängt an der Wand.
+A: Ich stelle die Lampe neben das Bett. Wo steht die Lampe?
+B: Die Lampe steht neben dem Bett.
+A: Die Katze springt unter den Tisch. Wo ist die Katze jetzt?
+B: Die Katze ist unter dem Tisch. Und sie schläft. Hahaha.
+A: Perfekt! Und jetzt du, Hörer, Hörerin: Ich stelle die Flasche in den Kühlschrank. Wo steht die Flasche? Sag es laut!
+B: Richtig: Die Flasche steht im Kühlschrank.
+A: Jetzt die Geschichte von Amira. Amira hat einen freien Tag. Sie möchte die Stadt Potsdam besuchen. Potsdam ist eine Stadt bei Berlin. Mit schönen Schlössern und Gärten.
+B: Das Schloss Sanssouci! Es ist sehr berühmt. Es hat einem König von Preußen gehört. Friedrich dem Großen.
+A: Genau. Amira fährt mit der S-Bahn nach Potsdam. Dann geht sie in den Park Sanssouci. Der Park ist riesig. Fast dreihundert Hektar. Mit vielen Wegen, Bäumen, Statuen und kleinen Schlössern.
+B: Ein Hektar ist ein Stück Land. Zehntausend Quadratmeter. Ungefähr ein Fußballfeld.
+A: Also dreihundert Fußballfelder! Amira geht zuerst zum großen Schloss. Sie macht Fotos. Dann geht sie hinter das Schloss. In einen kleinen Wald. Dort gibt es einen chinesischen Pavillon. Ein kleines Haus aus Gold!
+B: Das Chinesische Haus. Sehr schön.
+A: Dann geht sie weiter. Über eine Brücke, neben einem See, zwischen zwei großen Bäumen. Und plötzlich weiß sie nicht mehr, wo sie ist. Alle Wege sehen gleich aus. Bäume, Bäume, Bäume.
+B: Oh nein, Amira hat sich verlaufen!
+A: Ja. Und es wird dunkel. Der Park schließt bald. Sie hat ein bisschen Angst. Aber dann sieht sie einen Mann mit einem Hund. Sie fragt: „Entschuldigung, wie komme ich zum Ausgang? Ich habe mich verlaufen.“
+B: Ein sehr guter Satz! „Ich habe mich verlaufen.“ Und was sagt der Mann?
+A: Der Mann sagt: „Kein Problem. Gehen Sie hier geradeaus bis zum Teich. Ein Teich ist ein kleiner See. Dann gehen Sie über die kleine Brücke. Hinter der Brücke biegen Sie links ab. Dann sehen Sie das Tor. Das ist der Ausgang.“
+B: Das ist eine klare Erklärung. Hat Amira alles verstanden?
+A: Sie wiederholt: „Also geradeaus bis zum Teich, über die Brücke und dann links?“ Und der Mann sagt: „Genau! Oder … ich gehe auch in diese Richtung. Kommen Sie mit!“
+B: Wie nett! Wie der alte Mann in Venedig.
+A: Ja! Sie gehen zusammen. Der Mann heißt Herr Krüger. Er ist Rentner und wohnt in Potsdam. Er geht jeden Tag mit seinem Hund im Park spazieren. Und er erzählt Amira viel über die Geschichte von Potsdam.
+B: Eine private Stadtführung!
+A: Genau. Am Ausgang sagt Herr Krüger: „Kommen Sie im Frühling wieder. Dann blühen die Rosen. Das ist der schönste Moment im Park.“ Und Amira sagt: „Vielen Dank! Ich komme bestimmt wieder.“
+B: Wie schön. Manchmal ist es gut, sich zu verlaufen. Man trifft nette Menschen.
+A: Das stimmt. Jetzt ein paar Tipps, wenn man sich verlaufen hat. Erstens: Ruhig bleiben. Keine Panik.
+B: Zweitens: Nach dem Weg fragen. „Entschuldigung, ich habe mich verlaufen. Können Sie mir helfen?“ Die meisten Menschen helfen gern.
+A: Drittens: Einen Stadtplan benutzen. Oder eine Karte. An vielen Haltestellen gibt es einen Plan.
+B: Viertens: Immer eine Powerbank dabeihaben. Eine Powerbank ist eine kleine Batterie für das Handy.
+A: Und fünftens: Den Namen und die Adresse vom Hotel aufschreiben. Auf Papier. Dann kann man jedem Taxifahrer die Adresse zeigen.
+B: Sehr gute Tipps. Jetzt bist du dran, Hörer, Hörerin. Wo bist du gerade? Sag es laut: Ich bin in der Küche. Ich sitze auf dem Sofa.
+A: Und wohin gehst du heute noch? Sag es laut: Ich gehe in den Supermarkt. Ich fahre ins Büro. Sehr gut!
+B: Und jetzt unser Teil: „Wörter des Tages“.
+A: Wort Nummer eins: sich verlaufen. Den falschen Weg gehen und nicht mehr wissen, wo man ist.
+B: Wort Nummer zwei: die Wechselpräposition. In, an, auf, über, unter, vor, hinter, neben, zwischen. Mit Dativ oder Akkusativ.
+A: Wort Nummer drei: legen. Etwas flach auf einen Ort bringen. Ich lege das Buch auf den Tisch.
+B: Wort Nummer vier: liegen. Flach an einem Ort sein. Das Buch liegt auf dem Tisch.
+A: Wort Nummer fünf: der Ausgang. Der Weg nach draußen. Das Gegenteil ist der Eingang.
+B: Und Wort Nummer sechs: der Teich. Ein kleiner See. Im Park gibt es einen Teich mit Enten.
+A: Noch einmal: sich verlaufen, die Wechselpräposition, legen, liegen, der Ausgang, der Teich.
+B: Was lernen wir heute? Die Wechselpräpositionen. Wo? Dativ: Ich bin in der Küche. Wohin? Akkusativ: Ich gehe in die Küche.
+A: Die Verbpaare: liegen und legen, stehen und stellen, sitzen und setzen.
+B: Die Kurzformen: im, ins, am, ans.
+A: Und der Satz: „Entschuldigung, ich habe mich verlaufen.“
+B: Das ist das Ende von Folge dreißig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und verlauf dich nicht! Oder doch, vielleicht triffst du nette Leute. Tschüss!
+B: Servus!
+VOCAB: sich verlaufen | Den falschen Weg gehen und nicht mehr wissen, wo man ist. | 🧭
+VOCAB: die Wechselpräposition | In, an, auf, über, unter, vor, hinter, neben, zwischen: mit Dativ oder Akkusativ. | 🔀
+VOCAB: legen | Etwas flach auf einen Ort bringen. Ich lege das Buch auf den Tisch. | 📥
+VOCAB: liegen | Flach an einem Ort sein. Das Buch liegt auf dem Tisch. | 📚
+VOCAB: der Ausgang | Der Weg nach draußen. Das Gegenteil ist der Eingang. | 🚪
+VOCAB: der Teich | Ein kleiner See, zum Beispiel im Park. | 🦆
+QUIZ: Welcher Satz ist richtig? | Ich gehe in der Küche. | Ich gehe in die Küche. | Ich gehe in dem Küche. | 2
+QUIZ: Wo hat sich Jonas verlaufen? | In Tokio | In Venedig | In Potsdam | 2
+QUIZ: Wie viele Ausgänge hat der Bahnhof Shinjuku? | Über zweihundert | Zwanzig | Zwei | 1
+QUIZ: Wer hilft Amira im Park? | Ein Mann mit einem Hund | Eine Polizistin | Julien | 1
+QUIZ: Was ist richtig? | Das Handy legt auf dem Tisch. | Das Handy liegt auf dem Tisch. | Das Handy liegt auf den Tisch. | 2
+`;
+
+DATA.podScripts.ep031 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge einunddreißig. Heute erzählen wir eine lustige Geschichte. Die Geschichte von einer Geburtstagsparty.
+A: Und wir lernen, wie man eine Geschichte erzählt. Mit Wörtern wie: zuerst, dann, danach, plötzlich, am Ende.
+B: Eine gute Geschichte hat einen Anfang, eine Mitte und ein Ende. Und oft eine Überraschung in der Mitte. Ein Problem. Etwas Unerwartetes.
+A: „Unerwartet“ heißt: Man hat es nicht gedacht. Es kommt plötzlich. Eine Überraschung.
+B: Und wir benutzen viel Perfekt. Und das Präteritum von sein und haben. Ich war, ich hatte. Wie in Folge siebenundzwanzig.
+A: Die Wörter für die Reihenfolge sind sehr wichtig. Zuerst, dann, danach, später, plötzlich, auf einmal, schließlich, am Ende, zum Schluss.
+B: Und Achtung: Nach diesen Wörtern kommt das Verb an Position zwei! Zuerst haben wir gegessen. Dann haben wir getanzt. Plötzlich ist das Licht ausgegangen.
+A: Genau. Position zwei! Okay, Jonas, unsere Geschichte heute ist eine wahre Geschichte. Sie ist wirklich passiert. Letztes Jahr.
+B: Ja, und sie ist ein bisschen peinlich für mich. „Peinlich“ heißt: Man schämt sich. Man möchte nicht, dass andere es wissen. Das Gesicht wird rot.
+A: Hahaha. Ich liebe peinliche Geschichten! Erzähl!
+B: Also. Letztes Jahr im Mai hatte Hias, mein bester Freund, seinen vierzigsten Geburtstag. Ein runder Geburtstag! Und ich wollte eine Überraschungsparty für ihn organisieren.
+A: Eine Überraschungsparty! Die Person weiß nichts. Und plötzlich sind alle Freunde da und rufen: „Überraschung!“
+B: Genau. Hias wohnt in Innsbruck. Er ist Bergführer. Ich habe zuerst mit seiner Freundin gesprochen. Sie heißt Theresa. Wir haben alles zusammen geplant. Heimlich. „Heimlich“ heißt: geheim, ohne dass es jemand weiß.
+A: Und was war der Plan?
+B: Der Plan war so: Theresa sagt zu Hias: „Wir gehen am Samstagabend zu zweit essen. In ein schönes Restaurant.“ Aber in Wirklichkeit warten im Restaurant dreißig Freunde und die ganze Familie.
+A: Ein klassischer Plan. Und dann?
+B: Zuerst habe ich das Restaurant gebucht. Eine Hütte in den Bergen über Innsbruck. Mit einem großen Raum nur für uns. Dann habe ich alle Freunde eingeladen. Über eine geheime WhatsApp-Gruppe. Ohne Hias natürlich.
+A: Natürlich! Das ist wichtig.
+B: Danach habe ich eine Torte bestellt. Eine große Torte in Form von einem Berg. Mit vierzig Kerzen und einer kleinen Figur von Hias oben. Mit einem Seil und einem Rucksack.
+A: Wie süß! Eine Bergtorte für einen Bergführer.
+B: Und ich habe ein Video gemacht. Mit Fotos von Hias aus vierzig Jahren. Als Baby, als Kind, als Student, mit mir in unserer WG, auf den Bergen. Ich habe zwei Wochen an diesem Video gearbeitet.
+A: Wow, du hast dir viel Mühe gegeben. „Sich Mühe geben“ heißt: viel Energie und Zeit in etwas stecken. Damit es gut wird.
+B: Ja. Alles war perfekt. Am Samstag bin ich mit dem Zug nach Innsbruck gefahren. Dann bin ich mit den anderen Freunden zur Hütte gefahren. Um sieben Uhr waren alle da. Dreißig Personen. Wir haben uns versteckt. Hinter der Tür, unter den Tischen, hinter dem Vorhang.
+A: Spannend! Und Hias?
+B: Hias und Theresa sollten um halb acht kommen. Wir haben gewartet. Halb acht. Niemand. Acht Uhr. Niemand. Halb neun. Immer noch niemand!
+A: Oh nein! Was ist passiert?
+B: Plötzlich hat mein Handy geklingelt. Es war Theresa. Sie hat geflüstert: „Jonas, es gibt ein Problem.“ Flüstern heißt: ganz leise sprechen.
+A: Was war das Problem?
+B: Hias wollte nicht ins Restaurant gehen! Er hat gesagt: „Ich bin müde. Ich war heute den ganzen Tag mit Touristen auf dem Berg. Lass uns einfach zu Hause bleiben und Pizza bestellen.“
+A: Hahaha! Oh nein! Der typische Hias. Ruhig und müde.
+B: Genau! Theresa hat alles versucht. Sie hat gesagt: „Aber es ist dein Geburtstag! Wir müssen feiern!“ Aber Hias wollte nicht. Er saß schon auf dem Sofa. In der Jogginghose.
+A: Und dann? Was habt ihr gemacht?
+B: Ich hatte eine Idee. Eine verrückte Idee. Ich habe gesagt: „Okay. Wenn Hias nicht zur Party kommt, dann kommt die Party zu Hias!“
+A: Nein! Ihr seid alle zu seiner Wohnung gefahren?
+B: Genau! Dreißig Personen. Mit der Torte, mit dem Essen, mit dem Wein und mit der Musikanlage. Das Restaurant hat uns alles eingepackt. Wir sind mit fünf Autos in die Stadt gefahren.
+A: Hahaha. Und die Wohnung von Hias ist groß?
+B: Nein! Sie ist klein. Zwei Zimmer. Für dreißig Personen! Wir haben leise an der Tür geklingelt. Theresa hat geöffnet. Und dann sind alle in die Wohnung gelaufen und haben gerufen: „Überraschung! Alles Gute zum Geburtstag!“
+A: Und Hias? Was hat er gemacht?
+B: Hias saß auf dem Sofa. In der Jogginghose. Mit einer Pizza in der Hand. Er war total geschockt. Er hat zwei Minuten nichts gesagt. Dann hat er gelacht. Und dann hat er geweint. Vor Freude.
+A: Oh, wie schön! Hias, der ruhige Bergführer, hat geweint!
+B: Ja. Und dann kam der peinliche Teil für mich.
+A: Ah, jetzt kommt es!
+B: Ich wollte das Video zeigen. Auf seinem Fernseher. Ich habe meinen Laptop angeschlossen. Alle waren still und haben auf den Bildschirm geschaut. Und ich habe auf „Play“ geklickt.
+A: Und?
+B: Es war das falsche Video! Es war nicht das Video von Hias. Es war ein Video von mir. Beim Singen. Unter der Dusche. Meine Schwester Anna hat es vor Jahren als Witz gemacht. Und ich hatte die Dateien verwechselt!
+A: Nein! Hahaha! Jonas singt unter der Dusche! Und du kannst gar nicht singen!
+B: Genau! Das war das Schlimmste. Dreißig Personen haben mich singen gehört. Ganz falsch. Ganz laut. Ein Lied von Falco. „Rock Me Amadeus“.
+A: Hahaha! Das ist so peinlich! Was haben die Leute gemacht?
+B: Am Anfang waren alle still. Und dann haben alle gelacht. Sehr laut. Zehn Minuten lang. Hias hat am lautesten gelacht. Er hat gesagt: „Das ist das beste Geburtstagsgeschenk meines Lebens!“
+A: Hahaha. Und hast du das richtige Video dann gezeigt?
+B: Ja, schließlich habe ich das richtige Video gefunden. Und es war sehr schön. Alle waren gerührt. „Gerührt“ heißt: Man hat starke, schöne Gefühle. Man ist emotional.
+A: Und dann? Wie war der Rest der Party?
+B: Fantastisch! Wir haben bis drei Uhr in der Nacht gefeiert. Wir haben gegessen, getrunken, getanzt. Die Nachbarn haben sich ein bisschen beschwert. „Sich beschweren“ heißt: Man sagt, dass man nicht zufrieden ist.
+A: Natürlich, dreißig Personen in einer kleinen Wohnung! Die Nachtruhe!
+B: Ja. Um elf Uhr hat ein Nachbar geklingelt. Er war sauer. Aber Hias hat ihn eingeladen. Er hat ihm ein Stück Torte gegeben. Und am Ende hat der Nachbar mitgefeiert!
+A: Hahaha, perfekt! Das ist die beste Lösung.
+B: Und das Video von mir unter der Dusche? Jetzt kennen es alle. Bei jeder Party sagt jemand: „Jonas, sing uns etwas!“
+A: Hahaha. Das ist eine wunderbare Geschichte, Jonas. Danke, dass du sie mit uns geteilt hast.
+B: Bitte. Aber erzähl sie niemandem! Hahaha. Oh, warte, wir sind in einem Podcast …
+A: Hahaha. Zu spät! Jetzt wissen es alle.
+B: Na gut. Und du, Lena? Hast du auch eine peinliche Party-Geschichte? Jetzt bist du dran!
+A: Hmm. Ja, leider. Eine kleine. Vor drei Jahren hat mich eine Kollegin zu ihrer Party eingeladen. Sie hat gesagt: „Es ist eine Kostümparty. Das Thema ist: die Achtzigerjahre.“
+B: Eine Kostümparty! Man trägt eine Verkleidung. Man sieht aus wie eine andere Person oder aus einer anderen Zeit.
+A: Genau. Ich habe mir viel Mühe gegeben. Ich habe auf dem Flohmarkt eine pinke Jacke mit großen Schultern gekauft. Und eine Leggings in Neongrün. Ich habe meine Haare toupiert. Sehr groß, sehr wild. Wie Madonna.
+B: Hahaha. Ich kann es mir vorstellen!
+A: Ich bin mit der U-Bahn zur Party gefahren. Alle Leute in der U-Bahn haben mich angeschaut. Aber das war okay. Es ist Berlin. Hier sieht man alles.
+B: Und dann?
+A: Dann habe ich an der Tür geklingelt. Meine Kollegin hat geöffnet. Und sie trug … ein ganz normales Kleid. Schwarz und elegant. Und hinter ihr standen zwanzig Leute. Alle elegant. Alle normal.
+B: Oh nein! Keine Kostümparty?
+A: Nein! Sie hatte gesagt: „Die Musik ist aus den Achtzigerjahren.“ Nicht die Kostüme! Ich hatte es falsch verstanden. Ich war die einzige Person in einem Kostüm.
+B: Hahaha! Lena, das ist fantastisch! Was hast du gemacht?
+A: Zuerst wollte ich nach Hause gehen. Aber dann habe ich gedacht: Egal. Ich habe gelacht und gesagt: „Ich bin die Musik!“ Und den ganzen Abend habe ich am meisten getanzt.
+B: Das ist die beste Reaktion! Über sich selbst lachen.
+A: Genau. Das habe ich von dir gelernt. Vom Bananenmann! Hahaha.
+A: Jetzt die Wörter zum Erzählen noch einmal. Am Anfang: Zuerst, am Anfang, eines Tages, letztes Jahr.
+B: In der Mitte: Dann, danach, später, plötzlich, auf einmal.
+A: Und am Ende: Schließlich, am Ende, zum Schluss.
+B: Und Reaktionen, wenn jemand eine Geschichte erzählt: „Wirklich?“ „Echt?“ „Nein!“ „Oh nein!“ „Und dann?“ „Was ist dann passiert?“ „Wie peinlich!“ „Wie lustig!“
+A: Diese Reaktionen sind sehr wichtig. Sie zeigen: Ich höre zu. Ich bin interessiert.
+B: Jetzt bist du dran, Hörer, Hörerin. Erzähl eine kurze Geschichte. Von einer Party oder einem Fest. Sag es laut: Letztes Jahr … Zuerst … Dann … Plötzlich … Am Ende …
+A: Und denk an die Position zwei! Zuerst haben wir … Dann sind wir … Sehr gut!
+B: Und jetzt unser Teil: „Wörter des Tages“.
+A: Wort Nummer eins: die Überraschung. Etwas Unerwartetes. Eine Überraschungsparty.
+B: Wort Nummer zwei: peinlich. Man schämt sich. Das Video war sehr peinlich.
+A: Wort Nummer drei: plötzlich. Sehr schnell und unerwartet. Plötzlich hat das Handy geklingelt.
+B: Wort Nummer vier: heimlich. Geheim, ohne dass es jemand weiß.
+A: Wort Nummer fünf: sich beschweren. Sagen, dass man nicht zufrieden ist. Die Nachbarn haben sich beschwert.
+B: Und Wort Nummer sechs: gerührt. Man hat starke, schöne Gefühle. Alle waren gerührt.
+A: Noch einmal: die Überraschung, peinlich, plötzlich, heimlich, sich beschweren, gerührt.
+B: Was lernen wir heute? Wie man eine Geschichte erzählt: Anfang, Mitte, Ende. Mit einer Überraschung.
+A: Die Wörter: zuerst, dann, danach, plötzlich, schließlich, am Ende. Und das Verb an Position zwei.
+B: Die Reaktionen: Wirklich? Echt? Und dann? Wie peinlich!
+A: Und: Wenn Hias nicht zur Party kommt, kommt die Party zu Hias!
+B: Das ist das Ende von Folge einunddreißig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und viel Spaß bei der nächsten Party! Tschüss!
+B: Servus! Und ich singe nie wieder!
+VOCAB: die Überraschung | Etwas Unerwartetes. | 🎉
+VOCAB: peinlich | Man schämt sich und das Gesicht wird rot. | 😳
+VOCAB: plötzlich | Sehr schnell und unerwartet. | ⚡
+VOCAB: heimlich | Geheim, ohne dass es jemand weiß. | 🤫
+VOCAB: sich beschweren | Sagen, dass man nicht zufrieden ist. | 😤
+VOCAB: gerührt | Man hat starke, schöne Gefühle. | 🥹
+QUIZ: Wie alt wurde Hias? | Dreißig | Vierzig | Fünfzig | 2
+QUIZ: Warum wollte Hias nicht ins Restaurant gehen? | Er war müde | Er war krank | Er hatte keine Zeit | 1
+QUIZ: Was war im falschen Video? | Jonas beim Singen unter der Dusche | Hias als Baby | Strudel beim Schwimmen | 1
+QUIZ: Was hat Hias mit dem sauren Nachbarn gemacht? | Er hat die Polizei gerufen | Er hat ihn eingeladen | Er hat die Musik ausgemacht | 2
+QUIZ: Welcher Satz ist richtig? | Plötzlich das Handy hat geklingelt. | Plötzlich hat das Handy geklingelt. | Plötzlich hat geklingelt das Handy. | 2
+`;
+
+DATA.podScripts.ep032 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge zweiunddreißig. Heute ein Thema, das uns besonders interessiert: Programmieren lernen.
+A: Wir lernen Wörter aus der Technik. Computer, Software, App, Code, Fehler. Und wir lernen zwei sehr wichtige Wörter: „weil“ und „dass“.
+B: „Weil“ und „dass“ sind Konjunktionen. Sie verbinden zwei Sätze. Und sie haben eine besondere Wirkung: Sie schicken das Verb ans Ende!
+A: Ja! Das ist eine neue Regel. Normalerweise steht das Verb an Position zwei. Aber nach „weil“ und „dass“ steht das Verb ganz am Ende vom Satz.
+B: Zum Beispiel: Ich lerne Deutsch. Und: Ich lerne Deutsch, weil ich in Berlin arbeiten möchte. „Möchte“ steht am Ende.
+A: Noch ein Beispiel: Ich bin müde, weil ich schlecht geschlafen habe. „Habe“ steht am Ende. Ganz am Ende.
+B: Das ist ein Nebensatz. Der Hauptsatz kann allein stehen: Ich bin müde. Der Nebensatz kann nicht allein stehen: weil ich schlecht geschlafen habe. Er braucht den Hauptsatz.
+A: Und zwischen Hauptsatz und Nebensatz steht immer ein Komma.
+B: „Weil“ gibt einen Grund. Es antwortet auf die Frage: Warum? Warum lernst du Deutsch? Weil ich in Berlin arbeiten möchte.
+A: Und „dass“ verbindet einen Gedanken, eine Meinung oder eine Information. Nach Verben wie: denken, glauben, wissen, sagen, hoffen, finden.
+B: Ich denke, dass Programmieren interessant ist. Ich weiß, dass du gut kochen kannst. Ich hoffe, dass es morgen nicht regnet.
+A: Wieder: Das Verb am Ende. Interessant ist. Kochen kannst. Nicht regnet.
+B: Achtung bei den trennbaren Verben! Im Nebensatz kommen sie wieder zusammen. Ich stehe früh auf. Aber: Ich bin müde, weil ich früh aufstehe. „Aufstehe“ wieder zusammen.
+A: Das ist schön. Im Nebensatz ist die Familie wieder zusammen. Hahaha.
+B: Hahaha. Genau. Gut, jetzt das Thema. Lena, kannst du programmieren?
+A: Nein, gar nicht. Ich bin Lehrerin für Deutsch. Aber ich möchte es lernen. Weil ich denke, dass es heute sehr nützlich ist. Und weil Tim mir immer von seinen Projekten erzählt und ich nichts verstehe.
+B: Hahaha. Tim ist Grafikdesigner. Programmiert er auch?
+A: Ein bisschen. Er macht Webseiten. Mit HTML und CSS. Das sind Sprachen für Webseiten. HTML ist die Struktur, und CSS ist das Design. Die Farben, die Formen.
+B: Ich habe es einmal versucht. Vor fünf Jahren habe ich einen Online-Kurs gemacht. Python für Anfänger. Ein Anfänger ist eine Person, die etwas neu lernt.
+A: Und wie war es?
+B: Am Anfang war es toll. Ich habe mein erstes Programm geschrieben. Es hat „Hallo Welt“ auf den Bildschirm geschrieben. Ich war so stolz!
+A: „Hallo Welt“! Das ist das erste Programm für alle Programmierer, oder?
+B: Ja, das ist eine Tradition. Aber dann wurde es schwer. Variablen, Schleifen, Funktionen. Ich habe aufgehört, weil ich keine Zeit mehr hatte. Und weil es zu kompliziert war.
+A: Was ist eine Schleife?
+B: Eine Schleife ist, wenn der Computer etwas immer wieder macht. Zum Beispiel zehnmal. Oder bis eine Bedingung erfüllt ist. In meinem Kopf war das wie ein Knoten.
+A: Hahaha. Jetzt die Technik-Wörter. Der Computer. Oder der Rechner. Der Laptop. Die Tastatur ist das Ding mit den Buchstaben. Die Maus. Der Bildschirm.
+B: Die Software sind die Programme. Die Hardware ist der Computer selbst. Die Teile, die man anfassen kann.
+A: Eine App ist ein Programm für das Handy. Die Webseite ist im Internet. Und der Code ist der Text, den Programmierer schreiben.
+B: Ein Fehler im Code heißt „Bug“. Das ist Englisch. Und einen Bug finden und reparieren heißt „debuggen“.
+A: In der IT benutzt man viele englische Wörter. Downloaden, updaten, klicken, scrollen, posten, chatten.
+B: Und man konjugiert sie auf Deutsch! Ich habe die App gedownloadet. Oder heruntergeladen. Ich habe das Programm upgedatet. Oder aktualisiert.
+A: „Gedownloadet“ klingt so lustig. Aber man sagt es wirklich. Ich sage lieber „heruntergeladen“.
+B: Und „speichern“. Das ist sehr wichtig! Man speichert eine Datei, damit sie nicht verloren geht. Und „löschen“ ist das Gegenteil. Man macht die Datei weg.
+A: Speichern, speichern, speichern! Das habe ich in der Schule gelernt. Weil ich einmal einen langen Text geschrieben habe und der Computer abgestürzt ist. Alles war weg!
+B: „Abstürzen“ heißt: Der Computer funktioniert plötzlich nicht mehr. Alles friert ein. Oder der Bildschirm wird schwarz. Furchtbar!
+A: Ja, das war furchtbar. Ich habe geweint. Jetzt speichere ich jede Minute.
+B: Jetzt erzählen wir über Programmierschulen. Lena, du hast mir erzählt, dass es neue Schulen gibt. Ohne Lehrer?
+A: Ja! Das ist sehr interessant. Es gibt Programmierschulen wie die Schule von Julien. Sie sind kostenlos. Man muss nichts bezahlen. Und es gibt keine Lehrer und keine Kurse.
+B: Keine Lehrer? Wie lernt man dann?
+A: Die Studenten lernen zusammen. Das heißt „Peer-Learning“. Peer ist Englisch für „Gleichaltrige“, also Leute auf dem gleichen Niveau. Die Studenten bekommen Projekte. Und sie müssen selbst die Lösung finden. Im Internet, in Büchern und mit Hilfe von den anderen Studenten.
+B: Und wer kontrolliert die Projekte?
+A: Andere Studenten! Das heißt „Peer-Evaluation“. Jedes Projekt wird von anderen Studenten kontrolliert. Und man lernt, indem man erklärt.
+B: Interessant! Ich glaube, dass man so sehr gut lernen kann. Weil man aktiv sein muss.
+A: Genau. Und die Schulen sind vierundzwanzig Stunden offen. Jeden Tag. Man kann kommen, wann man will. Auch um drei Uhr in der Nacht.
+B: Perfekt für Nachteulen wie mich! Hahaha. Wer kann sich bewerben?
+A: Fast jeder ab achtzehn. Man braucht kein Abitur und keine Erfahrung. Es gibt einen Test online. Und dann eine Phase, die heißt „Piscine“. Das ist Französisch für „Schwimmbad“.
+B: Ein Schwimmbad? Warum?
+A: Weil man ins kalte Wasser springt! Vier Wochen lang, jeden Tag, viele Stunden. Man lernt programmieren, ohne vorher etwas zu wissen. Es ist sehr intensiv. Und am Ende entscheidet die Schule, wer bleiben darf.
+B: Vier Wochen intensives Programmieren. Das ist hart! Wo gibt es solche Schulen?
+A: In vielen Ländern. In Deutschland zum Beispiel in Berlin, Wolfsburg und Heilbronn. Und in Österreich in Wien.
+B: Jetzt die Geschichte von Julien. Er arbeitet ja an so einer Schule. Und gerade beginnt eine neue Piscine. Mit hundertfünfzig neuen Leuten.
+A: Hundertfünfzig! Wer sind sie?
+B: Alle sind verschieden. Eine Frau ist fünfzig Jahre alt. Sie war früher Bäckerin. Sie sagt: „Ich bin hier, weil ich etwas Neues lernen will. Weil ich denke, dass die Zukunft digital ist.“
+A: Toll! Mit fünfzig noch einmal neu anfangen. Das ist mutig.
+B: Ein junger Mann aus Syrien ist zwanzig. Er sagt: „Ich bin hier, weil ich kein Geld für eine Universität habe. Und weil ich gehört habe, dass man hier gute Jobs findet.“
+A: Und das ist wahr, oder? Viele Studenten finden später eine gute Stelle.
+B: Ja. Und eine Studentin war Musikerin. Sie hat Klavier gespielt. Sie sagt: „Ich glaube, dass Musik und Code ähnlich sind. Beide haben eine Struktur. Beide sind kreativ.“
+A: Das ist eine schöne Idee. Musik und Code.
+B: Julien geht durch den großen Raum. Hunderte Computer, hunderte Menschen. Alle tippen, alle denken, alle diskutieren. Und dann sieht er eine junge Frau. Sie sitzt allein. Sie weint ein bisschen.
+A: Oh nein. Was ist passiert?
+B: Julien setzt sich neben sie. Er fragt: „Alles okay?“ Sie sagt: „Nein. Ich verstehe nichts. Ich glaube, dass ich zu dumm bin. Alle anderen sind schneller.“
+A: Das Gefühl kenne ich. Beim Deutschlernen auch.
+B: Julien sagt: „Du bist nicht dumm. Du bist neu. Das ist ein großer Unterschied. Ich weiß, dass es am Anfang schwer ist. Ich habe auch geweint, als ich angefangen habe.“
+A: Wirklich? Julien hat auch geweint?
+B: Ja. Er erzählt ihr, dass er in Lyon zuerst etwas ganz anderes studiert hat. Und dass er programmieren gelernt hat, weil er einen Fehler in einer App gefunden hat. Und dass er drei Wochen gebraucht hat, um diesen Fehler zu verstehen.
+A: Und dann?
+B: Dann sagt er: „Frag deinen Nachbarn. Das ist das Prinzip hier. Niemand ist allein.“ Sie fragt den Mann neben ihr. Er erklärt ihr das Problem. Und nach einer halben Stunde funktioniert ihr Code!
+A: Super! Und wie fühlt sie sich?
+B: Sie lacht. Sie sagt: „Danke, Julien! Ich glaube jetzt, dass ich es schaffen kann.“ Und Julien sagt: „Ich weiß, dass du es schaffen kannst.“
+A: Wie schön. Das ist das Geheimnis: Man lernt zusammen besser als allein.
+B: Das gilt auch für Sprachen! Wenn du Deutsch lernst, such dir Leute, die auch lernen. Ein Tandem, einen Kurs, eine Gruppe.
+A: Genau. Jetzt üben wir „weil“. Ich frage, Jonas antwortet mit „weil“.
+B: Okay!
+A: Warum trinkst du so viel Kaffee?
+B: Weil ich immer müde bin. Hahaha.
+A: Warum hast du einen Hund?
+B: Weil ich Tiere liebe und nicht allein sein möchte.
+A: Warum wohnst du in Wien?
+B: Weil Wien die schönste Stadt der Welt ist!
+A: Hahaha. Natürlich. Und jetzt du, Hörer, Hörerin: Warum lernst du Deutsch? Sag es laut: Ich lerne Deutsch, weil … Und denk an das Verb am Ende!
+B: Und mit „dass“: Was denkst du über Deutsch? Sag es laut: Ich denke, dass Deutsch … ist. Sehr gut!
+A: Und jetzt unser Teil: „Wörter des Tages“.
+B: Wort Nummer eins: weil. Eine Konjunktion für den Grund. Das Verb geht ans Ende. Ich lerne, weil ich Zeit habe.
+A: Wort Nummer zwei: dass. Eine Konjunktion nach denken, wissen, glauben. Ich weiß, dass du kommst.
+B: Wort Nummer drei: speichern. Eine Datei sichern, damit sie nicht verloren geht.
+A: Wort Nummer vier: abstürzen. Der Computer funktioniert plötzlich nicht mehr.
+B: Wort Nummer fünf: der Anfänger. Eine Person, die etwas neu lernt.
+A: Und Wort Nummer sechs: herunterladen. Eine Datei oder eine App aus dem Internet auf den Computer holen.
+B: Noch einmal: weil, dass, speichern, abstürzen, der Anfänger, herunterladen.
+A: Was lernen wir heute? Nebensätze mit „weil“ und „dass“. Das Verb steht am Ende. Mit Komma.
+B: Trennbare Verben sind im Nebensatz zusammen: weil ich früh aufstehe.
+A: Technik-Wörter: die Tastatur, der Bildschirm, die Software, der Code, der Bug, speichern, löschen.
+B: Und Programmierschulen ohne Lehrer: Peer-Learning, die Piscine, und niemand ist allein.
+A: Das ist das Ende von Folge zweiunddreißig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und vergiss nicht zu speichern! Servus!
+A: Tschüss!
+VOCAB: weil | Eine Konjunktion für den Grund. Das Verb geht ans Ende. | ❓
+VOCAB: dass | Eine Konjunktion nach denken, wissen, glauben. Ich weiß, dass du kommst. | 💭
+VOCAB: speichern | Eine Datei sichern, damit sie nicht verloren geht. | 💾
+VOCAB: abstürzen | Der Computer funktioniert plötzlich nicht mehr. | 💥
+VOCAB: der Anfänger | Eine Person, die etwas neu lernt. | 🐣
+VOCAB: herunterladen | Eine Datei oder App aus dem Internet holen. | ⬇️
+QUIZ: Welcher Satz ist richtig? | Ich lerne Deutsch, weil ich möchte in Berlin arbeiten. | Ich lerne Deutsch, weil ich in Berlin arbeiten möchte. | Ich lerne Deutsch, weil möchte ich in Berlin arbeiten. | 2
+QUIZ: Was war das erste Programm von Jonas? | Ein Spiel | „Hallo Welt“ | Eine Webseite | 2
+QUIZ: Was bedeutet „Piscine“ in den Programmierschulen? | Eine intensive Phase von vier Wochen | Ein echtes Schwimmbad | Ein Computer | 1
+QUIZ: Wer kontrolliert die Projekte an der Schule? | Lehrer | Andere Studenten | Der Chef | 2
+QUIZ: Was sagt Julien zu der weinenden Studentin? | Geh nach Hause | Frag deinen Nachbarn | Lies ein Buch | 2
+`;
+
+DATA.podScripts.ep033 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge dreiunddreißig. Heute ein schwieriges Thema: Eine Wohnung finden.
+A: Oh ja. Das ist in Berlin wirklich schwierig. Und in vielen anderen großen Städten auch. München, Hamburg, Frankfurt.
+B: Wir lernen die wichtigen Wörter: die Miete, die Kaution, die Nebenkosten, die WG, der Mietvertrag, die Besichtigung. Und wir geben viele Tipps.
+A: In Folge fünf haben wir schon kurz über Julien gesprochen. Er hat eine Wohnung gesucht und dann ein Zimmer in einer WG gefunden. Heute gehen wir mehr ins Detail.
+B: Zuerst: Es gibt verschiedene Möglichkeiten. Eine eigene Wohnung mieten. Ein Zimmer in einer WG. Oder eine Wohnung zur Zwischenmiete.
+A: Zwischenmiete heißt: Man mietet eine Wohnung für eine kurze Zeit. Zum Beispiel drei Monate. Weil die Person, die dort wohnt, verreist ist. Das ist gut für den Anfang.
+B: Und wo sucht man? Im Internet. Es gibt große Webseiten für Wohnungen. Und für WG-Zimmer gibt es spezielle Webseiten.
+A: Genau. Und Facebook-Gruppen. Und Freunde fragen! Viele Wohnungen findet man über Kontakte. Das heißt „Vitamin B“.
+B: Vitamin B? Was ist das?
+A: Das B steht für „Beziehungen“. Kontakte. Wenn du jemanden kennst, ist es einfacher. Man sagt: „Er hat die Wohnung über Vitamin B bekommen.“
+B: Hahaha, Vitamin B. Das ist überall wichtig. Auch bei der Jobsuche. Jetzt die Anzeige. Eine Wohnungsanzeige hat viele Abkürzungen. Das ist am Anfang sehr verwirrend.
+A: Oh ja! Zum Beispiel: „2 Zi, 55 qm, 3. OG, Altbau, EBK, Balkon, 850 € warm, KM 650, NK 200, Kaution 3 KM.“
+B: Was für ein Code! Erkläre, Lena!
+A: Okay. „2 Zi“ heißt zwei Zimmer. „55 qm“ heißt fünfundfünfzig Quadratmeter. „3. OG“ heißt dritter Stock. OG ist das Obergeschoss. Und EG ist das Erdgeschoss, ganz unten.
+B: „EBK“ heißt Einbauküche. Das ist eine Küche mit Herd, Kühlschrank und Schränken. Das ist wichtig! In Deutschland sind viele Wohnungen ohne Küche!
+A: Ja, das ist für viele Ausländer ein Schock! Man mietet eine Wohnung, und es gibt keine Küche. Nur leere Wände und ein paar Rohre. Man muss die Küche selbst kaufen und mitnehmen, wenn man umzieht.
+B: In Österreich ist das nicht so üblich. Die meisten Wohnungen haben eine Küche. Aber in Deutschland ist das ganz normal.
+A: Weiter: „KM 650“ heißt Kaltmiete sechshundertfünfzig Euro. Die Kaltmiete ist die Miete nur für die Wohnung. Ohne Heizung, ohne Wasser.
+B: „NK 200“ heißt Nebenkosten zweihundert Euro. Die Nebenkosten sind die Kosten für Heizung, Wasser, Müll, Hausreinigung. Und „warm“ heißt: Kaltmiete plus Nebenkosten. Also achthundertfünfzig Euro warm.
+A: Aber Achtung: Strom und Internet sind oft extra. Die muss man selbst bezahlen.
+B: Und die Kaution! „Kaution 3 KM“ heißt: drei Kaltmieten. Also neunzehnhundertfünfzig Euro.
+A: Die Kaution ist Geld als Sicherheit für den Vermieter. Man bezahlt sie am Anfang. Und wenn man auszieht und alles ist in Ordnung, bekommt man die Kaution zurück.
+B: Und wenn etwas kaputt ist? Dann behält der Vermieter einen Teil von der Kaution. Für die Reparatur.
+A: Genau. Darum muss man beim Einzug ein Übergabeprotokoll machen. Ein Papier: Was ist schon kaputt? Mit Fotos! Dann kann der Vermieter später nicht sagen, dass du es kaputt gemacht hast.
+B: Sehr guter Tipp! Fotos von allem machen. Jetzt die Besichtigung. Was ist das?
+A: Die Besichtigung ist der Termin, um die Wohnung anzuschauen. In Berlin sind oft viele Leute bei einer Besichtigung. Dreißig, fünfzig, manchmal hundert!
+B: Hundert Leute für eine Wohnung! Und wie wählt der Vermieter?
+A: Man muss eine Bewerbung abgeben. Wie bei einem Job! Mit vielen Papieren. Das ist typisch deutsch.
+B: Welche Papiere?
+A: Erstens die Gehaltsnachweise. Die letzten drei Monate. Damit der Vermieter sieht, dass du genug Geld verdienst. Die Regel ist: Die Miete soll nicht mehr als ein Drittel vom Gehalt sein.
+B: Ein Drittel. Also wenn die Miete neunhundert Euro ist, musst du mindestens zweitausendsiebenhundert Euro netto verdienen.
+A: Genau. Zweitens die Schufa-Auskunft. Die Schufa ist eine Firma. Sie weiß, ob du Schulden hast. Schulden heißt: Man hat Geld von jemandem geliehen und nicht zurückbezahlt.
+B: Und drittens?
+A: Drittens eine Mietschuldenfreiheitsbescheinigung. Was für ein Wort! Ein Papier vom alten Vermieter. Er schreibt: Diese Person hat immer die Miete bezahlt.
+B: Mietschuldenfreiheitsbescheinigung! Das ist das längste Wort in diesem Podcast! Hahaha.
+A: Hahaha, ja. Typisch Deutsch. Lange Wörter für Bürokratie.
+B: Und viertens ein Anschreiben. Ein kleiner Text über dich. Wer bist du? Was machst du? Warum möchtest du diese Wohnung?
+A: Genau. Und das Problem für Neuankömmlinge: Sie haben keine Schufa-Auskunft und keinen alten Vermieter in Deutschland. Das macht es noch schwerer.
+B: Was macht man dann?
+A: Viele fangen in einer WG an. Oder mit einer Zwischenmiete. Und nach ein paar Monaten haben sie dann die Papiere für eine eigene Wohnung.
+B: Jetzt die WG. Lena, du hast im Studium in einer WG gewohnt, oder?
+A: Ja! In Hamburg. Mit vier Leuten. Es war toll und chaotisch. Wir hatten einen Putzplan.
+B: Ein Putzplan! Das ist sehr deutsch.
+A: Sehr deutsch! Ein Putzplan ist eine Liste an der Wand. Dort steht: Wer putzt wann was? Diese Woche putzt Lena das Bad. Nächste Woche putzt Max die Küche.
+B: Und hat es funktioniert?
+A: Manchmal. Hahaha. Einer hat nie geputzt. Max. Er hat immer gesagt: „Morgen, morgen.“ Wir hatten viele WG-Sitzungen deswegen.
+B: Eine WG-Sitzung ist ein Treffen von allen Mitbewohnern. Man diskutiert die Probleme. Wer hat die Milch getrunken? Wer hat nicht geputzt?
+A: Genau. Und dann das WG-Casting! Wenn ein Zimmer frei wird, sucht die WG eine neue Person. Viele Leute kommen. Man trinkt Tee zusammen, man redet. Und die WG entscheidet. Wie bei einer Fernsehshow.
+B: Ein WG-Casting! Und was fragt man?
+A: Was machst du beruflich? Was sind deine Hobbys? Kochst du gern? Wie oft bist du zu Hause? Wie sauber bist du? Feierst du gern?
+B: Und die richtige Antwort?
+A: Ehrlich sein! Wenn du gern laut Musik hörst, sag es. Sonst gibt es später Probleme.
+A: Jonas, und in Wien? Wie findet man dort eine Wohnung?
+B: In Wien ist es einfacher als in Berlin. Aber auch nicht super einfach. Es gibt die Gemeindebauten. Das sind Wohnungen, die der Stadt gehören. Wir haben in Folge achtundzwanzig darüber gesprochen.
+A: Ja, die günstigen Wohnungen von der Stadt. Kann jeder dort wohnen?
+B: Nicht sofort. Man muss mindestens zwei Jahre in Wien gemeldet sein. Dann kann man sich anmelden und warten. Manchmal ein Jahr oder länger.
+A: Und sonst? Auf dem privaten Markt?
+B: Auf dem privaten Markt gibt es in Wien oft einen Makler. Ein Makler ist eine Person, die Wohnungen vermittelt. Zwischen Vermieter und Mieter. Und früher musste der Mieter den Makler bezahlen. Zwei Monatsmieten!
+A: In Deutschland war das auch so. Aber seit zweitausendfünfzehn gilt das „Bestellerprinzip“. Wer den Makler bestellt, bezahlt ihn. Meistens der Vermieter.
+B: In Österreich gibt es das seit zweitausenddreiundzwanzig auch. Das war eine große Erleichterung für die Mieter.
+A: Und noch ein Unterschied: In Wien gibt es viele befristete Mietverträge. Befristet heißt: mit einem Enddatum. Zum Beispiel drei Jahre. Danach muss man vielleicht ausziehen.
+B: Genau. Das ist nicht so schön. In Deutschland sind die meisten Mietverträge unbefristet. Ohne Ende. Und der Vermieter kann nicht einfach kündigen.
+A: Der Mieterschutz in Deutschland ist stark. Die Mieter haben viele Rechte. Das ist gut.
+B: Und es gibt Mietervereine. Eine Organisation, die Mietern hilft. Wenn es Probleme mit dem Vermieter gibt. Man bezahlt ein bisschen Geld pro Jahr und bekommt Beratung.
+A: Sehr nützlich! Besonders wenn die Nebenkostenabrechnung kommt. Einmal im Jahr bekommt man eine Rechnung für die Nebenkosten. Manchmal muss man nachzahlen. Hunderte Euro!
+B: Die Nebenkostenabrechnung! Der Albtraum jedes Mieters. Hahaha.
+B: Jetzt die Geschichte von Julien. Erinnerst du dich? Sein Plan für das neue Jahr war eine eigene Wohnung. Er möchte eine Küche nur für sich.
+A: Ja! Und hat er eine gefunden?
+B: Er sucht seit drei Monaten. Er hat zwanzig Besichtigungen gemacht. Und fünfzehn Bewerbungen abgegeben. Aber er hat immer Absagen bekommen.
+A: Wie Emre bei der Jobsuche! Was war das Problem?
+B: Julien hat noch keine Schufa-Auskunft gehabt. Und er hat nur seit kurzem einen festen Arbeitsvertrag. Die Vermieter wollen Sicherheit.
+A: Und dann?
+B: Dann ist etwas Unerwartetes passiert. Herr Krüger! Erinnerst du dich? Der nette Mann mit dem Hund in Potsdam. Er hat Amira geholfen.
+A: Ja! Was hat er mit Julien zu tun?
+B: Amira hat Herrn Krüger wieder getroffen. Im Frühling, im Park, bei den Rosen. Und sie haben gesprochen. Herr Krüger hat erzählt, dass er eine kleine Wohnung in Berlin hat. Sie gehörte seiner Tochter. Aber die Tochter ist nach Kanada gezogen.
+A: Oh! Und Amira hat an Julien gedacht!
+B: Genau! Sie hat gesagt: „Ich habe einen Freund. Er sucht eine Wohnung. Er ist sehr zuverlässig.“ Vitamin B!
+A: Hahaha, Vitamin B! Und dann?
+B: Julien hat die Wohnung besichtigt. Sie ist in Friedrichshain. Zwei Zimmer, fünfzig Quadratmeter, mit einem kleinen Balkon. Und mit einer Einbauküche! Eine Küche nur für ihn!
+A: Sein Traum! Und die Miete?
+B: Achthundert Euro warm. Für Berlin ist das günstig. Herr Krüger hat gesagt: „Mir ist wichtig, dass die Person nett ist und auf die Wohnung aufpasst. Nicht das Geld.“
+A: Was für ein Glück! Das ist ein Wunder in Berlin.
+B: Ja. Julien hat den Mietvertrag unterschrieben. Er hat die Kaution bezahlt. Und er hat Fotos von allem gemacht. Für das Übergabeprotokoll. Wie ein echter Deutscher!
+A: Hahaha! Und die WG? Mira und Kenji?
+B: Sie waren ein bisschen traurig. Aber Julien hat versprochen, dass er jeden Sonntag zum Essen kommt. Und er hat Pixel, der Katze, ein Abschiedsgeschenk gegeben. Einen neuen Kratzbaum.
+A: Ein Kratzbaum ist ein Möbel für Katzen. Sie können dort kratzen und klettern.
+B: Genau. Und die erste Mahlzeit in seiner neuen Küche? Eine französische Quiche. Für Herrn Krüger, als Dankeschön.
+A: Wie schön! Jetzt bist du dran, Hörer, Hörerin. Wie ist deine Traumwohnung? Sag es laut: Meine Traumwohnung hat … Zimmer. Sie ist in … Sie hat einen Balkon.
+B: Und erkläre: Was ist die Kaution? Sag es laut: Die Kaution ist … Sehr gut!
+A: Und jetzt unser Teil: „Wörter des Tages“.
+B: Wort Nummer eins: die Kaltmiete. Die Miete nur für die Wohnung, ohne Heizung und Wasser.
+A: Wort Nummer zwei: die Nebenkosten. Die Kosten für Heizung, Wasser und Müll.
+B: Wort Nummer drei: die Kaution. Geld als Sicherheit für den Vermieter. Man bekommt es am Ende zurück.
+A: Wort Nummer vier: die Besichtigung. Der Termin, um die Wohnung anzuschauen.
+B: Wort Nummer fünf: der Mietvertrag. Der Vertrag zwischen Mieter und Vermieter.
+A: Und Wort Nummer sechs: Vitamin B. Kontakte, Beziehungen. Mit Vitamin B ist alles einfacher.
+B: Noch einmal: die Kaltmiete, die Nebenkosten, die Kaution, die Besichtigung, der Mietvertrag, Vitamin B.
+A: Was lernen wir heute? Die Wohnungsanzeige: Zi, qm, OG, EBK, KM, NK. Und kalt und warm.
+B: Die Bewerbung für eine Wohnung: Gehaltsnachweise, Schufa, Anschreiben.
+A: Das Leben in der WG: der Putzplan, die WG-Sitzung, das WG-Casting.
+B: Und der wichtigste Tipp: Fotos beim Einzug machen! Und Vitamin B benutzen.
+A: Das ist das Ende von Folge dreiunddreißig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Viel Glück bei der Wohnungssuche! Servus!
+A: Tschüss!
+VOCAB: die Kaltmiete | Die Miete nur für die Wohnung, ohne Heizung und Wasser. | 🏠
+VOCAB: die Nebenkosten | Die Kosten für Heizung, Wasser, Müll und Hausreinigung. | 💧
+VOCAB: die Kaution | Geld als Sicherheit für den Vermieter. Man bekommt es zurück. | 🔐
+VOCAB: die Besichtigung | Der Termin, um eine Wohnung anzuschauen. | 👀
+VOCAB: der Mietvertrag | Der Vertrag zwischen Mieter und Vermieter. | 📜
+VOCAB: Vitamin B | Kontakte und Beziehungen, die helfen. | 🤝
+QUIZ: Was heißt „EBK“ in einer Anzeige? | Erdgeschoss | Einbauküche | Ein Balkon | 2
+QUIZ: Was ist die Kaution? | Die Miete für einen Monat | Geld als Sicherheit, das man zurückbekommt | Die Kosten für Strom | 2
+QUIZ: Was ist ein Putzplan? | Eine Liste: Wer putzt wann was? | Ein Plan für die Küche | Ein Vertrag | 1
+QUIZ: Wie findet Julien seine Wohnung? | Über eine Webseite | Über Vitamin B: Amira und Herrn Krüger | Über seine Firma | 2
+QUIZ: Was kocht Julien zuerst in seiner neuen Küche? | Eine Quiche | Ein Schnitzel | Eine Suppe | 1
+`;
+
+DATA.podScripts.ep034 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge vierunddreißig. Heute sprechen wir über Musik und Filme.
+A: Und wir lernen, wie man eine einfache Meinung sagt. Ich finde … Ich mag … Mir gefällt … Ich glaube …
+B: Eine Meinung ist das, was ich denke. Meine persönliche Idee über etwas. Jeder hat eine eigene Meinung.
+A: Die wichtigste Struktur ist: Ich finde etwas gut. Ich finde den Film spannend. Ich finde das Lied langweilig.
+B: Achtung: „finden“ braucht den Akkusativ. Der Film, ich finde den Film gut. Die Musik, ich finde die Musik schön. Das Lied, ich finde das Lied toll.
+A: Und dann: „gefallen“. Das ist ein bisschen anders. Der Film gefällt mir. Die Lieder gefallen mir. Das Subjekt ist der Film, nicht ich!
+B: Ja, das ist schwer für viele Lernende. „Mir“ ist Dativ. Der Film gefällt mir. Gefällt dir der Film? Die Musik gefällt ihm nicht.
+A: Und viele Adjektive für Meinungen. Positiv: toll, super, großartig, spannend, lustig, schön, interessant, beeindruckend.
+B: Negativ: langweilig, schrecklich, furchtbar, kitschig, zu lang, blöd.
+A: „Kitschig“ heißt: zu süß, zu romantisch, zu viele Gefühle. Wie ein Film mit Sonnenuntergang und Pferden und Geigen. Hahaha.
+B: Und neutral: ganz okay, nicht schlecht, geht so, ganz nett.
+A: „Geht so“ ist sehr typisch. Wie war der Film? Geht so. Das heißt: Er war nicht gut, aber auch nicht sehr schlecht. Mittel.
+B: Gut! Jetzt die Musik. Lena, welche Musik hörst du gern?
+A: Ich höre sehr gern Indie-Pop. Und deutsche Musik. Zum Beispiel AnnenMayKantereit. Das ist eine Band aus Köln. Der Sänger hat eine sehr tiefe, raue Stimme. Ich finde die Texte sehr schön.
+B: Ah, die kenne ich. Sie sind sehr beliebt bei jungen Leuten.
+A: Ja. Und ich höre gern alte deutsche Musik. Nena zum Beispiel. „99 Luftballons“. Das Lied ist aus den Achtzigerjahren. Es ist auf der ganzen Welt berühmt.
+B: „99 Luftballons“! Das ist ein Klassiker. Und viele Leute wissen nicht, dass das Lied politisch ist. Es geht um den Kalten Krieg.
+A: Genau. Und du, Jonas? Welche Musik gefällt dir?
+B: Ich bin Wiener. Natürlich höre ich klassische Musik. Mozart, Strauss, Schubert. Am Neujahrstag schaue ich immer das Neujahrskonzert der Wiener Philharmoniker im Fernsehen. Das ist eine Tradition.
+A: Das Neujahrskonzert! Das schauen Millionen Menschen auf der ganzen Welt, oder?
+B: Ja, über fünfzig Millionen Menschen in über neunzig Ländern. Es gibt Walzer von Johann Strauss. Und am Ende klatschen alle zum Radetzkymarsch. Das ist toll.
+A: Und moderne Musik?
+B: Ich liebe Austropop. Das ist Popmusik aus Österreich, oft im Wiener Dialekt. Falco, Rainhard Fendrich, Wolfgang Ambros. Und neue Bands wie Wanda oder Bilderbuch.
+A: Falco! „Rock Me Amadeus“! Das Lied, das du unter der Dusche gesungen hast! Hahaha.
+B: Bitte, erinnere mich nicht daran. Hahaha. Aber ja, Falco war der erste Musiker, der mit einem deutschsprachigen Lied auf Platz eins in Amerika war. Neunzehnhundertsechsundachtzig.
+A: Wow, das wusste ich nicht. Jetzt die Konzerte. Gehst du oft auf Konzerte?
+B: Ein paarmal pro Jahr. Ich gehe gern in kleine Clubs. Live-Musik ist für mich das Beste. Die Energie ist ganz anders als zu Hause.
+A: Ich gehe im Sommer gern auf Festivals. Ein Festival ist ein großes Konzert mit vielen Bands. Mehrere Tage. Man zeltet. Es gibt viele Festivals in Deutschland. Rock am Ring, Hurricane, Fusion.
+B: Und in Österreich gibt es das Donauinselfest in Wien. Das ist das größte Open-Air-Festival in Europa. Und es ist gratis! Drei Millionen Besucher an drei Tagen.
+A: Gratis! Das ist toll. Jonas, und wie hörst du Musik heute? Mit Streaming?
+B: Ja, meistens mit einer App auf dem Handy. Aber ich habe auch noch einen Plattenspieler. Und viele alte Schallplatten von meinem Vater. Eine Schallplatte ist eine große schwarze Scheibe aus Kunststoff. Darauf ist die Musik.
+A: Schallplatten sind wieder modern! In Berlin gibt es viele kleine Plattenläden. Junge Leute kaufen wieder Vinyl.
+B: Ja, ich finde den Klang wärmer. Und man hört ein ganzes Album, von Anfang bis Ende. Nicht nur einzelne Lieder.
+A: Das stimmt. Mit dem Streaming hört man oft nur ein Lied und dann das nächste. Man hat keine Geduld mehr.
+B: Und Radio? Hörst du noch Radio?
+A: Am Morgen beim Frühstück, ja. Ich höre einen Berliner Sender. Dort gibt es Nachrichten, das Wetter und den Verkehr. Und Musik.
+B: Radio ist auch super zum Deutschlernen! Die Moderatoren sprechen klar. Und man hört jeden Tag aktuelle Themen.
+A: Und deutsche Lieder sind auch toll zum Lernen. Man kann die Texte im Internet finden. Man hört und liest mit. Dann singt man mit!
+B: Ja, Singen hilft sehr bei der Aussprache. Und die Wörter bleiben im Kopf. Ein Lied vergisst man nicht so schnell.
+A: Mein Tipp für Anfänger: Lieder von Mark Forster oder Wincent Weiss. Sie singen klar und langsam. Die Texte sind einfach.
+B: Und für Österreich: die Lieder von Wanda. Aber Achtung, dort gibt es viel Wiener Dialekt! Hahaha.
+A: Dann lernt man gleich zwei Sprachen: Deutsch und Wienerisch!
+A: Jetzt die Filme. Jonas, welche Filme siehst du gern?
+B: Ich sehe gern Krimis und Dokumentarfilme. Ein Dokumentarfilm zeigt die Realität. Keine Geschichte, sondern echte Menschen und echte Ereignisse.
+A: Und deutsche Filme? Hast du einen Lieblingsfilm?
+B: Ja! „Good Bye, Lenin!“ Das ist ein Film über eine Familie in Ostberlin. Die Mutter ist im Koma, als die Mauer fällt. Und als sie aufwacht, darf sie keinen Schock bekommen. Also spielt der Sohn ihr vor, dass die DDR noch existiert.
+A: Ich finde den Film großartig! Er ist lustig und traurig zugleich. „Zugleich“ heißt: zur gleichen Zeit.
+B: Genau. Und „Das Leben der Anderen“. Ein Film über die Stasi in der DDR. Die Stasi war die Geheimpolizei. Der Film hat einen Oscar gewonnen.
+A: Der ist sehr bewegend. Aber auch sehr ernst. Mein Lieblingsfilm ist „Lola rennt“. Er ist aus den Neunzigerjahren. Eine junge Frau mit roten Haaren rennt durch Berlin. Sie hat zwanzig Minuten, um hunderttausend Mark zu finden. Sonst stirbt ihr Freund.
+B: Ah ja! Der Film ist sehr schnell und hat super Musik. Techno!
+A: Genau! Und die Geschichte passiert dreimal. Mit drei verschiedenen Enden. Ich finde das Konzept genial.
+B: Und Serien? Heute schauen viele Leute mehr Serien als Filme.
+A: Oh ja! „Dark“ ist eine deutsche Serie. Sie war auf der ganzen Welt ein Erfolg. Eine Geschichte über Zeitreisen in einer kleinen Stadt. Sehr kompliziert! Ich musste mir Notizen machen. Hahaha.
+B: Und „Babylon Berlin“. Eine Serie über Berlin in den Zwanzigerjahren. Mit Jazz, Kriminalität und Politik. Die Kostüme sind wunderschön.
+A: Und in Österreich?
+B: In Österreich gibt es „Vorstadtweiber“. Eine Serie über reiche Frauen in Wien. Sehr lustig, sehr böse. Und viele österreichische Filme sind ein bisschen dunkel und seltsam. Wir lieben schwarzen Humor.
+A: Schwarzer Humor ist Humor über ernste Themen. Über den Tod, über Krankheit. Das ist sehr wienerisch, oder?
+B: Sehr! Die Wiener haben eine besondere Beziehung zum Tod. Wir sagen: „Der Tod muss ein Wiener sein.“ Das ist ein altes Lied. Hahaha.
+A: Jetzt die Frage: Synchronisation oder Originalversion?
+B: Ah, ein großes Thema! In Deutschland und Österreich werden fast alle Filme synchronisiert. Das heißt: Die Schauspieler sprechen Deutsch. Andere Personen sprechen die Stimmen.
+A: Genau. Brad Pitt spricht im deutschen Fernsehen Deutsch. Mit der Stimme von einem deutschen Schauspieler. Und es ist immer derselbe Sprecher für denselben Schauspieler.
+B: In anderen Ländern gibt es Untertitel. Man hört die Originalsprache und liest den Text unten.
+A: Für das Deutschlernen ist es eine super Idee: Schau Filme auf Deutsch! Mit deutschen Untertiteln. So hörst du und liest du gleichzeitig.
+B: Oder schau deine Lieblingsserie, die du schon kennst, auf Deutsch. Du kennst die Geschichte, also verstehst du mehr.
+A: Sehr guter Tipp! Jetzt die Geschichte von Kenji. Erinnerst du dich? Kenji aus Tokio, der in der WG wohnt. Der Brot backt.
+B: Ja! Was macht Kenji?
+A: Kenji liebt Filme. Er möchte Deutsch mit Filmen lernen. Aber er findet deutsche Filme zu ernst. Er sagt: „Alle deutschen Filme sind über den Krieg oder über die DDR. Ich finde das zu traurig.“
+B: Hahaha. Das ist ein Klischee. Aber ein bisschen wahr.
+A: Also hat Mira eine Idee. Sie organisiert einen Filmabend in der WG. Jeden Freitag. Jede Person wählt einen Film. Und Kenji muss am Ende seine Meinung auf Deutsch sagen.
+B: Gute Idee! Welche Filme schauen sie?
+A: Am ersten Freitag wählt Mira „Good Bye, Lenin!“. Kenji sagt danach: „Ich finde den Film sehr schön. Er ist lustig und traurig. Die Mutter gefällt mir sehr.“
+B: Super! Mit „finden“ und „gefallen“!
+A: Am zweiten Freitag wählt Julien einen französischen Film. Auf Deutsch synchronisiert. Kenji sagt: „Ich finde die Stimmen komisch. Sie passen nicht zu den Gesichtern.“
+B: Hahaha. Das sagen viele Leute über die Synchronisation.
+A: Am dritten Freitag wählt Emre eine deutsche Komödie. „Fack ju Göhte“. Ein sehr erfolgreicher Film über einen Kriminellen, der Lehrer wird.
+B: Der Titel ist absichtlich falsch geschrieben, oder? Es soll lustig sein.
+A: Genau. Die Schüler im Film schreiben sehr schlecht Deutsch. Kenji hat viel gelacht. Aber er hat nicht alles verstanden. Weil die Schüler viel Jugendsprache sprechen. Slang.
+B: Jugendsprache ist wirklich schwer. Auch für mich! Hahaha.
+A: Und am vierten Freitag wählt Kenji selbst einen Film. Einen japanischen Anime. Auf Deutsch synchronisiert. Und alle anderen müssen ihre Meinung sagen.
+B: Was sagen sie?
+A: Julien sagt: „Die Bilder finde ich wunderschön.“ Emre sagt: „Mir gefällt die Musik sehr.“ Und Mira sagt: „Ich habe die Geschichte nicht verstanden, aber ich habe geweint.“
+B: Hahaha. Das passiert bei Anime oft.
+A: Kenji ist sehr glücklich. Und nach einem Monat hat er viele neue Wörter gelernt. Er sagt: „Filme sind der beste Lehrer.“
+B: Jetzt bist du dran, Hörer, Hörerin. Welche Musik hörst du gern? Sag es laut: Ich höre gern … Ich finde … toll.
+A: Und welcher Film gefällt dir? Sag es laut: Mein Lieblingsfilm ist … Er gefällt mir, weil … Sehr gut!
+B: Und jetzt unser Teil: „Wörter des Tages“.
+A: Wort Nummer eins: die Meinung. Das, was ich persönlich denke. Meiner Meinung nach ist der Film gut.
+B: Wort Nummer zwei: gefallen. Der Film gefällt mir. Die Lieder gefallen mir. Mit Dativ.
+A: Wort Nummer drei: spannend. Interessant und aufregend. Man möchte wissen, wie es weitergeht.
+B: Wort Nummer vier: kitschig. Zu süß, zu romantisch.
+A: Wort Nummer fünf: die Untertitel. Der Text unten im Bild. Man liest, was die Personen sagen.
+B: Und Wort Nummer sechs: synchronisiert. Die Schauspieler sprechen eine andere Sprache. Mit fremden Stimmen.
+A: Noch einmal: die Meinung, gefallen, spannend, kitschig, die Untertitel, synchronisiert.
+B: Was lernen wir heute? Meinungen sagen: Ich finde den Film gut. Der Film gefällt mir. Ich mag die Musik.
+A: Positiv: toll, spannend, großartig. Negativ: langweilig, kitschig, furchtbar. Und neutral: geht so.
+B: Deutsche Musik und Filme: Nena, Falco, „Good Bye, Lenin!“, „Lola rennt“, „Dark“.
+A: Und der Tipp: Schau Filme auf Deutsch, mit deutschen Untertiteln!
+B: Das ist das Ende von Folge vierunddreißig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und viel Spaß beim nächsten Film! Tschüss!
+B: Servus!
+VOCAB: die Meinung | Das, was ich persönlich denke. | 💬
+VOCAB: gefallen | Der Film gefällt mir. Mit Dativ. | 👍
+VOCAB: spannend | Interessant und aufregend: Man möchte wissen, wie es weitergeht. | 🎬
+VOCAB: kitschig | Zu süß, zu romantisch. | 🌹
+VOCAB: die Untertitel | Der Text unten im Bild. | 💬
+VOCAB: synchronisiert | Die Schauspieler sprechen mit fremden Stimmen eine andere Sprache. | 🎙️
+QUIZ: Welcher Satz ist richtig? | Ich gefalle den Film. | Der Film gefällt mir. | Mir gefällt den Film. | 2
+QUIZ: Welche Musik schaut Jonas jedes Jahr am Neujahrstag? | Ein Rockkonzert | Das Neujahrskonzert der Wiener Philharmoniker | Ein Festival | 2
+QUIZ: Worum geht es in „Good Bye, Lenin!“? | Um eine Familie in Ostberlin | Um Zeitreisen | Um eine Frau, die rennt | 1
+QUIZ: Was heißt „geht so“? | Sehr gut | Mittel, nicht so gut | Sehr schlecht | 2
+QUIZ: Wer wählt den japanischen Film? | Mira | Emre | Kenji | 3
+`;
+
+DATA.podScripts.ep035 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge fünfunddreißig. Heute sind wir am Flughafen!
+A: Wir lernen alles für eine Flugreise. Einchecken, das Gepäck aufgeben, die Sicherheitskontrolle, das Boarding. Und was man macht, wenn es Probleme gibt.
+B: Fliegen ist heute normal. Aber am Flughafen gibt es viele Schritte und viele Regeln. Und viele Durchsagen. Eine Durchsage ist eine Information über Lautsprecher.
+A: Zuerst die Vorbereitung. Vor dem Flug muss man den Koffer packen. Und man muss auf die Regeln für das Gepäck achten.
+B: Es gibt zwei Arten von Gepäck. Das Handgepäck nimmt man mit ins Flugzeug. Eine kleine Tasche oder ein kleiner Koffer. Und das aufgegebene Gepäck. Der große Koffer. Er fliegt unten im Flugzeug.
+A: Beim Handgepäck gibt es Regeln. Es darf nicht zu groß und nicht zu schwer sein. Oft maximal acht Kilo. Und Flüssigkeiten nur in kleinen Flaschen. Maximal hundert Milliliter. In einem durchsichtigen Plastikbeutel.
+B: „Durchsichtig“ heißt: Man kann hindurchsehen. Wie Glas.
+A: Genau. Und keine Messer, keine Scheren, keine Waffen im Handgepäck. Natürlich.
+B: Und das aufgegebene Gepäck darf oft dreiundzwanzig Kilo wiegen. Wenn der Koffer schwerer ist, muss man extra bezahlen. Das heißt Übergepäck.
+A: Ich habe immer Übergepäck! Hahaha. Weil ich zu viele Schuhe mitnehme.
+B: Typisch! Jetzt die Ankunft am Flughafen. Wann muss man da sein?
+A: Für einen Flug in Europa am besten zwei Stunden vorher. Für einen Langstreckenflug drei Stunden vorher. Ein Langstreckenflug ist ein langer Flug. Zum Beispiel nach Amerika oder Asien.
+B: Zuerst sucht man den Check-in-Schalter. Auf einem großen Bildschirm stehen alle Flüge. Mit der Flugnummer, dem Ziel, der Zeit und dem Schalter.
+A: Heute macht man das Einchecken oft online. Zu Hause, mit dem Handy. Vierundzwanzig Stunden vor dem Flug. Dann bekommt man die Bordkarte auf das Handy.
+B: Die Bordkarte ist das Ticket für das Flugzeug. Dort stehen der Name, der Sitzplatz, das Gate und die Boardingzeit.
+A: Aber den großen Koffer muss man trotzdem am Schalter abgeben. Das heißt „Gepäckaufgabe“. Oder „Bag Drop“.
+B: Wir spielen eine Szene am Schalter. Lena, du bist die Mitarbeiterin von der Fluggesellschaft. Ich bin der Passagier.
+A: Guten Morgen! Wohin fliegen Sie heute?
+B: Guten Morgen! Nach Lissabon.
+A: Ihren Pass oder Personalausweis, bitte.
+B: Hier, bitte.
+A: Danke. Haben Sie Gepäck zum Aufgeben?
+B: Ja, einen Koffer.
+A: Stellen Sie den Koffer bitte auf das Band. … Vierundzwanzig Kilo. Das ist ein Kilo zu viel.
+B: Oh nein! Was kostet das?
+A: Fünfzig Euro. Oder Sie nehmen etwas aus dem Koffer und tun es ins Handgepäck.
+B: Okay, ich nehme die Schuhe heraus. … So. Und jetzt?
+A: Dreiundzwanzig Kilo. Perfekt! Möchten Sie einen Platz am Fenster oder am Gang?
+B: Am Fenster, bitte.
+A: Gut. Sitzplatz vierzehn A, am Fenster. Hier ist Ihre Bordkarte. Das Boarding beginnt um zehn Uhr fünfzehn an Gate B zwölf. Gute Reise!
+B: Vielen Dank!
+A: Sehr gut! Die wichtigen Wörter: „das Band“ ist das Förderband. Der Koffer fährt darauf weg. Und „am Gang“ heißt: Der Sitz ist neben dem Weg im Flugzeug. Man kann leicht aufstehen.
+B: Ich sitze lieber am Fenster. Ich liebe es, die Wolken zu sehen. Und die Berge, wenn wir über die Alpen fliegen.
+A: Ich sitze lieber am Gang. Weil ich oft auf die Toilette muss. Hahaha.
+B: Jetzt die Sicherheitskontrolle. Das ist der stressigste Teil, oder?
+A: Oh ja. Man muss alles auf ein Band legen. Die Tasche, die Jacke, den Gürtel. Den Laptop muss man aus der Tasche nehmen. Und den Beutel mit den Flüssigkeiten.
+B: Und dann geht man durch einen Metalldetektor. Wenn es piept, kontrolliert ein Mitarbeiter mit einem kleinen Gerät. Oder mit den Händen.
+A: Mir passiert das immer! Es piept immer bei mir. Ich weiß nicht, warum. Vielleicht wegen meiner Schuhe.
+B: Und manchmal muss man die Schuhe ausziehen. Dann steht man in Socken am Flughafen. Hoffentlich ohne Löcher! Hahaha.
+A: Hahaha. Nach der Sicherheitskontrolle kommt die Passkontrolle. Aber nur, wenn man aus dem Schengen-Raum fliegt.
+B: Der Schengen-Raum! Das sind viele Länder in Europa ohne Grenzkontrollen. Deutschland, Österreich, Frankreich, Spanien, Italien und viele mehr. Zwischen diesen Ländern braucht man keine Passkontrolle.
+A: Aber man muss trotzdem immer einen Ausweis dabeihaben. Für das Flugzeug.
+B: Dann wartet man am Gate. Das Gate ist der Ausgang zum Flugzeug. Und man hört Durchsagen. „Sehr geehrte Fluggäste, der Flug LH zwölf achtundfünfzig nach Lissabon ist jetzt bereit zum Einsteigen.“
+A: Oder die schlechte Nachricht: „Der Flug hat leider eine Verspätung von neunzig Minuten.“ Oder: „Der Flug ist annulliert.“ Annulliert heißt: Er fällt aus. Er fliegt gar nicht.
+B: Das ist das Schlimmste. Und dann gibt es noch: „Letzter Aufruf für Herrn Jonas Berger. Bitte kommen Sie sofort zu Gate B zwölf.“
+A: Hahaha! Ist dir das passiert?
+B: Ja! Einmal in Frankfurt. Ich war in einer Buchhandlung am Flughafen. Ich habe ein Buch gelesen und die Zeit vergessen. Plötzlich habe ich meinen Namen gehört. Ich bin zum Gate gerannt. Ich war der letzte Passagier. Alle haben mich böse angeschaut.
+A: Hahaha. Typisch Journalist. Immer mit einem Buch!
+B: Jetzt im Flugzeug. Die Flugbegleiter begrüßen die Passagiere. Ein Flugbegleiter arbeitet im Flugzeug. Er hilft den Passagieren und bringt Getränke.
+A: Und vor dem Start gibt es die Sicherheitshinweise. „Bitte schnallen Sie sich an. Stellen Sie die Rückenlehne aufrecht. Schalten Sie Ihr Handy in den Flugmodus.“
+B: „Sich anschnallen“ heißt: den Gurt schließen. Wie im Auto. Für die Sicherheit.
+A: Und nach der Landung: „Bitte bleiben Sie angeschnallt, bis das Flugzeug seine endgültige Parkposition erreicht hat.“ Aber alle stehen sofort auf! Hahaha.
+B: Das ist so typisch! Und dann warten alle zehn Minuten im Gang. Stehend.
+A: Nach der Landung geht man zur Gepäckausgabe. Dort kommt der Koffer auf einem Band. Und man wartet und wartet …
+B: Und manchmal kommt der Koffer nicht! Das ist mir einmal passiert.
+A: Oh nein! Was hast du gemacht?
+B: Man geht zum Schalter für Gepäckermittlung. „Lost and Found“. Man füllt ein Formular aus. Mit der Beschreibung vom Koffer und der Adresse. Und dann wartet man. Mein Koffer ist zwei Tage später gekommen. Er war in Madrid!
+A: In Madrid! Dein Koffer hatte Urlaub ohne dich. Hahaha.
+A: Jonas, und die Bahn? In Europa kann man oft auch mit dem Zug reisen statt mit dem Flugzeug.
+B: Ja, und das wird immer beliebter. Wegen der Umwelt. Ein Flug produziert viel mehr CO2 als eine Zugfahrt. Viele Leute sagen jetzt: Für kurze Strecken nehme ich den Zug.
+A: Es gibt sogar ein Wort dafür: „Flugscham“. Das kommt aus dem Schwedischen. Man schämt sich, weil man fliegt und der Umwelt schadet.
+B: Flugscham! Ein interessantes Wort. Und es gibt wieder Nachtzüge. Man steigt am Abend in Wien ein, man schläft im Zug, und am Morgen ist man in Paris, in Amsterdam oder in Rom.
+A: Der Nightjet! Das ist ein Nachtzug von der österreichischen Bahn. Ich bin einmal damit von Berlin nach Wien gefahren. Es war toll. Mit einem kleinen Bett und Frühstück am Morgen.
+B: Und man spart eine Nacht im Hotel. Und man kommt mitten in der Stadt an. Nicht an einem Flughafen weit draußen.
+A: Genau. Der Flughafen BER ist zum Beispiel ziemlich weit vom Zentrum. Mit der S-Bahn dauert es fast eine Stunde.
+B: Der BER! Es gibt so viele Witze über diesen Flughafen. Er sollte zweitausendelf eröffnen. Aber er hat erst zweitausendzwanzig eröffnet. Neun Jahre zu spät!
+A: Ja, das war ein großer Skandal in Berlin. Viele Probleme mit der Technik und mit dem Brandschutz. Und es hat Milliarden gekostet.
+B: Heute funktioniert er. Aber die Berliner lachen immer noch darüber. Wenn etwas sehr lange dauert, sagt man: „Das ist wie beim BER.“
+A: Hahaha. Wie der Passierschein A38!
+B: Genau! Jetzt die Geschichte von Julien. Julien fliegt zum ersten Mal von Berlin nach Hause. Nach Lyon. Für Weihnachten.
+A: Oh, er besucht seine Familie! Wie schön.
+B: Ja. Aber Julien ist ein bisschen chaotisch. Er hat den Wecker nicht gehört. Er ist zu spät aufgestanden. Der Flug geht um acht Uhr. Und es ist schon halb sieben!
+A: Oh nein! Was macht er?
+B: Er ruft ein Taxi. Er packt schnell den Koffer. Er rennt aus der Wohnung. Im Taxi merkt er: Er hat die Geschenke für seine Familie vergessen!
+A: Oh nein! Die Geschenke!
+B: Aber keine Zeit! Er muss weiter. Am Flughafen BER rennt er zum Bag Drop. Die Mitarbeiterin sagt: „Sie sind sehr knapp. Beeilen Sie sich!“ „Sich beeilen“ heißt: schnell machen.
+A: Und die Sicherheitskontrolle?
+B: Die Schlange ist sehr lang. Eine Schlange ist eine Reihe von Menschen, die warten. Julien fragt die Leute: „Entschuldigung, mein Flug geht in dreißig Minuten. Darf ich vor?“ Und die Leute lassen ihn vor. Sehr nett!
+A: Wie nett! Und dann?
+B: Dann piept es beim Metalldetektor. Julien hat seinen Gürtel vergessen. Er muss zurück. Gürtel ausziehen. Noch einmal durch. Endlich!
+A: Hahaha. Und schafft er den Flug?
+B: Er rennt zum Gate. Und er hört die Durchsage: „Letzter Aufruf für Herrn Julien Moreau!“ Er kommt als letzter Passagier ins Flugzeug. Genau wie ich in Frankfurt!
+A: Hahaha. Und die Geschenke?
+B: Im Flugzeug denkt er nach. Und dann hat er eine Idee. Im Duty-free-Shop in Lyon kauft er deutsche Schokolade. Und Lebkuchen. Und Marzipan aus Lübeck.
+A: Lebkuchen ist ein typisches deutsches Gebäck für Weihnachten. Mit vielen Gewürzen, Honig und Nüssen.
+B: Genau. Und seine Familie liebt die Geschenke! Seine Mutter sagt: „Oh, echte deutsche Spezialitäten! Wie aufmerksam von dir!“
+A: Hahaha. Sie weiß nicht, dass er sie am Flughafen gekauft hat.
+B: Pssst! Das ist unser Geheimnis. Und die echten Geschenke? Mira hat sie mit der Post geschickt. Sie sind im Januar angekommen.
+A: Jetzt bist du dran, Hörer, Hörerin. Du bist am Check-in-Schalter. Sag es laut: Guten Tag. Ich fliege nach … Ich habe einen Koffer zum Aufgeben.
+B: Und frag nach dem Sitzplatz. Sag es laut: Kann ich bitte einen Platz am Fenster haben? Sehr gut!
+A: Und jetzt unser Teil: „Wörter des Tages“.
+B: Wort Nummer eins: das Handgepäck. Die kleine Tasche, die man mit ins Flugzeug nimmt.
+A: Wort Nummer zwei: einchecken. Sich für den Flug anmelden. Online oder am Schalter.
+B: Wort Nummer drei: die Bordkarte. Das Ticket für das Flugzeug, mit Sitzplatz und Gate.
+A: Wort Nummer vier: die Sicherheitskontrolle. Die Kontrolle von Personen und Taschen vor dem Flug.
+B: Wort Nummer fünf: annulliert. Der Flug fällt aus. Er fliegt nicht.
+A: Und Wort Nummer sechs: sich beeilen. Schnell machen. Beeil dich, der Flug geht gleich!
+B: Noch einmal: das Handgepäck, einchecken, die Bordkarte, die Sicherheitskontrolle, annulliert, sich beeilen.
+A: Was lernen wir heute? Die Schritte am Flughafen: einchecken, das Gepäck aufgeben, die Sicherheitskontrolle, das Gate, das Boarding.
+B: Die Regeln: Flüssigkeiten bis hundert Milliliter, der Koffer bis dreiundzwanzig Kilo.
+A: Die Durchsagen: Verspätung, annulliert, letzter Aufruf.
+B: Und am Fenster oder am Gang? Das ist die große Frage!
+A: Das ist das Ende von Folge fünfunddreißig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+B: Und guten Flug! Servus!
+A: Tschüss!
+VOCAB: das Handgepäck | Die kleine Tasche, die man mit ins Flugzeug nimmt. | 🎒
+VOCAB: einchecken | Sich für den Flug anmelden, online oder am Schalter. | ✅
+VOCAB: die Bordkarte | Das Ticket für das Flugzeug, mit Sitzplatz und Gate. | 🎟️
+VOCAB: die Sicherheitskontrolle | Die Kontrolle von Personen und Taschen vor dem Flug. | 🛃
+VOCAB: annulliert | Der Flug fällt aus, er fliegt nicht. | ❌
+VOCAB: sich beeilen | Schnell machen. | 🏃‍♂️
+QUIZ: Wie viel Flüssigkeit darf eine Flasche im Handgepäck haben? | Einen Liter | Hundert Milliliter | Fünfhundert Milliliter | 2
+QUIZ: Warum sitzt Lena lieber am Gang? | Sie mag die Wolken nicht | Sie muss oft auf die Toilette | Es ist billiger | 2
+QUIZ: Wo war der Koffer von Jonas? | In Madrid | In Lissabon | In Frankfurt | 1
+QUIZ: Was hat Julien vergessen? | Seinen Pass | Die Geschenke für seine Familie | Sein Handy | 2
+QUIZ: Was bedeutet „annulliert“? | Der Flug ist pünktlich | Der Flug fällt aus | Der Flug ist voll | 2
+`;
+
+DATA.podScripts.ep036 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge sechsunddreißig. Heute ein sehr deutsches Thema: Sport und Vereine.
+A: Der Verein! Wir haben schon in Folge siebzehn kurz darüber gesprochen. Heute erklären wir alles. Was ist ein Verein? Warum sind Vereine so wichtig in Deutschland und Österreich?
+B: Ein Verein ist eine Gruppe von Menschen mit einem gemeinsamen Interesse. Ein Hobby, ein Sport, ein Ziel. Die Mitglieder treffen sich regelmäßig. „Regelmäßig“ heißt: immer wieder, zum Beispiel jede Woche.
+A: Und ein Verein ist offiziell. Er hat einen Namen, Regeln, einen Vorstand und Mitglieder. Der Vorstand ist die Gruppe, die den Verein leitet. Mit einem Vorsitzenden, einem Kassenwart und einem Schriftführer.
+B: Der Kassenwart kümmert sich um das Geld. Und der Schriftführer schreibt die Protokolle. Sehr deutsch! Hahaha.
+A: Und offizielle Vereine haben „e. V.“ im Namen. Das heißt „eingetragener Verein“. Er ist bei einem Gericht registriert.
+B: Wie viele Vereine gibt es in Deutschland?
+A: Über sechshunderttausend! Und fast jeder zweite Deutsche ist Mitglied in einem Verein. Sportvereine sind am beliebtesten. Fußball, Turnen, Tennis, Schwimmen, Handball.
+B: In Österreich ist es ähnlich. Es gibt über hundertzwanzigtausend Vereine. Für ein kleines Land ist das sehr viel.
+A: Und es gibt Vereine für alles! Den Schützenverein, den Gesangsverein, den Kleingartenverein, den Karnevalsverein, den Heimatverein …
+B: Und es gibt auch sehr spezielle Vereine. Einen Verein für Freunde der Gartenzwerge. Einen Verein für Rassekaninchen. Einen Verein für Leute, die alte Traktoren lieben.
+A: Hahaha. Wirklich alles! Ein Sprichwort sagt: Wenn drei Deutsche sich treffen, gründen sie einen Verein.
+B: „Gründen“ heißt: etwas Neues starten, offiziell. Einen Verein gründen, eine Firma gründen.
+A: Genau. Warum sind Vereine so wichtig? Erstens: Sie sind günstig. Der Mitgliedsbeitrag ist oft nur zehn oder zwanzig Euro pro Monat. Viel billiger als ein Fitnessstudio.
+B: Der Mitgliedsbeitrag ist das Geld, das ein Mitglied bezahlt. Jeden Monat oder jedes Jahr.
+A: Zweitens: Man trifft Menschen. Man findet Freunde. Besonders in kleinen Städten und Dörfern ist der Verein das Zentrum vom sozialen Leben.
+B: Drittens: Vereine sind ehrenamtlich. Die Trainer und der Vorstand arbeiten ohne Geld. Freiwillig. In ihrer Freizeit.
+A: Das ist sehr wichtig für die Gesellschaft. Viele Leute engagieren sich. Das heißt: Sie helfen und arbeiten für die Gemeinschaft.
+B: Jetzt der Fußball. Der wichtigste Sport in Deutschland und Österreich. Lena, bist du ein Fußballfan?
+A: Ein bisschen. Ich bin für den FC St. Pauli. Das ist ein Verein aus Hamburg. Aus meinem Viertel. Er ist ein sehr besonderer Verein.
+B: Warum besonders?
+A: St. Pauli ist politisch. Die Fans sind gegen Rassismus und für Toleranz. Die Fahne hat einen Totenkopf. Wie bei Piraten. Und der Verein hat Fans auf der ganzen Welt. Auch wenn er nicht so viele Spiele gewinnt. Hahaha.
+B: Hahaha. Die Liebe ist wichtiger als der Sieg.
+A: Genau! Und in Deutschland gibt es die Bundesliga. Das ist die erste Liga. Die besten achtzehn Vereine. Der FC Bayern München ist der erfolgreichste Verein. Er hat sehr oft die Meisterschaft gewonnen.
+B: Und viele Leute sind gegen Bayern! Weil Bayern immer gewinnt. Das ist langweilig. Hahaha.
+A: Ja, Bayern München ist der Verein, den viele hassen. Und du, Jonas? Bist du für einen Verein?
+B: Natürlich! In Wien gibt es zwei große Vereine: Rapid Wien und Austria Wien. Und sie sind große Rivalen. Ein Rivale ist ein Gegner, ein Konkurrent. Das Spiel zwischen ihnen heißt „Wiener Derby“.
+A: Und für wen bist du?
+B: Für Rapid! Rapid ist grün und weiß. Die Fans sind sehr laut und leidenschaftlich. Und es gibt eine Tradition: die „Rapid-Viertelstunde“. In der fünfundsiebzigsten Minute klatschen alle Fans. Drei Mal. Dann gibt die Mannschaft noch einmal alles.
+A: Das ist eine schöne Tradition! Gehst du oft ins Stadion?
+B: Ein paarmal pro Saison. Mit meinem Vater. Das ist unsere Vater-Sohn-Tradition. Seit ich sechs Jahre alt bin.
+A: Wie schön! Und spielst du selbst Fußball?
+B: Früher, ja. Als Kind in einem kleinen Verein in Salzburg. Aber ich war nicht gut. Ich war immer auf der Bank. Die Bank ist für die Spieler, die nicht spielen dürfen. Die Ersatzspieler.
+A: Hahaha. Armer Jonas! Ich war im Schwimmverein. Fünf Jahre. Dreimal pro Woche Training. Um sechs Uhr am Morgen! Vor der Schule.
+B: Um sechs Uhr! Das ist hart.
+A: Sehr hart. Aber ich habe viel gelernt. Disziplin. Teamgeist. Und ich habe meine beste Freundin Sarah dort kennengelernt. Nicht in der Schule, sondern im Schwimmverein.
+B: Ah, das wusste ich nicht! Das Wasser hat euch verbunden. Jetzt andere Sportarten. Handball ist auch sehr beliebt in Deutschland, oder?
+A: Ja! Handball ist der zweitbeliebteste Mannschaftssport. Besonders im Norden. Und Deutschland ist sehr gut im Handball. Und dann gibt es Turnen. Das ist Gymnastik. Viele Kinder machen das im Turnverein.
+B: In Österreich ist der Wintersport wichtig. Skifahren, Skispringen, Snowboarden, Langlauf. Die Skifahrer sind Nationalhelden.
+A: Das Skispringen ist verrückt! Man fährt einen Berg hinunter und springt über hundert Meter weit durch die Luft!
+B: Ja! Und am Neujahrstag gibt es die Vierschanzentournee. Vier Wettbewerbe in Deutschland und Österreich. Das schauen sehr viele Leute im Fernsehen. Nach dem Neujahrskonzert!
+A: Konzert und Skispringen am ersten Januar. Ein perfekter Tag für einen Österreicher. Hahaha.
+A: Jonas, und die Kleingärten? Das ist auch eine Art Verein, oder?
+B: Oh ja! Der Kleingarten. Oder in Österreich: der Schrebergarten. Das ist ein kleiner Garten außerhalb von der Wohnung. Oft am Stadtrand. Mit einer kleinen Hütte.
+A: In Berlin gibt es über siebzigtausend Kleingärten! Viele Leute wohnen in einer Wohnung ohne Garten. Also mieten sie einen Kleingarten. Dort pflanzen sie Gemüse und Blumen. Und am Wochenende grillen sie.
+B: Und die Kleingärten sind in Vereinen organisiert. Mit sehr vielen Regeln! Das ist legendär.
+A: Ja! Es gibt das Bundeskleingartengesetz. Ein ganzes Gesetz nur für Kleingärten! Ein Drittel vom Garten muss für Obst und Gemüse sein. Die Hütte darf nicht größer als vierundzwanzig Quadratmeter sein. Und man darf dort nicht wohnen.
+B: Und die Hecke darf nicht zu hoch sein. Und der Rasen muss gemäht sein. Und am Sonntag ist Ruhe! Kein Rasenmäher.
+A: Früher war der Kleingarten etwas für Rentner. Sehr spießig. „Spießig“ heißt: sehr konservativ, mit vielen Regeln, ein bisschen langweilig.
+B: Aber heute ist es anders! Junge Familien und junge Leute aus der ganzen Welt wollen einen Kleingarten. In Berlin muss man manchmal fünf Jahre warten. Es gibt Wartelisten.
+A: Fünf Jahre! Tim und ich stehen seit zwei Jahren auf einer Warteliste. Ich träume von meinen eigenen Tomaten.
+B: Und die Gartenzwerge! Kleine Figuren aus Keramik, mit einer roten Mütze und einem Bart. Sie stehen in vielen Kleingärten.
+A: Die Gartenzwerge sind ein deutsches Symbol. Manche finden sie kitschig. Manche lieben sie. Meine Oma hat zwölf Gartenzwerge!
+B: Zwölf! Hahaha. Oma Hilde hat einen Gartenzwerg-Verein in ihrem Garten.
+A: Genau. Mit Vorstand und Kassenwart! Hahaha.
+B: Genau! Jetzt die Geschichte von Amira. Sie hat ein Problem. Sie arbeitet viel im Krankenhaus. Sie hat Stress. Und sie kennt noch nicht so viele Leute in Berlin. Außer Jana und ihren Mitbewohnerinnen.
+A: Was macht sie?
+B: Jana sagt: „Komm doch in meinen Verein!“ Jana spielt Volleyball. In einem Frauenvolleyballverein in Kreuzberg. Jeden Dienstag und Donnerstag um neunzehn Uhr.
+A: Volleyball! Hat Amira schon einmal Volleyball gespielt?
+B: Ja, am Strand in Casablanca. Mit ihren Brüdern. Beachvolleyball. Aber nicht in einer Halle.
+A: Und wie war das erste Training?
+B: Am Anfang war sie nervös. Die anderen Frauen waren sehr gut. Sie haben schnell gespielt und laut gerufen. „Meiner!“ „Deiner!“ „Aus!“ Amira hat nicht alles verstanden.
+A: „Meiner“ heißt: Ich nehme den Ball. Das ist mein Ball. Das ruft man beim Volleyball.
+B: Genau. Aber die Trainerin war sehr geduldig. Sie heißt Petra. Sie ist sechzig Jahre alt und war früher in der Nationalmannschaft. Sie hat Amira alles erklärt. Langsam, mit Händen und Füßen.
+A: Und nach dem Training?
+B: Nach dem Training gehen alle zusammen in die Vereinskneipe. Eine kleine Kneipe neben der Sporthalle. Sie trinken ein Bier oder eine Apfelschorle. Und sie reden. Über das Spiel, über die Arbeit, über das Leben.
+A: Das ist der schönste Teil, oder? Die dritte Halbzeit! Hahaha.
+B: Genau! So nennt man das. Die dritte Halbzeit. Und Amira hat viele neue Freundinnen gefunden. Eine Frau aus Polen, eine Frau aus Brasilien, eine Frau aus Bayern.
+A: Und hat sie Mitglied werden müssen? Mit Formular?
+B: Natürlich! Hahaha. Nach dem Probetraining musste sie einen Mitgliedsantrag ausfüllen. Mit Name, Adresse, Geburtsdatum, Bankverbindung. Und einer Unterschrift.
+A: Typisch deutsch! Und der Beitrag?
+B: Fünfzehn Euro pro Monat. Sehr günstig. Und im Sommer gibt es ein Turnier. Ein Wettbewerb mit vielen Mannschaften. Amira spielt mit!
+A: Super! Und gewinnen sie?
+B: Sie werden Dritte! Sie bekommen eine kleine Medaille. Amira schickt ein Foto an ihre Familie. Mit der Medaille und allen Freundinnen. Sie schreibt: „Das ist meine Berliner Familie.“
+A: Oh, wie schön! Der Verein ist wie eine Familie.
+B: Genau. Das ist das Geheimnis der Vereine. Jetzt bist du dran, Hörer, Hörerin. Machst du Sport? Bist du in einem Verein? Sag es laut: Ich spiele … Ich bin im …verein.
+A: Und für welche Mannschaft bist du? Sag es laut: Ich bin für … Sehr gut!
+B: Und jetzt unser Teil: „Wörter des Tages“.
+A: Wort Nummer eins: der Verein. Eine offizielle Gruppe mit einem gemeinsamen Hobby oder Ziel.
+B: Wort Nummer zwei: das Mitglied. Eine Person in einem Verein oder einer Gruppe.
+A: Wort Nummer drei: regelmäßig. Immer wieder, zum Beispiel jede Woche.
+B: Wort Nummer vier: ehrenamtlich. Ohne Geld, freiwillig, in der Freizeit.
+A: Wort Nummer fünf: die Mannschaft. Ein Team von Spielern. Die Fußballmannschaft.
+B: Und Wort Nummer sechs: gründen. Etwas Neues offiziell starten. Einen Verein gründen.
+A: Noch einmal: der Verein, das Mitglied, regelmäßig, ehrenamtlich, die Mannschaft, gründen.
+B: Was lernen wir heute? Vereine in Deutschland und Österreich: über sechshunderttausend in Deutschland. Mit „e. V.“ im Namen.
+A: Warum Vereine wichtig sind: Sie sind günstig, man findet Freunde, und viele helfen ehrenamtlich.
+B: Fußball: die Bundesliga, Bayern München, St. Pauli, Rapid Wien und das Wiener Derby.
+A: Und die dritte Halbzeit: Nach dem Training geht man zusammen in die Kneipe!
+B: Das ist das Ende von Folge sechsunddreißig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und viel Spaß beim Sport! Tschüss!
+B: Servus! Und: Hopp, Rapid!
+VOCAB: der Verein | Eine offizielle Gruppe mit einem gemeinsamen Hobby oder Ziel. | ⚽
+VOCAB: das Mitglied | Eine Person in einem Verein oder einer Gruppe. | 🙋
+VOCAB: regelmäßig | Immer wieder, zum Beispiel jede Woche. | 🗓️
+VOCAB: ehrenamtlich | Ohne Geld, freiwillig, in der Freizeit. | 🤲
+VOCAB: die Mannschaft | Ein Team von Spielern. | 👟
+VOCAB: gründen | Etwas Neues offiziell starten. | 🏁
+QUIZ: Was heißt „e. V.“? | Eingetragener Verein | Erster Verein | Europäischer Verein | 1
+QUIZ: Für welchen Verein ist Lena? | Bayern München | FC St. Pauli | Rapid Wien | 2
+QUIZ: Was ist die „Rapid-Viertelstunde“? | Die Fans klatschen in der fünfundsiebzigsten Minute | Eine Pause im Spiel | Ein Training | 1
+QUIZ: Welchen Sport spielt Amira im Verein? | Fußball | Volleyball | Handball | 2
+QUIZ: Was ist die „dritte Halbzeit“? | Eine Verlängerung | Das Treffen in der Kneipe nach dem Training | Ein drittes Spiel | 2
+`;
+
+DATA.podScripts.ep037 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Ich bin Lena.
+B: Und ich bin Jonas. Servus! Folge siebenunddreißig. Heute wird gefeiert! Unser Thema: Feste in Deutschland und Österreich.
+A: Wir sprechen über drei große Feste: den Weihnachtsmarkt, das Oktoberfest und den Karneval. Und über ein paar kleinere Traditionen.
+B: Ein Fest ist eine Feier. Oft für viele Menschen. Mit Musik, Essen, Trinken und Traditionen. Und ein Feiertag ist ein offizieller freier Tag.
+A: Fangen wir mit dem Winter an. Mit Weihnachten. Die Weihnachtszeit beginnt in Deutschland mit dem Advent. Das sind die vier Sonntage vor Weihnachten.
+B: Und es gibt den Adventskranz. Ein Kranz aus grünen Zweigen mit vier Kerzen. Am ersten Advent zündet man eine Kerze an. Am zweiten Advent zwei Kerzen. Und am vierten Advent alle vier.
+A: Und für die Kinder gibt es den Adventskalender. Ein Kalender mit vierundzwanzig kleinen Türen. Jeden Tag im Dezember öffnet man eine Tür. Dahinter ist ein kleines Stück Schokolade.
+B: Den Adventskalender gibt es heute für Erwachsene auch. Mit Tee, mit Kosmetik, sogar mit Bier! Hahaha.
+A: Und dann die Weihnachtsmärkte! Das ist die schönste Tradition, finde ich. Sie beginnen Ende November. In fast jeder Stadt gibt es einen Weihnachtsmarkt. In Berlin gibt es über achtzig!
+B: Über achtzig! Und was gibt es auf dem Weihnachtsmarkt?
+A: Es gibt viele kleine Holzhütten. Mit Lichtern. Man kauft Geschenke, Kerzen, Holzspielzeug und Weihnachtsschmuck. Und man isst und trinkt.
+B: Und der Glühwein! Das wichtigste Getränk.
+A: Ja! Glühwein ist warmer Rotwein mit Zimt, Nelken, Orangen und Zucker. Man trinkt ihn aus einer kleinen Tasse. Und man bezahlt Pfand für die Tasse. Viele Leute behalten die Tasse als Souvenir.
+B: In Österreich trinken wir auch Punsch. Punsch ist ähnlich, aber oft mit Rum oder mit Früchten. Und es gibt Kinderpunsch ohne Alkohol.
+A: Und das Essen: gebrannte Mandeln, Lebkuchen, Bratwurst, Kartoffelpuffer, Crêpes. Und Stollen. Stollen ist ein Kuchen aus Dresden. Mit Rosinen, Mandeln und viel Puderzucker.
+B: Der berühmteste Weihnachtsmarkt ist in Nürnberg. Der Christkindlesmarkt. Und in Wien gibt es den Christkindlmarkt vor dem Rathaus. Mit einem riesigen Weihnachtsbaum und einer Eislaufbahn.
+A: Eislaufen vor dem Rathaus! Das ist romantisch. Und am vierundzwanzigsten Dezember ist Heiligabend.
+B: Am Heiligabend bekommen die Kinder die Geschenke. Am Abend. In Österreich bringt das Christkind die Geschenke. Ein Engel, ein kleines Kind mit Flügeln.
+A: In Norddeutschland bringt eher der Weihnachtsmann die Geschenke. Ein alter Mann mit einem weißen Bart und einem roten Mantel.
+B: Und es gibt eine lustige Tradition: Viele Familien essen an Heiligabend etwas Einfaches. Kartoffelsalat mit Würstchen! Weil man den ganzen Tag beschäftigt ist.
+A: Ja! Kartoffelsalat mit Würstchen ist das typischste Weihnachtsessen in Deutschland. Und am fünfundzwanzigsten gibt es dann den großen Braten. Eine Gans oder eine Ente.
+B: Jetzt der Herbst. Das Oktoberfest! Lena, warst du schon auf dem Oktoberfest?
+A: Ja, einmal. Vor drei Jahren. Mit Sarah, weil sie in München wohnt. Es war eine Erfahrung! Hahaha.
+B: Erzähl! Was ist das Oktoberfest?
+A: Das Oktoberfest ist das größte Volksfest der Welt. Es findet in München statt. Jedes Jahr kommen sechs Millionen Besucher. Aus der ganzen Welt.
+B: Und der lustige Fakt: Das Oktoberfest beginnt im September! Nur das Ende ist im Oktober.
+A: Genau! Es dauert ungefähr zwei Wochen. Es gibt riesige Bierzelte. In einem Zelt sitzen bis zu zehntausend Menschen. Sie trinken Bier aus einer Maß. Eine Maß ist ein großes Glas mit einem Liter Bier!
+B: Ein Liter! Das ist schwer zu tragen. Die Kellnerinnen tragen zehn oder zwölf Maß gleichzeitig.
+A: Ja, das ist unglaublich! Und die Leute tragen Trachten. Die Tracht ist die traditionelle Kleidung. Die Frauen tragen ein Dirndl. Das ist ein Kleid mit einer Schürze. Und die Männer tragen eine Lederhose.
+B: Und Achtung beim Dirndl! Die Schleife von der Schürze hat eine Bedeutung. Wenn die Schleife links ist, ist die Frau Single. Wenn sie rechts ist, hat die Frau einen Partner. Und in der Mitte, vorne: Sie ist noch Jungfrau. Hinten: Sie ist Witwe. Oder Kellnerin.
+A: Ja! Das ist ein geheimer Code. Ich habe meine Schleife rechts getragen. Wegen Tim.
+B: Hahaha. Sehr gut! Und das Essen auf dem Oktoberfest?
+A: Hendl, das ist ein halbes Hähnchen. Brezeln, die so groß wie ein Kopf sind. Weißwurst. Und Obazda. Das ist ein bayerischer Käse-Aufstrich mit Butter und Paprika.
+B: Und die Leute singen und stehen auf den Bänken. Und es gibt eine Achterbahn und ein Riesenrad.
+A: Und es war sehr laut, sehr voll und sehr teuer. Eine Maß kostet heute fast fünfzehn Euro! Aber ich hatte viel Spaß.
+B: In Österreich haben wir auch Volksfeste. Zum Beispiel das Wiener Wiesn-Fest im Prater. Eine kleinere Version vom Oktoberfest.
+A: Jetzt der Karneval! Oder Fasching. Oder Fastnacht. Drei Namen für das gleiche Fest.
+B: In Köln und am Rhein sagt man Karneval. In Bayern und Österreich sagt man Fasching. Und in Baden-Württemberg sagt man Fastnacht.
+A: Der Karneval beginnt offiziell am elften November um elf Uhr elf. Der elfte Elfte! Aber die große Zeit ist im Februar. Die Tage vor dem Aschermittwoch.
+B: Am Aschermittwoch beginnt die Fastenzeit. Vierzig Tage bis Ostern. Fasten heißt: weniger essen oder auf etwas verzichten. Darum feiert man vorher noch einmal richtig.
+A: Und die verrücktesten Tage sind in Köln. Am Rosenmontag gibt es einen riesigen Umzug. Ein Umzug ist eine Parade. Mit Wagen, Musik und Menschen in Kostümen. Über eine Million Zuschauer!
+B: Und von den Wagen werfen die Leute Süßigkeiten. Kamelle! Das ist das kölsche Wort für Bonbons. Alle rufen „Kamelle!“ und fangen die Bonbons.
+A: Und der Ruf in Köln ist „Kölle Alaaf!“ Und in Düsseldorf und Mainz ruft man „Helau!“ Und man darf das nicht verwechseln! Die Kölner und die Düsseldorfer sind Rivalen.
+B: Hahaha. Wie Rapid und Austria! Und an Weiberfastnacht, am Donnerstag vor Rosenmontag, schneiden die Frauen den Männern die Krawatte ab!
+A: Ja! Mit einer Schere. Darum tragen die Männer an diesem Tag alte Krawatten. Hahaha.
+B: In Österreich ist der Fasching ruhiger. Aber wir haben die Ballsaison! Von Januar bis Februar gibt es in Wien über vierhundert Bälle. Mit Walzer, Abendkleidern und Anzügen.
+A: Der Wiener Opernball! Er ist weltberühmt.
+B: Genau. Er ist in der Staatsoper. Die jungen Paare eröffnen den Ball mit einem Walzer. Alle Frauen in Weiß. Es ist sehr elegant. Und sehr, sehr teuer.
+A: Jonas, und Ostern? Das ist auch ein großes Fest.
+B: Ja! Ostern ist im Frühling. Im März oder April. Das Datum ändert sich jedes Jahr. Am Ostersonntag suchen die Kinder Ostereier im Garten. Der Osterhase hat sie versteckt.
+A: Der Osterhase! Ein Hase, der Eier bringt. Das ist eigentlich sehr komisch, wenn man darüber nachdenkt. Hahaha.
+B: Hahaha, stimmt. Und vor Ostern färbt man Eier. Man kocht sie und malt sie bunt an. Rot, blau, gelb, mit Mustern.
+A: Und man hängt die Eier an Zweige. Das ist der Osterstrauch. In manchen Gärten hängen tausende bunte Eier an einem Baum.
+B: Und in Österreich gibt es am Karsamstag das Osterfeuer. Ein großes Feuer am Abend. Und am Sonntag isst man Osterschinken mit Kren. Kren ist das österreichische Wort für Meerrettich. Sehr scharf!
+A: In Deutschland sagt man „Meerrettich“. Noch ein Wort mit zwei Versionen!
+B: Und im November gibt es den Sankt-Martins-Tag. Für Kinder sehr wichtig. Die Kinder machen Laternen aus Papier. Und am Abend gehen sie mit den Laternen durch die Straßen und singen Lieder.
+A: Ich liebe Sankt Martin! „Ich geh mit meiner Laterne …“ Das haben wir im Kindergarten gesungen. Und danach gibt es Weckmänner. Kleine Männer aus süßem Brot.
+B: Und am sechsten Dezember kommt der Nikolaus. Die Kinder stellen am Abend ihre Schuhe vor die Tür. Und am Morgen sind Süßigkeiten in den Schuhen. Wenn sie brav waren.
+A: Und in Österreich kommt mit dem Nikolaus der Krampus, oder?
+B: Ja! Der Krampus ist ein Teufel mit Hörnern und Fell. Er ist für die bösen Kinder. Es gibt Krampusläufe in den Dörfern. Männer in Krampus-Kostümen laufen durch die Straßen. Sehr laut, mit Glocken. Ein bisschen gruselig!
+A: Gruselig heißt: Es macht ein bisschen Angst. Wie ein Horrorfilm. Ein Fest für jeden Geschmack!
+A: Jetzt die Geschichte. Julien, Amira und Emre entdecken die deutschen Feste. Ein ganzes Jahr lang!
+B: Oh, eine Reise durch das Jahr. Erzähl!
+A: Im Februar fahren sie nach Köln. Zum Karneval. Emre verkleidet sich als Pirat, Amira als Katze und Julien als … Croissant!
+B: Hahaha! Ein Croissant! Typisch Franzose.
+A: Ja! Sie stehen am Rosenmontag in der Menge. Sie rufen „Kamelle!“ Und Julien fängt so viele Bonbons in seiner Croissant-Mütze. Am Ende hat er zwei Kilo Süßigkeiten! Und er ruft aus Versehen „Helau!“
+B: Oh nein! In Köln! Was ist passiert?
+A: Ein Kölner hat ihn angeschaut und gesagt: „Junge, hier sagt man Alaaf! Helau sagt man in Düsseldorf!“ Und dann hat er gelacht und ihm ein Kölsch gegeben. Kölsch ist das Bier aus Köln. In einem kleinen, schmalen Glas.
+B: Hahaha. Und im Herbst?
+A: Im September fahren sie nach München. Aufs Oktoberfest. Amira trägt ein Dirndl. Ein blaues Dirndl. Sie hat es auf einem Flohmarkt gekauft. Und Julien trägt eine Lederhose. Er sagt: „Die Lederhose ist sehr bequem! Ich trage sie jetzt jeden Tag!“
+B: Hahaha. Und auf welcher Seite trägt Amira die Schleife?
+A: Links! Sie ist Single. Und im Bierzelt hat ein junger Mann mit ihr getanzt. Ein Arzt aus München. Sie haben Nummern getauscht!
+B: Oh! Romantisch! Und im Dezember?
+A: Im Dezember gehen sie alle zusammen auf den Weihnachtsmarkt in Berlin. Mit Mira, Kenji, Jana und Katrin. Sie trinken Glühwein und essen gebrannte Mandeln. Und Kenji kauft einen Stollen. Er sagt: „Ich will lernen, wie man Stollen backt!“
+B: Natürlich! Kenji und das Backen!
+A: Am Ende vom Abend sagt Julien: „In Frankreich haben wir auch schöne Feste. Aber in Deutschland gibt es für jede Jahreszeit ein besonderes Fest. Das liebe ich.“
+B: Wie schön. Jetzt bist du dran, Hörer, Hörerin. Welches Fest möchtest du besuchen? Sag es laut: Ich möchte … besuchen, weil …
+A: Und welches Fest feierst du in deinem Land? Sag es laut: In meinem Land feiern wir … Sehr gut!
+B: Und jetzt unser Teil: „Wörter des Tages“.
+A: Wort Nummer eins: das Fest. Eine große Feier mit Musik, Essen und Traditionen.
+B: Wort Nummer zwei: der Glühwein. Warmer Rotwein mit Zimt und Gewürzen. Typisch für den Weihnachtsmarkt.
+A: Wort Nummer drei: die Tracht. Die traditionelle Kleidung. Das Dirndl und die Lederhose.
+B: Wort Nummer vier: sich verkleiden. Ein Kostüm tragen. Im Karneval verkleidet man sich.
+A: Wort Nummer fünf: der Umzug. Hier: eine Parade mit Wagen, Musik und Kostümen.
+B: Und Wort Nummer sechs: stattfinden. Passieren, organisiert sein. Das Oktoberfest findet in München statt.
+A: Noch einmal: das Fest, der Glühwein, die Tracht, sich verkleiden, der Umzug, stattfinden.
+B: Was lernen wir heute? Weihnachten: der Advent, der Adventskalender, der Weihnachtsmarkt, der Glühwein, das Christkind.
+A: Das Oktoberfest: im September, in München, mit Maß, Dirndl und Lederhose. Und die Schleife hat eine Bedeutung!
+B: Der Karneval oder Fasching: am elften Elften um elf Uhr elf, der Rosenmontag, Kölle Alaaf und Helau.
+A: Und in Wien: die Ballsaison und der Opernball.
+B: Das ist das Ende von Folge siebenunddreißig. Danke fürs Zuhören! Jetzt kommt das Quiz.
+A: Und feier schön! Tschüss!
+B: Servus! Kölle Alaaf!
+A: Jonas, du bist Wiener! Hahaha.
+VOCAB: das Fest | Eine große Feier mit Musik, Essen und Traditionen. | 🎊
+VOCAB: der Glühwein | Warmer Rotwein mit Zimt und Gewürzen. | 🍷
+VOCAB: die Tracht | Die traditionelle Kleidung, zum Beispiel das Dirndl. | 👗
+VOCAB: sich verkleiden | Ein Kostüm tragen. | 🎭
+VOCAB: der Umzug | Hier: eine Parade mit Wagen, Musik und Kostümen. | 🎺
+VOCAB: stattfinden | Passieren, organisiert sein. Das Fest findet in München statt. | 📍
+QUIZ: Wann beginnt das Oktoberfest? | Im Oktober | Im September | Im November | 2
+QUIZ: Wer bringt in Österreich die Geschenke? | Der Weihnachtsmann | Das Christkind | Der Nikolaus | 2
+QUIZ: Was ruft man beim Karneval in Köln? | Helau! | Kölle Alaaf! | Prost! | 2
+QUIZ: Als was verkleidet sich Julien? | Als Pirat | Als Croissant | Als Katze | 2
+QUIZ: Was bedeutet die Dirndl-Schleife links? | Die Frau ist verheiratet | Die Frau ist Single | Die Frau ist Kellnerin | 2
+`;
