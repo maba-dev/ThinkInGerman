@@ -1797,3 +1797,106 @@ QUIZ: Wie viel Zeit hat man meistens für einen Widerspruch? | Eine Woche | Eine
 QUIZ: Wie viele Fragen hat der Einbürgerungstest? | Siebzehn | Dreiunddreißig | Dreihundert | 2
 QUIZ: Welchen Kuchen hat Frau Schulze für Kenji gebacken? | Sachertorte | Bienenstich | Zwetschgenkuchen | 2
 `;
+
+DATA.podScripts.ep080 = `
+A: Hallo und herzlich willkommen bei „Denk auf Deutsch“! Hier ist Lena.
+B: Und hier ist Jonas. Servus! Folge achtzig. Die letzte Folge vom Niveau B2! Und wir haben ein Thema gewählt, das alles zusammenbringt, was wir in diesem Niveau gelernt haben: Was macht eine gute Präsentation aus?
+A: Ob im Studium, im Beruf oder bei einer Hochzeit: Irgendwann muss fast jeder vor anderen Menschen sprechen. Und für viele ist das eine der größten Ängste überhaupt. Es gibt Umfragen, in denen Menschen sagen, dass sie mehr Angst vor einem öffentlichen Vortrag haben als vor dem Tod.
+B: Hahaha. Der Komiker Jerry Seinfeld hat dazu einen berühmten Witz gemacht: Bei einer Beerdigung würden die meisten Menschen also lieber im Sarg liegen, als die Trauerrede zu halten.
+A: Hahaha. Ein bisschen makaber, aber er trifft einen wahren Kern. „Makaber“ heißt: auf eine unangenehme Art mit dem Tod spielend. Heute lernen wir, wie man eine Präsentation strukturiert, wie man das Publikum fesselt und wie man mit Lampenfieber umgeht.
+B: „Fesseln“ heißt hier: die Aufmerksamkeit von jemandem so stark festhalten, dass er nicht wegschauen kann. Und Lampenfieber ist die Nervosität vor einem Auftritt. Das Wort kommt aus dem Theater, von den Lampen auf der Bühne.
+A: Sprachlich lernen wir heute Redemittel für Präsentationen. Redemittel sind feste Ausdrücke, die man in bestimmten Situationen benutzt. Und wir wiederholen dabei viele Strukturen aus dem Niveau B2: Konnektoren, das Passiv, Nominalisierungen, Hervorhebungen.
+B: Gut. Fangen wir mit der Struktur an. Eine gute Präsentation hat, wie eine gute Geschichte, einen Anfang, eine Mitte und ein Ende. Klingt banal, ist aber entscheidend. Fangen wir mit dem Anfang an. Lena?
+A: Der Anfang ist der wichtigste Teil. In den ersten dreißig Sekunden entscheidet das Publikum, ob es zuhört oder innerlich abschaltet. Darum sollte man nicht mit langweiligen Sätzen anfangen wie: „Guten Tag, mein Name ist Lena Hoffmann, und ich werde heute über das Thema Mülltrennung sprechen.“
+B: Was ist besser?
+A: Ein „Aufhänger“. Ein Aufhänger ist ein interessanter Einstieg, der sofort Aufmerksamkeit weckt. Das kann eine überraschende Zahl sein. „Jeder Deutsche produziert im Jahr über sechshundert Kilo Müll. Das ist so viel wie ein kleines Auto.“
+B: Oder eine Frage an das Publikum. „Wer von Ihnen hat heute Morgen schon etwas weggeworfen? Heben Sie bitte die Hand.“ Das bringt die Leute dazu, aktiv mitzudenken.
+A: Oder eine kurze persönliche Geschichte. „Als ich vor drei Jahren meine Wohnung aussortiert habe, hatte ich am Ende zwölf Säcke …“ Geschichten wirken viel stärker als Fakten. Das Gehirn liebt Geschichten.
+B: Oder ein provokantes Zitat oder eine kühne These. „Mülltrennung ist sinnlos. Das denken viele. Und heute erkläre ich Ihnen, warum sie zur Hälfte recht haben.“
+A: Und danach kommt die Orientierung. Das Publikum muss wissen, wohin die Reise geht. Typische Redemittel sind: „In meinem Vortrag möchte ich auf drei Aspekte eingehen.“ „Zunächst werde ich … Anschließend … Und abschließend …“ „Mein Vortrag gliedert sich in drei Teile.“
+B: „Sich gliedern“ heißt: in Teile aufgeteilt sein. Und das ist wichtig, weil das Publikum beim Zuhören nicht zurückblättern kann wie beim Lesen. Man muss ihm helfen, den Überblick zu behalten.
+A: Genau. Dann kommt der Hauptteil. Hier gilt eine wichtige Regel: weniger ist mehr. Viele Menschen wollen alles erzählen, was sie wissen. Aber das Publikum kann sich nur an wenige Punkte erinnern. Drei Hauptpunkte sind ideal.
+B: Die berühmte Dreierregel. Drei Punkte kann man sich gut merken. Und sie haben einen angenehmen Rhythmus. „Veni, vidi, vici“, ich kam, ich sah, ich siegte. Oder in der Werbung: „Quadratisch, praktisch, gut.“
+A: Hahaha. Die Schokolade! Ein perfektes Beispiel. Und zwischen den Teilen braucht man Übergänge. Redemittel, die zeigen, dass ein neuer Teil beginnt. „Damit komme ich zum zweiten Punkt.“ „Nachdem wir die Ursachen betrachtet haben, wenden wir uns nun den Lösungen zu.“ „Das bringt mich zu einer wichtigen Frage.“
+B: Und Redemittel zur Hervorhebung. „Besonders wichtig ist dabei …“ „Ich möchte betonen, dass …“ „Was ich damit sagen will, ist …“ „Der entscheidende Punkt ist …“
+A: Dazu gehören auch Beispiele. Abstrakte Aussagen bleiben nicht im Kopf. „Wie man an diesem Beispiel sieht …“ „Lassen Sie mich das an einem konkreten Fall veranschaulichen.“ „Veranschaulichen“ heißt: etwas durch ein Bild oder Beispiel verständlich machen.
+B: Und dann der Schluss. Viele Präsentationen enden einfach mit: „Ja, das war's. Danke.“ Das ist eine verpasste Chance. Denn was am Ende gesagt wird, bleibt am stärksten im Gedächtnis. Das nennt man den Rezenzeffekt.
+A: Ein guter Schluss hat zwei Teile. Erstens eine Zusammenfassung. „Zusammenfassend lässt sich sagen, dass …“ „Ich fasse die wichtigsten Punkte noch einmal zusammen.“ Und zweitens eine klare Botschaft oder ein Aufruf. „Was können Sie konkret tun? Fangen Sie morgen damit an …“
+B: Und ein eleganter Trick: Man kehrt am Ende zum Anfang zurück. Wenn man mit einer Geschichte angefangen hat, erzählt man am Ende, wie sie ausgegangen ist. Das gibt dem Vortrag eine runde, geschlossene Form.
+A: Wie in einem guten Film. Und dann natürlich die Fragerunde. „Ich freue mich jetzt auf Ihre Fragen.“ Und wenn man eine Frage nicht beantworten kann? Ehrlich sein. „Das ist eine sehr gute Frage. Darauf habe ich gerade keine genaue Antwort, aber ich schaue gern nach und melde mich bei Ihnen.“
+B: Gut. Jetzt die Folien. Der ewige Streit um PowerPoint.
+A: Ja! Es gibt einen Begriff dafür: „Tod durch PowerPoint“. Folien mit zu viel Text, die der Redner einfach vorliest. Das ist das Schlimmste, was man machen kann. Wenn das Publikum liest, hört es nicht zu. Man kann nicht gleichzeitig lesen und zuhören.
+B: Die Folien sollen den Redner unterstützen, nicht ersetzen. Wenige Worte, große Bilder, klare Grafiken. Eine Faustregel ist: Eine Idee pro Folie. Und nicht mehr als ein paar Wörter.
+A: Eine „Faustregel“ ist eine einfache, ungefähre Regel, die meistens funktioniert. Und es gibt das Prinzip von Guy Kawasaki, einem amerikanischen Unternehmer: zehn Folien, zwanzig Minuten, und mindestens Schriftgröße dreißig. Damit man gar nicht zu viel Text schreiben kann.
+B: Hahaha. Clever! Gut, und jetzt die Körpersprache und die Stimme. Denn wie man etwas sagt, ist manchmal genauso wichtig wie was man sagt.
+A: Erstens: Blickkontakt. Man sollte das Publikum anschauen, nicht die Folien oder die Notizen. Und nicht immer die gleiche Person, sondern verschiedene Personen im Raum.
+B: Zweitens: die Haltung. Aufrecht stehen, beide Füße fest auf dem Boden. Nicht hin und her wippen, nicht die Arme verschränken. Verschränkte Arme wirken verschlossen und unsicher.
+A: Drittens: die Stimme. Langsam sprechen! Wenn man nervös ist, spricht man automatisch schneller. Und Pausen machen. Eine Pause nach einem wichtigen Satz wirkt sehr stark. Sie gibt dem Publikum Zeit, nachzudenken. Und sie zeigt, dass man souverän ist.
+B: Und die Stimme variieren. Lauter und leiser, höher und tiefer. Eine monotone Stimme schläfert das Publikum ein. „Monoton“ heißt: immer gleich, ohne Veränderung.
+A: Gut, und jetzt das Lampenfieber. Was hilft dagegen?
+B: Erstens: gute Vorbereitung. Je besser man vorbereitet ist, desto weniger Angst hat man. Man sollte die Präsentation mehrmals laut üben. Vor dem Spiegel, vor Freunden, oder man nimmt sich selbst auf Video auf.
+A: Zweitens: die ersten Sätze auswendig lernen. Der Anfang ist der Moment mit der größten Nervosität. Wenn man die ersten drei Sätze perfekt kann, kommt man gut in die Präsentation hinein. Danach wird es leichter.
+B: Drittens: Atmen. Vor dem Vortrag tief in den Bauch atmen. Langsam ein, langsam aus. Das beruhigt das Nervensystem.
+A: Viertens: die Nervosität umdeuten. Das ist ein interessanter psychologischer Trick. Forscher der Harvard-Universität haben in einer Studie herausgefunden, dass es besser ist, sich zu sagen: „Ich bin aufgeregt“ statt „Ich bin ruhig“. Weil Nervosität und Vorfreude körperlich fast gleich sind. Herzklopfen, schneller Atem. Wenn man es als Vorfreude interpretiert, wird man besser.
+B: Das ist faszinierend. Man versucht nicht, die Nervosität zu bekämpfen, sondern man gibt ihr einen neuen Namen.
+A: Genau. Und fünftens: akzeptieren, dass man nervös ist. Fast jeder ist nervös. Auch erfahrene Redner. Und das Publikum merkt die Nervosität viel weniger, als man denkt. Und es will, dass man Erfolg hat. Niemand sitzt im Publikum und hofft, dass der Redner scheitert.
+B: Das ist ein sehr beruhigender Gedanke. Das Publikum ist auf deiner Seite.
+A: Jetzt zur letzten Geschichte des Niveaus B2. Erinnerst du dich? In Folge dreiundsechzig wurde Katrin nach Wien eingeladen, um einen Vortrag über ihre Methode zu halten. Über das Lernen mit KI an der Programmierschule.
+B: Ja! Und ich hatte versprochen, hinzugehen. Und das bin ich auch!
+A: Erzähl! Wie war es?
+B: Der Vortrag war auf einer großen Konferenz für Bildung in Wien. Im Messezentrum. Mit fünfhundert Zuhörern. Lehrer, Professoren, Politiker, Leute aus der IT-Branche. Und Katrin hatte furchtbares Lampenfieber.
+A: Das verstehe ich. Fünfhundert Leute!
+B: Sie hat mir am Abend vorher erzählt, dass sie noch nie vor so vielen Menschen gesprochen hatte. Und sie hatte Angst, dass ihr schwäbischer Akzent in Wien komisch klingt. Hahaha.
+A: Hahaha. Folge achtundsechzig! Der Akzent!
+B: Genau. Wir haben uns im Kaffeehaus getroffen. Im Café Hawelka, wo ich mit dem alten Kellner gesprochen habe. Und ich habe ihr die Tipps gegeben, die wir heute besprochen haben. Und sie hat mir ihre Präsentation gezeigt.
+A: Und wie war sie?
+B: Ehrlich? Am Anfang nicht gut. Achtundvierzig Folien mit viel Text. Tabellen, Statistiken, lange Sätze. Und der Anfang war: „Guten Tag, ich heiße Katrin Schmid und arbeite an einer Programmierschule in Berlin.“
+A: Oh je. Der Tod durch PowerPoint! Was hast du gesagt?
+B: Ich habe ihr ehrliches Feedback gegeben. Mit der SBI-Methode aus Folge achtundsiebzig. Und ich habe sie gefragt: „Was ist die eine Botschaft, die die Leute mit nach Hause nehmen sollen?“ Und sie hat lange nachgedacht. Und dann hat sie gesagt: „Dass die Mühe beim Lernen nicht das Hindernis ist, sondern der Weg.“
+A: Der Satz aus Folge dreiundsechzig!
+B: Genau. Und ich habe gesagt: „Dann bau deinen ganzen Vortrag um diesen Satz.“ Und sie hat die ganze Nacht gearbeitet. Achtundvierzig Folien wurden zu zwölf. Mit großen Bildern und wenigen Wörtern.
+A: Und der Anfang?
+B: Der neue Anfang war eine Geschichte. Die Geschichte von Lea. Dem stillen Mädchen aus Wolfsburg aus Folge vierundvierzig. Katrin hat erzählt, wie Lea mit fünfzehn im Workshop ihre geniale Idee hatte. Und wie sie jetzt mit achtzehn programmieren lernt und an die Universität will.
+A: Wie schön! Eine Geschichte ist immer der beste Aufhänger.
+B: Ja. Und dann hat sie drei Punkte erklärt. Erstens: das Problem. Studierende, die ihren KI-generierten Code nicht verstehen. Zweitens: ihre Lösung. Die Live-Veränderung bei der Peer-Evaluation. Drittens: die Ergebnisse. Mit einer einzigen, klaren Grafik.
+A: Die Dreierregel! Und das Lampenfieber?
+B: Am Anfang hat ihre Stimme gezittert. Ich saß in der dritten Reihe und habe gesehen, wie nervös sie war. Aber sie hat die ersten Sätze auswendig gekonnt. Und nach einer Minute ist sie ruhiger geworden. Sie hat Pausen gemacht. Sie hat das Publikum angeschaut. Und dann hat sie etwas Spontanes gemacht.
+A: Was denn?
+B: Sie hat gesagt: „Ich bin übrigens aus Schwaben. Wenn Sie meinen Akzent hören, wissen Sie jetzt warum. Und ich habe gelernt: Ein Akzent ist kein Fehler, sondern eine Geschichte.“ Und alle haben gelacht. Und von da an war das Publikum ganz bei ihr.
+A: Wunderbar! Sie hat ihre Angst in eine Stärke verwandelt.
+B: Genau. Und am Ende ist sie zur Geschichte von Lea zurückgekehrt. Sie hat ein Foto von Lea gezeigt, wie sie vor ihrem Computer sitzt. Und sie hat gesagt: „Lea lernt heute mit KI. Aber sie lernt nicht durch die KI. Sie lernt durch ihre eigene Mühe. Denn die Mühe ist nicht das Hindernis. Sie ist der Weg.“
+A: Und dann?
+B: Stille. Drei Sekunden. Und dann haben fünfhundert Menschen geklatscht. Lange. Und danach kamen viele Leute zu ihr. Eine Professorin aus Graz hat sie eingeladen, ihre Methode an ihrer Universität vorzustellen. Und ein Journalist hat ein Interview mit ihr gemacht. Und das war nicht ich! Hahaha.
+A: Hahaha. Wie schön. Und hat sie am Abend gefeiert?
+B: Natürlich. Mit einem Schnitzel und einem Glas Wein beim Heurigen. Und sie hat mir einen Kuchen geschenkt. Einen schwäbischen Apfelkuchen. Den sie extra aus Berlin im Zug mitgebracht hatte.
+A: Typisch Katrin! Jetzt bist du dran, Hörer, Hörerin. Bereite eine kurze Präsentation über ein Thema vor, das dir wichtig ist. Mit einem Aufhänger, drei Hauptpunkten und einem Schluss, der zum Anfang zurückkehrt.
+B: Und benutze die Redemittel von heute: „In meinem Vortrag möchte ich auf drei Aspekte eingehen …“ „Damit komme ich zum zweiten Punkt …“ „Zusammenfassend lässt sich sagen …“ Und übe sie laut. Am besten vor einem Spiegel.
+A: Und jetzt unsere „Wörter des Tages“.
+B: Wort Nummer eins: das Lampenfieber. Die Nervosität vor einem Auftritt.
+A: Wort Nummer zwei: der Aufhänger. Ein interessanter Einstieg, der sofort Aufmerksamkeit weckt.
+B: Wort Nummer drei: fesseln. Die Aufmerksamkeit so stark festhalten, dass man nicht wegschauen kann.
+A: Wort Nummer vier: veranschaulichen. Etwas durch ein Bild oder Beispiel verständlich machen.
+B: Wort Nummer fünf: die Faustregel. Eine einfache, ungefähre Regel, die meistens funktioniert.
+A: Und Wort Nummer sechs: monoton. Immer gleich, ohne Veränderung.
+B: Noch einmal: das Lampenfieber, der Aufhänger, fesseln, veranschaulichen, die Faustregel, monoton.
+A: Was haben wir im Niveau B2 gelernt? „Während“ und „obwohl“. Lautes Denken und Vermutungen mit unterschiedlicher Sicherheit. Den Konjunktiv II der Vergangenheit. Zweiteilige Konjunktionen wie „zwar … aber“ und „weder … noch“.
+B: Nomen-Verb-Verbindungen. Die indirekte Rede mit dem Konjunktiv I. Das Futur II. Ausdrücke der Einschränkung und des Zugeständnisses. Konnektoren wie „deshalb“, „trotzdem“, „nämlich“. „Je … desto“. „Um … zu“ und „damit“. Das Passiv mit Modalverb. „Als ob“. Und heute die Redemittel für Präsentationen.
+A: Und die Themen: Homeoffice, technische Interviews, künstliche Intelligenz, Bedauern, die Gig-Economy, Burnout, Open Source, Sprache und Identität, die Stadt der Zukunft, Fake News, Gehaltsverhandlungen, Teamarbeit, Minimalismus, Bildung, Gewohnheiten, nachhaltiges Reisen, Cybersicherheit, Feedback, Bürokratie und Präsentationen.
+B: Du kannst jetzt über komplexe Themen differenziert diskutieren, verschiedene Perspektiven abwägen, Argumente strukturieren und auf Gegenargumente reagieren. Das ist ein riesiger Schritt.
+A: Im Niveau C1 sprechen wir über die ganz großen Fragen. Die Ethik der Algorithmen, Privatsphäre, das bedingungslose Grundeinkommen, die Kunst der Überzeugung, die Frage, ob Sprache das Denken prägt. Und wir sprechen auf einem Niveau, wie gebildete Muttersprachler miteinander sprechen. Mit Ironie, mit Nuancen, mit komplexen Strukturen.
+B: Und unsere Freunde aus Berlin und Wien kommen natürlich mit. Amira und Lukas heiraten bald. Und wer weiß, was Julien, Kenji, Emre und die anderen noch erleben.
+A: Das ist das Ende von Folge achtzig und das Ende vom Niveau B2. Danke fürs Zuhören! Jetzt kommt das letzte B2-Quiz.
+B: Herzlichen Glückwunsch! Du hast B2 geschafft! Und vergiss nicht: Das Publikum ist auf deiner Seite. Servus!
+A: Tschüss und bis bald im Niveau C1!
+VOCAB: das Lampenfieber | Die Nervosität vor einem Auftritt. | 🎤
+VOCAB: der Aufhänger | Ein interessanter Einstieg, der sofort Aufmerksamkeit weckt. | 🪝
+VOCAB: fesseln | Die Aufmerksamkeit so stark festhalten, dass man nicht wegschauen kann. | 🧲
+VOCAB: veranschaulichen | Etwas durch ein Bild oder Beispiel verständlich machen. | 🖼️
+VOCAB: die Faustregel | Eine einfache, ungefähre Regel, die meistens funktioniert. | ✊
+VOCAB: monoton | Immer gleich, ohne Veränderung. | 😴
+QUIZ: Was ist ein guter Anfang für eine Präsentation? | „Guten Tag, mein Name ist …“ | Eine überraschende Zahl, eine Frage oder eine Geschichte | Eine Entschuldigung | 2
+QUIZ: Was ist die Dreierregel? | Drei Hauptpunkte kann man sich gut merken | Man soll drei Stunden sprechen | Man braucht drei Folien | 1
+QUIZ: Was empfehlen Harvard-Forscher gegen Lampenfieber? | Sich zu sagen „Ich bin ruhig“ | Sich zu sagen „Ich bin aufgeregt“ | Nicht zu atmen | 2
+QUIZ: Mit welcher Geschichte hat Katrin ihren Vortrag begonnen? | Mit der Geschichte von Lea | Mit ihrer Kindheit in Schwaben | Mit einem Witz über Wien | 1
+QUIZ: Wie viele Folien hatte Katrins Präsentation am Ende? | Achtundvierzig | Zwölf | Drei | 2
+`;
